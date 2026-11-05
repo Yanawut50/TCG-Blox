@@ -1,0 +1,367 @@
+{
+ "JJK-2-001": {
+  "key": "JJK-2-001",
+  "numberJp": "UA02NC/JJK-2-001",
+  "nameEn": "Shoko Ieiri",
+  "nameJp": "家入 硝子",
+  "series": "呪術廻戦",
+  "setName": "UEX02BT: Jujutsu Kaisen Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SP",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中から〈五条 悟〉か〈夏油 傑〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 <Satoru Gojo> or <Suguru Geto> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA02NC_JJK-2-001.png?v8"
+ },
+ "JJK-2-002": {
+  "key": "JJK-2-002",
+  "numberJp": "UA02NC/JJK-2-002",
+  "nameEn": "Nobara Kugisaki",
+  "nameJp": "釘崎 野薔薇",
+  "series": "呪術廻戦",
+  "setName": "UEX02BT: Jujutsu Kaisen Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SP",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】相手の場にレストのキャラがある場合、自分の場外から必要エナジーが2以下の黄のイベントカードを1枚まで手札に加える。",
+  "effectEn": "[On Play] If your opponent has a rested character on their field, add up to 1 Yellow Event card(s) with required energy 2 or less from your Outside Area to your hand.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA02NC_JJK-2-002.png?v8"
+ },
+ "JJK-2-003": {
+  "key": "JJK-2-003",
+  "numberJp": "UA02NC/JJK-2-003",
+  "nameEn": "Suguru Geto",
+  "nameJp": "夏油 傑",
+  "series": "呪術廻戦",
+  "setName": "UEX02BT: Jujutsu Kaisen Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SP",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】【フロントLにある場合】同じラインに〈五条 悟〉がある場合、このキャラと自分のフロントLにある〈五条 悟〉全ては、BP+500。【起動メイン】【手札を1枚場外に置く】【ターン1】このキャラはこのターン中、「このキャラはフロントLにある場合もエナジーを発生させる。」を得る。",
+  "effectEn": "[During Your Turn] [While in Front Line] If <Satoru Gojo> is in the same line, this character and all <Satoru Gojo> in your Front Line get BP+500. [Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] This character gains “This character also generates energy while in the Front Line” this turn.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA02NC_JJK-2-003.png?v8"
+ },
+ "JJK-2-004": {
+  "key": "JJK-2-004",
+  "numberJp": "UA02NC/JJK-2-004",
+  "nameEn": "Satoru Gojo",
+  "nameJp": "五条 悟",
+  "series": "呪術廻戦",
+  "setName": "UEX02BT: Jujutsu Kaisen Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SP",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】【フロントLにある場合】同じラインに〈夏油 傑〉がある場合、このキャラは【ダメージ（2）】を得る。【退場時】自分の山札の上から3枚見る。その中から〈五条 悟〉か〈家入 硝子〉か〈夏油 傑〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[During Your Turn] [While in Front Line] If <Suguru Geto> is in the same line, this character gains [Damage 2]. [On Retire] Look at the top 3 card(s) of your deck. Reveal up to 1 <Satoru Gojo> or <Shoko Ieiri> or <Suguru Geto> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA02NC_JJK-2-004.png?v8"
+ },
+ "JJK-2-005": {
+  "key": "JJK-2-005",
+  "numberJp": "UA02NC/JJK-2-005",
+  "nameEn": "Megumi Fushiguro",
+  "nameJp": "伏黒 恵",
+  "series": "呪術廻戦",
+  "setName": "UEX02BT: Jujutsu Kaisen Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SP",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から3枚見る。その中から〈嵌合暗翳庭〉か特徴に「式神」を持つキャラカードを1枚まで公開し自分の山札の上か場外に置く。残りを望む順で自分の山札の下に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck. From among them, reveal up to 1 <嵌合暗翳庭> or character card with the trait “Shikigami”, and put it on top of your deck or into your Outside Area. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA02NC_JJK-2-005.png?v8"
+ },
+ "JJK-2-006": {
+  "key": "JJK-2-006",
+  "numberJp": "UA02NC/JJK-2-006",
+  "nameEn": "Yuji Itadori",
+  "nameJp": "虎杖 悠仁",
+  "series": "呪術廻戦",
+  "setName": "UEX02BT: Jujutsu Kaisen Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SP",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場外に〈宿儺の指〉がある場合、このキャラの発生エナジー+【青】。",
+  "effectEn": "If you have <宿儺の指> in your Outside Area, This character's generated energy +[Blue].",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP3500以下の相手のフロントLのキャラを1枚選び、手札に戻す。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 3500 or less, return it to its owner's hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA02NC_JJK-2-006.png?v8"
+ },
+ "JJK-2-007": {
+  "key": "JJK-2-007",
+  "numberJp": "UA02NC/JJK-2-007",
+  "nameEn": "Sukuna",
+  "nameJp": "宿儺",
+  "series": "呪術廻戦",
+  "setName": "UEX02BT: Jujutsu Kaisen Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SP",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラはアクティブで場に登場させる。【2回ブロック】【自分のターン中】このキャラはBP+500。【アタック時】BP1500以上の相手の場のキャラを『1枚』まで選び、このターン中、BP-1000。自分の場外にある〈宿儺の指〉1枚につき、『+1枚』される。",
+  "effectEn": "This character is played active. [Double Block] [During Your Turn] This character gets BP+500. [When Attacking] Choose up to “1” character on your opponent's field with 1500 or more BP, and it gets BP-1000 this turn. It becomes “+1” for each 1 <宿儺の指> in your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA02NC_JJK-2-007.png?v8"
+ },
+ "JJK-2-008": {
+  "key": "JJK-2-008",
+  "numberJp": "UA02NC/JJK-2-008",
+  "nameEn": "Kento Nanami",
+  "nameJp": "七海 建人",
+  "series": "呪術廻戦",
+  "setName": "UEX02BT: Jujutsu Kaisen Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SP",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【退場時】自分の山札の上から1枚を場外に置いてもよい。そうした場合、自分の場のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[On Retire] You may put the top 1 card(s) of your deck into your Outside Area. If you do, Choose up to 1 character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA02NC_JJK-2-008.png?v8"
+ },
+ "JJK-2-009": {
+  "key": "JJK-2-009",
+  "numberJp": "UA02NC/JJK-2-009",
+  "nameEn": "Toji Fushiguro",
+  "nameJp": "伏黒 甚爾",
+  "series": "呪術廻戦",
+  "setName": "UEX02BT: Jujutsu Kaisen Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SP",
+  "needEnergy": 6,
+  "ap": 1,
+  "bp": 5000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA02NC_JJK-2-009.png?v8"
+ },
+ "JJK-2-010": {
+  "key": "JJK-2-010",
+  "numberJp": "UA02NC/JJK-2-010",
+  "nameEn": "Aoi Todo",
+  "nameJp": "東堂 葵",
+  "series": "呪術廻戦",
+  "setName": "UEX02BT: Jujutsu Kaisen Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SP",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "京都校"
+  ],
+  "effectJp": "【起動メイン】【ターン1】このキャラと別のラインにある特徴に「京都校」を持つ自分のキャラを1枚選び、このキャラと位置を入れ替える。",
+  "effectEn": "[Activate: Main] [Once Per Turn] Choose 1 of your characters with the trait “Kyoto School” in a different line from this character, and swap its position with this character.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA02NC_JJK-2-010.png?v8"
+ },
+ "JJK-2-011": {
+  "key": "JJK-2-011",
+  "numberJp": "UA02NC/JJK-2-011",
+  "nameEn": "Mahito",
+  "nameJp": "真人",
+  "series": "呪術廻戦",
+  "setName": "UEX02BT: Jujutsu Kaisen Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SP",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "呪霊"
+  ],
+  "effectJp": "【自分のターン中】このターン中に自分の場のキャラが退場している場合、このキャラの発生エナジー+【紫】。【起動メイン】【ターン1】自分の場の〈真人〉以外のキャラを1枚退場させる。そうした場合、自分の場の特徴に「呪霊」か「改造人間」を持つキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[During Your Turn] If a character on your field was retired this turn, this character's generated energy +[Purple]. [Activate: Main] [Once Per Turn] Retire 1 character on your field other than <Mahito>. If you do, choose up to 1 character with the trait “Cursed Spirit” or “Modified Human” on your field, and it gets BP+1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA02NC_JJK-2-011.png?v8"
+ },
+ "JJK-2-AP01": {
+  "key": "JJK-2-AP01",
+  "numberJp": "UA02NC/JJK-2-AP01",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(呪術廻戦)",
+  "series": "呪術廻戦",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA02NC_JJK-2-AP01.png?v8"
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "TSK-P-001": {
+  "key": "TSK-P-001",
+  "numberJp": "UAPR/TSK-P-001",
+  "nameEn": "Rimuru (P-001)",
+  "nameJp": "リムル",
+  "series": "転生したらスライムだった件",
+  "setName": "UE20BT: That Time I Got Reincarnated as a Slime",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。【起動メイン】【手札を1枚場外に置く】【ターン1】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn. [Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_TSK-P-001.png?v9"
+ },
+ "TSK-P-002": {
+  "key": "TSK-P-002",
+  "numberJp": "UAPR/TSK-P-002",
+  "nameEn": "Shizu (P-002)",
+  "nameJp": "シズ",
+  "series": "転生したらスライムだった件",
+  "setName": "UE20BT: That Time I Got Reincarnated as a Slime",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "PR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【アタック時】自分の山札の上から2枚まで自分の場外に置く。その後、自分の場外にあるBP4000以上のキャラカードが3枚以下の場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[When Attacking] Put up to 2 card(s) from the top of your deck into your Outside Area. Then, if you have 3 or fewer character cards with BP 4000 or more in your Outside Area, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_TSK-P-002.png?v9"
+ },
+ "TSK-P-003": {
+  "key": "TSK-P-003",
+  "numberJp": "UAPR/TSK-P-003",
+  "nameEn": "Milim (P-003)",
+  "nameJp": "ミリム",
+  "series": "転生したらスライムだった件",
+  "setName": "UE20BT: That Time I Got Reincarnated as a Slime",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "PR",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "魔王"
+  ],
+  "effectJp": "【登場時】以下から1つ選ぶ。・このキャラはこのターン中、発生エナジー+【緑】。・このキャラはこのターン中、「このキャラはフロントLにある場合もエナジーを発生させる。」を得る。",
+  "effectEn": "[On Play] Choose 1 of the following. This turn, this character's generated energy +[Green]. This character gains “This character also generates energy while in the Front Line” this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_TSK-P-003.png?v9"
+ }
+}

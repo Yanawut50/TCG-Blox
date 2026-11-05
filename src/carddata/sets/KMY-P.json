@@ -1,0 +1,100 @@
+{
+ "KMY-P-001": {
+  "key": "KMY-P-001",
+  "numberJp": "UAPR/KMY-P-001",
+  "nameEn": "Nezuko Kamado",
+  "nameJp": "竈門 禰󠄀豆子",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "PR",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場の〈日輪刀（竈門 炭治郎）〉を1枚まで選び、アクティブにする。このターン中に自分の場の青の〔〈竈門 炭治郎〉か〈竈門 禰󠄀豆子〉〕がレイドしている場合、カードを1枚引く。",
+  "effectEn": "[On Play] Choose up to 1 <Nichirin Sword (Tanjiro Kamado)> on your field, set it to active. If a blue <Tanjiro Kamado> or <Nezuko Kamado> on your field Raided this turn, draw 1 card(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_KMY-P-001.png?v9"
+ },
+ "KMY-P-002": {
+  "key": "KMY-P-002",
+  "numberJp": "UAPR/KMY-P-002",
+  "nameEn": "Akaza",
+  "nameJp": "猗窩座",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "PR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "上弦の鬼"
+  ],
+  "effectJp": "【フロントLにある場合】相手の効果で〔このキャラが場を離れるか、このキャラのBPがマイナスされる〕場合、代わりにこのキャラをエナジーLに移動させてもよい。【自分のターン中】このキャラはBP+1000。【登場時】このターン中にキャラが退場していた場合、このキャラをアクティブにする。〈猗窩座〉のこの効果は1ターンに1回のみ発動する。",
+  "effectEn": "[While in Front Line] If this character would leave the field or have its BP reduced due to your opponent's effect, you may move this character to the Energy Line instead. [During Your Turn] This character gets BP+1000. [On Play] If a character was retired this turn, set this character to active. This <Akaza> effect can only activate 1 time(s) per 1 turn(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_KMY-P-002.png?v9"
+ },
+ "KMY-P-003": {
+  "key": "KMY-P-003",
+  "numberJp": "UAPR/KMY-P-003",
+  "nameEn": "Kyojuro Rengoku",
+  "nameJp": "煉󠄁獄 杏寿郎",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "PR",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "柱"
+  ],
+  "effectJp": "【登場時】以下から1つ選ぶ。・自分の山札の上から3枚見る。その中からカード名に「煉󠄁獄」を含むキャラカードを1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。・自分の発生エナジーが5以上ある場合、このキャラはこのターン中、発生エナジー+【赤】。",
+  "effectEn": "[On Play] Choose 1 of the following. Look at the top 3 card(s) of your deck. Reveal up to 1 character card with “Rengoku” in its card name among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area. If your generated energy is 5 or more, this character's generated energy +[Red] this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_KMY-P-003.png?v9"
+ }
+}

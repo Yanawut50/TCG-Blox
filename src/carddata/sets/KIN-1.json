@@ -1,0 +1,2772 @@
+{
+ "KIN-1-001": {
+  "key": "KIN-1-001",
+  "numberJp": "UA39BT/KIN-1-001",
+  "nameEn": "",
+  "nameJp": "悪魔将軍",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 5000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "悪魔超人"
+  ],
+  "effectJp": "このキャラはフロントLに登場できず、移動フェイズで移動できない。【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】自分の山札の上から5枚見る。その中から必要エナジーが3以下で消費APが1の紫の［特徴：悪魔超人］を1枚まで自分の場にレストで登場させる。残りを望む順で山札の下に置く。【起動メイン】【エナジーLにある場合】〈悪魔将軍〉以外の自分のエナジーLのアクティブの［特徴：悪魔超人］を2枚選ぶ。そうした場合、選んだキャラとこのキャラをフロントLに移動させる。",
+  "effectEn": "This character cannot be played to the Front Line and cannot move during the Movement Phase. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] Look at the top 5 card(s) of your deck. Play up to 1 Purple [Trait: Devil Choujin] with required energy 3 or less and with AP cost 1 from among them to your field rested. Put the rest on the bottom of your deck in any order. [Activate: Main] [While in Energy Line] Choose 2 active [Trait: Devil Choujin] in your Energy Line other than <悪魔将軍>. If you do, move the chosen character and this character to the Front Line.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-001.png?v8"
+ },
+ "KIN-1-002": {
+  "key": "KIN-1-002",
+  "numberJp": "UA39BT/KIN-1-002",
+  "nameEn": "",
+  "nameJp": "アシュラマン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "悪魔超人"
+  ],
+  "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分のエナジーLにあるカードが2枚以下の場合のみ発動できる。このキャラは次の自分のターン開始時まで、BP+1000。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if you have 2 or fewer cards in your Energy Line. This character gets BP+1000 until the start of your next turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-002.png?v8"
+ },
+ "KIN-1-003": {
+  "key": "KIN-1-003",
+  "numberJp": "UA39BT/KIN-1-003",
+  "nameEn": "",
+  "nameJp": "アトランティス",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "悪魔超人"
+  ],
+  "effectJp": "【退場時】自分の場に他の［特徴：悪魔超人］が3枚以上ある場合、カードを1枚引く。",
+  "effectEn": "[On Retire] If you have 3 or more other [Trait: Devil Choujin] on your field, Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-003.png?v8"
+ },
+ "KIN-1-004": {
+  "key": "KIN-1-004",
+  "numberJp": "UA39BT/KIN-1-004",
+  "nameEn": "",
+  "nameJp": "ザ･魔雲天",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "悪魔超人"
+  ],
+  "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）",
+  "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-004.png?v8"
+ },
+ "KIN-1-005": {
+  "key": "KIN-1-005",
+  "numberJp": "UA39BT/KIN-1-005",
+  "nameEn": "",
+  "nameJp": "サンシャイン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "悪魔超人"
+  ],
+  "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分のエナジーLにあるカードが2枚以下の場合のみ発動できる。このキャラはこのターン中、BP+500と「このキャラはフロントLにある場合もエナジーを発生させる。」を得る。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if you have 2 or fewer cards in your Energy Line. This character it gets BP+500 and gains “This character also generates energy while in the Front Line” this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-005.png?v8"
+ },
+ "KIN-1-006": {
+  "key": "KIN-1-006",
+  "numberJp": "UA39BT/KIN-1-006",
+  "nameEn": "",
+  "nameJp": "ステカセキング",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "悪魔超人"
+  ],
+  "effectJp": "【起動メイン】【手札を1枚場外に置く】【ターン1】このキャラのBPはこのターン中、この効果で場外に置いたカードの必要エナジーの数×500プラスされる。",
+  "effectEn": "[Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] This turn, this character gets BP+ equal to 500 × the total required energy of the cards put into the Outside Area by this effect.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-006.png?v8"
+ },
+ "KIN-1-007": {
+  "key": "KIN-1-007",
+  "numberJp": "UA39BT/KIN-1-007",
+  "nameEn": "",
+  "nameJp": "スプリングマン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "悪魔超人"
+  ],
+  "effectJp": "【登場時】自分の山札の上から2枚見る。その中から望む枚数を望む順で山札の上に置き、残りを場外に置く。",
+  "effectEn": "[On Play] Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-007.png?v8"
+ },
+ "KIN-1-008": {
+  "key": "KIN-1-008",
+  "numberJp": "UA39BT/KIN-1-008",
+  "nameEn": "",
+  "nameJp": "スプリングマン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "悪魔超人"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見る。その中から［特徴：悪魔超人］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: Devil Choujin] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の場外から必要エナジーが2以下で消費APが1の紫のキャラカードを1枚自分のフロントLにアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Purple character card with required energy 2 or less and with AP cost 1 from your Outside Area to your Front Line active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-008.png?v8"
+ },
+ "KIN-1-009": {
+  "key": "KIN-1-009",
+  "numberJp": "UA39BT/KIN-1-009",
+  "nameEn": "",
+  "nameJp": "バッファローマン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "悪魔超人"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-009.png?v8"
+ },
+ "KIN-1-010": {
+  "key": "KIN-1-010",
+  "numberJp": "UA39BT/KIN-1-010",
+  "nameEn": "",
+  "nameJp": "バッファローマン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "悪魔超人"
+  ],
+  "effectJp": "自分の場に他の［特徴：悪魔超人］が3枚以上ある場合、このキャラの発生エナジー+【紫】。",
+  "effectEn": "If you have 3 or more other [Trait: Devil Choujin] on your field, This character's generated energy +[Purple].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-010.png?v8"
+ },
+ "KIN-1-011": {
+  "key": "KIN-1-011",
+  "numberJp": "UA39BT/KIN-1-011",
+  "nameEn": "",
+  "nameJp": "バッファローマン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "悪魔超人"
+  ],
+  "effectJp": "このキャラは相手の効果でレストにならず、「このキャラはアタックできない。」と「このキャラはブロックできない。」と「このキャラはアタックもブロックもできない。」を得ない。【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "This character is not rested by your opponent's effects, and does not gain “This character cannot attack”, “This character cannot block” or “This character cannot attack or block” [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-011.png?v8"
+ },
+ "KIN-1-012": {
+  "key": "KIN-1-012",
+  "numberJp": "UA39BT/KIN-1-012",
+  "nameEn": "",
+  "nameJp": "バッファローマン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "悪魔超人"
+  ],
+  "effectJp": "【レイド】〈バッファローマン〉アクティブにし、フロントLに移動できる【登場時】BP4000以下の相手のフロントLのキャラを1枚まで選び、手札に戻す。その後、相手の手札が4枚以上の場合、相手は自身の手札を1枚場外に置く。",
+  "effectEn": "[Raid] Can Raid onto <バッファローマン>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line with BP 4000 or less, return it to its owner's hand. Then, if your opponent has 4 or more cards in their hand, your opponent puts 1 card(s) from their hand into their Outside Area.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-012.png?v8"
+ },
+ "KIN-1-013": {
+  "key": "KIN-1-013",
+  "numberJp": "UA39BT/KIN-1-013",
+  "nameEn": "",
+  "nameJp": "ブラックホール",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "悪魔超人"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-013.png?v8"
+ },
+ "KIN-1-014": {
+  "key": "KIN-1-014",
+  "numberJp": "UA39BT/KIN-1-014",
+  "nameEn": "",
+  "nameJp": "ブラックホール",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "悪魔超人"
+  ],
+  "effectJp": "このカードが手札から場外に置かれた時、このカードを裏向きで自分の場の〈ペンタゴン〉か必要エナジーが3以上の［特徴：悪魔超人］の下に置いてもよい。裏向きのこのカードが自分の場のキャラの下から場外に置かれた時、自分の手札を1枚場外に置いてもよい。そうした場合、このカードを自分のフロントLにレストで登場させる。〈ブラックホール〉のこの効果は1ターンに1回のみ発動できる。",
+  "effectEn": "When this card is put from your hand into your Outside Area, you may put this card face down under <ペンタゴン> or a [Trait: Devil Choujin] with required energy 3 or more on your field. When this face-down card is put from under a character on your field into your Outside Area, you may put 1 card(s) from your hand into your Outside Area. If you do, play this card to your Front Line rested. This <ブラックホール> effect can only activate 1 time(s) per 1 turn(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-014.png?v8"
+ },
+ "KIN-1-015": {
+  "key": "KIN-1-015",
+  "numberJp": "UA39BT/KIN-1-015",
+  "nameEn": "",
+  "nameJp": "ブラックホール",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "悪魔超人"
+  ],
+  "effectJp": "【レイド】〈ブラックホール〉アクティブにし、フロントLに移動できるこのキャラの下に裏向きのカードがある場合、このキャラは【インパクト（1）】を得る。【登場時】カードを1枚引く。その後、自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外から〈ペンタゴン〉か必要エナジーが3以下の［特徴：悪魔超人］を1枚まで手札に加える。",
+  "effectEn": "[Raid] Can Raid onto <ブラックホール>; set it to active and you may move it to the Front Line. If this character has face-down cards under it, this character gains [Impact 1]. [On Play] Draw 1 card(s). Then, You may put 1 card(s) from your hand into your Outside Area. If you do, add up to 1 <ペンタゴン> or [Trait: Devil Choujin] with required energy 3 or less from your Outside Area to your hand.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-015.png?v8"
+ },
+ "KIN-1-016": {
+  "key": "KIN-1-016",
+  "numberJp": "UA39BT/KIN-1-016",
+  "nameEn": "",
+  "nameJp": "ミスターカーメン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "悪魔超人"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-016.png?v8"
+ },
+ "KIN-1-017": {
+  "key": "KIN-1-017",
+  "numberJp": "UA39BT/KIN-1-017",
+  "nameEn": "",
+  "nameJp": "クラッシュマン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "完璧超人",
+   "完璧・無量大数軍"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-017.png?v8"
+ },
+ "KIN-1-018": {
+  "key": "KIN-1-018",
+  "numberJp": "UA39BT/KIN-1-018",
+  "nameEn": "",
+  "nameJp": "グリムリパー",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "完璧超人",
+   "完璧・無量大数軍"
+  ],
+  "effectJp": "【自分のターン中】自分の場外に元々のBPが4000以上の［特徴：完璧超人］がある場合、このキャラはBP+1000。【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[During Your Turn] If you have a [Trait: Perfect Choujin] with original BP 4000 or more in your Outside Area, this character gets BP+1000. [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-018.png?v8"
+ },
+ "KIN-1-019": {
+  "key": "KIN-1-019",
+  "numberJp": "UA39BT/KIN-1-019",
+  "nameEn": "",
+  "nameJp": "ジャック・チー",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "完璧超人",
+   "完璧・無量大数軍"
+  ],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-019.png?v8"
+ },
+ "KIN-1-020": {
+  "key": "KIN-1-020",
+  "numberJp": "UA39BT/KIN-1-020",
+  "nameEn": "",
+  "nameJp": "ストロング・ザ・武道",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "完璧超人",
+   "完璧・無量大数軍"
+  ],
+  "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）",
+  "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-020.png?v8"
+ },
+ "KIN-1-021": {
+  "key": "KIN-1-021",
+  "numberJp": "UA39BT/KIN-1-021",
+  "nameEn": "",
+  "nameJp": "ストロング・ザ・武道",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 6,
+  "ap": 2,
+  "bp": 5000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "完璧超人",
+   "完璧・無量大数軍"
+  ],
+  "effectJp": "このキャラがBP3000以下のキャラにブロックされた時、このキャラはこのターン中、【インパクト（1）】を得る。【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【登場時】自分の場にあるキャラが全て［特徴：完璧超人］の場合、BP5000以下の相手のフロントLのキャラを1枚選び、相手の山札の下に置いてもよい。そうした場合、相手は自身の場外から必要エナジーが0のキャラカードを1枚まで自身のフロントLにレストで登場させる。この効果で登場したキャラの【登場時】は発動しない。",
+  "effectEn": "When this character is blocked by a character with BP 3000 or less, this character gains [Impact 1] this turn. [Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [On Play] If all characters on your field are [Trait: Perfect Choujin], you may choose 1 character in your opponent's Front Line with BP 5000 or less and put it on the bottom of its owner's deck. If you do, your opponent plays up to 1 character card with required energy 0 from their Outside Area to their Front Line rested. [On Play] of characters played by this effect does not activate.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-021.png?v8"
+ },
+ "KIN-1-022": {
+  "key": "KIN-1-022",
+  "numberJp": "UA39BT/KIN-1-022",
+  "nameEn": "",
+  "nameJp": "ターボメン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "完璧超人",
+   "完璧・無量大数軍"
+  ],
+  "effectJp": "【登場時】自分のライフが5以下の場合、APを1支払ってもよい。そうした場合、自分か相手のフロントLの他のキャラを1枚まで選び、このターン中、『BP+1000』。その後、選んだキャラのBPが5500以上の場合、そのキャラを退場させる。自分のライフが2以下の場合、『BP+2000』に代わる。",
+  "effectEn": "[On Play] If your Life is 5 or less, you may pay 1 AP. If you do, choose up to 1 other character in your or your opponent's Front Line; it gets “BP+1000” this turn. Then, if the chosen character's BP is 5500 or more, retire that character. If your Life is 2 or less, it becomes “BP+2000” instead.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-022.png?v8"
+ },
+ "KIN-1-023": {
+  "key": "KIN-1-023",
+  "numberJp": "UA39BT/KIN-1-023",
+  "nameEn": "",
+  "nameJp": "ダルメシマン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "完璧超人",
+   "完璧・無量大数軍"
+  ],
+  "effectJp": "【登場時】自分の山札の上から2枚見る。その中から［特徴：完璧・無量大数軍］を1枚まで場外に置く。残りを望む順で山札の上に置く。",
+  "effectEn": "[On Play] Look at the top 2 card(s) of your deck. From among them, put up to 1 [Trait: Perfect Large Numbers] into your Outside Area. Put the rest on top of your deck in any order.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-023.png?v8"
+ },
+ "KIN-1-024": {
+  "key": "KIN-1-024",
+  "numberJp": "UA39BT/KIN-1-024",
+  "nameEn": "",
+  "nameJp": "ネメシス",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "完璧超人",
+   "完璧・無量大数軍"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-024.png?v8"
+ },
+ "KIN-1-025": {
+  "key": "KIN-1-025",
+  "numberJp": "UA39BT/KIN-1-025",
+  "nameEn": "",
+  "nameJp": "ネメシス",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "完璧超人",
+   "完璧・無量大数軍"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の場外から必要エナジーが2以下で消費APが1の紫のキャラカードを1枚自分のフロントLにアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Purple character card with required energy 2 or less and with AP cost 1 from your Outside Area to your Front Line active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-025.png?v8"
+ },
+ "KIN-1-026": {
+  "key": "KIN-1-026",
+  "numberJp": "UA39BT/KIN-1-026",
+  "nameEn": "",
+  "nameJp": "ネメシス",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "完璧超人",
+   "完璧・無量大数軍"
+  ],
+  "effectJp": "【レイド】〈ネメシス〉アクティブにし、フロントLに移動できるこのキャラがBP3000以下のキャラにブロックされた時、カードを2枚引き、自分の手札を1枚場外に置く。【登場時】自分の場にあるキャラが全て［特徴：完璧超人］の場合、自分の手札から必要エナジーが3以下で消費APが1の紫のキャラカードを1枚まで自分の場にレストで登場させる。【起動メイン】【フロントLにある場合】【ターン1】BP1500以上の相手のフロントLのキャラを1枚選び、このターン中、BP-1000。",
+  "effectEn": "[Raid] Can Raid onto <ネメシス>; set it to active and you may move it to the Front Line. When this character is blocked by a character with BP 3000 or less, draw 2 card(s) and put 1 card(s) from your hand into your Outside Area. [On Play] If all characters on your field are [Trait: Perfect Choujin], play up to 1 purple character card(s) with required energy 3 or less and AP cost 1 from your hand to your field rested. [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 character in your opponent's Front Line with BP 1500 or more, it gets BP-1000 this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-026.png?v8"
+ },
+ "KIN-1-027": {
+  "key": "KIN-1-027",
+  "numberJp": "UA39BT/KIN-1-027",
+  "nameEn": "",
+  "nameJp": "ピークア・ブー",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "完璧超人",
+   "完璧・無量大数軍"
+  ],
+  "effectJp": "【自分のターン中】相手の場外に【スペシャルトリガー】を持つカードが2枚以上ある場合、このキャラはBP+2500。",
+  "effectEn": "[During Your Turn] If your opponent has 2 or more cards with [Special Trigger] in their Outside Area, this character gets BP+2500.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-027.png?v8"
+ },
+ "KIN-1-028": {
+  "key": "KIN-1-028",
+  "numberJp": "UA39BT/KIN-1-028",
+  "nameEn": "",
+  "nameJp": "ポーラマン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "完璧超人",
+   "完璧・無量大数軍"
+  ],
+  "effectJp": "【自分のターン中】このキャラはBP+1000。",
+  "effectEn": "[During Your Turn] This character gets BP+1000.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-028.png?v8"
+ },
+ "KIN-1-029": {
+  "key": "KIN-1-029",
+  "numberJp": "UA39BT/KIN-1-029",
+  "nameEn": "",
+  "nameJp": "マーベラス",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "完璧超人",
+   "完璧・無量大数軍"
+  ],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【紫】。",
+  "effectEn": "While this character is active, its generated energy +[Purple].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-029.png?v8"
+ },
+ "KIN-1-030": {
+  "key": "KIN-1-030",
+  "numberJp": "UA39BT/KIN-1-030",
+  "nameEn": "",
+  "nameJp": "マーリンマン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "完璧超人",
+   "完璧・無量大数軍"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【紫】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Purple] and gains “At the end of the Main Phase, retire this character”",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-030.png?v8"
+ },
+ "KIN-1-031": {
+  "key": "KIN-1-031",
+  "numberJp": "UA39BT/KIN-1-031",
+  "nameEn": "",
+  "nameJp": "マックス・ラジアル",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "完璧超人",
+   "完璧・無量大数軍"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-031.png?v8"
+ },
+ "KIN-1-032": {
+  "key": "KIN-1-032",
+  "numberJp": "UA39BT/KIN-1-032",
+  "nameEn": "",
+  "nameJp": "完璧・無量大数軍",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場の［特徴：完璧・無量大数軍］のカード名の種類数により、このフィールドは以下の効果を全て得る。・3種類以上：【登場時】カードを1枚引く。・5種類以上：【起動メイン】【レストにする】【このカードを退場させる】自分の場の［特徴：完璧・無量大数軍］を1枚選び、アクティブにする。・7種類以上：【起動メイン】【レストにする】【ターン1】BP3000以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "effectEn": "Depending on the number of different card names among [Trait: Perfect Large Numbers] on your field, this field gains all of the following effects. 3 or more types: [On Play]Draw 1 card(s). 5 or more types: [Activate: Main]. [Rest this card] [Retire this card] Choose 1 [Trait: Perfect Large Numbers] on your field, set it to active. 7 or more types: [Activate: Main]. [Rest this card] [Once Per Turn] Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-032.png?v8"
+ },
+ "KIN-1-033": {
+  "key": "KIN-1-033",
+  "numberJp": "UA39BT/KIN-1-033",
+  "nameEn": "",
+  "nameJp": "悪魔なんぞ応援してたらろくな大人にならねぇぞ",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場外から必要エナジーが2以下の［特徴：悪魔超人］を1枚まで自分の場にレストで登場させる。この効果で〈アトランティス〉を登場させた場合、そのキャラをアクティブにし、このターン中、「アタックフェイズ終了時、このキャラを退場させる。」と【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、指定した場合、相手はブロックできない）を与える。",
+  "effectEn": "Play up to 1 [Trait: Devil Choujin] with required energy 2 or less from your Outside Area to your field rested. If you played <アトランティス> with this effect, set that character to active, and it gains “At the end of the Attack Phase, retire this character” and [Snipe] (Can attack a chosen character in your opponent's Front Line; if you do, your opponent cannot block) this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-033.png?v8"
+ },
+ "KIN-1-034": {
+  "key": "KIN-1-034",
+  "numberJp": "UA39BT/KIN-1-034",
+  "nameEn": "",
+  "nameJp": "吸引ブラックホール",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈ブラックホール〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <ブラックホール> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-034.png?v8"
+ },
+ "KIN-1-035": {
+  "key": "KIN-1-035",
+  "numberJp": "UA39BT/KIN-1-035",
+  "nameEn": "",
+  "nameJp": "スプリングバズーカ",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "以下から1つ選ぶ。・自分の場に〈バッファローマン〉がある場合、相手のフロントLのキャラを1枚選び、このターン中、BP-5000。・カードを1枚引く。自分の場の〈スプリングマン〉を1枚まで選び、このターン中、BP+2500と【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、指定した場合、相手はブロックできない）を与える。",
+  "effectEn": "Choose 1 of the following. If you have <バッファローマン> on your field, Choose 1 character in your opponent's Front Line, it gets BP-5000 this turn. Draw 1 card(s). Choose up to 1 <スプリングマン> on your field; it gains BP+2500 and [Snipe] (Can attack a chosen character in your opponent's Front Line; if you do, your opponent cannot block) this turn.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-035.png?v8"
+ },
+ "KIN-1-036": {
+  "key": "KIN-1-036",
+  "numberJp": "UA39BT/KIN-1-036",
+  "nameEn": "",
+  "nameJp": "すべてはあの''お方''のために!!",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-036.png?v8"
+ },
+ "KIN-1-037": {
+  "key": "KIN-1-037",
+  "numberJp": "UA39BT/KIN-1-037",
+  "nameEn": "",
+  "nameJp": "零の悲劇",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "BP5000以下の相手のフロントLのキャラを1枚選び、相手の山札の下に置く。相手は自身の場外から必要エナジーが0のキャラカードを1枚まで自身のフロントLにレストで登場させる。この効果で登場したキャラの【登場時】は発動しない。自分の場に［特徴：完璧超人］が3枚以上ある場合、自分はカードを1枚引く。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 5000 or less, and put it on the bottom of your opponent's deck. Your opponent plays up to 1 character card with required energy 0 from their Outside Area to their Front Line rested. [On Play] of characters played by this effect does not activate. If you have 3 or more [Trait: Perfect Choujin] on your field, draw 1 card(s).",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-037.png?v8"
+ },
+ "KIN-1-038": {
+  "key": "KIN-1-038",
+  "numberJp": "UA39BT/KIN-1-038",
+  "nameEn": "",
+  "nameJp": "対戦相手はおまえに選ばせてやる！",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から7枚見る。その中から相手がランダムに1枚選ぶ。自分は選ばれたカード以外のカードを望む順で山札の下に置く。選ばれたカードを公開し、公開したカードが［特徴：完璧・無量大数軍］の場合、自分の場にレストで登場させる。公開したカードが［特徴：完璧・無量大数軍］以外の場合、公開したカードを自分の手札に加える。",
+  "effectEn": "Look at the top 7 card(s) of your deck. Your opponent randomly chooses 1 of them. Put the cards other than the chosen card on the bottom of your deck in any order. Reveal the chosen card; if the revealed card is a [Trait: Perfect Large Numbers], play it to your field rested. If the revealed card is not a [Trait: Perfect Large Numbers], add the revealed card to your hand.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-038.png?v8"
+ },
+ "KIN-1-039": {
+  "key": "KIN-1-039",
+  "numberJp": "UA39BT/KIN-1-039",
+  "nameEn": "",
+  "nameJp": "完璧・無量大数軍の第二陣だーっ！！",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から5枚見る。その中から異なるカード名の［特徴：完璧・無量大数軍］をそれぞれ1枚ずつ合計3枚まで公開し手札に加える。残りを望む順で山札の下に置く。",
+  "effectEn": "Look at the top 5 card(s) of your deck. Reveal up to 1 each of [Trait: Perfect Large Numbers] with different card names among them, up to a total of 3, and add them to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-039.png?v8"
+ },
+ "KIN-1-040": {
+  "key": "KIN-1-040",
+  "numberJp": "UA39BT/KIN-1-040",
+  "nameEn": "",
+  "nameJp": "惑わされるなと言っておるーっ！！",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-040.png?v8"
+ },
+ "KIN-1-041": {
+  "key": "KIN-1-041",
+  "numberJp": "UA39BT/KIN-1-041",
+  "nameEn": "",
+  "nameJp": "委員長",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-041.png?v8"
+ },
+ "KIN-1-042": {
+  "key": "KIN-1-042",
+  "numberJp": "UA39BT/KIN-1-042",
+  "nameEn": "",
+  "nameJp": "ウォーズマン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-042.png?v8"
+ },
+ "KIN-1-043": {
+  "key": "KIN-1-043",
+  "numberJp": "UA39BT/KIN-1-043",
+  "nameEn": "",
+  "nameJp": "ウォーズマン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "自分のフロントLに【アタック時】を持つ他の［特徴：正義超人］がある場合、このキャラの発生エナジー+【赤】。【アタック時】このキャラはこのターン中、BP+1000。",
+  "effectEn": "If you have other [Trait: Justice Choujin] with [When Attacking] in your Front Line, This character's generated energy +[Red]. [When Attacking] This character gets BP+1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-043.png?v8"
+ },
+ "KIN-1-044": {
+  "key": "KIN-1-044",
+  "numberJp": "UA39BT/KIN-1-044",
+  "nameEn": "",
+  "nameJp": "ウォーズマン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "-",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "【レイド】〈ウォーズマン〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【アタック時】【ターン1】自分の場の【アタック時】を持つ他の［特徴：正義超人］の枚数により、このキャラはこのターン中、以下の効果を全て得る。・2枚以上：【ターン1】このキャラのアタックがブロックされたアタック終了時、このキャラをこのターン中、BP-1000してもよい。そうした場合、このキャラをアクティブにする。・4枚以上：【ターン1】このキャラがアタックしてブロックされなかった時、カードを1枚引く。",
+  "effectEn": "[Raid] Can Raid onto <ウォーズマン>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [When Attacking] [Once Per Turn] Depending on the number of other [Trait: Justice Choujin] with [When Attacking] on your field, this character gains all of the following effects this turn. 2 or more: [Once Per Turn] At the end of an attack in which this character's attack was blocked, you may give this character BP-1000 this turn. If you do, Set this character to active. 4 or more: [Once Per Turn]When this character attacks and is not blocked, Draw 1 card(s).",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-044.png?v8"
+ },
+ "KIN-1-045": {
+  "key": "KIN-1-045",
+  "numberJp": "UA39BT/KIN-1-045",
+  "nameEn": "",
+  "nameJp": "カナディアンマン＆スペシャルマン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【赤】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Red] and gains “At the end of the Main Phase, retire this character”",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-045.png?v8"
+ },
+ "KIN-1-046": {
+  "key": "KIN-1-046",
+  "numberJp": "UA39BT/KIN-1-046",
+  "nameEn": "",
+  "nameJp": "キン肉マン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-046.png?v8"
+ },
+ "KIN-1-047": {
+  "key": "KIN-1-047",
+  "numberJp": "UA39BT/KIN-1-047",
+  "nameEn": "",
+  "nameJp": "キン肉マン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中から〈キン肉マン〉か〈テリーマン〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 <キン肉マン> or <テリーマン> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-047.png?v8"
+ },
+ "KIN-1-048": {
+  "key": "KIN-1-048",
+  "numberJp": "UA39BT/KIN-1-048",
+  "nameEn": "",
+  "nameJp": "キン肉マン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "このカードはフロントLに登場できない。",
+  "effectEn": "This card cannot be played to the Front Line.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-048.png?v8"
+ },
+ "KIN-1-049": {
+  "key": "KIN-1-049",
+  "numberJp": "UA39BT/KIN-1-049",
+  "nameEn": "",
+  "nameJp": "キン肉マン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "【起動メイン】【フロントLにある場合】【レストにする】【ターン1】相手のフロントLのキャラを1枚選び、このターン中、「このキャラはブロックできない。」を与える。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Rest this card] [Once Per Turn] Choose 1 character in your opponent's Front Line, it gains “This character cannot block” this turn.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP2500以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-049.png?v8"
+ },
+ "KIN-1-050": {
+  "key": "KIN-1-050",
+  "numberJp": "UA39BT/KIN-1-050",
+  "nameEn": "",
+  "nameJp": "キン肉マン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "【レイド】〈キン肉マン〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）【登場時】カードを1枚引く。【アタック時】このキャラはこのターン中、BP+1000。",
+  "effectEn": "[Raid] Can Raid onto <キン肉マン>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [Double Block] (The first time this character blocks each turn, set it to active) [On Play] Draw 1 card(s). [When Attacking] This character gets BP+1000 this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-050.png?v8"
+ },
+ "KIN-1-051": {
+  "key": "KIN-1-051",
+  "numberJp": "UA39BT/KIN-1-051",
+  "nameEn": "",
+  "nameJp": "キン肉マン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "【レイド】〈キン肉マン〉アクティブにし、フロントLに移動できる【登場時】相手のフロントLのキャラを1枚まで選び、以下から『1つ』選ぶ。自分のライフが1以下の場合、『2つ』に代わる。・選んだキャラに次の自分のターン開始時まで、「このキャラはアタックできない。」と「このキャラはブロックできない。」を与える。・選んだキャラが［特徴：正義超人］の効果で「このキャラはアタックできない。」か「このキャラはブロックできない。」を与えられている場合、退場させる。",
+  "effectEn": "[Raid] Can Raid onto <キン肉マン>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line, Choose 1 of the following. If your Life is 1 or less, it becomes “2” instead. Until the start of your next turn, the chosen character gains “This character cannot attack” and “This character cannot block” If the chosen character has been given “This character cannot attack” or “This character cannot block” by a [Trait: Justice Choujin]'s effect, retire it.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-051.png?v8"
+ },
+ "KIN-1-052": {
+  "key": "KIN-1-052",
+  "numberJp": "UA39BT/KIN-1-052",
+  "nameEn": "",
+  "nameJp": "ジェロニモ",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "【登場時】このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
+  "effectEn": "[On Play] While this character is active, its generated energy +[Red].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-052.png?v8"
+ },
+ "KIN-1-053": {
+  "key": "KIN-1-053",
+  "numberJp": "UA39BT/KIN-1-053",
+  "nameEn": "",
+  "nameJp": "ジェロニモ",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "【起動メイン】【フロントLにある場合】【レストにする】【ターン1】自分の山札の上から1枚を裏向きでこのキャラの下に置く。【アタック時】このキャラの下の裏向きのカードを1枚場外に置いてもよい。そうした場合、相手のフロントLのキャラを1枚まで選び、エナジーLに移動させ、次の自分のターン開始時まで「このキャラは移動できない。」を与える。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Rest this card] [Once Per Turn] Put the top 1 card(s) of your deck face down under this character. [When Attacking] You may put 1 face-down card(s) under this character into your Outside Area. If you do, choose up to 1 character in your opponent's Front Line, move it to the Energy Line, and until the start of your next turn it gains “This character cannot move”",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-053.png?v8"
+ },
+ "KIN-1-054": {
+  "key": "KIN-1-054",
+  "numberJp": "UA39BT/KIN-1-054",
+  "nameEn": "",
+  "nameJp": "タイルマン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-054.png?v8"
+ },
+ "KIN-1-055": {
+  "key": "KIN-1-055",
+  "numberJp": "UA39BT/KIN-1-055",
+  "nameEn": "",
+  "nameJp": "テリーマン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-055.png?v8"
+ },
+ "KIN-1-056": {
+  "key": "KIN-1-056",
+  "numberJp": "UA39BT/KIN-1-056",
+  "nameEn": "",
+  "nameJp": "テリーマン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-056.png?v8"
+ },
+ "KIN-1-057": {
+  "key": "KIN-1-057",
+  "numberJp": "UA39BT/KIN-1-057",
+  "nameEn": "",
+  "nameJp": "テリーマン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】自分のフロントLに〈キン肉マン〉がある場合、カードを1枚引く。",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] If you have <キン肉マン> in your Front Line, Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-057.png?v8"
+ },
+ "KIN-1-058": {
+  "key": "KIN-1-058",
+  "numberJp": "UA39BT/KIN-1-058",
+  "nameEn": "",
+  "nameJp": "テリーマン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "【レイド】〈テリーマン〉アクティブにし、フロントLに移動できる【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【ターン1】このキャラがエナジーLからフロントLに移動した時、相手のフロントLのキャラを1枚まで選び、次の自分のターン開始時まで、「このキャラはアタックできない。」を与える。【起動メイン】【エナジーLにある場合】【ターン1】自分のフロントLの〈キン肉マン〉を1枚選び、このキャラと位置を入れ替える。",
+  "effectEn": "[Raid] Can Raid onto <テリーマン>; set it to active and you may move it to the Front Line. [Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [Once Per Turn] When this character moves from the Energy Line to the Front Line, choose up to 1 character in your opponent's Front Line; until the start of your next turn, it gains “This character cannot attack” [Activate: Main] [While in Energy Line] [Once Per Turn] Choose 1 <キン肉マン> in your Front Line and swap its position with this character.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-058.png?v8"
+ },
+ "KIN-1-059": {
+  "key": "KIN-1-059",
+  "numberJp": "UA39BT/KIN-1-059",
+  "nameEn": "",
+  "nameJp": "ミートくん",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-059.png?v8"
+ },
+ "KIN-1-060": {
+  "key": "KIN-1-060",
+  "numberJp": "UA39BT/KIN-1-060",
+  "nameEn": "",
+  "nameJp": "ミートくん",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "自分のフロントLに〈キン肉マン〉がある場合、このキャラの発生エナジー+【赤】。【起動メイン】【レストにする】【手札を1枚場外に置く】自分の場の〈キン肉マン〉を1枚選び、別のラインに移動させる。",
+  "effectEn": "If you have <キン肉マン> in your Front Line, This character's generated energy +[Red]. [Activate: Main] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] Choose 1 <キン肉マン> on your field, move it to another line.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-060.png?v8"
+ },
+ "KIN-1-061": {
+  "key": "KIN-1-061",
+  "numberJp": "UA39BT/KIN-1-061",
+  "nameEn": "",
+  "nameJp": "ブロッケンJr.",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "【アタック時】自分の場に【アタック時】を持つ他の［特徴：正義超人］が2枚以上ある場合、カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[When Attacking] If you have 2 or more other [Trait: Justice Choujin] with [When Attacking] on your field, draw 1 card(s) and put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-061.png?v8"
+ },
+ "KIN-1-062": {
+  "key": "KIN-1-062",
+  "numberJp": "UA39BT/KIN-1-062",
+  "nameEn": "",
+  "nameJp": "ブロッケンJr.",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "【アタック時】自分の山札の上から3枚見る。その中から〈ベルリンの赤い雨〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[When Attacking] Look at the top 3 card(s) of your deck. Reveal up to 1 <ベルリンの赤い雨> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-062.png?v8"
+ },
+ "KIN-1-063": {
+  "key": "KIN-1-063",
+  "numberJp": "UA39BT/KIN-1-063",
+  "nameEn": "",
+  "nameJp": "ブロッケンJr.",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】【アタック時】カードを1枚引き、自分の手札を1枚場外に置く。この効果で必要エナジーが0のカードを場外に置いた場合、BP2000以下の相手のフロントLのキャラを1枚まで選び、レストにする。",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] [When Attacking] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. If you put a card with required energy 0 into your Outside Area with this effect, choose up to 1 character in your opponent's Front Line with BP 2000 or less and rest it.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-063.png?v8"
+ },
+ "KIN-1-064": {
+  "key": "KIN-1-064",
+  "numberJp": "UA39BT/KIN-1-064",
+  "nameEn": "",
+  "nameJp": "ペンタゴン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "【起動メイン】【APを1支払う】このカードが自分の手札にあり、自分の紫の発生エナジーが5以上ある場合のみ発動できる。自分のフロントLにある〈ブラックホール〉を1枚手札に戻す。そうした場合、手札のこのカードを自分のフロントLにレストで登場させる。【登場時】カードを1枚引き、自分の手札を1枚場外に置く。相手のフロントLのアクティブのキャラを1枚選んでもよい。そうした場合、選んだキャラをレストにし、このキャラをアクティブにする。",
+  "effectEn": "[Activate: Main] [Pay 1 AP] Can only activate if this card is in your hand and your purple generated energy is 5 or more. Return to the owner's hand 1 <ブラックホール> in your Front Line. If you do, play this card from your hand to your Front Line rested. [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. You may choose 1 active character in your opponent's Front Line. If you do, rest the chosen character and set this character to active.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-064.png?v8"
+ },
+ "KIN-1-065": {
+  "key": "KIN-1-065",
+  "numberJp": "UA39BT/KIN-1-065",
+  "nameEn": "",
+  "nameJp": "ラーメンマン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-065.png?v8"
+ },
+ "KIN-1-066": {
+  "key": "KIN-1-066",
+  "numberJp": "UA39BT/KIN-1-066",
+  "nameEn": "",
+  "nameJp": "ラーメンマン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "【アタック時】自分の場に【アタック時】を持つ他の［特徴：正義超人］が2枚以上ある場合、このキャラはこのターン中、BP+1000。",
+  "effectEn": "[When Attacking] If you have 2 or more other [Trait: Justice Choujin] with [When Attacking] on your field, this character gets BP+1000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-066.png?v8"
+ },
+ "KIN-1-067": {
+  "key": "KIN-1-067",
+  "numberJp": "UA39BT/KIN-1-067",
+  "nameEn": "",
+  "nameJp": "ラーメンマン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "【登場時】自分の場に【アタック時】を持つ他の［特徴：正義超人］が4枚以上ある場合、自分の手札を1枚場外に置いてもよい。そうした場合、自分の場のキャラを2枚まで選び、アクティブにするか自分のAPカードを2枚まで選び、アクティブにする。【アタック時】カードを1枚引く。",
+  "effectEn": "[On Play] If you have 4 or more other [Trait: Justice Choujin] with [When Attacking] on your field, you may put 1 card(s) from your hand into your Outside Area. If you do, choose up to 2 character on your field and set it to active, or choose up to 2 of your AP cards and set them to active. [When Attacking] Draw 1 card(s).",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-067.png?v8"
+ },
+ "KIN-1-068": {
+  "key": "KIN-1-068",
+  "numberJp": "UA39BT/KIN-1-068",
+  "nameEn": "",
+  "nameJp": "ロビンマスク",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "【アタック時】自分の場に【アタック時】を持つ他の［特徴：正義超人］が4枚以上ある場合、このキャラはこのターン中、BP+1500。",
+  "effectEn": "[When Attacking] If you have 4 or more other [Trait: Justice Choujin] with [When Attacking] on your field, this character gets BP+1500 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-068.png?v8"
+ },
+ "KIN-1-069": {
+  "key": "KIN-1-069",
+  "numberJp": "UA39BT/KIN-1-069",
+  "nameEn": "",
+  "nameJp": "ロビンマスク",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見る。その中から［特徴：正義超人］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: Justice Choujin] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP2500以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-069.png?v8"
+ },
+ "KIN-1-070": {
+  "key": "KIN-1-070",
+  "numberJp": "UA39BT/KIN-1-070",
+  "nameEn": "",
+  "nameJp": "ロビンマスク",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】BP1500以上の相手のフロントLのキャラを1枚選び、このターン中、BP-1000。【アタック時】自分の手札を1枚場外に置いてもよい。そうした場合、このキャラはこのターン中、BP+2000。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 character in your opponent's Front Line with BP 1500 or more, it gets BP-1000 this turn. [When Attacking] You may put 1 card(s) from your hand into your Outside Area. If you do, This character gets BP+2000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-070.png?v8"
+ },
+ "KIN-1-071": {
+  "key": "KIN-1-071",
+  "numberJp": "UA39BT/KIN-1-071",
+  "nameEn": "",
+  "nameJp": "ロビンマスク",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 6,
+  "ap": 1,
+  "bp": 4500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "正義超人"
+  ],
+  "effectJp": "【レイド】〈ロビンマスク〉アクティブにし、フロントLに移動できる【起動メイン】【フロントLにある場合】自分の場の【アタック時】を持つアクティブの他の［特徴：正義超人］を1枚レストにする。そうした場合、BP1500以上の相手のフロントLのキャラを1枚まで選び、このターン中、『BP-500』。このキャラが登場したターン中なら『BP-1000』に代わる。【アタック時】BP1000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
+  "effectEn": "[Raid] Can Raid onto <ロビンマスク>; set it to active and you may move it to the Front Line. [Activate: Main] [While in Front Line] Rest 1 other active [Trait: Justice Choujin] with [When Attacking] on your field. If you do, Choose up to 1 character in your opponent's Front Line with BP 1500 or more, This turn, 『BP-500』. During the turn this character was played, it becomes “BP-1000” instead. [When Attacking] Choose up to 1 character in your opponent's Front Line with BP 1000 or less, retire it.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-071.png?v8"
+ },
+ "KIN-1-072": {
+  "key": "KIN-1-072",
+  "numberJp": "UA39BT/KIN-1-072",
+  "nameEn": "",
+  "nameJp": "ネプチューンマン",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "完璧超人"
+  ],
+  "effectJp": "【登場時】カードを1枚引く。",
+  "effectEn": "[On Play] Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-072.png?v8"
+ },
+ "KIN-1-073": {
+  "key": "KIN-1-073",
+  "numberJp": "UA39BT/KIN-1-073",
+  "nameEn": "",
+  "nameJp": "三属性超人不可侵条約",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分のアタックフェイズ終了時、このターン中に自分のキャラがアタックしていた場合、このフィールドを退場させる。相手のアタックフェイズ開始時、相手は自身のフロントLのアクティブのキャラを1枚レストにする。〈三属性超人不可侵条約〉のこの効果は1ターンに1回のみ発動する。",
+  "effectEn": "At the end of your Attack Phase, if your character attacked this turn, retire this field. At the start of your opponent's Attack Phase, your opponent rests 1 active character(s) in their Front Line. This <三属性超人不可侵条約> effect can only activate 1 time(s) per 1 turn(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-073.png?v8"
+ },
+ "KIN-1-074": {
+  "key": "KIN-1-074",
+  "numberJp": "UA39BT/KIN-1-074",
+  "nameEn": "",
+  "nameJp": "牛丼",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から6枚見る。その中から赤の〈キン肉マン〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。カードを1枚引く。",
+  "effectEn": "Look at the top 6 card(s) of your deck. Reveal up to 1 Red <キン肉マン> among them and add it to your hand. Put the rest on the bottom of your deck in any order. Draw 1 card(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-074.png?v8"
+ },
+ "KIN-1-075": {
+  "key": "KIN-1-075",
+  "numberJp": "UA39BT/KIN-1-075",
+  "nameEn": "",
+  "nameJp": "キン肉バスター",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈キン肉マン〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <キン肉マン> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-075.png?v8"
+ },
+ "KIN-1-076": {
+  "key": "KIN-1-076",
+  "numberJp": "UA39BT/KIN-1-076",
+  "nameEn": "",
+  "nameJp": "スクリュードライバー",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場のキャラを1枚選び、このターン中、『BP+500』し、自分のAPカードを1枚まで選び、アクティブにする。選んだキャラが〈ウォーズマン〉の場合、『BP+1000』に代わる。選んだキャラが必要エナジーが4以上の〈ウォーズマン〉の場合、『BP+2000』に代わる。選んだキャラが必要エナジーが4以上でレイド状態の〈ウォーズマン〉の場合、『BP+6000』に代わる。",
+  "effectEn": "Choose 1 character on your field; it gets “BP+500” this turn, and choose up to 1 of your AP cards and set them to active. If the chosen character is <ウォーズマン>, it becomes “BP+1000” instead. If the chosen character is <ウォーズマン> with required energy 4 or more, it becomes “BP+2000” instead. If the chosen character is a Raided <ウォーズマン> with required energy 4 or more, it becomes “BP+6000” instead.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-076.png?v8"
+ },
+ "KIN-1-077": {
+  "key": "KIN-1-077",
+  "numberJp": "UA39BT/KIN-1-077",
+  "nameEn": "",
+  "nameJp": "タワーブリッジ",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 5,
+  "ap": 2,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場に〈ロビンマスク〉がある場合、手札にあるこのカードの消費APを-1する。BP5000以下の相手のフロントLのキャラを1枚まで選び、退場させる。自分の場の〈ロビンマスク〉を1枚まで選び、このターン中、「相手がこのキャラを【スペシャルトリガー】で退場させる場合、代わりに相手はその【スペシャルトリガー】を持つカードを手札に加える。」を与える。",
+  "effectEn": "If you have <ロビンマスク> on your field, reduce the AP cost of this card in your hand by 1. Choose up to 1 character in your opponent's Front Line with BP 5000 or less, retire it. Choose up to 1 <ロビンマスク> on your field, and it gains “If your opponent would retire this character with [Special Trigger], your opponent adds that card with [Special Trigger] to their hand instead” this turn.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-077.png?v8"
+ },
+ "KIN-1-078": {
+  "key": "KIN-1-078",
+  "numberJp": "UA39BT/KIN-1-078",
+  "nameEn": "",
+  "nameJp": "風林火山",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のフロントLのキャラを1枚選び、このターン中、BP+2000。自分の場に〈キン肉マン〉がある場合、さらにこのターン中、【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を与える。",
+  "effectEn": "Choose 1 character in your Front Line, it gets BP+2000 this turn. If you have <キン肉マン> on your field, it also gains [Impact +1] (Damage dealt by Impact is increased by 1; if it doesn't have Impact, it gains [Impact 1]) this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-078.png?v8"
+ },
+ "KIN-1-079": {
+  "key": "KIN-1-079",
+  "numberJp": "UA39BT/KIN-1-079",
+  "nameEn": "",
+  "nameJp": "ベルリンの赤い雨",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "カードを1枚引く。自分のフロントLに赤の〈ブロッケンJr.〉がある場合、BP2500以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-2000。【起動メイン】【場外にある場合】【手札を1枚場外に置く】自分のフロントLに赤の〈ブロッケンJr.〉がある場合のみ発動できる。場外のこのカードを手札に加える。〈ベルリンの赤い雨〉のこの効果は1ターンに1回のみ発動できる。",
+  "effectEn": "Draw 1 card(s). If you have Red <ブロッケンJr.> in your Front Line, Choose up to 1 character in your opponent's Front Line with BP 2500 or more, it gets BP-2000 this turn. [Activate: Main] [While in Outside Area] [Put 1 card(s) from your hand into your Outside Area] Can only activate if you have a red <ブロッケンJr.> in your Front Line. Add this card from your Outside Area to your hand. This <ベルリンの赤い雨> effect can only activate 1 time(s) per 1 turn(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-079.png?v8"
+ },
+ "KIN-1-080": {
+  "key": "KIN-1-080",
+  "numberJp": "UA39BT/KIN-1-080",
+  "nameEn": "",
+  "nameJp": "友情パワー",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-080.png?v8"
+ },
+ "KIN-1-AP01": {
+  "key": "KIN-1-AP01",
+  "numberJp": "UA39BT/KIN-1-AP01",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(キン肉マン)",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-AP01.png?v8"
+ },
+ "KIN-1-AP02": {
+  "key": "KIN-1-AP02",
+  "numberJp": "UA39BT/KIN-1-AP02",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(キン肉マン)",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-AP02.png?v8"
+ },
+ "KIN-1-AP03": {
+  "key": "KIN-1-AP03",
+  "numberJp": "UA39BT/KIN-1-AP03",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(キン肉マン)",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-AP03.png?v8"
+ },
+ "KIN-1-AP04": {
+  "key": "KIN-1-AP04",
+  "numberJp": "UA39BT/KIN-1-AP04",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(キン肉マン)",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-AP04.png?v8"
+ },
+ "KIN-1-AP05": {
+  "key": "KIN-1-AP05",
+  "numberJp": "UA39BT/KIN-1-AP05",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(キン肉マン)",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-AP05.png?v8"
+ },
+ "KIN-1-AP06": {
+  "key": "KIN-1-AP06",
+  "numberJp": "UA39BT/KIN-1-AP06",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(キン肉マン)",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-AP06.png?v8"
+ },
+ "KIN-1-AP07": {
+  "key": "KIN-1-AP07",
+  "numberJp": "UA39BT/KIN-1-AP07",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(キン肉マン)",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-AP07.png?v8"
+ },
+ "KIN-1-AP08": {
+  "key": "KIN-1-AP08",
+  "numberJp": "UA39BT/KIN-1-AP08",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(キン肉マン)",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-AP08.png?v8"
+ },
+ "KIN-1-AP09": {
+  "key": "KIN-1-AP09",
+  "numberJp": "UA39BT/KIN-1-AP09",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(キン肉マン)",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-AP09.png?v8"
+ },
+ "KIN-1-AP10": {
+  "key": "KIN-1-AP10",
+  "numberJp": "UA39BT/KIN-1-AP10",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(キン肉マン)",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-AP10.png?v8"
+ },
+ "KIN-1-AP11": {
+  "key": "KIN-1-AP11",
+  "numberJp": "UA39BT/KIN-1-AP11",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(キン肉マン)",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-AP11.png?v8"
+ },
+ "KIN-1-AP12": {
+  "key": "KIN-1-AP12",
+  "numberJp": "UA39BT/KIN-1-AP12",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(キン肉マン)",
+  "series": "キン肉マン",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA39BT_KIN-1-AP12.png?v8"
+ }
+}

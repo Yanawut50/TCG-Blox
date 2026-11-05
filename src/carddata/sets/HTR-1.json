@@ -1,0 +1,3438 @@
+{
+ "HTR-1-001": {
+  "key": "HTR-1-001",
+  "numberJp": "UA03BT/HTR-1-001",
+  "nameEn": "",
+  "nameJp": "アベンガネ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】相手の場のフィールドを1枚まで選び、相手の山札の下に置く。",
+  "effectEn": "[On Play] Choose up to 1 Field on your opponent's field, and put it on the bottom of your opponent's deck.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-001.png?v8"
+ },
+ "HTR-1-002": {
+  "key": "HTR-1-002",
+  "numberJp": "UA03BT/HTR-1-002",
+  "nameEn": "",
+  "nameJp": "イータ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-002.png?v8"
+ },
+ "HTR-1-003": {
+  "key": "HTR-1-003",
+  "numberJp": "UA03BT/HTR-1-003",
+  "nameEn": "",
+  "nameJp": "エレナ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【青】。",
+  "effectEn": "While this character is active, its generated energy +[Blue].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-003.png?v8"
+ },
+ "HTR-1-004": {
+  "key": "HTR-1-004",
+  "numberJp": "UA03BT/HTR-1-004",
+  "nameEn": "",
+  "nameJp": "ゴレイヌ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。",
+  "effectEn": "[Activate: Main] [Rest this card] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-004.png?v8"
+ },
+ "HTR-1-005": {
+  "key": "HTR-1-005",
+  "numberJp": "UA03BT/HTR-1-005",
+  "nameEn": "",
+  "nameJp": "ゴン＝フリークス",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-005.png?v8"
+ },
+ "HTR-1-006": {
+  "key": "HTR-1-006",
+  "numberJp": "UA03BT/HTR-1-006",
+  "nameEn": "",
+  "nameJp": "ゴン＝フリークス",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から7枚見る。その中から［特徴：指定ポケット］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
+  "effectEn": "[On Play] Look at the top 7 card(s) of your deck. Reveal up to 1 [Trait: Designated Pocket] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-006.png?v8"
+ },
+ "HTR-1-007": {
+  "key": "HTR-1-007",
+  "numberJp": "UA03BT/HTR-1-007",
+  "nameEn": "",
+  "nameJp": "ゴン＝フリークス",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分の手札を望む枚数公開する。自分の場と手札から公開した［特徴：指定ポケット］の種類の数により以下の効果が全て発動する。・3種類以上：カードを1枚引く。・4種類以上：このキャラはこのターン中、【インパクト（1）】を得る。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Reveal any number of cards from your hand. Depending on the number of types of [Trait: Designated Pocket] revealed from your field and hand, all of the following effects activate. 3 or more types: Draw 1 card(s). 4 or more types: This character, this turn, [Impact 1] is gained.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-007.png?v8"
+ },
+ "HTR-1-008": {
+  "key": "HTR-1-008",
+  "numberJp": "UA03BT/HTR-1-008",
+  "nameEn": "",
+  "nameJp": "ツェズゲラ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "相手の場に紫か緑のカードがある場合、手札にあるこのカードの必要エナジーを【青×1】減らす。",
+  "effectEn": "If your opponent has Purple or Green card on their field, the required energy of this card in your hand [Blue x1]is reduced.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-008.png?v8"
+ },
+ "HTR-1-009": {
+  "key": "HTR-1-009",
+  "numberJp": "UA03BT/HTR-1-009",
+  "nameEn": "",
+  "nameJp": "バッテラ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【青】。メインフェイズ終了時、このキャラを退場させる。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Blue]. At the end of the Main Phase, retire this character.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-009.png?v8"
+ },
+ "HTR-1-010": {
+  "key": "HTR-1-010",
+  "numberJp": "UA03BT/HTR-1-010",
+  "nameEn": "",
+  "nameJp": "ビスケ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】このキャラはBP+1000。",
+  "effectEn": "[During Your Turn] This character gets BP+1000.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-010.png?v8"
+ },
+ "HTR-1-011": {
+  "key": "HTR-1-011",
+  "numberJp": "UA03BT/HTR-1-011",
+  "nameEn": "",
+  "nameJp": "ビスケ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の場外から［特徴：指定ポケット］を1枚手札に加える。",
+  "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Add 1 [Trait: Designated Pocket] from your Outside Area to your hand.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-011.png?v8"
+ },
+ "HTR-1-012": {
+  "key": "HTR-1-012",
+  "numberJp": "UA03BT/HTR-1-012",
+  "nameEn": "",
+  "nameJp": "ビスケ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の手札を望む枚数公開する。自分の場と手札から公開した［特徴：指定ポケット］の種類の数×1000以下のBPの相手のフロントLのキャラを1枚まで選び、退場させる。",
+  "effectEn": "[On Play] Reveal any number of cards from your hand. Choose up to 1 character in your opponent's Front Line with BP equal to or less than 1000 × the number of types of [Trait: Designated Pocket] revealed from your field and hand, and retire it.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-012.png?v8"
+ },
+ "HTR-1-013": {
+  "key": "HTR-1-013",
+  "numberJp": "UA03BT/HTR-1-013",
+  "nameEn": "",
+  "nameJp": "ビノールト",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-013.png?v8"
+ },
+ "HTR-1-014": {
+  "key": "HTR-1-014",
+  "numberJp": "UA03BT/HTR-1-014",
+  "nameEn": "",
+  "nameJp": "プーハット",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【退場時】カードを1枚引く。",
+  "effectEn": "[On Retire] Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-014.png?v8"
+ },
+ "HTR-1-015": {
+  "key": "HTR-1-015",
+  "numberJp": "UA03BT/HTR-1-015",
+  "nameEn": "",
+  "nameJp": "レイザー",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "相手のフロントLにキャラが2枚以上ある場合、このキャラは【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を得る。【退場時】自分のエナジーLのキャラを1枚まで選び、フロントLに移動させる。",
+  "effectEn": "If your opponent has 2 or more characters in their Front Line, This character [Damage 2](When this character deals direct damage by attacking, deal 2 damage instead) is gained. [On Retire] Choose up to 1 character in your Energy Line, move it to the Front Line.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-015.png?v8"
+ },
+ "HTR-1-016": {
+  "key": "HTR-1-016",
+  "numberJp": "UA03BT/HTR-1-016",
+  "nameEn": "",
+  "nameJp": "トラエモン",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "指定ポケット"
+  ],
+  "effectJp": "【起動メイン】【レストにする】自分の山札の上から1枚を裏向きでこのキャラの下に置く。【退場時】このキャラの下に置かれたカードを見る。その中から1枚までを手札に加え、残りを場外に置く。",
+  "effectEn": "[Activate: Main] [Rest this card] Put the top 1 card(s) of your deck face down under this character. [On Retire] Look at the cards placed under this character. Add up to 1 of them to your hand, and put the rest into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-016.png?v8"
+ },
+ "HTR-1-017": {
+  "key": "HTR-1-017",
+  "numberJp": "UA03BT/HTR-1-017",
+  "nameEn": "",
+  "nameJp": "キルア＝ゾルディック",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ゾルディック家"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-017.png?v8"
+ },
+ "HTR-1-018": {
+  "key": "HTR-1-018",
+  "numberJp": "UA03BT/HTR-1-018",
+  "nameEn": "",
+  "nameJp": "キルア＝ゾルディック",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ゾルディック家"
+  ],
+  "effectJp": "【アタック時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[When Attacking] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP3500以下の相手のフロントLのキャラを1枚選び、手札に戻す。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 3500 or less, return it to its owner's hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-018.png?v8"
+ },
+ "HTR-1-019": {
+  "key": "HTR-1-019",
+  "numberJp": "UA03BT/HTR-1-019",
+  "nameEn": "",
+  "nameJp": "キルア＝ゾルディック",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ゾルディック家"
+  ],
+  "effectJp": "【レイド】〈キルア＝ゾルディック〉アクティブにし、フロントLに移動できる【アタック時】【ターン1】自分の手札を望む枚数公開する。自分の場と手札から公開した［特徴：指定ポケット］の種類の数により以下の全ての効果が発動する。・2種類以上：カードを1枚引く。・4種類以上：このキャラはこのターン中、【ダメージ（2）】を得る。",
+  "effectEn": "[Raid] Can Raid onto <Killua Zoldyck>; set it to active and you may move it to the Front Line. [When Attacking] [Once Per Turn] Reveal any number of cards from your hand. Depending on the number of types of [Trait: Designated Pocket] revealed from your field and hand, all of the following effects activate. 2 or more types: Draw 1 card(s). 4 or more types: This character, this turn, [Damage 2] is gained.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-019.png?v8"
+ },
+ "HTR-1-020": {
+  "key": "HTR-1-020",
+  "numberJp": "UA03BT/HTR-1-020",
+  "nameEn": "",
+  "nameJp": "ゲンスルー",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "爆弾魔"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-020.png?v8"
+ },
+ "HTR-1-021": {
+  "key": "HTR-1-021",
+  "numberJp": "UA03BT/HTR-1-021",
+  "nameEn": "",
+  "nameJp": "ゲンスルー",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "爆弾魔"
+  ],
+  "effectJp": "【登場時】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。",
+  "effectEn": "[On Play] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-021.png?v8"
+ },
+ "HTR-1-022": {
+  "key": "HTR-1-022",
+  "numberJp": "UA03BT/HTR-1-022",
+  "nameEn": "",
+  "nameJp": "ゲンスルー",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 2,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "爆弾魔"
+  ],
+  "effectJp": "【登場時】カードを1枚引く。自分の手札を1枚自分の山札の上に置いてもよい。そうした場合、BP3000以下の相手のフロントLのキャラを1枚まで選び、手札に戻す。",
+  "effectEn": "[On Play] Draw 1 card(s). You may put 1 card(s) from your hand on top of your deck. If you do, Choose up to 1 character in your opponent's Front Line with BP 3000 or less, return it to its owner's hand.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP3500以下の相手のフロントLのキャラを1枚選び、手札に戻す。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 3500 or less, return it to its owner's hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-022.png?v8"
+ },
+ "HTR-1-023": {
+  "key": "HTR-1-023",
+  "numberJp": "UA03BT/HTR-1-023",
+  "nameEn": "",
+  "nameJp": "ゲンスルー",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "爆弾魔"
+  ],
+  "effectJp": "【レイド】〈ゲンスルー〉アクティブにし、フロントLに移動できる【登場時】自分の山札の上から1枚を公開する。公開したカードの必要エナジーが2以上の場合、BP3000以下の相手のフロントLのキャラを1枚まで選び、退場させる。公開したカードを自分の山札の上か下に置く。",
+  "effectEn": "[Raid] Can Raid onto <ゲンスルー>; set it to active and you may move it to the Front Line. [On Play] Reveal the top 1 card(s) of your deck. If the revealed card's required energy is 2 or more, choose up to 1 character in your opponent's Front Line with BP 3000 or less, and retire it. Put the revealed card on the top or bottom of your deck.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-023.png?v8"
+ },
+ "HTR-1-024": {
+  "key": "HTR-1-024",
+  "numberJp": "UA03BT/HTR-1-024",
+  "nameEn": "",
+  "nameJp": "サブ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "爆弾魔"
+  ],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中から［特徴：爆弾魔］か〈リスキーダイス〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 [Trait: Bomber] or <リスキーダイス> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-024.png?v8"
+ },
+ "HTR-1-025": {
+  "key": "HTR-1-025",
+  "numberJp": "UA03BT/HTR-1-025",
+  "nameEn": "",
+  "nameJp": "バラ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "爆弾魔"
+  ],
+  "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分の山札の上から1枚を公開する。公開したカードの必要エナジーが2以上の場合、BP1500以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。公開したカードを自分の山札の上か下に置く。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Reveal the top 1 card(s) of your deck. If the revealed card's required energy is 2 or more, choose up to 1 character in your opponent's Front Line with 1500 or more BP, and it gets BP-1000 this turn. Put the revealed card on the top or bottom of your deck.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-025.png?v8"
+ },
+ "HTR-1-026": {
+  "key": "HTR-1-026",
+  "numberJp": "UA03BT/HTR-1-026",
+  "nameEn": "",
+  "nameJp": "一坪の海岸線",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "指定ポケット"
+  ],
+  "effectJp": "※このカードはデッキに3枚までしか入れられない。自分の手札の上限は15枚になる。【登場時】カードを1枚引く。",
+  "effectEn": "※You can only include up to 3 copies of this card in your deck. Your hand size limit becomes 15. [On Play] Draw 1 card(s).",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-026.png?v8"
+ },
+ "HTR-1-027": {
+  "key": "HTR-1-027",
+  "numberJp": "UA03BT/HTR-1-027",
+  "nameEn": "",
+  "nameJp": "リスキーダイス",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "指定ポケット"
+  ],
+  "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】自分の場のキャラを1枚選ぶ。自分の山札の上から1枚を公開する。公開したカードの必要エナジーが2以上の場合、そのカードを手札に加え、選んだキャラはこのターン中、BP+1000。公開したカードの必要エナジーが1以下の場合、選んだキャラを退場させ、公開したカードを山札の上に戻す。",
+  "effectEn": "This Field is played active. [Activate: Main] [Rest this card] Choose 1 character on your field. Reveal the top 1 card(s) of your deck. If the revealed card's required energy is 2 or more, add that card to your hand, and the chosen character gets BP+1000 this turn. If the revealed card's required energy is 1 or less, retire the chosen character, and return the revealed card to the top of your deck.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-027.png?v8"
+ },
+ "HTR-1-028": {
+  "key": "HTR-1-028",
+  "numberJp": "UA03BT/HTR-1-028",
+  "nameEn": "",
+  "nameJp": "聖騎士の首飾り",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [
+   "指定ポケット"
+  ],
+  "effectJp": "自分か相手の場のレイド状態のカードを1枚選び、レイド状態の上のカードを1枚場外に置く。カードを1枚引く。",
+  "effectEn": "Choose 1 Raided card on your or your opponent's field, and put 1 top card of that Raided stack into the Outside Area. Draw 1 card(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-028.png?v8"
+ },
+ "HTR-1-029": {
+  "key": "HTR-1-029",
+  "numberJp": "UA03BT/HTR-1-029",
+  "nameEn": "",
+  "nameJp": "大天使の息吹",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [
+   "指定ポケット"
+  ],
+  "effectJp": "※このカードはデッキに3枚までしか入れられない。自分の場外から必要エナジーを満たし消費APが1のキャラカードを1枚自分の場にレストで登場させるかレイドさせる。",
+  "effectEn": "※You can only include up to 3 copies of this card in your deck. Play 1 character card whose required energy you meet and with AP cost 1 from your Outside Area to your field rested or Raid it.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-029.png?v8"
+ },
+ "HTR-1-030": {
+  "key": "HTR-1-030",
+  "numberJp": "UA03BT/HTR-1-030",
+  "nameEn": "Accompany",
+  "nameJp": "同行",
+  "series": "HUNTER×HUNTER",
+  "setName": "UEX04BT: HUNTER X HUNTER Vol.2",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場のキャラを望む枚数選び、別のラインに移動させるか入れ替える。カードを1枚引く。",
+  "effectEn": "Choose any number of characters on your field, and move them to another line or swap them. Draw 1 card(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-030.png?v8"
+ },
+ "HTR-1-031": {
+  "key": "HTR-1-031",
+  "numberJp": "UA03BT/HTR-1-031",
+  "nameEn": "",
+  "nameJp": "ジャジャン拳",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈ゴン＝フリークス〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Gon Freecss> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-031.png?v8"
+ },
+ "HTR-1-032": {
+  "key": "HTR-1-032",
+  "numberJp": "UA03BT/HTR-1-032",
+  "nameEn": "",
+  "nameJp": "ビスケの修行",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-032.png?v8"
+ },
+ "HTR-1-033": {
+  "key": "HTR-1-033",
+  "numberJp": "UA03BT/HTR-1-033",
+  "nameEn": "",
+  "nameJp": "解放",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 2,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "このカードを使用する際に、自分の手札を望む枚数公開する。自分の場と手札から公開した［特徴：爆弾魔］が合計3枚以上ある場合、消費APを-1する。BP5000以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "effectEn": "When using this card, reveal any number of cards from your hand. If you revealed a total of 3 or more [Trait: Bomber] from your field and hand, reduce the AP cost by 1. Choose 1 character in your opponent's Front Line with BP 5000 or less, retire it.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-033.png?v8"
+ },
+ "HTR-1-034": {
+  "key": "HTR-1-034",
+  "numberJp": "UA03BT/HTR-1-034",
+  "nameEn": "",
+  "nameJp": "ウボォーギン",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "幻影旅団"
+  ],
+  "effectJp": "【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【自分のターン中】このキャラはBP+1500。",
+  "effectEn": "[Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [During Your Turn] This character gets BP+1500.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-034.png?v8"
+ },
+ "HTR-1-035": {
+  "key": "HTR-1-035",
+  "numberJp": "UA03BT/HTR-1-035",
+  "nameEn": "",
+  "nameJp": "クロロ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "幻影旅団"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-035.png?v8"
+ },
+ "HTR-1-036": {
+  "key": "HTR-1-036",
+  "numberJp": "UA03BT/HTR-1-036",
+  "nameEn": "",
+  "nameJp": "クロロ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "幻影旅団"
+  ],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中から〈クロロ〉以外の［特徴：幻影旅団］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 [Trait: Phantom Troupe] other than <Chrollo> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の場外から必要エナジーが2以下で消費APが1の紫のキャラカードを1枚自分のフロントLにアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Purple character card with required energy 2 or less and with AP cost 1 from your Outside Area to your Front Line active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-036.png?v8"
+ },
+ "HTR-1-037": {
+  "key": "HTR-1-037",
+  "numberJp": "UA03BT/HTR-1-037",
+  "nameEn": "",
+  "nameJp": "クロロ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "幻影旅団"
+  ],
+  "effectJp": "【レイド】〈クロロ〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】自分の場にある〈クロロ〉以外の特徴に「幻影旅団」を持つキャラを1枚まで選び、そのキャラの【登場時】を発動する。",
+  "effectEn": "[Raid] Can Raid onto <Chrollo>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] Choose up to 1 character with the trait “Phantom Troupe” other than <Chrollo> on your field, and activate its [On Play].",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-037.png?v8"
+ },
+ "HTR-1-038": {
+  "key": "HTR-1-038",
+  "numberJp": "UA03BT/HTR-1-038",
+  "nameEn": "",
+  "nameJp": "シズク",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "幻影旅団"
+  ],
+  "effectJp": "【登場時】カードを1枚引く。",
+  "effectEn": "[On Play] Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-038.png?v8"
+ },
+ "HTR-1-039": {
+  "key": "HTR-1-039",
+  "numberJp": "UA03BT/HTR-1-039",
+  "nameEn": "",
+  "nameJp": "シャルナーク",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "幻影旅団"
+  ],
+  "effectJp": "【登場時】自分の場外から必要エナジーが3以下で消費APが1の〈シャルナーク〉以外の特徴に「幻影旅団」を持つキャラカードを1枚まで自分の場にレストで登場させる。エンドフェイズ開始時、そのキャラを退場させる。",
+  "effectEn": "[On Play] Play up to 1 character card(s) other than <Shalnark> with the trait “Phantom Troupe”, required energy 3 or less and AP cost 1 from your Outside Area to your field rested. At the start of the End Phase, retire that character.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-039.png?v8"
+ },
+ "HTR-1-040": {
+  "key": "HTR-1-040",
+  "numberJp": "UA03BT/HTR-1-040",
+  "nameEn": "",
+  "nameJp": "ノブナガ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "幻影旅団"
+  ],
+  "effectJp": "【登場時】自分の場に他の［特徴：幻影旅団］が3枚以上ある場合、相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。",
+  "effectEn": "[On Play] If you have 3 or more other [Trait: Phantom Troupe] on your field, Choose up to 1 character in your opponent's Front Line, it gets BP-1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-040.png?v8"
+ },
+ "HTR-1-041": {
+  "key": "HTR-1-041",
+  "numberJp": "UA03BT/HTR-1-041",
+  "nameEn": "",
+  "nameJp": "パクノダ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "幻影旅団"
+  ],
+  "effectJp": "【退場時】カードを1枚引く。",
+  "effectEn": "[On Retire] Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-041.png?v8"
+ },
+ "HTR-1-042": {
+  "key": "HTR-1-042",
+  "numberJp": "UA03BT/HTR-1-042",
+  "nameEn": "",
+  "nameJp": "ヒソカ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "幻影旅団"
+  ],
+  "effectJp": "【登場時】相手の場のキャラを1枚まで選び、このターン中、「最初のアタックをブロックできない」を与える。",
+  "effectEn": "[On Play] Choose up to 1 character on your opponent's field, and it gains “Cannot block the first attack” this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-042.png?v8"
+ },
+ "HTR-1-043": {
+  "key": "HTR-1-043",
+  "numberJp": "UA03BT/HTR-1-043",
+  "nameEn": "",
+  "nameJp": "ヒソカ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 6,
+  "ap": 2,
+  "bp": 4500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "幻影旅団"
+  ],
+  "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】相手のエナジーLのキャラを1枚まで選び、フロントLに移動させる。相手のフロントLに空きがない場合、代わりに相手のフロントLのキャラと相手のエナジーLのキャラを1枚ずつ選び、それらの位置を入れ替えてもよい。",
+  "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] Choose up to 1 character in your opponent's Energy Line, move it to the Front Line. If there is no space in your opponent's Front Line, you may instead choose 1 each of characters in your opponent's Front Line and Energy Line, and swap their positions.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-043.png?v8"
+ },
+ "HTR-1-044": {
+  "key": "HTR-1-044",
+  "numberJp": "UA03BT/HTR-1-044",
+  "nameEn": "",
+  "nameJp": "フィンクス",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "幻影旅団"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-044.png?v8"
+ },
+ "HTR-1-045": {
+  "key": "HTR-1-045",
+  "numberJp": "UA03BT/HTR-1-045",
+  "nameEn": "",
+  "nameJp": "フェイタン",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "幻影旅団"
+  ],
+  "effectJp": "【登場時】相手のフロントLのキャラを1枚まで選び、このターン中、『BP-2000』。自分のライフが4以下の場合、『BP-3000』に代わる。",
+  "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line, This turn, 『BP-2000』. If you have 4 or less Life, it becomes “BP-3000” instead.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-045.png?v8"
+ },
+ "HTR-1-046": {
+  "key": "HTR-1-046",
+  "numberJp": "UA03BT/HTR-1-046",
+  "nameEn": "",
+  "nameJp": "フランクリン",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "幻影旅団"
+  ],
+  "effectJp": "【登場時】相手のフロントLのキャラ全ては、このターン中、BP-500。",
+  "effectEn": "[On Play] All characters in your opponent's Front Line it gets BP-500 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-046.png?v8"
+ },
+ "HTR-1-047": {
+  "key": "HTR-1-047",
+  "numberJp": "UA03BT/HTR-1-047",
+  "nameEn": "",
+  "nameJp": "ボノレノフ＆コルトピ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "幻影旅団"
+  ],
+  "effectJp": "【登場時】以下から1つ選ぶ。・自分の場のキャラを1枚まで選び、別のラインに移動させる。・自分のフロントLのキャラと自分のエナジーLのキャラを1枚ずつ選び、それらの位置を入れ替えてもよい。",
+  "effectEn": "[On Play] Choose 1 of the following. Choose up to 1 character on your field, move it to another line. You may choose 1 character in your Front Line and 1 character in your Energy Line, and swap their positions.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-047.png?v8"
+ },
+ "HTR-1-048": {
+  "key": "HTR-1-048",
+  "numberJp": "UA03BT/HTR-1-048",
+  "nameEn": "",
+  "nameJp": "マチ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "幻影旅団"
+  ],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-048.png?v8"
+ },
+ "HTR-1-049": {
+  "key": "HTR-1-049",
+  "numberJp": "UA03BT/HTR-1-049",
+  "nameEn": "",
+  "nameJp": "イルミ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ゾルディック家"
+  ],
+  "effectJp": "【登場時】カードを1枚引く。",
+  "effectEn": "[On Play] Draw 1 card(s).",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の場外から必要エナジーが2以下で消費APが1の紫のキャラカードを1枚自分のフロントLにアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Purple character card with required energy 2 or less and with AP cost 1 from your Outside Area to your Front Line active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-049.png?v8"
+ },
+ "HTR-1-050": {
+  "key": "HTR-1-050",
+  "numberJp": "UA03BT/HTR-1-050",
+  "nameEn": "",
+  "nameJp": "イルミ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ゾルディック家"
+  ],
+  "effectJp": "【レイド】〈イルミ〉アクティブにし、フロントLに移動できる【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【登場時】相手のキャラを1枚まで選ぶ。自分はこのターン中、「選んだキャラが退場した場合、カードを2枚引く」を得る。",
+  "effectEn": "[Raid] Can Raid onto <Illumi>; set it to active and you may move it to the Front Line. [Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [On Play] Choose up to 1 of your opponent's characters. You gain “If the chosen character is retired, Draw 2 card(s)” this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-050.png?v8"
+ },
+ "HTR-1-051": {
+  "key": "HTR-1-051",
+  "numberJp": "UA03BT/HTR-1-051",
+  "nameEn": "",
+  "nameJp": "カルト",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ゾルディック家"
+  ],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【紫】。",
+  "effectEn": "While this character is active, its generated energy +[Purple].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-051.png?v8"
+ },
+ "HTR-1-052": {
+  "key": "HTR-1-052",
+  "numberJp": "UA03BT/HTR-1-052",
+  "nameEn": "",
+  "nameJp": "キキョウ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ゾルディック家"
+  ],
+  "effectJp": "【退場時】自分の山札の上から3枚見る。その中から［特徴：ゾルディック家］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
+  "effectEn": "[On Retire] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: Zoldyck Family] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-052.png?v8"
+ },
+ "HTR-1-053": {
+  "key": "HTR-1-053",
+  "numberJp": "UA03BT/HTR-1-053",
+  "nameEn": "",
+  "nameJp": "ギタラクル",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ゾルディック家"
+  ],
+  "effectJp": "このカードは〈イルミ〉としても扱う。",
+  "effectEn": "This card is also treated as <Illumi>.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-053.png?v8"
+ },
+ "HTR-1-054": {
+  "key": "HTR-1-054",
+  "numberJp": "UA03BT/HTR-1-054",
+  "nameEn": "",
+  "nameJp": "ゴトー",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ゾルディック家"
+  ],
+  "effectJp": "相手の場に青か緑のカードがある場合、手札にあるこのカードの必要エナジーを【紫×1】減らす。",
+  "effectEn": "If your opponent has Blue or Green card on their field, the required energy of this card in your hand [Purple x1]is reduced.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-054.png?v8"
+ },
+ "HTR-1-055": {
+  "key": "HTR-1-055",
+  "numberJp": "UA03BT/HTR-1-055",
+  "nameEn": "",
+  "nameJp": "シルバ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ゾルディック家"
+  ],
+  "effectJp": "【登場時】相手のキャラを1枚まで選ぶ。自分はこのターン中、「選んだキャラが退場した場合、自分の場外から〈シルバ〉以外の［特徴：ゾルディック家］を1枚まで手札に加える」を得る。",
+  "effectEn": "[On Play] Choose up to 1 of your opponent's characters. You gain “If the chosen character is retired, add up to 1 [Trait: Zoldyck Family] other than <シルバ> from your Outside Area to your hand” this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-055.png?v8"
+ },
+ "HTR-1-056": {
+  "key": "HTR-1-056",
+  "numberJp": "UA03BT/HTR-1-056",
+  "nameEn": "",
+  "nameJp": "シルバ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ゾルディック家"
+  ],
+  "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【起動メイン】【手札を2枚場外に置く】このキャラはこのターン中、【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、指定した場合、相手はブロックできない）を得る。",
+  "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [Activate: Main] [Put 2 card(s) from your hand into your Outside Area] This character, this turn, [Snipe](Can attack a character in your opponent's Front Line; if it does, your opponent cannot block) is gained.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-056.png?v8"
+ },
+ "HTR-1-057": {
+  "key": "HTR-1-057",
+  "numberJp": "UA03BT/HTR-1-057",
+  "nameEn": "",
+  "nameJp": "ゼノ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ゾルディック家"
+  ],
+  "effectJp": "【起動メイン】【フロントLにある場合】【レストにする】BP4000以下の相手のフロントLのキャラを1枚選び、退場させる。このキャラをリムーブエリアに置く。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Rest this card] Choose 1 character in your opponent's Front Line with BP 4000 or less, retire it. Put this character into the Remove Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-057.png?v8"
+ },
+ "HTR-1-058": {
+  "key": "HTR-1-058",
+  "numberJp": "UA03BT/HTR-1-058",
+  "nameEn": "",
+  "nameJp": "ゼブロ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ゾルディック家"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【紫】。メインフェイズ終了時、このキャラを退場させる。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Purple]. At the end of the Main Phase, retire this character.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-058.png?v8"
+ },
+ "HTR-1-059": {
+  "key": "HTR-1-059",
+  "numberJp": "UA03BT/HTR-1-059",
+  "nameEn": "",
+  "nameJp": "ミケ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ゾルディック家"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-059.png?v8"
+ },
+ "HTR-1-060": {
+  "key": "HTR-1-060",
+  "numberJp": "UA03BT/HTR-1-060",
+  "nameEn": "",
+  "nameJp": "ミルキ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ゾルディック家"
+  ],
+  "effectJp": "【登場時】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。",
+  "effectEn": "[On Play] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-060.png?v8"
+ },
+ "HTR-1-061": {
+  "key": "HTR-1-061",
+  "numberJp": "UA03BT/HTR-1-061",
+  "nameEn": "",
+  "nameJp": "試しの門",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】自分の場のアクティブのキャラを1枚レストにする。そうした場合、『カードを1枚引き、自分の手札を1枚場外に置く』。BP3000以上のキャラをレストしていた場合、『カードを1枚引く』に代わる。",
+  "effectEn": "[Activate: Main] [Rest this card] Rest 1 active character on your field. If you do, “Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area” If you rested a character with 3000 or more BP, it becomes “Draw 1 card(s)” instead.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-061.png?v8"
+ },
+ "HTR-1-062": {
+  "key": "HTR-1-062",
+  "numberJp": "UA03BT/HTR-1-062",
+  "nameEn": "",
+  "nameJp": "裏社会の住人",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-062.png?v8"
+ },
+ "HTR-1-063": {
+  "key": "HTR-1-063",
+  "numberJp": "UA03BT/HTR-1-063",
+  "nameEn": "",
+  "nameJp": "おそろしく速い手刀",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "相手のフロントLのキャラを1枚選び、このターン中、BP-2000。",
+  "effectEn": "Choose 1 character in your opponent's Front Line, it gets BP-2000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-063.png?v8"
+ },
+ "HTR-1-064": {
+  "key": "HTR-1-064",
+  "numberJp": "UA03BT/HTR-1-064",
+  "nameEn": "",
+  "nameJp": "蜘蛛の刺青",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から4枚見る。その中から［特徴：幻影旅団］を2枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
+  "effectEn": "Look at the top 4 card(s) of your deck. Reveal up to 2 [Trait: Phantom Troupe] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-064.png?v8"
+ },
+ "HTR-1-065": {
+  "key": "HTR-1-065",
+  "numberJp": "UA03BT/HTR-1-065",
+  "nameEn": "",
+  "nameJp": "盗賊の極意",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "相手のフロントLのキャラを1枚選び、このターン中、BP-3000。自分の場に〈クロロ〉がある場合、自分の場にある〈クロロ〉以外の必要エナジーが3以下の特徴に「幻影旅団」を持つキャラを1枚まで選び、そのキャラの【登場時】を発動する。",
+  "effectEn": "Choose 1 character in your opponent's Front Line, it gets BP-3000 this turn. If you have <Chrollo> on your field, choose up to 1 character with the trait “Phantom Troupe” other than <Chrollo> with required energy 3 or less on your field, and activate its [On Play].",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-065.png?v8"
+ },
+ "HTR-1-066": {
+  "key": "HTR-1-066",
+  "numberJp": "UA03BT/HTR-1-066",
+  "nameEn": "",
+  "nameJp": "龍頭戯画",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に［特徴：ゾルディック家］が3枚以上ある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have 3 or more [Trait: Zoldyck Family] on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-066.png?v8"
+ },
+ "HTR-1-067": {
+  "key": "HTR-1-067",
+  "numberJp": "UA03BT/HTR-1-067",
+  "nameEn": "",
+  "nameJp": "伸縮自在の愛",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場外からキャラカードを1枚手札に加える。",
+  "effectEn": "Add 1 character card from your Outside Area to your hand.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-067.png?v8"
+ },
+ "HTR-1-068": {
+  "key": "HTR-1-068",
+  "numberJp": "UA03BT/HTR-1-068",
+  "nameEn": "",
+  "nameJp": "陰獣",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "相手の場に青か紫のカードがある場合、手札にあるこのカードの必要エナジーを【緑×1】減らす。",
+  "effectEn": "If your opponent has Blue or Purple card on their field, the required energy of this card in your hand [Green x1]is reduced.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-068.png?v8"
+ },
+ "HTR-1-069": {
+  "key": "HTR-1-069",
+  "numberJp": "UA03BT/HTR-1-069",
+  "nameEn": "",
+  "nameJp": "ウイング",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
+  "effectEn": "[Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-069.png?v8"
+ },
+ "HTR-1-070": {
+  "key": "HTR-1-070",
+  "numberJp": "UA03BT/HTR-1-070",
+  "nameEn": "",
+  "nameJp": "凶狸狐",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】カードを1枚引く。",
+  "effectEn": "[On Play] Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-070.png?v8"
+ },
+ "HTR-1-071": {
+  "key": "HTR-1-071",
+  "numberJp": "UA03BT/HTR-1-071",
+  "nameEn": "",
+  "nameJp": "クラピカ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-071.png?v8"
+ },
+ "HTR-1-072": {
+  "key": "HTR-1-072",
+  "numberJp": "UA03BT/HTR-1-072",
+  "nameEn": "",
+  "nameJp": "クラピカ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の発生エナジーが6以上ある場合、このキャラはBP+1000。",
+  "effectEn": "If your generated energy is 6 or more, this character gets BP+1000.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-072.png?v8"
+ },
+ "HTR-1-073": {
+  "key": "HTR-1-073",
+  "numberJp": "UA03BT/HTR-1-073",
+  "nameEn": "",
+  "nameJp": "クラピカ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の発生エナジーが6以上ある場合、このキャラは【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。【登場時】【アタック時】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。",
+  "effectEn": "If your generated energy is 6 or more, this character gains [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] [When Attacking] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の手札から必要エナジーが2以下で消費APが1の緑のキャラカードを1枚自分の場にアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Green character card with required energy 2 or less and with AP cost 1 from your hand to your field active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-073.png?v8"
+ },
+ "HTR-1-074": {
+  "key": "HTR-1-074",
+  "numberJp": "UA03BT/HTR-1-074",
+  "nameEn": "",
+  "nameJp": "クラピカ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 7,
+  "ap": 1,
+  "bp": 5000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈クラピカ〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】以下から1つ選ぶ。・相手のフロントLのキャラを1枚まで選び、レストにする。・このキャラはこのターン中、【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、指定した場合、相手はブロックできない）を得る。",
+  "effectEn": "[Raid] Can Raid onto <Kurapika>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] Choose 1 of the following. Choose up to 1 character in your opponent's Front Line, rest it. This character, this turn, [Snipe](Can attack a character in your opponent's Front Line; if it does, your opponent cannot block) is gained.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-074.png?v8"
+ },
+ "HTR-1-075": {
+  "key": "HTR-1-075",
+  "numberJp": "UA03BT/HTR-1-075",
+  "nameEn": "",
+  "nameJp": "ゴン＝フリークス",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-075.png?v8"
+ },
+ "HTR-1-076": {
+  "key": "HTR-1-076",
+  "numberJp": "UA03BT/HTR-1-076",
+  "nameEn": "",
+  "nameJp": "ゴン＝フリークス",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から5枚見る。その中から必要エナジーが4以下の「〈キルア＝ゾルディック〉か〈クラピカ〉か〈レオリオ〉」を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 5 card(s) of your deck. From among them, reveal up to 1 “<Killua Zoldyck> or <Kurapika> or <Leorio>” with required energy 4 or less and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-076.png?v8"
+ },
+ "HTR-1-077": {
+  "key": "HTR-1-077",
+  "numberJp": "UA03BT/HTR-1-077",
+  "nameEn": "",
+  "nameJp": "ゴン＝フリークス",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 2,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】【フロントLにある場合】自分のフロントLの他のキャラの数×1000以下のBPの相手のフロントLのキャラを1枚まで選び、退場させる。",
+  "effectEn": "[On Play] [While in Front Line] Choose up to 1 character in your opponent's Front Line with BP equal to or less than 1000 × the number of other characters in your Front Line, and retire it.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の手札から必要エナジーが2以下で消費APが1の緑のキャラカードを1枚自分の場にアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Green character card with required energy 2 or less and with AP cost 1 from your hand to your field active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-077.png?v8"
+ },
+ "HTR-1-078": {
+  "key": "HTR-1-078",
+  "numberJp": "UA03BT/HTR-1-078",
+  "nameEn": "",
+  "nameJp": "ゴン＝フリークス",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈ゴン＝フリークス〉アクティブにし、フロントLに移動できる【登場時】【アタック時】自分の場のキャラを2枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[Raid] Can Raid onto <Gon Freecss>; set it to active and you may move it to the Front Line. [On Play] [When Attacking] Choose up to 2 characters on your field, it gets BP+1000 this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-078.png?v8"
+ },
+ "HTR-1-079": {
+  "key": "HTR-1-079",
+  "numberJp": "UA03BT/HTR-1-079",
+  "nameEn": "",
+  "nameJp": "サトツ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【緑】。メインフェイズ終了時、このキャラを退場させる。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Green]. At the end of the Main Phase, retire this character.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-079.png?v8"
+ },
+ "HTR-1-080": {
+  "key": "HTR-1-080",
+  "numberJp": "UA03BT/HTR-1-080",
+  "nameEn": "",
+  "nameJp": "ジョネス",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【フロントLにある場合】自分のアタックフェイズ終了時、このキャラがアクティブの場合、このキャラを退場させる。このキャラがアタックしてバトルに敗北した時、このキャラを退場させる。",
+  "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [While in Front Line] At the end of your Attack Phase, if this character is active, retire this character. When this character attacks and loses a battle, retire this character.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-080.png?v8"
+ },
+ "HTR-1-081": {
+  "key": "HTR-1-081",
+  "numberJp": "UA03BT/HTR-1-081",
+  "nameEn": "",
+  "nameJp": "ゼパイル",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-081.png?v8"
+ },
+ "HTR-1-082": {
+  "key": "HTR-1-082",
+  "numberJp": "UA03BT/HTR-1-082",
+  "nameEn": "",
+  "nameJp": "センリツ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラはフロントLにある場合もエナジーを発生させる。",
+  "effectEn": "This character also generates energy while in the Front Line.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-082.png?v8"
+ },
+ "HTR-1-083": {
+  "key": "HTR-1-083",
+  "numberJp": "UA03BT/HTR-1-083",
+  "nameEn": "",
+  "nameJp": "トンパ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】BP1500以上の相手の場のキャラを1枚まで選び、このターン中、BP-1000。",
+  "effectEn": "[On Play] Choose up to 1 character on your opponent's field with BP 1500 or more, it gets BP-1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-083.png?v8"
+ },
+ "HTR-1-084": {
+  "key": "HTR-1-084",
+  "numberJp": "UA03BT/HTR-1-084",
+  "nameEn": "",
+  "nameJp": "ネオン",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 2,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中からキャラカードを1枚まで公開し手札に加える。公開したカードが消費APが1のキャラカードで必要エナジーを満たす場合、手札に加える代わりに自分の場にアクティブで登場させるかレイドさせてもよい。残りを望む順で自分の山札の下に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 character card among them and add it to your hand. If the revealed card is a character card with AP cost 1 whose required energy you meet, you may play it to your field active or Raid with it instead of adding it to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-084.png?v8"
+ },
+ "HTR-1-085": {
+  "key": "HTR-1-085",
+  "numberJp": "UA03BT/HTR-1-085",
+  "nameEn": "",
+  "nameJp": "ネテロ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【緑】。",
+  "effectEn": "While this character is active, its generated energy +[Green].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-085.png?v8"
+ },
+ "HTR-1-086": {
+  "key": "HTR-1-086",
+  "numberJp": "UA03BT/HTR-1-086",
+  "nameEn": "",
+  "nameJp": "バショウ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-086.png?v8"
+ },
+ "HTR-1-087": {
+  "key": "HTR-1-087",
+  "numberJp": "UA03BT/HTR-1-087",
+  "nameEn": "",
+  "nameJp": "ハンゾー",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【アタック時】以下から1つ選ぶ。・このキャラはこのターン中、BP+1000。・このキャラはこのターン中、【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を得る。",
+  "effectEn": "[When Attacking] Choose 1 of the following. This character gets BP+1000 this turn. This character, this turn, [Damage 2](When this character deals direct damage by attacking, deal 2 damage instead) is gained.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-087.png?v8"
+ },
+ "HTR-1-088": {
+  "key": "HTR-1-088",
+  "numberJp": "UA03BT/HTR-1-088",
+  "nameEn": "",
+  "nameJp": "ポックル",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-088.png?v8"
+ },
+ "HTR-1-089": {
+  "key": "HTR-1-089",
+  "numberJp": "UA03BT/HTR-1-089",
+  "nameEn": "",
+  "nameJp": "ポンズ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【退場時】カードを1枚引く。",
+  "effectEn": "[On Retire] Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-089.png?v8"
+ },
+ "HTR-1-090": {
+  "key": "HTR-1-090",
+  "numberJp": "UA03BT/HTR-1-090",
+  "nameEn": "",
+  "nameJp": "レオリオ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-090.png?v8"
+ },
+ "HTR-1-091": {
+  "key": "HTR-1-091",
+  "numberJp": "UA03BT/HTR-1-091",
+  "nameEn": "",
+  "nameJp": "レオリオ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 2,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場外から緑のキャラカードを1枚まで手札に加える。",
+  "effectEn": "[On Play] Add up to 1 Green character card(s) from your Outside Area to your hand.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-091.png?v8"
+ },
+ "HTR-1-092": {
+  "key": "HTR-1-092",
+  "numberJp": "UA03BT/HTR-1-092",
+  "nameEn": "",
+  "nameJp": "レオリオ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ターン1】このキャラがアタックしてブロックされなかった時、カードを1枚引く。【起動メイン】【APを1支払う】このキャラはこのターン中、BP+1500と【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
+  "effectEn": "[Once Per Turn] When this character attacks and is not blocked, Draw 1 card(s). [Activate: Main] [Pay 1 AP] This character gets BP+1500 and gains [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-092.png?v8"
+ },
+ "HTR-1-093": {
+  "key": "HTR-1-093",
+  "numberJp": "UA03BT/HTR-1-093",
+  "nameEn": "",
+  "nameJp": "ヒソカ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "幻影旅団"
+  ],
+  "effectJp": "【ターン1】このキャラがアタックしてバトルに勝利した時、カードを1枚引く。【起動メイン】【APを1支払う】【ターン1】このターン中、相手はこのキャラのアタックを可能ならブロックしなければならない。",
+  "effectEn": "[Once Per Turn] When this character attacks and wins a battle, Draw 1 card(s). [Activate: Main] [Pay 1 AP] [Once Per Turn] This turn, Your opponent must block this character's attacks if able.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-093.png?v8"
+ },
+ "HTR-1-094": {
+  "key": "HTR-1-094",
+  "numberJp": "UA03BT/HTR-1-094",
+  "nameEn": "",
+  "nameJp": "キルア＝ゾルディック",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ゾルディック家"
+  ],
+  "effectJp": "このキャラはBPをマイナスする効果を受けない。【起動メイン】【ターン1】このキャラのBPが4000以上の場合、このキャラをアクティブにする。【起動メイン】【レストにする】BP1500以上の相手の場のキャラを1枚まで選び、このターン中、BP-1000。",
+  "effectEn": "This character is not affected by effects that reduce BP. [Activate: Main] [Once Per Turn] If this character's BP is 4000 or more, Set this character to active. [Activate: Main] [Rest this card] Choose up to 1 character on your opponent's field with BP 1500 or more, it gets BP-1000 this turn.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-094.png?v8"
+ },
+ "HTR-1-095": {
+  "key": "HTR-1-095",
+  "numberJp": "UA03BT/HTR-1-095",
+  "nameEn": "",
+  "nameJp": "天空闘技場",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ターン1】自分の場のキャラがアタックしてバトルに勝利した時、カードを1枚引く。",
+  "effectEn": "[Once Per Turn] When a character on your field attacks and wins a battle, draw 1 card(s).",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-095.png?v8"
+ },
+ "HTR-1-096": {
+  "key": "HTR-1-096",
+  "numberJp": "UA03BT/HTR-1-096",
+  "nameEn": "",
+  "nameJp": "絶対時間",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場のキャラを1枚選び、このターン中、BP+3000と「このキャラがアタックしてバトルに勝利した時、カードを1枚引く」を与える。選んだキャラが〈クラピカ〉の場合、さらにこのターン中、【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、指定した場合、相手はブロックできない）を与える。",
+  "effectEn": "Choose 1 character on your field, it gets BP+3000 and gains “When this character attacks and wins a battle, Draw 1 card(s)” this turn. If the chosen character is <Kurapika>, it also gains [Snipe] (Can attack a character in your opponent's Front Line; if it does, your opponent cannot block) this turn.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-096.png?v8"
+ },
+ "HTR-1-097": {
+  "key": "HTR-1-097",
+  "numberJp": "UA03BT/HTR-1-097",
+  "nameEn": "",
+  "nameJp": "釣り竿",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場のキャラの最大BP以下の相手のフロントLのキャラを1枚選び、『手札に戻す』。自分の場に〈ゴン＝フリークス〉がある場合、『退場させる』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP equal to or less than the highest BP among characters on your field, and “return it to its owner's hand” If you have <Gon Freecss> on your field, it becomes “retire it” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-097.png?v8"
+ },
+ "HTR-1-098": {
+  "key": "HTR-1-098",
+  "numberJp": "UA03BT/HTR-1-098",
+  "nameEn": "",
+  "nameJp": "ドキドキ2択クイズ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "相手のフロントLのキャラと、相手のエナジーLのキャラをそれぞれ1枚ずつ選ぶ。相手は選ばれたキャラのうち1枚を退場させてもよい。相手が選ばれたキャラを退場させなかった場合、自分はカードを1枚引き、自分のAPカードを1枚までアクティブにする。",
+  "effectEn": "Choose 1 each of characters in your opponent's Front Line and your opponent's Energy Line. Your opponent may retire 1 of the chosen characters. If your opponent didn't retire a chosen character, you draw 1 card(s) and set up to 1 of your AP cards to active.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-098.png?v8"
+ },
+ "HTR-1-099": {
+  "key": "HTR-1-099",
+  "numberJp": "UA03BT/HTR-1-099",
+  "nameEn": "",
+  "nameJp": "ハンターライセンス",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-099.png?v8"
+ },
+ "HTR-1-100": {
+  "key": "HTR-1-100",
+  "numberJp": "UA03BT/HTR-1-100",
+  "nameEn": "",
+  "nameJp": "水見式",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを望む順で下に置く。カードを2枚引く。",
+  "effectEn": "Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest on the bottom of your deck in any order. Draw 2 card(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-100.png?v8"
+ },
+ "HTR-1-101": {
+  "key": "HTR-1-101",
+  "numberJp": "UA03ST/HTR-1-101",
+  "nameEn": "",
+  "nameJp": "ゴン＝フリークス",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラのBPが4000以上の場合、このキャラは【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
+  "effectEn": "If this character's BP is 4000 or more, This character [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03ST_HTR-1-101.png?v8"
+ },
+ "HTR-1-102": {
+  "key": "HTR-1-102",
+  "numberJp": "UA03ST/HTR-1-102",
+  "nameEn": "",
+  "nameJp": "ゴン＝フリークス",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈ゴン＝フリークス〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】自分の場のキャラ全ては、このターン中、BP+1000。",
+  "effectEn": "[Raid] Can Raid onto <Gon Freecss>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] All characters on your field it gets BP+1000 this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03ST_HTR-1-102.png?v8"
+ },
+ "HTR-1-103": {
+  "key": "HTR-1-103",
+  "numberJp": "UA03ST/HTR-1-103",
+  "nameEn": "",
+  "nameJp": "船長",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03ST_HTR-1-103.png?v8"
+ },
+ "HTR-1-104": {
+  "key": "HTR-1-104",
+  "numberJp": "UA03ST/HTR-1-104",
+  "nameEn": "",
+  "nameJp": "ミト",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03ST_HTR-1-104.png?v8"
+ },
+ "HTR-1-105": {
+  "key": "HTR-1-105",
+  "numberJp": "UA03ST/HTR-1-105",
+  "nameEn": "",
+  "nameJp": "レオリオ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03ST_HTR-1-105.png?v8"
+ },
+ "HTR-1-106": {
+  "key": "HTR-1-106",
+  "numberJp": "UA03ST/HTR-1-106",
+  "nameEn": "",
+  "nameJp": "キルア＝ゾルディック",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ゾルディック家"
+  ],
+  "effectJp": "【登場時】自分の場の他のキャラの最大BP以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
+  "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line with BP equal to or less than the highest BP among other characters on your field, and retire it.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03ST_HTR-1-106.png?v8"
+ },
+ "HTR-1-107": {
+  "key": "HTR-1-107",
+  "numberJp": "UA03ST/HTR-1-107",
+  "nameEn": "",
+  "nameJp": "ヒソカ",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 6,
+  "ap": 2,
+  "bp": 5000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "幻影旅団"
+  ],
+  "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）",
+  "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead)",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03ST_HTR-1-107.png?v8"
+ },
+ "HTR-1-108": {
+  "key": "HTR-1-108",
+  "numberJp": "UA03ST/HTR-1-108",
+  "nameEn": "",
+  "nameJp": "くじら島",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場に〈ゴン＝フリークス〉がある場合、このフィールドの発生エナジー+【緑】。",
+  "effectEn": "If you have <Gon Freecss> on your field, this Field's generated energy +[Green].",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03ST_HTR-1-108.png?v8"
+ },
+ "HTR-1-109": {
+  "key": "HTR-1-109",
+  "numberJp": "UA03ST/HTR-1-109",
+  "nameEn": "",
+  "nameJp": "ジンの写真",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から5枚見る。その中からキャラカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。公開したカードが〈ゴン＝フリークス〉の場合、カードを1枚引く。",
+  "effectEn": "Look at the top 5 card(s) of your deck. Reveal up to 1 character card among them and add it to your hand. Put the rest on the bottom of your deck in any order. If the revealed card is <Gon Freecss>, Draw 1 card(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03ST_HTR-1-109.png?v8"
+ },
+ "HTR-1-AP01": {
+  "key": "HTR-1-AP01",
+  "numberJp": "UA03BT/HTR-1-AP01",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(HUNTER×HUNTER)",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-AP01.png?v8"
+ },
+ "HTR-1-AP02": {
+  "key": "HTR-1-AP02",
+  "numberJp": "UA03BT/HTR-1-AP02",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(HUNTER×HUNTER)",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-AP02.png?v8"
+ },
+ "HTR-1-AP03": {
+  "key": "HTR-1-AP03",
+  "numberJp": "UA03BT/HTR-1-AP03",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(HUNTER×HUNTER)",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-AP03.png?v8"
+ },
+ "HTR-1-AP04": {
+  "key": "HTR-1-AP04",
+  "numberJp": "UA03BT/HTR-1-AP04",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(HUNTER×HUNTER)",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-AP04.png?v8"
+ },
+ "HTR-1-AP05": {
+  "key": "HTR-1-AP05",
+  "numberJp": "UA03BT/HTR-1-AP05",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(HUNTER×HUNTER)",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-AP05.png?v8"
+ },
+ "HTR-1-AP06": {
+  "key": "HTR-1-AP06",
+  "numberJp": "UA03BT/HTR-1-AP06",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(HUNTER×HUNTER)",
+  "series": "HUNTER×HUNTER",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA03BT_HTR-1-AP06.png?v8"
+ }
+}

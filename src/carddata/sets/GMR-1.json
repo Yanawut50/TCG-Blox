@@ -1,0 +1,2747 @@
+{
+ "GMR-1-001": {
+  "key": "GMR-1-001",
+  "numberJp": "UA22BT/GMR-1-001",
+  "nameEn": "",
+  "nameJp": "エミコ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【青】。メインフェイズ終了時、このキャラを退場させる。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Blue]. At the end of the Main Phase, retire this character.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-001.png?v8"
+ },
+ "GMR-1-002": {
+  "key": "GMR-1-002",
+  "numberJp": "UA22BT/GMR-1-002",
+  "nameEn": "",
+  "nameJp": "エミコ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【退場時】自分の山札の上から4枚見る。その中から［特徴：怪獣］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
+  "effectEn": "[On Retire] Look at the top 4 card(s) of your deck. Reveal up to 1 [Trait: Kaiju] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-002.png?v8"
+ },
+ "GMR-1-003": {
+  "key": "GMR-1-003",
+  "numberJp": "UA22BT/GMR-1-003",
+  "nameEn": "",
+  "nameJp": "タザキ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【青】。",
+  "effectEn": "While this character is active, its generated energy +[Blue].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-003.png?v8"
+ },
+ "GMR-1-004": {
+  "key": "GMR-1-004",
+  "numberJp": "UA22BT/GMR-1-004",
+  "nameEn": "",
+  "nameJp": "ノーラ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】このカードが手札から場外に置かれた時、このターン中、次に手札から使用する特徴に「怪獣」を持つ青のキャラカードの必要エナジーを【青×1】減らす。",
+  "effectEn": "[During Your Turn] When this card is put from your hand into your Outside Area, this turn, reduce the required energy of the next blue character card with the trait “Kaiju” you use from your hand by [Blue x1].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-004.png?v8"
+ },
+ "GMR-1-005": {
+  "key": "GMR-1-005",
+  "numberJp": "UA22BT/GMR-1-005",
+  "nameEn": "",
+  "nameJp": "評議会",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-005.png?v8"
+ },
+ "GMR-1-006": {
+  "key": "GMR-1-006",
+  "numberJp": "UA22BT/GMR-1-006",
+  "nameEn": "",
+  "nameJp": "ユースタス財団研究員",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【退場時】カードを1枚引く。",
+  "effectEn": "[On Retire] Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-006.png?v8"
+ },
+ "GMR-1-007": {
+  "key": "GMR-1-007",
+  "numberJp": "UA22BT/GMR-1-007",
+  "nameEn": "",
+  "nameJp": "エスギャオス",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 5,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣"
+  ],
+  "effectJp": "【登場時】相手のフロントLのキャラを1枚まで選び、レストにする。自分のフロントLにこのキャラがあるかぎり、そのキャラはスタートフェイズとエンドフェイズにアクティブにならない。自分の手札を1枚場外に置いてもよい。そうした場合、このキャラをアクティブにする。",
+  "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line, rest it. As long as this character is in your Front Line, that character does not become active during the Start Phase and End Phase. You may put 1 card(s) from your hand into your Outside Area. If you do, Set this character to active.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-007.png?v8"
+ },
+ "GMR-1-008": {
+  "key": "GMR-1-008",
+  "numberJp": "UA22BT/GMR-1-008",
+  "nameEn": "",
+  "nameJp": "エスギャオス",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 7,
+  "ap": 1,
+  "bp": 5000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣"
+  ],
+  "effectJp": "自分の場外に特徴を持たないキャラカードが合計5枚以上ある場合、手札にあるこのカードの必要エナジーを【青×1】減らす。【レイド】〈ギャオス〉/〈エスギャオス〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】カードを3枚引く。",
+  "effectEn": "If you have a total of 5 or more character cards with no traits in your Outside Area, reduce the required energy of this card in your hand by [Blue x1]. [Raid] <ギャオス>/Can Raid onto <エスギャオス>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] Draw 3 card(s).",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-008.png?v8"
+ },
+ "GMR-1-009": {
+  "key": "GMR-1-009",
+  "numberJp": "UA22BT/GMR-1-009",
+  "nameEn": "",
+  "nameJp": "ギャオス",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-009.png?v8"
+ },
+ "GMR-1-010": {
+  "key": "GMR-1-010",
+  "numberJp": "UA22BT/GMR-1-010",
+  "nameEn": "",
+  "nameJp": "ギャオス",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣"
+  ],
+  "effectJp": "【起動メイン】【ターン1】自分の場の特徴を持たないキャラを1枚退場させる。そうした場合、このキャラはこのターン中、BP+1000。",
+  "effectEn": "[Activate: Main] [Once Per Turn] Retire 1 character with no traits on your field. If you do, This character gets BP+1000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-010.png?v8"
+ },
+ "GMR-1-011": {
+  "key": "GMR-1-011",
+  "numberJp": "UA22BT/GMR-1-011",
+  "nameEn": "",
+  "nameJp": "ギャオス",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "怪獣"
+  ],
+  "effectJp": "【起動メイン】【レストにする】自分の手札の特徴を持たないキャラカードを1枚場外に置く。そうした場合、カードを1枚引く。",
+  "effectEn": "[Activate: Main] [Rest this card] Put 1 character card(s) with no traits from your hand into your Outside Area. If you do, Draw 1 card(s).",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP3500以下の相手のフロントLのキャラを1枚選び、手札に戻す。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 3500 or less, return it to its owner's hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-011.png?v8"
+ },
+ "GMR-1-012": {
+  "key": "GMR-1-012",
+  "numberJp": "UA22BT/GMR-1-012",
+  "nameEn": "",
+  "nameJp": "ギャオス",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣"
+  ],
+  "effectJp": "【レイド】〈ギャオス〉アクティブにし、フロントLに移動できる【起動メイン】【フロントLにある場合】【ターン1】自分の場の特徴を持たないキャラを1枚退場させる。そうした場合、カードを1枚引き、自分のAPカードを1枚まで選び、アクティブにする。",
+  "effectEn": "[Raid] Can Raid onto <ギャオス>; set it to active and you may move it to the Front Line. [Activate: Main] [While in Front Line] [Once Per Turn] Retire 1 character with no traits on your field. If you do, draw 1 card(s), choose up to 1 of your AP cards, and set them to active.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-012.png?v8"
+ },
+ "GMR-1-013": {
+  "key": "GMR-1-013",
+  "numberJp": "UA22BT/GMR-1-013",
+  "nameEn": "",
+  "nameJp": "ギロン",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-013.png?v8"
+ },
+ "GMR-1-014": {
+  "key": "GMR-1-014",
+  "numberJp": "UA22BT/GMR-1-014",
+  "nameEn": "",
+  "nameJp": "ギロン",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "怪獣"
+  ],
+  "effectJp": "【アタック時】このターン中に自分の場のキャラが相手プレイヤーにダメージを与えている場合、このキャラはこのターン中、BP+1000。",
+  "effectEn": "[When Attacking] If a character on your field dealt damage to the opposing player this turn, this character gets BP+1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-014.png?v8"
+ },
+ "GMR-1-015": {
+  "key": "GMR-1-015",
+  "numberJp": "UA22BT/GMR-1-015",
+  "nameEn": "",
+  "nameJp": "ギロン",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣"
+  ],
+  "effectJp": "【登場時】BP1500以上の相手の場のキャラを1枚まで選び、このターン中、BP-1000。",
+  "effectEn": "[On Play] Choose up to 1 character on your opponent's field with BP 1500 or more, it gets BP-1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-015.png?v8"
+ },
+ "GMR-1-016": {
+  "key": "GMR-1-016",
+  "numberJp": "UA22BT/GMR-1-016",
+  "nameEn": "",
+  "nameJp": "ギロン",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣"
+  ],
+  "effectJp": "【レイド】〈ギロン〉アクティブにし、フロントLに移動できる【登場時】以下から1つ選ぶ。・BP3000以下の相手のフロントLのキャラを1枚まで選び、退場させる。・BP1000以下の相手のフロントLのキャラを1枚まで選び、退場させる。このキャラはこのターン中、BP+1000と【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
+  "effectEn": "[Raid] Can Raid onto <ギロン>; set it to active and you may move it to the Front Line. [On Play] Choose 1 of the following. Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it. Choose up to 1 character in your opponent's Front Line with BP 1000 or less, retire it. This character gets BP+1000 and gains [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) this turn.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-016.png?v8"
+ },
+ "GMR-1-017": {
+  "key": "GMR-1-017",
+  "numberJp": "UA22BT/GMR-1-017",
+  "nameEn": "",
+  "nameJp": "ギロン",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣"
+  ],
+  "effectJp": "このキャラはアクティブで場に登場させる。このキャラがBP3000以下のキャラにブロックされた時、このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。このキャラがアタックしてブロックされなかった時、カードを1枚引く。",
+  "effectEn": "This character is played active. When this character is blocked by a character with BP 3000 or less, this character gains [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opposing player) this turn. When this character attacks and is not blocked, Draw 1 card(s).",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-017.png?v8"
+ },
+ "GMR-1-018": {
+  "key": "GMR-1-018",
+  "numberJp": "UA22BT/GMR-1-018",
+  "nameEn": "",
+  "nameJp": "ジグラ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-018.png?v8"
+ },
+ "GMR-1-019": {
+  "key": "GMR-1-019",
+  "numberJp": "UA22BT/GMR-1-019",
+  "nameEn": "",
+  "nameJp": "ジグラ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣"
+  ],
+  "effectJp": "【起動メイン】【フロントLにある場合】【手札を1枚場外に置く】【ターン1】BP1500以上の相手の場のキャラを1枚選び、このターン中、BP-1000。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] Choose 1 character on your opponent's field with BP 1500 or more, it gets BP-1000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-019.png?v8"
+ },
+ "GMR-1-020": {
+  "key": "GMR-1-020",
+  "numberJp": "UA22BT/GMR-1-020",
+  "nameEn": "",
+  "nameJp": "ジグラ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "怪獣"
+  ],
+  "effectJp": "このキャラはBP3000以下のキャラにブロックされない。",
+  "effectEn": "This character cannot be blocked by characters with BP 3000 or less.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-020.png?v8"
+ },
+ "GMR-1-021": {
+  "key": "GMR-1-021",
+  "numberJp": "UA22BT/GMR-1-021",
+  "nameEn": "",
+  "nameJp": "ジグラ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣"
+  ],
+  "effectJp": "【アタック時】相手のフロントLに元々のBPよりBPが低いキャラがある場合、このキャラはこのターン中、【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を得る。",
+  "effectEn": "[When Attacking] If your opponent has a character whose BP is lower than its original BP in their Front Line, this character gains [Damage 2] (When this character deals direct damage by attacking, it deals 2 damage instead) this turn.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP3500以下の相手のフロントLのキャラを1枚選び、手札に戻す。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 3500 or less, return it to its owner's hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-021.png?v8"
+ },
+ "GMR-1-022": {
+  "key": "GMR-1-022",
+  "numberJp": "UA22BT/GMR-1-022",
+  "nameEn": "",
+  "nameJp": "ジグラ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣"
+  ],
+  "effectJp": "【レイド】〈ジグラ〉アクティブにし、フロントLに移動できる【登場時】BP1500以上の相手のフロントLのキャラ全ては、このターン中、BP-1000。【起動メイン】【フロントLにある場合】【ターン1】相手のフロントLに元々のBPよりBPが低いキャラがある場合、自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを望む順で下に置く。",
+  "effectEn": "[Raid] Can Raid onto <ジグラ>; set it to active and you may move it to the Front Line. [On Play] All characters in your opponent's Front Line with BP 1500 or more it gets BP-1000 this turn. [Activate: Main] [While in Front Line] [Once Per Turn] If your opponent has a character whose BP is lower than its original BP in their Front Line, look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-022.png?v8"
+ },
+ "GMR-1-023": {
+  "key": "GMR-1-023",
+  "numberJp": "UA22BT/GMR-1-023",
+  "nameEn": "",
+  "nameJp": "ジャイガー",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣"
+  ],
+  "effectJp": "※このカードはデッキに12枚まで入れられる。【退場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "※You may include up to 12 copies of this card in your deck. [On Retire] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-023.png?v8"
+ },
+ "GMR-1-024": {
+  "key": "GMR-1-024",
+  "numberJp": "UA22BT/GMR-1-024",
+  "nameEn": "",
+  "nameJp": "ジャイガー",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣"
+  ],
+  "effectJp": "【退場時】カードを1枚引く。",
+  "effectEn": "[On Retire] Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-024.png?v8"
+ },
+ "GMR-1-025": {
+  "key": "GMR-1-025",
+  "numberJp": "UA22BT/GMR-1-025",
+  "nameEn": "",
+  "nameJp": "ジャイガー",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣"
+  ],
+  "effectJp": "【登場時】自分の手札から必要エナジーが0の〈ジャイガー〉を1枚まで自分のフロントLにレストで登場させる。",
+  "effectEn": "[On Play] Play up to 1 <ジャイガー> with required energy 0 from your hand to your Front Line rested.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-025.png?v8"
+ },
+ "GMR-1-026": {
+  "key": "GMR-1-026",
+  "numberJp": "UA22BT/GMR-1-026",
+  "nameEn": "",
+  "nameJp": "ジャイガー",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 2,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣"
+  ],
+  "effectJp": "【登場時】以下から1つ選ぶ。・自分の場外から必要エナジーが2以下の〈ジャイガー〉を1枚まで自分の場にレストで登場させる。・自分の場外から〈ジャイガー〉を1枚まで手札に加える。",
+  "effectEn": "[On Play] Choose 1 of the following. Play up to 1 <ジャイガー> with required energy 2 or less from your Outside Area to your field rested. Add up to 1 <ジャイガー> from your Outside Area to your hand.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-026.png?v8"
+ },
+ "GMR-1-027": {
+  "key": "GMR-1-027",
+  "numberJp": "UA22BT/GMR-1-027",
+  "nameEn": "",
+  "nameJp": "ジャイガー",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣"
+  ],
+  "effectJp": "【レイド】〈ジャイガー〉アクティブにし、フロントLに移動できる【登場時】自分の山札の上から4枚見る。その中から必要エナジーが2以下で消費APが1の〈ジャイガー〉を1枚まで自分の場にレストで登場させる。残りを望む順で自分の山札の下に置く。【起動メイン】【フロントLにある場合】【ターン1】自分の場の他の〈ジャイガー〉を1枚退場させる。そうした場合、このキャラはこのターン中、BP+500と【インパクト（1）】を得る。",
+  "effectEn": "[Raid] Can Raid onto <ジャイガー>; set it to active and you may move it to the Front Line. [On Play] Look at the top 4 card(s) of your deck. Play up to 1 <ジャイガー> with required energy 2 or less and with AP cost 1 from among them to your field rested. Put the rest on the bottom of your deck in any order. [Activate: Main] [While in Front Line] [Once Per Turn] Retire 1 other <ジャイガー> on your field. If you do, this character gets BP+500 and gains [Impact 1] this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-027.png?v8"
+ },
+ "GMR-1-028": {
+  "key": "GMR-1-028",
+  "numberJp": "UA22BT/GMR-1-028",
+  "nameEn": "",
+  "nameJp": "バイラス",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-028.png?v8"
+ },
+ "GMR-1-029": {
+  "key": "GMR-1-029",
+  "numberJp": "UA22BT/GMR-1-029",
+  "nameEn": "",
+  "nameJp": "バイラス",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。【起動メイン】自分の場の他のキャラを1枚退場させる。そうした場合、このキャラはこのターン中、【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を得る。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. [Activate: Main] Retire 1 other character on your field. If you do, This character, this turn, [Damage 2](When this character deals direct damage by attacking, deal 2 damage instead) is gained.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP3500以下の相手のフロントLのキャラを1枚選び、手札に戻す。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 3500 or less, return it to its owner's hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-029.png?v8"
+ },
+ "GMR-1-030": {
+  "key": "GMR-1-030",
+  "numberJp": "UA22BT/GMR-1-030",
+  "nameEn": "",
+  "nameJp": "バイラス",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 5000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣"
+  ],
+  "effectJp": "このカードはフロントLに登場できず、このカードの効果以外でフロントLに移動できない。【2回アタック】（このキャラがこのターン初めてアタックした時、アクティブにする）【起動メイン】【エナジーLにある場合】自分の場外にある［特徴：怪獣］か〈オリリウム〉を合計12枚リムーブエリアに置く。そうした場合、このキャラをフロントLに移動させる。",
+  "effectEn": "This card cannot be played to the Front Line, and cannot move to the Front Line except by this card's effect. [Double Attack] (The first time this character attacks each turn, set it to active) [Activate: Main] [While in Energy Line] Put a total of 12 [Trait: Kaiju] or <オリリウム> from your Outside Area into your Remove Area. If you do, move this character to the Front Line.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-030.png?v8"
+ },
+ "GMR-1-031": {
+  "key": "GMR-1-031",
+  "numberJp": "UA22BT/GMR-1-031",
+  "nameEn": "",
+  "nameJp": "月面基地",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中から［特徴：怪獣］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 [Trait: Kaiju] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-031.png?v8"
+ },
+ "GMR-1-032": {
+  "key": "GMR-1-032",
+  "numberJp": "UA22BT/GMR-1-032",
+  "nameEn": "",
+  "nameJp": "バイラスの死骸",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "怪獣"
+  ],
+  "effectJp": "このフィールドはアクティブで場に登場させる。【ターン1】自分の場のキャラが退場した時、アクティブのこのフィールドをレストにしてもよい。そうした場合、自分の山札の上から1枚を場外に置く。",
+  "effectEn": "This Field is played active. [Once Per Turn] When a character on your field is retired, you may rest this active field. If you do, Put the top 1 card(s) of your deck into your Outside Area.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-032.png?v8"
+ },
+ "GMR-1-033": {
+  "key": "GMR-1-033",
+  "numberJp": "UA22BT/GMR-1-033",
+  "nameEn": "",
+  "nameJp": "液状弾",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "相手のフロントLのキャラを1枚まで選び、レストにする。自分の場に〈ジグラ〉がある場合、BP1500以上の相手のフロントLのキャラ全ては、このターン中、BP-1000。",
+  "effectEn": "Choose up to 1 character in your opponent's Front Line, rest it. If you have <ジグラ> on your field, all characters in your opponent's Front Line with BP 1500 or more it gets BP-1000 this turn.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-033.png?v8"
+ },
+ "GMR-1-034": {
+  "key": "GMR-1-034",
+  "numberJp": "UA22BT/GMR-1-034",
+  "nameEn": "",
+  "nameJp": "オリリウム",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-034.png?v8"
+ },
+ "GMR-1-035": {
+  "key": "GMR-1-035",
+  "numberJp": "UA22BT/GMR-1-035",
+  "nameEn": "",
+  "nameJp": "荷電重粒子ビーム",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場に〈バイラス〉がある場合、手札にあるこのカードの消費APを-1する。BP4000以下の相手のフロントLのキャラを1枚選び、退場させる。カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "If you have <バイラス> on your field, reduce the AP cost of this card in your hand by 1. Choose 1 character in your opponent's Front Line with BP 4000 or less, retire it. Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-035.png?v8"
+ },
+ "GMR-1-036": {
+  "key": "GMR-1-036",
+  "numberJp": "UA22BT/GMR-1-036",
+  "nameEn": "",
+  "nameJp": "超音波メス",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "BP5000以下の相手のフロントLのキャラを1枚選び、相手の山札の上か下の『相手が選んだ方』に置く。自分の場に〈ギャオス〉か〈エスギャオス〉がある場合、『自分が選んだ方』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 5000 or less, and put it on the top or bottom of your opponent's deck (your opponent chooses which) If you have <ギャオス> or <エスギャオス> on your field, it becomes “the one you choose” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-036.png?v8"
+ },
+ "GMR-1-037": {
+  "key": "GMR-1-037",
+  "numberJp": "UA22BT/GMR-1-037",
+  "nameEn": "",
+  "nameJp": "超振動ブレード",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈ギロン〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <ギロン> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-037.png?v8"
+ },
+ "GMR-1-038": {
+  "key": "GMR-1-038",
+  "numberJp": "UA22BT/GMR-1-038",
+  "nameEn": "",
+  "nameJp": "尾棘",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP1000』以下の相手のフロントLのキャラを1枚選び、退場させる。自分の場外とリムーブエリアにある〈ジャイガー〉1枚につき、この効果で選べるキャラのBPの範囲+1000。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 1000 or less, retire it. For each 1 <ジャイガー> in your Outside Area and Remove Area, the BP range of characters you can choose with this effect is increased by 1000.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-038.png?v8"
+ },
+ "GMR-1-039": {
+  "key": "GMR-1-039",
+  "numberJp": "UA22BT/GMR-1-039",
+  "nameEn": "",
+  "nameJp": "非対称性透過シールド",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場のキャラを1枚選び、次の自分のターン開始時まで、BP+1000。自分の場に〈バイラス〉がある場合、カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "Choose 1 character on your field, Until the start of your next turn, BP+1000. If you have <バイラス> on your field, Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-039.png?v8"
+ },
+ "GMR-1-040": {
+  "key": "GMR-1-040",
+  "numberJp": "UA22BT/GMR-1-040",
+  "nameEn": "",
+  "nameJp": "ユースタス財団の研究",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から4枚見る。その中から［特徴：怪獣］を2枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
+  "effectEn": "Look at the top 4 card(s) of your deck. Reveal up to 2 [Trait: Kaiju] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-040.png?v8"
+ },
+ "GMR-1-041": {
+  "key": "GMR-1-041",
+  "numberJp": "UA22BT/GMR-1-041",
+  "nameEn": "",
+  "nameJp": "エミコ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-041.png?v8"
+ },
+ "GMR-1-042": {
+  "key": "GMR-1-042",
+  "numberJp": "UA22BT/GMR-1-042",
+  "nameEn": "",
+  "nameJp": "学者",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の場外から〈ガメラ〉を1枚手札に加える。",
+  "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Add 1 <ガメラ> from your Outside Area to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-042.png?v8"
+ },
+ "GMR-1-043": {
+  "key": "GMR-1-043",
+  "numberJp": "UA22BT/GMR-1-043",
+  "nameEn": "",
+  "nameJp": "佐々木 宗篤",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分のフロントLに〈戦車〉がある場合、相手のエナジーLに空きがあるなら、自分の手札を1枚場外に置いてもよい。そうした場合、相手のフロントLのキャラを1枚選び、エナジーLに移動させる。",
+  "effectEn": "[On Play] If you have <戦車> in your Front Line and your opponent's Energy Line has an open space, you may put 1 card(s) from your hand into your Outside Area. If you do, Choose 1 character in your opponent's Front Line, move it to the Energy Line.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-043.png?v8"
+ },
+ "GMR-1-044": {
+  "key": "GMR-1-044",
+  "numberJp": "UA22BT/GMR-1-044",
+  "nameEn": "",
+  "nameJp": "タザキ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から5枚見る。その中から［特徴：子供］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 [Trait: Child] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-044.png?v8"
+ },
+ "GMR-1-045": {
+  "key": "GMR-1-045",
+  "numberJp": "UA22BT/GMR-1-045",
+  "nameEn": "",
+  "nameJp": "タザキ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【緑】。",
+  "effectEn": "While this character is active, its generated energy +[Green].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-045.png?v8"
+ },
+ "GMR-1-046": {
+  "key": "GMR-1-046",
+  "numberJp": "UA22BT/GMR-1-046",
+  "nameEn": "",
+  "nameJp": "レイモンド・オズボーン",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から5枚見る。その中から〈軍艦〉か〈戦車〉か〈戦闘機〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 <軍艦> or <戦車> or <戦闘機> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-046.png?v8"
+ },
+ "GMR-1-047": {
+  "key": "GMR-1-047",
+  "numberJp": "UA22BT/GMR-1-047",
+  "nameEn": "",
+  "nameJp": "軍艦",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "海"
+  ],
+  "effectJp": "【登場時】BP1500以上の相手の場のキャラを1枚まで選び、このターン中、BP-1000。",
+  "effectEn": "[On Play] Choose up to 1 character on your opponent's field with BP 1500 or more, it gets BP-1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-047.png?v8"
+ },
+ "GMR-1-048": {
+  "key": "GMR-1-048",
+  "numberJp": "UA22BT/GMR-1-048",
+  "nameEn": "",
+  "nameJp": "ガメラ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "怪獣"
+  ],
+  "effectJp": "このカードはフロントLに登場できず、このカードの効果以外でフロントLに移動できない。【エナジーLにある場合】自分のキャラのアタック終了時、自分のフロントLのアクティブの［特徴：子供］を1枚選び、このキャラと位置を入れ替えてもよい。",
+  "effectEn": "This card cannot be played to the Front Line, and cannot move to the Front Line except by this card's effect. [While in Energy Line] At the end of your character's attack, you may choose 1 active [Trait: Child] in your Front Line and swap its position with this character.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-048.png?v8"
+ },
+ "GMR-1-049": {
+  "key": "GMR-1-049",
+  "numberJp": "UA22BT/GMR-1-049",
+  "nameEn": "",
+  "nameJp": "ガメラ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣"
+  ],
+  "effectJp": "【レイド】〈ガメラ〉アクティブにし、フロントLに移動できる【フロントLにある場合】自分の場の［特徴：子供］は相手の効果で選ばれない。【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）",
+  "effectEn": "[Raid] Can Raid onto <ガメラ>; set it to active and you may move it to the Front Line. [While in Front Line] [Trait: Child] on your field cannot be chosen by your opponent's effects. [Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [Double Block] (The first time this character blocks each turn, set it to active)",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-049.png?v8"
+ },
+ "GMR-1-050": {
+  "key": "GMR-1-050",
+  "numberJp": "UA22BT/GMR-1-050",
+  "nameEn": "",
+  "nameJp": "ジュンイチ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "子供"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-050.png?v8"
+ },
+ "GMR-1-051": {
+  "key": "GMR-1-051",
+  "numberJp": "UA22BT/GMR-1-051",
+  "nameEn": "",
+  "nameJp": "ジュンイチ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "子供"
+  ],
+  "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-051.png?v8"
+ },
+ "GMR-1-052": {
+  "key": "GMR-1-052",
+  "numberJp": "UA22BT/GMR-1-052",
+  "nameEn": "",
+  "nameJp": "ジョー",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "子供"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【緑】。メインフェイズ終了時、このキャラを退場させる。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Green]. At the end of the Main Phase, retire this character.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-052.png?v8"
+ },
+ "GMR-1-053": {
+  "key": "GMR-1-053",
+  "numberJp": "UA22BT/GMR-1-053",
+  "nameEn": "",
+  "nameJp": "ジョー",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "子供"
+  ],
+  "effectJp": "このキャラがアクティブの場合、自分のフロントLに［特徴：子供］があるなら、このキャラの発生エナジー+【緑】。",
+  "effectEn": "While this character is active, if you have a [Trait: Child] in your Front Line, this character's generated energy +[Green].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-053.png?v8"
+ },
+ "GMR-1-054": {
+  "key": "GMR-1-054",
+  "numberJp": "UA22BT/GMR-1-054",
+  "nameEn": "",
+  "nameJp": "ブロディ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "子供"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-054.png?v8"
+ },
+ "GMR-1-055": {
+  "key": "GMR-1-055",
+  "numberJp": "UA22BT/GMR-1-055",
+  "nameEn": "",
+  "nameJp": "ブロディ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "子供"
+  ],
+  "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分のエナジーLの緑のキャラを1枚選び、アクティブにする。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 Green character in your Energy Line, set it to active.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-055.png?v8"
+ },
+ "GMR-1-056": {
+  "key": "GMR-1-056",
+  "numberJp": "UA22BT/GMR-1-056",
+  "nameEn": "",
+  "nameJp": "ボコ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "子供"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-056.png?v8"
+ },
+ "GMR-1-057": {
+  "key": "GMR-1-057",
+  "numberJp": "UA22BT/GMR-1-057",
+  "nameEn": "",
+  "nameJp": "ボコ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "子供"
+  ],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中から〈ガメラ〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 <ガメラ> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-057.png?v8"
+ },
+ "GMR-1-058": {
+  "key": "GMR-1-058",
+  "numberJp": "UA22BT/GMR-1-058",
+  "nameEn": "",
+  "nameJp": "ボコ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "子供"
+  ],
+  "effectJp": "【フロントLにある場合】自分の全ての場所にある全ての〈ガメラ〉の必要エナジーを【緑×1】減らす。【起動メイン】【フロントLにある場合】【手札を1枚場外に置く】【ターン1】自分の場の〈ガメラ〉を1枚選び、このターン中、【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を与える。",
+  "effectEn": "[While in Front Line] Reduce the required energy of all <ガメラ> in all your areas by [Green x1]. [Activate: Main] [While in Front Line] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] Choose 1 <ガメラ> on your field, This turn, [Impact +1](Damage dealt by Impact is increased by 1; if it doesn't have Impact, [Impact 1])",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-058.png?v8"
+ },
+ "GMR-1-059": {
+  "key": "GMR-1-059",
+  "numberJp": "UA22BT/GMR-1-059",
+  "nameEn": "",
+  "nameJp": "戦闘機",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "空"
+  ],
+  "effectJp": "【起動メイン】【エナジーLにある場合】【ターン1】このキャラをフロントLに移動させる。",
+  "effectEn": "[Activate: Main] [While in Energy Line] [Once Per Turn] Move this character to the Front Line.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-059.png?v8"
+ },
+ "GMR-1-060": {
+  "key": "GMR-1-060",
+  "numberJp": "UA22BT/GMR-1-060",
+  "nameEn": "",
+  "nameJp": "戦車",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "陸"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-060.png?v8"
+ },
+ "GMR-1-061": {
+  "key": "GMR-1-061",
+  "numberJp": "UA22BT/GMR-1-061",
+  "nameEn": "",
+  "nameJp": "ガメラ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣",
+   "海"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-061.png?v8"
+ },
+ "GMR-1-062": {
+  "key": "GMR-1-062",
+  "numberJp": "UA22BT/GMR-1-062",
+  "nameEn": "",
+  "nameJp": "ガメラ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣",
+   "海"
+  ],
+  "effectJp": "このカードはフロントLに登場できず、フロントLに移動できない。【登場時】自分の山札の下から1枚を公開してもよい。そうした場合、公開したカードを自分の山札の上か下に置く。",
+  "effectEn": "This card cannot be played to the Front Line and cannot move to the Front Line. [On Play] You may reveal the bottom 1 card(s) of your deck. If you do, put the revealed card on the top or bottom of your deck.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の手札から必要エナジーが2以下で消費APが1の緑のキャラカードを1枚自分の場にアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Green character card with required energy 2 or less and with AP cost 1 from your hand to your field active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-062.png?v8"
+ },
+ "GMR-1-063": {
+  "key": "GMR-1-063",
+  "numberJp": "UA22BT/GMR-1-063",
+  "nameEn": "",
+  "nameJp": "ガメラ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣",
+   "海"
+  ],
+  "effectJp": "【登場時】このキャラが自分のキャラの効果で登場していた場合、このキャラをアクティブにする。",
+  "effectEn": "[On Play] If this character was played by your character's effect, set this character to active.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-063.png?v8"
+ },
+ "GMR-1-064": {
+  "key": "GMR-1-064",
+  "numberJp": "UA22BT/GMR-1-064",
+  "nameEn": "",
+  "nameJp": "ガメラ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣",
+   "海"
+  ],
+  "effectJp": "【レイド】〈ガメラ〉アクティブにし、フロントLに移動できるこのキャラのアタック終了時、自分のフロントLに［特徴：子供］がある場合、レイド状態の上のこのカードを自分の山札の下に置いてもよい。そうした場合、自分の手札から必要エナジーを満たす［特徴：海］を1枚まで自分の場にレストで登場させるかレイドさせる。〈ガメラ〉のこの効果は1ターンに1回のみ発動できる。【登場時】このキャラのレイド元が［特徴：海］の場合、カードを2枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[Raid] Can Raid onto <ガメラ>; set it to active and you may move it to the Front Line. At the end of this character's attack, if you have a [Trait: Child] in your Front Line, you may put this card on top of the Raid stack on the bottom of your deck. If you do, play up to 1 [Trait: Sea] that meets its required energy from your hand to your field rested, or Raid it. This <ガメラ> effect can only activate 1 time(s) per 1 turn(s). [On Play] If this character's Raid source is a [Trait: Sea], draw 2 card(s) and put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-064.png?v8"
+ },
+ "GMR-1-065": {
+  "key": "GMR-1-065",
+  "numberJp": "UA22BT/GMR-1-065",
+  "nameEn": "",
+  "nameJp": "ガメラ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣",
+   "空"
+  ],
+  "effectJp": "【アタック時】このキャラがアタックしてブロックされなかった時、自分のフロントLに［特徴：子供］がある場合、カードを1枚引く。",
+  "effectEn": "[When Attacking] When this character attacks and is not blocked, If you have [Trait: Child] in your Front Line, Draw 1 card(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-065.png?v8"
+ },
+ "GMR-1-066": {
+  "key": "GMR-1-066",
+  "numberJp": "UA22BT/GMR-1-066",
+  "nameEn": "",
+  "nameJp": "ガメラ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣",
+   "空"
+  ],
+  "effectJp": "【起動メイン】【ターン1】自分のフロントLに［特徴：子供］がある場合、このキャラを別のラインに移動させる。",
+  "effectEn": "[Activate: Main] [Once Per Turn] If you have a [Trait: Child] in your Front Line, move this character to the other line.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-066.png?v8"
+ },
+ "GMR-1-067": {
+  "key": "GMR-1-067",
+  "numberJp": "UA22BT/GMR-1-067",
+  "nameEn": "",
+  "nameJp": "ガメラ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣",
+   "空"
+  ],
+  "effectJp": "【アタック時】相手のフロントLにレイド状態のキャラがない場合、カードを1枚引く。",
+  "effectEn": "[When Attacking] If your opponent has no Raided characters in their Front Line, draw 1 card(s).",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の手札から必要エナジーが2以下で消費APが1の緑のキャラカードを1枚自分の場にアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Green character card with required energy 2 or less and with AP cost 1 from your hand to your field active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-067.png?v8"
+ },
+ "GMR-1-068": {
+  "key": "GMR-1-068",
+  "numberJp": "UA22BT/GMR-1-068",
+  "nameEn": "",
+  "nameJp": "ガメラ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣",
+   "空"
+  ],
+  "effectJp": "【レイド】〈ガメラ〉アクティブにし、フロントLに移動できる【登場時】自分のフロントLに［特徴：子供］がある場合、『相手のフロントLのレイド状態のカードを1枚まで選び、レイド状態の上のカードを1枚場外に置く』。このキャラのレイド元が［特徴：空］なら、『BP5000以下の相手のフロントLのキャラを1枚まで選び、退場させる』に代えてもよい。",
+  "effectEn": "[Raid] Can Raid onto <ガメラ>; set it to active and you may move it to the Front Line. [On Play] If you have a [Trait: Child] in your Front Line, “choose up to 1 Raided card in your opponent's Front Line and put 1 of its top Raided card(s) into its owner's Outside Area” If this character's Raid source is a [Trait: Sky], you may instead make it “choose up to 1 character in your opponent's Front Line with BP 5000 or less and retire it”",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-068.png?v8"
+ },
+ "GMR-1-069": {
+  "key": "GMR-1-069",
+  "numberJp": "UA22BT/GMR-1-069",
+  "nameEn": "",
+  "nameJp": "ガメラ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣",
+   "陸"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-069.png?v8"
+ },
+ "GMR-1-070": {
+  "key": "GMR-1-070",
+  "numberJp": "UA22BT/GMR-1-070",
+  "nameEn": "",
+  "nameJp": "ガメラ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣",
+   "陸"
+  ],
+  "effectJp": "【登場時】自分のフロントLに［特徴：子供］がある場合、カードを1枚引く。",
+  "effectEn": "[On Play] If you have [Trait: Child] in your Front Line, Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-070.png?v8"
+ },
+ "GMR-1-071": {
+  "key": "GMR-1-071",
+  "numberJp": "UA22BT/GMR-1-071",
+  "nameEn": "",
+  "nameJp": "ガメラ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 6,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣",
+   "陸"
+  ],
+  "effectJp": "【登場時】自分のフロントLのアクティブの［特徴：子供］を1枚レストにしてもよい。そうした場合、自分のAPカードを1枚まで選び、アクティブにする。",
+  "effectEn": "[On Play] You may rest 1 active [Trait: Child] in your Front Line. If you do, Choose up to 1 of your AP cards, set it to active.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の手札から必要エナジーが2以下で消費APが1の緑のキャラカードを1枚自分の場にアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Green character card with required energy 2 or less and with AP cost 1 from your hand to your field active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-071.png?v8"
+ },
+ "GMR-1-072": {
+  "key": "GMR-1-072",
+  "numberJp": "UA22BT/GMR-1-072",
+  "nameEn": "",
+  "nameJp": "ガメラ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 10,
+  "ap": 1,
+  "bp": 5000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣",
+   "陸"
+  ],
+  "effectJp": "このカードが、［特徴：陸］にレイドする際、必要エナジーを【緑×2】減らす。【レイド】〈ガメラ〉アクティブにし、フロントLに移動できる【フロントLにある場合】自分の場の［特徴：子供］は相手の効果で選ばれない。【インパクト（2）】（アタックしてバトルに勝利した時、相手プレイヤーに2ダメージ）自分のフロントＬの［特徴：子供］1枚につき、このキャラは、【ダメージ（+1）】（このキャラがアタックで直接ダメージを与える時、追加で1ダメージ）を得る。",
+  "effectEn": "When this card Raids onto a [Trait: Land], reduce its required energy by [Green x2]. [Raid] Can Raid onto <ガメラ>; set it to active and you may move it to the Front Line. [While in Front Line] [Trait: Child] on your field cannot be chosen by your opponent's effects. [Impact 2] (When this character attacks and wins a battle, deal 2 damage to the opposing player) For each 1 [Trait: Child] in your Front Line, this character gains [Damage +1] (When this character deals direct damage by attacking, it deals 1 additional damage)",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-072.png?v8"
+ },
+ "GMR-1-073": {
+  "key": "GMR-1-073",
+  "numberJp": "UA22BT/GMR-1-073",
+  "nameEn": "",
+  "nameJp": "ガメラ",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 7,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪獣",
+   "陸"
+  ],
+  "effectJp": "【登場時】以下から1つ選ぶ。・BP5000以下の相手のフロントLのキャラを1枚まで選び、退場させる。・相手の場のフィールドを1枚まで選び、退場させる。【退場時】自分の手札か自分の場外から必要エナジーが0で消費APが1の〈ガメラ〉を1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[On Play] Choose 1 of the following. Choose up to 1 character in your opponent's Front Line with BP 5000 or less, retire it. Choose up to 1 Field on your opponent's field, retire it. [On Retire] Play up to 1 <ガメラ> with required energy 0 and AP cost 1 from your hand or Outside Area to your field rested.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-073.png?v8"
+ },
+ "GMR-1-074": {
+  "key": "GMR-1-074",
+  "numberJp": "UA22BT/GMR-1-074",
+  "nameEn": "",
+  "nameJp": "セルケト号",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "海"
+  ],
+  "effectJp": "【登場時】自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを場外に置く。【起動メイン】【レストにする】【このカードを退場させる】自分の山札の下を1枚公開し、自分の山札の上か下に置く。",
+  "effectEn": "[On Play] Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest into your Outside Area. [Activate: Main] [Rest this card] [Retire this card] Reveal the bottom 1 card(s) of your deck and put them on the top or bottom of your deck.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-074.png?v8"
+ },
+ "GMR-1-075": {
+  "key": "GMR-1-075",
+  "numberJp": "UA22BT/GMR-1-075",
+  "nameEn": "",
+  "nameJp": "オリリウム",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-075.png?v8"
+ },
+ "GMR-1-076": {
+  "key": "GMR-1-076",
+  "numberJp": "UA22BT/GMR-1-076",
+  "nameEn": "",
+  "nameJp": "火焔旋撃",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場の〈ガメラ〉を1枚選び、このターン中、BP+1000。選んだ〈ガメラ〉が［特徴：空］の場合、カードを1枚引き、さらにこのターン中、【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、指定した場合、相手はブロックできない）を与える。",
+  "effectEn": "Choose 1 <ガメラ> on your field, it gets BP+1000 this turn. If the chosen <ガメラ> is a [Trait: Sky], draw 1 card(s), and it also gains [Snipe] (Can attack a chosen character in your opponent's Front Line; if you do, your opponent cannot block) this turn.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-076.png?v8"
+ },
+ "GMR-1-077": {
+  "key": "GMR-1-077",
+  "numberJp": "UA22BT/GMR-1-077",
+  "nameEn": "",
+  "nameJp": "火焔弾",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP2000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈ガメラ〉がある場合、『BP5000以下』に代わる。自分のフロントLに［特徴：海］がある場合、自分の山札の上から1枚見る。そのカードを自分の山札の上か場外に置く。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 2000 or less, retire it. If you have <ガメラ> on your field, it becomes “BP 5000 or less” instead. If you have [Trait: Sea] in your Front Line, Look at the top 1 card(s) of your deck. Put that card on top of your deck or into your Outside Area.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-077.png?v8"
+ },
+ "GMR-1-078": {
+  "key": "GMR-1-078",
+  "numberJp": "UA22BT/GMR-1-078",
+  "nameEn": "",
+  "nameJp": "ガメラとの絆",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場のキャラを1枚選び、アクティブにする。選んだキャラが〈ガメラ〉の場合、自分のAPカードを1枚まで選び、アクティブにする。",
+  "effectEn": "Choose 1 character on your field, set it to active. If the chosen character is <ガメラ>, choose up to 1 of your AP cards and set it to active.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-078.png?v8"
+ },
+ "GMR-1-079": {
+  "key": "GMR-1-079",
+  "numberJp": "UA22BT/GMR-1-079",
+  "nameEn": "",
+  "nameJp": "コミュニケーター",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から7枚見る。その中から［特徴：子供］を2枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
+  "effectEn": "Look at the top 7 card(s) of your deck. Reveal up to 2 [Trait: Child] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-079.png?v8"
+ },
+ "GMR-1-080": {
+  "key": "GMR-1-080",
+  "numberJp": "UA22BT/GMR-1-080",
+  "nameEn": "",
+  "nameJp": "燼滅手",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 5,
+  "ap": 2,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場に〈ガメラ〉がある場合、手札にあるこのカードの消費APを-1する。相手のフロントLのキャラを1枚選び、『退場させる』。自分のフロントLに［特徴：陸］がある場合、『リムーブエリアに置く』に代わる。",
+  "effectEn": "If you have <ガメラ> on your field, reduce the AP cost of this card in your hand by 1. Choose 1 character in your opponent's Front Line, “retire it” If you have a [Trait: Land] in your Front Line, it becomes “put it into the Remove Area” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-080.png?v8"
+ },
+ "GMR-1-AP01": {
+  "key": "GMR-1-AP01",
+  "numberJp": "UA22BT/GMR-1-AP01",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(GAMERA -Rebirth-)",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-AP01.png?v8"
+ },
+ "GMR-1-AP01★": {
+  "key": "GMR-1-AP01★",
+  "numberJp": "UA22BT/GMR-1-AP01★",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(GAMERA -Rebirth-)",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-AP01_s.png?v8"
+ },
+ "GMR-1-AP02": {
+  "key": "GMR-1-AP02",
+  "numberJp": "UA22BT/GMR-1-AP02",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(GAMERA -Rebirth-)",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-AP02.png?v8"
+ },
+ "GMR-1-AP02★": {
+  "key": "GMR-1-AP02★",
+  "numberJp": "UA22BT/GMR-1-AP02★",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(GAMERA -Rebirth-)",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-AP02_s.png?v8"
+ },
+ "GMR-1-AP03": {
+  "key": "GMR-1-AP03",
+  "numberJp": "UA22BT/GMR-1-AP03",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(GAMERA -Rebirth-)",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-AP03.png?v8"
+ },
+ "GMR-1-AP04": {
+  "key": "GMR-1-AP04",
+  "numberJp": "UA22BT/GMR-1-AP04",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(GAMERA -Rebirth-)",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-AP04.png?v8"
+ },
+ "GMR-1-AP05": {
+  "key": "GMR-1-AP05",
+  "numberJp": "UA22BT/GMR-1-AP05",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(GAMERA -Rebirth-)",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-AP05.png?v8"
+ },
+ "GMR-1-AP06": {
+  "key": "GMR-1-AP06",
+  "numberJp": "UA22BT/GMR-1-AP06",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(GAMERA -Rebirth-)",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-AP06.png?v8"
+ },
+ "GMR-1-AP07": {
+  "key": "GMR-1-AP07",
+  "numberJp": "UA22BT/GMR-1-AP07",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(GAMERA -Rebirth-)",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-AP07.png?v8"
+ },
+ "GMR-1-AP08": {
+  "key": "GMR-1-AP08",
+  "numberJp": "UA22BT/GMR-1-AP08",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(GAMERA -Rebirth-)",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-AP08.png?v8"
+ },
+ "GMR-1-AP09": {
+  "key": "GMR-1-AP09",
+  "numberJp": "UA22BT/GMR-1-AP09",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(GAMERA -Rebirth-)",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-AP09.png?v8"
+ },
+ "GMR-1-AP10": {
+  "key": "GMR-1-AP10",
+  "numberJp": "UA22BT/GMR-1-AP10",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(GAMERA -Rebirth-)",
+  "series": "GAMERA -Rebirth-",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA22BT_GMR-1-AP10.png?v8"
+ }
+}

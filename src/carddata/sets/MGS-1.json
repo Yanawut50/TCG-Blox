@@ -1,0 +1,3522 @@
+{
+ "MGS-1-001": {
+  "key": "MGS-1-001",
+  "numberJp": "UA42BT/MGS-1-001",
+  "nameEn": "",
+  "nameJp": "阿良々木 暦",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】以下から1つ選ぶ。・カードを1枚引き、自分の手札を1枚場外に置く。・自分の場のフィールドを1枚退場させてもよい。そうした場合、カードを1枚引く。",
+  "effectEn": "[On Play] Choose 1 of the following. Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. You may retire 1 Field on your field. If you do, Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-001.png?v8"
+ },
+ "MGS-1-002": {
+  "key": "MGS-1-002",
+  "numberJp": "UA42BT/MGS-1-002",
+  "nameEn": "",
+  "nameJp": "阿良々木 暦",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から5枚見る。その中から〈解呪の儀式〉か〈神原 駿河〉か〈千石 撫子〉を2枚まで公開し手札に加える。残りを望む順で山札の下に置く。【起動メイン】【ターン1】このターン中に自分の〈蛇切縄〉が退場している場合のみ発動できる。このキャラをアクティブにする。",
+  "effectEn": "[On Play] Look at the top 5 card(s) of your deck. Reveal up to 2 <解呪の儀式> or <神原 駿河> or <千石 撫子> among them and add it to your hand. Put the rest on the bottom of your deck in any order. [Activate: Main] [Once Per Turn] Can only activate if your <蛇切縄> was retired this turn. Set this character to active.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-002.png?v8"
+ },
+ "MGS-1-003": {
+  "key": "MGS-1-003",
+  "numberJp": "UA42BT/MGS-1-003",
+  "nameEn": "",
+  "nameJp": "斧乃木 余接",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-003.png?v8"
+ },
+ "MGS-1-004": {
+  "key": "MGS-1-004",
+  "numberJp": "UA42BT/MGS-1-004",
+  "nameEn": "",
+  "nameJp": "貝木 泥舟",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【黄】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Yellow] and gains “At the end of the Main Phase, retire this character”",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-004.png?v8"
+ },
+ "MGS-1-005": {
+  "key": "MGS-1-005",
+  "numberJp": "UA42BT/MGS-1-005",
+  "nameEn": "",
+  "nameJp": "影縫 余弦",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "相手の場に紫か赤のカードがある場合、手札にあるこのカードの必要エナジーを【黄×1】減らす。",
+  "effectEn": "If your opponent has Purple or Red card on their field, the required energy of this card in your hand [Yellow x1]is reduced.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-005.png?v8"
+ },
+ "MGS-1-006": {
+  "key": "MGS-1-006",
+  "numberJp": "UA42BT/MGS-1-006",
+  "nameEn": "",
+  "nameJp": "神原 駿河",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-006.png?v8"
+ },
+ "MGS-1-007": {
+  "key": "MGS-1-007",
+  "numberJp": "UA42BT/MGS-1-007",
+  "nameEn": "",
+  "nameJp": "神原 駿河",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】自分の場に〈千石 撫子〉がある場合、このキャラはBP+1000。",
+  "effectEn": "[During Your Turn] If you have <千石 撫子> on your field, This character gets BP+1000.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-007.png?v8"
+ },
+ "MGS-1-008": {
+  "key": "MGS-1-008",
+  "numberJp": "UA42BT/MGS-1-008",
+  "nameEn": "",
+  "nameJp": "神原 駿河",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場外から〈解呪の儀式〉か必要エナジーが1以下の〈千石 撫子〉を1枚まで手札に加える。",
+  "effectEn": "[On Play] Add up to 1 <解呪の儀式> or <千石 撫子> with required energy 1 or less from your Outside Area to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-008.png?v8"
+ },
+ "MGS-1-009": {
+  "key": "MGS-1-009",
+  "numberJp": "UA42BT/MGS-1-009",
+  "nameEn": "",
+  "nameJp": "千石 撫子",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-009.png?v8"
+ },
+ "MGS-1-010": {
+  "key": "MGS-1-010",
+  "numberJp": "UA42BT/MGS-1-010",
+  "nameEn": "",
+  "nameJp": "千石 撫子",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[Activate: Main] [Rest this card] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-010.png?v8"
+ },
+ "MGS-1-011": {
+  "key": "MGS-1-011",
+  "numberJp": "UA42BT/MGS-1-011",
+  "nameEn": "",
+  "nameJp": "千石 撫子",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-011.png?v8"
+ },
+ "MGS-1-012": {
+  "key": "MGS-1-012",
+  "numberJp": "UA42BT/MGS-1-012",
+  "nameEn": "",
+  "nameJp": "千石 撫子",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から7枚見る。その中から黄のフィールドカードを1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 7 card(s) of your deck. Reveal up to 1 Yellow Field card among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-012.png?v8"
+ },
+ "MGS-1-013": {
+  "key": "MGS-1-013",
+  "numberJp": "UA42BT/MGS-1-013",
+  "nameEn": "",
+  "nameJp": "千石 撫子",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中からイベントカードかフィールドカードを1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 Event card or Field card among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】相手のフロントLのキャラを1枚選び、レストにする。それは次の1回アクティブにならない。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-013.png?v8"
+ },
+ "MGS-1-014": {
+  "key": "MGS-1-014",
+  "numberJp": "UA42BT/MGS-1-014",
+  "nameEn": "",
+  "nameJp": "千石 撫子",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場の〈阿良々木 暦〉か〈神原 駿河〉か〈千石 撫子〉を1枚まで選び、このターン中、「このキャラはBP4000以上のキャラにブロックされない。」を与える。【起動メイン】【レストにする】このターン中に自分の〈蛇切縄〉が退場している場合のみ発動できる。このキャラの【登場時】を発動する。",
+  "effectEn": "[On Play] Choose up to 1 <阿良々木 暦> or <神原 駿河> or <千石 撫子> on your field, it gains “This character cannot be blocked by characters with BP 4000 or more” this turn. [Activate: Main] [Rest this card] Can only activate if your <蛇切縄> was retired this turn. Activate this character's [On Play].",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-014.png?v8"
+ },
+ "MGS-1-015": {
+  "key": "MGS-1-015",
+  "numberJp": "UA42BT/MGS-1-015",
+  "nameEn": "",
+  "nameJp": "千石 撫子",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈千石 撫子〉アクティブにし、フロントLに移動できる【自分のターン中】このターン中に自分の〈蛇切縄〉が退場している場合、このキャラは「このキャラはBP3000以下のキャラにブロックされない。」を得る。【登場時】以下から1つ選ぶ。・自分の山札の上から7枚見る。その中から〈蛇切縄〉を1枚まで自分のエナジーLにレストで登場させる。残りを望む順で山札の下に置く。・自分の手札か場外から〈蛇切縄〉を1枚まで自分のエナジーLにレストで登場させる。",
+  "effectEn": "[Raid] Can Raid onto <千石 撫子>; set it to active and you may move it to the Front Line. [During Your Turn] If your <蛇切縄> was retired this turn, this character gains “This character cannot be blocked by characters with BP 3000 or less” [On Play] Choose 1 of the following. Look at the top 7 card(s) of your deck. Play up to 1 <蛇切縄> from among them to your Energy Line rested. Put the rest on the bottom of your deck in any order. Play up to 1 <蛇切縄> from your hand or Outside Area to your Energy Line rested.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-015.png?v8"
+ },
+ "MGS-1-016": {
+  "key": "MGS-1-016",
+  "numberJp": "UA42BT/MGS-1-016",
+  "nameEn": "",
+  "nameJp": "羽川 翼",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【黄】。",
+  "effectEn": "While this character is active, its generated energy +[Yellow].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-016.png?v8"
+ },
+ "MGS-1-017": {
+  "key": "MGS-1-017",
+  "numberJp": "UA42BT/MGS-1-017",
+  "nameEn": "",
+  "nameJp": "羽川 翼",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の手札から必要エナジーが2以下の黄のキャラカードを1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[On Play] Play up to 1 Yellow character card with required energy 2 or less from your hand to your field rested.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-017.png?v8"
+ },
+ "MGS-1-018": {
+  "key": "MGS-1-018",
+  "numberJp": "UA42BT/MGS-1-018",
+  "nameEn": "",
+  "nameJp": "阿良々木 火憐",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ファイヤーシスターズ"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-018.png?v8"
+ },
+ "MGS-1-019": {
+  "key": "MGS-1-019",
+  "numberJp": "UA42BT/MGS-1-019",
+  "nameEn": "",
+  "nameJp": "阿良々木 火憐",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ファイヤーシスターズ"
+  ],
+  "effectJp": "【登場時】自分の場の［特徴：ファイヤーシスターズ］を1枚まで選び、別のラインに移動させる。",
+  "effectEn": "[On Play] Choose up to 1 [Trait: Fire Sisters] on your field, move it to another line.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】相手のフロントLのキャラを1枚選び、レストにする。それは次の1回アクティブにならない。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-019.png?v8"
+ },
+ "MGS-1-020": {
+  "key": "MGS-1-020",
+  "numberJp": "UA42BT/MGS-1-020",
+  "nameEn": "",
+  "nameJp": "阿良々木 火憐",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ファイヤーシスターズ"
+  ],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-020.png?v8"
+ },
+ "MGS-1-021": {
+  "key": "MGS-1-021",
+  "numberJp": "UA42BT/MGS-1-021",
+  "nameEn": "",
+  "nameJp": "阿良々木 火憐",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ファイヤーシスターズ"
+  ],
+  "effectJp": "【レイド】〈阿良々木 火憐〉アクティブにし、フロントLに移動できる【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【自分のターン中】【エナジーLにある場合】自分のキャラがバトルに敗北したアタック終了時、自分のフロントLの［特徴：ファイヤーシスターズ］を1枚選び、このキャラと位置を入れ替えてもよい。【登場時】自分の手札から必要エナジーが3以下で消費APが1の［特徴：ファイヤーシスターズ］を1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[Raid] Can Raid onto <阿良々木 火憐>; set it to active and you may move it to the Front Line. [Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [During Your Turn] [While in Energy Line] At the end of an attack in which your character lost a battle, you may choose 1 [Trait: Fire Sisters] in your Front Line and swap its position with this character. [On Play] Play up to 1 [Trait: Fire Sisters] with required energy 3 or less and with AP cost 1 from your hand to your field rested.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-021.png?v8"
+ },
+ "MGS-1-022": {
+  "key": "MGS-1-022",
+  "numberJp": "UA42BT/MGS-1-022",
+  "nameEn": "",
+  "nameJp": "阿良々木 月火",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ファイヤーシスターズ"
+  ],
+  "effectJp": "【登場時】自分の場の他の［特徴：ファイヤーシスターズ］を1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] Choose up to 1 other [Trait: Fire Sisters] on your field, it gets BP+1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-022.png?v8"
+ },
+ "MGS-1-023": {
+  "key": "MGS-1-023",
+  "numberJp": "UA42BT/MGS-1-023",
+  "nameEn": "",
+  "nameJp": "阿良々木 月火",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ファイヤーシスターズ"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見る。その中から［特徴：ファイヤーシスターズ］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: Fire Sisters] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-023.png?v8"
+ },
+ "MGS-1-024": {
+  "key": "MGS-1-024",
+  "numberJp": "UA42BT/MGS-1-024",
+  "nameEn": "",
+  "nameJp": "阿良々木 月火",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ファイヤーシスターズ"
+  ],
+  "effectJp": "【アタック時】カードを1枚まで引く。",
+  "effectEn": "[When Attacking] Draw up to 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-024.png?v8"
+ },
+ "MGS-1-025": {
+  "key": "MGS-1-025",
+  "numberJp": "UA42BT/MGS-1-025",
+  "nameEn": "",
+  "nameJp": "阿良々木 月火",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 3,
+  "ap": 2,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ファイヤーシスターズ"
+  ],
+  "effectJp": "このキャラはアクティブで場に登場させる。【アタック時】【ターン1】自分の手札を1枚場外に置いてもよい。そうした場合、自分の場の他の［特徴：ファイヤーシスターズ］を1枚まで選び、アクティブにする。【退場時】このカードを手札に加える。",
+  "effectEn": "This character is played active. [When Attacking] [Once Per Turn] You may put 1 card(s) from your hand into your Outside Area. If you do, Choose up to 1 other [Trait: Fire Sisters] on your field, set it to active. [On Retire] Add this card to your hand.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-025.png?v8"
+ },
+ "MGS-1-026": {
+  "key": "MGS-1-026",
+  "numberJp": "UA42BT/MGS-1-026",
+  "nameEn": "",
+  "nameJp": "神原駿河の部屋",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】自分の山札の上から1枚を場外に置く。【退場時】自分の場外から〈神原 駿河〉を1枚まで手札に加える。",
+  "effectEn": "[Activate: Main] [Rest this card] Put the top 1 card(s) of your deck into your Outside Area. [On Retire] Add up to 1 <神原 駿河> from your Outside Area to your hand.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-026.png?v8"
+ },
+ "MGS-1-027": {
+  "key": "MGS-1-027",
+  "numberJp": "UA42BT/MGS-1-027",
+  "nameEn": "",
+  "nameJp": "蛇切縄",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の手札の〈千石 撫子〉を1枚場外に置いてもよい。そうした場合、カードを1枚まで引く。【退場時】BP5000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
+  "effectEn": "[On Play] You may put 1 <千石 撫子> in your hand into the Outside Area. If you do, Draw up to 1 card(s). [On Retire] Choose up to 1 character in your opponent's Front Line with BP 5000 or less, retire it.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-027.png?v8"
+ },
+ "MGS-1-028": {
+  "key": "MGS-1-028",
+  "numberJp": "UA42BT/MGS-1-028",
+  "nameEn": "",
+  "nameJp": "起きろオオオーッ兄ちゃんッ",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-028.png?v8"
+ },
+ "MGS-1-029": {
+  "key": "MGS-1-029",
+  "numberJp": "UA42BT/MGS-1-029",
+  "nameEn": "",
+  "nameJp": "解呪の儀式",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場のフィールドを1枚退場させる。そうした場合、カードを1枚引き、このターン中、次に手札から使用する〈千石 撫子〉の消費APを‐1する。",
+  "effectEn": "Retire 1 Field on your field. If you do, draw 1 card(s), and this turn, reduce the AP cost of the next <千石 撫子> you use from your hand by 1.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-029.png?v8"
+ },
+ "MGS-1-030": {
+  "key": "MGS-1-030",
+  "numberJp": "UA42BT/MGS-1-030",
+  "nameEn": "",
+  "nameJp": "栂の木二中のファイヤーシスターズ",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP2000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈阿良々木 火憐〉か〈阿良々木 月火〉がある場合、『BP4000以下』に代わる。自分の場に〈阿良々木 火憐〉と〈阿良々木 月火〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 2000 or less, retire it. If you have <阿良々木 火憐> or <阿良々木 月火> on your field, it becomes “BP 4000 or less” instead. If you have <阿良々木 火憐> and <阿良々木 月火> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-030.png?v8"
+ },
+ "MGS-1-031": {
+  "key": "MGS-1-031",
+  "numberJp": "UA42BT/MGS-1-031",
+  "nameEn": "",
+  "nameJp": "歯磨き",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のフロントLのアクティブの〈阿良々木 火憐〉を1枚レストにする。そうした場合、カードを3枚引く。",
+  "effectEn": "Rest 1 active <阿良々木 火憐> in your Front Line. If you do, Draw 3 card(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-031.png?v8"
+ },
+ "MGS-1-032": {
+  "key": "MGS-1-032",
+  "numberJp": "UA42BT/MGS-1-032",
+  "nameEn": "",
+  "nameJp": "プラチナむかつく",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の手札から必要エナジーが3以下で消費APが1の［特徴：ファイヤーシスターズ］を1枚まで自分の場にアクティブで登場させる。",
+  "effectEn": "Play up to 1 [Trait: Fire Sisters] with required energy 3 or less and with AP cost 1 from your hand to your field active.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-032.png?v8"
+ },
+ "MGS-1-033": {
+  "key": "MGS-1-033",
+  "numberJp": "UA42BT/MGS-1-033",
+  "nameEn": "",
+  "nameJp": "レディとして当然の嗜み",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-033.png?v8"
+ },
+ "MGS-1-034": {
+  "key": "MGS-1-034",
+  "numberJp": "UA42BT/MGS-1-034",
+  "nameEn": "",
+  "nameJp": "阿良々木 火憐",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ファイヤーシスターズ"
+  ],
+  "effectJp": "相手の場に黄か赤のカードがある場合、手札にあるこのカードの必要エナジーを【紫×1】減らす。",
+  "effectEn": "If your opponent has Yellow or Red card on their field, the required energy of this card in your hand [Purple x1]is reduced.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-034.png?v8"
+ },
+ "MGS-1-035": {
+  "key": "MGS-1-035",
+  "numberJp": "UA42BT/MGS-1-035",
+  "nameEn": "",
+  "nameJp": "阿良々木 暦",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-035.png?v8"
+ },
+ "MGS-1-036": {
+  "key": "MGS-1-036",
+  "numberJp": "UA42BT/MGS-1-036",
+  "nameEn": "",
+  "nameJp": "阿良々木 暦",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【紫×2】減らす。【登場時】自分の山札の上から5枚見る。その中からBPが5000の〈キスショット・アセロラオリオン・ハートアンダーブレード〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Purple x2]is reduced. [On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 <キスショット・アセロラオリオン・ハートアンダーブレード> with BP 5000 among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-036.png?v8"
+ },
+ "MGS-1-037": {
+  "key": "MGS-1-037",
+  "numberJp": "UA42BT/MGS-1-037",
+  "nameEn": "",
+  "nameJp": "阿良々木 暦",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【紫】。",
+  "effectEn": "While this character is active, its generated energy +[Purple].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-037.png?v8"
+ },
+ "MGS-1-038": {
+  "key": "MGS-1-038",
+  "numberJp": "UA42BT/MGS-1-038",
+  "nameEn": "",
+  "nameJp": "阿良々木 暦",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【退場時】自分の山札の上から3枚見る。その中から〈阿良々木 暦〉か〈忍野 忍〉か〈キスショット・アセロラオリオン・ハートアンダーブレード〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。",
+  "effectEn": "[On Retire] Look at the top 3 card(s) of your deck. Reveal up to 1 <阿良々木 暦> or <忍野 忍> or <キスショット・アセロラオリオン・ハートアンダーブレード> among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-038.png?v8"
+ },
+ "MGS-1-039": {
+  "key": "MGS-1-039",
+  "numberJp": "UA42BT/MGS-1-039",
+  "nameEn": "",
+  "nameJp": "阿良々木 暦",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】自分の場に〈キスショット・アセロラオリオン・ハートアンダーブレード〉か〈羽川 翼〉がある場合、このキャラはBP+1000。【退場時】自分の場外から〈キスショット・アセロラオリオン・ハートアンダーブレード〉を1枚まで手札に加える。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[During Your Turn] If you have <キスショット・アセロラオリオン・ハートアンダーブレード> or <羽川 翼> on your field, This character gets BP+1000. [On Retire] Add up to 1 <キスショット・アセロラオリオン・ハートアンダーブレード> from your Outside Area to your hand. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-039.png?v8"
+ },
+ "MGS-1-040": {
+  "key": "MGS-1-040",
+  "numberJp": "UA42BT/MGS-1-040",
+  "nameEn": "",
+  "nameJp": "阿良々木 月火",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ファイヤーシスターズ"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【紫】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Purple] and gains “At the end of the Main Phase, retire this character”",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-040.png?v8"
+ },
+ "MGS-1-041": {
+  "key": "MGS-1-041",
+  "numberJp": "UA42BT/MGS-1-041",
+  "nameEn": "",
+  "nameJp": "忍野 忍",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-041.png?v8"
+ },
+ "MGS-1-042": {
+  "key": "MGS-1-042",
+  "numberJp": "UA42BT/MGS-1-042",
+  "nameEn": "",
+  "nameJp": "忍野 忍",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] Choose 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-042.png?v8"
+ },
+ "MGS-1-043": {
+  "key": "MGS-1-043",
+  "numberJp": "UA42BT/MGS-1-043",
+  "nameEn": "",
+  "nameJp": "忍野 忍",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-043.png?v8"
+ },
+ "MGS-1-044": {
+  "key": "MGS-1-044",
+  "numberJp": "UA42BT/MGS-1-044",
+  "nameEn": "",
+  "nameJp": "忍野 忍",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】自分の場に〈阿良々木 暦〉がある場合、このキャラはBP+500。",
+  "effectEn": "[During Your Turn] If you have <阿良々木 暦> on your field, This character gets BP+500.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-044.png?v8"
+ },
+ "MGS-1-045": {
+  "key": "MGS-1-045",
+  "numberJp": "UA42BT/MGS-1-045",
+  "nameEn": "",
+  "nameJp": "忍野 忍",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から5枚見る。その中から〈キスショット・アセロラオリオン・ハートアンダーブレード〉か〈阿良々木 暦〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 <キスショット・アセロラオリオン・ハートアンダーブレード> or <阿良々木 暦> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-045.png?v8"
+ },
+ "MGS-1-046": {
+  "key": "MGS-1-046",
+  "numberJp": "UA42BT/MGS-1-046",
+  "nameEn": "",
+  "nameJp": "忍野 忍",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分の場の〈阿良々木 暦〉を1枚手札に戻す。そうした場合、手札に戻したキャラの【退場時】を発動し、このキャラはこのターン中、BP+1000。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Return to the owner's hand 1 <阿良々木 暦> on your field. If you do, activate the [On Retire] of the character returned to your hand, and this character gets BP+1000 this turn.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の場外から必要エナジーが2以下で消費APが1の紫のキャラカードを1枚自分のフロントLにアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Purple character card with required energy 2 or less and with AP cost 1 from your Outside Area to your Front Line active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-046.png?v8"
+ },
+ "MGS-1-047": {
+  "key": "MGS-1-047",
+  "numberJp": "UA42BT/MGS-1-047",
+  "nameEn": "",
+  "nameJp": "忍野 忍",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈忍野 忍〉アクティブにし、フロントLに移動できる【登場時】自分の場外から必要エナジーが2以下の紫の〈阿良々木 暦〉を1枚まで自分の場にレストで登場させる。【起動メイン】【フロントLにある場合】【ターン1】自分のフロントLのアクティブの〈阿良々木 暦〉を1枚レストにする。そうした場合、このキャラはこのターン中、【インパクト（1）】を得る。",
+  "effectEn": "[Raid] Can Raid onto <忍野 忍>; set it to active and you may move it to the Front Line. [On Play] Play up to 1 Purple <阿良々木 暦> with required energy 2 or less from your Outside Area to your field rested. [Activate: Main] [While in Front Line] [Once Per Turn] Rest 1 active <阿良々木 暦> in your Front Line. If you do, This character, this turn, [Impact 1] is gained.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-047.png?v8"
+ },
+ "MGS-1-048": {
+  "key": "MGS-1-048",
+  "numberJp": "UA42BT/MGS-1-048",
+  "nameEn": "",
+  "nameJp": "忍野 メメ",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】BP4500以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-4000。",
+  "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line with BP 4500 or more, it gets BP-4000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-048.png?v8"
+ },
+ "MGS-1-049": {
+  "key": "MGS-1-049",
+  "numberJp": "UA42BT/MGS-1-049",
+  "nameEn": "",
+  "nameJp": "忍野 メメ",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）",
+  "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active)",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-049.png?v8"
+ },
+ "MGS-1-050": {
+  "key": "MGS-1-050",
+  "numberJp": "UA42BT/MGS-1-050",
+  "nameEn": "",
+  "nameJp": "戦場ヶ原 ひたぎ",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-050.png?v8"
+ },
+ "MGS-1-051": {
+  "key": "MGS-1-051",
+  "numberJp": "UA42BT/MGS-1-051",
+  "nameEn": "",
+  "nameJp": "戦場ヶ原 ひたぎ",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【ターン1】自分の手札を1枚自分の山札の上に置く。そうした場合、このキャラはこのターン中、BP+1000。",
+  "effectEn": "[Activate: Main] [Once Per Turn] Put 1 card(s) from your hand on top of your deck. If you do, This character gets BP+1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-051.png?v8"
+ },
+ "MGS-1-052": {
+  "key": "MGS-1-052",
+  "numberJp": "UA42BT/MGS-1-052",
+  "nameEn": "",
+  "nameJp": "戦場ヶ原 ひたぎ",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラがアタックしてブロックされた時、カードを1枚引く。",
+  "effectEn": "When this character attacks and is blocked, draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-052.png?v8"
+ },
+ "MGS-1-053": {
+  "key": "MGS-1-053",
+  "numberJp": "UA42BT/MGS-1-053",
+  "nameEn": "",
+  "nameJp": "戦場ヶ原 ひたぎ",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場外から必要エナジーが2以下の〔〈阿良々木 暦〉か〈羽川 翼〉〕を1枚まで手札に加える。",
+  "effectEn": "[On Play] Add up to 1 <阿良々木 暦> or <羽川 翼> with required energy 2 or less from your Outside Area to your hand.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-053.png?v8"
+ },
+ "MGS-1-054": {
+  "key": "MGS-1-054",
+  "numberJp": "UA42BT/MGS-1-054",
+  "nameEn": "",
+  "nameJp": "羽川 翼",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から1枚見る。そのカードを山札の上か下に置く。",
+  "effectEn": "[On Play] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-054.png?v8"
+ },
+ "MGS-1-055": {
+  "key": "MGS-1-055",
+  "numberJp": "UA42BT/MGS-1-055",
+  "nameEn": "",
+  "nameJp": "羽川 翼",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から1枚見る。そのカードを山札の上か下に置く。",
+  "effectEn": "[On Play] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-055.png?v8"
+ },
+ "MGS-1-056": {
+  "key": "MGS-1-056",
+  "numberJp": "UA42BT/MGS-1-056",
+  "nameEn": "",
+  "nameJp": "羽川 翼",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-056.png?v8"
+ },
+ "MGS-1-057": {
+  "key": "MGS-1-057",
+  "numberJp": "UA42BT/MGS-1-057",
+  "nameEn": "",
+  "nameJp": "羽川 翼",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-057.png?v8"
+ },
+ "MGS-1-058": {
+  "key": "MGS-1-058",
+  "numberJp": "UA42BT/MGS-1-058",
+  "nameEn": "",
+  "nameJp": "羽川 翼",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラはアクティブで場に登場させる。【登場時】必要エナジーの数を1つ指定する。自分の山札の上から1枚を公開する。公開したカードの必要エナジーの数がこの効果で指定した数と同じだった場合、そのカードを手札に加え、さらにカードを1枚まで引く。手札に加えなかった場合、公開したカードを山札の上に置く。",
+  "effectEn": "This character is played active. [On Play] Declare 1 required energy colors. Reveal the top 1 card(s) of your deck. If the amount of required energy on the revealed card equals the number declared by this effect, add that card to your hand and draw up to 1 more card(s). If you didn't add it to your hand, put the revealed card on top of your deck.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-058.png?v8"
+ },
+ "MGS-1-059": {
+  "key": "MGS-1-059",
+  "numberJp": "UA42BT/MGS-1-059",
+  "nameEn": "",
+  "nameJp": "羽川 翼",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から1枚見る。そのカードを山札の上か下に置く。【起動メイン】【レストにする】必要エナジーの数を1つ指定する。自分の山札の上から1枚を公開する。公開したカードの必要エナジーの数がこの効果で指定した数と同じだった場合、そのカードを手札に加える。手札に加えなかった場合、公開したカードを山札の上に置く。〈羽川 翼〉のこの効果は1ターンに1回のみ発動できる。",
+  "effectEn": "[On Play] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck. [Activate: Main] [Rest this card] Declare 1 required energy colors. Reveal the top 1 card(s) of your deck. If the amount of required energy on the revealed card equals the number declared by this effect, add that card to your hand. If you didn't add it to your hand, put the revealed card on top of your deck. This <羽川 翼> effect can only activate 1 time(s) per 1 turn(s).",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の場外から必要エナジーが2以下で消費APが1の紫のキャラカードを1枚自分のフロントLにアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Purple character card with required energy 2 or less and with AP cost 1 from your Outside Area to your Front Line active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-059.png?v8"
+ },
+ "MGS-1-060": {
+  "key": "MGS-1-060",
+  "numberJp": "UA42BT/MGS-1-060",
+  "nameEn": "",
+  "nameJp": "ブラック羽川",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このカードは〈羽川 翼〉としても扱う。【レイド】〈羽川 翼〉アクティブにし、フロントLに移動できる【登場時】相手は自身の手札を1枚場外に置く。【起動メイン】【フロントLにある場合】【ターン1】BP1500以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。【起動メイン】【ターン1】自分の手札の〈羽川 翼〉を1枚場外に置く。そうした場合、このキャラはこのターン中、【インパクト（1）】を得る。",
+  "effectEn": "This card is also treated as <羽川 翼>. [Raid] Can Raid onto <羽川 翼>; set it to active and you may move it to the Front Line. [On Play] Your opponent puts 1 card(s) from their hand into their Outside Area. [Activate: Main] [While in Front Line] [Once Per Turn] Choose up to 1 character in your opponent's Front Line with BP 1500 or more, it gets BP-1000 this turn. [Activate: Main] [Once Per Turn] Put into the owner's outside area 1 <羽川 翼> in your hand. If you do, This character, this turn, [Impact 1] is gained.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-060.png?v8"
+ },
+ "MGS-1-061": {
+  "key": "MGS-1-061",
+  "numberJp": "UA42BT/MGS-1-061",
+  "nameEn": "",
+  "nameJp": "ブラック羽川",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このカードは〈羽川 翼〉としても扱う。【レイド】〈羽川 翼〉アクティブにし、フロントLに移動できるこのキャラがアタックしてバトルに勝利した時、自分のエナジーLに〈阿良々木 暦〉か〈戦場ヶ原 ひたぎ〉がある場合、相手は自身の手札を1枚場外に置く。【登場時】相手のフロントLのキャラを1枚まで選び、このターン中、BP-2000。自分の手札を望む枚数場外に置く。この効果で場外に置いたカード1枚につき、選んだキャラはさらにこのターン中、BP-1500。",
+  "effectEn": "This card is also treated as <羽川 翼>. [Raid] Can Raid onto <羽川 翼>; set it to active and you may move it to the Front Line. When this character attacks and wins a battle, if you have <阿良々木 暦> or <戦場ヶ原 ひたぎ> in your Energy Line, your opponent puts 1 card(s) from their hand into their Outside Area. [On Play] Choose up to 1 character in your opponent's Front Line, it gets BP-2000 this turn. Put any number of cards from your hand into your Outside Area. For each 1 card(s) put into your Outside Area by this effect, the chosen character also gets BP-1500 this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-061.png?v8"
+ },
+ "MGS-1-062": {
+  "key": "MGS-1-062",
+  "numberJp": "UA42BT/MGS-1-062",
+  "nameEn": "",
+  "nameJp": "ドーナツ屋さん",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から3枚見る。その中からキャラカードを1枚まで公開し手札に加える。残りを望む順で山札の下に置く。〈忍野 忍〉以外を手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 character card among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added a card other than <忍野 忍> to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-062.png?v8"
+ },
+ "MGS-1-063": {
+  "key": "MGS-1-063",
+  "numberJp": "UA42BT/MGS-1-063",
+  "nameEn": "",
+  "nameJp": "食い殺されたいのかにゃん？",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000』以下の相手のフロントLのキャラを1枚選び、退場させる。自分の場の〈羽川 翼〉1枚につき、この効果で選べるキャラのBPの範囲+1000。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. For each 1 <羽川 翼> on your field, the BP range of characters this effect can choose gets +1000.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-063.png?v8"
+ },
+ "MGS-1-064": {
+  "key": "MGS-1-064",
+  "numberJp": "UA42BT/MGS-1-064",
+  "nameEn": "",
+  "nameJp": "何でもは知らないわよ、知ってることだけ",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-064.png?v8"
+ },
+ "MGS-1-065": {
+  "key": "MGS-1-065",
+  "numberJp": "UA42BT/MGS-1-065",
+  "nameEn": "",
+  "nameJp": "斜め77度の並びで泣く泣く嘶くナナハン7台難なく並べて長眺め",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 7,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のフロントLにある〈羽川 翼〉1枚につき、手札にあるこのカードの必要エナジーを【紫×1】減らす。自分の山札の上から7枚見る。その中から〈羽川 翼〉を3枚まで公開し手札に加える。残りを望む順で山札の下に置く。",
+  "effectEn": "For each 1 <羽川 翼> in your Front Line, the required energy of this card in your hand [Purple x1]is reduced. Look at the top 7 card(s) of your deck. Reveal up to 3 <羽川 翼> among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-065.png?v8"
+ },
+ "MGS-1-066": {
+  "key": "MGS-1-066",
+  "numberJp": "UA42BT/MGS-1-066",
+  "nameEn": "",
+  "nameJp": "ぱないの！",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-066.png?v8"
+ },
+ "MGS-1-067": {
+  "key": "MGS-1-067",
+  "numberJp": "UA42BT/MGS-1-067",
+  "nameEn": "",
+  "nameJp": "妖刀心渡",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈キスショット・アセロラオリオン・ハートアンダーブレード〉か〈忍野 忍〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <キスショット・アセロラオリオン・ハートアンダーブレード> or <忍野 忍> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-067.png?v8"
+ },
+ "MGS-1-068": {
+  "key": "MGS-1-068",
+  "numberJp": "UA42BT/MGS-1-068",
+  "nameEn": "",
+  "nameJp": "阿良々木 暦",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【赤】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Red] and gains “At the end of the Main Phase, retire this character”",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-068.png?v8"
+ },
+ "MGS-1-069": {
+  "key": "MGS-1-069",
+  "numberJp": "UA42BT/MGS-1-069",
+  "nameEn": "",
+  "nameJp": "阿良々木 暦",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】自分の場に〈神原 駿河〉がある場合、このキャラはBP+1000。【相手のターン中】自分の場に〈八九寺 真宵〉がある場合、このキャラは【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）を得る。【登場時】自分の場に〈戦場ヶ原 ひたぎ〉がある場合、カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[During Your Turn] If you have <神原 駿河> on your field, This character gets BP+1000. [During Opponent's Turn] If you have <八九寺 真宵> on your field, This character [Impact Nullify](The character that battles this character, during this battle, [Impact] is lost) is gained. [On Play] If you have <戦場ヶ原 ひたぎ> on your field, Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-069.png?v8"
+ },
+ "MGS-1-070": {
+  "key": "MGS-1-070",
+  "numberJp": "UA42BT/MGS-1-070",
+  "nameEn": "",
+  "nameJp": "忍野 忍",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-070.png?v8"
+ },
+ "MGS-1-071": {
+  "key": "MGS-1-071",
+  "numberJp": "UA42BT/MGS-1-071",
+  "nameEn": "",
+  "nameJp": "忍野 メメ",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-071.png?v8"
+ },
+ "MGS-1-072": {
+  "key": "MGS-1-072",
+  "numberJp": "UA42BT/MGS-1-072",
+  "nameEn": "",
+  "nameJp": "神原 駿河",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-072.png?v8"
+ },
+ "MGS-1-073": {
+  "key": "MGS-1-073",
+  "numberJp": "UA42BT/MGS-1-073",
+  "nameEn": "",
+  "nameJp": "神原 駿河",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-073.png?v8"
+ },
+ "MGS-1-074": {
+  "key": "MGS-1-074",
+  "numberJp": "UA42BT/MGS-1-074",
+  "nameEn": "",
+  "nameJp": "神原 駿河",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中から〈戦場ヶ原 ひたぎ〉か〈神原 駿河〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 <戦場ヶ原 ひたぎ> or <神原 駿河> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-074.png?v8"
+ },
+ "MGS-1-075": {
+  "key": "MGS-1-075",
+  "numberJp": "UA42BT/MGS-1-075",
+  "nameEn": "",
+  "nameJp": "神原 駿河",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【レイド】〈神原 駿河〉アクティブにし、フロントLに移動できる【アタック時】このキャラの下の裏向きのカードが2枚以下の場合、自分の山札の上から1枚を裏向きでこのキャラの下に置いてもよい。そうした場合、カードを1枚引く。【退場時】このキャラの下の裏向きのカードの枚数分、自分の手札を場外に置く。",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [Raid] Can Raid onto <神原 駿河>; set it to active and you may move it to the Front Line. [When Attacking] If this character has 2 or fewer face-down cards under it, you may put the top 1 card(s) of your deck face down under this character. If you do, Draw 1 card(s). [On Retire] Put cards from your hand into your Outside Area equal to the number of face-down cards under this character.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-075.png?v8"
+ },
+ "MGS-1-076": {
+  "key": "MGS-1-076",
+  "numberJp": "UA42BT/MGS-1-076",
+  "nameEn": "",
+  "nameJp": "神原 駿河",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈神原 駿河〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【アタック時】このキャラの下の裏向きのカードが2枚以下の場合、自分の山札の上から1枚を裏向きでこのキャラの下に置いてもよい。そうした場合、このキャラはこのターン中、BP+1000と【ダメージ（2）】を得る。【退場時】このキャラの下の裏向きのカードの枚数分、自分の手札を場外に置く。",
+  "effectEn": "[Raid] Can Raid onto <神原 駿河>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [When Attacking] If this character has 2 or fewer face-down cards under it, you may put the top 1 card(s) of your deck face down under this character. If you do, this character gains BP+1000 and [Damage 2] this turn. [On Retire] Put cards from your hand into your Outside Area equal to the number of face-down cards under this character.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-076.png?v8"
+ },
+ "MGS-1-077": {
+  "key": "MGS-1-077",
+  "numberJp": "UA42BT/MGS-1-077",
+  "nameEn": "",
+  "nameJp": "戦場ヶ原 ひたぎ",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-077.png?v8"
+ },
+ "MGS-1-078": {
+  "key": "MGS-1-078",
+  "numberJp": "UA42BT/MGS-1-078",
+  "nameEn": "",
+  "nameJp": "戦場ヶ原 ひたぎ",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場外にあるカードが9枚以下の場合、自分の場とレイド元のこのカードの必要エナジーを【赤×1】減らす。【登場時】自分の山札の上から1枚見る。そのカードを山札の上か場外に置く。",
+  "effectEn": "If you have 9 or fewer cards in your Outside Area, reduce the required energy of this card on your field and as a Raid source by [Red x1]. [On Play] Look at the top 1 card(s) of your deck. Put that card on top of your deck or into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-078.png?v8"
+ },
+ "MGS-1-079": {
+  "key": "MGS-1-079",
+  "numberJp": "UA42BT/MGS-1-079",
+  "nameEn": "",
+  "nameJp": "戦場ヶ原 ひたぎ",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場外にあるカードが9枚以下の場合、自分の場とレイド元のこのカードの必要エナジーを【赤×3】減らす。【自分のターン中】アタックフェイズ終了時、アクティブのこのキャラをレストにしてもよい。そうした場合、自分の場のレイド状態の〈神原 駿河〉を1枚まで選び、そのキャラの下にあるカードを全て場外に置く。（裏向きのカードも含む）【登場時】【エナジーLにある場合】このキャラをアクティブにする。",
+  "effectEn": "If you have 9 or fewer cards in your Outside Area, reduce the required energy of this card on your field and as a Raid source by [Red x3]. [During Your Turn] At the end of the Attack Phase, you may rest this active character. If you do, choose up to 1 Raided <神原 駿河> on your field and put all cards under that character into your Outside Area. (Including face-down cards) [On Play] [While in Energy Line] Set this character to active.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP2500以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-079.png?v8"
+ },
+ "MGS-1-080": {
+  "key": "MGS-1-080",
+  "numberJp": "UA42BT/MGS-1-080",
+  "nameEn": "",
+  "nameJp": "戦場ヶ原 ひたぎ",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "-",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場外にあるカードが9枚以下の場合、自分の場とレイド元のこのカードの必要エナジーを【赤×3】減らす。自分の場外にあるカードが9枚以下の場合、このキャラはBP-1000。",
+  "effectEn": "If you have 9 or fewer cards in your Outside Area, reduce the required energy of this card on your field and as a Raid source by [Red x3]. If you have 9 or fewer cards in your Outside Area, this character gets BP-1000.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-080.png?v8"
+ },
+ "MGS-1-081": {
+  "key": "MGS-1-081",
+  "numberJp": "UA42BT/MGS-1-081",
+  "nameEn": "",
+  "nameJp": "戦場ヶ原 ひたぎ",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場外にあるカードが9枚以下の場合、自分の場とレイド元のこのカードの必要エナジーを【赤×2】減らす。【登場時】自分の場のキャラを1枚まで選び、このターン中、BP+1000。【起動メイン】【レストにする】このキャラの必要エナジーが1以上の場合のみ発動できる。このキャラの【登場時】を発動する。",
+  "effectEn": "If you have 9 or fewer cards in your Outside Area, reduce the required energy of this card on your field and as a Raid source by [Red x2]. [On Play] Choose up to 1 character on your field, it gets BP+1000 this turn. [Activate: Main] [Rest this card] Can only activate if this character's required energy is 1 or more. Activate this character's [On Play].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-081.png?v8"
+ },
+ "MGS-1-082": {
+  "key": "MGS-1-082",
+  "numberJp": "UA42BT/MGS-1-082",
+  "nameEn": "",
+  "nameJp": "戦場ヶ原 ひたぎ",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4500,
+  "bpMark": "-",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場外にあるカードが9枚以下の場合、自分の場とレイド元のこのカードの必要エナジーを【赤×4】減らす。自分の場外にあるカードが9枚以下の場合、このキャラはBP-500。【起動メイン】【ターン1】このキャラはこのターン中、BP-500と【インパクト（1）】を得る。",
+  "effectEn": "If you have 9 or fewer cards in your Outside Area, reduce the required energy of this card on your field and as a Raid source by [Red x4]. If you have 9 or fewer cards in your Outside Area, this character gets BP-500. [Activate: Main] [Once Per Turn] This character gains BP-500 and [Impact 1] this turn.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-082.png?v8"
+ },
+ "MGS-1-083": {
+  "key": "MGS-1-083",
+  "numberJp": "UA42BT/MGS-1-083",
+  "nameEn": "",
+  "nameJp": "戦場ヶ原 ひたぎ",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈戦場ヶ原 ひたぎ〉アクティブにし、フロントLに移動できる【登場時】以下から1つ選ぶ。・BP3000以下の相手のフロントLのキャラを1枚まで選び、退場させる。・このキャラのレイド元が必要エナジー1以上の場合、カードを1枚引き、自分の手札から必要エナジーが3以下で消費APが1の赤のキャラカードを1枚まで自分の場にアクティブで登場させる。",
+  "effectEn": "[Raid] Can Raid onto <戦場ヶ原 ひたぎ>; set it to active and you may move it to the Front Line. [On Play] Choose 1 of the following. Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it. If this character's Raid source has required energy 1 or more, draw 1 card(s), and play up to 1 red character card(s) with required energy 3 or less and AP cost 1 from your hand to your field active.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-083.png?v8"
+ },
+ "MGS-1-084": {
+  "key": "MGS-1-084",
+  "numberJp": "UA42BT/MGS-1-084",
+  "nameEn": "",
+  "nameJp": "八九寺 真宵",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このカードが自分の効果でリムーブエリアに置かれた時、自分の山札の上から1枚までリムーブエリアに置く。",
+  "effectEn": "When this card is put into your Remove Area by your own effect, put up to 1 card(s) from the top of your deck into your Remove Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-084.png?v8"
+ },
+ "MGS-1-085": {
+  "key": "MGS-1-085",
+  "numberJp": "UA42BT/MGS-1-085",
+  "nameEn": "",
+  "nameJp": "八九寺 真宵",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このカードが自分の効果でリムーブエリアに置かれた時、自分の場のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "When this card is put into your Remove Area by your own effect, choose up to 1 character on your field; it gets BP+1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-085.png?v8"
+ },
+ "MGS-1-086": {
+  "key": "MGS-1-086",
+  "numberJp": "UA42BT/MGS-1-086",
+  "nameEn": "",
+  "nameJp": "八九寺 真宵",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中から必要エナジーが3以下の赤のキャラカードを1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚リムーブエリアに置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 Red character card with required energy 3 or less among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into the Remove Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-086.png?v8"
+ },
+ "MGS-1-087": {
+  "key": "MGS-1-087",
+  "numberJp": "UA42BT/MGS-1-087",
+  "nameEn": "",
+  "nameJp": "八九寺 真宵",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 2,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】山札の上から5枚見る。その中から必要エナジーが2以下の赤のカードを1枚まで公開し手札に加える。残りを望む順で山札の下に置く。このターン中、次に手札から使用する必要エナジーが2以下の赤のカードの消費APを-1する。【起動メイン】【ターン1】自分の手札を1枚リムーブエリアに置く。そうした場合、自分の場のキャラを1枚選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 Red card with required energy 2 or less among them and add it to your hand. Put the rest on the bottom of your deck in any order. This turn, the next Red card with required energy 2 or less you use from your hand costs 1 less AP. [Activate: Main] [Once Per Turn] Put 1 card(s) from your hand into your Remove Area. If you do, Choose 1 character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-087.png?v8"
+ },
+ "MGS-1-088": {
+  "key": "MGS-1-088",
+  "numberJp": "UA42BT/MGS-1-088",
+  "nameEn": "",
+  "nameJp": "八九寺 真宵",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈八九寺 真宵〉アクティブにし、フロントLに移動できる【起動メイン】【フロントLにある場合】【ターン1】自分の手札を1枚リムーブエリアに置いてもよい。そうした場合、カードを1枚引き、自分の場の他のキャラを1枚まで選び、選んだキャラとこのキャラはこのターン中、BP+1000。【退場時】自分のリムーブエリアのカードを望む枚数場外に置く。この効果で3枚以上置いた場合、このカードを自分の場にレストで登場させる。",
+  "effectEn": "[Raid] Can Raid onto <八九寺 真宵>; set it to active and you may move it to the Front Line. [Activate: Main] [While in Front Line] [Once Per Turn] You may put 1 card(s) from your hand into the Remove Area. If you do, draw 1 card(s), choose up to 1 other character on your field, and the chosen character and this character get BP+1000 this turn. [On Retire] Put any number of cards from your Remove Area into your Outside Area. If you put 3 or more with this effect, play this card to your field rested.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-088.png?v8"
+ },
+ "MGS-1-089": {
+  "key": "MGS-1-089",
+  "numberJp": "UA42BT/MGS-1-089",
+  "nameEn": "",
+  "nameJp": "羽川 翼",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "相手の場に黄か紫のカードがある場合、手札にあるこのカードの必要エナジーを【赤×1】減らす。",
+  "effectEn": "If your opponent has Yellow or Purple card on their field, the required energy of this card in your hand [Red x1]is reduced.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-089.png?v8"
+ },
+ "MGS-1-090": {
+  "key": "MGS-1-090",
+  "numberJp": "UA42BT/MGS-1-090",
+  "nameEn": "",
+  "nameJp": "羽川 翼",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
+  "effectEn": "While this character is active, its generated energy +[Red].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-090.png?v8"
+ },
+ "MGS-1-091": {
+  "key": "MGS-1-091",
+  "numberJp": "UA42BT/MGS-1-091",
+  "nameEn": "",
+  "nameJp": "お化け屋敷",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】自分の場のキャラ全ては、このターン中、BP+500。",
+  "effectEn": "This Field is played active. [Activate: Main] [Rest this card] All characters on your field it gets BP+500 this turn.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-091.png?v8"
+ },
+ "MGS-1-092": {
+  "key": "MGS-1-092",
+  "numberJp": "UA42BT/MGS-1-092",
+  "nameEn": "",
+  "nameJp": "I LOVE YOU",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から2枚場外に置く。その後、自分の場外から〈戦場ヶ原 ひたぎ〉を1枚まで手札に加える。",
+  "effectEn": "Put the top 2 card(s) of your deck into your Outside Area. Then, Add up to 1 <戦場ヶ原 ひたぎ> from your Outside Area to your hand.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-092.png?v8"
+ },
+ "MGS-1-093": {
+  "key": "MGS-1-093",
+  "numberJp": "UA42BT/MGS-1-093",
+  "nameEn": "",
+  "nameJp": "悪魔の左手",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場外から〈神原 駿河〉を1枚までレイドさせ、そのキャラの下にこのカードを裏向きで置く。",
+  "effectEn": "Raid up to 1 <神原 駿河> from your Outside Area, and put this card face down under that character.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-093.png?v8"
+ },
+ "MGS-1-094": {
+  "key": "MGS-1-094",
+  "numberJp": "UA42BT/MGS-1-094",
+  "nameEn": "",
+  "nameJp": "あれがデネブ。アルタイル。ベガ。",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "カードを1枚引く。自分の場の〈戦場ヶ原 ひたぎ〉と〈阿良々木 暦〉をそれぞれ1枚まで選び、このターン中、BP+1000。この効果で選んだキャラの必要エナジーの合計が4以上の場合、この効果で選んだ〈戦場ヶ原 ひたぎ〉に、さらにこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を与える。",
+  "effectEn": "Draw 1 card(s). Choose up to 1 each of <戦場ヶ原 ひたぎ> and <阿良々木 暦> on your field; they get BP+1000 this turn. If the total required energy of the characters chosen by this effect is 4 or more, the <戦場ヶ原 ひたぎ> chosen by this effect also gains [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opposing player) this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-094.png?v8"
+ },
+ "MGS-1-095": {
+  "key": "MGS-1-095",
+  "numberJp": "UA42BT/MGS-1-095",
+  "nameEn": "",
+  "nameJp": "嚙みまみた",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "カードを2枚引く。このカードが自分の効果でリムーブエリアに置かれた時、カードを1枚まで引く。",
+  "effectEn": "Draw 2 card(s). When this card is put into your Remove Area by your own effect, draw up to 1 card(s).",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP2500以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-095.png?v8"
+ },
+ "MGS-1-096": {
+  "key": "MGS-1-096",
+  "numberJp": "UA42BT/MGS-1-096",
+  "nameEn": "",
+  "nameJp": "君が勝手に一人で助かるだけさ",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-096.png?v8"
+ },
+ "MGS-1-097": {
+  "key": "MGS-1-097",
+  "numberJp": "UA42BT/MGS-1-097",
+  "nameEn": "",
+  "nameJp": "蕩れ",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈戦場ヶ原 ひたぎ〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <戦場ヶ原 ひたぎ> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-097.png?v8"
+ },
+ "MGS-1-098": {
+  "key": "MGS-1-098",
+  "numberJp": "UA42BT/MGS-1-098",
+  "nameEn": "",
+  "nameJp": "何かいいことでもあったのかい？",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場のキャラを1枚選び、このターン中、「【アタック時】【ターン1】カードを3枚まで引く。」を与える。",
+  "effectEn": "Choose 1 character on your field, This turn, “[When Attacking]. [Once Per Turn] Draw up to 3 card(s)” is given.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-098.png?v8"
+ },
+ "MGS-1-099": {
+  "key": "MGS-1-099",
+  "numberJp": "UA42BT/MGS-1-099",
+  "nameEn": "",
+  "nameJp": "レイニーデビル",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 5,
+  "ap": 2,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場に〈神原 駿河〉がある場合、手札にあるこのカードの消費APを-1する。BP5000以下の相手のフロントLのキャラを1枚まで選び、退場させる。自分の場のレイド状態の〈神原 駿河〉を1枚まで選び、このターン中、「このキャラの下の裏向きのカードが2枚以下で、このキャラが相手の効果で退場する場合、代わりに自分の山札の上から1枚を裏向きでこのキャラの下に置いてもよい。」を与える。",
+  "effectEn": "If you have <神原 駿河> on your field, reduce the AP cost of this card in your hand by 1. Choose up to 1 character in your opponent's Front Line with BP 5000 or less, retire it. Choose up to 1 Raided <神原 駿河> on your field; it gains “If this character has 2 or fewer face-down cards under it and would be retired by your opponent's effect, you may put the top 1 card(s) of your deck face down under this character instead” this turn.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-099.png?v8"
+ },
+ "MGS-1-100": {
+  "key": "MGS-1-100",
+  "numberJp": "UA42BT/MGS-1-100",
+  "nameEn": "",
+  "nameJp": "わたしはあなたが嫌いですッ！！！",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈八九寺 真宵〉がある場合、『BP4000以下』に代わる。【自分のターン中】このカードが自分の効果でリムーブエリアに置かれた時、自分の赤の発生エナジーが3以上ある場合、APを1支払ってもよい。そうした場合、BP4000以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <八九寺 真宵> on your field, it becomes “BP 4000 or less” instead. [During Your Turn] When this card is put into your Remove Area by your own effect, if your red generated energy is 3 or more, you may pay 1 AP. If you do, Choose 1 character in your opponent's Front Line with BP 4000 or less, retire it.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-100.png?v8"
+ },
+ "MGS-1-101": {
+  "key": "MGS-1-101",
+  "numberJp": "UA42ST/MGS-1-101",
+  "nameEn": "",
+  "nameJp": "阿良々木 暦",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈阿良々木 暦〉アクティブにし、フロントLに移動できる【登場時】このキャラはこのターン中、BP+1000と「相手はこのキャラのアタックを可能ならブロックしなければならない。」を得る。【退場時】自分の場に〈キスショット・アセロラオリオン・ハートアンダーブレード〉がある場合、このキャラのレイド元のカードを1枚まで自分の場にレストで登場させてもよい。",
+  "effectEn": "[Raid] Can Raid onto <阿良々木 暦>; set it to active and you may move it to the Front Line. [On Play] This character it gets BP+1000 and gains “Your opponent must block this character's attacks if able” this turn. [On Retire] If you have <キスショット・アセロラオリオン・ハートアンダーブレード> on your field, you may play up to 1 of this character's Raid source cards to your field rested.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42ST_MGS-1-101.png?v8"
+ },
+ "MGS-1-102": {
+  "key": "MGS-1-102",
+  "numberJp": "UA42ST/MGS-1-102",
+  "nameEn": "",
+  "nameJp": "エピソード",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42ST_MGS-1-102.png?v8"
+ },
+ "MGS-1-103": {
+  "key": "MGS-1-103",
+  "numberJp": "UA42ST/MGS-1-103",
+  "nameEn": "",
+  "nameJp": "キスショット・アセロラオリオン・ハートアンダーブレード",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場の他のキャラを1枚退場させてもよい。そうした場合、カードを2枚引く。",
+  "effectEn": "[On Play] You may retire 1 other character on your field. If you do, Draw 2 card(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42ST_MGS-1-103.png?v8"
+ },
+ "MGS-1-104": {
+  "key": "MGS-1-104",
+  "numberJp": "UA42ST/MGS-1-104",
+  "nameEn": "",
+  "nameJp": "キスショット・アセロラオリオン・ハートアンダーブレード",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【退場時】自分の場外から〈阿良々木 暦〉を1枚まで手札に加える。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Retire] Add up to 1 <阿良々木 暦> from your Outside Area to your hand. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42ST_MGS-1-104.png?v8"
+ },
+ "MGS-1-105": {
+  "key": "MGS-1-105",
+  "numberJp": "UA42ST/MGS-1-105",
+  "nameEn": "",
+  "nameJp": "キスショット・アセロラオリオン・ハートアンダーブレード",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 5000,
+  "bpMark": "-",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラの下の裏向きのカード1枚につき、このキャラはBP-1000。【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）自分の場の〈阿良々木 暦〉がアタックしてバトルに勝利した時、このキャラの裏向きのカードを1枚まで場外に置く。【登場時】自分の山札の上から3枚を裏向きでこのキャラの下に置く。",
+  "effectEn": "For each 1 face-down card(s) under this character, This character BP-1000. [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opposing player) When <阿良々木 暦> on your field attacks and wins a battle, put up to 1 of this character's face-down cards into your Outside Area. [On Play] Put the top 3 card(s) of your deck face down under this character.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42ST_MGS-1-105.png?v8"
+ },
+ "MGS-1-106": {
+  "key": "MGS-1-106",
+  "numberJp": "UA42ST/MGS-1-106",
+  "nameEn": "",
+  "nameJp": "ギロチンカッター",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【退場時】カードを1枚引く。",
+  "effectEn": "[On Retire] Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42ST_MGS-1-106.png?v8"
+ },
+ "MGS-1-107": {
+  "key": "MGS-1-107",
+  "numberJp": "UA42ST/MGS-1-107",
+  "nameEn": "",
+  "nameJp": "ドラマツルギー",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42ST_MGS-1-107.png?v8"
+ },
+ "MGS-1-108": {
+  "key": "MGS-1-108",
+  "numberJp": "UA42ST/MGS-1-108",
+  "nameEn": "",
+  "nameJp": "羽川 翼",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】このキャラはBP+1000。【起動メイン】【フロントLにある場合】【ターン1】自分の山札の上から1枚見る。そのカードを山札の上か下に置く。",
+  "effectEn": "[During Your Turn] This character gets BP+1000. [Activate: Main] [While in Front Line] [Once Per Turn] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42ST_MGS-1-108.png?v8"
+ },
+ "MGS-1-109": {
+  "key": "MGS-1-109",
+  "numberJp": "UA42ST/MGS-1-109",
+  "nameEn": "",
+  "nameJp": "学習塾跡",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から3枚場外に置く。",
+  "effectEn": "[On Play] Put the top 3 card(s) of your deck into your Outside Area.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42ST_MGS-1-109.png?v8"
+ },
+ "MGS-1-110": {
+  "key": "MGS-1-110",
+  "numberJp": "UA42ST/MGS-1-110",
+  "nameEn": "",
+  "nameJp": "阿良々木 火憐",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ファイヤーシスターズ"
+  ],
+  "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【黄×2】減らす。【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Yellow x2]is reduced. [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42ST_MGS-1-110.png?v8"
+ },
+ "MGS-1-111": {
+  "key": "MGS-1-111",
+  "numberJp": "UA42ST/MGS-1-111",
+  "nameEn": "",
+  "nameJp": "千石 撫子",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを場外に置く。",
+  "effectEn": "[On Play] Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42ST_MGS-1-111.png?v8"
+ },
+ "MGS-1-112": {
+  "key": "MGS-1-112",
+  "numberJp": "UA42ST/MGS-1-112",
+  "nameEn": "",
+  "nameJp": "神原 駿河",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】【エナジーLにある場合】このキャラをアクティブにする。【起動メイン】【レストにする】下にある裏向きのカードが2枚以下の自分の場のレイド状態の〈神原 駿河〉を1枚選び、自分の山札の上から1枚を裏向きでそのキャラの下に置き、このターン中、「【アタック時】カードを1枚まで引く。」を与える。〈神原 駿河〉のこの効果は1ターンに1回のみ発動できる。",
+  "effectEn": "[On Play] [While in Energy Line] Set this character to active. [Activate: Main] [Rest this card] Choose 1 Raided <神原 駿河> on your field with 2 or fewer face-down cards under it, put the top 1 card(s) of your deck face down under that character, and it gains “[When Attacking] Draw up to 1 card(s)” this turn. This <神原 駿河> effect can only activate 1 time(s) per 1 turn(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42ST_MGS-1-112.png?v8"
+ },
+ "MGS-1-113": {
+  "key": "MGS-1-113",
+  "numberJp": "UA42ST/MGS-1-113",
+  "nameEn": "",
+  "nameJp": "戦場ヶ原 ひたぎ",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈戦場ヶ原 ひたぎ〉アクティブにし、フロントLに移動できる【自分のターン中】このキャラはBP+500。【登場時】以下から1つ選ぶ。・カードを1枚まで引く。・このキャラのレイド元が必要エナジー1以上の場合、このキャラはこのターン中、【2回アタック】（このキャラがこのターン初めてアタックした時、アクティブにする）を得る。",
+  "effectEn": "[Raid] Can Raid onto <戦場ヶ原 ひたぎ>; set it to active and you may move it to the Front Line. [During Your Turn] This character gets BP+500. [On Play] Choose 1 of the following. Draw up to 1 card(s). If this character's Raid source has required energy 1 or more, this character gains [Double Attack] (When this character attacks for the first time this turn, set it to active) this turn.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42ST_MGS-1-113.png?v8"
+ },
+ "MGS-1-AP01": {
+  "key": "MGS-1-AP01",
+  "numberJp": "UA42BT/MGS-1-AP01",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(〈物語〉シリーズ)",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-AP01.png?v8"
+ },
+ "MGS-1-AP02": {
+  "key": "MGS-1-AP02",
+  "numberJp": "UA42BT/MGS-1-AP02",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(〈物語〉シリーズ)",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-AP02.png?v8"
+ },
+ "MGS-1-AP03": {
+  "key": "MGS-1-AP03",
+  "numberJp": "UA42BT/MGS-1-AP03",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(〈物語〉シリーズ)",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-AP03.png?v8"
+ },
+ "MGS-1-AP04": {
+  "key": "MGS-1-AP04",
+  "numberJp": "UA42BT/MGS-1-AP04",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(〈物語〉シリーズ)",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-AP04.png?v8"
+ },
+ "MGS-1-AP05": {
+  "key": "MGS-1-AP05",
+  "numberJp": "UA42BT/MGS-1-AP05",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(〈物語〉シリーズ)",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-AP05.png?v8"
+ },
+ "MGS-1-AP06": {
+  "key": "MGS-1-AP06",
+  "numberJp": "UA42BT/MGS-1-AP06",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(〈物語〉シリーズ)",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-AP06.png?v8"
+ },
+ "MGS-1-AP07": {
+  "key": "MGS-1-AP07",
+  "numberJp": "UA42BT/MGS-1-AP07",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(〈物語〉シリーズ)",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-AP07.png?v8"
+ },
+ "MGS-1-AP08": {
+  "key": "MGS-1-AP08",
+  "numberJp": "UA42BT/MGS-1-AP08",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(〈物語〉シリーズ)",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA42BT_MGS-1-AP08.png?v8"
+ }
+}

@@ -1,0 +1,3439 @@
+{
+ "TKN-1-001": {
+  "key": "TKN-1-001",
+  "numberJp": "UA13BT/TKN-1-001",
+  "nameEn": "",
+  "nameJp": "アーマーキング",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】必要エナジーの数を1つ指定する。自分の山札の上から1枚を公開する。公開したカードの必要エナジーの数がこの効果で指定した数と同じだった場合、相手のフロントLのキャラを1枚まで選び、レストにする。公開したカードを自分の山札の上か下に置く。",
+  "effectEn": "[On Play] Declare 1 required energy colors. Reveal the top 1 card(s) of your deck. If the amount of required energy on the revealed card equals the number declared by this effect, choose up to 1 character in your opponent's Front Line and rest it. Put the revealed card on the top or bottom of your deck.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP3500以下の相手のフロントLのキャラを1枚選び、手札に戻す。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 3500 or less, return it to its owner's hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-001.png?v8"
+ },
+ "TKN-1-002": {
+  "key": "TKN-1-002",
+  "numberJp": "UA13BT/TKN-1-002",
+  "nameEn": "",
+  "nameJp": "エディ・ゴルド",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "相手の場に紫か赤のカードがある場合、手札にあるこのカードの必要エナジーを【青×1】減らす。",
+  "effectEn": "If your opponent has Purple or Red card on their field, the required energy of this card in your hand [Blue x1]is reduced.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-002.png?v8"
+ },
+ "TKN-1-003": {
+  "key": "TKN-1-003",
+  "numberJp": "UA13BT/TKN-1-003",
+  "nameEn": "",
+  "nameJp": "巌竜",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】このキャラはBP+1500。【起動メイン】【APを1支払う】【ターン1】カードを1枚引く。",
+  "effectEn": "[During Your Turn] This character gets BP+1500. [Activate: Main] [Pay 1 AP] [Once Per Turn] Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-003.png?v8"
+ },
+ "TKN-1-004": {
+  "key": "TKN-1-004",
+  "numberJp": "UA13BT/TKN-1-004",
+  "nameEn": "",
+  "nameJp": "キング",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】BP1500以上の相手の場のキャラを1枚まで選び、このターン中、BP-1000。",
+  "effectEn": "[On Play] Choose up to 1 character on your opponent's field with BP 1500 or more, it gets BP-1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-004.png?v8"
+ },
+ "TKN-1-005": {
+  "key": "TKN-1-005",
+  "numberJp": "UA13BT/TKN-1-005",
+  "nameEn": "",
+  "nameJp": "キング",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを望む順で下に置く。",
+  "effectEn": "[On Play] Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest on the bottom of your deck in any order.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-005.png?v8"
+ },
+ "TKN-1-006": {
+  "key": "TKN-1-006",
+  "numberJp": "UA13BT/TKN-1-006",
+  "nameEn": "",
+  "nameJp": "キング",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈キング〉アクティブにし、フロントLに移動できる【登場時】相手のフロントLのキャラを1枚まで選び、エナジーLに移動させ、次の自分のターン開始時まで、「このキャラは移動できない。」を与える。（移動させる時にそのラインに空きがない場合、そのカードがある場のプレイヤーはカードを1枚選んでリムーブエリアに置いてから移動させる）",
+  "effectEn": "[Raid] Can Raid onto <King>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line, move it to the Energy Line, and until the start of your next turn it gains “This character cannot move” (When moving, if there is no space in that line, the player whose field it is chooses 1 card(s), puts them into the Remove Area, then moves it)",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-006.png?v8"
+ },
+ "TKN-1-007": {
+  "key": "TKN-1-007",
+  "numberJp": "UA13BT/TKN-1-007",
+  "nameEn": "",
+  "nameJp": "クレイグ・マードック",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】自分のフロントLに〈キング〉がある場合、このキャラはBP+500。",
+  "effectEn": "[During Your Turn] If you have <King> in your Front Line, This character gets BP+500.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-007.png?v8"
+ },
+ "TKN-1-008": {
+  "key": "TKN-1-008",
+  "numberJp": "UA13BT/TKN-1-008",
+  "nameEn": "",
+  "nameJp": "シャヒーン",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【青】。メインフェイズ終了時、このキャラを退場させる。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Blue]. At the end of the Main Phase, retire this character.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-008.png?v8"
+ },
+ "TKN-1-009": {
+  "key": "TKN-1-009",
+  "numberJp": "UA13BT/TKN-1-009",
+  "nameEn": "",
+  "nameJp": "セルゲイ・ドラグノフ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【ターン1】自分の手札を1枚自分の山札の上に置く。そうした場合、このキャラは次の自分のターン開始時まで、BP+1000。",
+  "effectEn": "[Activate: Main] [Once Per Turn] Put 1 card(s) from your hand on top of your deck. If you do, This character gets BP+1000 until the start of your next turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-009.png?v8"
+ },
+ "TKN-1-010": {
+  "key": "TKN-1-010",
+  "numberJp": "UA13BT/TKN-1-010",
+  "nameEn": "",
+  "nameJp": "ポール・フェニックス",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】必要エナジーの数を1つ指定する。自分の山札の上から1枚を公開し手札に加える。公開したカードの必要エナジーの数がこの効果で指定した数と同じだった場合、BP4000以下の相手のフロントLのキャラを1枚まで選び、手札に戻す。",
+  "effectEn": "[On Play] Declare 1 required energy colors. Reveal the top 1 card(s) of your deck and add them to your hand. If the amount of required energy on the revealed card equals the number declared by this effect, choose up to 1 character in your opponent's Front Line with BP 4000 or less and return it to its owner's hand.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-010.png?v8"
+ },
+ "TKN-1-011": {
+  "key": "TKN-1-011",
+  "numberJp": "UA13BT/TKN-1-011",
+  "nameEn": "",
+  "nameJp": "ボブ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】相手のフロントLに元々のBPよりBPが低いキャラがある場合、このキャラをアクティブにする。",
+  "effectEn": "[On Play] If your opponent has a character whose BP is lower than its original BP in their Front Line, set this character to active.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-011.png?v8"
+ },
+ "TKN-1-012": {
+  "key": "TKN-1-012",
+  "numberJp": "UA13BT/TKN-1-012",
+  "nameEn": "",
+  "nameJp": "マーシャル・ロウ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。",
+  "effectEn": "[Activate: Main] [Rest this card] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-012.png?v8"
+ },
+ "TKN-1-013": {
+  "key": "TKN-1-013",
+  "numberJp": "UA13BT/TKN-1-013",
+  "nameEn": "",
+  "nameJp": "ミゲル・カバジェロ・ロホ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。",
+  "effectEn": "[On Play] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-013.png?v8"
+ },
+ "TKN-1-014": {
+  "key": "TKN-1-014",
+  "numberJp": "UA13BT/TKN-1-014",
+  "nameEn": "",
+  "nameJp": "吉光",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-014.png?v8"
+ },
+ "TKN-1-015": {
+  "key": "TKN-1-015",
+  "numberJp": "UA13BT/TKN-1-015",
+  "nameEn": "",
+  "nameJp": "リロイ・スミス",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
+  "effectEn": "[Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-015.png?v8"
+ },
+ "TKN-1-016": {
+  "key": "TKN-1-016",
+  "numberJp": "UA13BT/TKN-1-016",
+  "nameEn": "",
+  "nameJp": "レイ・ウーロン",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【青】。",
+  "effectEn": "While this character is active, its generated energy +[Blue].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-016.png?v8"
+ },
+ "TKN-1-017": {
+  "key": "TKN-1-017",
+  "numberJp": "UA13BT/TKN-1-017",
+  "nameEn": "",
+  "nameJp": "レオ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-017.png?v8"
+ },
+ "TKN-1-018": {
+  "key": "TKN-1-018",
+  "numberJp": "UA13BT/TKN-1-018",
+  "nameEn": "",
+  "nameJp": "レオ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中から特徴を持たないキャラカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. From among them, reveal up to 1 character card(s) with no traits and add them to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-018.png?v8"
+ },
+ "TKN-1-019": {
+  "key": "TKN-1-019",
+  "numberJp": "UA13BT/TKN-1-019",
+  "nameEn": "",
+  "nameJp": "レオ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈レオ〉アクティブにし、フロントLに移動できる【登場時】必要エナジーの数を1つ指定する。自分の山札の上から1枚を公開し手札に加える。公開したカードの必要エナジーの数がこの効果で指定した数と同じだった場合、自分の山札の上から2枚見る。その中からカードを1枚まで手札に加える。残りを望む順で自分の山札の上に置く。【起動メイン】【フロントLにある場合】【ターン1】BP1500以上の相手の場のキャラを1枚選び、このターン中、BP-1000。",
+  "effectEn": "[Raid] Can Raid onto <レオ>; set it to active and you may move it to the Front Line. [On Play] Declare 1 required energy colors. Reveal the top 1 card(s) of your deck and add them to your hand. If the amount of required energy on the revealed card equals the number declared by this effect, look at the top 2 card(s) of your deck. From among them, add up to 1 card to your hand. Put the rest on top of your deck in any order. [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 character on your opponent's field with BP 1500 or more, it gets BP-1000 this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-019.png?v8"
+ },
+ "TKN-1-020": {
+  "key": "TKN-1-020",
+  "numberJp": "UA13BT/TKN-1-020",
+  "nameEn": "",
+  "nameJp": "アリサ・ボスコノビッチ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヴァイオレット・システムズ"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-020.png?v8"
+ },
+ "TKN-1-021": {
+  "key": "TKN-1-021",
+  "numberJp": "UA13BT/TKN-1-021",
+  "nameEn": "",
+  "nameJp": "アリサ・ボスコノビッチ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ヴァイオレット・システムズ"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-021.png?v8"
+ },
+ "TKN-1-022": {
+  "key": "TKN-1-022",
+  "numberJp": "UA13BT/TKN-1-022",
+  "nameEn": "",
+  "nameJp": "アリサ・ボスコノビッチ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヴァイオレット・システムズ"
+  ],
+  "effectJp": "【登場時】自分の場の他の［特徴：ヴァイオレット・システムズ］を1枚まで選び、次の自分のターン開始時まで、BP+1000。",
+  "effectEn": "[On Play] Choose up to 1 other [Trait: Violet Systems] on your field, Until the start of your next turn, BP+1000.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP3500以下の相手のフロントLのキャラを1枚選び、手札に戻す。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 3500 or less, return it to its owner's hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-022.png?v8"
+ },
+ "TKN-1-023": {
+  "key": "TKN-1-023",
+  "numberJp": "UA13BT/TKN-1-023",
+  "nameEn": "",
+  "nameJp": "アリサ・ボスコノビッチ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヴァイオレット・システムズ"
+  ],
+  "effectJp": "【レイド】〈アリサ・ボスコノビッチ〉アクティブにし、フロントLに移動できる【自分のターン中】このキャラはBP+1000。【登場時】BP1500以上の相手のフロントLのキャラ全ては、このターン中、BP-1000。【退場時】自分の場のキャラを1枚まで選び、別のラインに移動させる。",
+  "effectEn": "[Raid] Can Raid onto <アリサ・ボスコノビッチ>; set it to active and you may move it to the Front Line. [During Your Turn] This character gets BP+1000. [On Play] All characters in your opponent's Front Line with BP 1500 or more it gets BP-1000 this turn. [On Retire] Choose up to 1 character on your field, move it to another line.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-023.png?v8"
+ },
+ "TKN-1-024": {
+  "key": "TKN-1-024",
+  "numberJp": "UA13BT/TKN-1-024",
+  "nameEn": "",
+  "nameJp": "風間 仁",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヴァイオレット・システムズ"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-024.png?v8"
+ },
+ "TKN-1-025": {
+  "key": "TKN-1-025",
+  "numberJp": "UA13BT/TKN-1-025",
+  "nameEn": "",
+  "nameJp": "ラース・アレクサンダーソン",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヴァイオレット・システムズ"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-025.png?v8"
+ },
+ "TKN-1-026": {
+  "key": "TKN-1-026",
+  "numberJp": "UA13BT/TKN-1-026",
+  "nameEn": "",
+  "nameJp": "ラース・アレクサンダーソン",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヴァイオレット・システムズ"
+  ],
+  "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）",
+  "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-026.png?v8"
+ },
+ "TKN-1-027": {
+  "key": "TKN-1-027",
+  "numberJp": "UA13BT/TKN-1-027",
+  "nameEn": "",
+  "nameJp": "ラース・アレクサンダーソン",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヴァイオレット・システムズ"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【レイド】〈ラース・アレクサンダーソン〉アクティブにし、フロントLに移動できるこのキャラはBPをマイナスする効果を受けない。【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）【退場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [Raid] Can Raid onto <ラース・アレクサンダーソン>; set it to active and you may move it to the Front Line. This character is not affected by effects that reduce BP. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [Double Block] (The first time this character blocks each turn, set it to active) [On Retire] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-027.png?v8"
+ },
+ "TKN-1-028": {
+  "key": "TKN-1-028",
+  "numberJp": "UA13BT/TKN-1-028",
+  "nameEn": "",
+  "nameJp": "李 超狼",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ヴァイオレット・システムズ"
+  ],
+  "effectJp": "自分の場に他の［特徴：ヴァイオレット・システムズ］が4枚以上ある場合、このキャラはBP+1000。",
+  "effectEn": "If you have 4 or more other [Trait: Violet Systems] on your field, This character gets BP+1000.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-028.png?v8"
+ },
+ "TKN-1-029": {
+  "key": "TKN-1-029",
+  "numberJp": "UA13BT/TKN-1-029",
+  "nameEn": "",
+  "nameJp": "李 超狼",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヴァイオレット・システムズ"
+  ],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中から［特徴：ヴァイオレット・システムズ］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 [Trait: Violet Systems] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-029.png?v8"
+ },
+ "TKN-1-030": {
+  "key": "TKN-1-030",
+  "numberJp": "UA13BT/TKN-1-030",
+  "nameEn": "",
+  "nameJp": "ヴァイオレット・システムズ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヴァイオレット・システムズ"
+  ],
+  "effectJp": "【登場時】自分の手札から必要エナジーが2以下で消費APが1の特徴に「ヴァイオレット・システムズ」を持つキャラカードを1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[On Play] Play up to 1 character card(s) with the trait “Violet Systems”, required energy 2 or less and AP cost 1 from your hand to your field rested.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-030.png?v8"
+ },
+ "TKN-1-031": {
+  "key": "TKN-1-031",
+  "numberJp": "UA13BT/TKN-1-031",
+  "nameEn": "",
+  "nameJp": "エクセレント！",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-031.png?v8"
+ },
+ "TKN-1-032": {
+  "key": "TKN-1-032",
+  "numberJp": "UA13BT/TKN-1-032",
+  "nameEn": "",
+  "nameJp": "排除します！",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場の［特徴：ヴァイオレット・システムズ］の合計枚数×1000以下のBPの相手のフロントLのキャラを1枚選び、退場させる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP equal to or less than 1000 × the total number of [Trait: Violet Systems] on your field, and retire it.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-032.png?v8"
+ },
+ "TKN-1-033": {
+  "key": "TKN-1-033",
+  "numberJp": "UA13BT/TKN-1-033",
+  "nameEn": "",
+  "nameJp": "（プロレス最強！）",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "BP5000以下の相手のフロントLのキャラを1枚選び、エナジーLに移動させ、次の自分のターン開始時まで、「このキャラは移動できない。」を与える。自分の場に異なるカード名のキャラが4種類以上ある場合、自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを望む順で下に置く。（移動させる時にそのラインに空きがない場合、そのカードがある場のプレイヤーはカードを1枚選んでリムーブエリアに置いてから移動させる）",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 5000 or less, move it to the Energy Line, and until the start of your next turn it gains “This character cannot move” If you have 4 or more characters with different card names on your field, look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest on the bottom of your deck in any order. (When moving, if there is no space in that line, the player whose field it is chooses 1 card(s), puts them into the Remove Area, then moves it)",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-033.png?v8"
+ },
+ "TKN-1-034": {
+  "key": "TKN-1-034",
+  "numberJp": "UA13BT/TKN-1-034",
+  "nameEn": "",
+  "nameJp": "目指せ賞金！",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から3枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを望む順で下に置く。カードを1枚引く。",
+  "effectEn": "Look at the top 3 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest on the bottom of your deck in any order. Draw 1 card(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-034.png?v8"
+ },
+ "TKN-1-035": {
+  "key": "TKN-1-035",
+  "numberJp": "UA13BT/TKN-1-035",
+  "nameEn": "",
+  "nameJp": "エリザ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【アタック時】カードを1枚引いてもよい。そうした場合、このキャラは、次の1回アクティブにならない。",
+  "effectEn": "[When Attacking] You may draw 1 card(s). If you do, This character , it does not become active the next 1 time(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-035.png?v8"
+ },
+ "TKN-1-036": {
+  "key": "TKN-1-036",
+  "numberJp": "UA13BT/TKN-1-036",
+  "nameEn": "",
+  "nameJp": "風間 飛鳥",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-036.png?v8"
+ },
+ "TKN-1-037": {
+  "key": "TKN-1-037",
+  "numberJp": "UA13BT/TKN-1-037",
+  "nameEn": "",
+  "nameJp": "風間 飛鳥",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "このターン中にこのキャラが移動している場合、このキャラはこのターン中、BP+1000。",
+  "effectEn": "If this character moved this turn, this character gets BP+1000 this turn.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の場外から必要エナジーが2以下で消費APが1の紫のキャラカードを1枚自分のフロントLにアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Purple character card with required energy 2 or less and with AP cost 1 from your Outside Area to your Front Line active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-037.png?v8"
+ },
+ "TKN-1-038": {
+  "key": "TKN-1-038",
+  "numberJp": "UA13BT/TKN-1-038",
+  "nameEn": "",
+  "nameJp": "風間 飛鳥",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このターン中にこのキャラが移動した回数1回につき、このキャラはこのターン中、BP+1000。このキャラのBPが4000以上の場合、このキャラは「【アタック時】カードを1枚引く。」を得る。",
+  "effectEn": "This character gets BP+1000 this turn for each 1 time(s) it has moved this turn. If this character's BP is 4000 or more, This character gains “[When Attacking]Draw 1 card(s)”",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-038.png?v8"
+ },
+ "TKN-1-039": {
+  "key": "TKN-1-039",
+  "numberJp": "UA13BT/TKN-1-039",
+  "nameEn": "",
+  "nameJp": "風間 飛鳥",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈風間 飛鳥〉アクティブにし、フロントLに移動できる【登場時】このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。【アタック時】自分の場に他のレストの〔〈風間 飛鳥〉か〈リリ〉〕が合計3枚以上ある場合、このキャラはこのターン中、「相手はこのキャラのアタックを可能ならブロックしなければならない。」を得る。",
+  "effectEn": "[Raid] Can Raid onto <風間 飛鳥>; set it to active and you may move it to the Front Line. [On Play] This character, this turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained. [When Attacking] If you have a total of 3 or more other rested <風間 飛鳥> or <リリ> on your field, this character gains “Your opponent must block this character's attacks if able” this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-039.png?v8"
+ },
+ "TKN-1-040": {
+  "key": "TKN-1-040",
+  "numberJp": "UA13BT/TKN-1-040",
+  "nameEn": "",
+  "nameJp": "州光",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-040.png?v8"
+ },
+ "TKN-1-041": {
+  "key": "TKN-1-041",
+  "numberJp": "UA13BT/TKN-1-041",
+  "nameEn": "",
+  "nameJp": "ザフィーナ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【退場時】自分のターン中の場合、相手のフロントLのキャラを1枚まで選び、このターン中、BP-2000。",
+  "effectEn": "[On Retire] If it is your turn, choose up to 1 character in your opponent's Front Line, and it gets BP-2000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-041.png?v8"
+ },
+ "TKN-1-042": {
+  "key": "TKN-1-042",
+  "numberJp": "UA13BT/TKN-1-042",
+  "nameEn": "",
+  "nameJp": "ジュリア・チャン",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-042.png?v8"
+ },
+ "TKN-1-043": {
+  "key": "TKN-1-043",
+  "numberJp": "UA13BT/TKN-1-043",
+  "nameEn": "",
+  "nameJp": "ジョシー・リサール",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【退場時】カードを1枚引く。",
+  "effectEn": "[On Retire] Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-043.png?v8"
+ },
+ "TKN-1-044": {
+  "key": "TKN-1-044",
+  "numberJp": "UA13BT/TKN-1-044",
+  "nameEn": "",
+  "nameJp": "スティーブ・フォックス",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】APを1支払ってもよい。そうした場合、BP4500以上の相手のフロントLのキャラを1枚まで選び、退場させる。",
+  "effectEn": "[On Play] You may pay 1 AP. If you do, Choose up to 1 character in your opponent's Front Line with BP 4500 or more, retire it.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-044.png?v8"
+ },
+ "TKN-1-045": {
+  "key": "TKN-1-045",
+  "numberJp": "UA13BT/TKN-1-045",
+  "nameEn": "",
+  "nameJp": "ニーナ・ウィリアムズ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈ニーナ・ウィリアムズ〉アクティブにし、フロントLに移動できるこのキャラはBP2000以下のキャラにブロックされない。【登場時】自分の山札の上から2枚見る。その中からカードを1枚手札に加え、残りを場外に置く。この効果で紫の［特徴：三島財閥］を場外に置いた場合、このキャラはこのターン中、「BP4500以上のキャラにブロックされない。」を得る。",
+  "effectEn": "[Raid] Can Raid onto <ニーナ・ウィリアムズ>; set it to active and you may move it to the Front Line. This character cannot be blocked by characters with BP 2000 or less. [On Play] Look at the top 2 card(s) of your deck. From among them, add 1 card(s) to your hand and put the rest into your Outside Area. If you put a purple [Trait: Mishima Zaibatsu] into your Outside Area with this effect, this character gains “This character cannot be blocked by characters with BP 4500 or more” this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-045.png?v8"
+ },
+ "TKN-1-046": {
+  "key": "TKN-1-046",
+  "numberJp": "UA13BT/TKN-1-046",
+  "nameEn": "",
+  "nameJp": "フェン・ウェイ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-046.png?v8"
+ },
+ "TKN-1-047": {
+  "key": "TKN-1-047",
+  "numberJp": "UA13BT/TKN-1-047",
+  "nameEn": "",
+  "nameJp": "ブライアン・フューリー",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】このキャラはBP+1000。",
+  "effectEn": "[During Your Turn] This character gets BP+1000.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-047.png?v8"
+ },
+ "TKN-1-048": {
+  "key": "TKN-1-048",
+  "numberJp": "UA13BT/TKN-1-048",
+  "nameEn": "",
+  "nameJp": "マスターレイヴン",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "相手の場に青か赤のカードがある場合、手札にあるこのカードの必要エナジーを【紫×1】減らす。",
+  "effectEn": "If your opponent has Blue or Red card on their field, the required energy of this card in your hand [Purple x1]is reduced.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-048.png?v8"
+ },
+ "TKN-1-049": {
+  "key": "TKN-1-049",
+  "numberJp": "UA13BT/TKN-1-049",
+  "nameEn": "",
+  "nameJp": "リディア・ソビエスカ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【紫】。",
+  "effectEn": "While this character is active, its generated energy +[Purple].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-049.png?v8"
+ },
+ "TKN-1-050": {
+  "key": "TKN-1-050",
+  "numberJp": "UA13BT/TKN-1-050",
+  "nameEn": "",
+  "nameJp": "リリ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-050.png?v8"
+ },
+ "TKN-1-051": {
+  "key": "TKN-1-051",
+  "numberJp": "UA13BT/TKN-1-051",
+  "nameEn": "",
+  "nameJp": "リリ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
+  "effectEn": "[Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-051.png?v8"
+ },
+ "TKN-1-052": {
+  "key": "TKN-1-052",
+  "numberJp": "UA13BT/TKN-1-052",
+  "nameEn": "",
+  "nameJp": "リリ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分のアタックフェイズ終了時、このキャラと別のラインにある自分のキャラを1枚選び、このキャラと位置を入れ替えてもよい。",
+  "effectEn": "At the end of your Attack Phase, you may choose 1 of your characters in a different line from this character and swap its position with this character.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-052.png?v8"
+ },
+ "TKN-1-053": {
+  "key": "TKN-1-053",
+  "numberJp": "UA13BT/TKN-1-053",
+  "nameEn": "",
+  "nameJp": "リリ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈リリ〉アクティブにし、フロントLに移動できる【登場時】自分の場のキャラを1枚まで選び、別のラインに移動させる。【アタック時】自分のフロントLの他のキャラと自分のエナジーLのキャラを1枚ずつ選んでもよい。選んだキャラのカード名が同じ場合、それらの位置を入れ替える。",
+  "effectEn": "[Raid] Can Raid onto <リリ>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character on your field, move it to another line. [When Attacking] You may choose 1 each of other characters in your Front Line and characters in your Energy Line. If the chosen characters have the same card name, swap their positions.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-053.png?v8"
+ },
+ "TKN-1-054": {
+  "key": "TKN-1-054",
+  "numberJp": "UA13BT/TKN-1-054",
+  "nameEn": "",
+  "nameJp": "クマ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "三島財閥"
+  ],
+  "effectJp": "【自分のターン中】自分の場外にカードが10枚以上ある場合、このキャラはBP+1000。【登場時】このキャラは次の自分のターン開始時まで、BP+2000。",
+  "effectEn": "[During Your Turn] If you have 10 or more cards in your Outside Area, This character gets BP+1000. [On Play] This character gets BP+2000 until the start of your next turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-054.png?v8"
+ },
+ "TKN-1-055": {
+  "key": "TKN-1-055",
+  "numberJp": "UA13BT/TKN-1-055",
+  "nameEn": "",
+  "nameJp": "クマ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "三島財閥"
+  ],
+  "effectJp": "【退場時】カードを1枚引く。",
+  "effectEn": "[On Retire] Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-055.png?v8"
+ },
+ "TKN-1-056": {
+  "key": "TKN-1-056",
+  "numberJp": "UA13BT/TKN-1-056",
+  "nameEn": "",
+  "nameJp": "クラウディオ・セラフィーノ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "三島財閥"
+  ],
+  "effectJp": "このターン中に自分の場のキャラが退場していた場合、手札にあるこのカードの消費APを-1する。このキャラはフロントLにある場合もエナジーを発生させる。【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "If a character on your field was retired this turn, reduce the AP cost of this card in your hand by 1. This character also generates energy while in the Front Line. [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-056.png?v8"
+ },
+ "TKN-1-057": {
+  "key": "TKN-1-057",
+  "numberJp": "UA13BT/TKN-1-057",
+  "nameEn": "",
+  "nameJp": "ニーナ・ウィリアムズ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "三島財閥"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-057.png?v8"
+ },
+ "TKN-1-058": {
+  "key": "TKN-1-058",
+  "numberJp": "UA13BT/TKN-1-058",
+  "nameEn": "",
+  "nameJp": "ニーナ・ウィリアムズ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "三島財閥"
+  ],
+  "effectJp": "【自分のターン中】このターン中に自分の場のキャラが退場していた場合、このキャラはこのターン中、BP+1000。",
+  "effectEn": "[During Your Turn] If a character on your field was retired this turn, this character gets BP+1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-058.png?v8"
+ },
+ "TKN-1-059": {
+  "key": "TKN-1-059",
+  "numberJp": "UA13BT/TKN-1-059",
+  "nameEn": "",
+  "nameJp": "三島 一美",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "三島財閥"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【紫】。メインフェイズ終了時、このキャラを退場させる。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Purple]. At the end of the Main Phase, retire this character.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-059.png?v8"
+ },
+ "TKN-1-060": {
+  "key": "TKN-1-060",
+  "numberJp": "UA13BT/TKN-1-060",
+  "nameEn": "",
+  "nameJp": "三島 平八",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "三島財閥"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-060.png?v8"
+ },
+ "TKN-1-061": {
+  "key": "TKN-1-061",
+  "numberJp": "UA13BT/TKN-1-061",
+  "nameEn": "",
+  "nameJp": "三島 平八",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "三島財閥"
+  ],
+  "effectJp": "【登場時】自分の場の他のキャラを1枚退場させてもよい。そうした場合、自分の手札から必要エナジーが2以下で消費APが1のキャラカードを1枚まで自分の場にレストで登場させる。登場させたキャラが［特徴：三島財閥］の場合、それをアクティブにする。",
+  "effectEn": "[On Play] You may retire 1 other character on your field. If you do, Play up to 1 character card with required energy 2 or less and with AP cost 1 from your hand to your field rested. If the played character is a [Trait: Mishima Zaibatsu], set it to active.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の場外から必要エナジーが2以下で消費APが1の紫のキャラカードを1枚自分のフロントLにアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Purple character card with required energy 2 or less and with AP cost 1 from your Outside Area to your Front Line active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-061.png?v8"
+ },
+ "TKN-1-062": {
+  "key": "TKN-1-062",
+  "numberJp": "UA13BT/TKN-1-062",
+  "nameEn": "",
+  "nameJp": "三島 平八",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 6,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "三島財閥"
+  ],
+  "effectJp": "【レイド】〈三島 平八〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【自分のターン中】このキャラはBP+1000。【登場時】自分の場外にカードが15枚以上ある場合、BP5000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
+  "effectEn": "[Raid] Can Raid onto <三島 平八>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [During Your Turn] This character gets BP+1000. [On Play] If you have 15 or more cards in your Outside Area, Choose up to 1 character in your opponent's Front Line with BP 5000 or less, retire it.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-062.png?v8"
+ },
+ "TKN-1-063": {
+  "key": "TKN-1-063",
+  "numberJp": "UA13BT/TKN-1-063",
+  "nameEn": "",
+  "nameJp": "三島財閥",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "三島財閥"
+  ],
+  "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】【ターン1】自分の場のキャラを1枚退場させる。そうした場合、カードを1枚引く。【起動メイン】【レストにする】【ターン1】自分の山札の上から1枚を場外に置く。【起動メイン】【レストにする】【ターン1】自分の場外にカードが15枚以上ある場合のみ発動できる。自分の場のキャラを1枚退場させる。そうした場合、自分の山札の上から2枚見る。その中からカードを1枚手札に加え、残りを場外に置く。",
+  "effectEn": "This Field is played active. [Activate: Main] [Rest this card] [Once Per Turn] Retire 1 character on your field. If you do, Draw 1 card(s). [Activate: Main] [Rest this card] [Once Per Turn] Put the top 1 card(s) of your deck into your Outside Area. [Activate: Main] [Rest this card] [Once Per Turn] Can only activate if you have 15 or more cards in your Outside Area. Retire 1 character on your field. If you do, Look at the top 2 card(s) of your deck. From among them, add 1 card(s) to your hand and put the rest into your Outside Area.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-063.png?v8"
+ },
+ "TKN-1-064": {
+  "key": "TKN-1-064",
+  "numberJp": "UA13BT/TKN-1-064",
+  "nameEn": "",
+  "nameJp": "ウチにも一発殴らせろ！",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈風間 飛鳥〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <風間 飛鳥> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-064.png?v8"
+ },
+ "TKN-1-065": {
+  "key": "TKN-1-065",
+  "numberJp": "UA13BT/TKN-1-065",
+  "nameEn": "",
+  "nameJp": "過去との決別",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場のキャラを1枚退場させる。そうした場合、カードを2枚引き、自分のAPカードを1枚まで選び、アクティブにする。",
+  "effectEn": "Retire 1 character on your field. If you do, draw 2 card(s), choose up to 1 of your AP cards, and set them to active.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-065.png?v8"
+ },
+ "TKN-1-066": {
+  "key": "TKN-1-066",
+  "numberJp": "UA13BT/TKN-1-066",
+  "nameEn": "",
+  "nameJp": "これで終わりじゃ！",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈三島 平八〉がある場合、『BP5000以下』に代わり、自分の場のフィールドを1枚退場させてもよい。そうしたなら、相手の場のフィールドを1枚まで選び、退場させる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <三島 平八> on your field, it becomes “BP 5000 or less” instead, and you may retire 1 field on your field. If you do, choose up to 1 field on your opponent's field and retire it.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-066.png?v8"
+ },
+ "TKN-1-067": {
+  "key": "TKN-1-067",
+  "numberJp": "UA13BT/TKN-1-067",
+  "nameEn": "",
+  "nameJp": "まだまだ！",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-067.png?v8"
+ },
+ "TKN-1-068": {
+  "key": "TKN-1-068",
+  "numberJp": "UA13BT/TKN-1-068",
+  "nameEn": "",
+  "nameJp": "アリサ・ボスコノビッチ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-068.png?v8"
+ },
+ "TKN-1-069": {
+  "key": "TKN-1-069",
+  "numberJp": "UA13BT/TKN-1-069",
+  "nameEn": "",
+  "nameJp": "風間 仁",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-069.png?v8"
+ },
+ "TKN-1-070": {
+  "key": "TKN-1-070",
+  "numberJp": "UA13BT/TKN-1-070",
+  "nameEn": "",
+  "nameJp": "風間 仁",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-070.png?v8"
+ },
+ "TKN-1-071": {
+  "key": "TKN-1-071",
+  "numberJp": "UA13BT/TKN-1-071",
+  "nameEn": "",
+  "nameJp": "カタリーナ・アウヴェス",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "相手の場に青か紫のカードがある場合、手札にあるこのカードの必要エナジーを【赤×1】減らす。",
+  "effectEn": "If your opponent has Blue or Purple card on their field, the required energy of this card in your hand [Red x1]is reduced.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-071.png?v8"
+ },
+ "TKN-1-072": {
+  "key": "TKN-1-072",
+  "numberJp": "UA13BT/TKN-1-072",
+  "nameEn": "",
+  "nameJp": "デビル仁",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このカードは〈風間 仁〉としても扱う。【登場時】自分の場の他のキャラを1枚退場させてもよい。そうした場合、このキャラをアクティブにし、このキャラはこのターン中、BP+1000。",
+  "effectEn": "This card is also treated as <風間 仁>. [On Play] You may retire 1 other character on your field. If you do, set this character to active, and it gets BP+1000 this turn.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP2500以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-072.png?v8"
+ },
+ "TKN-1-073": {
+  "key": "TKN-1-073",
+  "numberJp": "UA13BT/TKN-1-073",
+  "nameEn": "",
+  "nameJp": "デビル仁",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このカードは〈風間 仁〉としても扱う。【レイド】〈風間 仁〉アクティブにし、フロントLに移動できる【自分のターン中】このキャラはBP+1000と、このターン中にこのキャラがアタックした回数により、以下の効果を全て得る。・2回以上： このキャラは、相手のトリガーの効果で選ばれない。・3回以上：【ダメージ（2）】・5回以上：【インパクト（1）】【アタック時】自分のフロントLのアクティブの〈風間 仁〉をレストにしてもよい。そうした場合、このキャラをアクティブにする。",
+  "effectEn": "This card is also treated as <風間 仁>. [Raid] Can Raid onto <風間 仁>; set it to active and you may move it to the Front Line. [During Your Turn] This character gets BP+1000, and depending on the number of times this character has attacked this turn, it gains all of the following effects. 2 or more times: This character cannot be chosen by your opponent's Trigger effects. 3 or more times: [Damage 2]. 5 or more times: [Impact 1]. [When Attacking] You may rest active <風間 仁> in your Front Line. If you do, Set this character to active.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-073.png?v8"
+ },
+ "TKN-1-074": {
+  "key": "TKN-1-074",
+  "numberJp": "UA13BT/TKN-1-074",
+  "nameEn": "",
+  "nameJp": "パンダ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-074.png?v8"
+ },
+ "TKN-1-075": {
+  "key": "TKN-1-075",
+  "numberJp": "UA13BT/TKN-1-075",
+  "nameEn": "",
+  "nameJp": "パンダ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場に〈リン・シャオユウ〉がある場合、カードを1枚引く。",
+  "effectEn": "[On Play] If you have <リン・シャオユウ> on your field, Draw 1 card(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-075.png?v8"
+ },
+ "TKN-1-076": {
+  "key": "TKN-1-076",
+  "numberJp": "UA13BT/TKN-1-076",
+  "nameEn": "",
+  "nameJp": "ファーカムラム",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-076.png?v8"
+ },
+ "TKN-1-077": {
+  "key": "TKN-1-077",
+  "numberJp": "UA13BT/TKN-1-077",
+  "nameEn": "",
+  "nameJp": "ファラン",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【退場時】自分の手札から〈ファラン〉以外の必要エナジーが3以下で消費APが1の赤のキャラカードを1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[On Retire] Play up to 1 Red character card other than <ファラン> and with required energy 3 or less and with AP cost 1 from your hand to your field rested.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-077.png?v8"
+ },
+ "TKN-1-078": {
+  "key": "TKN-1-078",
+  "numberJp": "UA13BT/TKN-1-078",
+  "nameEn": "",
+  "nameJp": "ポール・フェニックス",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【退場時】カードを1枚引く。",
+  "effectEn": "[On Retire] Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-078.png?v8"
+ },
+ "TKN-1-079": {
+  "key": "TKN-1-079",
+  "numberJp": "UA13BT/TKN-1-079",
+  "nameEn": "",
+  "nameJp": "三島 一美",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【赤】。メインフェイズ終了時、このキャラを退場させる。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Red]. At the end of the Main Phase, retire this character.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-079.png?v8"
+ },
+ "TKN-1-080": {
+  "key": "TKN-1-080",
+  "numberJp": "UA13BT/TKN-1-080",
+  "nameEn": "",
+  "nameJp": "三島 一美",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
+  "effectEn": "While this character is active, its generated energy +[Red].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-080.png?v8"
+ },
+ "TKN-1-081": {
+  "key": "TKN-1-081",
+  "numberJp": "UA13BT/TKN-1-081",
+  "nameEn": "",
+  "nameJp": "三島 一美",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場の他のキャラを1枚退場させてもよい。そうした場合、カードを1枚引き、自分の手札から必要エナジーが3以下で消費APが1の赤のキャラカードを1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[On Play] You may retire 1 other character on your field. If you do, draw 1 card(s), and play up to 1 red character card(s) with required energy 3 or less and AP cost 1 from your hand to your field rested.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-081.png?v8"
+ },
+ "TKN-1-082": {
+  "key": "TKN-1-082",
+  "numberJp": "UA13BT/TKN-1-082",
+  "nameEn": "",
+  "nameJp": "リン・シャオユウ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-082.png?v8"
+ },
+ "TKN-1-083": {
+  "key": "TKN-1-083",
+  "numberJp": "UA13BT/TKN-1-083",
+  "nameEn": "",
+  "nameJp": "リン・シャオユウ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から5枚見る。その中から〈風間 仁〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 <風間 仁> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-083.png?v8"
+ },
+ "TKN-1-084": {
+  "key": "TKN-1-084",
+  "numberJp": "UA13BT/TKN-1-084",
+  "nameEn": "",
+  "nameJp": "リン・シャオユウ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈リン・シャオユウ〉アクティブにし、フロントLに移動できる【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【登場時】自分の場の赤の〔〈風間 仁〉か〈リン・シャオユウ〉か〈パンダ〉〕を1枚まで選び、このターン中、BP+1000と【2回アタック】（このキャラがこのターン初めてアタックした時、アクティブにする）を与える。",
+  "effectEn": "[Raid] Can Raid onto <リン・シャオユウ>; set it to active and you may move it to the Front Line. [Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [On Play] Choose up to 1 red <風間 仁>, <リン・シャオユウ> or <Panda> on your field; it gains BP+1000 and [Double Attack] (When this character attacks for the first time this turn, set it to active) this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-084.png?v8"
+ },
+ "TKN-1-085": {
+  "key": "TKN-1-085",
+  "numberJp": "UA13BT/TKN-1-085",
+  "nameEn": "",
+  "nameJp": "アンナ・ウィリアムズ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "G社"
+  ],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-085.png?v8"
+ },
+ "TKN-1-086": {
+  "key": "TKN-1-086",
+  "numberJp": "UA13BT/TKN-1-086",
+  "nameEn": "",
+  "nameJp": "ギガース",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "G社"
+  ],
+  "effectJp": "【退場時】カードを1枚引き、自分の手札を1枚場外か、裏向きで自分のフロントLの［特徴：G社］の下に置く。",
+  "effectEn": "[On Retire] Draw 1 card(s), and put 1 card(s) from your hand into your Outside Area or face down under a [Trait: G Company] in your Front Line.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-086.png?v8"
+ },
+ "TKN-1-087": {
+  "key": "TKN-1-087",
+  "numberJp": "UA13BT/TKN-1-087",
+  "nameEn": "",
+  "nameJp": "ジャック7",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "G社"
+  ],
+  "effectJp": "このキャラの下に裏向きのカードがある場合、このキャラは【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を得る。",
+  "effectEn": "If this character has face-down cards under it, this character gains [Damage 2] (When this character deals direct damage by attacking, it deals 2 damage instead)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-087.png?v8"
+ },
+ "TKN-1-088": {
+  "key": "TKN-1-088",
+  "numberJp": "UA13BT/TKN-1-088",
+  "nameEn": "",
+  "nameJp": "三島 一八",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "G社"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-088.png?v8"
+ },
+ "TKN-1-089": {
+  "key": "TKN-1-089",
+  "numberJp": "UA13BT/TKN-1-089",
+  "nameEn": "",
+  "nameJp": "三島 一八",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "G社"
+  ],
+  "effectJp": "【自分のターン中】このキャラの下の裏向きのカード1枚につき、このキャラはBP+500。【登場時】自分の山札の上から1枚を裏向きでこのキャラの下に置いてもよい。",
+  "effectEn": "[During Your Turn] For each 1 face-down card(s) under this character, This character gets BP+500. [On Play] You may put the top 1 card(s) of your deck face down under this character.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP2500以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-089.png?v8"
+ },
+ "TKN-1-090": {
+  "key": "TKN-1-090",
+  "numberJp": "UA13BT/TKN-1-090",
+  "nameEn": "",
+  "nameJp": "三島 一八",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "G社"
+  ],
+  "effectJp": "【レイド】〈三島 一八〉アクティブにし、フロントLに移動できる【起動メイン】【ターン1】自分の場のキャラの下の裏向きのカードを合計3枚場外に置く。そうした場合、カードを1枚引く。",
+  "effectEn": "[Raid] Can Raid onto <三島 一八>; set it to active and you may move it to the Front Line. [Activate: Main] [Once Per Turn] Put a total of 3 face-down card(s) under characters on your field into your Outside Area. If you do, Draw 1 card(s).",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-090.png?v8"
+ },
+ "TKN-1-091": {
+  "key": "TKN-1-091",
+  "numberJp": "UA13BT/TKN-1-091",
+  "nameEn": "",
+  "nameJp": "三島 一八",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "G社"
+  ],
+  "effectJp": "【レイド】〈三島 一八〉アクティブにし、フロントLに移動できる【登場時】自分のターン中の場合、自分の場の他のキャラを1枚退場させてもよい。そうした場合、BP4000以下の相手のフロントLのキャラを1枚まで選び、退場させ、カードを1枚引き、自分の手札を1枚裏向きでこのキャラの下に置く。【起動メイン】【ターン1】このキャラの下に裏向きのカードが4枚以上ある場合、このキャラはこのターン中、BP+1000と【ダメージ（2）】を得る。",
+  "effectEn": "[Raid] Can Raid onto <三島 一八>; set it to active and you may move it to the Front Line. [On Play] If it is your turn, you may retire 1 other character on your field. If you do, choose up to 1 character in your opponent's Front Line with BP 4000 or less and retire it, draw 1 card(s), and put 1 card(s) from your hand face down under this character. [Activate: Main] [Once Per Turn] If this character has 4 or more face-down cards under it, this character gains BP+1000 and [Damage 2] this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-091.png?v8"
+ },
+ "TKN-1-092": {
+  "key": "TKN-1-092",
+  "numberJp": "UA13BT/TKN-1-092",
+  "nameEn": "",
+  "nameJp": "三島 一八",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "G社"
+  ],
+  "effectJp": "このキャラはアクティブで場に登場させる。【登場時】このキャラはこのターン中、【ダメージ（2）】を得る。【起動メイン】【ターン1】自分の場のキャラの下の裏向きのカードを合計5枚場外に置く。そうした場合、このキャラはこのターン中、BP+1000と【2回アタック】を得る。",
+  "effectEn": "This character is played active. [On Play] This character, this turn, [Damage 2] is gained. [Activate: Main] [Once Per Turn] Put a total of 5 face-down card(s) under characters on your field into your Outside Area. If you do, this character gets BP+1000 and gains [Double Attack] this turn.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-092.png?v8"
+ },
+ "TKN-1-093": {
+  "key": "TKN-1-093",
+  "numberJp": "UA13BT/TKN-1-093",
+  "nameEn": "",
+  "nameJp": "ラッキークロエ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "G社"
+  ],
+  "effectJp": "【登場時】自分の山札の上から7枚見る。その中から赤のフィールドカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 7 card(s) of your deck. Reveal up to 1 Red Field card among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-093.png?v8"
+ },
+ "TKN-1-094": {
+  "key": "TKN-1-094",
+  "numberJp": "UA13BT/TKN-1-094",
+  "nameEn": "",
+  "nameJp": "ラッキークロエ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "G社"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚裏向きでこのキャラの下に置く。【起動メイン】【ターン1】このキャラの下の裏向きのカードを1枚、自分のフロントLの他の［特徴：G社］の下に移動させる。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand face down under this character. [Activate: Main] [Once Per Turn] Move 1 face-down card(s) under this character to under another [Trait: G Company] in your Front Line.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-094.png?v8"
+ },
+ "TKN-1-095": {
+  "key": "TKN-1-095",
+  "numberJp": "UA13BT/TKN-1-095",
+  "nameEn": "",
+  "nameJp": "ラッキークロエ",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "G社"
+  ],
+  "effectJp": "【レイド】〈ラッキークロエ〉アクティブにし、フロントLに移動できる【起動メイン】【フロントLにある場合】【ターン1】自分のフロントLの［特徴：G社］を1枚選び、このターン中、BP+1000し、カードを1枚引き、自分の手札を1枚裏向きで選んだキャラの下に置く。",
+  "effectEn": "[Raid] Can Raid onto <ラッキークロエ>; set it to active and you may move it to the Front Line. [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 [Trait: G Company] in your Front Line; it gets BP+1000 this turn; draw 1 card(s), and put 1 card(s) from your hand face down under the chosen character.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-095.png?v8"
+ },
+ "TKN-1-096": {
+  "key": "TKN-1-096",
+  "numberJp": "UA13BT/TKN-1-096",
+  "nameEn": "",
+  "nameJp": "G社",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "G社"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】カードを1枚引き、自分の手札を1枚場外か、裏向きで自分のフロントLの［特徴：G社］の下に置く。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] Draw 1 card(s), and put 1 card(s) from your hand into your Outside Area or face down under a [Trait: G Company] in your Front Line.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-096.png?v8"
+ },
+ "TKN-1-097": {
+  "key": "TKN-1-097",
+  "numberJp": "UA13BT/TKN-1-097",
+  "nameEn": "",
+  "nameJp": "地獄へ送ってやろう！",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈三島 一八〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <三島 一八> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-097.png?v8"
+ },
+ "TKN-1-098": {
+  "key": "TKN-1-098",
+  "numberJp": "UA13BT/TKN-1-098",
+  "nameEn": "",
+  "nameJp": "襲撃",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "カードを1枚引き、自分の場のキャラを1枚まで選び、アクティブにする。選んだキャラが［特徴：G社］の場合、自分の山札の上から1枚を裏向きでそのキャラの下に置いてもよい。",
+  "effectEn": "Draw 1 card(s), then choose up to 1 character on your field and set it to active. If the chosen character is a [Trait: G Company], you may put the top 1 card(s) of your deck face down under that character.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-098.png?v8"
+ },
+ "TKN-1-099": {
+  "key": "TKN-1-099",
+  "numberJp": "UA13BT/TKN-1-099",
+  "nameEn": "",
+  "nameJp": "デビル因子",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-099.png?v8"
+ },
+ "TKN-1-100": {
+  "key": "TKN-1-100",
+  "numberJp": "UA13BT/TKN-1-100",
+  "nameEn": "",
+  "nameJp": "デビル覚醒",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場に〈風間 仁〉がある場合、手札にあるこのカードの消費APを-1する。自分の場のキャラを1枚選び、BP+1500と【2回アタック】（このキャラがこのターン初めてアタックした時、アクティブにする）を与える。※このカードには、記載内容の訂正があります。",
+  "effectEn": "If you have <風間 仁> on your field, reduce the AP cost of this card in your hand by 1. Choose 1 character on your field; it gains BP+1500 and [Double Attack] (When this character attacks for the first time this turn, set it to active) ※This card has an errata to its text.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-100.png?v8"
+ },
+ "TKN-1-101": {
+  "key": "TKN-1-101",
+  "numberJp": "UA13ST/TKN-1-101",
+  "nameEn": "",
+  "nameJp": "風間 仁",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の手札から必要エナジーが2以下で消費APが1の特徴を持たない赤のキャラカードを1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[On Play] Play up to 1 red character card(s) with no traits, required energy 2 or less and AP cost 1 from your hand to your field rested.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13ST_TKN-1-101.png?v8"
+ },
+ "TKN-1-102": {
+  "key": "TKN-1-102",
+  "numberJp": "UA13ST/TKN-1-102",
+  "nameEn": "",
+  "nameJp": "三島 一美",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】相手のフロントLのキャラを1枚まで選び、エナジーLに移動させる。（移動させる時にそのラインに空きがない場合、そのカードがある場のプレイヤーはカードを1枚選んでリムーブエリアに置いてから移動させる）【退場時】カードを1枚引く。",
+  "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line, move it to the Energy Line. (When moving, if there is no space in that line, the player whose field it is chooses 1 card(s), puts them into the Remove Area, then moves it) [On Retire] Draw 1 card(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13ST_TKN-1-102.png?v8"
+ },
+ "TKN-1-103": {
+  "key": "TKN-1-103",
+  "numberJp": "UA13ST/TKN-1-103",
+  "nameEn": "",
+  "nameJp": "三島 平八",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【アタック時】カードを1枚引く。",
+  "effectEn": "[Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [When Attacking] Draw 1 card(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13ST_TKN-1-103.png?v8"
+ },
+ "TKN-1-104": {
+  "key": "TKN-1-104",
+  "numberJp": "UA13ST/TKN-1-104",
+  "nameEn": "",
+  "nameJp": "ラース・アレクサンダーソン",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13ST_TKN-1-104.png?v8"
+ },
+ "TKN-1-105": {
+  "key": "TKN-1-105",
+  "numberJp": "UA13ST/TKN-1-105",
+  "nameEn": "",
+  "nameJp": "李 超狼",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13ST_TKN-1-105.png?v8"
+ },
+ "TKN-1-106": {
+  "key": "TKN-1-106",
+  "numberJp": "UA13ST/TKN-1-106",
+  "nameEn": "",
+  "nameJp": "三島 一八",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "G社"
+  ],
+  "effectJp": "このキャラの下に裏向きのカードが2枚以上ある場合、このキャラはBP+500。【登場時】自分の山札の上から1枚を裏向きでこのキャラの下に置いてもよい。",
+  "effectEn": "If this character has 2 or more face-down cards under it, this character gets BP+500. [On Play] You may put the top 1 card(s) of your deck face down under this character.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13ST_TKN-1-106.png?v8"
+ },
+ "TKN-1-107": {
+  "key": "TKN-1-107",
+  "numberJp": "UA13ST/TKN-1-107",
+  "nameEn": "",
+  "nameJp": "三島 一八",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "G社"
+  ],
+  "effectJp": "【レイド】〈三島 一八〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【自分のターン中】このキャラの下の裏向きのカード1枚につき、このキャラはBP+500。【登場時】カードを1枚引き、自分の手札を1枚裏向きでこのキャラの下に置く。",
+  "effectEn": "[Raid] Can Raid onto <三島 一八>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [During Your Turn] For each 1 face-down card(s) under this character, This character gets BP+500. [On Play] Draw 1 card(s), then put 1 card(s) from your hand face down under this character.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13ST_TKN-1-107.png?v8"
+ },
+ "TKN-1-108": {
+  "key": "TKN-1-108",
+  "numberJp": "UA13ST/TKN-1-108",
+  "nameEn": "",
+  "nameJp": "GET READY FOR THE NEXT BATTLE",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】カードを1枚引き、自分のAPカードを1枚まで選び、アクティブにする",
+  "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Draw 1 card(s), choose up to 1 of your AP cards, and set them to active.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13ST_TKN-1-108.png?v8"
+ },
+ "TKN-1-109": {
+  "key": "TKN-1-109",
+  "numberJp": "UA13ST/TKN-1-109",
+  "nameEn": "",
+  "nameJp": "THE KING OF IRON FIST TOURNAMENT",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から4枚見る。その中から赤のキャラカードを2枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
+  "effectEn": "Look at the top 4 card(s) of your deck. Reveal up to 2 Red character cards among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13ST_TKN-1-109.png?v8"
+ },
+ "TKN-1-AP01": {
+  "key": "TKN-1-AP01",
+  "numberJp": "UA13BT/TKN-1-AP01",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(鉄拳7)",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-AP01.png?v8"
+ },
+ "TKN-1-AP02": {
+  "key": "TKN-1-AP02",
+  "numberJp": "UA13BT/TKN-1-AP02",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(鉄拳7)",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-AP02.png?v8"
+ },
+ "TKN-1-AP03": {
+  "key": "TKN-1-AP03",
+  "numberJp": "UA13BT/TKN-1-AP03",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(鉄拳7)",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-AP03.png?v8"
+ },
+ "TKN-1-AP04": {
+  "key": "TKN-1-AP04",
+  "numberJp": "UA13BT/TKN-1-AP04",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(鉄拳7)",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-AP04.png?v8"
+ },
+ "TKN-1-AP05": {
+  "key": "TKN-1-AP05",
+  "numberJp": "UA13BT/TKN-1-AP05",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(鉄拳7)",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-AP05.png?v8"
+ },
+ "TKN-1-AP06": {
+  "key": "TKN-1-AP06",
+  "numberJp": "UA13BT/TKN-1-AP06",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(鉄拳7)",
+  "series": "鉄拳7",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA13BT_TKN-1-AP06.png?v8"
+ }
+}

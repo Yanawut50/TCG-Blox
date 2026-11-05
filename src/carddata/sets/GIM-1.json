@@ -1,0 +1,3065 @@
+{
+ "GIM-1-001": {
+  "key": "GIM-1-001",
+  "numberJp": "UA27BT/GIM-1-001",
+  "nameEn": "",
+  "nameJp": "有村 麻央",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-001.png?v8"
+ },
+ "GIM-1-002": {
+  "key": "GIM-1-002",
+  "numberJp": "UA27BT/GIM-1-002",
+  "nameEn": "",
+  "nameJp": "葛城 リーリヤ",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "±",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ブロック時】このキャラはこのターン中、『BP-1000』。アタックしている相手のキャラがレイド状態の場合、『BP+1000』に代わる。",
+  "effectEn": "[When Blocking] This character, this turn, 『BP-1000』. If the attacking opponent's character is Raided, it becomes “BP+1000” instead.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-002.png?v8"
+ },
+ "GIM-1-003": {
+  "key": "GIM-1-003",
+  "numberJp": "UA27BT/GIM-1-003",
+  "nameEn": "",
+  "nameJp": "倉本 千奈",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-003.png?v8"
+ },
+ "GIM-1-004": {
+  "key": "GIM-1-004",
+  "numberJp": "UA27BT/GIM-1-004",
+  "nameEn": "",
+  "nameJp": "倉本 千奈",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【アタック時】このキャラのBPが4000以上の場合、カードを1枚まで引く。",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [When Attacking] If this character's BP is 4000 or more, Draw up to 1 card(s).",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP3500以下の相手のフロントLのキャラを1枚選び、手札に戻す。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 3500 or less, return it to its owner's hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-004.png?v8"
+ },
+ "GIM-1-005": {
+  "key": "GIM-1-005",
+  "numberJp": "UA27BT/GIM-1-005",
+  "nameEn": "",
+  "nameJp": "倉本 千奈",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中からBP2500以下のキャラカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 character card with BP 2500 or less among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-005.png?v8"
+ },
+ "GIM-1-006": {
+  "key": "GIM-1-006",
+  "numberJp": "UA27BT/GIM-1-006",
+  "nameEn": "",
+  "nameJp": "倉本 千奈",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈倉本 千奈〉アクティブにし、フロントLに移動できる【登場時】元々のBPが2500以下の自分の場の他のキャラを1枚まで選び、アクティブにし、選んだキャラとこのキャラはこのターン中、BP+1500。【起動メイン】【フロントLにある場合】【手札を1枚場外に置く】【ターン1】このキャラの【登場時】を発動させる。",
+  "effectEn": "[Raid] Can Raid onto <倉本 千奈>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 other character on your field with original BP 2500 or less, set it to active, and the chosen character and this character get BP+1500 this turn. [Activate: Main] [While in Front Line] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] Activate this character's [On Play].",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-006.png?v8"
+ },
+ "GIM-1-007": {
+  "key": "GIM-1-007",
+  "numberJp": "UA27BT/GIM-1-007",
+  "nameEn": "",
+  "nameJp": "紫雲 清夏",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）",
+  "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active)",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-007.png?v8"
+ },
+ "GIM-1-008": {
+  "key": "GIM-1-008",
+  "numberJp": "UA27BT/GIM-1-008",
+  "nameEn": "",
+  "nameJp": "篠澤 広",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】自分のフロントLに元々のBPが2500以下の他のキャラがある場合、このキャラはBP+1000。",
+  "effectEn": "[During Your Turn] If you have another character with original BP 2500 or less in your Front Line, this character gets BP+1000.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-008.png?v8"
+ },
+ "GIM-1-009": {
+  "key": "GIM-1-009",
+  "numberJp": "UA27BT/GIM-1-009",
+  "nameEn": "",
+  "nameJp": "篠澤 広",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】元々のBPが2500以下の自分の場の他のキャラを1枚まで選び、このターン中、BP+1500。",
+  "effectEn": "[On Play] Choose up to 1 other character on your field with original BP 2500 or less; it gets BP+1500 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-009.png?v8"
+ },
+ "GIM-1-010": {
+  "key": "GIM-1-010",
+  "numberJp": "UA27BT/GIM-1-010",
+  "nameEn": "",
+  "nameJp": "篠澤 広",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】このターン中、次に手札から使用するBP2500以下のキャラカードの消費APを-1する。〈篠澤 広〉のこの効果は1ターンに1回のみ発動する。",
+  "effectEn": "[On Play] This turn, the next character card with BP 2500 or less you use from your hand costs 1 less AP. This <篠澤 広> effect can only activate 1 time(s) per 1 turn(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-010.png?v8"
+ },
+ "GIM-1-011": {
+  "key": "GIM-1-011",
+  "numberJp": "UA27BT/GIM-1-011",
+  "nameEn": "",
+  "nameJp": "篠澤 広",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈篠澤 広〉アクティブにし、フロントLに移動できる【フロントLにある場合】元々のBPが2500以下の自分のフロントLのキャラは、相手の効果で選ばれない。【自分のターン中】自分のフロントLに元々のBPが2500以下のキャラがある場合、このキャラはBP+1000。【登場時】自分の場外からBP2500以下のキャラカードを1枚まで手札に加える。",
+  "effectEn": "[Raid] Can Raid onto <篠澤 広>; set it to active and you may move it to the Front Line. [While in Front Line] Characters in your Front Line with original BP 2500 or less cannot be chosen by your opponent's effects. [During Your Turn] If you have a character with original BP 2500 or less in your Front Line, this character gets BP+1000. [On Play] Add up to 1 character card with BP 2500 or less from your Outside Area to your hand.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-011.png?v8"
+ },
+ "GIM-1-012": {
+  "key": "GIM-1-012",
+  "numberJp": "UA27BT/GIM-1-012",
+  "nameEn": "",
+  "nameJp": "根緒 亜紗里",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【青】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Blue] and gains “At the end of the Main Phase, retire this character”",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-012.png?v8"
+ },
+ "GIM-1-013": {
+  "key": "GIM-1-013",
+  "numberJp": "UA27BT/GIM-1-013",
+  "nameEn": "",
+  "nameJp": "姫崎 莉波",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-013.png?v8"
+ },
+ "GIM-1-014": {
+  "key": "GIM-1-014",
+  "numberJp": "UA27BT/GIM-1-014",
+  "nameEn": "",
+  "nameJp": "姫崎 莉波",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【青】。",
+  "effectEn": "While this character is active, its generated energy +[Blue].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-014.png?v8"
+ },
+ "GIM-1-015": {
+  "key": "GIM-1-015",
+  "numberJp": "UA27BT/GIM-1-015",
+  "nameEn": "",
+  "nameJp": "姫崎 莉波",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】カードを2枚引き、自分の手札を2枚場外に置く。",
+  "effectEn": "[On Play] Draw 2 card(s), then put 2 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-015.png?v8"
+ },
+ "GIM-1-016": {
+  "key": "GIM-1-016",
+  "numberJp": "UA27BT/GIM-1-016",
+  "nameEn": "",
+  "nameJp": "姫崎 莉波",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 3,
+  "ap": 2,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場外から必要エナジーが3以下で消費APが1の青のキャラカードを1枚まで自分の場にレストで登場させるかレイドさせる。",
+  "effectEn": "[On Play] Play up to 1 Blue character card with required energy 3 or less and with AP cost 1 from your Outside Area to your field rested or Raid it.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-016.png?v8"
+ },
+ "GIM-1-017": {
+  "key": "GIM-1-017",
+  "numberJp": "UA27BT/GIM-1-017",
+  "nameEn": "",
+  "nameJp": "十王 星南",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-017.png?v8"
+ },
+ "GIM-1-018": {
+  "key": "GIM-1-018",
+  "numberJp": "UA27BT/GIM-1-018",
+  "nameEn": "",
+  "nameJp": "十王 星南",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から3枚見る。その中から〈花海 佑芽〉か〈秦谷 美鈴〉か〈十王 星南〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 <花海 佑芽> or <秦谷 美鈴> or <十王 星南> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-018.png?v8"
+ },
+ "GIM-1-019": {
+  "key": "GIM-1-019",
+  "numberJp": "UA27BT/GIM-1-019",
+  "nameEn": "",
+  "nameJp": "十王 星南",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】このキャラはBP+1000。【起動メイン】【フロントLにある場合】【手札を1枚場外に置く】【ターン1】BP5000以上の自分の場の〔〈花海 佑芽〉か〈秦谷 美鈴〉か〈十王 星南〉〕を1枚選び、このターン中、【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を与える。",
+  "effectEn": "[During Your Turn] This character gets BP+1000. [Activate: Main] [While in Front Line] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] Choose 1 <花海 佑芽> or <秦谷 美鈴> or <十王 星南> on your field with BP 5000 or more, This turn, [Damage 2](When this character deals direct damage by attacking, deal 2 damage instead) is given.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-019.png?v8"
+ },
+ "GIM-1-020": {
+  "key": "GIM-1-020",
+  "numberJp": "UA27BT/GIM-1-020",
+  "nameEn": "",
+  "nameJp": "十王 星南",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 7,
+  "ap": 1,
+  "bp": 5000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈十王 星南〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】相手のフロントLのキャラを1枚まで選び、手札に戻す。【起動メイン】【フロントLにある場合】【ターン1】自分の場の【起動メイン】を持つキャラを1枚選び、アクティブにする。",
+  "effectEn": "[Raid] Can Raid onto <十王 星南>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] Choose up to 1 character in your opponent's Front Line, return it to its owner's hand. [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 character with [Activate: Main] on your field and set it to active.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-020.png?v8"
+ },
+ "GIM-1-021": {
+  "key": "GIM-1-021",
+  "numberJp": "UA27BT/GIM-1-021",
+  "nameEn": "",
+  "nameJp": "秦谷 美鈴",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-021.png?v8"
+ },
+ "GIM-1-022": {
+  "key": "GIM-1-022",
+  "numberJp": "UA27BT/GIM-1-022",
+  "nameEn": "",
+  "nameJp": "秦谷 美鈴",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【退場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[On Retire] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-022.png?v8"
+ },
+ "GIM-1-023": {
+  "key": "GIM-1-023",
+  "numberJp": "UA27BT/GIM-1-023",
+  "nameEn": "",
+  "nameJp": "秦谷 美鈴",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】カードを1枚引く。",
+  "effectEn": "[On Play] Draw 1 card(s).",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP3500以下の相手のフロントLのキャラを1枚選び、手札に戻す。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 3500 or less, return it to its owner's hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-023.png?v8"
+ },
+ "GIM-1-024": {
+  "key": "GIM-1-024",
+  "numberJp": "UA27BT/GIM-1-024",
+  "nameEn": "",
+  "nameJp": "秦谷 美鈴",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈秦谷 美鈴〉アクティブにし、フロントLに移動できる【自分のターン中】このキャラはBP+1000。【登場時】カードを1枚引く。【起動メイン】【フロントLにある場合】【レストにする】【ターン1】このキャラはこのターン中、「このキャラはフロントLにある場合もエナジーを発生させる。」を得る。【起動メイン】【手札を1枚場外に置く】【ターン1】このキャラをアクティブにする。",
+  "effectEn": "[Raid] Can Raid onto <秦谷 美鈴>; set it to active and you may move it to the Front Line. [During Your Turn] This character gets BP+1000. [On Play] Draw 1 card(s). [Activate: Main] [While in Front Line] [Rest this card] [Once Per Turn] This character gains “This character also generates energy while in the Front Line” this turn. [Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] Set this character to active.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-024.png?v8"
+ },
+ "GIM-1-025": {
+  "key": "GIM-1-025",
+  "numberJp": "UA27BT/GIM-1-025",
+  "nameEn": "",
+  "nameJp": "花海 佑芽",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-025.png?v8"
+ },
+ "GIM-1-026": {
+  "key": "GIM-1-026",
+  "numberJp": "UA27BT/GIM-1-026",
+  "nameEn": "",
+  "nameJp": "花海 佑芽",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラのBPが4000以上の場合、このキャラは【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
+  "effectEn": "If this character's BP is 4000 or more, This character [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-026.png?v8"
+ },
+ "GIM-1-027": {
+  "key": "GIM-1-027",
+  "numberJp": "UA27BT/GIM-1-027",
+  "nameEn": "",
+  "nameJp": "花海 佑芽",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分のフロントLにBP4000以上のキャラがある場合、このキャラの発生エナジー+【青】。",
+  "effectEn": "If you have character with BP 4000 or more in your Front Line, This character's generated energy +[Blue].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-027.png?v8"
+ },
+ "GIM-1-028": {
+  "key": "GIM-1-028",
+  "numberJp": "UA27BT/GIM-1-028",
+  "nameEn": "",
+  "nameJp": "花海 佑芽",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】自分のフロントLに〈花海 佑芽〉以外のBP5000以上のキャラがある場合、このキャラはBP+1000。【起動メイン】【フロントLにある場合】【ターン1】自分の山札の上から1枚見る。そのカードを自分の山札の上か場外に置く。",
+  "effectEn": "[During Your Turn] If you have character other than <花海 佑芽> and with BP 5000 or more in your Front Line, This character gets BP+1000. [Activate: Main] [While in Front Line] [Once Per Turn] Look at the top 1 card(s) of your deck. Put that card on top of your deck or into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-028.png?v8"
+ },
+ "GIM-1-029": {
+  "key": "GIM-1-029",
+  "numberJp": "UA27BT/GIM-1-029",
+  "nameEn": "",
+  "nameJp": "花海 佑芽",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】自分のフロントLに〈花海 佑芽〉以外のBP5000以上のキャラがある場合、このキャラはBP+1000。【起動メイン】【ターン1】このキャラのBPが5000以上の場合のみ発動できる。以下から1つ選ぶ。・このキャラはこのターン中、「【アタック時】カードを1枚まで引く。」を得る。・このキャラはこのターン中、「このキャラはBP3000以下のキャラにブロックされない。」を得る。",
+  "effectEn": "[During Your Turn] If you have character other than <花海 佑芽> and with BP 5000 or more in your Front Line, This character gets BP+1000. [Activate: Main] [Once Per Turn] Can only activate if this character's BP is 5000 or more. Choose 1 of the following. This character gains “[When Attacking]Draw up to 1 card(s)” this turn. This character gains “This character cannot be blocked by characters with BP 3000 or less” this turn.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-029.png?v8"
+ },
+ "GIM-1-030": {
+  "key": "GIM-1-030",
+  "numberJp": "UA27BT/GIM-1-030",
+  "nameEn": "",
+  "nameJp": "月村 手毬",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場の〈秦谷 美鈴〉を1枚まで選び、アクティブにする。",
+  "effectEn": "[On Play] Choose up to 1 <秦谷 美鈴> on your field, set it to active.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-030.png?v8"
+ },
+ "GIM-1-031": {
+  "key": "GIM-1-031",
+  "numberJp": "UA27BT/GIM-1-031",
+  "nameEn": "",
+  "nameJp": "花海 咲季",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-031.png?v8"
+ },
+ "GIM-1-032": {
+  "key": "GIM-1-032",
+  "numberJp": "UA27BT/GIM-1-032",
+  "nameEn": "",
+  "nameJp": "藤田 ことね",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[Activate: Main] [Rest this card] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-032.png?v8"
+ },
+ "GIM-1-033": {
+  "key": "GIM-1-033",
+  "numberJp": "UA27BT/GIM-1-033",
+  "nameEn": "",
+  "nameJp": "生徒会室",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】自分のフロントLにBP5000以上のキャラがある場合のみ発動できる。カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] Can only activate if you have a character with BP 5000 or more in your Front Line. Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-033.png?v8"
+ },
+ "GIM-1-034": {
+  "key": "GIM-1-034",
+  "numberJp": "UA27BT/GIM-1-034",
+  "nameEn": "",
+  "nameJp": "新たな挑戦の成功ですわ！",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "カードを3枚引き、自分の手札を2枚場外に置く。",
+  "effectEn": "Draw 3 card(s), then put 2 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-034.png?v8"
+ },
+ "GIM-1-035": {
+  "key": "GIM-1-035",
+  "numberJp": "UA27BT/GIM-1-035",
+  "nameEn": "",
+  "nameJp": "お疲れ様、千奈ちゃん。",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場外から必要エナジーが3以下で消費APが1の青のキャラカードを1枚自分の場にレストで登場させるかレイドさせる。",
+  "effectEn": "Play 1 Blue character card with required energy 3 or less and with AP cost 1 from your Outside Area to your field rested or Raid it.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-035.png?v8"
+ },
+ "GIM-1-036": {
+  "key": "GIM-1-036",
+  "numberJp": "UA27BT/GIM-1-036",
+  "nameEn": "",
+  "nameJp": "可愛いと可愛いで可愛い！",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "元々のBPが2500以下の自分の場のキャラ全ては、このターン中、BP+1500。自分のフロントLのキャラを1枚選び、このターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を与える。",
+  "effectEn": "All characters on your field with original BP 2500 or less get BP+1500 this turn. Choose 1 character in your Front Line, This turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is given.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-036.png?v8"
+ },
+ "GIM-1-037": {
+  "key": "GIM-1-037",
+  "numberJp": "UA27BT/GIM-1-037",
+  "nameEn": "",
+  "nameJp": "ぐぬぬぬぬ…………！",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場のキャラを1枚選び、このターン中、BP+2500。選んだキャラが〈花海 佑芽〉の場合、さらにこのターン中、【ダメージ（+1）】（このキャラがアタックで直接ダメージを与える時、追加で1ダメージ）を与える。",
+  "effectEn": "Choose 1 character on your field, it gets BP+2500 this turn. If the chosen character is <花海 佑芽>, it also gains [Damage +1] (When this character deals direct damage by attacking, deal 1 additional damage) this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-037.png?v8"
+ },
+ "GIM-1-038": {
+  "key": "GIM-1-038",
+  "numberJp": "UA27BT/GIM-1-038",
+  "nameEn": "",
+  "nameJp": "はじめてのお友達",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-038.png?v8"
+ },
+ "GIM-1-039": {
+  "key": "GIM-1-039",
+  "numberJp": "UA27BT/GIM-1-039",
+  "nameEn": "",
+  "nameJp": "わたしたち、やればできる",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場の元々のBPが2500以下のキャラの合計枚数×1000以下のBPの相手のフロントLのキャラを1枚選び、退場させる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP equal to or less than 1000 × the total number of characters with original BP 2500 or less on your field, and retire it.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-039.png?v8"
+ },
+ "GIM-1-040": {
+  "key": "GIM-1-040",
+  "numberJp": "UA27BT/GIM-1-040",
+  "nameEn": "",
+  "nameJp": "私の目に狂いはない",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈花海 佑芽〉と〈秦谷 美鈴〉と〈十王 星南〉が合計3枚以上ある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have a total of 3 or more <花海 佑芽>, <秦谷 美鈴> and <十王 星南> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-040.png?v8"
+ },
+ "GIM-1-041": {
+  "key": "GIM-1-041",
+  "numberJp": "UA27BT/GIM-1-041",
+  "nameEn": "",
+  "nameJp": "有村 麻央",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-041.png?v8"
+ },
+ "GIM-1-042": {
+  "key": "GIM-1-042",
+  "numberJp": "UA27BT/GIM-1-042",
+  "nameEn": "",
+  "nameJp": "有村 麻央",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
+  "effectEn": "While this character is active, its generated energy +[Red].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-042.png?v8"
+ },
+ "GIM-1-043": {
+  "key": "GIM-1-043",
+  "numberJp": "UA27BT/GIM-1-043",
+  "nameEn": "",
+  "nameJp": "有村 麻央",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを望む順で下に置く。",
+  "effectEn": "[On Play] Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-043.png?v8"
+ },
+ "GIM-1-044": {
+  "key": "GIM-1-044",
+  "numberJp": "UA27BT/GIM-1-044",
+  "nameEn": "",
+  "nameJp": "有村 麻央",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【赤×2】減らす。【登場時】カードを1枚引き、自分の手札を1枚場外に置く。【起動メイン】【レストにする】【このカードを退場させる】自分の場外から必要エナジーが3以下のキャラカードを1枚手札に加える。",
+  "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Red x2]is reduced. [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. [Activate: Main] [Rest this card] [Retire this card] Add 1 character card with required energy 3 or less from your Outside Area to your hand.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-044.png?v8"
+ },
+ "GIM-1-045": {
+  "key": "GIM-1-045",
+  "numberJp": "UA27BT/GIM-1-045",
+  "nameEn": "",
+  "nameJp": "葛城 リーリヤ",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-045.png?v8"
+ },
+ "GIM-1-046": {
+  "key": "GIM-1-046",
+  "numberJp": "UA27BT/GIM-1-046",
+  "nameEn": "",
+  "nameJp": "葛城 リーリヤ",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-046.png?v8"
+ },
+ "GIM-1-047": {
+  "key": "GIM-1-047",
+  "numberJp": "UA27BT/GIM-1-047",
+  "nameEn": "",
+  "nameJp": "葛城 リーリヤ",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-047.png?v8"
+ },
+ "GIM-1-048": {
+  "key": "GIM-1-048",
+  "numberJp": "UA27BT/GIM-1-048",
+  "nameEn": "",
+  "nameJp": "葛城 リーリヤ",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈葛城 リーリヤ〉アクティブにし、フロントLに移動できる【登場時】自分の場外から必要エナジーが2以下のイベントカードを1枚まで手札に加える。【アタック時】このターン中に自分がイベントカードを使用している場合、自分の手札を1枚場外に置いてもよい。そうした場合、自分の場の〈紫雲 清夏〉を1枚まで選び、アクティブにする。",
+  "effectEn": "[Raid] Can Raid onto <葛城 リーリヤ>; set it to active and you may move it to the Front Line. [On Play] Add up to 1 event card with required energy 2 or less from your Outside Area to your hand. [When Attacking] If you have used an event card this turn, you may put 1 card(s) from your hand into your Outside Area. If you do, Choose up to 1 <紫雲 清夏> on your field, set it to active.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-048.png?v8"
+ },
+ "GIM-1-049": {
+  "key": "GIM-1-049",
+  "numberJp": "UA27BT/GIM-1-049",
+  "nameEn": "",
+  "nameJp": "倉本 千奈",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】カードを1枚引く。",
+  "effectEn": "[On Play] Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-049.png?v8"
+ },
+ "GIM-1-050": {
+  "key": "GIM-1-050",
+  "numberJp": "UA27BT/GIM-1-050",
+  "nameEn": "",
+  "nameJp": "紫雲 清夏",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-050.png?v8"
+ },
+ "GIM-1-051": {
+  "key": "GIM-1-051",
+  "numberJp": "UA27BT/GIM-1-051",
+  "nameEn": "",
+  "nameJp": "紫雲 清夏",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】このターン中に自分がイベントカードを使用している場合、このキャラは「このキャラはBP3000以下のキャラにブロックされない。」を得る。",
+  "effectEn": "[During Your Turn] If you have used an event card this turn, this character gains “This character cannot be blocked by characters with BP 3000 or less”",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP2500以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-051.png?v8"
+ },
+ "GIM-1-052": {
+  "key": "GIM-1-052",
+  "numberJp": "UA27BT/GIM-1-052",
+  "nameEn": "",
+  "nameJp": "紫雲 清夏",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】このターン中に自分がイベントカードを使用している場合、カードを1枚引く。",
+  "effectEn": "[On Play] If you have used an Event card this turn, draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-052.png?v8"
+ },
+ "GIM-1-053": {
+  "key": "GIM-1-053",
+  "numberJp": "UA27BT/GIM-1-053",
+  "nameEn": "",
+  "nameJp": "紫雲 清夏",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈紫雲 清夏〉アクティブにし、フロントLに移動できる【登場時】『BP3000』以下の相手のフロントLのキャラを1枚まで選び、退場させる。自分の場に〈葛城 リーリヤ〉がある場合、このターン中に自分が使用したイベントカード1枚につき、この効果で選べるキャラのBPの範囲+500。",
+  "effectEn": "[Raid] Can Raid onto <紫雲 清夏>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <葛城 リーリヤ> on your field, for each 1 event card(s) you have used this turn, the BP range of characters you can choose with this effect is increased by 500.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-053.png?v8"
+ },
+ "GIM-1-054": {
+  "key": "GIM-1-054",
+  "numberJp": "UA27BT/GIM-1-054",
+  "nameEn": "",
+  "nameJp": "篠澤 広",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から3枚見る。その中から1枚を自分の山札の上に置き、残りを望む順で下に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Put 1 of them on top of your deck and the rest on the bottom in any order.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-054.png?v8"
+ },
+ "GIM-1-055": {
+  "key": "GIM-1-055",
+  "numberJp": "UA27BT/GIM-1-055",
+  "nameEn": "",
+  "nameJp": "根緒 亜紗里",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【赤】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Red] and gains “At the end of the Main Phase, retire this character”",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-055.png?v8"
+ },
+ "GIM-1-056": {
+  "key": "GIM-1-056",
+  "numberJp": "UA27BT/GIM-1-056",
+  "nameEn": "",
+  "nameJp": "姫崎 莉波",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-056.png?v8"
+ },
+ "GIM-1-057": {
+  "key": "GIM-1-057",
+  "numberJp": "UA27BT/GIM-1-057",
+  "nameEn": "",
+  "nameJp": "十王 星南",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラはBPをマイナスする効果を受けない。このキャラは相手の効果でレストにならず、手札に戻らない。【自分のターン中】このキャラはBP+1000。",
+  "effectEn": "This character is not affected by effects that reduce BP. This character is not rested or returned to the hand by your opponent's effects. [During Your Turn] This character gets BP+1000.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-057.png?v8"
+ },
+ "GIM-1-058": {
+  "key": "GIM-1-058",
+  "numberJp": "UA27BT/GIM-1-058",
+  "nameEn": "",
+  "nameJp": "秦谷 美鈴",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場の〈月村 手毬〉を1枚まで選び、アクティブにする。",
+  "effectEn": "[On Play] Choose up to 1 <月村 手毬> on your field, set it to active.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-058.png?v8"
+ },
+ "GIM-1-059": {
+  "key": "GIM-1-059",
+  "numberJp": "UA27BT/GIM-1-059",
+  "nameEn": "",
+  "nameJp": "花海 佑芽",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】自分のフロントLに〈花海 咲季〉がある場合、このキャラはBP+1000。",
+  "effectEn": "[During Your Turn] If you have <花海 咲季> in your Front Line, This character gets BP+1000.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-059.png?v8"
+ },
+ "GIM-1-060": {
+  "key": "GIM-1-060",
+  "numberJp": "UA27BT/GIM-1-060",
+  "nameEn": "",
+  "nameJp": "月村 手毬",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-060.png?v8"
+ },
+ "GIM-1-061": {
+  "key": "GIM-1-061",
+  "numberJp": "UA27BT/GIM-1-061",
+  "nameEn": "",
+  "nameJp": "月村 手毬",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場に〈花海 咲季〉と〈藤田 ことね〉がどちらもある場合、このキャラはBP+1000。",
+  "effectEn": "If you have both <花海 咲季> and <藤田 ことね> on your field, this character gets BP+1000.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-061.png?v8"
+ },
+ "GIM-1-062": {
+  "key": "GIM-1-062",
+  "numberJp": "UA27BT/GIM-1-062",
+  "nameEn": "",
+  "nameJp": "月村 手毬",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場に〈花海 咲季〉と〈藤田 ことね〉がどちらもある場合、手札にあるこのカードの消費APを-1する。【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "If you have both <花海 咲季> and <藤田 ことね> on your field, reduce the AP cost of this card in your hand by 1. [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP2500以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-062.png?v8"
+ },
+ "GIM-1-063": {
+  "key": "GIM-1-063",
+  "numberJp": "UA27BT/GIM-1-063",
+  "nameEn": "",
+  "nameJp": "月村 手毬",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈月村 手毬〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【アタック時】自分の場に〈花海 咲季〉と〈藤田 ことね〉がどちらもある場合、カードを1枚まで引く。",
+  "effectEn": "[Raid] Can Raid onto <月村 手毬>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [When Attacking] If you have both <花海 咲季> and <藤田 ことね> on your field, draw up to 1 card(s).",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-063.png?v8"
+ },
+ "GIM-1-064": {
+  "key": "GIM-1-064",
+  "numberJp": "UA27BT/GIM-1-064",
+  "nameEn": "",
+  "nameJp": "花海 咲季",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。",
+  "effectEn": "[On Play] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-064.png?v8"
+ },
+ "GIM-1-065": {
+  "key": "GIM-1-065",
+  "numberJp": "UA27BT/GIM-1-065",
+  "nameEn": "",
+  "nameJp": "花海 咲季",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-065.png?v8"
+ },
+ "GIM-1-066": {
+  "key": "GIM-1-066",
+  "numberJp": "UA27BT/GIM-1-066",
+  "nameEn": "",
+  "nameJp": "花海 咲季",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【アタック時】自分のフロントLに〈花海 佑芽〉がある場合、カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[When Attacking] If you have <花海 佑芽> in your Front Line, Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-066.png?v8"
+ },
+ "GIM-1-067": {
+  "key": "GIM-1-067",
+  "numberJp": "UA27BT/GIM-1-067",
+  "nameEn": "",
+  "nameJp": "花海 咲季",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【登場時】自分の場に〈月村 手毬〉と〈藤田 ことね〉がどちらもある場合、カードを1枚引く。",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [On Play] If you have both <月村 手毬> and <藤田 ことね> on your field, draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-067.png?v8"
+ },
+ "GIM-1-068": {
+  "key": "GIM-1-068",
+  "numberJp": "UA27BT/GIM-1-068",
+  "nameEn": "",
+  "nameJp": "花海 咲季",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラはBP4000以上のキャラにブロックされない。【登場時】自分のフロントLに〈月村 手毬〉と〈藤田 ことね〉がどちらもある場合、このキャラをアクティブにする。〈花海 咲季〉のこの効果は1ターンに1回のみ発動する。",
+  "effectEn": "This character cannot be blocked by characters with BP 4000 or more. [On Play] If you have both <月村 手毬> and <藤田 ことね> in your Front Line, set this character to active. This <花海 咲季> effect can only activate 1 time(s) per 1 turn(s).",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-068.png?v8"
+ },
+ "GIM-1-069": {
+  "key": "GIM-1-069",
+  "numberJp": "UA27BT/GIM-1-069",
+  "nameEn": "",
+  "nameJp": "藤田 ことね",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-069.png?v8"
+ },
+ "GIM-1-070": {
+  "key": "GIM-1-070",
+  "numberJp": "UA27BT/GIM-1-070",
+  "nameEn": "",
+  "nameJp": "藤田 ことね",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から3枚見る。その中から〈月村 手毬〉か〈花海 咲季〉か〈藤田 ことね〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 <月村 手毬> or <花海 咲季> or <藤田 ことね> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-070.png?v8"
+ },
+ "GIM-1-071": {
+  "key": "GIM-1-071",
+  "numberJp": "UA27BT/GIM-1-071",
+  "nameEn": "",
+  "nameJp": "藤田 ことね",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】【エナジーLにある場合】自分の場に〈花海 咲季〉と〈月村 手毬〉がどちらもある場合、このキャラをアクティブにする。【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] [While in Energy Line] If you have both <花海 咲季> and <月村 手毬> on your field, set this character to active. [Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-071.png?v8"
+ },
+ "GIM-1-072": {
+  "key": "GIM-1-072",
+  "numberJp": "UA27BT/GIM-1-072",
+  "nameEn": "",
+  "nameJp": "藤田 ことね",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈藤田 ことね〉アクティブにし、フロントLに移動できる【登場時】自分の手札から必要エナジーが3以下で消費APが1の赤の〔〈花海 咲季〉か〈月村 手毬〉〕を1枚まで自分の場にレストで登場させる。自分の場に〈花海 咲季〉と〈月村 手毬〉がどちらもある場合、カードを1枚引く。",
+  "effectEn": "[Raid] Can Raid onto <藤田 ことね>; set it to active and you may move it to the Front Line. [On Play] Play up to 1 Red <花海 咲季> or <月村 手毬> with required energy 3 or less and with AP cost 1 from your hand to your field rested. If you have both <花海 咲季> and <月村 手毬> on your field, draw 1 card(s).",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-072.png?v8"
+ },
+ "GIM-1-073": {
+  "key": "GIM-1-073",
+  "numberJp": "UA27BT/GIM-1-073",
+  "nameEn": "",
+  "nameJp": "初星学園",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から6枚見る。その中から必要エナジーが3以下のキャラカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
+  "effectEn": "[On Play] Look at the top 6 card(s) of your deck. Reveal up to 1 character card with required energy 3 or less among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-073.png?v8"
+ },
+ "GIM-1-074": {
+  "key": "GIM-1-074",
+  "numberJp": "UA27BT/GIM-1-074",
+  "nameEn": "",
+  "nameJp": "あなたにも作ってあげる！",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から6枚見る。その中から〈花海 咲季〉と〈月村 手毬〉と〈藤田 ことね〉をそれぞれ1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
+  "effectEn": "Look at the top 6 card(s) of your deck. Reveal up to 1 each of <花海 咲季>, <月村 手毬> and <藤田 ことね> among them and add them to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-074.png?v8"
+ },
+ "GIM-1-075": {
+  "key": "GIM-1-075",
+  "numberJp": "UA27BT/GIM-1-075",
+  "nameEn": "",
+  "nameJp": "おいしい顔、いただき～！",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈葛城 リーリヤ〉か〈紫雲 清夏〉がどちらかのみある場合、『BP4000以下』に代わる。自分の場に〈葛城 リーリヤ〉と〈紫雲 清夏〉がどちらもある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have only one of <葛城 リーリヤ> or <紫雲 清夏> on your field, it becomes “BP 4000 or less” instead. If you have both <葛城 リーリヤ> and <紫雲 清夏> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-075.png?v8"
+ },
+ "GIM-1-076": {
+  "key": "GIM-1-076",
+  "numberJp": "UA27BT/GIM-1-076",
+  "nameEn": "",
+  "nameJp": "きみは、自慢の生徒です",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-076.png?v8"
+ },
+ "GIM-1-077": {
+  "key": "GIM-1-077",
+  "numberJp": "UA27BT/GIM-1-077",
+  "nameEn": "",
+  "nameJp": "こいつらめんどくさー",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈花海 咲季〉と〈月村 手毬〉と〈藤田 ことね〉が合計3枚以上ある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have a total of 3 or more <花海 咲季>, <月村 手毬> and <藤田 ことね> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-077.png?v8"
+ },
+ "GIM-1-078": {
+  "key": "GIM-1-078",
+  "numberJp": "UA27BT/GIM-1-078",
+  "nameEn": "",
+  "nameJp": "第2回教室パーティー！",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から3枚見る。その中からカードを2枚手札に加える。残りを自分の山札の下に置く。",
+  "effectEn": "Look at the top 3 card(s) of your deck. From among them, add 2 cards to your hand. Put the rest on the bottom of your deck.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-078.png?v8"
+ },
+ "GIM-1-079": {
+  "key": "GIM-1-079",
+  "numberJp": "UA27BT/GIM-1-079",
+  "nameEn": "",
+  "nameJp": "ほら、一緒に持と♪",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "カードを1枚引く。このターン中、次に手札から使用する〈葛城 リーリヤ〉か〈紫雲 清夏〉の消費APを-1する。",
+  "effectEn": "Draw 1 card(s). This turn, the next <葛城 リーリヤ> or <紫雲 清夏> you use from your hand costs 1 less AP.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-079.png?v8"
+ },
+ "GIM-1-080": {
+  "key": "GIM-1-080",
+  "numberJp": "UA27BT/GIM-1-080",
+  "nameEn": "",
+  "nameJp": "まるで王子様みたいな",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場のキャラを1枚選び、『このターン中』、BP+2000。自分の場に〈葛城 リーリヤ〉と〈紫雲 清夏〉がどちらもある場合、『次の自分のターン開始時まで』に代わる。",
+  "effectEn": "Choose 1 character on your field; it gets BP+2000 “this turn” If you have both <葛城 リーリヤ> and <紫雲 清夏> on your field, it becomes “until the start of your next turn” instead.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-080.png?v8"
+ },
+ "GIM-1-AP01": {
+  "key": "GIM-1-AP01",
+  "numberJp": "UA27BT/GIM-1-AP01",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP01.png?v8"
+ },
+ "GIM-1-AP01★": {
+  "key": "GIM-1-AP01★",
+  "numberJp": "UA27BT/GIM-1-AP01★",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP01_s.png?v8"
+ },
+ "GIM-1-AP02": {
+  "key": "GIM-1-AP02",
+  "numberJp": "UA27BT/GIM-1-AP02",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP02.png?v8"
+ },
+ "GIM-1-AP02★": {
+  "key": "GIM-1-AP02★",
+  "numberJp": "UA27BT/GIM-1-AP02★",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP02_s.png?v8"
+ },
+ "GIM-1-AP03": {
+  "key": "GIM-1-AP03",
+  "numberJp": "UA27BT/GIM-1-AP03",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP03.png?v8"
+ },
+ "GIM-1-AP03★": {
+  "key": "GIM-1-AP03★",
+  "numberJp": "UA27BT/GIM-1-AP03★",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP03_s.png?v8"
+ },
+ "GIM-1-AP04": {
+  "key": "GIM-1-AP04",
+  "numberJp": "UA27BT/GIM-1-AP04",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP04.png?v8"
+ },
+ "GIM-1-AP04★": {
+  "key": "GIM-1-AP04★",
+  "numberJp": "UA27BT/GIM-1-AP04★",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP04_s.png?v8"
+ },
+ "GIM-1-AP05": {
+  "key": "GIM-1-AP05",
+  "numberJp": "UA27BT/GIM-1-AP05",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP05.png?v8"
+ },
+ "GIM-1-AP05★": {
+  "key": "GIM-1-AP05★",
+  "numberJp": "UA27BT/GIM-1-AP05★",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP05_s.png?v8"
+ },
+ "GIM-1-AP06": {
+  "key": "GIM-1-AP06",
+  "numberJp": "UA27BT/GIM-1-AP06",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP06.png?v8"
+ },
+ "GIM-1-AP06★": {
+  "key": "GIM-1-AP06★",
+  "numberJp": "UA27BT/GIM-1-AP06★",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP06_s.png?v8"
+ },
+ "GIM-1-AP07": {
+  "key": "GIM-1-AP07",
+  "numberJp": "UA27BT/GIM-1-AP07",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP07.png?v8"
+ },
+ "GIM-1-AP07★": {
+  "key": "GIM-1-AP07★",
+  "numberJp": "UA27BT/GIM-1-AP07★",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP07_s.png?v8"
+ },
+ "GIM-1-AP08": {
+  "key": "GIM-1-AP08",
+  "numberJp": "UA27BT/GIM-1-AP08",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP08.png?v8"
+ },
+ "GIM-1-AP08★": {
+  "key": "GIM-1-AP08★",
+  "numberJp": "UA27BT/GIM-1-AP08★",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP08_s.png?v8"
+ },
+ "GIM-1-AP09": {
+  "key": "GIM-1-AP09",
+  "numberJp": "UA27BT/GIM-1-AP09",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP09.png?v8"
+ },
+ "GIM-1-AP09★": {
+  "key": "GIM-1-AP09★",
+  "numberJp": "UA27BT/GIM-1-AP09★",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP09_s.png?v8"
+ },
+ "GIM-1-AP10": {
+  "key": "GIM-1-AP10",
+  "numberJp": "UA27BT/GIM-1-AP10",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP10.png?v8"
+ },
+ "GIM-1-AP10★": {
+  "key": "GIM-1-AP10★",
+  "numberJp": "UA27BT/GIM-1-AP10★",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP10_s.png?v8"
+ },
+ "GIM-1-AP11": {
+  "key": "GIM-1-AP11",
+  "numberJp": "UA27BT/GIM-1-AP11",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP11.png?v8"
+ },
+ "GIM-1-AP11★": {
+  "key": "GIM-1-AP11★",
+  "numberJp": "UA27BT/GIM-1-AP11★",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP11_s.png?v8"
+ },
+ "GIM-1-AP12": {
+  "key": "GIM-1-AP12",
+  "numberJp": "UA27BT/GIM-1-AP12",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP12.png?v8"
+ },
+ "GIM-1-AP12★": {
+  "key": "GIM-1-AP12★",
+  "numberJp": "UA27BT/GIM-1-AP12★",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP12_s.png?v8"
+ },
+ "GIM-1-AP13": {
+  "key": "GIM-1-AP13",
+  "numberJp": "UA27BT/GIM-1-AP13",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP13.png?v8"
+ },
+ "GIM-1-AP14": {
+  "key": "GIM-1-AP14",
+  "numberJp": "UA27BT/GIM-1-AP14",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP14.png?v8"
+ },
+ "GIM-1-AP15": {
+  "key": "GIM-1-AP15",
+  "numberJp": "UA27BT/GIM-1-AP15",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP15.png?v8"
+ },
+ "GIM-1-AP16": {
+  "key": "GIM-1-AP16",
+  "numberJp": "UA27BT/GIM-1-AP16",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP16.png?v8"
+ },
+ "GIM-1-AP17": {
+  "key": "GIM-1-AP17",
+  "numberJp": "UA27BT/GIM-1-AP17",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP17.png?v8"
+ },
+ "GIM-1-AP18": {
+  "key": "GIM-1-AP18",
+  "numberJp": "UA27BT/GIM-1-AP18",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP18.png?v8"
+ },
+ "GIM-1-AP19": {
+  "key": "GIM-1-AP19",
+  "numberJp": "UA27BT/GIM-1-AP19",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(学園アイドルマスター)",
+  "series": "学園アイドルマスター",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA27BT_GIM-1-AP19.png?v8"
+ }
+}

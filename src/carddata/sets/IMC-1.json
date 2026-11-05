@@ -1,0 +1,3871 @@
+{
+ "IMC-1-001": {
+  "key": "IMC-1-001",
+  "numberJp": "UA55BT/IMC-1-001",
+  "nameEn": "",
+  "nameJp": "千川 ちひろ",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【黄】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Yellow] and gains “At the end of the Main Phase, retire this character”",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-001.png?v8"
+ },
+ "IMC-1-002": {
+  "key": "IMC-1-002",
+  "numberJp": "UA55BT/IMC-1-002",
+  "nameEn": "",
+  "nameJp": "大槻 唯",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "BEYOND THE STARLIGHT"
+  ],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-002.png?v8"
+ },
+ "IMC-1-003": {
+  "key": "IMC-1-003",
+  "numberJp": "UA55BT/IMC-1-003",
+  "nameEn": "",
+  "nameJp": "大槻 唯",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "BEYOND THE STARLIGHT"
+  ],
+  "effectJp": "【相手のターン中】このキャラはBP+1000と【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）を得る。【起動メイン】【ターン1】自分の場にBP5000以上の他のキャラがある場合のみ発動できる。このキャラはこのターン中、BP+1000。【起動メイン】【フロントLにある場合】【ターン1】このキャラのBPが5000以上の場合のみ発動できる。このキャラをアクティブにする。",
+  "effectEn": "[During Opponent's Turn] This character gains BP+1000 and [Impact Nullify] (The character that battles this character loses Impact during this battle) [Activate: Main] [Once Per Turn] Can only activate if you have another character with BP 5000 or more on your field. This character gets BP+1000 this turn. [Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if this character's BP is 5000 or more. Set this character to active.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-003.png?v8"
+ },
+ "IMC-1-004": {
+  "key": "IMC-1-004",
+  "numberJp": "UA55BT/IMC-1-004",
+  "nameEn": "",
+  "nameJp": "緒方 智絵里",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "BEYOND THE STARLIGHT"
+  ],
+  "effectJp": "自分の［特徴：BEYOND THE STARLIGHT］の効果でこのカードが手札から場外に置かれた時、自分の場の［特徴：BEYOND THE STARLIGHT］を1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "When this card is put from your hand into your Outside Area by the effect of your [Trait: BEYOND THE STARLIGHT], choose up to 1 [Trait: BEYOND THE STARLIGHT] on your field; it gets BP+1000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-004.png?v8"
+ },
+ "IMC-1-005": {
+  "key": "IMC-1-005",
+  "numberJp": "UA55BT/IMC-1-005",
+  "nameEn": "",
+  "nameJp": "緒方 智絵里",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "BEYOND THE STARLIGHT"
+  ],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【黄】。",
+  "effectEn": "While this character is active, its generated energy +[Yellow].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-005.png?v8"
+ },
+ "IMC-1-006": {
+  "key": "IMC-1-006",
+  "numberJp": "UA55BT/IMC-1-006",
+  "nameEn": "",
+  "nameJp": "緒方 智絵里",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "BEYOND THE STARLIGHT"
+  ],
+  "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【黄×2】減らす。【起動メイン】【ターン1】自分の場にBP5000以上の他のキャラがある場合のみ発動できる。このキャラはこのターン中、BP+1000。【アタック時】このキャラのBPが5000以上の場合、自分の山札の上から1枚を公開する。公開したカードが［特徴：BEYOND THE STARLIGHT］の場合、そのカードを手札に加えてもよい。手札に加えない場合、山札の上か下に置く。",
+  "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Yellow x2]is reduced. [Activate: Main] [Once Per Turn] Can only activate if you have another character with BP 5000 or more on your field. This character gets BP+1000 this turn. [When Attacking] If this character's BP is 5000 or more, Reveal the top 1 card(s) of your deck. If the revealed card is a [Trait: BEYOND THE STARLIGHT], you may add that card to your hand. If you don't add it to your hand, put it on the top or bottom of your deck.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-006.png?v8"
+ },
+ "IMC-1-007": {
+  "key": "IMC-1-007",
+  "numberJp": "UA55BT/IMC-1-007",
+  "nameEn": "",
+  "nameJp": "川島 瑞樹",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "BEYOND THE STARLIGHT"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-007.png?v8"
+ },
+ "IMC-1-008": {
+  "key": "IMC-1-008",
+  "numberJp": "UA55BT/IMC-1-008",
+  "nameEn": "",
+  "nameJp": "川島 瑞樹",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "BEYOND THE STARLIGHT"
+  ],
+  "effectJp": "【起動メイン】【レストにする】自分の場の他の［特徴：BEYOND THE STARLIGHT］を1枚選び、このターン中、BP+1000。",
+  "effectEn": "[Activate: Main] [Rest this card] Choose 1 other [Trait: BEYOND THE STARLIGHT] on your field, it gets BP+1000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-008.png?v8"
+ },
+ "IMC-1-009": {
+  "key": "IMC-1-009",
+  "numberJp": "UA55BT/IMC-1-009",
+  "nameEn": "",
+  "nameJp": "川島 瑞樹",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "-",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "BEYOND THE STARLIGHT"
+  ],
+  "effectJp": "このキャラはアクティブで登場させる。【登場時】カードを1枚引き、自分の手札から必要エナジーが3以下で消費APが1の特徴に「BEYOND THE STARLIGHT」を持つ黄のキャラカードを1枚まで自分の場にレストで登場させるかレイドさせる。登場かレイドさせたキャラの元々の必要エナジー1につき、このキャラはこのターン中、BP-1000。",
+  "effectEn": "This character is played active. [On Play] Draw 1 card(s), and play up to 1 yellow character card(s) with the trait “BEYOND THE STARLIGHT”, required energy 3 or less and AP cost 1 from your hand to your field rested, or Raid them. For each 1 original required energy of the played or Raided character, this character gets BP-1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-009.png?v8"
+ },
+ "IMC-1-010": {
+  "key": "IMC-1-010",
+  "numberJp": "UA55BT/IMC-1-010",
+  "nameEn": "",
+  "nameJp": "城ヶ崎 莉嘉",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "BEYOND THE STARLIGHT"
+  ],
+  "effectJp": "【登場時】自分の山札の上から7枚見て、黄のフィールドカードを1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 7 card(s) of your deck, reveal up to 1 Yellow Field card among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-010.png?v8"
+ },
+ "IMC-1-011": {
+  "key": "IMC-1-011",
+  "numberJp": "UA55BT/IMC-1-011",
+  "nameEn": "",
+  "nameJp": "城ヶ崎 莉嘉",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "BEYOND THE STARLIGHT"
+  ],
+  "effectJp": "【ターン1】このキャラのBPがプラスされた時、自分のターン中の場合、このキャラはこのターン中、BP+1000。",
+  "effectEn": "[Once Per Turn] When this character's BP is increased, if it is your turn, this character gets BP+1000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-011.png?v8"
+ },
+ "IMC-1-012": {
+  "key": "IMC-1-012",
+  "numberJp": "UA55BT/IMC-1-012",
+  "nameEn": "",
+  "nameJp": "城ヶ崎 莉嘉",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "BEYOND THE STARLIGHT"
+  ],
+  "effectJp": "【レイド】〈城ヶ崎 莉嘉〉アクティブにし、フロントLに移動できる【ターン1】このキャラのBPがプラスされた時、自分のターン中の場合、このキャラはこのターン中、BP+500。【登場時】このキャラはこのターン中、「このキャラのBPが7000以上の場合、このキャラは【狙い撃ち】を得る。」を得る。【アタック時】このキャラのBPが5000以上の場合、カードを1枚引く。",
+  "effectEn": "[Raid] Can Raid onto <城ヶ崎 莉嘉>; set it to active and you may move it to the Front Line. [Once Per Turn] When this character's BP is increased, if it is your turn, this character gets BP+500 this turn. [On Play] This character gains “If this character's BP is 7000 or more, This character [Snipe] is gained” this turn. [When Attacking] If this character's BP is 5000 or more, Draw 1 card(s).",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-012.png?v8"
+ },
+ "IMC-1-013": {
+  "key": "IMC-1-013",
+  "numberJp": "UA55BT/IMC-1-013",
+  "nameEn": "",
+  "nameJp": "北条 加蓮",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "BEYOND THE STARLIGHT"
+  ],
+  "effectJp": "【登場時】自分の場の他の［特徴：BEYOND THE STARLIGHT］を1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] Choose up to 1 other [Trait: BEYOND THE STARLIGHT] on your field, it gets BP+1000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-013.png?v8"
+ },
+ "IMC-1-014": {
+  "key": "IMC-1-014",
+  "numberJp": "UA55BT/IMC-1-014",
+  "nameEn": "",
+  "nameJp": "北条 加蓮",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "BEYOND THE STARLIGHT"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：BEYOND THE STARLIGHT］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: BEYOND THE STARLIGHT] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】相手のフロントLのキャラを1枚選び、レストにする。それは次の1回アクティブにならない。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-014.png?v8"
+ },
+ "IMC-1-015": {
+  "key": "IMC-1-015",
+  "numberJp": "UA55BT/IMC-1-015",
+  "nameEn": "",
+  "nameJp": "北条 加蓮",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "BEYOND THE STARLIGHT"
+  ],
+  "effectJp": "【アタック時】自分の場にBP5000以上の他のキャラがある場合、カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[When Attacking] If you have other character with BP 5000 or more on your field, Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-015.png?v8"
+ },
+ "IMC-1-016": {
+  "key": "IMC-1-016",
+  "numberJp": "UA55BT/IMC-1-016",
+  "nameEn": "",
+  "nameJp": "北条 加蓮",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "BEYOND THE STARLIGHT"
+  ],
+  "effectJp": "【レイド】〈北条 加蓮〉アクティブにし、フロントLに移動できる【登場時】カードを1枚引き、自分の手札を1枚場外に置く。自分の場外から必要エナジーが3以下の［特徴：BEYOND THE STARLIGHT］を1枚まで手札に加える。【起動メイン】【フロントLにある場合】【ターン1】このキャラのBPが5000以上の場合のみ発動できる。自分の山札の上から1枚見て、山札の上か場外に置く。自分の場の他のキャラを『1枚選び』、このターン中、BP+1000。このキャラのBPが7000以上の場合、『全て』に代わる。",
+  "effectEn": "[Raid] Can Raid onto <北条 加蓮>; set it to active and you may move it to the Front Line. [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. Add up to 1 [Trait: BEYOND THE STARLIGHT] with required energy 3 or less from your Outside Area to your hand. [Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if this character's BP is 5000 or more. Look at the top 1 card(s) of your deck, put them on top of your deck or into your Outside Area. “Choose 1” other character on your field; it gets BP+1000 this turn. If this character's BP is 7000 or more, it becomes “all” instead.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-016.png?v8"
+ },
+ "IMC-1-017": {
+  "key": "IMC-1-017",
+  "numberJp": "UA55BT/IMC-1-017",
+  "nameEn": "",
+  "nameJp": "高森 藍子",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ポジティブパッション"
+  ],
+  "effectJp": "【登場時】自分の山札の上から1枚見て、山札の上か場外に置く。",
+  "effectEn": "[On Play] Look at the top 1 card(s) of your deck, put them on top of your deck or into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-017.png?v8"
+ },
+ "IMC-1-018": {
+  "key": "IMC-1-018",
+  "numberJp": "UA55BT/IMC-1-018",
+  "nameEn": "",
+  "nameJp": "高森 藍子",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ポジティブパッション"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：ポジティブパッション］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: Positive Passion] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-018.png?v8"
+ },
+ "IMC-1-019": {
+  "key": "IMC-1-019",
+  "numberJp": "UA55BT/IMC-1-019",
+  "nameEn": "",
+  "nameJp": "高森 藍子",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ポジティブパッション"
+  ],
+  "effectJp": "【登場時】カードを1枚引く。",
+  "effectEn": "[On Play] Draw 1 card(s).",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】相手のフロントLのキャラを1枚選び、レストにする。それは次の1回アクティブにならない。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-019.png?v8"
+ },
+ "IMC-1-020": {
+  "key": "IMC-1-020",
+  "numberJp": "UA55BT/IMC-1-020",
+  "nameEn": "",
+  "nameJp": "高森 藍子",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ポジティブパッション"
+  ],
+  "effectJp": "【レイド】〈高森 藍子〉アクティブにし、フロントLに移動できる【登場時】相手のフロントLのキャラを1枚まで選び、レストにする。このキャラが自分の効果でレイドしていた場合、それは次の1回アクティブにならない。【起動メイン】【フロントLにある場合】【レストにする】【ターン1】自分の手札から必要エナジーを満たす〈本田 未央〉か〈日野 茜〉を1枚までレイドさせる。",
+  "effectEn": "[Raid] Can Raid onto <高森 藍子>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line, rest it. If this character Raided by your own effect, it does not become active the next 1 time(s). [Activate: Main] [While in Front Line] [Rest this card] [Once Per Turn] Raid up to 1 <本田 未央> or <日野 茜> that meets its required energy from your hand.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-020.png?v8"
+ },
+ "IMC-1-021": {
+  "key": "IMC-1-021",
+  "numberJp": "UA55BT/IMC-1-021",
+  "nameEn": "",
+  "nameJp": "日野 茜",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ポジティブパッション"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-021.png?v8"
+ },
+ "IMC-1-022": {
+  "key": "IMC-1-022",
+  "numberJp": "UA55BT/IMC-1-022",
+  "nameEn": "",
+  "nameJp": "日野 茜",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ポジティブパッション"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】自分のフロントLのアクティブのキャラを1枚レストにする。そうした場合、このキャラはこのターン中、発生エナジー+【黄】。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] Rest 1 active character in your Front Line. If you do, This turn, this character's generated energy +[Yellow].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-022.png?v8"
+ },
+ "IMC-1-023": {
+  "key": "IMC-1-023",
+  "numberJp": "UA55BT/IMC-1-023",
+  "nameEn": "",
+  "nameJp": "日野 茜",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ポジティブパッション"
+  ],
+  "effectJp": "【登場時】【フロントLにある場合】自分の手札から必要エナジーが2以下の黄の［特徴：ポジティブパッション］を1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[On Play] [While in Front Line] Play up to 1 Yellow [Trait: Positive Passion] with required energy 2 or less from your hand to your field rested.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-023.png?v8"
+ },
+ "IMC-1-024": {
+  "key": "IMC-1-024",
+  "numberJp": "UA55BT/IMC-1-024",
+  "nameEn": "",
+  "nameJp": "日野 茜",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ポジティブパッション"
+  ],
+  "effectJp": "【レイド】〈日野 茜〉アクティブにし、フロントLに移動できる【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【登場時】このキャラはこのターン中、BP+1000。このキャラが自分の効果でレイドしていた場合、さらにこのキャラはこのターン中、【ダメージ（2）】を得る。【アタック時】カードを1枚引く。このターンで最初の自分のキャラのアタックの場合、APを1支払ってもよい。そうした場合、自分の手札から必要エナジーを満たす〈本田 未央〉か〈高森 藍子〉を1枚までレイドさせる。",
+  "effectEn": "[Raid] Can Raid onto <日野 茜>; set it to active and you may move it to the Front Line. [Impact Nullify] (The character that battles this character loses Impact during this battle) [On Play] This character gets BP+1000 this turn. If this character Raided by your own effect, this character also gains [Damage 2] this turn. [When Attacking] Draw 1 card(s). If this is your first character attack this turn, you may pay 1 AP. If you do, Raid up to 1 <本田 未央> or <高森 藍子> that meets its required energy from your hand.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-024.png?v8"
+ },
+ "IMC-1-025": {
+  "key": "IMC-1-025",
+  "numberJp": "UA55BT/IMC-1-025",
+  "nameEn": "",
+  "nameJp": "本田 未央",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ポジティブパッション"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-025.png?v8"
+ },
+ "IMC-1-026": {
+  "key": "IMC-1-026",
+  "numberJp": "UA55BT/IMC-1-026",
+  "nameEn": "",
+  "nameJp": "本田 未央",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ポジティブパッション"
+  ],
+  "effectJp": "【自分のターン中】このキャラはBP+1000。",
+  "effectEn": "[During Your Turn] This character gets BP+1000.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-026.png?v8"
+ },
+ "IMC-1-027": {
+  "key": "IMC-1-027",
+  "numberJp": "UA55BT/IMC-1-027",
+  "nameEn": "",
+  "nameJp": "本田 未央",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ポジティブパッション"
+  ],
+  "effectJp": "自分の場に［特徴：ポジティブパッション］が4枚以上ある場合、このキャラの発生エナジー+【黄】。",
+  "effectEn": "If you have 4 or more [Trait: Positive Passion] on your field, This character's generated energy +[Yellow].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-027.png?v8"
+ },
+ "IMC-1-028": {
+  "key": "IMC-1-028",
+  "numberJp": "UA55BT/IMC-1-028",
+  "nameEn": "",
+  "nameJp": "本田 未央",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ポジティブパッション"
+  ],
+  "effectJp": "【レイド】〈本田 未央〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手に1ダメージ）【登場時】以下から2つまで選ぶ。・自分の場の必要エナジーが3以下の［特徴：ポジティブパッション］を1枚手札に戻してもよい。そうした場合、自分の手札から必要エナジーを満たし消費APが1の〈日野 茜〉か〈高森 藍子〉を1枚まで自分の場にレストで登場させるかレイドさせる。・このキャラが自分の効果でレイドしていた場合、自分の場の［特徴：ポジティブパッション］を1枚まで選び、アクティブにする。",
+  "effectEn": "[Raid] Can Raid onto <本田 未央>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] Choose up to 2 of the following. You may return 1 [Trait: Positive Passion] on your field with required energy 3 or less to the owner's hand. If you do, Play up to 1 <日野 茜> or <高森 藍子> whose required energy you meet and with AP cost 1 from your hand to your field rested or Raid it. If this character Raided by your own effect, choose up to 1 [Trait: Positive Passion] on your field and set it to active.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-028.png?v8"
+ },
+ "IMC-1-029": {
+  "key": "IMC-1-029",
+  "numberJp": "UA55BT/IMC-1-029",
+  "nameEn": "",
+  "nameJp": "BEYOND THE STARLIGHT",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "BEYOND THE STARLIGHT"
+  ],
+  "effectJp": "このフィールドはアクティブで登場させる。【起動メイン】【手札を1枚場外に置く】自分の場のキャラを1枚まで選び、このターン中、『BP+1000』。この効果で【スペシャルトリガー】を持つカードを場外に置いていた場合、『BP+3000』に代わる。【起動メイン】【レストにする】自分の場のキャラが全て［特徴：BEYOND THE STARLIGHT］の場合のみ発動できる。BP7000以上の自分の場のキャラを1枚選び、このターン中、【インパクト（1）】を与える。",
+  "effectEn": "This Field is played active. [Activate: Main] [Put 1 card(s) from your hand into your Outside Area] Choose up to 1 character on your field, This turn, 『BP+1000』. If you put a card with [Special Trigger] into your Outside Area with this effect, it becomes “BP+3000” instead. [Activate: Main] [Rest this card] Can only activate if all characters on your field are [Trait: BEYOND THE STARLIGHT]. Choose 1 character on your field with BP 7000 or more, This turn, [Impact 1] is given.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-029.png?v8"
+ },
+ "IMC-1-030": {
+  "key": "IMC-1-030",
+  "numberJp": "UA55BT/IMC-1-030",
+  "nameEn": "",
+  "nameJp": "情熱ファンファンファーレ",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に［特徴：ポジティブパッション］が3枚以上ある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have 3 or more [Trait: Positive Passion] on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-030.png?v8"
+ },
+ "IMC-1-031": {
+  "key": "IMC-1-031",
+  "numberJp": "UA55BT/IMC-1-031",
+  "nameEn": "",
+  "nameJp": "千川 ちひろのサポート",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-031.png?v8"
+ },
+ "IMC-1-032": {
+  "key": "IMC-1-032",
+  "numberJp": "UA55BT/IMC-1-032",
+  "nameEn": "",
+  "nameJp": "DOKIDOKIリズム",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "カードを1枚引く。自分の場の［特徴：BEYOND THE STARLIGHT］を1枚まで選び、このターン中、BP+2000。この効果で〈城ヶ崎 莉嘉〉を選んだ場合、さらにこのターン中、【インパクト（1）】を与える。",
+  "effectEn": "Draw 1 card(s). Choose up to 1 [Trait: BEYOND THE STARLIGHT] on your field, it gets BP+2000 this turn. If you chose <城ヶ崎 莉嘉> with this effect, it also gains [Impact 1] this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-032.png?v8"
+ },
+ "IMC-1-033": {
+  "key": "IMC-1-033",
+  "numberJp": "UA55BT/IMC-1-033",
+  "nameEn": "",
+  "nameJp": "ミツボシ☆☆★",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から6枚見て、〈本田 未央〉と〈日野 茜〉と〈高森 藍子〉をそれぞれ1枚まで公開し手札に加える。残りを望む順で山札の下に置く。",
+  "effectEn": "Look at the top 6 card(s) of your deck, reveal up to 1 each of <本田 未央>, <日野 茜> and <高森 藍子> among them, and add them to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-033.png?v8"
+ },
+ "IMC-1-034": {
+  "key": "IMC-1-034",
+  "numberJp": "UA55BT/IMC-1-034",
+  "nameEn": "",
+  "nameJp": "千川 ちひろ",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【青】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Blue] and gains “At the end of the Main Phase, retire this character”",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-034.png?v8"
+ },
+ "IMC-1-035": {
+  "key": "IMC-1-035",
+  "numberJp": "UA55BT/IMC-1-035",
+  "nameEn": "",
+  "nameJp": "木村 夏樹",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ガールズ・イン・ザ・フロンティア"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-035.png?v8"
+ },
+ "IMC-1-036": {
+  "key": "IMC-1-036",
+  "numberJp": "UA55BT/IMC-1-036",
+  "nameEn": "",
+  "nameJp": "木村 夏樹",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ガールズ・イン・ザ・フロンティア"
+  ],
+  "effectJp": "【自分のターン中】このターン中に自分のキャラが自分の効果で登場している場合、このキャラはBP+1000。",
+  "effectEn": "[During Your Turn] If your character was played by your own effect this turn, this character gets BP+1000.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-036.png?v8"
+ },
+ "IMC-1-037": {
+  "key": "IMC-1-037",
+  "numberJp": "UA55BT/IMC-1-037",
+  "nameEn": "",
+  "nameJp": "木村 夏樹",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ガールズ・イン・ザ・フロンティア"
+  ],
+  "effectJp": "【登場時】このキャラが自分のキャラの効果で登場していた場合、カードを1枚引く。【アタック時】APを1支払ってもよい。そうした場合、このキャラはこのターン中、【インパクト（1）】を得る。",
+  "effectEn": "[On Play] If this character was played by your character's effect, draw 1 card(s). [When Attacking] You may pay 1 AP. If you do, This character, this turn, [Impact 1] is gained.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-037.png?v8"
+ },
+ "IMC-1-038": {
+  "key": "IMC-1-038",
+  "numberJp": "UA55BT/IMC-1-038",
+  "nameEn": "",
+  "nameJp": "小日向 美穂",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ガールズ・イン・ザ・フロンティア"
+  ],
+  "effectJp": "【退場時】カードを1枚引く。",
+  "effectEn": "[On Retire] Draw 1 card(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-038.png?v8"
+ },
+ "IMC-1-039": {
+  "key": "IMC-1-039",
+  "numberJp": "UA55BT/IMC-1-039",
+  "nameEn": "",
+  "nameJp": "小日向 美穂",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ガールズ・イン・ザ・フロンティア"
+  ],
+  "effectJp": "【自分のターン中】このターン中にこのキャラが自分の効果で〔登場しているか移動している〕場合、このキャラはBP+1000。【起動メイン】【エナジーLにある場合】【手札を1枚場外に置く】自分のフロントLに［特徴：ガールズ・イン・ザ・フロンティア］が3枚ある場合のみ発動できる。このキャラをフロントLに移動させる。このキャラはこのターン中、「このキャラのアタック終了時、このキャラをエナジーLに移動させる。」を得る。",
+  "effectEn": "[During Your Turn] If this character was played or moved by your own effect this turn, this character gets BP+1000. [Activate: Main] [While in Energy Line] [Put 1 card(s) from your hand into your Outside Area] Can only activate if you have exactly 3 [Trait: Girls in the Frontier] in your Front Line. Move this character to the Front Line. This character gains “At the end of this character's attack, move this character to the Energy Line” this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-039.png?v8"
+ },
+ "IMC-1-040": {
+  "key": "IMC-1-040",
+  "numberJp": "UA55BT/IMC-1-040",
+  "nameEn": "",
+  "nameJp": "渋谷 凛",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ガールズ・イン・ザ・フロンティア"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-040.png?v8"
+ },
+ "IMC-1-041": {
+  "key": "IMC-1-041",
+  "numberJp": "UA55BT/IMC-1-041",
+  "nameEn": "",
+  "nameJp": "渋谷 凛",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ガールズ・イン・ザ・フロンティア"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：ガールズ・イン・ザ・フロンティア］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: Girls in the Frontier] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-041.png?v8"
+ },
+ "IMC-1-042": {
+  "key": "IMC-1-042",
+  "numberJp": "UA55BT/IMC-1-042",
+  "nameEn": "",
+  "nameJp": "渋谷 凛",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ガールズ・イン・ザ・フロンティア"
+  ],
+  "effectJp": "【登場時】自分の手札から必要エナジーが2以下の青の［特徴：ガールズ・イン・ザ・フロンティア］を1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[On Play] Play up to 1 Blue [Trait: Girls in the Frontier] with required energy 2 or less from your hand to your field rested.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-042.png?v8"
+ },
+ "IMC-1-043": {
+  "key": "IMC-1-043",
+  "numberJp": "UA55BT/IMC-1-043",
+  "nameEn": "",
+  "nameJp": "渋谷 凛",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ガールズ・イン・ザ・フロンティア"
+  ],
+  "effectJp": "【レイド】〈渋谷 凛〉アクティブにし、フロントLに移動できる【退場時】このキャラのレイド元のカードを1枚まで手札に戻す。【アタック時】自分の場のキャラを1枚自分の山札の下に置いてもよい。そうした場合、自分の山札の上から3枚見て、青の［特徴：ガールズ・イン・ザ・フロンティア］を1枚まで自分の場にレストで登場させる。残りを望む順で山札の下に置く。その後、自分の手札を1枚場外に置いてもよい。そうした場合、登場させたキャラをアクティブにする。",
+  "effectEn": "[Raid] Can Raid onto <渋谷 凛>; set it to active and you may move it to the Front Line. [On Retire] Return up to 1 of this character's Raid source cards to your hand. [When Attacking] You may put 1 character on your field on the bottom of your deck. If you do, look at the top 3 card(s) of your deck and play up to 1 blue [Trait: Girls in the Frontier] among them to your field rested. Put the rest on the bottom of your deck in any order. Then, You may put 1 card(s) from your hand into your Outside Area. If you do, set the played character to active.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-043.png?v8"
+ },
+ "IMC-1-044": {
+  "key": "IMC-1-044",
+  "numberJp": "UA55BT/IMC-1-044",
+  "nameEn": "",
+  "nameJp": "早坂 美玲",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ガールズ・イン・ザ・フロンティア"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-044.png?v8"
+ },
+ "IMC-1-045": {
+  "key": "IMC-1-045",
+  "numberJp": "UA55BT/IMC-1-045",
+  "nameEn": "",
+  "nameJp": "早坂 美玲",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ガールズ・イン・ザ・フロンティア"
+  ],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【青】。",
+  "effectEn": "While this character is active, its generated energy +[Blue].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-045.png?v8"
+ },
+ "IMC-1-046": {
+  "key": "IMC-1-046",
+  "numberJp": "UA55BT/IMC-1-046",
+  "nameEn": "",
+  "nameJp": "早坂 美玲",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ガールズ・イン・ザ・フロンティア"
+  ],
+  "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【青×2】減らす。【登場時】自分の場の［特徴：ガールズ・イン・ザ・フロンティア］を1枚まで選び、このターン中、「このキャラはBP4000以上のキャラにブロックされない。」を与える。",
+  "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Blue x2]is reduced. [On Play] Choose up to 1 [Trait: Girls in the Frontier] on your field, it gains “This character cannot be blocked by characters with BP 4000 or more” this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-046.png?v8"
+ },
+ "IMC-1-047": {
+  "key": "IMC-1-047",
+  "numberJp": "UA55BT/IMC-1-047",
+  "nameEn": "",
+  "nameJp": "一ノ瀬 志希",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "LiPPS"
+  ],
+  "effectJp": "【登場時】自分の山札の上から2枚見て、［特徴：LiPPS］を1枚まで場外に置く。残りを望む順で山札の上に置く。",
+  "effectEn": "[On Play] Look at the top 2 card(s) of your deck, and put up to 1 [Trait: LiPPS] among them into your Outside Area. Put the rest on top of your deck in any order.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-047.png?v8"
+ },
+ "IMC-1-048": {
+  "key": "IMC-1-048",
+  "numberJp": "UA55BT/IMC-1-048",
+  "nameEn": "",
+  "nameJp": "一ノ瀬 志希",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "LiPPS"
+  ],
+  "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【青×2】減らす。【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Blue x2]is reduced. [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-048.png?v8"
+ },
+ "IMC-1-049": {
+  "key": "IMC-1-049",
+  "numberJp": "UA55BT/IMC-1-049",
+  "nameEn": "",
+  "nameJp": "一ノ瀬 志希",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "LiPPS"
+  ],
+  "effectJp": "【レイド】〈一ノ瀬 志希〉アクティブにし、フロントLに移動できる【登場時】BP2500以下かBP4500以上の相手のフロントLのキャラを1枚まで選び、手札に戻す。【アタック時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[Raid] Can Raid onto <一ノ瀬 志希>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line with BP 2500 or less or BP 4500 or more, and return it to its owner's hand. [When Attacking] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-049.png?v8"
+ },
+ "IMC-1-050": {
+  "key": "IMC-1-050",
+  "numberJp": "UA55BT/IMC-1-050",
+  "nameEn": "",
+  "nameJp": "城ヶ崎 美嘉",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "LiPPS"
+  ],
+  "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）",
+  "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-050.png?v8"
+ },
+ "IMC-1-051": {
+  "key": "IMC-1-051",
+  "numberJp": "UA55BT/IMC-1-051",
+  "nameEn": "",
+  "nameJp": "城ヶ崎 美嘉",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "LiPPS"
+  ],
+  "effectJp": "【登場時】自分の場外から必要エナジーが2以下の［特徴：LiPPS］を1枚まで手札に加える。【起動メイン】【レストにする】【このカードを退場させる】相手の場にBP4500以上のキャラがある場合のみ発動できる。自分の場外から必要エナジーが2以下の青の［特徴：LiPPS］を1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[On Play] Add up to 1 [Trait: LiPPS] with required energy 2 or less from your Outside Area to your hand. [Activate: Main] [Rest this card] [Retire this card] Can only activate if your opponent has a character with BP 4500 or more on their field. Play up to 1 Blue [Trait: LiPPS] with required energy 2 or less from your Outside Area to your field rested.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP3500以下の相手のフロントLのキャラを1枚選び、手札に戻す。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 3500 or less, return it to its owner's hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-051.png?v8"
+ },
+ "IMC-1-052": {
+  "key": "IMC-1-052",
+  "numberJp": "UA55BT/IMC-1-052",
+  "nameEn": "",
+  "nameJp": "速水 奏",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "LiPPS"
+  ],
+  "effectJp": "【起動メイン】【レストにする】相手のフロントLのキャラか〈速水 奏〉以外の自分の場の［特徴：LiPPS］を1枚選び、このターン中、BP+500。",
+  "effectEn": "[Activate: Main] [Rest this card] Choose 1 character in your opponent's Front Line or [Trait: LiPPS] on your field other than <速水 奏>; it gets BP+500 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-052.png?v8"
+ },
+ "IMC-1-053": {
+  "key": "IMC-1-053",
+  "numberJp": "UA55BT/IMC-1-053",
+  "nameEn": "",
+  "nameJp": "速水 奏",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "LiPPS"
+  ],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-053.png?v8"
+ },
+ "IMC-1-054": {
+  "key": "IMC-1-054",
+  "numberJp": "UA55BT/IMC-1-054",
+  "nameEn": "",
+  "nameJp": "速水 奏",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "LiPPS"
+  ],
+  "effectJp": "このキャラはBP4500以上のキャラにブロックされない。【起動メイン】相手の場にBP4500以上のキャラがある場合のみ発動できる。このキャラをアクティブにする。〈速水 奏〉のこの効果は1ターンに1回のみ発動できる。【起動メイン】【フロントLにある場合】【ターン1】相手のフロントLのキャラか〈速水 奏〉以外の自分の場の［特徴：LiPPS］を1枚選び、このターン中、BP+500。",
+  "effectEn": "This character cannot be blocked by characters with BP 4500 or more. [Activate: Main] Can only activate if your opponent has a character with BP 4500 or more on their field. Set this character to active. This <速水 奏> effect can only activate 1 time(s) per 1 turn(s). [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 character in your opponent's Front Line or [Trait: LiPPS] on your field other than <速水 奏>; it gets BP+500 this turn.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-054.png?v8"
+ },
+ "IMC-1-055": {
+  "key": "IMC-1-055",
+  "numberJp": "UA55BT/IMC-1-055",
+  "nameEn": "",
+  "nameJp": "宮本 フレデリカ",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "LiPPS"
+  ],
+  "effectJp": "【起動メイン】【ターン1】相手の場にBP4500以上のキャラがある場合のみ発動できる。このキャラはこのターン中、BP+2000。",
+  "effectEn": "[Activate: Main] [Once Per Turn] Can only activate if your opponent has a character with BP 4500 or more on their field. This character gets BP+2000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-055.png?v8"
+ },
+ "IMC-1-056": {
+  "key": "IMC-1-056",
+  "numberJp": "UA55BT/IMC-1-056",
+  "nameEn": "",
+  "nameJp": "宮本 フレデリカ",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "LiPPS"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：LiPPS］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: LiPPS] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-056.png?v8"
+ },
+ "IMC-1-057": {
+  "key": "IMC-1-057",
+  "numberJp": "UA55BT/IMC-1-057",
+  "nameEn": "",
+  "nameJp": "宮本 フレデリカ",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "LiPPS"
+  ],
+  "effectJp": "【レイド】〈宮本 フレデリカ〉アクティブにし、フロントLに移動できる【ターン1】このキャラがアタックしてバトルに敗北した時、このキャラをアクティブにする。【登場時】自分の手札から必要エナジーが2以下の青の［特徴：LiPPS］を1枚まで自分の場にレストで登場させる。相手の場にBP4500以上のキャラがある場合、カードを1枚引く。",
+  "effectEn": "[Raid] Can Raid onto <宮本 フレデリカ>; set it to active and you may move it to the Front Line. [Once Per Turn] When this character attacks and loses a battle, set this character to active. [On Play] Play up to 1 Blue [Trait: LiPPS] with required energy 2 or less from your hand to your field rested. If your opponent has character with BP 4500 or more on their field, Draw 1 card(s).",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-057.png?v8"
+ },
+ "IMC-1-058": {
+  "key": "IMC-1-058",
+  "numberJp": "UA55BT/IMC-1-058",
+  "nameEn": "",
+  "nameJp": "塩見 周子",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "LiPPS",
+   "ガールズ・イン・ザ・フロンティア"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-058.png?v8"
+ },
+ "IMC-1-059": {
+  "key": "IMC-1-059",
+  "numberJp": "UA55BT/IMC-1-059",
+  "nameEn": "",
+  "nameJp": "塩見 周子",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "LiPPS",
+   "ガールズ・イン・ザ・フロンティア"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-059.png?v8"
+ },
+ "IMC-1-060": {
+  "key": "IMC-1-060",
+  "numberJp": "UA55BT/IMC-1-060",
+  "nameEn": "",
+  "nameJp": "塩見 周子",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "LiPPS",
+   "ガールズ・イン・ザ・フロンティア"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【起動メイン】【ターン1】相手の場にBP4500以上のキャラがある場合のみ発動できる。このキャラはこのターン中、BP+2000。",
+  "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [Activate: Main] [Once Per Turn] Can only activate if your opponent has a character with BP 4500 or more on their field. This character gets BP+2000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-060.png?v8"
+ },
+ "IMC-1-061": {
+  "key": "IMC-1-061",
+  "numberJp": "UA55BT/IMC-1-061",
+  "nameEn": "",
+  "nameJp": "塩見 周子",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "LiPPS",
+   "ガールズ・イン・ザ・フロンティア"
+  ],
+  "effectJp": "このキャラのアタックがブロックされなかった時、カードを1枚まで引く。【登場時】このキャラをアクティブにする。自分のAPカードを1枚アクティブにしてもよい。そうした場合、このキャラはこのターン中、「アタックフェイズ終了時、このキャラを手札に戻す。」を得る。",
+  "effectEn": "When this character's attack is not blocked, draw up to 1 card(s). [On Play] Set this character to active. You may set 1 of your AP cards to active. If you do, this character gains “At the end of the Attack Phase, return this character to your hand” this turn.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP3500以下の相手のフロントLのキャラを1枚選び、手札に戻す。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 3500 or less, return it to its owner's hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-061.png?v8"
+ },
+ "IMC-1-062": {
+  "key": "IMC-1-062",
+  "numberJp": "UA55BT/IMC-1-062",
+  "nameEn": "",
+  "nameJp": "ガールズ・イン・ザ・フロンティア",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に［特徴：ガールズ・イン・ザ・フロンティア］が3枚以上ある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have 3 or more [Trait: Girls in the Frontier] on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-062.png?v8"
+ },
+ "IMC-1-063": {
+  "key": "IMC-1-063",
+  "numberJp": "UA55BT/IMC-1-063",
+  "nameEn": "",
+  "nameJp": "千川 ちひろのサポート",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-063.png?v8"
+ },
+ "IMC-1-064": {
+  "key": "IMC-1-064",
+  "numberJp": "UA55BT/IMC-1-064",
+  "nameEn": "",
+  "nameJp": "Tulip",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "BP5000以下の相手のフロントLのキャラを1枚選び、『手札に戻す』。自分の場に［特徴：LiPPS］が3枚以上ある場合、『退場させる』に代えてもよい。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 5000 or less, “return it to its owner's hand” If you have 3 or more [Trait: LiPPS] on your field, you may instead make it “retire it”",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-064.png?v8"
+ },
+ "IMC-1-065": {
+  "key": "IMC-1-065",
+  "numberJp": "UA55BT/IMC-1-065",
+  "nameEn": "",
+  "nameJp": "Never say never",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から3枚見て、青の［特徴：ガールズ・イン・ザ・フロンティア］を1枚まで自分の場にレストで登場させるかレイドさせる。残りを望む順で山札の下に置く。",
+  "effectEn": "Look at the top 3 card(s) of your deck and play up to 1 blue [Trait: Girls in the Frontier] among them to your field rested, or Raid it. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-065.png?v8"
+ },
+ "IMC-1-066": {
+  "key": "IMC-1-066",
+  "numberJp": "UA55BT/IMC-1-066",
+  "nameEn": "",
+  "nameJp": "Hotel Moonside",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "カードを2枚引く。相手の場にBP4500以上のキャラがある場合、さらにカードを1枚引く。",
+  "effectEn": "Draw 2 card(s). If your opponent has a character with BP 4500 or more on their field, draw 1 more card(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-066.png?v8"
+ },
+ "IMC-1-067": {
+  "key": "IMC-1-067",
+  "numberJp": "UA55BT/IMC-1-067",
+  "nameEn": "",
+  "nameJp": "千川 ちひろ",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【赤】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Red] and gains “At the end of the Main Phase, retire this character”",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-067.png?v8"
+ },
+ "IMC-1-068": {
+  "key": "IMC-1-068",
+  "numberJp": "UA55BT/IMC-1-068",
+  "nameEn": "",
+  "nameJp": "神崎 蘭子",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "お願い！シンデレラ"
+  ],
+  "effectJp": "【登場時】以下から1つまで選ぶ。・自分の場の他のキャラを1枚退場させてもよい。そうした場合、カードを2枚引き、自分の手札から必要エナジーが3以下で消費APが1の赤の［特徴：お願い！シンデレラ］を2枚まで自分の場にレストで登場させる。・自分の場と場外に［特徴：お願い！シンデレラ］のカード名が合計9種類以上ある場合、BP5000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
+  "effectEn": "[On Play] Choose up to 1 of the following. You may retire 1 other character on your field. If you do, draw 2 card(s), and play up to 2 red [Trait: Onegai! Cinderella] with required energy 3 or less and AP cost 1 from your hand to your field rested. If you have a total of 9 or more different card names among [Trait: Onegai! Cinderella] on your field and in your Outside Area, choose up to 1 character in your opponent's Front Line with BP 5000 or less and retire it.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-068.png?v8"
+ },
+ "IMC-1-069": {
+  "key": "IMC-1-069",
+  "numberJp": "UA55BT/IMC-1-069",
+  "nameEn": "",
+  "nameJp": "小日向 美穂",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "お願い！シンデレラ"
+  ],
+  "effectJp": "【登場時】『カードを1枚引き、自分の手札を1枚場外に置く』。自分の場と場外に［特徴：お願い！シンデレラ］のカード名が合計6種類以上ある場合、『カードを1枚引く』に代わる。",
+  "effectEn": "[On Play] “Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area” If you have a total of 6 or more different card names among [Trait: Onegai! Cinderella] on your field and in your Outside Area, it becomes “Draw 1 card(s)” instead.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-069.png?v8"
+ },
+ "IMC-1-070": {
+  "key": "IMC-1-070",
+  "numberJp": "UA55BT/IMC-1-070",
+  "nameEn": "",
+  "nameJp": "城ヶ崎 美嘉",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "お願い！シンデレラ"
+  ],
+  "effectJp": "自分の場と場外に［特徴：お願い！シンデレラ］のカード名が合計6種類以上ある場合、このキャラはBP+1000。",
+  "effectEn": "If you have a total of 6 or more different card names among [Trait: Onegai! Cinderella] on your field and in your Outside Area, this character gets BP+1000.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-070.png?v8"
+ },
+ "IMC-1-071": {
+  "key": "IMC-1-071",
+  "numberJp": "UA55BT/IMC-1-071",
+  "nameEn": "",
+  "nameJp": "城ヶ崎 莉嘉",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "お願い！シンデレラ"
+  ],
+  "effectJp": "【自分のターン中】自分の場と場外に［特徴：お願い！シンデレラ］のカード名が合計6種類以上ある場合、このキャラはBP+1500。",
+  "effectEn": "[During Your Turn] If you have a total of 6 or more different card names among [Trait: Onegai! Cinderella] on your field and in your Outside Area, this character gets BP+1500.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-071.png?v8"
+ },
+ "IMC-1-072": {
+  "key": "IMC-1-072",
+  "numberJp": "UA55BT/IMC-1-072",
+  "nameEn": "",
+  "nameJp": "多田 李衣菜",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "お願い！シンデレラ"
+  ],
+  "effectJp": "このキャラがアタックしてバトルに勝利した時、自分の場と場外に［特徴：お願い！シンデレラ］のカード名が合計9種類以上ある場合、カードを1枚まで引く。【登場時】自分の手札の［特徴：お願い！シンデレラ］を1枚場外に置いてもよい。そうした場合、このキャラをアクティブにする。",
+  "effectEn": "When this character attacks and wins a battle, if you have a total of 9 or more different card names among [Trait: Onegai! Cinderella] on your field and in your Outside Area, draw up to 1 card(s). [On Play] You may put 1 [Trait: Onegai! Cinderella] in your hand into the Outside Area. If you do, Set this character to active.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-072.png?v8"
+ },
+ "IMC-1-073": {
+  "key": "IMC-1-073",
+  "numberJp": "UA55BT/IMC-1-073",
+  "nameEn": "",
+  "nameJp": "双葉 杏",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "お願い！シンデレラ"
+  ],
+  "effectJp": "このカードはフロントLに登場できず、フロントLに移動できない。【登場時】『カードを1枚引く』。自分の場と場外に［特徴：お願い！シンデレラ］のカード名が合計9種類以上ある場合、『自分の山札の上から2枚見て、1枚まで手札に加え、残りを場外に置く。』に代わる。",
+  "effectEn": "This card cannot be played to the Front Line and cannot move to the Front Line. [On Play] “Draw 1 card(s)” If you have a total of 9 or more different card names among [Trait: Onegai! Cinderella] on your field and in your Outside Area, it becomes “Look at the top 2 card(s) of your deck, add up to 1 to your hand, and put the rest into your Outside Area” instead.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-073.png?v8"
+ },
+ "IMC-1-074": {
+  "key": "IMC-1-074",
+  "numberJp": "UA55BT/IMC-1-074",
+  "nameEn": "",
+  "nameJp": "三村 かな子",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "お願い！シンデレラ"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【アタック時】自分の場と場外に［特徴：お願い！シンデレラ］のカード名が合計9種類以上ある場合、自分の場のキャラを2枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [When Attacking] If you have a total of 9 or more different card names among [Trait: Onegai! Cinderella] on your field and in your Outside Area, choose up to 2 character on your field; it gets BP+1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-074.png?v8"
+ },
+ "IMC-1-075": {
+  "key": "IMC-1-075",
+  "numberJp": "UA55BT/IMC-1-075",
+  "nameEn": "",
+  "nameJp": "諸星 きらり",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "お願い！シンデレラ"
+  ],
+  "effectJp": "【自分のターン中】自分の場と場外に［特徴：お願い！シンデレラ］のカード名が合計6種類以上ある場合、このキャラはBP+1000。【登場時】必要エナジーが1以下の自分の場の［特徴：お願い！シンデレラ］を1枚手札に戻してもよい。そうした場合、自分の手札から必要エナジーが1以下の赤の［特徴：お願い！シンデレラ］を1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[During Your Turn] If you have a total of 6 or more different card names among [Trait: Onegai! Cinderella] on your field and in your Outside Area, this character gets BP+1000. [On Play] You may return 1 [Trait: Onegai! Cinderella] on your field with required energy 1 or less to the owner's hand. If you do, Play up to 1 Red [Trait: Onegai! Cinderella] with required energy 1 or less from your hand to your field rested.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-075.png?v8"
+ },
+ "IMC-1-076": {
+  "key": "IMC-1-076",
+  "numberJp": "UA55BT/IMC-1-076",
+  "nameEn": "",
+  "nameJp": "アナスタシア",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "Starry-Go-Round"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：Starry-Go-Round］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: Starry-Go-Round] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-076.png?v8"
+ },
+ "IMC-1-077": {
+  "key": "IMC-1-077",
+  "numberJp": "UA55BT/IMC-1-077",
+  "nameEn": "",
+  "nameJp": "アナスタシア",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "Starry-Go-Round"
+  ],
+  "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【赤×2】減らす。【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Red x2]is reduced. [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-077.png?v8"
+ },
+ "IMC-1-078": {
+  "key": "IMC-1-078",
+  "numberJp": "UA55BT/IMC-1-078",
+  "nameEn": "",
+  "nameJp": "アナスタシア",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "Starry-Go-Round"
+  ],
+  "effectJp": "【レイド】〈アナスタシア〉アクティブにし、フロントLに移動できる【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【登場時】自分の山札の上から6枚見て、必要エナジーが2の赤の［特徴：Starry-Go-Round］を1枚まで自分の場にレストで登場させる。残りを望む順で山札の下に置く。",
+  "effectEn": "[Raid] Can Raid onto <アナスタシア>; set it to active and you may move it to the Front Line. [Impact Nullify] (The character that battles this character loses Impact during this battle) [On Play] Look at the top 6 card(s) of your deck and play up to 1 red [Trait: Starry-Go-Round] with required energy 2 among them to your field rested. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-078.png?v8"
+ },
+ "IMC-1-079": {
+  "key": "IMC-1-079",
+  "numberJp": "UA55BT/IMC-1-079",
+  "nameEn": "",
+  "nameJp": "大槻 唯",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "Starry-Go-Round"
+  ],
+  "effectJp": "【登場時】自分の手札から必要エナジーが2以下の赤の［特徴：Starry-Go-Round］を1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[On Play] Play up to 1 Red [Trait: Starry-Go-Round] with required energy 2 or less from your hand to your field rested.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-079.png?v8"
+ },
+ "IMC-1-080": {
+  "key": "IMC-1-080",
+  "numberJp": "UA55BT/IMC-1-080",
+  "nameEn": "",
+  "nameJp": "大槻 唯",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "Starry-Go-Round"
+  ],
+  "effectJp": "【登場時】【エナジーLにある場合】自分の場に必要エナジーが2の［特徴：Starry-Go-Round］が3枚以上ある場合、このキャラをアクティブにする。【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] [While in Energy Line] If you have 3 or more [Trait: Starry-Go-Round] with required energy 2 on your field, set this character to active. [Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-080.png?v8"
+ },
+ "IMC-1-081": {
+  "key": "IMC-1-081",
+  "numberJp": "UA55BT/IMC-1-081",
+  "nameEn": "",
+  "nameJp": "二宮 飛鳥",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "Starry-Go-Round"
+  ],
+  "effectJp": "自分の場に必要エナジーが2の［特徴：Starry-Go-Round］が3枚以上ある場合、このキャラはBP+1500。",
+  "effectEn": "If you have 3 or more [Trait: Starry-Go-Round] with required energy 2 on your field, this character gets BP+1500.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-081.png?v8"
+ },
+ "IMC-1-082": {
+  "key": "IMC-1-082",
+  "numberJp": "UA55BT/IMC-1-082",
+  "nameEn": "",
+  "nameJp": "二宮 飛鳥",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "Starry-Go-Round"
+  ],
+  "effectJp": "自分の場に必要エナジーが2の［特徴：Starry-Go-Round］が3枚以上ある場合、このキャラの発生エナジー+【赤】。",
+  "effectEn": "If you have 3 or more [Trait: Starry-Go-Round] with required energy 2 on your field, this character's generated energy +[Red].",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP2500以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-082.png?v8"
+ },
+ "IMC-1-083": {
+  "key": "IMC-1-083",
+  "numberJp": "UA55BT/IMC-1-083",
+  "nameEn": "",
+  "nameJp": "姫川 友紀",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "Starry-Go-Round"
+  ],
+  "effectJp": "【自分のターン中】自分の場に必要エナジーが2の［特徴：Starry-Go-Round］が3枚以上ある場合、このキャラはBP+1000。",
+  "effectEn": "[During Your Turn] If you have 3 or more [Trait: Starry-Go-Round] with required energy 2 on your field, this character gets BP+1000.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-083.png?v8"
+ },
+ "IMC-1-084": {
+  "key": "IMC-1-084",
+  "numberJp": "UA55BT/IMC-1-084",
+  "nameEn": "",
+  "nameJp": "姫川 友紀",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "Starry-Go-Round"
+  ],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【自分のターン中】自分の場に必要エナジーが2の［特徴：Starry-Go-Round］が3枚以上ある場合、このキャラはBP+1500。",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [During Your Turn] If you have 3 or more [Trait: Starry-Go-Round] with required energy 2 on your field, this character gets BP+1500.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-084.png?v8"
+ },
+ "IMC-1-085": {
+  "key": "IMC-1-085",
+  "numberJp": "UA55BT/IMC-1-085",
+  "nameEn": "",
+  "nameJp": "前川 みく",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "Starry-Go-Round"
+  ],
+  "effectJp": "【登場時】自分の山札の上から2枚見て、［特徴：Starry-Go-Round］を1枚まで場外に置く。残りを望む順で自分の山札の上に置く。",
+  "effectEn": "[On Play] Look at the top 2 card(s) of your deck, and put up to 1 [Trait: Starry-Go-Round] among them into your Outside Area. Put the rest on top of your deck in any order.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-085.png?v8"
+ },
+ "IMC-1-086": {
+  "key": "IMC-1-086",
+  "numberJp": "UA55BT/IMC-1-086",
+  "nameEn": "",
+  "nameJp": "前川 みく",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "Starry-Go-Round"
+  ],
+  "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手に1ダメージ）",
+  "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-086.png?v8"
+ },
+ "IMC-1-087": {
+  "key": "IMC-1-087",
+  "numberJp": "UA55BT/IMC-1-087",
+  "nameEn": "",
+  "nameJp": "前川 みく",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "Starry-Go-Round"
+  ],
+  "effectJp": "【レイド】〈前川 みく〉アクティブにし、フロントLに移動できる【登場時】自分の場外から必要エナジーが2の［特徴：Starry-Go-Round］を『1枚』まで手札に加える。自分の場に必要エナジーが2の［特徴：Starry-Go-Round］が3枚以上ある場合、『2枚』に代わる。【アタック時】自分の場のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[Raid] Can Raid onto <前川 みく>; set it to active and you may move it to the Front Line. [On Play] Add up to “1” [Trait: Starry-Go-Round] with required energy 2 from your Outside Area to your hand. If you have 3 or more [Trait: Starry-Go-Round] with required energy 2 on your field, it becomes “2” instead. [When Attacking] Choose up to 1 character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-087.png?v8"
+ },
+ "IMC-1-088": {
+  "key": "IMC-1-088",
+  "numberJp": "UA55BT/IMC-1-088",
+  "nameEn": "",
+  "nameJp": "渋谷 凛",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "new generations",
+   "お願い！シンデレラ"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-088.png?v8"
+ },
+ "IMC-1-089": {
+  "key": "IMC-1-089",
+  "numberJp": "UA55BT/IMC-1-089",
+  "nameEn": "",
+  "nameJp": "渋谷 凛",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "new generations",
+   "お願い！シンデレラ"
+  ],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【登場時】自分の山札の上から1枚見て、山札の上か場外に置く。",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [On Play] Look at the top 1 card(s) of your deck, put them on top of your deck or into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-089.png?v8"
+ },
+ "IMC-1-090": {
+  "key": "IMC-1-090",
+  "numberJp": "UA55BT/IMC-1-090",
+  "nameEn": "",
+  "nameJp": "渋谷 凛",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "new generations",
+   "お願い！シンデレラ"
+  ],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
+  "effectEn": "While this character is active, its generated energy +[Red].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-090.png?v8"
+ },
+ "IMC-1-091": {
+  "key": "IMC-1-091",
+  "numberJp": "UA55BT/IMC-1-091",
+  "nameEn": "",
+  "nameJp": "島村 卯月",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "new generations",
+   "お願い！シンデレラ"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-091.png?v8"
+ },
+ "IMC-1-092": {
+  "key": "IMC-1-092",
+  "numberJp": "UA55BT/IMC-1-092",
+  "nameEn": "",
+  "nameJp": "島村 卯月",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "new generations",
+   "お願い！シンデレラ"
+  ],
+  "effectJp": "【登場時】自分の山札の上から1枚見て、山札の上か場外に置く。",
+  "effectEn": "[On Play] Look at the top 1 card(s) of your deck, put them on top of your deck or into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-092.png?v8"
+ },
+ "IMC-1-093": {
+  "key": "IMC-1-093",
+  "numberJp": "UA55BT/IMC-1-093",
+  "nameEn": "",
+  "nameJp": "島村 卯月",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "new generations",
+   "お願い！シンデレラ"
+  ],
+  "effectJp": "【登場時】自分の場と場外に［特徴：お願い！シンデレラ］のカード名が合計6種類以上ある場合、自分の場の［特徴：お願い！シンデレラ］を1枚まで選び、このターン中、BP+1000。合計9種類以上ある場合、さらにこのターン中、【インパクト（1）】を与える。",
+  "effectEn": "[On Play] If you have a total of 6 or more different card names among [Trait: Onegai! Cinderella] on your field and in your Outside Area, choose up to 1 [Trait: Onegai! Cinderella] on your field; it gets BP+1000 this turn. If there are a total of 9 or more different, it also gains [Impact 1] this turn.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP2500以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-093.png?v8"
+ },
+ "IMC-1-094": {
+  "key": "IMC-1-094",
+  "numberJp": "UA55BT/IMC-1-094",
+  "nameEn": "",
+  "nameJp": "島村 卯月",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "new generations",
+   "お願い！シンデレラ"
+  ],
+  "effectJp": "【レイド】〈島村 卯月〉アクティブにし、フロントLに移動できる【登場時】自分の山札の上から2枚見て、1枚まで手札に加え、残りを場外に置く。【アタック時】自分の手札を1枚場外に置いてもよい。そうした場合、このキャラのレイド元のカードを1枚自分の場にレストで登場させる。",
+  "effectEn": "[Raid] Can Raid onto <島村 卯月>; set it to active and you may move it to the Front Line. [On Play] Look at the top 2 card(s) of your deck, add up to 1 of them to your hand, and put the rest into your Outside Area. [When Attacking] You may put 1 card(s) from your hand into your Outside Area. If you do, play 1 of this character's Raid source cards to your field rested.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-094.png?v8"
+ },
+ "IMC-1-095": {
+  "key": "IMC-1-095",
+  "numberJp": "UA55BT/IMC-1-095",
+  "nameEn": "",
+  "nameJp": "本田 未央",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "new generations",
+   "お願い！シンデレラ"
+  ],
+  "effectJp": "【登場時】自分の山札の上から2枚見て、1枚まで場外に置き、残りを望む順で山札の上に置く。",
+  "effectEn": "[On Play] Look at the top 2 card(s) of your deck, Put up to 1 of them into your Outside Area, Put the rest on top of your deck in any order.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-095.png?v8"
+ },
+ "IMC-1-096": {
+  "key": "IMC-1-096",
+  "numberJp": "UA55BT/IMC-1-096",
+  "nameEn": "",
+  "nameJp": "本田 未央",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "new generations",
+   "お願い！シンデレラ"
+  ],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-096.png?v8"
+ },
+ "IMC-1-097": {
+  "key": "IMC-1-097",
+  "numberJp": "UA55BT/IMC-1-097",
+  "nameEn": "",
+  "nameJp": "本田 未央",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "-",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "new generations",
+   "お願い！シンデレラ"
+  ],
+  "effectJp": "このキャラはアタックできない。自分のアタックフェイズ開始時、APを1支払ってもよい。そうした場合、このキャラはこのターン中、元々の効果を全て失う。【相手のターン中】このキャラはBP-1000。",
+  "effectEn": "This character cannot attack. At the start of your Attack Phase, you may pay 1 AP. If you do, this character loses all original effects this turn. [During Opponent's Turn] This character BP-1000.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-097.png?v8"
+ },
+ "IMC-1-098": {
+  "key": "IMC-1-098",
+  "numberJp": "UA55BT/IMC-1-098",
+  "nameEn": "",
+  "nameJp": "お願い！シンデレラ",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "カードを1枚引く。このターン中、次に手札から使用する［特徴：お願い！シンデレラ］の消費APを-1する。自分の場と場外に［特徴：お願い！シンデレラ］のカード名が合計6種類以上ある場合、このターン中、『次に自分の場に登場させる［特徴：お願い！シンデレラ］1枚』は、アクティブで登場させる。合計9種類以上ある場合、『自分の場に登場させる［特徴：お願い！シンデレラ］全て』に代わる。",
+  "effectEn": "Draw 1 card(s). This turn, the next [Trait: Onegai! Cinderella] you use from your hand costs 1 less AP. If you have a total of 6 or more different card names among [Trait: Onegai! Cinderella] on your field and in your Outside Area, this turn, “the next 1 [Trait: Onegai! Cinderella] played to your field” is played active. If there are a total of 9 or more different, it becomes “all [Trait: Onegai! Cinderella] played to your field” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-098.png?v8"
+ },
+ "IMC-1-099": {
+  "key": "IMC-1-099",
+  "numberJp": "UA55BT/IMC-1-099",
+  "nameEn": "",
+  "nameJp": "Starry-Go-Round",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP2000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に［特徴：Starry-Go-Round］が3枚以上ある場合、『BP5000以下』に代わる。自分の場に必要エナジーが2の［特徴：Starry-Go-Round］が4枚以上ある場合、自分の場のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 2000 or less, retire it. If you have 3 or more [Trait: Starry-Go-Round] on your field, it becomes “BP 5000 or less” instead. If you have 4 or more [Trait: Starry-Go-Round] with required energy 2 on your field, choose up to 1 character on your field; it gets BP+1000 this turn.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-099.png?v8"
+ },
+ "IMC-1-100": {
+  "key": "IMC-1-100",
+  "numberJp": "UA55BT/IMC-1-100",
+  "nameEn": "",
+  "nameJp": "千川 ちひろのサポート",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-100.png?v8"
+ },
+ "IMC-1-101": {
+  "key": "IMC-1-101",
+  "numberJp": "UA55ST/IMC-1-101",
+  "nameEn": "",
+  "nameJp": "渋谷 凛",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "new generations",
+   "お願い！シンデレラ"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【登場時】自分の場に元々のBPが4000の［特徴：new generations］が3枚以上ある場合、カードを1枚引く。",
+  "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [On Play] If you have 3 or more [Trait: new generations] with original BP 4000 on your field, draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55ST_IMC-1-101.png?v8"
+ },
+ "IMC-1-102": {
+  "key": "IMC-1-102",
+  "numberJp": "UA55ST/IMC-1-102",
+  "nameEn": "",
+  "nameJp": "渋谷 凛",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "new generations",
+   "お願い！シンデレラ"
+  ],
+  "effectJp": "【レイド】〈渋谷 凛〉アクティブにし、フロントLに移動できる【登場時】このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手に1ダメージ）を得る。自分の場の元々のBPが4000の他の［特徴：new generations］の枚数×1000以下のBPの相手のフロントLのキャラを1枚まで選び、退場させる。",
+  "effectEn": "[Raid] Can Raid onto <渋谷 凛>; set it to active and you may move it to the Front Line. [On Play] This character, this turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained. Choose up to 1 character in your opponent's Front Line with BP equal to or less than 1000 × the number of other [Trait: new generations] with original BP 4000 on your field, and retire it.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55ST_IMC-1-102.png?v8"
+ },
+ "IMC-1-103": {
+  "key": "IMC-1-103",
+  "numberJp": "UA55ST/IMC-1-103",
+  "nameEn": "",
+  "nameJp": "島村 卯月",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "new generations",
+   "お願い！シンデレラ"
+  ],
+  "effectJp": "【アタック時】自分のフロントLに元々のBPが4000の［特徴：new generations］が3枚以上ある場合、カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[When Attacking] If you have 3 or more [Trait: new generations] with original BP 4000 in your Front Line, draw 1 card(s) and put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55ST_IMC-1-103.png?v8"
+ },
+ "IMC-1-104": {
+  "key": "IMC-1-104",
+  "numberJp": "UA55ST/IMC-1-104",
+  "nameEn": "",
+  "nameJp": "島村 卯月",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "new generations",
+   "お願い！シンデレラ"
+  ],
+  "effectJp": "自分の場に〈渋谷 凛〉と〈本田 未央〉がある場合、手札にあるこのカードの消費APを-1する。",
+  "effectEn": "If you have <渋谷 凛> and <本田 未央> on your field, reduce the AP cost of this card in your hand by 1.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP2500以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55ST_IMC-1-104.png?v8"
+ },
+ "IMC-1-105": {
+  "key": "IMC-1-105",
+  "numberJp": "UA55ST/IMC-1-105",
+  "nameEn": "",
+  "nameJp": "本田 未央",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "new generations",
+   "お願い！シンデレラ"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：new generations］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: new generations] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55ST_IMC-1-105.png?v8"
+ },
+ "IMC-1-106": {
+  "key": "IMC-1-106",
+  "numberJp": "UA55ST/IMC-1-106",
+  "nameEn": "",
+  "nameJp": "本田 未央",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "new generations",
+   "お願い！シンデレラ"
+  ],
+  "effectJp": "【レイド】〈本田 未央〉アクティブにし、フロントLに移動できる【登場時】自分の山札の上から3枚見て、［特徴：new generations］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。自分の場に元々のBPが4000の［特徴：new generations］が4枚以上ある場合、自分の場の［特徴：new generations］を1枚まで選び、アクティブにする。",
+  "effectEn": "[Raid] Can Raid onto <本田 未央>; set it to active and you may move it to the Front Line. [On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: new generations] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you have 4 or more [Trait: new generations] with original BP 4000 on your field, choose up to 1 [Trait: new generations] on your field and set it to active.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55ST_IMC-1-106.png?v8"
+ },
+ "IMC-1-107": {
+  "key": "IMC-1-107",
+  "numberJp": "UA55ST/IMC-1-107",
+  "nameEn": "",
+  "nameJp": "事務所",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】カードを1枚引く。その後、自分の手札から必要エナジーが3以下で消費APが1の赤のキャラカードを1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Draw 1 card(s). Then, Play up to 1 Red character card with required energy 3 or less and with AP cost 1 from your hand to your field rested.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55ST_IMC-1-107.png?v8"
+ },
+ "IMC-1-108": {
+  "key": "IMC-1-108",
+  "numberJp": "UA55ST/IMC-1-108",
+  "nameEn": "",
+  "nameJp": "S（mile）ING!",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のフロントLのキャラ全ては、このターン中、BP+1000。カードを1枚引く。",
+  "effectEn": "All characters in your Front Line it gets BP+1000 this turn. Draw 1 card(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55ST_IMC-1-108.png?v8"
+ },
+ "IMC-1-109": {
+  "key": "IMC-1-109",
+  "numberJp": "UA55ST/IMC-1-109",
+  "nameEn": "",
+  "nameJp": "new generations",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場の［特徴：new generations］の枚数×1000以下のBPの相手のフロントLのキャラを1枚選び、退場させる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP equal to or less than 1000 × the number of [Trait: new generations] on your field, and retire it.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55ST_IMC-1-109.png?v8"
+ },
+ "IMC-1-110": {
+  "key": "IMC-1-110",
+  "numberJp": "UA55ST/IMC-1-110",
+  "nameEn": "",
+  "nameJp": "城ヶ崎 莉嘉",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "BEYOND THE STARLIGHT"
+  ],
+  "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】このキャラのBPが4000以上の場合のみ発動できる。以下から1つ選ぶ。・自分の場のキャラを1枚選び、このターン中、BP+1000。・BP3000以上の自分の場のキャラを1枚選び、このターン中、BP+2000。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if this character's BP is 4000 or more. Choose 1 of the following. Choose 1 character on your field, it gets BP+1000 this turn. Choose 1 character on your field with BP 3000 or more, it gets BP+2000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55ST_IMC-1-110.png?v8"
+ },
+ "IMC-1-111": {
+  "key": "IMC-1-111",
+  "numberJp": "UA55ST/IMC-1-111",
+  "nameEn": "",
+  "nameJp": "本田 未央",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ポジティブパッション"
+  ],
+  "effectJp": "【登場時】APを1支払ってもよい。そうした場合、自分の場外から【レイド】を持つ黄の［特徴：ポジティブパッション］を1枚自分の手札に加える。【アタック時】自分の場に【レイド】を持つ黄の［特徴：ポジティブパッション］がある場合、カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] You may pay 1 AP. If you do, add 1 yellow [Trait: Positive Passion] with [Raid] from your Outside Area to your hand. [When Attacking] If you have a yellow [Trait: Positive Passion] with [Raid] on your field, draw 1 card(s) and put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55ST_IMC-1-111.png?v8"
+ },
+ "IMC-1-112": {
+  "key": "IMC-1-112",
+  "numberJp": "UA55ST/IMC-1-112",
+  "nameEn": "",
+  "nameJp": "渋谷 凛",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ガールズ・イン・ザ・フロンティア"
+  ],
+  "effectJp": "【レイド】〈渋谷 凛〉アクティブにし、フロントLに移動できる【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【登場時】自分の場のキャラを1枚自分の山札の下に置いてもよい。そうした場合、自分の山札の上から3枚見て、その中から青の［特徴：ガールズ・イン・ザ・フロンティア］を1枚まで自分の場にレストで登場させ、1枚を手札に加え、残りを望む順で山札の下に置く。",
+  "effectEn": "[Raid] Can Raid onto <渋谷 凛>; set it to active and you may move it to the Front Line. [Impact Nullify] (The character that battles this character loses Impact during this battle) [On Play] You may put 1 character on your field on the bottom of your deck. If you do, look at the top 3 card(s) of your deck, play up to 1 blue [Trait: Girls in the Frontier] among them to your field rested, add 1 to your hand, and put the rest on the bottom of your deck in any order.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55ST_IMC-1-112.png?v8"
+ },
+ "IMC-1-113": {
+  "key": "IMC-1-113",
+  "numberJp": "UA55ST/IMC-1-113",
+  "nameEn": "",
+  "nameJp": "速水 奏",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "LiPPS"
+  ],
+  "effectJp": "自分の場に［特徴：LiPPS］が4枚以上ある場合、このキャラの発生エナジー+【青】。【登場時】相手のフロントLのキャラか〈速水 奏〉以外の自分の場の［特徴：LiPPS］を1枚まで選び、このターン中、BP+500。",
+  "effectEn": "If you have 4 or more [Trait: LiPPS] on your field, This character's generated energy +[Blue]. [On Play] Choose up to 1 character in your opponent's Front Line or [Trait: LiPPS] on your field other than <速水 奏>; it gets BP+500 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55ST_IMC-1-113.png?v8"
+ },
+ "IMC-1-AP01": {
+  "key": "IMC-1-AP01",
+  "numberJp": "UA55BT/IMC-1-AP01",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アイドルマスター シンデレラガールズ)",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-AP01.png?v8"
+ },
+ "IMC-1-AP02": {
+  "key": "IMC-1-AP02",
+  "numberJp": "UA55BT/IMC-1-AP02",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アイドルマスター シンデレラガールズ)",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-AP02.png?v8"
+ },
+ "IMC-1-AP03": {
+  "key": "IMC-1-AP03",
+  "numberJp": "UA55BT/IMC-1-AP03",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アイドルマスター シンデレラガールズ)",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-AP03.png?v8"
+ },
+ "IMC-1-AP04": {
+  "key": "IMC-1-AP04",
+  "numberJp": "UA55BT/IMC-1-AP04",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アイドルマスター シンデレラガールズ)",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-AP04.png?v8"
+ },
+ "IMC-1-AP05": {
+  "key": "IMC-1-AP05",
+  "numberJp": "UA55BT/IMC-1-AP05",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アイドルマスター シンデレラガールズ)",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-AP05.png?v8"
+ },
+ "IMC-1-AP06": {
+  "key": "IMC-1-AP06",
+  "numberJp": "UA55BT/IMC-1-AP06",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アイドルマスター シンデレラガールズ)",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-AP06.png?v8"
+ },
+ "IMC-1-AP07": {
+  "key": "IMC-1-AP07",
+  "numberJp": "UA55BT/IMC-1-AP07",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アイドルマスター シンデレラガールズ)",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-AP07.png?v8"
+ },
+ "IMC-1-AP08": {
+  "key": "IMC-1-AP08",
+  "numberJp": "UA55BT/IMC-1-AP08",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アイドルマスター シンデレラガールズ)",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-AP08.png?v8"
+ },
+ "IMC-1-AP09": {
+  "key": "IMC-1-AP09",
+  "numberJp": "UA55BT/IMC-1-AP09",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アイドルマスター シンデレラガールズ)",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-AP09.png?v8"
+ },
+ "IMC-1-AP10": {
+  "key": "IMC-1-AP10",
+  "numberJp": "UA55BT/IMC-1-AP10",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アイドルマスター シンデレラガールズ)",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-AP10.png?v8"
+ },
+ "IMC-1-AP11": {
+  "key": "IMC-1-AP11",
+  "numberJp": "UA55BT/IMC-1-AP11",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アイドルマスター シンデレラガールズ)",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-AP11.png?v8"
+ },
+ "IMC-1-AP12": {
+  "key": "IMC-1-AP12",
+  "numberJp": "UA55BT/IMC-1-AP12",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アイドルマスター シンデレラガールズ)",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-AP12.png?v8"
+ },
+ "IMC-1-AP13": {
+  "key": "IMC-1-AP13",
+  "numberJp": "UA55BT/IMC-1-AP13",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アイドルマスター シンデレラガールズ)",
+  "series": "アイドルマスター シンデレラガールズ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA55BT_IMC-1-AP13.png?v8"
+ }
+}

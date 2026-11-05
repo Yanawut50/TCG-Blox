@@ -1,0 +1,150 @@
+{
+ "KMR-P-001": {
+  "key": "KMR-P-001",
+  "numberJp": "UAPR/KMR-P-001",
+  "nameEn": "",
+  "nameJp": "仮面ライダー",
+  "series": "仮面ライダー",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red",
+   "Blue",
+   "Yellow",
+   "Green",
+   "Purple"
+  ],
+  "rarity": "PR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "このカードの色と必要エナジーは、全ての色として扱う。自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "This card's color and required energy are treated as all colors. Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_KMR-P-001.png?v9"
+ },
+ "KMR-P-002": {
+  "key": "KMR-P-002",
+  "numberJp": "UAPR/KMR-P-002",
+  "nameEn": "",
+  "nameJp": "仮面ライダー",
+  "series": "仮面ライダー",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red",
+   "Blue",
+   "Yellow",
+   "Green",
+   "Purple"
+  ],
+  "rarity": "PR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "このカードの色と必要エナジーは、全ての色として扱う。自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "This card's color and required energy are treated as all colors. Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_KMR-P-002.png?v9"
+ },
+ "KMR-P-003": {
+  "key": "KMR-P-003",
+  "numberJp": "UAPR/KMR-P-003",
+  "nameEn": "",
+  "nameJp": "仮面ライダーガヴ ポッピングミフォーム",
+  "series": "仮面ライダー",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PR",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から5枚見て、『〈ゴチゾウ〉』を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。〈ゴチゾウ〉を手札に加えた場合、自分の手札を1枚場外に置く。山札を見た後に、自分の場の〈ゴチゾウ〉を1枚退場させてもよい。そうした場合、『黄のキャラカード』に代わる。（〈ゴチゾウ〉の【退場時】はこの効果を処理した後に発動する）",
+  "effectEn": "[On Play] Look at the top 5 card(s) of your deck, reveal up to 1 “<ゴチゾウ>” among them, and add it to your hand. Put the rest on the bottom of your deck in any order. If you added <ゴチゾウ> to your hand, put 1 card(s) from your hand into your Outside Area. After looking at the deck, you may retire 1 <ゴチゾウ> on your field. If you do, it becomes “yellow character card” instead. (The [On Retire] of <ゴチゾウ> activates after this effect resolves)",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_KMR-P-003.png?v9"
+ },
+ "KMR-P-004": {
+  "key": "KMR-P-004",
+  "numberJp": "UAPR/KMR-P-004",
+  "nameEn": "",
+  "nameJp": "仮面ライダーディケイド",
+  "series": "仮面ライダー",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "PR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場の［特徴：リ・イマジネーション］を1枚手札に戻してもよい。そうした場合、このターン中、次に手札から使用する【レイド】を持たないカード名に「ディケイド」を含むキャラカードの消費APを-1する。",
+  "effectEn": "[On Play] You may return 1 [Trait: Re-Imagination] on your field to the owner's hand. If you do, this turn, reduce the AP cost of the next character card with “Decade” in its card name and without [Raid] you use from your hand by 1.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_KMR-P-004.png?v9"
+ },
+ "KMR-P-005": {
+  "key": "KMR-P-005",
+  "numberJp": "UAPR/KMR-P-005",
+  "nameEn": "",
+  "nameJp": "仮面ライダー龍騎",
+  "series": "仮面ライダー",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "PR",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場外からカード名に「サバイブ」を含むカードを1枚まで自分の山札の上に置く。【起動メイン】【フロントLにある場合】【ターン1】自分の場にカード名に「ナイト」を含むキャラがある場合、カードを1枚引く。自分の場にレイド状態の〈仮面ライダーナイトサバイブ〉がある場合、自分の手札から〈仮面ライダー龍騎サバイブ〉を1枚までこのキャラにレイドさせる。",
+  "effectEn": "[On Play] Put up to 1 card(s) with “Survive” in its card name from your Outside Area on top of your deck. [Activate: Main] [While in Front Line] [Once Per Turn] If you have a character with “Knight” in its card name on your field, draw 1 card(s). If you have a Raided <仮面ライダーナイトサバイブ> on your field, Raid up to 1 <仮面ライダー龍騎サバイブ> from your hand onto this character.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_KMR-P-005.png?v9"
+ }
+}

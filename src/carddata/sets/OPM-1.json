@@ -1,0 +1,3615 @@
+{
+ "OPM-1-001": {
+  "key": "OPM-1-001",
+  "numberJp": "UA35BT/OPM-1-001",
+  "nameEn": "Bomb",
+  "nameJp": "ボンブ",
+  "series": "ワンパンマン",
+  "setName": "UE06ST: One Punch Man Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-001.png?v8"
+ },
+ "OPM-1-002": {
+  "key": "OPM-1-002",
+  "numberJp": "UA35BT/OPM-1-002",
+  "nameEn": "Bomb",
+  "nameJp": "ボンブ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場の〈ボンブ〉か〈シルバーファング〉を1枚まで選び、このターン中、【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を与える。",
+  "effectEn": "[On Play] Choose up to 1 <Bomb> or <Silverfang> on your field, This turn, [Impact +1](Damage dealt by Impact is increased by 1; if it doesn't have Impact, [Impact 1])",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-002.png?v8"
+ },
+ "OPM-1-003": {
+  "key": "OPM-1-003",
+  "numberJp": "UA35BT/OPM-1-003",
+  "nameEn": "King",
+  "nameJp": "キング",
+  "series": "ワンパンマン",
+  "setName": "UE06ST: One Punch Man Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-003.png?v8"
+ },
+ "OPM-1-004": {
+  "key": "OPM-1-004",
+  "numberJp": "UA35BT/OPM-1-004",
+  "nameEn": "King",
+  "nameJp": "キング",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 5000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "このキャラはアタックもブロックもできない。自分のアタックフェイズ終了時、アクティブのこのキャラを自分の山札の下に置いてもよい。そうした場合、自分の場の〈サイタマ〉を1枚まで選び、アクティブにする。【起動メイン】【フロントLにある場合】【レストにする】【ターン1】BPがこのキャラのBPの半分以下の相手のフロントLのキャラを1枚選び、レストにする。それは次の1回アクティブにならない。",
+  "effectEn": "This character cannot attack or block. At the end of your Attack Phase, you may put this active character on the bottom of your deck. If you do, Choose up to 1 <Saitama> on your field, set it to active. [Activate: Main] [While in Front Line] [Rest this card] [Once Per Turn] Choose 1 character in your opponent's Front Line with BP half of this character's BP or less, and rest it. It does not become active the next 1 time(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-004.png?v8"
+ },
+ "OPM-1-005": {
+  "key": "OPM-1-005",
+  "numberJp": "UA35BT/OPM-1-005",
+  "nameEn": "Genos",
+  "nameJp": "ジェノス",
+  "series": "ワンパンマン",
+  "setName": "UE06ST: One Punch Man Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-005.png?v8"
+ },
+ "OPM-1-006": {
+  "key": "OPM-1-006",
+  "numberJp": "UA35BT/OPM-1-006",
+  "nameEn": "Genos",
+  "nameJp": "ジェノス",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【登場時】以下から1つ選ぶ。・自分の山札の上から5枚見る。その中から〈サイタマ〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。・自分の場に〈サイタマ〉がある場合、カードを1枚引く。",
+  "effectEn": "[On Play] Choose 1 of the following. Look at the top 5 card(s) of your deck. Reveal up to 1 <Saitama> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area. If you have <Saitama> on your field, Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-006.png?v8"
+ },
+ "OPM-1-007": {
+  "key": "OPM-1-007",
+  "numberJp": "UA35BT/OPM-1-007",
+  "nameEn": "Genos",
+  "nameJp": "ジェノス",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）自分の場に〈サイタマ〉がある場合、このキャラはBP+1000。【退場時】このキャラがバトルの敗北によって退場している場合、自分の場のキャラを1枚まで選び、アクティブにする。",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)If you have <Saitama> on your field, This character gets BP+1000. [On Retire] If this character was retired by losing a battle, choose up to 1 character on your field and set it to active.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】相手のフロントLのキャラを1枚選び、レストにする。それは次の1回アクティブにならない。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-007.png?v8"
+ },
+ "OPM-1-008": {
+  "key": "OPM-1-008",
+  "numberJp": "UA35BT/OPM-1-008",
+  "nameEn": "Silverfang",
+  "nameJp": "シルバーファング",
+  "series": "ワンパンマン",
+  "setName": "UE06ST: One Punch Man Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【起動メイン】【フロントLにある場合】自分の場の他のキャラを1枚手札に戻す。そうした場合、以下から1つ選ぶ。〈シルバーファング〉のこの効果は1ターンに1回のみ発動できる。・このキャラをアクティブにする。・このキャラはこのターン中、BP+1500。",
+  "effectEn": "[Activate: Main] [While in Front Line] Return to the owner's hand 1 other character on your field. If you do, Choose 1 of the following. This <Silverfang> effect can only activate 1 time(s) per 1 turn(s). Set this character to active. This character gets BP+1500 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-008.png?v8"
+ },
+ "OPM-1-009": {
+  "key": "OPM-1-009",
+  "numberJp": "UA35BT/OPM-1-009",
+  "nameEn": "Silverfang",
+  "nameJp": "シルバーファング",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-009.png?v8"
+ },
+ "OPM-1-010": {
+  "key": "OPM-1-010",
+  "numberJp": "UA35BT/OPM-1-010",
+  "nameEn": "Silverfang",
+  "nameJp": "シルバーファング",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【レイド】〈シルバーファング〉アクティブにし、フロントLに移動できる【登場時】自分の場のキャラを1枚まで選び、次の自分のターン開始時まで、「このキャラは相手のキャラの効果で選ばれない。」を与える。【アタック時】自分の手札が2枚以下の場合、カードを1枚まで引く。",
+  "effectEn": "[Raid] Can Raid onto <Silverfang>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character on your field; until the start of your next turn, it gains “This character cannot be chosen by your opponent's character effects” [When Attacking] If you have 2 or fewer cards in your hand, draw up to 1 card(s).",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-010.png?v8"
+ },
+ "OPM-1-011": {
+  "key": "OPM-1-011",
+  "numberJp": "UA35BT/OPM-1-011",
+  "nameEn": "Terrible Tornado",
+  "nameJp": "戦慄のタツマキ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-011.png?v8"
+ },
+ "OPM-1-012": {
+  "key": "OPM-1-012",
+  "numberJp": "UA35BT/OPM-1-012",
+  "nameEn": "Terrible Tornado",
+  "nameJp": "戦慄のタツマキ",
+  "series": "ワンパンマン",
+  "setName": "UE06ST: One Punch Man Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-012.png?v8"
+ },
+ "OPM-1-013": {
+  "key": "OPM-1-013",
+  "numberJp": "UA35BT/OPM-1-013",
+  "nameEn": "Terrible Tornado",
+  "nameJp": "戦慄のタツマキ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【自分のターン中】このターン中に自分がイベントカードを使用している場合、このキャラはBP+1000。",
+  "effectEn": "[During Your Turn] If you have used an Event card this turn, this character gets BP+1000.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-013.png?v8"
+ },
+ "OPM-1-014": {
+  "key": "OPM-1-014",
+  "numberJp": "UA35BT/OPM-1-014",
+  "nameEn": "Terrible Tornado",
+  "nameJp": "戦慄のタツマキ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【フロントLにある場合】自分の場の〈地獄のフブキ〉は、相手の〔キャラ・トリガー〕の効果で選ばれない。",
+  "effectEn": "[While in Front Line] <Hellish Blizzard> on your field, by your opponent's character. Cannot be chosen by Trigger effects.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-014.png?v8"
+ },
+ "OPM-1-015": {
+  "key": "OPM-1-015",
+  "numberJp": "UA35BT/OPM-1-015",
+  "nameEn": "Terrible Tornado",
+  "nameJp": "戦慄のタツマキ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【レイド】〈戦慄のタツマキ〉アクティブにし、フロントLに移動できる【自分のターン中】このターン中に自分がイベントカードを使用している場合、このキャラは【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。【起動メイン】【フロントLにある場合】このターン中、次に手札から使用するイベントカードの消費APを-1する。〈戦慄のタツマキ〉のこの効果は1ターンに1回のみ発動できる。",
+  "effectEn": "[Raid] Can Raid onto <Terrible Tornado>; set it to active and you may move it to the Front Line. [During Your Turn] If you have used an event card this turn, this character gains [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opposing player) [Activate: Main] [While in Front Line] This turn, the next Event card you use from your hand costs 1 less AP. This <Terrible Tornado> effect can only activate 1 time(s) per 1 turn(s).",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-015.png?v8"
+ },
+ "OPM-1-016": {
+  "key": "OPM-1-016",
+  "numberJp": "UA35BT/OPM-1-016",
+  "nameEn": "Mumen Rider",
+  "nameJp": "無免ライダー",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【黄】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Yellow] and gains “At the end of the Main Phase, retire this character”",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-016.png?v8"
+ },
+ "OPM-1-017": {
+  "key": "OPM-1-017",
+  "numberJp": "UA35BT/OPM-1-017",
+  "nameEn": "Saitama",
+  "nameJp": "サイタマ",
+  "series": "ワンパンマン",
+  "setName": "UE06ST: One Punch Man Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 10000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "このキャラは相手の効果で場を離れない。【フロントLにある場合】自分のアタックフェイズ終了時、このキャラをエナジーLに移動させる。【起動メイン】【手札を1枚場外に置く】自分のフロントLに空きがある場合のみ発動できる。このキャラをフロントLに移動させる。",
+  "effectEn": "This character cannot leave the field by your opponent's effects. [While in Front Line] At the end of your Attack Phase, move this character to the Energy Line. [Activate: Main] [Put 1 card(s) from your hand into your Outside Area] Can only activate if your Front Line has an open space. Move this character to the Front Line.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-017.png?v8"
+ },
+ "OPM-1-018": {
+  "key": "OPM-1-018",
+  "numberJp": "UA35BT/OPM-1-018",
+  "nameEn": "Saitama",
+  "nameJp": "サイタマ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 2,
+  "bp": 10000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "このキャラはアクティブで場に登場させる。このキャラは可能ならアタックしなければならない。【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）このキャラは相手の効果で場を離れない。【起動メイン】【ターン1】自分の手札の〈サイタマ〉を1枚場外に置く。そうした場合、このキャラはこのターン中、【インパクト（1）】を得る。【アタック時】このキャラは次の1回アクティブにならない。",
+  "effectEn": "This character is played active. This character must attack if able. [Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) This character cannot leave the field by your opponent's effects. [Activate: Main] [Once Per Turn] Put into the owner's outside area 1 <Saitama> in your hand. If you do, This character, this turn, [Impact 1] is gained. [When Attacking] This character it does not become active the next 1 time(s).",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-018.png?v8"
+ },
+ "OPM-1-019": {
+  "key": "OPM-1-019",
+  "numberJp": "UA35BT/OPM-1-019",
+  "nameEn": "Hellish Blizzard",
+  "nameJp": "地獄のフブキ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-019.png?v8"
+ },
+ "OPM-1-020": {
+  "key": "OPM-1-020",
+  "numberJp": "UA35BT/OPM-1-020",
+  "nameEn": "Hellish Blizzard",
+  "nameJp": "地獄のフブキ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中から必要エナジーが3以下の黄のカードを1枚まで公開し、『手札に加え、自分の手札を1枚場外に置く』。残りを望む順で自分の山札の下に置く。公開したカードがイベントカードの場合、『場外に置く』に代わる。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 yellow card with required energy 3 or less among them, and “add it to your hand, then put 1 card(s) from your hand into your Outside Area” Put the rest on the bottom of your deck in any order. If the revealed card is Event card, it becomes “put it into its owner's Outside Area” instead.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-020.png?v8"
+ },
+ "OPM-1-021": {
+  "key": "OPM-1-021",
+  "numberJp": "UA35BT/OPM-1-021",
+  "nameEn": "Hellish Blizzard",
+  "nameJp": "地獄のフブキ",
+  "series": "ワンパンマン",
+  "setName": "UE06ST: One Punch Man Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【黄】。",
+  "effectEn": "While this character is active, its generated energy +[Yellow].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-021.png?v8"
+ },
+ "OPM-1-022": {
+  "key": "OPM-1-022",
+  "numberJp": "UA35BT/OPM-1-022",
+  "nameEn": "Hellish Blizzard",
+  "nameJp": "地獄のフブキ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【自分のターン中】自分のフロントLに〈戦慄のタツマキ〉がある場合、このキャラはBP+1000。【登場時】自分の山札の上から4枚見る。その中からイベントカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[During Your Turn] If you have <Terrible Tornado> in your Front Line, This character gets BP+1000. [On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 Event card among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】相手のフロントLのキャラを1枚選び、レストにする。それは次の1回アクティブにならない。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-022.png?v8"
+ },
+ "OPM-1-023": {
+  "key": "OPM-1-023",
+  "numberJp": "UA35BT/OPM-1-023",
+  "nameEn": "Hellish Blizzard",
+  "nameJp": "地獄のフブキ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【レイド】〈地獄のフブキ〉アクティブにし、フロントLに移動できる【登場時】カードを2枚引く。【起動メイン】【フロントLにある場合】【手札を2枚場外に置く】【ターン1】以下から1つ選ぶ。・自分の場外から【スペシャルトリガー】を持たないイベントカードを1枚手札に加える。・自分の場のキャラ全ては、このターン中、BP+1000。",
+  "effectEn": "[Raid] Can Raid onto <Hellish Blizzard>; set it to active and you may move it to the Front Line. [On Play] Draw 2 card(s). [Activate: Main] [While in Front Line] [Put 2 card(s) from your hand into your Outside Area] [Once Per Turn] Choose 1 of the following. Add 1 event card(s) without [Special Trigger] from your Outside Area to your hand. All characters on your field it gets BP+1000 this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-023.png?v8"
+ },
+ "OPM-1-024": {
+  "key": "OPM-1-024",
+  "numberJp": "UA35BT/OPM-1-024",
+  "nameEn": "Eyelashes & Wild Monkey",
+  "nameJp": "マツゲ＆山猿",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "相手の場に緑か赤のカードがある場合、手札にあるこのカードの必要エナジーを【黄×1】減らす。",
+  "effectEn": "If your opponent has Green or Red card on their field, the required energy of this card in your hand [Yellow x1]is reduced.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-024.png?v8"
+ },
+ "OPM-1-025": {
+  "key": "OPM-1-025",
+  "numberJp": "UA35BT/OPM-1-025",
+  "nameEn": "The Blizzard Bunch",
+  "nameJp": "フブキ組",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Field",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】このターン中に自分がイベントカードを使用している場合のみ発動できる。自分の場のキャラ全ては、このターン中、BP+1000。",
+  "effectEn": "This Field is played active. [Activate: Main] [Rest this card] Can only activate if you have used an Event card this turn. All characters on your field it gets BP+1000 this turn.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-025.png?v8"
+ },
+ "OPM-1-026": {
+  "key": "OPM-1-026",
+  "numberJp": "UA35BT/OPM-1-026",
+  "nameEn": "Let's Go",
+  "nameJp": "行くわよ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のフロントLのキャラを1枚選び、このターン中、BP+2000。選んだキャラが〈地獄のフブキ〉の場合、さらにこのターン中、【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を与える。",
+  "effectEn": "Choose 1 character in your Front Line, it gets BP+2000 this turn. If the chosen character is <Hellish Blizzard>, it also gains [Impact +1] (Damage dealt by Impact is increased by 1; if it doesn't have Impact, it gains [Impact 1]) this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-026.png?v8"
+ },
+ "OPM-1-027": {
+  "key": "OPM-1-027",
+  "numberJp": "UA35BT/OPM-1-027",
+  "nameEn": "Esper Sisters",
+  "nameJp": "エスパー姉妹",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から7枚見る。その中から〈戦慄のタツマキ〉と〈地獄のフブキ〉をそれぞれ1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
+  "effectEn": "Look at the top 7 card(s) of your deck. Reveal up to 1 each of <Terrible Tornado> and <Hellish Blizzard> among them and add them to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-027.png?v8"
+ },
+ "OPM-1-028": {
+  "key": "OPM-1-028",
+  "numberJp": "UA35BT/OPM-1-028",
+  "nameEn": "Hellstorm",
+  "nameJp": "地獄嵐",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "相手のフロントLの〔レストのキャラかBP1500以下のキャラ〕を1枚選び、退場させる。",
+  "effectEn": "Choose 1 rested character or character with BP 1500 or less in your opponent's Front Line, and retire it.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-028.png?v8"
+ },
+ "OPM-1-029": {
+  "key": "OPM-1-029",
+  "numberJp": "UA35BT/OPM-1-029",
+  "nameEn": "Incineration Cannons",
+  "nameJp": "焼却",
+  "series": "ワンパンマン",
+  "setName": "UE06ST: One Punch Man Starter Deck",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈ジェノス〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Genos> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-029.png?v8"
+ },
+ "OPM-1-030": {
+  "key": "OPM-1-030",
+  "numberJp": "UA35BT/OPM-1-030",
+  "nameEn": "Whirling Wind Flowing Water Roaring Chi Rending Sky Fist",
+  "nameJp": "旋風流水轟気空裂拳",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "このカードを使用する際に、自分のフロントLのアクティブの〔〈シルバーファング〉と〈ボンブ〉〕をそれぞれ1枚レストにしないとこのカードは使用できない。BP4000以下の相手のフロントLのキャラを1枚まで選び、退場させる。カードを1枚引く。",
+  "effectEn": "To use this card, you must rest 1 each of active <Silverfang> and <Bomb> in your Front Line. Choose up to 1 character in your opponent's Front Line with BP 4000 or less, retire it. Draw 1 card(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-030.png?v8"
+ },
+ "OPM-1-031": {
+  "key": "OPM-1-031",
+  "numberJp": "UA35BT/OPM-1-031",
+  "nameEn": "Psychic Power",
+  "nameJp": "超能力",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP2000』以下の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈戦慄のタツマキ〉がある場合、自分の場外にあるイベントカード1枚につき、この効果で選べるキャラのBPの範囲+1000。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 2000 or less, retire it. If you have <Terrible Tornado> on your field, for each 1 Event card(s) in your Outside Area, the BP range of characters this effect can choose gets +1000.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-031.png?v8"
+ },
+ "OPM-1-032": {
+  "key": "OPM-1-032",
+  "numberJp": "UA35BT/OPM-1-032",
+  "nameEn": "Hero",
+  "nameJp": "ヒーロー",
+  "series": "ワンパンマン",
+  "setName": "UE06ST: One Punch Man Starter Deck",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-032.png?v8"
+ },
+ "OPM-1-033": {
+  "key": "OPM-1-033",
+  "numberJp": "UA35BT/OPM-1-033",
+  "nameEn": "I Merely Immobilized Them",
+  "nameJp": "身動き取れなくするしかないでしょ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "〈身動き取れなくするしかないでしょ〉は1ターンに1枚のみ使用できる。相手のフロントLのキャラを1枚選び、『レストにする』。自分のフロントLに〈戦慄のタツマキ〉と〈地獄のフブキ〉がどちらもある場合、『レストにする。それは次の1回アクティブにならない』に代わる。",
+  "effectEn": "Only 1 <I Merely Immobilized Them> can be used per 1 turn(s). Choose 1 character in your opponent's Front Line, “rest it” If you have both <Terrible Tornado> and <Hellish Blizzard> in your Front Line, “rest it. It becomes “it does not become active the next 1 time(s)” instead.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-033.png?v8"
+ },
+ "OPM-1-034": {
+  "key": "OPM-1-034",
+  "numberJp": "UA35BT/OPM-1-034",
+  "nameEn": "Suiryu",
+  "nameJp": "スイリュー",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-034.png?v8"
+ },
+ "OPM-1-035": {
+  "key": "OPM-1-035",
+  "numberJp": "UA35BT/OPM-1-035",
+  "nameEn": "Handsome Kamen Amai Mask",
+  "nameJp": "イケメン仮面アマイマスク",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-035.png?v8"
+ },
+ "OPM-1-036": {
+  "key": "OPM-1-036",
+  "numberJp": "UA35BT/OPM-1-036",
+  "nameEn": "Stinger",
+  "nameJp": "スティンガー",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【緑】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Green] and gains “At the end of the Main Phase, retire this character”",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-036.png?v8"
+ },
+ "OPM-1-037": {
+  "key": "OPM-1-037",
+  "numberJp": "UA35BT/OPM-1-037",
+  "nameEn": "Death Gatling",
+  "nameJp": "デスガトリング",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【退場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+500。",
+  "effectEn": "[On Retire] Choose up to 1 other character on your field, it gets BP+500 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-037.png?v8"
+ },
+ "OPM-1-038": {
+  "key": "OPM-1-038",
+  "numberJp": "UA35BT/OPM-1-038",
+  "nameEn": "Atomic Samurai",
+  "nameJp": "アトミック侍",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【登場時】『BP2000以下』の相手のフロントLのキャラを1枚まで選び、退場させる。自分の場に他の［特徴：ヒーロー］が6枚以上ある場合、『BP4000以下』に代わる。",
+  "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line with BP 2000 or less, retire it. If you have 6 or more other [Trait: Hero] on your field, it becomes “BP 4000 or less” instead.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-038.png?v8"
+ },
+ "OPM-1-039": {
+  "key": "OPM-1-039",
+  "numberJp": "UA35BT/OPM-1-039",
+  "nameEn": "King",
+  "nameJp": "キング",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【起動メイン】【APを1支払う】【ターン1】カードを1枚引く。",
+  "effectEn": "[Activate: Main] [Pay 1 AP] [Once Per Turn] Draw 1 card(s).",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-039.png?v8"
+ },
+ "OPM-1-040": {
+  "key": "OPM-1-040",
+  "numberJp": "UA35BT/OPM-1-040",
+  "nameEn": "King",
+  "nameJp": "キング",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【登場時】自分の山札の上から5枚見る。その中から〈キング〉か必要エナジーが6以上のカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 <King> or card with required energy 6 or more among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-040.png?v8"
+ },
+ "OPM-1-041": {
+  "key": "OPM-1-041",
+  "numberJp": "UA35BT/OPM-1-041",
+  "nameEn": "King",
+  "nameJp": "キング",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 5000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "このキャラはアタックもブロックもできない。【レイド】〈キング〉アクティブにし、フロントLに移動できるこのキャラはフロントLにある場合もエナジーを発生させる。【登場時】カードを1枚引く。その後、自分の手札の〈サイタマ〉を1枚場外に置いてもよい。そうした場合、相手のフロントLのキャラを1枚まで選び、退場させる。【起動メイン】【フロントLにある場合】【レストにする】自分の山札の上から3枚まで場外に置く。",
+  "effectEn": "This character cannot attack or block. [Raid] Can Raid onto <King>; set it to active and you may move it to the Front Line. This character also generates energy while in the Front Line. [On Play] Draw 1 card(s). Then, You may put 1 <Saitama> in your hand into the Outside Area. If you do, Choose up to 1 character in your opponent's Front Line, retire it. [Activate: Main] [While in Front Line] [Rest this card] Put up to the top 3 card(s) of your deck into your Outside Area.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-041.png?v8"
+ },
+ "OPM-1-042": {
+  "key": "OPM-1-042",
+  "numberJp": "UA35BT/OPM-1-042",
+  "nameEn": "Metal Bat",
+  "nameJp": "金属バット",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-042.png?v8"
+ },
+ "OPM-1-043": {
+  "key": "OPM-1-043",
+  "numberJp": "UA35BT/OPM-1-043",
+  "nameEn": "Metal Bat",
+  "nameJp": "金属バット",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の手札から必要エナジーが2以下で消費APが1の緑のキャラカードを1枚自分の場にアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Green character card with required energy 2 or less and with AP cost 1 from your hand to your field active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-043.png?v8"
+ },
+ "OPM-1-044": {
+  "key": "OPM-1-044",
+  "numberJp": "UA35BT/OPM-1-044",
+  "nameEn": "Metal Bat",
+  "nameJp": "金属バット",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【レイド】〈金属バット〉アクティブにし、フロントLに移動できる自分の場の他の［特徴：ヒーロー］の枚数により、このキャラは以下の効果を全て得る。・3枚以上：【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）・6枚以上：【退場時】自分の手札を1枚場外に置いてもよい。そうした場合、このカードを自分のフロントLにレストで登場させる。",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [Raid] Can Raid onto <Metal Bat>; set it to active and you may move it to the Front Line. Depending on the number of other [Trait: Hero] on your field, this character gains all of the following effects. 3 or more: [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) 6 or more: [On Retire]You may put 1 card(s) from your hand into your Outside Area. If you do, play this card to your Front Line rested.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-044.png?v8"
+ },
+ "OPM-1-045": {
+  "key": "OPM-1-045",
+  "numberJp": "UA35BT/OPM-1-045",
+  "nameEn": "Drive Knight",
+  "nameJp": "駆動騎士",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "相手の場に黄か赤のカードがある場合、手札にあるこのカードの必要エナジーを【緑×1】減らす。",
+  "effectEn": "If your opponent has Yellow or Red card on their field, the required energy of this card in your hand [Green x1]is reduced.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-045.png?v8"
+ },
+ "OPM-1-046": {
+  "key": "OPM-1-046",
+  "numberJp": "UA35BT/OPM-1-046",
+  "nameEn": "Genos",
+  "nameJp": "ジェノス",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-046.png?v8"
+ },
+ "OPM-1-047": {
+  "key": "OPM-1-047",
+  "numberJp": "UA35BT/OPM-1-047",
+  "nameEn": "Genos",
+  "nameJp": "ジェノス",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【自分のターン中】自分の手札にある全ての〈サイタマ〉の必要エナジーを【緑×1】減らす。",
+  "effectEn": "[During Your Turn] Reduce the required energy of all <Saitama> in your hand by [Green x1].",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-047.png?v8"
+ },
+ "OPM-1-048": {
+  "key": "OPM-1-048",
+  "numberJp": "UA35BT/OPM-1-048",
+  "nameEn": "Genos",
+  "nameJp": "ジェノス",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【レイド】〈ジェノス〉アクティブにし、フロントLに移動できる【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）このキャラがアタックしてバトルに勝利した時、カードを1枚引く。【退場時】このキャラのレイド元のカードを1枚まで手札に戻す。",
+  "effectEn": "[Raid] Can Raid onto <Genos>; set it to active and you may move it to the Front Line. [Double Block] (The first time this character blocks each turn, set it to active)When this character attacks and wins a battle, Draw 1 card(s). [On Retire] Return up to 1 of this character's Raid source cards to your hand.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-048.png?v8"
+ },
+ "OPM-1-049": {
+  "key": "OPM-1-049",
+  "numberJp": "UA35BT/OPM-1-049",
+  "nameEn": "Silverfang",
+  "nameJp": "シルバーファング",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 6,
+  "ap": 1,
+  "bp": 4500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【登場時】【アタック時】【ブロック時】自分の山札の上から1枚見る。そのカードを自分の山札の上か場外に置く。",
+  "effectEn": "[On Play] [When Attacking] [When Blocking] Look at the top 1 card(s) of your deck. Put that card on top of your deck or into your Outside Area.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の手札から必要エナジーが2以下で消費APが1の緑のキャラカードを1枚自分の場にアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Green character card with required energy 2 or less and with AP cost 1 from your hand to your field active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-049.png?v8"
+ },
+ "OPM-1-050": {
+  "key": "OPM-1-050",
+  "numberJp": "UA35BT/OPM-1-050",
+  "nameEn": "Flashy Flash",
+  "nameJp": "閃光のフラッシュ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "自分の場に他の［特徴：ヒーロー］が6枚以上ある場合、このキャラは「このキャラはBP3500以上のキャラにブロックされない。」を得る。",
+  "effectEn": "If you have 6 or more other [Trait: Hero] on your field, This character gains “This character cannot be blocked by characters with BP 3500 or more”",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-050.png?v8"
+ },
+ "OPM-1-051": {
+  "key": "OPM-1-051",
+  "numberJp": "UA35BT/OPM-1-051",
+  "nameEn": "Terrible Tornado (Release Event Participation)",
+  "nameJp": "戦慄のタツマキ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【登場時】自分の手札の［特徴：ヒーロー］を1枚場外に置いてもよい。そうした場合、このキャラをアクティブにする。",
+  "effectEn": "[On Play] You may put 1 [Trait: Hero] in your hand into the Outside Area. If you do, Set this character to active.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-051.png?v8"
+ },
+ "OPM-1-052": {
+  "key": "OPM-1-052",
+  "numberJp": "UA35BT/OPM-1-052",
+  "nameEn": "Zombieman",
+  "nameJp": "ゾンビマン",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【退場時】自分の手札を1枚リムーブエリアに置いてもよい。そうした場合、このカードを手札に加える。",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Retire] You may put 1 card(s) from your hand into the Remove Area. If you do, Add this card to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-052.png?v8"
+ },
+ "OPM-1-053": {
+  "key": "OPM-1-053",
+  "numberJp": "UA35BT/OPM-1-053",
+  "nameEn": "Tank-top Master",
+  "nameJp": "タンクトップマスター",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【緑】。",
+  "effectEn": "While this character is active, its generated energy +[Green].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-053.png?v8"
+ },
+ "OPM-1-054": {
+  "key": "OPM-1-054",
+  "numberJp": "UA35BT/OPM-1-054",
+  "nameEn": "Superalloy Blackluster",
+  "nameJp": "超合金クロビカリ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-054.png?v8"
+ },
+ "OPM-1-055": {
+  "key": "OPM-1-055",
+  "numberJp": "UA35BT/OPM-1-055",
+  "nameEn": "Child Emperor",
+  "nameJp": "童帝",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【登場時】自分の場に他の［特徴：ヒーロー］が3枚以上ある場合、以下から1つ選ぶ。・カードを1枚引く。・自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] If you have 3 or more other [Trait: Hero] on your field, Choose 1 of the following. Draw 1 card(s). Choose up to 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-055.png?v8"
+ },
+ "OPM-1-056": {
+  "key": "OPM-1-056",
+  "numberJp": "UA35BT/OPM-1-056",
+  "nameEn": "Watchdog Man",
+  "nameJp": "番犬マン",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "このキャラは移動できない。",
+  "effectEn": "This character cannot move.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-056.png?v8"
+ },
+ "OPM-1-057": {
+  "key": "OPM-1-057",
+  "numberJp": "UA35BT/OPM-1-057",
+  "nameEn": "Pig God",
+  "nameJp": "豚神",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【登場時】【フロントLにある場合】BP3000以下の相手のフロントLのキャラを1枚まで選び、退場させる。【退場時】相手はカードを1枚引く。",
+  "effectEn": "[On Play] [While in Front Line] Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it. [On Retire] Your opponent draws 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-057.png?v8"
+ },
+ "OPM-1-058": {
+  "key": "OPM-1-058",
+  "numberJp": "UA35BT/OPM-1-058",
+  "nameEn": "Puri-puri Prisoner",
+  "nameJp": "ぷりぷりプリズナー",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【自分のターン中】自分の手札が0枚の場合、このキャラはBP+2000。【起動メイン】【ターン1】自分の手札を全て場外に置く。",
+  "effectEn": "[During Your Turn] If you have exactly 0 cards in your hand, this character gets BP+2000. [Activate: Main] [Once Per Turn] Put all cards in your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-058.png?v8"
+ },
+ "OPM-1-059": {
+  "key": "OPM-1-059",
+  "numberJp": "UA35BT/OPM-1-059",
+  "nameEn": "Metal Knight",
+  "nameJp": "メタルナイト",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【登場時】自分の手札から必要エナジーが2以下で消費APが1の緑のキャラカードを1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[On Play] Play up to 1 Green character card with required energy 2 or less and with AP cost 1 from your hand to your field rested.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-059.png?v8"
+ },
+ "OPM-1-060": {
+  "key": "OPM-1-060",
+  "numberJp": "UA35BT/OPM-1-060",
+  "nameEn": "Mumen Rider",
+  "nameJp": "無免ライダー",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【退場時】このキャラがバトルの敗北によって退場している場合、自分の手札を1枚場外に置いてもよい。そうした場合、このカードを自分の場にレストで登場させる。",
+  "effectEn": "[On Retire] If this character was retired by losing a battle, you may put 1 card(s) from your hand into your Outside Area. If you do, play this card to your field rested.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-060.png?v8"
+ },
+ "OPM-1-061": {
+  "key": "OPM-1-061",
+  "numberJp": "UA35BT/OPM-1-061",
+  "nameEn": "Saitama",
+  "nameJp": "サイタマ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 15,
+  "ap": 1,
+  "bp": 10000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "自分の場外にあるカード5枚につき、手札にあるこのカードの必要エナジーを【緑×1】減らす。このカードが自分の効果で自分の山札から場外に置かれた時、カードを1枚まで引く。このキャラはアクティブで場に登場させる。【ダメージ（7）】（このキャラがアタックで直接ダメージを与える時、代わりに7ダメージ）このキャラは相手の効果で場を離れない。このキャラがブロックしたバトルの終了時、このキャラを手札に戻す。",
+  "effectEn": "For each 5 cards in your Outside Area, the required energy of this card in your hand [Green x1]is reduced. When this card is put from your deck into your Outside Area by your own effect, draw up to 1 card(s). This character is played active. [Damage 7] (When this character deals direct damage by attacking, deal 7 damage instead) This character cannot leave the field by your opponent's effects. At the end of a battle this character blocked, return this character to your hand.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-061.png?v8"
+ },
+ "OPM-1-062": {
+  "key": "OPM-1-062",
+  "numberJp": "UA35BT/OPM-1-062",
+  "nameEn": "Saitama",
+  "nameJp": "サイタマ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 15,
+  "ap": 2,
+  "bp": 10000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "自分の場外にあるカード5枚につき、手札にあるこのカードの必要エナジーを【緑×1】減らす。このキャラはアクティブで場に登場させる。【インパクト（3）】（アタックしてバトルに勝利した時、相手プレイヤーに3ダメージ）【ダメージ（7）】（このキャラがアタックで直接ダメージを与える時、代わりに7ダメージ）このキャラは相手の効果で場を離れない。【アタック時】相手のフロントLのキャラを1枚まで選び、退場させる。このキャラがブロックしたバトルの終了時、このキャラを手札に戻す。",
+  "effectEn": "For each 5 cards in your Outside Area, the required energy of this card in your hand [Green x1]is reduced. This character is played active. [Impact 3] (When this attacks and wins a battle, deal 3 damage to your opponent) [Damage 7] (When this character deals direct damage by attacking, deal 7 damage instead) This character cannot leave the field by your opponent's effects. [When Attacking] Choose up to 1 character in your opponent's Front Line, retire it. At the end of a battle this character blocked, return this character to your hand.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-062.png?v8"
+ },
+ "OPM-1-063": {
+  "key": "OPM-1-063",
+  "numberJp": "UA35BT/OPM-1-063",
+  "nameEn": "Hero Association",
+  "nameJp": "ヒーロー協会",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Field",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の手札から必要エナジーが3以下で消費APが1の緑のキャラカードを1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Play up to 1 Green character card with required energy 3 or less and with AP cost 1 from your hand to your field rested.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-063.png?v8"
+ },
+ "OPM-1-064": {
+  "key": "OPM-1-064",
+  "numberJp": "UA35BT/OPM-1-064",
+  "nameEn": "King Engine",
+  "nameJp": "キングエンジン",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場のキャラの最大BP以下の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈キング〉がある場合、自分の場のカードを1枚まで選び、このターン中、「このカードの発生エナジー+【緑】。」を与える。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP equal to or less than the highest BP among characters on your field, and retire it. If you have <King> on your field, choose up to 1 card on your field; it gains “This card's generated energy +[Green]” this turn.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-064.png?v8"
+ },
+ "OPM-1-065": {
+  "key": "OPM-1-065",
+  "numberJp": "UA35BT/OPM-1-065",
+  "nameEn": "It's About Me Taking You On Right Here, Right Now",
+  "nameJp": "立ち向かわなくちゃいけないんだ！",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-065.png?v8"
+ },
+ "OPM-1-066": {
+  "key": "OPM-1-066",
+  "numberJp": "UA35BT/OPM-1-066",
+  "nameEn": "Dragon Pummelin'",
+  "nameJp": "怒羅厳シバき",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈金属バット〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Metal Bat> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-066.png?v8"
+ },
+ "OPM-1-067": {
+  "key": "OPM-1-067",
+  "numberJp": "UA35BT/OPM-1-067",
+  "nameEn": "Serious Punch",
+  "nameJp": "マジ殴り",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 12,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場に〈サイタマ〉がない場合、このカードは使用できない。自分の場外にあるカード5枚につき、手札にあるこのカードの必要エナジーを【緑×1】減らす。相手のフロントLのキャラとエナジーLのキャラをそれぞれ1枚まで選び、退場させる。",
+  "effectEn": "If you have no <Saitama> on your field, this card cannot be used. For each 5 cards in your Outside Area, the required energy of this card in your hand [Green x1]is reduced. Choose up to 1 character each in your opponent's Front Line and Energy Line, and retire them.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-067.png?v8"
+ },
+ "OPM-1-068": {
+  "key": "OPM-1-068",
+  "numberJp": "UA35BT/OPM-1-068",
+  "nameEn": "Speed-o'-Sound Sonic",
+  "nameJp": "音速のソニック",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-068.png?v8"
+ },
+ "OPM-1-069": {
+  "key": "OPM-1-069",
+  "numberJp": "UA35BT/OPM-1-069",
+  "nameEn": "Speed-o'-Sound Sonic",
+  "nameJp": "音速のソニック",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【起動メイン】【ターン1】自分の場外にあるカードを3枚リムーブエリアに置く。そうした場合、このキャラはこのターン中、BP+1000。",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [Activate: Main] [Once Per Turn] Put into the owner's remove area 3 cards in your Outside Area. If you do, This character gets BP+1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-069.png?v8"
+ },
+ "OPM-1-070": {
+  "key": "OPM-1-070",
+  "numberJp": "UA35BT/OPM-1-070",
+  "nameEn": "Speed-o'-Sound Sonic",
+  "nameJp": "音速のソニック",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】自分と相手のライフの合計が4以下の場合、このキャラはBP+1000。【登場時】自分の場外にあるカードを3枚リムーブエリアに置いてもよい。そうした場合、カードを1枚引く。",
+  "effectEn": "[During Your Turn] If the total of your and your opponent's Life is 4 or less, this character gets BP+1000. [On Play] You may put 3 cards in your Outside Area into the Remove Area. If you do, Draw 1 card(s).",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP2500以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-070.png?v8"
+ },
+ "OPM-1-071": {
+  "key": "OPM-1-071",
+  "numberJp": "UA35BT/OPM-1-071",
+  "nameEn": "Speed-o'-Sound Sonic",
+  "nameJp": "音速のソニック",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈音速のソニック〉アクティブにし、フロントLに移動できるこのキャラのアタック終了時、自分の場外にあるカードが3枚以下で相手のフロントLに元々のBPが6000以上のキャラがない場合、自分のエナジーLの〈音速のソニック〉とこのキャラを入れ替えてもよい。【登場時】自分の場外にあるカードを3枚リムーブエリアに置いてもよい。そうした場合、カードを1枚引く。",
+  "effectEn": "[Raid] Can Raid onto <Speed-o'-Sound Sonic>; set it to active and you may move it to the Front Line. At the end of this character's attack, if you have 3 or fewer cards in your Outside Area and your opponent has no character with original BP 6000 or more in their Front Line, you may swap <Speed-o'-Sound Sonic> in your Energy Line with this character. [On Play] You may put 3 cards in your Outside Area into the Remove Area. If you do, Draw 1 card(s).",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-071.png?v8"
+ },
+ "OPM-1-072": {
+  "key": "OPM-1-072",
+  "numberJp": "UA35BT/OPM-1-072",
+  "nameEn": "Speed-o'-Sound Sonic",
+  "nameJp": "音速のソニック",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラはアクティブで場に登場させる。【登場時】自分の手札か場外から必要エナジーが2以下で消費APが1の赤の〈音速のソニック〉を1枚まで自分の場にレストで登場させる。",
+  "effectEn": "This character is played active. [On Play] Play up to 1 red <Speed-o'-Sound Sonic> with required energy 2 or less and AP cost 1 from your hand or Outside Area to your field rested.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-072.png?v8"
+ },
+ "OPM-1-073": {
+  "key": "OPM-1-073",
+  "numberJp": "UA35BT/OPM-1-073",
+  "nameEn": "Garou",
+  "nameJp": "ガロウ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-073.png?v8"
+ },
+ "OPM-1-074": {
+  "key": "OPM-1-074",
+  "numberJp": "UA35BT/OPM-1-074",
+  "nameEn": "Garou",
+  "nameJp": "ガロウ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】このキャラはBP+1000。",
+  "effectEn": "[During Your Turn] This character gets BP+1000.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-074.png?v8"
+ },
+ "OPM-1-075": {
+  "key": "OPM-1-075",
+  "numberJp": "UA35BT/OPM-1-075",
+  "nameEn": "Garou",
+  "nameJp": "ガロウ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から2枚まで場外に置く。",
+  "effectEn": "[On Play] Put up to the top 2 card(s) of your deck into your Outside Area.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP2500以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-075.png?v8"
+ },
+ "OPM-1-076": {
+  "key": "OPM-1-076",
+  "numberJp": "UA35BT/OPM-1-076",
+  "nameEn": "Garou",
+  "nameJp": "ガロウ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場外にあるカードの枚数により、このキャラは以下の効果を全て得る。・5枚以上：このキャラはBP+500。・10枚以上：このキャラはBP+500。・15枚以上：このキャラはBP+500。【登場時】APを1支払ってもよい。そうした場合、このキャラのBP以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
+  "effectEn": "Depending on the number of card in your Outside Area, this character gains all of the following effects. 5 or more: This character gets BP+500. 10 or more: This character gets BP+500. 15 or more: This character gets BP+500. [On Play] You may pay 1 AP. If you do, choose up to 1 character in your opponent's Front Line with BP equal to or less than this character's BP, and retire it.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-076.png?v8"
+ },
+ "OPM-1-077": {
+  "key": "OPM-1-077",
+  "numberJp": "UA35BT/OPM-1-077",
+  "nameEn": "Garou",
+  "nameJp": "ガロウ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 6,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈ガロウ〉アクティブにし、フロントLに移動できる自分の場外にあるカードの枚数により、このキャラは以下の効果を全て得る。・5枚以上：【アタック時】カードを1枚まで引く。・10枚以上：このキャラはBP+500と【インパクト（1）】・15枚以上：このキャラはBP+500と「【ターン1】このキャラがアタックしてブロックされなかった時、このキャラをアクティブにする。」",
+  "effectEn": "[Raid] Can Raid onto <Garou>; set it to active and you may move it to the Front Line. Depending on the number of card in your Outside Area, this character gains all of the following effects. 5 or more: [When Attacking]Draw up to 1 card(s). 10 or more: This character gets BP+500 and [Impact 1]. 15 or more: This character gets BP+500 and “[Once Per Turn] When this character attacks and is not blocked, set this character to active”",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-077.png?v8"
+ },
+ "OPM-1-078": {
+  "key": "OPM-1-078",
+  "numberJp": "UA35BT/OPM-1-078",
+  "nameEn": "Deep Sea King",
+  "nameJp": "深海王",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分と相手のライフの合計が4以下の場合、このキャラはBP+1000と【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）を得る。",
+  "effectEn": "If the total of your and your opponent's Life is 4 or less, this character gains BP+1000 and [Impact Nullify] (The character that battles this character loses [Impact] during this battle)",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-078.png?v8"
+ },
+ "OPM-1-079": {
+  "key": "OPM-1-079",
+  "numberJp": "UA35BT/OPM-1-079",
+  "nameEn": "Tareo",
+  "nameJp": "タレオ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の場外から〈ガロウ〉を1枚まで手札に加える。",
+  "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Add up to 1 <Garou> from your Outside Area to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-079.png?v8"
+ },
+ "OPM-1-080": {
+  "key": "OPM-1-080",
+  "numberJp": "UA35BT/OPM-1-080",
+  "nameEn": "Boros",
+  "nameJp": "ボロス",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-080.png?v8"
+ },
+ "OPM-1-081": {
+  "key": "OPM-1-081",
+  "numberJp": "UA35BT/OPM-1-081",
+  "nameEn": "Boros",
+  "nameJp": "ボロス",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分のライフエリアにあるカードを1枚手札に加えてもよい。そうした場合、カードを2枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] You may add 1 card(s) from your Life Area to your hand. If you do, Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-081.png?v8"
+ },
+ "OPM-1-082": {
+  "key": "OPM-1-082",
+  "numberJp": "UA35BT/OPM-1-082",
+  "nameEn": "Boros",
+  "nameJp": "ボロス",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 6,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分と相手のライフの合計が4以下の場合、手札にあるこのカードの必要エナジーを【赤×2】減らす。【レイド】〈ボロス〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】このキャラはこのターン中、BP+1000。自分と相手のライフの合計が4以下の場合、APを1支払ってもよい。そうした場合、相手のフロントLのキャラを1枚まで選び、退場させる。",
+  "effectEn": "If the total of your and your opponent's Life is 4 or less, reduce the required energy of this card in your hand by [Red x2]. [Raid] Can Raid onto <Boros>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] This character gets BP+1000 this turn. If the total of your and your opponent's Life is 4 or less, you may pay 1 AP. If you do, Choose up to 1 character in your opponent's Front Line, retire it.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-082.png?v8"
+ },
+ "OPM-1-083": {
+  "key": "OPM-1-083",
+  "numberJp": "UA35BT/OPM-1-083",
+  "nameEn": "Gyoro-Gyoro",
+  "nameJp": "ギョロギョロ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪人協会"
+  ],
+  "effectJp": "【登場時】自分の山札の上から1枚見る。そのカードを自分の山札の上か場外に置く。",
+  "effectEn": "[On Play] Look at the top 1 card(s) of your deck. Put that card on top of your deck or into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-083.png?v8"
+ },
+ "OPM-1-084": {
+  "key": "OPM-1-084",
+  "numberJp": "UA35BT/OPM-1-084",
+  "nameEn": "Hellfire Flame",
+  "nameJp": "業火のフレイム",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪人協会"
+  ],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
+  "effectEn": "While this character is active, its generated energy +[Red].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-084.png?v8"
+ },
+ "OPM-1-085": {
+  "key": "OPM-1-085",
+  "numberJp": "UA35BT/OPM-1-085",
+  "nameEn": "Goketsu",
+  "nameJp": "ゴウケツ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "怪人協会"
+  ],
+  "effectJp": "相手の場に黄か緑のカードがある場合、手札にあるこのカードの必要エナジーを【赤×1】減らす。",
+  "effectEn": "If your opponent has Yellow or Green card on their field, the required energy of this card in your hand [Red x1]is reduced.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-085.png?v8"
+ },
+ "OPM-1-086": {
+  "key": "OPM-1-086",
+  "numberJp": "UA35BT/OPM-1-086",
+  "nameEn": "Tempest Wind",
+  "nameJp": "疾風のウィンド",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "怪人協会"
+  ],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-086.png?v8"
+ },
+ "OPM-1-087": {
+  "key": "OPM-1-087",
+  "numberJp": "UA35BT/OPM-1-087",
+  "nameEn": "Super S",
+  "nameJp": "弩S",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪人協会"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【赤】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Red] and gains “At the end of the Main Phase, retire this character”",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-087.png?v8"
+ },
+ "OPM-1-088": {
+  "key": "OPM-1-088",
+  "numberJp": "UA35BT/OPM-1-088",
+  "nameEn": "Super S",
+  "nameJp": "弩S",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪人協会"
+  ],
+  "effectJp": "【登場時】以下から1つ選ぶ。・カードを1枚引く。・BP2000以下でBPが同じ相手のフロントLのキャラを2枚選び、どちらも退場させる。",
+  "effectEn": "[On Play] Choose 1 of the following. Draw 1 card(s). Choose 2 characters in your opponent's Front Line with BP 2000 or less that have the same BP, and retire both.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-088.png?v8"
+ },
+ "OPM-1-089": {
+  "key": "OPM-1-089",
+  "numberJp": "UA35BT/OPM-1-089",
+  "nameEn": "Phoenix Man",
+  "nameJp": "フェニックス男",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪人協会"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見る。その中から〈ガロウ〉か［特徴：怪人協会］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 <Garou> or [Trait: Monster Association] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-089.png?v8"
+ },
+ "OPM-1-090": {
+  "key": "OPM-1-090",
+  "numberJp": "UA35BT/OPM-1-090",
+  "nameEn": "Centichoro",
+  "nameJp": "ムカデ長老",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "怪人協会"
+  ],
+  "effectJp": "【フロントLにある場合】自分のフロントLに置けるカードの枚数が1枚減る。自分の場外にカードが15枚以上ある場合、このキャラは【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を得る。",
+  "effectEn": "[While in Front Line] The number of cards you can place in your Front Line is reduced by 1. If you have 15 or more cards in your Outside Area, This character [Damage 2](When this character deals direct damage by attacking, deal 2 damage instead) is gained.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-090.png?v8"
+ },
+ "OPM-1-091": {
+  "key": "OPM-1-091",
+  "numberJp": "UA35BT/OPM-1-091",
+  "nameEn": "Armored Gorilla",
+  "nameJp": "アーマードゴリラ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "進化の家"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-091.png?v8"
+ },
+ "OPM-1-092": {
+  "key": "OPM-1-092",
+  "numberJp": "UA35BT/OPM-1-092",
+  "nameEn": "Carnage Kabuto",
+  "nameJp": "阿修羅カブト",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "進化の家"
+  ],
+  "effectJp": "【起動メイン】【手札を1枚場外に置く】【ターン1】自分と相手のライフの合計が4以下の場合のみ発動できる。このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
+  "effectEn": "[Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] Can only activate if the total of your and your opponent's Life is 4 or less. This character, this turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-092.png?v8"
+ },
+ "OPM-1-093": {
+  "key": "OPM-1-093",
+  "numberJp": "UA35BT/OPM-1-093",
+  "nameEn": "Doctor Genus",
+  "nameJp": "ジーナス博士",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "進化の家"
+  ],
+  "effectJp": "【登場時】自分のライフエリアにあるカードを1枚手札に加えてもよい。そうした場合、自分の手札から必要エナジーを満たし消費APが1の赤の［特徴：進化の家］を1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[On Play] You may add 1 card(s) from your Life Area to your hand. If you do, Play up to 1 Red [Trait: House of Evolution] whose required energy you meet and with AP cost 1 from your hand to your field rested.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-093.png?v8"
+ },
+ "OPM-1-094": {
+  "key": "OPM-1-094",
+  "numberJp": "UA35BT/OPM-1-094",
+  "nameEn": "The Beast King",
+  "nameJp": "獣王",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "進化の家"
+  ],
+  "effectJp": "【自分のターン中】このキャラはBP+500。",
+  "effectEn": "[During Your Turn] This character gets BP+500.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-094.png?v8"
+ },
+ "OPM-1-095": {
+  "key": "OPM-1-095",
+  "numberJp": "UA35BT/OPM-1-095",
+  "nameEn": "Mosquito Girl",
+  "nameJp": "モスキート娘",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "進化の家"
+  ],
+  "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。【起動メイン】【ターン1】自分のライフエリアにあるカードを1枚手札に加える。そうした場合、このキャラはこのターン中、BP+2500。",
+  "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn. [Activate: Main] [Once Per Turn] Add 1 card(s) from your Life Area to your hand. If you do, This character gets BP+2500 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-095.png?v8"
+ },
+ "OPM-1-096": {
+  "key": "OPM-1-096",
+  "numberJp": "UA35BT/OPM-1-096",
+  "nameEn": "Monster Association",
+  "nameJp": "怪人協会",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Field",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "怪人協会"
+  ],
+  "effectJp": "【起動メイン】【レストにする】自分の山札の上から1枚を場外に置く。【起動メイン】【レストにする】【このカードを退場させる】自分の場外から〈ガロウ〉か［特徴：怪人協会］を1枚自分の山札の上に置く。",
+  "effectEn": "[Activate: Main] [Rest this card] Put the top 1 card(s) of your deck into your Outside Area. [Activate: Main] [Rest this card] [Retire this card] Put 1 <Garou> or [Trait: Monster Association] from your Outside Area on top of your deck.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-096.png?v8"
+ },
+ "OPM-1-097": {
+  "key": "OPM-1-097",
+  "numberJp": "UA35BT/OPM-1-097",
+  "nameEn": "Monster Cells",
+  "nameJp": "怪人細胞",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-097.png?v8"
+ },
+ "OPM-1-098": {
+  "key": "OPM-1-098",
+  "numberJp": "UA35BT/OPM-1-098",
+  "nameEn": "Hero Almanac",
+  "nameJp": "ヒーロー名鑑",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "カードを1枚引く。その後、自分の手札のキャラカードを1枚場外に置いてもよい。そうした場合、この効果で場外に置いたカードと元々のBPが同じ相手のフロントLのキャラを1枚まで選び、このターン中、「このキャラは、相手のアタックを可能ならブロックしなければならない。」を与える。",
+  "effectEn": "Draw 1 card(s). Then, You may put 1 character card in your hand into the Outside Area. If you do, choose up to 1 character in your opponent's Front Line with the same original BP as the card put into your Outside Area by this effect; it gains “This character must block your attacks if able” this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-098.png?v8"
+ },
+ "OPM-1-099": {
+  "key": "OPM-1-099",
+  "numberJp": "UA35BT/OPM-1-099",
+  "nameEn": "Wind Blade Leg",
+  "nameJp": "風刃脚",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈音速のソニック〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Speed-o'-Sound Sonic> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-099.png?v8"
+ },
+ "OPM-1-100": {
+  "key": "OPM-1-100",
+  "numberJp": "UA35BT/OPM-1-100",
+  "nameEn": "Fist of Flowing Water Crushing Rock",
+  "nameJp": "流水岩砕拳",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 2,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場に〈ガロウ〉がある場合、手札にあるこのカードの消費APを-1する。BP5000以下の相手のフロントLのキャラを1枚まで選び、退場させる。自分の場の〈ガロウ〉を1枚まで選び、このターン中、「相手がこのキャラを【スペシャルトリガー】で退場させる場合、代わりに相手はその【スペシャルトリガー】を持つカードを手札に加える。」を与える。",
+  "effectEn": "If you have <Garou> on your field, reduce the AP cost of this card in your hand by 1. Choose up to 1 character in your opponent's Front Line with BP 5000 or less, retire it. Choose up to 1 <Garou> on your field, and it gains “If your opponent would retire this character with [Special Trigger], your opponent adds that card with [Special Trigger] to their hand instead” this turn.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-100.png?v8"
+ },
+ "OPM-1-101": {
+  "key": "OPM-1-101",
+  "numberJp": "UA35ST/OPM-1-101",
+  "nameEn": "Genos",
+  "nameJp": "ジェノス",
+  "series": "ワンパンマン",
+  "setName": "UE06ST: One Punch Man Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）",
+  "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active)",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35ST_OPM-1-101.png?v8"
+ },
+ "OPM-1-102": {
+  "key": "OPM-1-102",
+  "numberJp": "UA35ST/OPM-1-102",
+  "nameEn": "Genos",
+  "nameJp": "ジェノス",
+  "series": "ワンパンマン",
+  "setName": "UE06ST: One Punch Man Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【レイド】〈ジェノス〉アクティブにし、フロントLに移動できる【登場時】このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。【退場時】自分の手札から必要エナジーが3以下で消費APが1の黄の〈ジェノス〉を1枚まで自分の場に『レストで登場させる』。自分の場に〈サイタマ〉がある場合、『アクティブで登場させる』に代わる。",
+  "effectEn": "[Raid] Can Raid onto <Genos>; set it to active and you may move it to the Front Line. [On Play] This character, this turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained. [On Retire] Play up to 1 yellow <Genos> with required energy 3 or less and AP cost 1 from your hand to your field “rested” If you have <Saitama> on your field, it becomes “active” instead.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35ST_OPM-1-102.png?v8"
+ },
+ "OPM-1-103": {
+  "key": "OPM-1-103",
+  "numberJp": "UA35ST/OPM-1-103",
+  "nameEn": "Silverfang",
+  "nameJp": "シルバーファング",
+  "series": "ワンパンマン",
+  "setName": "UE06ST: One Punch Man Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35ST_OPM-1-103.png?v8"
+ },
+ "OPM-1-104": {
+  "key": "OPM-1-104",
+  "numberJp": "UA35ST/OPM-1-104",
+  "nameEn": "Terrible Tornado",
+  "nameJp": "戦慄のタツマキ",
+  "series": "ワンパンマン",
+  "setName": "UE06ST: One Punch Man Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】BP5000以下の自分のフロントLのアクティブのキャラを1枚レストにする。そうした場合、相手のフロントLのキャラを1枚まで選び、レストにする。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Rest 1 active character in your Front Line with BP 5000 or less. If you do, Choose up to 1 character in your opponent's Front Line, rest it.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35ST_OPM-1-104.png?v8"
+ },
+ "OPM-1-105": {
+  "key": "OPM-1-105",
+  "numberJp": "UA35ST/OPM-1-105",
+  "nameEn": "Mumen Rider",
+  "nameJp": "無免ライダー",
+  "series": "ワンパンマン",
+  "setName": "UE06ST: One Punch Man Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35ST_OPM-1-105.png?v8"
+ },
+ "OPM-1-106": {
+  "key": "OPM-1-106",
+  "numberJp": "UA35ST/OPM-1-106",
+  "nameEn": "Saitama",
+  "nameJp": "サイタマ",
+  "series": "ワンパンマン",
+  "setName": "UE06ST: One Punch Man Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 10000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "このキャラはアクティブで場に登場させる。このキャラは相手の効果で場を離れない。自分のアタックフェイズ終了時、このキャラを自分の山札の下に置く。【登場時】BP4000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
+  "effectEn": "This character is played active. This character cannot leave the field by your opponent's effects. At the end of your Attack Phase, put this character on the bottom of your deck. [On Play] Choose up to 1 character in your opponent's Front Line with BP 4000 or less, retire it.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35ST_OPM-1-106.png?v8"
+ },
+ "OPM-1-107": {
+  "key": "OPM-1-107",
+  "numberJp": "UA35ST/OPM-1-107",
+  "nameEn": "Hellish Blizzard",
+  "nameJp": "地獄のフブキ",
+  "series": "ワンパンマン",
+  "setName": "UE06ST: One Punch Man Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35ST_OPM-1-107.png?v8"
+ },
+ "OPM-1-108": {
+  "key": "OPM-1-108",
+  "numberJp": "UA35ST/OPM-1-108",
+  "nameEn": "Saitama's Apartment",
+  "nameJp": "サイタマの家",
+  "series": "ワンパンマン",
+  "setName": "UE06ST: One Punch Man Starter Deck",
+  "cardType": "Field",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中から〈サイタマ〉か〈ジェノス〉か〈キング〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 <Saitama> or <Genos> or <King> among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35ST_OPM-1-108.png?v8"
+ },
+ "OPM-1-109": {
+  "key": "OPM-1-109",
+  "numberJp": "UA35ST/OPM-1-109",
+  "nameEn": "ONE PUNCH",
+  "nameJp": "ワンパン",
+  "series": "ワンパンマン",
+  "setName": "UE06ST: One Punch Man Starter Deck",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "以下から1つ選ぶ。・相手のライフが3以上の場合、相手プレイヤーに1ダメージ。・自分の場の〈サイタマ〉を1枚まで選び、このターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を与える。",
+  "effectEn": "Choose 1 of the following. If your opponent has 3 or more Life, deal 1 damage to your opponent. Choose up to 1 <Saitama> on your field, This turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is given.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35ST_OPM-1-109.png?v8"
+ },
+ "OPM-1-110": {
+  "key": "OPM-1-110",
+  "numberJp": "UA35ST/OPM-1-110",
+  "nameEn": "Silverfang",
+  "nameJp": "シルバーファング",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【相手のターン中】【フロントLにある場合】自分の場の［特徴：ヒーロー］は「相手はキャラの効果やイベントカードの効果でこのキャラを選ぶ際に、追加で自身の手札を1枚場外に置かないと選べない。」を得る。〈シルバーファング〉のこの効果は重複しない。",
+  "effectEn": "[During Opponent's Turn] [While in Front Line] [Trait: Hero] on your field gains “When choosing this character with a character effect or event card effect, your opponent must additionally put 1 card(s) from their hand into their Outside Area” This <Silverfang> effect does not stack.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35ST_OPM-1-110.png?v8"
+ },
+ "OPM-1-111": {
+  "key": "OPM-1-111",
+  "numberJp": "UA35ST/OPM-1-111",
+  "nameEn": "Terrible Tornado",
+  "nameJp": "戦慄のタツマキ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 7,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【登場時】自分の場外から〈戦慄のタツマキ〉以外の緑のキャラカードを1枚まで手札に加える。",
+  "effectEn": "[On Play] Add up to 1 green character card(s) other than <Terrible Tornado> from your Outside Area to your hand.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35ST_OPM-1-111.png?v8"
+ },
+ "OPM-1-112": {
+  "key": "OPM-1-112",
+  "numberJp": "UA35ST/OPM-1-112",
+  "nameEn": "Speed-o'-Sound Sonic",
+  "nameJp": "音速のソニック",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。【起動メイン】【ターン1】自分の場外にあるカードを3枚リムーブエリアに置く。そうした場合、このキャラはこのターン中、BP+1000。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. [Activate: Main] [Once Per Turn] Put into the owner's remove area 3 cards in your Outside Area. If you do, This character gets BP+1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35ST_OPM-1-112.png?v8"
+ },
+ "OPM-1-113": {
+  "key": "OPM-1-113",
+  "numberJp": "UA35ST/OPM-1-113",
+  "nameEn": "Garou",
+  "nameJp": "ガロウ",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場外にあるカードの枚数により、このキャラは以下の効果を全て得る。・5枚以上：【アタック時】自分の山札の上から1枚見る。そのカードを自分の山札の上か場外に置く。・10枚以上：【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）・15枚以上：【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）",
+  "effectEn": "Depending on the number of card in your Outside Area, this character gains all of the following effects. 5 or more: [When Attacking]Look at the top 1 card(s) of your deck. Put that card on top of your deck or into your Outside Area. 10 or more: [Impact Nullify](The character that battles this character, during this battle, [Impact] is lost) 15 or more: [Damage 2](When this character deals direct damage by attacking, deal 2 damage instead)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35ST_OPM-1-113.png?v8"
+ },
+ "OPM-1-AP01": {
+  "key": "OPM-1-AP01",
+  "numberJp": "UA35BT/OPM-1-AP01",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(ワンパンマン)",
+  "series": "ワンパンマン",
+  "setName": "UE06ST: One Punch Man Starter Deck",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-AP01.png?v8"
+ },
+ "OPM-1-AP02": {
+  "key": "OPM-1-AP02",
+  "numberJp": "UA35BT/OPM-1-AP02",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(ワンパンマン)",
+  "series": "ワンパンマン",
+  "setName": "UE06ST: One Punch Man Starter Deck",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-AP02.png?v8"
+ },
+ "OPM-1-AP03": {
+  "key": "OPM-1-AP03",
+  "numberJp": "UA35BT/OPM-1-AP03",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(ワンパンマン)",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-AP03.png?v8"
+ },
+ "OPM-1-AP04": {
+  "key": "OPM-1-AP04",
+  "numberJp": "UA35BT/OPM-1-AP04",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(ワンパンマン)",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-AP04.png?v8"
+ },
+ "OPM-1-AP05": {
+  "key": "OPM-1-AP05",
+  "numberJp": "UA35BT/OPM-1-AP05",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(ワンパンマン)",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-AP05.png?v8"
+ },
+ "OPM-1-AP06": {
+  "key": "OPM-1-AP06",
+  "numberJp": "UA35BT/OPM-1-AP06",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(ワンパンマン)",
+  "series": "ワンパンマン",
+  "setName": "UE06BT: One Punch Man",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA35BT_OPM-1-AP06.png?v8"
+ }
+}

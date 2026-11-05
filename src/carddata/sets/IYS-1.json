@@ -1,0 +1,2654 @@
+{
+ "IYS-1-001": {
+  "key": "IYS-1-001",
+  "numberJp": "UA50BT/IYS-1-001",
+  "nameEn": "A-Un",
+  "nameJp": "阿吽",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場の特徴を持たない他のキャラを1枚まで選び、別のラインに移動させる。",
+  "effectEn": "[On Play] Choose up to 1 other character with no traits on your field, and move it to another line.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-001.png?v8"
+ },
+ "IYS-1-002": {
+  "key": "IYS-1-002",
+  "numberJp": "UA50BT/IYS-1-002",
+  "nameEn": "Jaken",
+  "nameJp": "邪見",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle)",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-002.png?v8"
+ },
+ "IYS-1-003": {
+  "key": "IYS-1-003",
+  "numberJp": "UA50BT/IYS-1-003",
+  "nameEn": "Jaken",
+  "nameJp": "邪見",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から4枚見て、特徴を持たないキャラカードを1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck, reveal up to 1 character card with no traits among them, and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の場外から必要エナジーが2以下で消費APが1の紫のキャラカードを1枚自分のフロントLにアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Purple character card with required energy 2 or less and with AP cost 1 from your Outside Area to your Front Line active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-003.png?v8"
+ },
+ "IYS-1-004": {
+  "key": "IYS-1-004",
+  "numberJp": "UA50BT/IYS-1-004",
+  "nameEn": "Sesshomaru",
+  "nameJp": "殺生丸",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-004.png?v8"
+ },
+ "IYS-1-005": {
+  "key": "IYS-1-005",
+  "numberJp": "UA50BT/IYS-1-005",
+  "nameEn": "Sesshomaru",
+  "nameJp": "殺生丸",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【紫×2】減らす。【登場時】自分の山札の上から2枚見て、特徴を持たない紫のキャラカードを1枚まで場外に置く。残りを望む順で山札の上に置く。",
+  "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Purple x2]is reduced. [On Play] Look at the top 2 card(s) of your deck and put up to 1 purple character card with no traits among them into your Outside Area. Put the rest on top of your deck in any order.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-005.png?v8"
+ },
+ "IYS-1-006": {
+  "key": "IYS-1-006",
+  "numberJp": "UA50BT/IYS-1-006",
+  "nameEn": "Sesshomaru",
+  "nameJp": "殺生丸",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【自分のターン中】このターン中に自分のキャラが場外から登場している場合、このキャラはBP+1000。",
+  "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [During Your Turn] If your character was played from your Outside Area this turn, this character gets BP+1000.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-006.png?v8"
+ },
+ "IYS-1-007": {
+  "key": "IYS-1-007",
+  "numberJp": "UA50BT/IYS-1-007",
+  "nameEn": "Sesshomaru",
+  "nameJp": "殺生丸",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【アタック時】このターン中に自分のキャラが場外から登場している場合、カードを1枚まで引く。",
+  "effectEn": "[When Attacking] If your character was played from the Outside Area this turn, draw up to 1 card(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-007.png?v8"
+ },
+ "IYS-1-008": {
+  "key": "IYS-1-008",
+  "numberJp": "UA50BT/IYS-1-008",
+  "nameEn": "Sesshomaru",
+  "nameJp": "殺生丸",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】このターン中に自分のキャラが場外から登場している場合、このキャラは【ダメージ（2）】を得る。【登場時】自分の場外から必要エナジーが3以下で消費APが1の特徴を持たない紫のキャラカードを1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[During Your Turn] If your character was played from the Outside Area this turn, this character gains [Damage 2]. [On Play] Play up to 1 Purple character card(s) with no traits, required energy 3 or less and AP cost 1 from your Outside Area to your field rested.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-008.png?v8"
+ },
+ "IYS-1-009": {
+  "key": "IYS-1-009",
+  "numberJp": "UA50BT/IYS-1-009",
+  "nameEn": "Sesshomaru",
+  "nameJp": "殺生丸",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 6,
+  "ap": 1,
+  "bp": 4500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈殺生丸〉アクティブにし、フロントLに移動できる【自分のターン中】このターン中に自分のキャラが場外から登場している場合、このキャラはBP+500と【インパクト（1）】を得る。【登場時】自分の場外から必要エナジーが3以下で消費APが1の特徴を持たない紫のキャラカードを1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[Raid] Can Raid onto <Sesshomaru>; set it to active and you may move it to the Front Line. [During Your Turn] If your character was played from the Outside Area this turn, this character gains BP+500 and [Impact 1]. [On Play] Play up to 1 Purple character card(s) with no traits, required energy 3 or less and AP cost 1 from your Outside Area to your field rested.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-009.png?v8"
+ },
+ "IYS-1-010": {
+  "key": "IYS-1-010",
+  "numberJp": "UA50BT/IYS-1-010",
+  "nameEn": "Sesshomaru's Mother",
+  "nameJp": "殺生丸の母",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場外から必要エナジーが4以下で特徴を持たない紫のキャラカードを1枚まで手札に加える。",
+  "effectEn": "[On Play] Add up to 1 purple character card with no traits and required energy 4 or less from your Outside Area to your hand.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-010.png?v8"
+ },
+ "IYS-1-011": {
+  "key": "IYS-1-011",
+  "numberJp": "UA50BT/IYS-1-011",
+  "nameEn": "Rin",
+  "nameJp": "りん",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【紫】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Purple] and gains “At the end of the Main Phase, retire this character”",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-011.png?v8"
+ },
+ "IYS-1-012": {
+  "key": "IYS-1-012",
+  "numberJp": "UA50BT/IYS-1-012",
+  "nameEn": "Rin",
+  "nameJp": "りん",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場に〈殺生丸〉がある場合、カードを1枚引く。",
+  "effectEn": "[On Play] If you have <Sesshomaru> on your field, Draw 1 card(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-012.png?v8"
+ },
+ "IYS-1-013": {
+  "key": "IYS-1-013",
+  "numberJp": "UA50BT/IYS-1-013",
+  "nameEn": "Rin",
+  "nameJp": "りん",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分のフロントLに〈殺生丸〉がある場合、このキャラの発生エナジー+【紫】。【登場時】このキャラが場外から登場していた場合、自分の場の〈殺生丸〉を1枚まで選び、アクティブにする。",
+  "effectEn": "If you have <Sesshomaru> in your Front Line, This character's generated energy +[Purple]. [On Play] If this character was played from the Outside Area, choose up to 1 <Sesshomaru> on your field and set it to active.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-013.png?v8"
+ },
+ "IYS-1-014": {
+  "key": "IYS-1-014",
+  "numberJp": "UA50BT/IYS-1-014",
+  "nameEn": "The Infant",
+  "nameJp": "赤子",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "奈落一派"
+  ],
+  "effectJp": "【退場時】自分の山札の上から3枚見て、［特徴：奈落一派］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。",
+  "effectEn": "[On Retire] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: Naraku Faction] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-014.png?v8"
+ },
+ "IYS-1-015": {
+  "key": "IYS-1-015",
+  "numberJp": "UA50BT/IYS-1-015",
+  "nameEn": "Onigumo",
+  "nameJp": "鬼蜘蛛",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "奈落一派"
+  ],
+  "effectJp": "【退場時】カードを1枚引く。",
+  "effectEn": "[On Retire] Draw 1 card(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-015.png?v8"
+ },
+ "IYS-1-016": {
+  "key": "IYS-1-016",
+  "numberJp": "UA50BT/IYS-1-016",
+  "nameEn": "Kagura",
+  "nameJp": "神楽",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "奈落一派"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-016.png?v8"
+ },
+ "IYS-1-017": {
+  "key": "IYS-1-017",
+  "numberJp": "UA50BT/IYS-1-017",
+  "nameEn": "Kagura",
+  "nameJp": "神楽",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "奈落一派"
+  ],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【紫】。",
+  "effectEn": "While this character is active, its generated energy +[Purple].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-017.png?v8"
+ },
+ "IYS-1-018": {
+  "key": "IYS-1-018",
+  "numberJp": "UA50BT/IYS-1-018",
+  "nameEn": "Kagura",
+  "nameJp": "神楽",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "奈落一派"
+  ],
+  "effectJp": "【登場時】自分の山札の上から1枚見て、山札の上か場外に置く。【起動メイン】【ターン1】自分の場の他の［特徴：奈落一派］を1枚まで選び、このターン中、「このキャラはBP4000以上のキャラにブロックされない。」を与える。自分の場の他の［特徴：奈落一派］を1枚退場させる。",
+  "effectEn": "[On Play] Look at the top 1 card(s) of your deck, put them on top of your deck or into your Outside Area. [Activate: Main] [Once Per Turn] Choose up to 1 other [Trait: Naraku Faction] on your field, it gains “This character cannot be blocked by characters with BP 4000 or more” this turn. Retire 1 other [Trait: Naraku Faction] on your field.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-018.png?v8"
+ },
+ "IYS-1-019": {
+  "key": "IYS-1-019",
+  "numberJp": "UA50BT/IYS-1-019",
+  "nameEn": "Kagura",
+  "nameJp": "神楽",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "奈落一派"
+  ],
+  "effectJp": "【登場時】自分の場外から必要エナジーが2以下で消費APが1の紫のキャラカードを1枚まで自分の場にレストで登場させる。そのキャラにこのターン中、「メインフェイズ終了時、このキャラを退場させる。」を与える。",
+  "effectEn": "[On Play] Play up to 1 Purple character card with required energy 2 or less and with AP cost 1 from your Outside Area to your field rested. That character gains “At the end of the Main Phase, retire this character” this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-019.png?v8"
+ },
+ "IYS-1-020": {
+  "key": "IYS-1-020",
+  "numberJp": "UA50BT/IYS-1-020",
+  "nameEn": "Juromaru & Kageromaru",
+  "nameJp": "獣郎丸&影郎丸",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "奈落一派"
+  ],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-020.png?v8"
+ },
+ "IYS-1-021": {
+  "key": "IYS-1-021",
+  "numberJp": "UA50BT/IYS-1-021",
+  "nameEn": "Kanna",
+  "nameJp": "神無",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "奈落一派"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：奈落一派］か〈神無の鏡〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: Naraku Faction] or <Kanna's Mirror> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-021.png?v8"
+ },
+ "IYS-1-022": {
+  "key": "IYS-1-022",
+  "numberJp": "UA50BT/IYS-1-022",
+  "nameEn": "Kanna",
+  "nameJp": "神無",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "奈落一派"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外か裏向きで自分の場の〈奈落〉1枚の下に置く。【起動メイン】自分の場外から［特徴：奈落一派］か〈四魂のかけら〉を1枚裏向きで自分の場の〈奈落〉1枚の下に置く。〈神無〉のこの効果は1ターンに1回のみ発動できる。",
+  "effectEn": "[On Play] Draw 1 card(s), and put 1 card(s) from your hand into your Outside Area or face down under 1 <Naraku> on your field. [Activate: Main] Put 1 [Trait: Naraku Faction] or <Shikon Jewel Shard> from your Outside Area face down under 1 <Naraku> on your field. This <Kanna> effect can only activate 1 time(s) per 1 turn(s).",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-022.png?v8"
+ },
+ "IYS-1-023": {
+  "key": "IYS-1-023",
+  "numberJp": "UA50BT/IYS-1-023",
+  "nameEn": "Goshinki",
+  "nameJp": "悟心鬼",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "奈落一派"
+  ],
+  "effectJp": "【自分のターン中】このターン中に自分の場のキャラが退場している場合、このキャラはBP+1000。",
+  "effectEn": "[During Your Turn] If a character on your field was retired this turn, this character gets BP+1000.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-023.png?v8"
+ },
+ "IYS-1-024": {
+  "key": "IYS-1-024",
+  "numberJp": "UA50BT/IYS-1-024",
+  "nameEn": "Kohaku",
+  "nameJp": "琥珀",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "奈落一派"
+  ],
+  "effectJp": "【退場時】このカードを手札に加える。",
+  "effectEn": "[On Retire] Add this card to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-024.png?v8"
+ },
+ "IYS-1-025": {
+  "key": "IYS-1-025",
+  "numberJp": "UA50BT/IYS-1-025",
+  "nameEn": "Naraku",
+  "nameJp": "奈落",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "奈落一派"
+  ],
+  "effectJp": "【登場時】相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。",
+  "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line, it gets BP-1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-025.png?v8"
+ },
+ "IYS-1-026": {
+  "key": "IYS-1-026",
+  "numberJp": "UA50BT/IYS-1-026",
+  "nameEn": "Naraku",
+  "nameJp": "奈落",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "奈落一派"
+  ],
+  "effectJp": "このキャラの下に裏向きのカードがある場合、このキャラは【インパクト無効】を得る。【自分のターン中】このキャラの下に裏向きのカードがある場合、このキャラはBP+1000。",
+  "effectEn": "If this character has face-down cards under it, this character gains [Impact Nullify]. [During Your Turn] If there is a face-down card under this character, this character gets BP+1000.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の場外から必要エナジーが2以下で消費APが1の紫のキャラカードを1枚自分のフロントLにアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Purple character card with required energy 2 or less and with AP cost 1 from your Outside Area to your Front Line active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-026.png?v8"
+ },
+ "IYS-1-027": {
+  "key": "IYS-1-027",
+  "numberJp": "UA50BT/IYS-1-027",
+  "nameEn": "Naraku",
+  "nameJp": "奈落",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "奈落一派"
+  ],
+  "effectJp": "【起動メイン】【ターン1】相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000し、このキャラをアクティブにし、このキャラはこのターン中、【インパクト（1）】を得る。自分の場の［特徴：奈落一派］を1枚退場させる。",
+  "effectEn": "[Activate: Main] [Once Per Turn] Choose up to 1 character in your opponent's Front Line; it gets BP-1000 this turn; set this character to active, and it gains [Impact 1] this turn. Retire 1 [Trait: Naraku Faction] on your field.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-027.png?v8"
+ },
+ "IYS-1-028": {
+  "key": "IYS-1-028",
+  "numberJp": "UA50BT/IYS-1-028",
+  "nameEn": "Naraku",
+  "nameJp": "奈落",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "奈落一派"
+  ],
+  "effectJp": "【レイド】〈奈落〉アクティブにし、フロントLに移動できるこのキャラの下の裏向きのカードの枚数により、以下の効果を全て得る。・2枚以上：このキャラが場を離れる場合、代わりにこのカードを手札に戻す。・3枚以上：このキャラが自分の場から手札に戻った時、このキャラのレイド元のカードが必要エナジーが2以下で場外にある場合、そのカードを1枚まで自分の場にレストで登場させる。【起動メイン】【ターン1】自分の場外から［特徴：奈落一派］か〈四魂のかけら〉を1枚裏向きで自分の場の〈奈落〉1枚の下に置く。",
+  "effectEn": "[Raid] Can Raid onto <Naraku>; set it to active and you may move it to the Front Line. Depending on the number of face-down cards under this character, it gains all of the following effects. 2 or more: If this character would leave the field, return this card to your hand instead. 3 or more: When this character returns from your field to your hand, if this character's Raid source card has required energy 2 or less and is in your Outside Area, play up to 1 of those cards to your field rested. [Activate: Main] [Once Per Turn] Put 1 [Trait: Naraku Faction] or <Shikon Jewel Shard> from your Outside Area face down under 1 <Naraku> on your field.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-028.png?v8"
+ },
+ "IYS-1-029": {
+  "key": "IYS-1-029",
+  "numberJp": "UA50BT/IYS-1-029",
+  "nameEn": "Hakudoshi",
+  "nameJp": "白童子",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "奈落一派"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-029.png?v8"
+ },
+ "IYS-1-030": {
+  "key": "IYS-1-030",
+  "numberJp": "UA50BT/IYS-1-030",
+  "nameEn": "Kagewaki Hitomi",
+  "nameJp": "人見 蔭刀",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "奈落一派"
+  ],
+  "effectJp": "このカードは〈奈落〉としても扱う。【登場時】自分の場にあるキャラが全て［特徴：奈落一派］の場合、自分の山札の上から1枚見て、山札の上に置くか、裏向きで自分の場の〈奈落〉1枚の下に置く。",
+  "effectEn": "This card is also treated as <Naraku>. [On Play] If all characters on your field are [Trait: Naraku Faction], look at the top 1 card(s) of your deck and put it on top of your deck or face down under 1 <Naraku> on your field.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-030.png?v8"
+ },
+ "IYS-1-031": {
+  "key": "IYS-1-031",
+  "numberJp": "UA50BT/IYS-1-031",
+  "nameEn": "Byakuya of the Dreams",
+  "nameJp": "夢幻の白夜",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "奈落一派"
+  ],
+  "effectJp": "【退場時】自分の山札の上から2枚まで場外に置く。",
+  "effectEn": "[On Retire] Put up to the top 2 card(s) of your deck into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-031.png?v8"
+ },
+ "IYS-1-032": {
+  "key": "IYS-1-032",
+  "numberJp": "UA50BT/IYS-1-032",
+  "nameEn": "Kanna's Mirror",
+  "nameJp": "神無の鏡",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Field",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】自分の場外から［特徴：奈落一派］か〈四魂のかけら〉を1枚裏向きで自分の場の〈奈落〉1枚の下に置く。",
+  "effectEn": "[Activate: Main] [Rest this card] Put 1 [Trait: Naraku Faction] or <Shikon Jewel Shard> from your Outside Area face down under 1 <Naraku> on your field.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-032.png?v8"
+ },
+ "IYS-1-033": {
+  "key": "IYS-1-033",
+  "numberJp": "UA50BT/IYS-1-033",
+  "nameEn": "Saimyosho",
+  "nameJp": "最猛勝",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "カードを2枚引く。自分の場に〈奈落〉がある場合、相手は自身の場外にあるイベントカードを2枚望む順で自身の山札の下に置く。",
+  "effectEn": "Draw 2 card(s). If you have <Naraku> on your field, your opponent puts 2 event card(s) from their Outside Area on the bottom of their deck in any order.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-033.png?v8"
+ },
+ "IYS-1-034": {
+  "key": "IYS-1-034",
+  "numberJp": "UA50BT/IYS-1-034",
+  "nameEn": "Shikon Jewel Shard",
+  "nameJp": "四魂のかけら",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-034.png?v8"
+ },
+ "IYS-1-035": {
+  "key": "IYS-1-035",
+  "numberJp": "UA50BT/IYS-1-035",
+  "nameEn": "Miasma",
+  "nameJp": "瘴気",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "相手のフロントLのキャラを1枚選び、自分の場の［特徴：奈落一派］1枚につき、このターン中、BP-1000。",
+  "effectEn": "Choose 1 character in your opponent's Front Line, For each 1 [Trait: Naraku Faction] on your field, it gets BP-1000 this turn.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-035.png?v8"
+ },
+ "IYS-1-036": {
+  "key": "IYS-1-036",
+  "numberJp": "UA50BT/IYS-1-036",
+  "nameEn": "Tenseiga",
+  "nameJp": "天生牙",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "カードを1枚引き、自分の手札を1枚場外に置く。その後、自分の場外から必要エナジーが3以下で消費APが1の特徴を持たない紫のキャラカードを1枚まで自分の場にレストで登場させる。",
+  "effectEn": "Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. Then, play up to 1 purple character card(s) with no traits, required energy 3 or less and AP cost 1 from your Outside Area to your field rested.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-036.png?v8"
+ },
+ "IYS-1-037": {
+  "key": "IYS-1-037",
+  "numberJp": "UA50BT/IYS-1-037",
+  "nameEn": "Bakusaiga",
+  "nameJp": "爆砕牙",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈殺生丸〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Sesshomaru> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-037.png?v8"
+ },
+ "IYS-1-038": {
+  "key": "IYS-1-038",
+  "numberJp": "UA50BT/IYS-1-038",
+  "nameEn": "Dance of Blades",
+  "nameJp": "風刃の舞",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "BP3000以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-038.png?v8"
+ },
+ "IYS-1-039": {
+  "key": "IYS-1-039",
+  "numberJp": "UA50BT/IYS-1-039",
+  "nameEn": "Fusion",
+  "nameJp": "融合",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "このカードは自分の場にキャラがある場合のみ使用できる。自分のAPカードを1枚アクティブにする。カードを2枚引く。自分の場のキャラを1枚退場させる。このカードを自分の場の〈奈落〉1枚の下に裏向きで置いてもよい。",
+  "effectEn": "This card can only be used if you have a character on your field. Set 1 of your AP cards to active. Draw 2 card(s). Retire 1 character on your field. You may put this card face down under 1 <Naraku> on your field.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-039.png?v8"
+ },
+ "IYS-1-040": {
+  "key": "IYS-1-040",
+  "numberJp": "UA50BT/IYS-1-040",
+  "nameEn": "Nothing Could Ever Be Worth the Cost of Rin's Life!",
+  "nameJp": "りんの命と引きかえに得るものなど―なにもない!!",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-040.png?v8"
+ },
+ "IYS-1-041": {
+  "key": "IYS-1-041",
+  "numberJp": "UA50BT/IYS-1-041",
+  "nameEn": "Hachiemon",
+  "nameJp": "阿波の八衛門狸",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から4枚見て、赤のイベントカードを1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck, reveal up to 1 Red Event card among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-041.png?v8"
+ },
+ "IYS-1-042": {
+  "key": "IYS-1-042",
+  "numberJp": "UA50BT/IYS-1-042",
+  "nameEn": "Inuyasha",
+  "nameJp": "犬夜叉",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-042.png?v8"
+ },
+ "IYS-1-043": {
+  "key": "IYS-1-043",
+  "numberJp": "UA50BT/IYS-1-043",
+  "nameEn": "Inuyasha",
+  "nameJp": "犬夜叉",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【赤×2】減らす。【起動メイン】【ターン1】このターン中にこのキャラが自分の効果でアクティブからレストになったことがある場合のみ発動できる。このキャラをアクティブにし、このターン中、BP+1000。",
+  "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Red x2]is reduced. [Activate: Main] [Once Per Turn] Can only activate if this character went from active to rested by your own effect this turn. Set this character to active, and it gets BP+1000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-043.png?v8"
+ },
+ "IYS-1-044": {
+  "key": "IYS-1-044",
+  "numberJp": "UA50BT/IYS-1-044",
+  "nameEn": "Inuyasha",
+  "nameJp": "犬夜叉",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラの下に裏向きのカードがない場合、このキャラはブロックできない。このキャラはアクティブで登場させる。【ダメージ（2）】（このキャラがアタックで与える直接ダメージは2ダメージ）【起動メイン】【フロントLにある場合】【ターン1】このキャラがレストの場合のみ発動できる。このキャラをアクティブにする。【起動メイン】【フロントLにある場合】【ターン1】自分の場外の〈鉄砕牙〉を1枚裏向きでこのキャラの下に置く。",
+  "effectEn": "If this character has no face-down cards under it, this character cannot block. This character is played active. [Damage 2] (The direct damage this character deals by attacking is 2 damage) [Activate: Main] [While in Front Line] [Once Per Turn] Can only activate while this character is rested. Set this character to active. [Activate: Main] [While in Front Line] [Once Per Turn] Put 1 <Tetsusaiga> from your Outside Area face down under this character.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-044.png?v8"
+ },
+ "IYS-1-045": {
+  "key": "IYS-1-045",
+  "numberJp": "UA50BT/IYS-1-045",
+  "nameEn": "Inuyasha",
+  "nameJp": "犬夜叉",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【ターン1】このターン中にこのキャラが自分の効果でアクティブからレストになったことがある場合のみ発動できる。このキャラをアクティブにする。【アタック時】このキャラのBPが4000以上の場合、カードを1枚引く。",
+  "effectEn": "[Activate: Main] [Once Per Turn] Can only activate if this character went from active to rested by your own effect this turn. Set this character to active. [When Attacking] If this character's BP is 4000 or more, Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-045.png?v8"
+ },
+ "IYS-1-046": {
+  "key": "IYS-1-046",
+  "numberJp": "UA50BT/IYS-1-046",
+  "nameEn": "Inuyasha",
+  "nameJp": "犬夜叉",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈犬夜叉〉アクティブにし、フロントLに移動できる【ターン1】このキャラのアタックがブロックされなかった時、カードを1枚引く。【起動メイン】【ターン1】このターン中にこのキャラが自分の効果でアクティブからレストになったことがある場合のみ発動できる。このキャラをアクティブにし、このターン中、『BP+1000と【インパクト（1）】』を得る。このキャラがこのターン中に登場していた場合、『【2回アタック】』に代えてもよい。",
+  "effectEn": "[Raid] Can Raid onto <Inuyasha>; set it to active and you may move it to the Front Line. [Once Per Turn] When this character's attack is not blocked, draw 1 card(s). [Activate: Main] [Once Per Turn] Can only activate if this character went from active to rested by your own effect this turn. Set this character to active, and it gains “BP+1000 and [Impact 1]” this turn. If this character was played this turn, you may instead make it “[Double Attack]”",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-046.png?v8"
+ },
+ "IYS-1-047": {
+  "key": "IYS-1-047",
+  "numberJp": "UA50BT/IYS-1-047",
+  "nameEn": "Kaede",
+  "nameJp": "楓",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-047.png?v8"
+ },
+ "IYS-1-048": {
+  "key": "IYS-1-048",
+  "numberJp": "UA50BT/IYS-1-048",
+  "nameEn": "Kikyo",
+  "nameJp": "桔梗",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-048.png?v8"
+ },
+ "IYS-1-049": {
+  "key": "IYS-1-049",
+  "numberJp": "UA50BT/IYS-1-049",
+  "nameEn": "Kikyo",
+  "nameJp": "桔梗",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【起動メイン】【ターン1】このキャラが登場したターン中のみ発動できる。自分のフロントLのアクティブの〈犬夜叉〉を1枚レストにする。そうした場合、以下から1つ選ぶ。・このキャラをアクティブにし、このターン中、BP+1000。・相手のフロントLのキャラを1枚まで選び、レストにする。",
+  "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [Activate: Main] [Once Per Turn] Can only activate during the turn this character was played. Rest 1 active <Inuyasha> in your Front Line. If you do, Choose 1 of the following. Set this character to active, and it gets BP+1000 this turn. Choose up to 1 character in your opponent's Front Line, rest it.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-049.png?v8"
+ },
+ "IYS-1-050": {
+  "key": "IYS-1-050",
+  "numberJp": "UA50BT/IYS-1-050",
+  "nameEn": "Kirara",
+  "nameJp": "雲母",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-050.png?v8"
+ },
+ "IYS-1-051": {
+  "key": "IYS-1-051",
+  "numberJp": "UA50BT/IYS-1-051",
+  "nameEn": "Kirara",
+  "nameJp": "雲母",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】このターン中に自分の〈珊瑚〉がアタックしている場合、このキャラはBP+1000。",
+  "effectEn": "[During Your Turn] If your <Sango> has attacked this turn, this character gets BP+1000.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-051.png?v8"
+ },
+ "IYS-1-052": {
+  "key": "IYS-1-052",
+  "numberJp": "UA50BT/IYS-1-052",
+  "nameEn": "Ginta & Hakkaku",
+  "nameJp": "銀太＆白角",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-052.png?v8"
+ },
+ "IYS-1-053": {
+  "key": "IYS-1-053",
+  "numberJp": "UA50BT/IYS-1-053",
+  "nameEn": "Koga",
+  "nameJp": "鋼牙",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-053.png?v8"
+ },
+ "IYS-1-054": {
+  "key": "IYS-1-054",
+  "numberJp": "UA50BT/IYS-1-054",
+  "nameEn": "Koga",
+  "nameJp": "鋼牙",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場に〈日暮 かごめ〉がある場合、このキャラをアクティブにしてもよい。そうした場合、このキャラはこのターン中、「自分のアタックフェイズ終了時、このキャラのBPが4000以下の場合、このキャラを手札に戻す。」を得る。",
+  "effectEn": "[On Play] If you have <Kagome Higurashi> on your field, you may set this character to active. If you do, This character gains “At the end of your Attack Phase, If this character's BP is 4000 or less, return this character to your hand” this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-054.png?v8"
+ },
+ "IYS-1-055": {
+  "key": "IYS-1-055",
+  "numberJp": "UA50BT/IYS-1-055",
+  "nameEn": "Kohaku",
+  "nameJp": "琥珀",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【赤】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Red] and gains “At the end of the Main Phase, retire this character”",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-055.png?v8"
+ },
+ "IYS-1-056": {
+  "key": "IYS-1-056",
+  "numberJp": "UA50BT/IYS-1-056",
+  "nameEn": "Sango",
+  "nameJp": "珊瑚",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から2枚見て、赤のイベントカードを1枚まで場外に置く。残りを望む順で山札の上に置く。",
+  "effectEn": "[On Play] Look at the top 2 card(s) of your deck, and put up to 1 Red Event card(s) among them into your Outside Area. Put the rest on top of your deck in any order.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-056.png?v8"
+ },
+ "IYS-1-057": {
+  "key": "IYS-1-057",
+  "numberJp": "UA50BT/IYS-1-057",
+  "nameEn": "Sango",
+  "nameJp": "珊瑚",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から3枚見て、〈珊瑚〉か〈弥勒〉か〈雲母〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 <Sango> or <Miroku> or <Kirara> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-057.png?v8"
+ },
+ "IYS-1-058": {
+  "key": "IYS-1-058",
+  "numberJp": "UA50BT/IYS-1-058",
+  "nameEn": "Sango",
+  "nameJp": "珊瑚",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】自分の場に〈弥勒〉がある場合、このキャラはBP+1000。【登場時】自分の山札の上から3枚見て、赤のイベントカードを1枚まで場外に置く。残りを望む順で山札の下に置く。",
+  "effectEn": "[During Your Turn] If you have <Miroku> on your field, This character gets BP+1000. [On Play] Look at the top 3 card(s) of your deck, and put up to 1 Red Event card(s) among them into your Outside Area. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-058.png?v8"
+ },
+ "IYS-1-059": {
+  "key": "IYS-1-059",
+  "numberJp": "UA50BT/IYS-1-059",
+  "nameEn": "Sango",
+  "nameJp": "珊瑚",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈珊瑚〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手に1ダメージ）【登場時】カードを『1枚』引き、自分の手札を1枚場外に置く。自分の場に〈弥勒〉がある場合、『2枚』に代えてもよい。",
+  "effectEn": "[Raid] Can Raid onto <Sango>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] Draw “1” card(s), then put 1 card(s) from your hand into your Outside Area. If you have <Miroku> on your field, you may change it to “2” instead.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-059.png?v8"
+ },
+ "IYS-1-060": {
+  "key": "IYS-1-060",
+  "numberJp": "UA50BT/IYS-1-060",
+  "nameEn": "Shippo",
+  "nameJp": "七宝",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-060.png?v8"
+ },
+ "IYS-1-061": {
+  "key": "IYS-1-061",
+  "numberJp": "UA50BT/IYS-1-061",
+  "nameEn": "Shippo",
+  "nameJp": "七宝",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【赤×2】減らす。【登場時】自分の山札の上から1枚見て、山札の上か場外に置く。【起動メイン】【レストにする】【このカードを退場させる】自分の場外から〈七宝〉以外の必要エナジーが0の赤のキャラカードを1枚まで自分の場にレストで登場させる。",
+  "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Red x2]is reduced. [On Play] Look at the top 1 card(s) of your deck, put them on top of your deck or into your Outside Area. [Activate: Main] [Rest this card] [Retire this card] Play up to 1 red character card other than <Shippo> with required energy 0 from your Outside Area to your field rested.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-061.png?v8"
+ },
+ "IYS-1-062": {
+  "key": "IYS-1-062",
+  "numberJp": "UA50BT/IYS-1-062",
+  "nameEn": "Totosai",
+  "nameJp": "刀々斎",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 2,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場外から赤のイベントカードを1枚まで手札に加える。",
+  "effectEn": "[On Play] Add up to 1 red event card(s) from your Outside Area to your hand.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-062.png?v8"
+ },
+ "IYS-1-063": {
+  "key": "IYS-1-063",
+  "numberJp": "UA50BT/IYS-1-063",
+  "nameEn": "Kagome Higurashi",
+  "nameJp": "日暮 かごめ",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-063.png?v8"
+ },
+ "IYS-1-064": {
+  "key": "IYS-1-064",
+  "numberJp": "UA50BT/IYS-1-064",
+  "nameEn": "Kagome Higurashi",
+  "nameJp": "日暮 かごめ",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
+  "effectEn": "While this character is active, its generated energy +[Red].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-064.png?v8"
+ },
+ "IYS-1-065": {
+  "key": "IYS-1-065",
+  "numberJp": "UA50BT/IYS-1-065",
+  "nameEn": "Kagome Higurashi",
+  "nameJp": "日暮 かごめ",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から4枚見て、〈犬夜叉〉か〈日暮 かごめ〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck, reveal up to 1 <Inuyasha> or <Kagome Higurashi> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-065.png?v8"
+ },
+ "IYS-1-066": {
+  "key": "IYS-1-066",
+  "numberJp": "UA50BT/IYS-1-066",
+  "nameEn": "Kagome Higurashi",
+  "nameJp": "日暮 かごめ",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈日暮 かごめ〉アクティブにし、フロントLに移動できる【登場時】自分の手札から必要エナジーが3以下で消費APが1の赤の〔〈犬夜叉〉か〈日暮 かごめ〉〕を1枚まで自分の場にレストで登場させる。【起動メイン】【フロントLにある場合】【ターン1】自分のフロントLのアクティブの〈犬夜叉〉を1枚レストにする。そうした場合、このキャラはこのターン中、「このキャラはBP4000以上のキャラにブロックされない。」を得て、自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[Raid] Can Raid onto <Kagome Higurashi>; set it to active and you may move it to the Front Line. [On Play] Play up to 1 Red <Inuyasha> or <Kagome Higurashi> with required energy 3 or less and with AP cost 1 from your hand to your field rested. [Activate: Main] [While in Front Line] [Once Per Turn] Rest 1 active <Inuyasha> in your Front Line. If you do, this character gains “This character cannot be blocked by characters with BP 4000 or more” this turn; choose up to 1 other character on your field, and it gets BP+1000 this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-066.png?v8"
+ },
+ "IYS-1-067": {
+  "key": "IYS-1-067",
+  "numberJp": "UA50BT/IYS-1-067",
+  "nameEn": "Myoga",
+  "nameJp": "冥加",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-067.png?v8"
+ },
+ "IYS-1-068": {
+  "key": "IYS-1-068",
+  "numberJp": "UA50BT/IYS-1-068",
+  "nameEn": "Miroku",
+  "nameJp": "弥勒",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-068.png?v8"
+ },
+ "IYS-1-069": {
+  "key": "IYS-1-069",
+  "numberJp": "UA50BT/IYS-1-069",
+  "nameEn": "Miroku",
+  "nameJp": "弥勒",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-069.png?v8"
+ },
+ "IYS-1-070": {
+  "key": "IYS-1-070",
+  "numberJp": "UA50BT/IYS-1-070",
+  "nameEn": "Miroku",
+  "nameJp": "弥勒",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分の場に〈珊瑚〉がある場合のみ発動できる。自分の場外のイベントカードを1枚リムーブエリアに置く。そうした場合、このキャラはこのターン中、「このキャラはBP4000以上のキャラにブロックされない。」を得る。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if you have <Sango> on your field. Put into the owner's remove area 1 Event card in your Outside Area. If you do, This character gains “This character cannot be blocked by characters with BP 4000 or more” this turn.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP2500以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-070.png?v8"
+ },
+ "IYS-1-071": {
+  "key": "IYS-1-071",
+  "numberJp": "UA50BT/IYS-1-071",
+  "nameEn": "Miroku",
+  "nameJp": "弥勒",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈弥勒〉アクティブにし、フロントLに移動できる【登場時】自分の場外のイベントカードを望む枚数リムーブエリアに置き、『BP2500』以下の相手のフロントLのキャラを1枚まで選び、退場させる。自分の場に〈珊瑚〉がある場合、この効果で場外からリムーブエリアに置いたカード1枚につき、この効果で選べるキャラのBPの範囲+500。",
+  "effectEn": "[Raid] Can Raid onto <Miroku>; set it to active and you may move it to the Front Line. [On Play] Put any number of event cards from your Outside Area into your Remove Area, choose up to 1 character in your opponent's Front Line with “BP 2500” or less, and retire it. If you have <Sango> on your field, for each 1 card(s) put from your Outside Area into your Remove Area by this effect, the BP range of characters you can choose with this effect is increased by 500.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-071.png?v8"
+ },
+ "IYS-1-072": {
+  "key": "IYS-1-072",
+  "numberJp": "UA50BT/IYS-1-072",
+  "nameEn": "Bone Eater's Well",
+  "nameJp": "骨喰いの井戸",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Field",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から4枚見て、〈犬夜叉〉か〈日暮 かごめ〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck, reveal up to 1 <Inuyasha> or <Kagome Higurashi> among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-072.png?v8"
+ },
+ "IYS-1-073": {
+  "key": "IYS-1-073",
+  "numberJp": "UA50BT/IYS-1-073",
+  "nameEn": "Determine How to Live",
+  "nameJp": "生き方を選べるということだ",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-073.png?v8"
+ },
+ "IYS-1-074": {
+  "key": "IYS-1-074",
+  "numberJp": "UA50BT/IYS-1-074",
+  "nameEn": "Sit!",
+  "nameJp": "おすわり",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "このカードは自分の場に〈日暮 かごめ〉がある場合のみ使用できる。カードを1枚引く。自分の場の〈犬夜叉〉を1枚まで選び、このターン中、BP+1000。自分のフロントLのアクティブの〈犬夜叉〉を1枚レストにしてもよい。そうした場合、自分のAPカードを1枚アクティブにする。",
+  "effectEn": "This card can only be used if you have <Kagome Higurashi> on your field. Draw 1 card(s). Choose up to 1 <Inuyasha> on your field, it gets BP+1000 this turn. You may rest 1 active <Inuyasha> in your Front Line. If you do, Set 1 of your AP cards to active.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP2500以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-074.png?v8"
+ },
+ "IYS-1-075": {
+  "key": "IYS-1-075",
+  "numberJp": "UA50BT/IYS-1-075",
+  "nameEn": "I'd Better Shape Up",
+  "nameJp": "おらがしっかりせねば",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場のキャラを1枚まで選び、このターン中、BP+2000。自分の場に〈七宝〉がある場合、自分のAPカードを1枚アクティブにする。",
+  "effectEn": "Choose up to 1 character on your field, it gets BP+2000 this turn. If you have <Shippo> on your field, Set 1 of your AP cards to active.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-075.png?v8"
+ },
+ "IYS-1-076": {
+  "key": "IYS-1-076",
+  "numberJp": "UA50BT/IYS-1-076",
+  "nameEn": "I'll Protect You with My Life",
+  "nameJp": "おれは命を懸けておまえを守る",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-076.png?v8"
+ },
+ "IYS-1-077": {
+  "key": "IYS-1-077",
+  "numberJp": "UA50BT/IYS-1-077",
+  "nameEn": "Wind Tunnel",
+  "nameJp": "風穴",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場に〈弥勒〉がある場合、手札にあるこのカードの消費APを-1する。BP5000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
+  "effectEn": "If you have <Miroku> on your field, reduce the AP cost of this card in your hand by 1. Choose up to 1 character in your opponent's Front Line with BP 5000 or less, retire it.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-077.png?v8"
+ },
+ "IYS-1-078": {
+  "key": "IYS-1-078",
+  "numberJp": "UA50BT/IYS-1-078",
+  "nameEn": "Barrier",
+  "nameJp": "結界",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "カードを2枚引き、自分の手札を2枚場外に置く。自分の場に〈弥勒〉がある場合、自分のAPカードを1枚アクティブにする。",
+  "effectEn": "Draw 2 card(s), then put 2 card(s) from your hand into your Outside Area. If you have <Miroku> on your field, Set 1 of your AP cards to active.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-078.png?v8"
+ },
+ "IYS-1-079": {
+  "key": "IYS-1-079",
+  "numberJp": "UA50BT/IYS-1-079",
+  "nameEn": "Tetsusaiga",
+  "nameJp": "鉄砕牙",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈犬夜叉〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Inuyasha> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-079.png?v8"
+ },
+ "IYS-1-080": {
+  "key": "IYS-1-080",
+  "numberJp": "UA50BT/IYS-1-080",
+  "nameEn": "Hiraikotsu",
+  "nameJp": "飛来骨",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "相手のフロントLのキャラを1枚選び、レストにする。このカードが自分の効果によって手札から場外に置かれた時、自分の場に〈珊瑚〉がある場合、カードを1枚引く。",
+  "effectEn": "Choose 1 character in your opponent's Front Line, rest it. When this card is put from your hand into your Outside Area by your own effect, if you have <Sango> on your field, draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-080.png?v8"
+ },
+ "IYS-1-AP01": {
+  "key": "IYS-1-AP01",
+  "numberJp": "UA50BT/IYS-1-AP01",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(犬夜叉)",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-AP01.png?v8"
+ },
+ "IYS-1-AP02": {
+  "key": "IYS-1-AP02",
+  "numberJp": "UA50BT/IYS-1-AP02",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(犬夜叉)",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-AP02.png?v8"
+ },
+ "IYS-1-AP03": {
+  "key": "IYS-1-AP03",
+  "numberJp": "UA50BT/IYS-1-AP03",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(犬夜叉)",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-AP03.png?v8"
+ },
+ "IYS-1-AP04": {
+  "key": "IYS-1-AP04",
+  "numberJp": "UA50BT/IYS-1-AP04",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(犬夜叉)",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-AP04.png?v8"
+ },
+ "IYS-1-AP05": {
+  "key": "IYS-1-AP05",
+  "numberJp": "UA50BT/IYS-1-AP05",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(犬夜叉)",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-AP05.png?v8"
+ },
+ "IYS-1-AP06": {
+  "key": "IYS-1-AP06",
+  "numberJp": "UA50BT/IYS-1-AP06",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(犬夜叉)",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-AP06.png?v8"
+ },
+ "IYS-1-AP07": {
+  "key": "IYS-1-AP07",
+  "numberJp": "UA50BT/IYS-1-AP07",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(犬夜叉)",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-AP07.png?v8"
+ },
+ "IYS-1-AP08": {
+  "key": "IYS-1-AP08",
+  "numberJp": "UA50BT/IYS-1-AP08",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(犬夜叉)",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-AP08.png?v8"
+ },
+ "IYS-1-AP09": {
+  "key": "IYS-1-AP09",
+  "numberJp": "UA50BT/IYS-1-AP09",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(犬夜叉)",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-AP09.png?v8"
+ },
+ "IYS-1-AP10": {
+  "key": "IYS-1-AP10",
+  "numberJp": "UA50BT/IYS-1-AP10",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(犬夜叉)",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-AP10.png?v8"
+ },
+ "IYS-1-AP11": {
+  "key": "IYS-1-AP11",
+  "numberJp": "UA50BT/IYS-1-AP11",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(犬夜叉)",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-AP11.png?v8"
+ },
+ "IYS-1-AP12": {
+  "key": "IYS-1-AP12",
+  "numberJp": "UA50BT/IYS-1-AP12",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(犬夜叉)",
+  "series": "犬夜叉",
+  "setName": "UE23BT: Inuyasha",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA50BT_IYS-1-AP12.png?v8"
+ }
+}

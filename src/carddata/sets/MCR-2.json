@@ -1,0 +1,2585 @@
+{
+ "MCR-2-001": {
+  "key": "MCR-2-001",
+  "numberJp": "EX14BT/MCR-2-001",
+  "nameEn": "",
+  "nameJp": "シェリル・ノーム",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-001.png?v8"
+ },
+ "MCR-2-002": {
+  "key": "MCR-2-002",
+  "numberJp": "EX14BT/MCR-2-002",
+  "nameEn": "",
+  "nameJp": "シェリル・ノーム",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【ターン1】このキャラが登場したターン中のみ発動できる。以下から1つ選ぶ。・自分のライフを1枚手札に加える。そうした場合、カードを2枚引き、自分の手札を1枚場外に置く。・このターン中に自分がライフを手札に加えている場合、カードを1枚引く。",
+  "effectEn": "[Activate: Main] [Once Per Turn] Can only activate during the turn this character was played. Choose 1 of the following. Add 1 of your Life cards to your hand. If you do, Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area. If you have added Life to your hand this turn, draw 1 card(s).",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】相手のフロントLのキャラを1枚選び、レストにする。それは次の1回アクティブにならない。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-002.png?v8"
+ },
+ "MCR-2-003": {
+  "key": "MCR-2-003",
+  "numberJp": "EX14BT/MCR-2-003",
+  "nameEn": "",
+  "nameJp": "シェリル・ノーム",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【自分のターン中】このターン中に自分がライフを手札に加えている場合、このキャラはBP+1000。【起動メイン】【ターン1】自分のライフを1枚手札に加える。",
+  "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [During Your Turn] If you have added Life to your hand this turn, this character gets BP+1000. [Activate: Main] [Once Per Turn] Add 1 of your Life cards to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-003.png?v8"
+ },
+ "MCR-2-004": {
+  "key": "MCR-2-004",
+  "numberJp": "EX14BT/MCR-2-004",
+  "nameEn": "",
+  "nameJp": "シェリル・ノーム",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈シェリル・ノーム〉アクティブにし、フロントLに移動できる自分のフロントLに〈ランカ・リー〉がある場合、このキャラは以下の効果を全て得る。・【インパクト（1）】・【起動メイン】【フロントLにある場合】【ターン1】自分のライフを1枚手札に加える。そうした場合、カードを1枚引き、このターン中、次に手札から使用する［特徴：歌（シェリル）］の消費APを-1する。",
+  "effectEn": "[Raid] Can Raid onto <シェリル・ノーム>; set it to active and you may move it to the Front Line. If you have <ランカ・リー> in your Front Line, this character gains all of the following effects. [Impact 1] [Activate: Main] [While in Front Line] [Once Per Turn] Add 1 of your Life cards to your hand. If you do, draw 1 card(s), and this turn, reduce the AP cost of the next [Trait: Song (Sheryl)] you use from your hand by 1.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-004.png?v8"
+ },
+ "MCR-2-005": {
+  "key": "MCR-2-005",
+  "numberJp": "EX14BT/MCR-2-005",
+  "nameEn": "",
+  "nameJp": "ランカ・リー",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から1枚見て、山札の上か場外に置く。",
+  "effectEn": "[On Play] Look at the top 1 card(s) of your deck, put them on top of your deck or into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-005.png?v8"
+ },
+ "MCR-2-006": {
+  "key": "MCR-2-006",
+  "numberJp": "EX14BT/MCR-2-006",
+  "nameEn": "",
+  "nameJp": "ランカ・リー",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【黄】。",
+  "effectEn": "While this character is active, its generated energy +[Yellow].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-006.png?v8"
+ },
+ "MCR-2-007": {
+  "key": "MCR-2-007",
+  "numberJp": "EX14BT/MCR-2-007",
+  "nameEn": "",
+  "nameJp": "ランカ・リー",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】このターン中に自分がライフを手札に加えている場合のみ発動できる。このキャラをアクティブにし、次の自分のターン開始時まで、このキャラはBP+500。〈ランカ・リー〉のこの効果は1ターンに1回のみ発動できる。",
+  "effectEn": "[Activate: Main] Can only activate if you have added Life to your hand this turn. Set this character to active, and until the start of your next turn, this character gets BP+500. This <ランカ・リー> effect can only activate 1 time(s) per 1 turn(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-007.png?v8"
+ },
+ "MCR-2-008": {
+  "key": "MCR-2-008",
+  "numberJp": "EX14BT/MCR-2-008",
+  "nameEn": "",
+  "nameJp": "ランカ・リー",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈ランカ・リー〉アクティブにし、フロントLに移動できる【登場時】カードを1枚引く。【起動メイン】【フロントLにある場合】【手札を1枚場外に置く】【ターン1】このターン中に自分がライフを手札に加えている場合のみ発動できる。以下から1つ選ぶ。このターン中に自分の他の〈ランカ・リー〉が既に選んだ効果は選べない。・自分の山札の上から1枚を表向きで自分のライフエリアに置く。・相手のフロントLのキャラを1枚選び、次の自分のターン開始時まで、「このキャラはアタックできない。」を与える。",
+  "effectEn": "[Raid] Can Raid onto <ランカ・リー>; set it to active and you may move it to the Front Line. [On Play] Draw 1 card(s). [Activate: Main] [While in Front Line] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] Can only activate if you have added Life to your hand this turn. Choose 1 of the following. You cannot choose an effect that your other <ランカ・リー> has already chosen this turn. Put the top 1 card(s) of your deck face up into your Life Area. Choose 1 character in your opponent's Front Line, Until the start of your next turn, it gains “This character cannot attack”",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-008.png?v8"
+ },
+ "MCR-2-009": {
+  "key": "MCR-2-009",
+  "numberJp": "EX14BT/MCR-2-009",
+  "nameEn": "",
+  "nameJp": "オベリスク",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [
+   "歌（シェリル）"
+  ],
+  "effectJp": "以下から『1つ』まで選ぶ。このターン中に自分がライフを手札に加えている場合、『2つ』に代わる。・カードを2枚引く。・自分の場のキャラを1枚選び、このターン中、BP+3000。・自分のライフが1で、自分のリムーブエリアに〈オベリスク〉がない場合、自分の山札の上から1枚を表向きで自分のライフエリアに置く。このカードをリムーブエリアに置く。",
+  "effectEn": "Choose up to “1” of the following. If you have added Life to your hand this turn, it becomes “2” instead. Draw 2 card(s). Choose 1 character on your field, it gets BP+3000 this turn. If your Life is 1 and you don't have <オベリスク> in your Remove Area, put the top 1 card(s) of your deck face up into your Life Area. Put this card into the Remove Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-009.png?v8"
+ },
+ "MCR-2-010": {
+  "key": "MCR-2-010",
+  "numberJp": "EX14BT/MCR-2-010",
+  "nameEn": "",
+  "nameJp": "放課後オーバーフロウ",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [
+   "歌（ランカ）"
+  ],
+  "effectJp": "自分の場のキャラを1枚まで選び、このターン中、BP+2000。自分の場外に黄の［特徴：歌（ランカ）］のカード名が3種類以上ある場合、カードを2枚引く。",
+  "effectEn": "Choose up to 1 character on your field, it gets BP+2000 this turn. If you have 3 or more different card names among yellow [Trait: Song (Ranka)] in your Outside Area, draw 2 card(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-010.png?v8"
+ },
+ "MCR-2-011": {
+  "key": "MCR-2-011",
+  "numberJp": "EX14BT/MCR-2-011",
+  "nameEn": "",
+  "nameJp": "VF-19EF/A イサム・スペシャル",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "S.M.S",
+   "F形態"
+  ],
+  "effectJp": "【フロントLにある場合】自分のアタックフェイズ終了時、カードを1枚引き、このキャラを自分の山札の下に置く。自分のエナジーLのカード名に「イサム」を含まないキャラを1枚まで選び、フロントLに移動させる。【登場時】【フロントLにある場合】このキャラをアクティブにする。〈VF-19EF/A イサム・スペシャル〉のこの効果は1ターンに1回のみ発動する。",
+  "effectEn": "[While in Front Line] At the end of your Attack Phase, draw 1 card(s) and put this character on the bottom of your deck. Choose up to 1 character in your Energy Line without “Isamu” in its card name and move it to the Front Line. [On Play] [While in Front Line] Set this character to active. This <VF-19EF/A イサム・スペシャル> effect can only activate 1 time(s) per 1 turn(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-011.png?v8"
+ },
+ "MCR-2-012": {
+  "key": "MCR-2-012",
+  "numberJp": "EX14BT/MCR-2-012",
+  "nameEn": "",
+  "nameJp": "シェリル・ノーム",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から2枚見て、カード名に「アルト」を含むカードか〈サヨナラノツバサ ～ the end of triangle〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。【起動メイン】【レストにする】このターン中に自分が〈サヨナラノツバサ ～ the end of triangle〉を使用している場合のみ発動できる。自分の山札の上から1枚見て、山札の上か下に置く。",
+  "effectEn": "[On Play] Look at the top 2 card(s) of your deck, reveal up to 1 card with “Alto” in its card name or <サヨナラノツバサ ～ the end of triangle> among them, and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area. [Activate: Main] [Rest this card] Can only activate if you have used <サヨナラノツバサ ～ the end of triangle> this turn. Look at the top 1 card(s) of your deck and put it on the top or bottom of your deck.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-012.png?v8"
+ },
+ "MCR-2-013": {
+  "key": "MCR-2-013",
+  "numberJp": "EX14BT/MCR-2-013",
+  "nameEn": "",
+  "nameJp": "ランカ・リー",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から2枚見て、カード名に「アルト」を含むカードか〈サヨナラノツバサ ～ the end of triangle〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。【起動メイン】【レストにする】このターン中に自分が〈サヨナラノツバサ ～ the end of triangle〉を使用している場合のみ発動できる。自分の山札の上から3枚見て、望む順で山札の上に置く。",
+  "effectEn": "[On Play] Look at the top 2 card(s) of your deck, reveal up to 1 card with “Alto” in its card name or <サヨナラノツバサ ～ the end of triangle> among them, and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area. [Activate: Main] [Rest this card] Can only activate if you have used <サヨナラノツバサ ～ the end of triangle> this turn. Look at the top 3 card(s) of your deck and put them back on top of your deck in any order.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-013.png?v8"
+ },
+ "MCR-2-014": {
+  "key": "MCR-2-014",
+  "numberJp": "EX14BT/MCR-2-014",
+  "nameEn": "",
+  "nameJp": "VF-27γSP スーパールシファーバルキリー（ブレラ・スターン）",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "B形態"
+  ],
+  "effectJp": "【起動メイン】【フロントLにある場合】【レストにする】【このカードを退場させる】自分の場に〈ランカ・リー〉がある場合のみ発動できる。BP3000以下の相手のフロントLのキャラを1枚まで選び、退場させる。このターン中に自分が〈サヨナラノツバサ ～ the end of triangle〉を使用している場合、カードを1枚引く。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Rest this card] [Retire this card] Can only activate if you have <ランカ・リー> on your field. Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have used <サヨナラノツバサ ～ the end of triangle> this turn, draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-014.png?v8"
+ },
+ "MCR-2-015": {
+  "key": "MCR-2-015",
+  "numberJp": "EX14BT/MCR-2-015",
+  "nameEn": "",
+  "nameJp": "早乙女 アルト",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "S.M.S",
+   "スカル小隊"
+  ],
+  "effectJp": "【自分のターン中】自分の場に〈シェリル・ノーム〉と〈ランカ・リー〉がある場合、このキャラはBP+1000。【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[During Your Turn] If you have <シェリル・ノーム> and <ランカ・リー> on your field, This character gets BP+1000. [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-015.png?v8"
+ },
+ "MCR-2-016": {
+  "key": "MCR-2-016",
+  "numberJp": "EX14BT/MCR-2-016",
+  "nameEn": "",
+  "nameJp": "YF-29 デュランダルバルキリー（早乙女 アルト）",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "S.M.S",
+   "スカル小隊",
+   "F形態"
+  ],
+  "effectJp": "【レイド】〈早乙女 アルト〉アクティブにし、フロントLに移動できるこのキャラのアタック終了時、自分のフロントLにアクティブのキャラがない場合、このキャラを退場させてもよい。【登場時】自分の場外から〈サヨナラノツバサ ～ the end of triangle〉を1枚まで手札に加える。【退場時】自分のターン中の場合、このキャラのレイド元のカードを1枚まで自分の場にアクティブで登場させ、そのキャラにこのターン中、「このキャラはBP3000以下のキャラにブロックされない。」を与える。",
+  "effectEn": "[Raid] Can Raid onto <早乙女 アルト>; set it to active and you may move it to the Front Line. At the end of this character's attack, if you have no active characters in your Front Line, you may retire this character. [On Play] Add up to 1 <サヨナラノツバサ ～ the end of triangle> from your Outside Area to your hand. [On Retire] If it is your turn, play up to 1 of this character's Raid source cards to your field active, and that character gains “This character cannot be blocked by characters with BP 3000 or less” this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-016.png?v8"
+ },
+ "MCR-2-017": {
+  "key": "MCR-2-017",
+  "numberJp": "EX14BT/MCR-2-017",
+  "nameEn": "",
+  "nameJp": "VF-25G トルネードメサイアバルキリー（ミハエル・ブラン）",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "S.M.S",
+   "スカル小隊",
+   "B形態"
+  ],
+  "effectJp": "【フロントLにある場合】自分の場のレイド状態の〈クァドラン・レア（クラン・クラン）〉が退場した時、そのキャラのレイド元のカードを1枚まで自分の場にアクティブで登場させる。【起動メイン】【ターン1】このキャラが【インパクト】を持つ場合のみ発動できる。このキャラはこのターン中、【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、その場合ブロックされない）を得る。",
+  "effectEn": "[While in Front Line] When a Raided <クァドラン・レア（クラン・クラン）> on your field is retired, play up to 1 of that character's Raid source cards to your field active. [Activate: Main] [Once Per Turn] Can only activate if this character has [Impact]. This character gains [Snipe] (Can attack a chosen character in your opponent's Front Line; if so, it cannot be blocked) this turn.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-017.png?v8"
+ },
+ "MCR-2-018": {
+  "key": "MCR-2-018",
+  "numberJp": "EX14BT/MCR-2-018",
+  "nameEn": "",
+  "nameJp": "サヨナラノツバサ ～ the end of triangle",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [
+   "歌（シェリル）",
+   "歌（ランカ）"
+  ],
+  "effectJp": "〈サヨナラノツバサ ～ the end of triangle〉は1ターンに1枚のみ使用できる。自分の場に〈シェリル・ノｰム〉と〈ランカ・リー〉がある場合、手札のこのカードの消費APを-2する。BP1500以上の相手のフロントLのキャラ全ては、このターン中、BP-1000。カードを1枚引く。",
+  "effectEn": "Only 1 <サヨナラノツバサ ～ the end of triangle> can be used per 1 turn(s). If you have <シェリル・ノｰム> and <ランカ・リー> on your field, reduce the AP cost of this card in your hand by 2. All characters in your opponent's Front Line with BP 1500 or more it gets BP-1000 this turn. Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-018.png?v8"
+ },
+ "MCR-2-019": {
+  "key": "MCR-2-019",
+  "numberJp": "EX14BT/MCR-2-019",
+  "nameEn": "",
+  "nameJp": "ハインツ・ネーリッヒ・ウィンダミア",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ウィンダミア王国"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【手札を1枚場外に置く】自分のフロントLに［特徴：空中騎士団］がある場合のみ発動できる。相手のフロントLのキャラ全ては、このターン中、BP-1000。〈ハインツ・ネーリッヒ・ウィンダミア〉のこの効果は1ターンに1回のみ発動できる。",
+  "effectEn": "[Activate: Main] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] Can only activate if you have a [Trait: Aerial Knights] in your Front Line. All characters in your opponent's Front Line it gets BP-1000 this turn. This <ハインツ・ネーリッヒ・ウィンダミア> effect can only activate 1 time(s) per 1 turn(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-019.png?v8"
+ },
+ "MCR-2-020": {
+  "key": "MCR-2-020",
+  "numberJp": "EX14BT/MCR-2-020",
+  "nameEn": "",
+  "nameJp": "ハヤテ・インメルマン",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "Δ小隊"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-020.png?v8"
+ },
+ "MCR-2-021": {
+  "key": "MCR-2-021",
+  "numberJp": "EX14BT/MCR-2-021",
+  "nameEn": "",
+  "nameJp": "ハヤテ・インメルマン",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "Δ小隊"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：Δ小隊］か〈フレイア・ヴィオン〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: Delta Platoon] or <フレイア・ヴィオン> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-021.png?v8"
+ },
+ "MCR-2-022": {
+  "key": "MCR-2-022",
+  "numberJp": "EX14BT/MCR-2-022",
+  "nameEn": "",
+  "nameJp": "ハヤテ・インメルマン",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "Δ小隊"
+  ],
+  "effectJp": "【フロントLにある場合】このキャラが登場したターン以外の自分のメインフェイズ中に、自分の効果でカードを引いた時、このキャラをアクティブにする。【起動メイン】【フロントLにある場合】【レストにする】このキャラはこのターン中、BP+1000。【アタック時】このキャラのBPが5000以上の場合、自分の山札の上から2枚見て、望む枚数を望む順で山札の上に置き、残りを場外に置く。",
+  "effectEn": "[While in Front Line] When you draw a card with your own effect during your Main Phase other than the turn this character was played, set this character to active. [Activate: Main] [While in Front Line] [Rest this card] This character gets BP+1000 this turn. [When Attacking] If this character's BP is 5000 or more, Look at the top 2 card(s) of your deck, Put any number of them on top of your deck in any order, Put the rest into your Outside Area.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の場外から必要エナジーが2以下で消費APが1の紫のキャラカードを1枚自分のフロントLにアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Purple character card with required energy 2 or less and with AP cost 1 from your Outside Area to your Front Line active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-022.png?v8"
+ },
+ "MCR-2-023": {
+  "key": "MCR-2-023",
+  "numberJp": "EX14BT/MCR-2-023",
+  "nameEn": "",
+  "nameJp": "ミラージュ・ファリーナ・ジーナス",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "Δ小隊"
+  ],
+  "effectJp": "【登場時】自分の山札の上から1枚見て、山札の上か場外に置く。",
+  "effectEn": "[On Play] Look at the top 1 card(s) of your deck, put them on top of your deck or into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-023.png?v8"
+ },
+ "MCR-2-024": {
+  "key": "MCR-2-024",
+  "numberJp": "EX14BT/MCR-2-024",
+  "nameEn": "",
+  "nameJp": "ミラージュ・ファリーナ・ジーナス",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "Δ小隊"
+  ],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【紫】。",
+  "effectEn": "While this character is active, its generated energy +[Purple].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-024.png?v8"
+ },
+ "MCR-2-025": {
+  "key": "MCR-2-025",
+  "numberJp": "UAPR/MCR-2-025",
+  "nameEn": "",
+  "nameJp": "ミラージュ・ファリーナ・ジーナス",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "Δ小隊"
+  ],
+  "effectJp": "【登場時】自分のフロントLにカード名に「ミラージュ」を含まないレイド状態の［特徴：Δ小隊］がある場合、カードを1枚引く。",
+  "effectEn": "[On Play] If you have a Raided [Trait: Delta Platoon] without “Mirage” in its card name in your Front Line, draw 1 card(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_MCR-2-025.png?v9"
+ },
+ "MCR-2-026": {
+  "key": "MCR-2-026",
+  "numberJp": "EX14BT/MCR-2-026",
+  "nameEn": "",
+  "nameJp": "メッサー・イーレフェルト",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "Δ小隊"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-026.png?v8"
+ },
+ "MCR-2-027": {
+  "key": "MCR-2-027",
+  "numberJp": "EX14BT/MCR-2-027",
+  "nameEn": "",
+  "nameJp": "メッサー・イーレフェルト",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "Δ小隊"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle)",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-027.png?v8"
+ },
+ "MCR-2-028": {
+  "key": "MCR-2-028",
+  "numberJp": "EX14BT/MCR-2-028",
+  "nameEn": "",
+  "nameJp": "カナメ・バッカニア",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "ワルキューレ"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【紫】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Purple] and gains “At the end of the Main Phase, retire this character”",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-028.png?v8"
+ },
+ "MCR-2-029": {
+  "key": "MCR-2-029",
+  "numberJp": "EX14BT/MCR-2-029",
+  "nameEn": "",
+  "nameJp": "カナメ・バッカニア",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "ワルキューレ"
+  ],
+  "effectJp": "【登場時】自分の手札から必要エナジーが2以下で消費APが1の紫の［特徴：ワルキューレ］を1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[On Play] Play up to 1 Purple [Trait: Walküre] with required energy 2 or less and with AP cost 1 from your hand to your field rested.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-029.png?v8"
+ },
+ "MCR-2-030": {
+  "key": "MCR-2-030",
+  "numberJp": "EX14BT/MCR-2-030",
+  "nameEn": "",
+  "nameJp": "カナメ・バッカニア",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "ワルキューレ"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：ワルキューレ］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: Walküre] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-030.png?v8"
+ },
+ "MCR-2-031": {
+  "key": "MCR-2-031",
+  "numberJp": "EX14BT/MCR-2-031",
+  "nameEn": "",
+  "nameJp": "カナメ・バッカニア",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 3,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "ワルキューレ"
+  ],
+  "effectJp": "このキャラはアクティブで登場させる。【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外から必要エナジーが2以下の紫の［特徴：ワルキューレ］を1枚まで自分の場にレストで登場させる。",
+  "effectEn": "This character is played active. [On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, Play up to 1 Purple [Trait: Walküre] with required energy 2 or less from your Outside Area to your field rested.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の場外から必要エナジーが2以下で消費APが1の紫のキャラカードを1枚自分のフロントLにアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Purple character card with required energy 2 or less and with AP cost 1 from your Outside Area to your Front Line active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-031.png?v8"
+ },
+ "MCR-2-032": {
+  "key": "MCR-2-032",
+  "numberJp": "EX14BT/MCR-2-032",
+  "nameEn": "",
+  "nameJp": "フレイア・ヴィオン",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "ワルキューレ"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-032.png?v8"
+ },
+ "MCR-2-033": {
+  "key": "MCR-2-033",
+  "numberJp": "EX14BT/MCR-2-033",
+  "nameEn": "",
+  "nameJp": "フレイア・ヴィオン",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "ワルキューレ"
+  ],
+  "effectJp": "【登場時】カードを1枚引く。",
+  "effectEn": "[On Play] Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-033.png?v8"
+ },
+ "MCR-2-034": {
+  "key": "MCR-2-034",
+  "numberJp": "EX14BT/MCR-2-034",
+  "nameEn": "",
+  "nameJp": "フレイア・ヴィオン",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "ワルキューレ"
+  ],
+  "effectJp": "【自分のターン中】自分の場に［特徴：ワルキューレ］のカード名が3種類以上ある場合、このキャラはBP+1000。",
+  "effectEn": "[During Your Turn] If you have 3 or more [Trait: Walküre] with different card names on your field, This character gets BP+1000.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-034.png?v8"
+ },
+ "MCR-2-035": {
+  "key": "MCR-2-035",
+  "numberJp": "UAPR/MCR-2-035",
+  "nameEn": "",
+  "nameJp": "フレイア・ヴィオン",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "ワルキューレ"
+  ],
+  "effectJp": "【起動メイン】【レストにする】自分のフロントLにカード名に「ハヤテ」を含むキャラがある場合のみ発動できる。以下から1つ選ぶ。〈フレイア・ヴィオン〉のこの効果は1ターンに1回のみ発動できる。・カードを1枚引き、自分の手札を1枚場外に置く。・自分のライフを1枚手札に加える。そうした場合、カードを2枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[Activate: Main] [Rest this card] Can only activate if you have a character with “Hayate” in its card name in your Front Line. Choose 1 of the following. This <フレイア・ヴィオン> effect can only activate 1 time(s) per 1 turn(s). Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. Add 1 of your Life cards to your hand. If you do, Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_MCR-2-035.png?v9"
+ },
+ "MCR-2-036": {
+  "key": "MCR-2-036",
+  "numberJp": "UAPR/MCR-2-036",
+  "nameEn": "",
+  "nameJp": "フレイア・ヴィオン",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "UR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "ワルキューレ"
+  ],
+  "effectJp": "このカードを手札からレイドする際、自分の場に［特徴：ワルキューレ］のカード名が5種類以上ある場合、消費APを-1する。このターン中に他の〈フレイア・ヴィオン〉をAPを支払わずにレイドしているなら、この効果は無効になる。【レイド】〈フレイア・ヴィオン〉アクティブにし、フロントLに移動できる【アタック時】自分の場に［特徴：ワルキューレ］のカード名が3種類以上ある場合、自分の場のキャラ全ては、このターン中、BP+1000。",
+  "effectEn": "When Raiding this card from your hand, if you have 5 or more different card names among [Trait: Walküre] on your field, reduce its AP cost by 1. If you have Raided another <フレイア・ヴィオン> without paying AP this turn, this effect is negated. [Raid] Can Raid onto <フレイア・ヴィオン>; set it to active and you may move it to the Front Line. [When Attacking] If you have 3 or more [Trait: Walküre] with different card names on your field, all characters on your field it gets BP+1000 this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_MCR-2-036.png?v9"
+ },
+ "MCR-2-037": {
+  "key": "MCR-2-037",
+  "numberJp": "EX14BT/MCR-2-037",
+  "nameEn": "",
+  "nameJp": "マキナ・中島",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "ワルキューレ"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-037.png?v8"
+ },
+ "MCR-2-038": {
+  "key": "MCR-2-038",
+  "numberJp": "EX14BT/MCR-2-038",
+  "nameEn": "",
+  "nameJp": "マキナ・中島",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "ワルキューレ"
+  ],
+  "effectJp": "【登場時】自分の山札の上から5枚見て、カード名に「VF」を含む［特徴：Δ小隊］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 5 card(s) of your deck, reveal up to 1 [Trait: Delta Platoon] with “VF” in its card name among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-038.png?v8"
+ },
+ "MCR-2-039": {
+  "key": "MCR-2-039",
+  "numberJp": "EX14BT/MCR-2-039",
+  "nameEn": "",
+  "nameJp": "マキナ・中島",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "ワルキューレ"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【登場時】自分の場に［特徴：ワルキューレ］のカード名が3種類以上ある場合、自分の場の他のキャラを1枚まで選び、このターン中、『BP+1000』。5種類以上ある場合、『BP+2000』に代わる。",
+  "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [On Play] If you have 3 or more [Trait: Walküre] with different card names on your field, Choose up to 1 other character on your field, This turn, 『BP+1000』. If there are 5 or more different ones, it becomes “BP+2000” instead.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-039.png?v8"
+ },
+ "MCR-2-040": {
+  "key": "MCR-2-040",
+  "numberJp": "EX14BT/MCR-2-040",
+  "nameEn": "",
+  "nameJp": "マキナ・中島",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "ワルキューレ"
+  ],
+  "effectJp": "自分のフロントLに［特徴：ワルキューレ］が2枚以上ある場合、このキャラの発生エナジー+【紫】。【登場時】自分の場に〈レイナ・プラウラー〉がある場合、自分の山札の上から2枚見て、望む枚数を望む順で山札の上に置き、残りを場外に置く。",
+  "effectEn": "If you have 2 or more [Trait: Walküre] in your Front Line, This character's generated energy +[Purple]. [On Play] If you have <レイナ・プラウラー> on your field, Look at the top 2 card(s) of your deck, Put any number of them on top of your deck in any order, Put the rest into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-040.png?v8"
+ },
+ "MCR-2-041": {
+  "key": "MCR-2-041",
+  "numberJp": "EX14BT/MCR-2-041",
+  "nameEn": "",
+  "nameJp": "美雲・ギンヌメール",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "ワルキューレ"
+  ],
+  "effectJp": "【登場時】自分の山札の上から2枚見て、［特徴：ワルキューレ］を1枚まで場外に置き、残りを望む順で山札の上に置く。",
+  "effectEn": "[On Play] Look at the top 2 card(s) of your deck, put up to 1 [Trait: Walküre] among them into your Outside Area, and put the rest on top of your deck in any order.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-041.png?v8"
+ },
+ "MCR-2-042": {
+  "key": "MCR-2-042",
+  "numberJp": "UAPR/MCR-2-042",
+  "nameEn": "",
+  "nameJp": "美雲・ギンヌメール",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "ワルキューレ"
+  ],
+  "effectJp": "このキャラは相手のキャラの効果で選ばれない。【フロントLにある場合】【ターン1】自分が一度に2ダメージ以上受ける場合、代わりに1ダメージにしてもよい。",
+  "effectEn": "This character cannot be chosen by your opponent's character effects. [While in Front Line] [Once Per Turn] If you would take 2 or more damage at once, you may take 1 damage instead.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_MCR-2-042.png?v9"
+ },
+ "MCR-2-043": {
+  "key": "MCR-2-043",
+  "numberJp": "EX14BT/MCR-2-043",
+  "nameEn": "",
+  "nameJp": "美雲・ギンヌメール",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "ワルキューレ"
+  ],
+  "effectJp": "【登場時】自分の場に［特徴：ワルキューレ］のカード名が3種類以上ある場合、自分の場外の必要エナジーが2以下の［特徴：歌（ワルキューレ）］を1枚まで自分の山札の上に置く。",
+  "effectEn": "[On Play] If you have 3 or more different card names among [Trait: Walküre] on your field, put up to 1 [Trait: Song (Walküre)] with required energy 2 or less from your Outside Area on top of your deck.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-043.png?v8"
+ },
+ "MCR-2-044": {
+  "key": "MCR-2-044",
+  "numberJp": "EX14BT/MCR-2-044",
+  "nameEn": "",
+  "nameJp": "美雲・ギンヌメール",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "ワルキューレ"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）自分の場に［特徴：ワルキューレ］のカード名が3種類以上ある場合、このキャラはBP+1000。",
+  "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle)If you have 3 or more [Trait: Walküre] with different card names on your field, This character gets BP+1000.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-044.png?v8"
+ },
+ "MCR-2-045": {
+  "key": "MCR-2-045",
+  "numberJp": "EX14BT/MCR-2-045",
+  "nameEn": "",
+  "nameJp": "美雲・ギンヌメール",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "ワルキューレ"
+  ],
+  "effectJp": "【レイド】〈美雲・ギンヌメール〉アクティブにし、フロントLに移動できる【自分のターン中】自分の場に［特徴：ワルキューレ］のカード名が3種類以上ある場合、このキャラは【インパクト（1）】を得る。【アタック時】以下から2つまで選ぶ。・自分の場外の［特徴：歌（ワルキューレ）］を1枚リムーブエリアに置く。そうした場合、カードを1枚引く。・自分の場に［特徴：ワルキューレ］のカード名が5種類以上ある場合、このキャラは次の自分のターン開始時まで、BP+1000。",
+  "effectEn": "[Raid] Can Raid onto <美雲・ギンヌメール>; set it to active and you may move it to the Front Line. [During Your Turn] If you have 3 or more [Trait: Walküre] with different card names on your field, This character [Impact 1] is gained. [When Attacking] Choose up to 2 of the following. Put into the owner's remove area 1 [Trait: Song (Walküre)] in your Outside Area. If you do, Draw 1 card(s). If you have 5 or more [Trait: Walküre] with different card names on your field, This character gets BP+1000 until the start of your next turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-045.png?v8"
+ },
+ "MCR-2-046": {
+  "key": "MCR-2-046",
+  "numberJp": "EX14BT/MCR-2-046",
+  "nameEn": "",
+  "nameJp": "レイナ・プラウラー",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "ワルキューレ"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-046.png?v8"
+ },
+ "MCR-2-047": {
+  "key": "MCR-2-047",
+  "numberJp": "EX14BT/MCR-2-047",
+  "nameEn": "",
+  "nameJp": "レイナ・プラウラー",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "ワルキューレ"
+  ],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-047.png?v8"
+ },
+ "MCR-2-048": {
+  "key": "MCR-2-048",
+  "numberJp": "EX14BT/MCR-2-048",
+  "nameEn": "",
+  "nameJp": "レイナ・プラウラー",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "ワルキューレ"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：ワルキューレ］を1枚まで公開し山札の上に置く。残りを望む順で山札の下に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: Walküre] among them, and put it on top of your deck. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-048.png?v8"
+ },
+ "MCR-2-049": {
+  "key": "MCR-2-049",
+  "numberJp": "EX14BT/MCR-2-049",
+  "nameEn": "",
+  "nameJp": "レイナ・プラウラー",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "ワルキューレ"
+  ],
+  "effectJp": "【起動メイン】【レストにする】以下から1つ選ぶ。・自分の場の他のキャラを1枚選び、このターン中、BP+1000。・自分の場に〈マキナ・中島〉がある場合、自分の場の他のキャラを1枚選び、このターン中、「このキャラはBP4000以上のキャラにブロックされない。」を与える。〈レイナ・プラウラー〉のこの効果は1ターンに1回のみ選べる。",
+  "effectEn": "[Activate: Main] [Rest this card] Choose 1 of the following. Choose 1 other character on your field, it gets BP+1000 this turn. If you have <マキナ・中島> on your field, Choose 1 other character on your field, it gains “This character cannot be blocked by characters with BP 4000 or more” this turn. This <レイナ・プラウラー> effect can only be chosen 1 time(s) per 1 turn(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-049.png?v8"
+ },
+ "MCR-2-050": {
+  "key": "MCR-2-050",
+  "numberJp": "EX14BT/MCR-2-050",
+  "nameEn": "",
+  "nameJp": "Sv-262Ba ドラケンIII（ボーグ・コンファールト）",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ウィンダミア王国",
+   "空中騎士団",
+   "G形態"
+  ],
+  "effectJp": "【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外から【レイド】を持たないキャラカードを1枚まで手札に加える。",
+  "effectEn": "[On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, add up to 1 character card without [Raid] from your Outside Area to your hand.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-050.png?v8"
+ },
+ "MCR-2-051": {
+  "key": "MCR-2-051",
+  "numberJp": "EX14BT/MCR-2-051",
+  "nameEn": "",
+  "nameJp": "Sv-262Hs ドラケンIII（キース・エアロ・ウィンダミア）",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 5,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ウィンダミア王国",
+   "空中騎士団",
+   "B形態"
+  ],
+  "effectJp": "このキャラはアクティブで登場させる。【登場時】相手のフロントLのキャラを1枚まで選び、このターン中、BP-3000。",
+  "effectEn": "This character is played active. [On Play] Choose up to 1 character in your opponent's Front Line, it gets BP-3000 this turn.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-051.png?v8"
+ },
+ "MCR-2-052": {
+  "key": "MCR-2-052",
+  "numberJp": "EX14BT/MCR-2-052",
+  "nameEn": "",
+  "nameJp": "VF-31F ジークフリード（メッサー・イーレフェルト）",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "Δ小隊",
+   "F形態"
+  ],
+  "effectJp": "【レイド】〈メッサー・イーレフェルト〉アクティブにし、フロントLに移動できる【登場時】相手のフロントLのキャラを1枚まで選び、このターン中、BP-2500。【アタック時】このキャラのBPが6000以上の場合、このキャラは次の自分のターン開始時まで、【ダメージ（2）】と【インパクト無効】を得る。【退場時】自分の山札の上から7枚見て、カード名に「メッサー」を含まず「VF」を含む［特徴：Δ小隊］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。",
+  "effectEn": "[Raid] Can Raid onto <メッサー・イーレフェルト>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line, it gets BP-2500 this turn. [When Attacking] If this character's BP is 6000 or more, until the start of your next turn this character gains [Damage 2] and [Impact Nullify]. [On Retire] Look at the top 7 card(s) of your deck, reveal up to 1 [Trait: Delta Platoon] with “VF” and without “Messer” in its card name among them, and add it to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-052.png?v8"
+ },
+ "MCR-2-053": {
+  "key": "MCR-2-053",
+  "numberJp": "EX14BT/MCR-2-053",
+  "nameEn": "",
+  "nameJp": "VF-31C ジークフリード（ミラージュ・ファリーナ・ジーナス）",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "Δ小隊",
+   "B形態"
+  ],
+  "effectJp": "【レイド】〈ミラージュ・ファリーナ・ジーナス〉アクティブにし、フロントLに移動できる【起動メイン】【フロントLにある場合】【ターン1】自分の場のカード名に「ハヤテ」を含むキャラを1枚選ぶ。そうした場合、カードを1枚引き、選んだキャラにこのターン中、【インパクト（1）】を与える。",
+  "effectEn": "[Raid] Can Raid onto <ミラージュ・ファリーナ・ジーナス>; set it to active and you may move it to the Front Line. [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 character with “Hayate” in its card name on your field. If you do, draw 1 card(s), and the chosen character gains [Impact 1] this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-053.png?v8"
+ },
+ "MCR-2-054": {
+  "key": "MCR-2-054",
+  "numberJp": "EX14BT/MCR-2-054",
+  "nameEn": "",
+  "nameJp": "VF-31J ジークフリード（ハヤテ・インメルマン）",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ケイオス",
+   "Δ小隊",
+   "B形態"
+  ],
+  "effectJp": "【レイド】〈ハヤテ・インメルマン〉アクティブにし、フロントLに移動できる【フロントLにある場合】自分のメインフェイズ中に、自分の効果でカードを引いた時、このキャラをアクティブにする。【起動メイン】【フロントLにある場合】【レストにする】以下から1つ選ぶ。このターン中に既に選んだこのキャラの効果は選べない。・自分の手札から必要エナジーが1以下の紫のキャラカードを1枚まで自分の場にレストで登場させる。・自分の場のキャラを1枚選び、このターン中、BP+2000。・相手のフロントLのキャラを1枚選び、このターン中、BP-1500。",
+  "effectEn": "[Raid] Can Raid onto <ハヤテ・インメルマン>; set it to active and you may move it to the Front Line. [While in Front Line] When you draw a card with your own effect during your Main Phase, set this character to active. [Activate: Main] [While in Front Line] [Rest this card] Choose 1 of the following. You cannot choose an effect of this character that has already been chosen this turn. Play up to 1 Purple character card with required energy 1 or less from your hand to your field rested. Choose 1 character on your field, it gets BP+2000 this turn. Choose 1 character in your opponent's Front Line, it gets BP-1500 this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-054.png?v8"
+ },
+ "MCR-2-055": {
+  "key": "MCR-2-055",
+  "numberJp": "EX14BT/MCR-2-055",
+  "nameEn": "",
+  "nameJp": "裸喰娘娘",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】カードを1枚引く。自分の手札から必要エナジーが3以下で消費APが1の紫のキャラカードを1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Draw 1 card(s). Play up to 1 Purple character card with required energy 3 or less and with AP cost 1 from your hand to your field rested.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-055.png?v8"
+ },
+ "MCR-2-056": {
+  "key": "MCR-2-056",
+  "numberJp": "EX14BT/MCR-2-056",
+  "nameEn": "",
+  "nameJp": "覚悟するんよ",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-056.png?v8"
+ },
+ "MCR-2-057": {
+  "key": "MCR-2-057",
+  "numberJp": "EX14BT/MCR-2-057",
+  "nameEn": "",
+  "nameJp": "守ることが俺の仕事だ",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場にカード名に「ハヤテ」を含むキャラがある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have a character with “Hayate” in its card name on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-057.png?v8"
+ },
+ "MCR-2-058": {
+  "key": "MCR-2-058",
+  "numberJp": "EX14BT/MCR-2-058",
+  "nameEn": "",
+  "nameJp": "AXIA～ダイスキでダイキライ～",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [
+   "歌（ワルキューレ）"
+  ],
+  "effectJp": "自分の場の［特徴：Δ小隊］か［特徴：ワルキューレ］を1枚選び、このターン中、BP+2000。自分のAPカードを1枚アクティブにする。",
+  "effectEn": "Choose 1 [Trait: Delta Platoon] or [Trait: Walküre] on your field, it gets BP+2000 this turn. Set 1 of your AP cards to active.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-058.png?v8"
+ },
+ "MCR-2-059": {
+  "key": "MCR-2-059",
+  "numberJp": "EX14BT/MCR-2-059",
+  "nameEn": "",
+  "nameJp": "いけないボーダーライン",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [
+   "歌（ワルキューレ）"
+  ],
+  "effectJp": "自分の山札の上から3枚見て、［特徴：ワルキューレ］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。このターン中、次に手札から使用する［特徴：ワルキューレ］の消費APを-1する。",
+  "effectEn": "Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: Walküre] among them and add it to your hand. Put the rest on the bottom of your deck in any order. This turn, the next [Trait: Walküre] you use from your hand costs 1 less AP.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-059.png?v8"
+ },
+ "MCR-2-060": {
+  "key": "MCR-2-060",
+  "numberJp": "EX14BT/MCR-2-060",
+  "nameEn": "",
+  "nameJp": "一度だけの恋なら",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [
+   "歌（ワルキューレ）"
+  ],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に［特徴：ワルキューレ］のカード名が3種類以上ある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have 3 or more [Trait: Walküre] with different card names on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-060.png?v8"
+ },
+ "MCR-2-061": {
+  "key": "MCR-2-061",
+  "numberJp": "EX14BT/MCR-2-061",
+  "nameEn": "",
+  "nameJp": "GIRAFFE BLUES",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [
+   "歌（ワルキューレ）"
+  ],
+  "effectJp": "カードを1枚引く。その後、以下から1つ選ぶ。・相手のフロントLのキャラを1枚まで選び、次の自分のターン開始時まで、「このキャラはアタックできない。」を与える。・相手のフロントLのレイド状態のキャラを1枚まで選び、レイド状態の上のカードを1枚場外に置く。",
+  "effectEn": "Draw 1 card(s). Then, Choose 1 of the following. Choose up to 1 character in your opponent's Front Line, Until the start of your next turn, it gains “This character cannot attack” Choose up to 1 Raided character in your opponent's Front Line and put 1 of its top Raided card(s) into the Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-061.png?v8"
+ },
+ "MCR-2-062": {
+  "key": "MCR-2-062",
+  "numberJp": "EX14BT/MCR-2-062",
+  "nameEn": "",
+  "nameJp": "アリエス・ターナー",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】このキャラがアクティブの場合のみ発動できる。自分の手札を1枚自分の山札の下に置く。そうした場合、カードを1枚引く。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Can only activate while this character is active. Put 1 card(s) from your hand on the bottom of your deck. If you do, Draw 1 card(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-062.png?v8"
+ },
+ "MCR-2-063": {
+  "key": "MCR-2-063",
+  "numberJp": "EX14BT/MCR-2-063",
+  "nameEn": "",
+  "nameJp": "工藤 シン",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から1枚見て、山札の上か下に置く。",
+  "effectEn": "[On Play] Look at the top 1 card(s) of your deck and put it on the top or bottom of your deck.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-063.png?v8"
+ },
+ "MCR-2-064": {
+  "key": "MCR-2-064",
+  "numberJp": "EX14BT/MCR-2-064",
+  "nameEn": "",
+  "nameJp": "工藤 シン",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から4枚見て、元々のBPが3500以下の特徴を持たないキャラカードを1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck, reveal up to 1 character card with no traits and original BP 3500 or less among them, and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP2500以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-064.png?v8"
+ },
+ "MCR-2-065": {
+  "key": "MCR-2-065",
+  "numberJp": "EX14BT/MCR-2-065",
+  "nameEn": "",
+  "nameJp": "サラ・ノーム",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】以下から1つ選ぶ。・自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。・このキャラが自分の効果で登場していた場合、自分の場の元々のBPが3500以下の他のキャラを1枚まで選び、アクティブにする。",
+  "effectEn": "[On Play] Choose 1 of the following. Choose up to 1 other character on your field, it gets BP+1000 this turn. If this character was played by your own effect, choose up to 1 other character on your field with original BP 3500 or less and set it to active.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-065.png?v8"
+ },
+ "MCR-2-066": {
+  "key": "MCR-2-066",
+  "numberJp": "EX14BT/MCR-2-066",
+  "nameEn": "",
+  "nameJp": "マオ・ノーム",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】自分の場の元々のBPが3500以下の他のキャラを1枚まで選び、このターン中、【インパクト（1）】か「このキャラはBP4000以上のキャラにブロックされない。」を与える。このキャラを自分の山札の下に置く。",
+  "effectEn": "[Activate: Main] [Rest this card] Choose up to 1 other character on your field with original BP 3500 or less; it gains [Impact 1] or “This character cannot be blocked by characters with BP 4000 or more” this turn. Put this character on the bottom of your deck.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-066.png?v8"
+ },
+ "MCR-2-067": {
+  "key": "MCR-2-067",
+  "numberJp": "EX14BT/MCR-2-067",
+  "nameEn": "",
+  "nameJp": "ロイ・フォッカー",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【赤×2】減らす。【起動メイン】【ターン1】このキャラのBPが元々のBPより高い場合のみ発動できる。このキャラはこのターン中、BP+500。",
+  "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Red x2]is reduced. [Activate: Main] [Once Per Turn] Can only activate if this character's BP is higher than its original BP. This character gets BP+500 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-067.png?v8"
+ },
+ "MCR-2-068": {
+  "key": "MCR-2-068",
+  "numberJp": "EX14BT/MCR-2-068",
+  "nameEn": "",
+  "nameJp": "VF-0S フェニックス（ロイ・フォッカー）",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の手札からBP3500以下で消費APが1の赤のキャラカードを1枚まで自分の場にレストで登場させるかレイドさせる。【起動メイン】【フロントLにある場合】【ターン1】このキャラのBPが5000以上の場合のみ発動できる。このキャラをアクティブにする。以下から1つ選ぶ。・カードを1枚引く。・自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] Play up to 1 red character card(s) with BP 3500 or less and AP cost 1 from your hand to your field rested, or Raid them. [Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if this character's BP is 5000 or more. Set this character to active. Choose 1 of the following. Draw 1 card(s). Choose 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-068.png?v8"
+ },
+ "MCR-2-069": {
+  "key": "MCR-2-069",
+  "numberJp": "EX14BT/MCR-2-069",
+  "nameEn": "",
+  "nameJp": "VF-0D フェニックス（工藤 シン）",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈工藤 シン〉アクティブにし、フロントLに移動できる【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【登場時】このキャラはこのターン中、BP+1000。【アタック時】【ターン1】自分の山札の下から1枚を場外に置く。場外に置いたカードが赤の〔〈サラ・ノーム〉か〈マオ・ノーム〉〕の場合、そのカードを自分の場にレストで登場させてもよい。場外に置いたカードが特徴を持たない場合、そのカードを手札に加えてもよい。",
+  "effectEn": "[Raid] Can Raid onto <工藤 シン>; set it to active and you may move it to the Front Line. [Impact Nullify] (The character that battles this character loses Impact during this battle) [On Play] This character gets BP+1000 this turn. [When Attacking] [Once Per Turn] Put the bottom 1 card(s) of your deck into your Outside Area. If the card put into your Outside Area is a red <サラ・ノーム> or <マオ・ノーム>, you may play that card to your field rested. If the card put into your Outside Area has no traits, you may add that card to your hand.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-069.png?v8"
+ },
+ "MCR-2-070": {
+  "key": "MCR-2-070",
+  "numberJp": "EX14BT/MCR-2-070",
+  "nameEn": "",
+  "nameJp": "ARKAN",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-070.png?v8"
+ },
+ "MCR-2-071": {
+  "key": "MCR-2-071",
+  "numberJp": "EX14BT/MCR-2-071",
+  "nameEn": "",
+  "nameJp": "鳥の人",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "このカードは自分の場にBP4000以上のキャラが2枚以上ある場合のみ使用できる。BP5000以下の相手のフロントLのキャラを1枚まで選び、退場させる。自分の場の〈サラ・ノーム〉を自分の山札の下に置いてもよい。そうした場合、カードを1枚引く。",
+  "effectEn": "This card can only be used if you have 2 or more characters with BP 4000 or more on your field. Choose up to 1 character in your opponent's Front Line with BP 5000 or less, retire it. You may put <サラ・ノーム> on your field on the bottom of your deck. If you do, Draw 1 card(s).",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-071.png?v8"
+ },
+ "MCR-2-072": {
+  "key": "MCR-2-072",
+  "numberJp": "EX14BT/MCR-2-072",
+  "nameEn": "",
+  "nameJp": "エルマ・ホイリー",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外から必要エナジーが3以下の〈熱気 バサラ〉を1枚まで手札に加える。",
+  "effectEn": "[On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, add up to 1 <熱気 バサラ> with required energy 3 or less from your Outside Area to your hand.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-072.png?v8"
+ },
+ "MCR-2-073": {
+  "key": "MCR-2-073",
+  "numberJp": "EX14BT/MCR-2-073",
+  "nameEn": "",
+  "nameJp": "ライザ・ホイリー",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【フロントLにある場合】自分の場のレイド状態のカード名に「バサラ」を含むキャラが退場した時、アクティブのこのキャラをレストにしてもよい。そうした場合、退場したキャラのレイド元のカードを1枚まで手札に加える。",
+  "effectEn": "[While in Front Line] When a Raided character with “Basara” in its card name on your field is retired, you may rest this active character. If you do, add up to 1 of the retired character's Raid source cards to your hand.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-073.png?v8"
+ },
+ "MCR-2-074": {
+  "key": "MCR-2-074",
+  "numberJp": "EX14BT/MCR-2-074",
+  "nameEn": "",
+  "nameJp": "熱気 バサラ",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "Fire Bomber"
+  ],
+  "effectJp": "このキャラがアタックしてバトルに勝利した時、カードを1枚引き、このバトルで敗北した相手のキャラは退場する代わりに、手札に戻る。【起動メイン】【フロントLにある場合】【ターン1】このキャラがアクティブの場合のみ発動できる。相手はカードを1枚引く。自分の場の他の［特徴：Fire Bomber］を1枚まで選び、アクティブにする。",
+  "effectEn": "When this character attacks and wins a battle, draw 1 card(s), and the opponent's character that lost this battle returns to its owner's hand instead of being retired. [Activate: Main] [While in Front Line] [Once Per Turn] Can only activate while this character is active. Your opponent draws 1 card(s). Choose up to 1 other [Trait: Fire Bomber] on your field, set it to active.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-074.png?v8"
+ },
+ "MCR-2-075": {
+  "key": "MCR-2-075",
+  "numberJp": "EX14BT/MCR-2-075",
+  "nameEn": "",
+  "nameJp": "熱気 バサラ",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "Fire Bomber"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）このキャラがアタックしてバトルに勝利した時、カードを1枚引き、このバトルで敗北した相手のキャラは退場する代わりに、相手の山札の下に置かれる。【フロントLにある場合】自分の場のカード名に「バサラ」を含むキャラの効果に記載されている「退場する代わりに、手札に戻る。」は「退場する代わりに、相手の山札の下に置かれる。」に代わる。【登場時】自分と相手はカードを1枚引く。",
+  "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) When this character attacks and wins a battle, draw 1 card(s), and the opponent's character that lost this battle is put on the bottom of its owner's deck instead of being retired. [While in Front Line] “Instead of being retired, it returns to its owner's hand” written in the effects of characters with “Basara” in their card names on your field becomes “instead of being retired, it is put on the bottom of its owner's deck” [On Play] You and your opponent each draw 1 card(s).",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-075.png?v8"
+ },
+ "MCR-2-076": {
+  "key": "MCR-2-076",
+  "numberJp": "EX14BT/MCR-2-076",
+  "nameEn": "",
+  "nameJp": "ミレーヌ・フレア・ジーナス",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "Fire Bomber"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見て、カード名に「ジーナス」を含むキャラカードを1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 character card with “Genus” in its card name among them, and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-076.png?v8"
+ },
+ "MCR-2-077": {
+  "key": "MCR-2-077",
+  "numberJp": "EX14BT/MCR-2-077",
+  "nameEn": "",
+  "nameJp": "ミレーヌ・フレア・ジーナス",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "Fire Bomber"
+  ],
+  "effectJp": "【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
+  "effectEn": "[Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-077.png?v8"
+ },
+ "MCR-2-AP01": {
+  "key": "MCR-2-AP01",
+  "numberJp": "EX14BT/MCR-2-AP01",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(マクロス)",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-AP01.png?v8"
+ },
+ "MCR-2-AP02": {
+  "key": "MCR-2-AP02",
+  "numberJp": "EX14BT/MCR-2-AP02",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(マクロス)",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-AP02.png?v8"
+ },
+ "MCR-2-AP03": {
+  "key": "MCR-2-AP03",
+  "numberJp": "EX14BT/MCR-2-AP03",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(マクロス)",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-AP03.png?v8"
+ },
+ "MCR-2-AP04": {
+  "key": "MCR-2-AP04",
+  "numberJp": "EX14BT/MCR-2-AP04",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(マクロス)",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-AP04.png?v8"
+ },
+ "MCR-2-AP05": {
+  "key": "MCR-2-AP05",
+  "numberJp": "EX14BT/MCR-2-AP05",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(マクロス)",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-AP05.png?v8"
+ },
+ "MCR-2-AP06": {
+  "key": "MCR-2-AP06",
+  "numberJp": "EX14BT/MCR-2-AP06",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(マクロス)",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-AP06.png?v8"
+ },
+ "MCR-2-AP07": {
+  "key": "MCR-2-AP07",
+  "numberJp": "EX14BT/MCR-2-AP07",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(マクロス)",
+  "series": "マクロス",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX14BT_MCR-2-AP07.png?v8"
+ }
+}

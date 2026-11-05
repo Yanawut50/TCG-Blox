@@ -1,0 +1,3383 @@
+{
+ "MHA-1-001": {
+  "key": "MHA-1-001",
+  "numberJp": "UA10BT/MHA-1-001",
+  "nameEn": "",
+  "nameJp": "エリ",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【退場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Retire] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-001.png?v8"
+ },
+ "MHA-1-002": {
+  "key": "MHA-1-002",
+  "numberJp": "UA10BT/MHA-1-002",
+  "nameEn": "",
+  "nameJp": "エリ",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から3枚を場外に置いてもよい。【起動メイン】【レストにする】【このカードを退場させる】自分の場外から特徴に「死穢八斎會」を持つキャラカードか〈“個性”消失弾〉を1枚手札に加える。",
+  "effectEn": "[On Play] You may put the top 3 card(s) of your deck into your Outside Area. [Activate: Main] [Rest this card] [Retire this card] Add 1 character card with the trait “Shie Hassaikai” or <“個性”消失弾> from your Outside Area to your hand.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の場外から必要エナジーが2以下で消費APが1の紫のキャラカードを1枚自分のフロントLにアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Purple character card with required energy 2 or less and with AP cost 1 from your Outside Area to your Front Line active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-002.png?v8"
+ },
+ "MHA-1-003": {
+  "key": "MHA-1-003",
+  "numberJp": "UA10BT/MHA-1-003",
+  "nameEn": "",
+  "nameJp": "オール・フォー・ワン",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場に【起動メイン】を持つキャラが3枚以上ある場合、このキャラはBP+1000。",
+  "effectEn": "If you have 3 or more characters with [Activate: Main] on your field, this character gets BP+1000.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-003.png?v8"
+ },
+ "MHA-1-004": {
+  "key": "MHA-1-004",
+  "numberJp": "UA10BT/MHA-1-004",
+  "nameEn": "",
+  "nameJp": "オール・フォー・ワン",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 8,
+  "ap": 2,
+  "bp": 5000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場に【起動メイン】を持つキャラが3枚以上ある場合、手札にあるこのカードの必要エナジーを【紫×3】減らす。【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【起動メイン】【ターン1】このキャラはこのターン中、〈オール・フォー・ワン〉以外の同じラインのキャラが持つ【起動メイン】を全て得る。",
+  "effectEn": "If you have 3 or more characters with [Activate: Main] on your field, reduce the required energy of this card in your hand by [Purple x3]. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [Activate: Main] [Once Per Turn] This turn, this character gains all [Activate: Main] effects of characters in the same line other than <オール・フォー・ワン>.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-004.png?v8"
+ },
+ "MHA-1-005": {
+  "key": "MHA-1-005",
+  "numberJp": "UA10BT/MHA-1-005",
+  "nameEn": "",
+  "nameJp": "ギガントマキア",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場に〈オール・フォー・ワン〉か〈死柄木 弔〉がない場合、このキャラはアタックもブロックもできない。【自分のターン中】このキャラはBP+2000。【起動メイン】【ターン1】このキャラはこのターン中、【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を得る。",
+  "effectEn": "If you don't have <オール・フォー・ワン> or <死柄木 弔> on your field, this character cannot attack or block. [During Your Turn] This character gets BP+2000. [Activate: Main] [Once Per Turn] This character, this turn, [Damage 2](When this character deals direct damage by attacking, deal 2 damage instead) is gained.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-005.png?v8"
+ },
+ "MHA-1-006": {
+  "key": "MHA-1-006",
+  "numberJp": "UA10BT/MHA-1-006",
+  "nameEn": "",
+  "nameJp": "黒霧",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【手札を1枚場外に置く】【ターン1】以下から1つ選ぶ。・自分の場のキャラを1枚選び、別のラインに移動させる。・自分のフロントLのキャラと自分のエナジーLのキャラを1枚ずつ選び、それらの位置を入れ替える。",
+  "effectEn": "[Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] Choose 1 of the following. Choose 1 character on your field, move it to another line. Choose 1 character in your Front Line and 1 character in your Energy Line, and swap their positions.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-006.png?v8"
+ },
+ "MHA-1-007": {
+  "key": "MHA-1-007",
+  "numberJp": "UA10BT/MHA-1-007",
+  "nameEn": "",
+  "nameJp": "ジェントル・クリミナル",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【自分のターン中】このキャラとのバトルで敗北した相手のキャラは、退場する代わりに、手札に戻る。",
+  "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [During Your Turn] Your opponent's characters that lose a battle against this character return to their owner's hand instead of being retired.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-007.png?v8"
+ },
+ "MHA-1-008": {
+  "key": "MHA-1-008",
+  "numberJp": "UA10BT/MHA-1-008",
+  "nameEn": "",
+  "nameJp": "死柄木 弔",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-008.png?v8"
+ },
+ "MHA-1-009": {
+  "key": "MHA-1-009",
+  "numberJp": "UA10BT/MHA-1-009",
+  "nameEn": "",
+  "nameJp": "死柄木 弔",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】このキャラとのバトルで敗北した相手のキャラは、退場する代わりに、リムーブエリアに置かれる。【起動メイン】【手札を1枚場外に置く】【ターン1】このキャラはこのターン中、【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を得る。",
+  "effectEn": "[During Your Turn] Your opponent's characters that lose a battle against this character are put into the Remove Area instead of being retired. [Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] This character, this turn, [Impact +1](Damage dealt by Impact is increased by 1; if it doesn't have Impact, [Impact 1]) is gained.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の場外から必要エナジーが2以下で消費APが1の紫のキャラカードを1枚自分のフロントLにアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Purple character card with required energy 2 or less and with AP cost 1 from your Outside Area to your Front Line active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-009.png?v8"
+ },
+ "MHA-1-010": {
+  "key": "MHA-1-010",
+  "numberJp": "UA10BT/MHA-1-010",
+  "nameEn": "",
+  "nameJp": "死柄木 弔",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈死柄木 弔〉アクティブにし、フロントLに移動できる【自分のターン中】このキャラとのバトルで敗北した相手のキャラは、退場する代わりに、リムーブエリアに置かれる。【起動メイン】【フロントLにある場合】【ターン1】BP2000以下の相手のフロントLのキャラを1枚選び、リムーブエリアに置く。",
+  "effectEn": "[Raid] Can Raid onto <死柄木 弔>; set it to active and you may move it to the Front Line. [During Your Turn] Your opponent's characters that lose a battle against this character are put into the Remove Area instead of being retired. [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 character in your opponent's Front Line with BP 2000 or less, and put it into the Remove Area.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-010.png?v8"
+ },
+ "MHA-1-011": {
+  "key": "MHA-1-011",
+  "numberJp": "UA10BT/MHA-1-011",
+  "nameEn": "",
+  "nameJp": "ステイン",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラのアタックをブロックしたキャラは次の1回アクティブにならない。【起動メイン】【ターン1】このキャラはこのターン中、「相手はこのキャラのアタックを可能ならブロックしなければならない。」を得る。",
+  "effectEn": "Characters that block this character's attack do not become active the next 1 time(s). [Activate: Main] [Once Per Turn] This character gains “Your opponent must block this character's attacks if able” this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-011.png?v8"
+ },
+ "MHA-1-012": {
+  "key": "MHA-1-012",
+  "numberJp": "UA10BT/MHA-1-012",
+  "nameEn": "",
+  "nameJp": "スピナー",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【紫】。メインフェイズ終了時、このキャラを退場させる。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Purple]. At the end of the Main Phase, retire this character.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-012.png?v8"
+ },
+ "MHA-1-013": {
+  "key": "MHA-1-013",
+  "numberJp": "UA10BT/MHA-1-013",
+  "nameEn": "",
+  "nameJp": "荼毘",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分のライフエリアにあるカードを1枚手札に加えてもよい。そうした場合、自分のフロントLの他のキャラを1枚まで選び、アクティブにする。",
+  "effectEn": "[On Play] You may add 1 card(s) from your Life Area to your hand. If you do, Choose up to 1 other character in your Front Line, set it to active.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-013.png?v8"
+ },
+ "MHA-1-014": {
+  "key": "MHA-1-014",
+  "numberJp": "UA10BT/MHA-1-014",
+  "nameEn": "",
+  "nameJp": "荼毘",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈荼毘〉アクティブにし、フロントLに移動できる【登場時】自分のライフエリアにあるカードを1枚手札に加えてもよい。そうした場合、BP3500以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
+  "effectEn": "[Raid] Can Raid onto <荼毘>; set it to active and you may move it to the Front Line. [On Play] You may add 1 card(s) from your Life Area to your hand. If you do, Choose up to 1 character in your opponent's Front Line with BP 3500 or less, retire it.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-014.png?v8"
+ },
+ "MHA-1-015": {
+  "key": "MHA-1-015",
+  "numberJp": "UA10BT/MHA-1-015",
+  "nameEn": "",
+  "nameJp": "トゥワイス",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【退場時】カードを1枚引く。",
+  "effectEn": "[On Retire] Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-015.png?v8"
+ },
+ "MHA-1-016": {
+  "key": "MHA-1-016",
+  "numberJp": "UA10BT/MHA-1-016",
+  "nameEn": "",
+  "nameJp": "トゥワイス",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【紫】。",
+  "effectEn": "While this character is active, its generated energy +[Purple].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-016.png?v8"
+ },
+ "MHA-1-017": {
+  "key": "MHA-1-017",
+  "numberJp": "UA10BT/MHA-1-017",
+  "nameEn": "",
+  "nameJp": "トゥワイス",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈トゥワイス〉アクティブにし、フロントLに移動できる【登場時】レイド状態のこのキャラの一番下のカードを自分の場にアクティブで登場させてもよい。",
+  "effectEn": "[Raid] Can Raid onto <トゥワイス>; set it to active and you may move it to the Front Line. [On Play] You may play the bottom card of this Raided character to your field active.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-017.png?v8"
+ },
+ "MHA-1-018": {
+  "key": "MHA-1-018",
+  "numberJp": "UA10BT/MHA-1-018",
+  "nameEn": "",
+  "nameJp": "トガヒミコ",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【ターン1】このキャラはこのターン中、「このキャラがアタックしてバトルに勝利した時、カードを1枚引く。」を得る。",
+  "effectEn": "[Activate: Main] [Once Per Turn] This character gains “When this character attacks and wins a battle, Draw 1 card(s)” this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-018.png?v8"
+ },
+ "MHA-1-019": {
+  "key": "MHA-1-019",
+  "numberJp": "UA10BT/MHA-1-019",
+  "nameEn": "",
+  "nameJp": "トガヒミコ",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】BP1500以上の相手のフロントLのキャラを1枚選び、このターン中、BP-1000。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 character in your opponent's Front Line with BP 1500 or more, it gets BP-1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-019.png?v8"
+ },
+ "MHA-1-020": {
+  "key": "MHA-1-020",
+  "numberJp": "UA10BT/MHA-1-020",
+  "nameEn": "",
+  "nameJp": "トガヒミコ",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の【レイド】を持つキャラカードはこのキャラにレイドできる。【登場時】自分の山札の上から1枚を公開し手札に加える。公開したカードが【レイド】を持たない場合、自分の手札を1枚場外に置く。",
+  "effectEn": "Your character cards with [Raid] can Raid onto this character. [On Play] Reveal the top 1 card(s) of your deck and add them to your hand. If the revealed card doesn't have [Raid], put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-020.png?v8"
+ },
+ "MHA-1-021": {
+  "key": "MHA-1-021",
+  "numberJp": "UA10BT/MHA-1-021",
+  "nameEn": "",
+  "nameJp": "脳無",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "相手の場に緑か赤のカードがある場合、手札にあるこのカードの必要エナジーを【紫×1】減らす。",
+  "effectEn": "If your opponent has Green or Red card on their field, the required energy of this card in your hand [Purple x1]is reduced.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-021.png?v8"
+ },
+ "MHA-1-022": {
+  "key": "MHA-1-022",
+  "numberJp": "UA10BT/MHA-1-022",
+  "nameEn": "",
+  "nameJp": "Mr.コンプレス",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-022.png?v8"
+ },
+ "MHA-1-023": {
+  "key": "MHA-1-023",
+  "numberJp": "UA10BT/MHA-1-023",
+  "nameEn": "",
+  "nameJp": "ラブラバ",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分の場の他のキャラを1枚選び、このターン中、『BP+1000』。選んだキャラが〈ジェントル・クリミナル〉の場合、『BP+2000と【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、指定した場合、相手はブロックできない）を与える』に代わる。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 other character on your field, This turn, 『BP+1000』. If the chosen character is <ジェントル・クリミナル>, it becomes “gains BP+2000 and [Snipe] (Can attack a chosen character in your opponent's Front Line; if you do, your opponent cannot block)” instead.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-023.png?v8"
+ },
+ "MHA-1-024": {
+  "key": "MHA-1-024",
+  "numberJp": "UA10BT/MHA-1-024",
+  "nameEn": "",
+  "nameJp": "オーバーホール",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "死穢八斎會"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-024.png?v8"
+ },
+ "MHA-1-025": {
+  "key": "MHA-1-025",
+  "numberJp": "UA10BT/MHA-1-025",
+  "nameEn": "",
+  "nameJp": "オーバーホール",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "死穢八斎會"
+  ],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中から特徴に「死穢八斎會」を持つキャラカードか〈エリ〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 character card with the trait “Shie Hassaikai” or <エリ> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-025.png?v8"
+ },
+ "MHA-1-026": {
+  "key": "MHA-1-026",
+  "numberJp": "UA10BT/MHA-1-026",
+  "nameEn": "",
+  "nameJp": "オーバーホール",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "死穢八斎會"
+  ],
+  "effectJp": "【レイド】〈オーバーホール〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】自分の山札の上から3枚を場外に置いてもよい。そうした場合、自分の場外から〈オーバーホール〉以外の特徴に「死穢八斎會」を持つキャラカードか〈エリ〉を1枚まで手札に加える。",
+  "effectEn": "[Raid] Can Raid onto <オーバーホール>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] You may put the top 3 card(s) of your deck into your Outside Area. If you do, add up to 1 character card other than <オーバーホール> with the trait “Shie Hassaikai” or <エリ> from your Outside Area to your hand.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-026.png?v8"
+ },
+ "MHA-1-027": {
+  "key": "MHA-1-027",
+  "numberJp": "UA10BT/MHA-1-027",
+  "nameEn": "",
+  "nameJp": "クロノスタシス",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "死穢八斎會"
+  ],
+  "effectJp": "自分のフロントLに〈オーバーホール〉がある場合、このキャラはBP+1000。",
+  "effectEn": "If you have <オーバーホール> in your Front Line, This character gets BP+1000.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-027.png?v8"
+ },
+ "MHA-1-028": {
+  "key": "MHA-1-028",
+  "numberJp": "UA10BT/MHA-1-028",
+  "nameEn": "",
+  "nameJp": "ミミック",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "死穢八斎會"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-028.png?v8"
+ },
+ "MHA-1-029": {
+  "key": "MHA-1-029",
+  "numberJp": "UA10BT/MHA-1-029",
+  "nameEn": "",
+  "nameJp": "“個性”消失弾",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場に〈オーバーホール〉がない場合、このカードは使用できない。【登場時】相手のフロントLのキャラを1枚まで選び、レストにし、そのキャラの下にあるカードを全て場外に置く。自分の場にこのフィールドがあるかぎり、そのキャラは元々の効果を全て失い、アクティブにならない。",
+  "effectEn": "If you have no <オーバーホール> on your field, this card cannot be used. [On Play] Choose up to 1 character in your opponent's Front Line, rest it, and put all cards under that character into the Outside Area. As long as this field is on your field, that character loses all original effects and does not become active.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-029.png?v8"
+ },
+ "MHA-1-030": {
+  "key": "MHA-1-030",
+  "numberJp": "UA10BT/MHA-1-030",
+  "nameEn": "",
+  "nameJp": "哀れな行進",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場に〈トゥワイス〉がない場合、このカードは使用できない。自分の手札か自分の場外から必要エナジーが2以下で消費APが1の〈トゥワイス〉を望む枚数自分の場にアクティブで登場させる。",
+  "effectEn": "If you have no <トゥワイス> on your field, this card cannot be used. Play any number of <トゥワイス> with required energy 2 or less and AP cost 1 from your hand or Outside Area to your field active.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-030.png?v8"
+ },
+ "MHA-1-031": {
+  "key": "MHA-1-031",
+  "numberJp": "UA10BT/MHA-1-031",
+  "nameEn": "",
+  "nameJp": "死穢八斎會",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場外から特徴に「死穢八斎會」を持つキャラカードを1枚まで手札に加える。自分の手札から必要エナジーを満たし消費APが1の特徴に「死穢八斎會」を持つキャラカードを1枚まで自分の場にレストで登場させるかレイドさせる。",
+  "effectEn": "Add up to 1 character card with the trait “Shie Hassaikai” from your Outside Area to your hand. Play up to 1 character card with the trait “Shie Hassaikai” that meets its required energy and has AP cost 1 from your hand to your field rested, or Raid it.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-031.png?v8"
+ },
+ "MHA-1-032": {
+  "key": "MHA-1-032",
+  "numberJp": "UA10BT/MHA-1-032",
+  "nameEn": "",
+  "nameJp": "好きにやろう",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-032.png?v8"
+ },
+ "MHA-1-033": {
+  "key": "MHA-1-033",
+  "numberJp": "UA10BT/MHA-1-033",
+  "nameEn": "",
+  "nameJp": "崩壊",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場に〈死柄木 弔〉がある場合、手札にあるこのカードの消費APを-1する。BP4000以下の相手のフロントLのキャラを1枚選び、リムーブエリアに置く。",
+  "effectEn": "If you have <死柄木 弔> on your field, reduce the AP cost of this card in your hand by 1. Choose 1 character in your opponent's Front Line with BP 4000 or less, and put it into the Remove Area.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-033.png?v8"
+ },
+ "MHA-1-034": {
+  "key": "MHA-1-034",
+  "numberJp": "UA10BT/MHA-1-034",
+  "nameEn": "",
+  "nameJp": "相澤 消太",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【緑】。",
+  "effectEn": "While this character is active, its generated energy +[Green].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-034.png?v8"
+ },
+ "MHA-1-035": {
+  "key": "MHA-1-035",
+  "numberJp": "UA10BT/MHA-1-035",
+  "nameEn": "",
+  "nameJp": "相澤 消太",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【フロントLにある場合】相手の場のキャラ全ては、「【ステップ】、【狙い撃ち】、【2回アタック】、【2回ブロック】、【インパクト】、【ダメージ】、【インパクト無効】」を全て失う。【登場時】相手のフロントLのキャラを1枚まで選び、レストにする。",
+  "effectEn": "[While in Front Line] All characters on your opponent's field lose all of “[Step], [Snipe], [Double Attack], [Double Block], [Impact], [Damage], [Impact Nullify]” [On Play] Choose up to 1 character in your opponent's Front Line, rest it.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-035.png?v8"
+ },
+ "MHA-1-036": {
+  "key": "MHA-1-036",
+  "numberJp": "UA10BT/MHA-1-036",
+  "nameEn": "",
+  "nameJp": "蛙吹 梅雨",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-036.png?v8"
+ },
+ "MHA-1-037": {
+  "key": "MHA-1-037",
+  "numberJp": "UA10BT/MHA-1-037",
+  "nameEn": "",
+  "nameJp": "蛙吹 梅雨",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "相手の場に紫か赤のカードがある場合、手札にあるこのカードの必要エナジーを【緑×1】減らす。",
+  "effectEn": "If your opponent has Purple or Red card on their field, the required energy of this card in your hand [Green x1]is reduced.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-037.png?v8"
+ },
+ "MHA-1-038": {
+  "key": "MHA-1-038",
+  "numberJp": "UA10BT/MHA-1-038",
+  "nameEn": "",
+  "nameJp": "天喰 環",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラの下に置かれた裏向きのカードが2枚以上の場合、このキャラは【2回ブロック】を得る。このキャラの下に置かれた裏向きのカードが4枚以上の場合、このキャラは【2回アタック】を得る。【起動メイン】【ターン1】自分の山札の上から1枚を裏向きでこのキャラの下に置く。",
+  "effectEn": "If this character has 2 or more face-down cards placed under it, this character gains [Double Block]. If this character has 4 or more face-down cards placed under it, this character gains [Double Attack]. [Activate: Main] [Once Per Turn] Put the top 1 card(s) of your deck face down under this character.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-038.png?v8"
+ },
+ "MHA-1-039": {
+  "key": "MHA-1-039",
+  "numberJp": "UA10BT/MHA-1-039",
+  "nameEn": "",
+  "nameJp": "飯田 天哉",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【アタック時】このキャラはこのターン中、BP+1000。",
+  "effectEn": "[When Attacking] This character gets BP+1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-039.png?v8"
+ },
+ "MHA-1-040": {
+  "key": "MHA-1-040",
+  "numberJp": "UA10BT/MHA-1-040",
+  "nameEn": "",
+  "nameJp": "麗日 お茶子",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-040.png?v8"
+ },
+ "MHA-1-041": {
+  "key": "MHA-1-041",
+  "numberJp": "UA10BT/MHA-1-041",
+  "nameEn": "",
+  "nameJp": "麗日 お茶子",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-041.png?v8"
+ },
+ "MHA-1-042": {
+  "key": "MHA-1-042",
+  "numberJp": "UA10BT/MHA-1-042",
+  "nameEn": "",
+  "nameJp": "麗日 お茶子",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】〈麗日 お茶子〉以外の自分のフロントLのアクティブのキャラを1枚選び、手札に戻してもよい。そうした場合、自分の手札から必要エナジーが3以下で消費APが1の緑のキャラカードを1枚まで自分の場にアクティブで登場させる。",
+  "effectEn": "[On Play] You may choose 1 active character in your Front Line other than <麗日 お茶子> and return it to your hand. If you do, Play up to 1 Green character card with required energy 3 or less and with AP cost 1 from your hand to your field active.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-042.png?v8"
+ },
+ "MHA-1-043": {
+  "key": "MHA-1-043",
+  "numberJp": "UA10BT/MHA-1-043",
+  "nameEn": "",
+  "nameJp": "エリ",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-043.png?v8"
+ },
+ "MHA-1-044": {
+  "key": "MHA-1-044",
+  "numberJp": "UA10BT/MHA-1-044",
+  "nameEn": "",
+  "nameJp": "オールマイト",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【緑】。メインフェイズ終了時、このキャラを退場させる。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Green]. At the end of the Main Phase, retire this character.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-044.png?v8"
+ },
+ "MHA-1-045": {
+  "key": "MHA-1-045",
+  "numberJp": "UA10BT/MHA-1-045",
+  "nameEn": "",
+  "nameJp": "オールマイト",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 8,
+  "ap": 2,
+  "bp": 5000,
+  "bpMark": "-",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分のフロントLにキャラがなく相手のフロントLにキャラが3枚以上ある場合、手札にあるこのカードの必要エナジーを【緑×6】減らし、消費APを-1する。このカードはエナジーLに登場できない。【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）相手のキャラがアタックした時、レストのこのキャラをアクティブにしてもよい。そうした場合、このキャラはこのターン中、BP-1000。",
+  "effectEn": "If you have no characters in your Front Line and your opponent has 3 or more characters in their Front Line, reduce the required energy of this card in your hand by [Green x6] and its AP cost by 1. This card cannot be played to the Energy Line. [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opposing player) When your opponent's character attacks, you may set this rested character to active. If you do, This character gets BP-1000 this turn.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-045.png?v8"
+ },
+ "MHA-1-046": {
+  "key": "MHA-1-046",
+  "numberJp": "UA10BT/MHA-1-046",
+  "nameEn": "",
+  "nameJp": "切島 鋭児郎",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-046.png?v8"
+ },
+ "MHA-1-047": {
+  "key": "MHA-1-047",
+  "numberJp": "UA10BT/MHA-1-047",
+  "nameEn": "",
+  "nameJp": "グラントリノ",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-047.png?v8"
+ },
+ "MHA-1-048": {
+  "key": "MHA-1-048",
+  "numberJp": "UA10BT/MHA-1-048",
+  "nameEn": "",
+  "nameJp": "サー・ナイトアイ",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 6,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【相手のターン中】【ターン1】相手の「キャラの効果やイベントカードの効果」でこのキャラが場を離れる場合、代わりに場を離れない。【登場時】自分のライフエリアにあるカードを全て見てもよい。そうした場合、見たカードを望む順で自分のライフエリアに置く。",
+  "effectEn": "[During Opponent's Turn] [Once Per Turn] If this character would leave the field due to your opponent's “character effect or event card effect”, it does not leave the field instead. [On Play] You may look at all cards in your Life Area. If you do, put the cards you looked at into your Life Area in any order.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-048.png?v8"
+ },
+ "MHA-1-049": {
+  "key": "MHA-1-049",
+  "numberJp": "UA10BT/MHA-1-049",
+  "nameEn": "",
+  "nameJp": "通形 ミリオ",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-049.png?v8"
+ },
+ "MHA-1-050": {
+  "key": "MHA-1-050",
+  "numberJp": "UA10BT/MHA-1-050",
+  "nameEn": "",
+  "nameJp": "通形 ミリオ",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "手札にあるこのカードの必要エナジーを【緑×1】減らす。このキャラはBP3000以下のキャラにブロックされない。",
+  "effectEn": "The required energy of this card in your hand [Green x1]is reduced. This character cannot be blocked by characters with BP 3000 or less.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の手札から必要エナジーが2以下で消費APが1の緑のキャラカードを1枚自分の場にアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Green character card with required energy 2 or less and with AP cost 1 from your hand to your field active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-050.png?v8"
+ },
+ "MHA-1-051": {
+  "key": "MHA-1-051",
+  "numberJp": "UA10BT/MHA-1-051",
+  "nameEn": "",
+  "nameJp": "通形 ミリオ",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 6,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈通形 ミリオ〉アクティブにし、フロントLに移動できるこのキャラはBP3000以下のキャラにブロックされない。【ターン1】このキャラがアタックしてブロックされなかった時、カードを1枚引く。【退場時】自分の場に必要エナジーが4以上の他のキャラが3枚以上ある場合、レイド状態のこのキャラの一番下のカードを自分のフロントLにアクティブで登場させてもよい。",
+  "effectEn": "[Raid] Can Raid onto <通形 ミリオ>; set it to active and you may move it to the Front Line. This character cannot be blocked by characters with BP 3000 or less. [Once Per Turn] When this character attacks and is not blocked, Draw 1 card(s). [On Retire] If you have 3 or more other characters with required energy 4 or more on your field, you may play the bottom card of this Raided character to your Front Line active.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-051.png?v8"
+ },
+ "MHA-1-052": {
+  "key": "MHA-1-052",
+  "numberJp": "UA10BT/MHA-1-052",
+  "nameEn": "",
+  "nameJp": "轟 焦凍",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【アタック時】BP1000以上の相手の場のキャラを1枚まで選び、このターン中、BP-500。",
+  "effectEn": "[When Attacking] Choose up to 1 character on your opponent's field with BP 1000 or more, it gets BP-500 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-052.png?v8"
+ },
+ "MHA-1-053": {
+  "key": "MHA-1-053",
+  "numberJp": "UA10BT/MHA-1-053",
+  "nameEn": "",
+  "nameJp": "爆豪 勝己",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【アタック時】以下から1つ選ぶ。・このキャラはこのターン中、BP+1000。・このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
+  "effectEn": "[When Attacking] Choose 1 of the following. This character gets BP+1000 this turn. This character, this turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-053.png?v8"
+ },
+ "MHA-1-054": {
+  "key": "MHA-1-054",
+  "numberJp": "UA10BT/MHA-1-054",
+  "nameEn": "",
+  "nameJp": "発目 明",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から7枚見る。その中から必要エナジーが2以下の緑のフィールドカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
+  "effectEn": "[On Play] Look at the top 7 card(s) of your deck. Reveal up to 1 Green Field card with required energy 2 or less among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-054.png?v8"
+ },
+ "MHA-1-055": {
+  "key": "MHA-1-055",
+  "numberJp": "UA10BT/MHA-1-055",
+  "nameEn": "",
+  "nameJp": "波動 ねじれ",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 2,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【登場時】自分の場に必要エナジーが4以上の他のキャラが3枚以上ある場合、BP5000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [On Play] If you have 3 or more other characters with required energy 4 or more on your field, Choose up to 1 character in your opponent's Front Line with BP 5000 or less, retire it.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-055.png?v8"
+ },
+ "MHA-1-056": {
+  "key": "MHA-1-056",
+  "numberJp": "UA10BT/MHA-1-056",
+  "nameEn": "",
+  "nameJp": "ファットガム",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の手札を1枚裏向きで自分の場の〈ファットガム〉か〈天喰 環〉の下に置いてもよい。そうした場合、カードを1枚引く。【アタック時】このキャラの下に置かれた裏向きのカードを1枚場外に置いてもよい。そうした場合、このキャラはこのターン中、BP+2000。",
+  "effectEn": "[On Play] You may put 1 card(s) from your hand face down under <ファットガム> or <天喰 環> on your field. If you do, Draw 1 card(s). [When Attacking] You may put 1 face-down card(s) placed under this character into your Outside Area. If you do, This character gets BP+2000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-056.png?v8"
+ },
+ "MHA-1-057": {
+  "key": "MHA-1-057",
+  "numberJp": "UA10BT/MHA-1-057",
+  "nameEn": "",
+  "nameJp": "緑谷 出久",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-057.png?v8"
+ },
+ "MHA-1-058": {
+  "key": "MHA-1-058",
+  "numberJp": "UA10BT/MHA-1-058",
+  "nameEn": "",
+  "nameJp": "緑谷 出久",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-058.png?v8"
+ },
+ "MHA-1-059": {
+  "key": "MHA-1-059",
+  "numberJp": "UA10BT/MHA-1-059",
+  "nameEn": "",
+  "nameJp": "緑谷 出久",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 2,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の手札から必要エナジーが3以下で消費APが1の緑のキャラカードを1枚まで自分の場にアクティブで登場させるかレイドさせる。",
+  "effectEn": "[On Play] Play up to 1 Green character card with required energy 3 or less and with AP cost 1 from your hand to your field active or Raid it.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の手札から必要エナジーが2以下で消費APが1の緑のキャラカードを1枚自分の場にアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Green character card with required energy 2 or less and with AP cost 1 from your hand to your field active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-059.png?v8"
+ },
+ "MHA-1-060": {
+  "key": "MHA-1-060",
+  "numberJp": "UA10BT/MHA-1-060",
+  "nameEn": "",
+  "nameJp": "緑谷 出久",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈緑谷 出久〉アクティブにし、フロントLに移動できる【自分のターン中】このキャラはBP+500。【アタック時】【ターン1】自分の手札を1枚場外に置いてもよい。そうした場合、自分の場の〈緑谷 出久〉以外の必要エナジーが3以下のキャラを1枚まで選び、アクティブにする。",
+  "effectEn": "[Raid] Can Raid onto <緑谷 出久>; set it to active and you may move it to the Front Line. [During Your Turn] This character gets BP+500. [When Attacking] [Once Per Turn] You may put 1 card(s) from your hand into your Outside Area. If you do, Choose up to 1 character on your field other than <緑谷 出久> and with required energy 3 or less, set it to active.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-060.png?v8"
+ },
+ "MHA-1-061": {
+  "key": "MHA-1-061",
+  "numberJp": "UA10BT/MHA-1-061",
+  "nameEn": "",
+  "nameJp": "八百万 百",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】カードを1枚引く。",
+  "effectEn": "[On Play] Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-061.png?v8"
+ },
+ "MHA-1-062": {
+  "key": "MHA-1-062",
+  "numberJp": "UA10BT/MHA-1-062",
+  "nameEn": "",
+  "nameJp": "開発工房",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場に〈発目 明〉がある場合、このフィールドはアクティブで場に登場させる。【登場時】自分の場のキャラを1枚まで選び、このターン中、BP+1000。【起動メイン】【レストにする】【このカードを退場させる】自分の場のキャラ全ては、このターン中、BP+500。",
+  "effectEn": "If you have <発目 明> on your field, This Field is played active. [On Play] Choose up to 1 character on your field, it gets BP+1000 this turn. [Activate: Main] [Rest this card] [Retire this card] All characters on your field it gets BP+500 this turn.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-062.png?v8"
+ },
+ "MHA-1-063": {
+  "key": "MHA-1-063",
+  "numberJp": "UA10BT/MHA-1-063",
+  "nameEn": "",
+  "nameJp": "デトロイト スマッシュ",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場のキャラを1枚選び、このターン中、BP+2500と「このキャラがアタックしてバトルに勝利した時、カードを1枚引く。」を与える。選んだキャラが〈オールマイト〉か〈緑谷 出久〉の場合、さらにこのターン中、【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、指定した場合、相手はブロックできない）を与える。",
+  "effectEn": "Choose 1 character on your field, it gets BP+2500 and gains “When this character attacks and wins a battle, Draw 1 card(s)” this turn. If the chosen character is <オールマイト> or <緑谷 出久>, it also gains [Snipe] (Can attack a chosen character in your opponent's Front Line; if you do, your opponent cannot block) this turn.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-063.png?v8"
+ },
+ "MHA-1-064": {
+  "key": "MHA-1-064",
+  "numberJp": "UA10BT/MHA-1-064",
+  "nameEn": "",
+  "nameJp": "ファントム・メナス",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈通形 ミリオ〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <通形 ミリオ> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-064.png?v8"
+ },
+ "MHA-1-065": {
+  "key": "MHA-1-065",
+  "numberJp": "UA10BT/MHA-1-065",
+  "nameEn": "",
+  "nameJp": "Plus Ultra",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-065.png?v8"
+ },
+ "MHA-1-066": {
+  "key": "MHA-1-066",
+  "numberJp": "UA10BT/MHA-1-066",
+  "nameEn": "",
+  "nameJp": "私が来た‼",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から3枚見る。その中からキャラカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。自分の手札から緑のキャラカードを1枚まで自分の場にレストで登場させる。相手のフロントLにキャラが3枚以上あり、登場させたキャラが〈オールマイト〉の場合、それをアクティブにする。",
+  "effectEn": "Look at the top 3 card(s) of your deck. Reveal up to 1 character card among them and add it to your hand. Put the rest on the bottom of your deck in any order. Play up to 1 Green character card from your hand to your field rested. If your opponent has 3 or more characters in their Front Line and the played character is <オールマイト>, set it to active.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-066.png?v8"
+ },
+ "MHA-1-067": {
+  "key": "MHA-1-067",
+  "numberJp": "UA10BT/MHA-1-067",
+  "nameEn": "",
+  "nameJp": "相澤 消太",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-067.png?v8"
+ },
+ "MHA-1-068": {
+  "key": "MHA-1-068",
+  "numberJp": "UA10BT/MHA-1-068",
+  "nameEn": "",
+  "nameJp": "芦戸 三奈",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
+  "effectEn": "[Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-068.png?v8"
+ },
+ "MHA-1-069": {
+  "key": "MHA-1-069",
+  "numberJp": "UA10BT/MHA-1-069",
+  "nameEn": "",
+  "nameJp": "飯田 天哉",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "相手の場に紫か緑のカードがある場合、手札にあるこのカードの必要エナジーを【赤×1】減らす。",
+  "effectEn": "If your opponent has Purple or Green card on their field, the required energy of this card in your hand [Red x1]is reduced.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-069.png?v8"
+ },
+ "MHA-1-070": {
+  "key": "MHA-1-070",
+  "numberJp": "UA10BT/MHA-1-070",
+  "nameEn": "",
+  "nameJp": "飯田 天哉",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【手札を1枚場外に置く】【ターン1】このキャラをアクティブにする。",
+  "effectEn": "[Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] Set this character to active.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-070.png?v8"
+ },
+ "MHA-1-071": {
+  "key": "MHA-1-071",
+  "numberJp": "UA10BT/MHA-1-071",
+  "nameEn": "",
+  "nameJp": "エンデヴァー",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-071.png?v8"
+ },
+ "MHA-1-072": {
+  "key": "MHA-1-072",
+  "numberJp": "UA10BT/MHA-1-072",
+  "nameEn": "",
+  "nameJp": "エンデヴァー",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【登場時】自分の手札を望む枚数場外に置き、手札が3枚になるようにカードを引く。【アタック時】自分の手札を望む枚数場外に置き、その枚数×1000以下のBPの相手のフロントLのキャラを1枚まで選び、退場させる。",
+  "effectEn": "[Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [On Play] Put any number of cards from your hand into your Outside Area, then draw until you have 3 cards in your hand. [When Attacking] Put any number of cards from your hand into your Outside Area, choose up to 1 character in your opponent's Front Line with BP equal to or less than 1000 × that number, and retire it.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-072.png?v8"
+ },
+ "MHA-1-073": {
+  "key": "MHA-1-073",
+  "numberJp": "UA10BT/MHA-1-073",
+  "nameEn": "",
+  "nameJp": "上鳴 電気",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【赤】。メインフェイズ終了時、このキャラを退場させる。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Red]. At the end of the Main Phase, retire this character.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-073.png?v8"
+ },
+ "MHA-1-074": {
+  "key": "MHA-1-074",
+  "numberJp": "UA10BT/MHA-1-074",
+  "nameEn": "",
+  "nameJp": "切島 鋭児郎",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】【ターン1】相手の効果でこのキャラが場を離れる場合、代わりに場を離れない。",
+  "effectEn": "[During Your Turn] [Once Per Turn] If this character would leave the field due to your opponent's effect, it does not leave the field instead.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-074.png?v8"
+ },
+ "MHA-1-075": {
+  "key": "MHA-1-075",
+  "numberJp": "UA10BT/MHA-1-075",
+  "nameEn": "",
+  "nameJp": "耳郎 響香",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。",
+  "effectEn": "[On Play] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-075.png?v8"
+ },
+ "MHA-1-076": {
+  "key": "MHA-1-076",
+  "numberJp": "UA10BT/MHA-1-076",
+  "nameEn": "",
+  "nameJp": "瀬呂 範太",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】【フロントLにある場合】自分のエナジーLのキャラを1枚まで選び、フロントLに移動させる。",
+  "effectEn": "[On Play] [While in Front Line] Choose up to 1 character in your Energy Line, move it to the Front Line.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-076.png?v8"
+ },
+ "MHA-1-077": {
+  "key": "MHA-1-077",
+  "numberJp": "UA10BT/MHA-1-077",
+  "nameEn": "",
+  "nameJp": "常闇 踏陰",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-077.png?v8"
+ },
+ "MHA-1-078": {
+  "key": "MHA-1-078",
+  "numberJp": "UA10BT/MHA-1-078",
+  "nameEn": "",
+  "nameJp": "轟 焦凍",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-078.png?v8"
+ },
+ "MHA-1-079": {
+  "key": "MHA-1-079",
+  "numberJp": "UA10BT/MHA-1-079",
+  "nameEn": "",
+  "nameJp": "轟 焦凍",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【アタック時】自分の場の他のキャラを1枚まで選び、このターン中、BP+500。",
+  "effectEn": "[When Attacking] Choose up to 1 other character on your field, it gets BP+500 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-079.png?v8"
+ },
+ "MHA-1-080": {
+  "key": "MHA-1-080",
+  "numberJp": "UA10BT/MHA-1-080",
+  "nameEn": "",
+  "nameJp": "轟 焦凍",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 2,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラはアクティブで場に登場させる。【登場時】カードを2枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "This character is played active. [On Play] Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-080.png?v8"
+ },
+ "MHA-1-081": {
+  "key": "MHA-1-081",
+  "numberJp": "UA10BT/MHA-1-081",
+  "nameEn": "",
+  "nameJp": "轟 焦凍",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈轟 焦凍〉アクティブにし、フロントLに移動できる【登場時】自分のターン中の場合、以下から1つ選ぶ。・相手のライフが5以上の場合、相手プレイヤーに1ダメージ。・相手のフロントLのキャラを1枚まで選び、レストにする。それは次の1回アクティブにならない。",
+  "effectEn": "[Raid] Can Raid onto <轟 焦凍>; set it to active and you may move it to the Front Line. [On Play] If it is your turn, choose 1 of the following. If your opponent has 5 or more Life, deal 1 damage to your opponent. Choose up to 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s).",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-081.png?v8"
+ },
+ "MHA-1-082": {
+  "key": "MHA-1-082",
+  "numberJp": "UA10BT/MHA-1-082",
+  "nameEn": "",
+  "nameJp": "爆豪 勝己",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-082.png?v8"
+ },
+ "MHA-1-083": {
+  "key": "MHA-1-083",
+  "numberJp": "UA10BT/MHA-1-083",
+  "nameEn": "",
+  "nameJp": "爆豪 勝己",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-083.png?v8"
+ },
+ "MHA-1-084": {
+  "key": "MHA-1-084",
+  "numberJp": "UA10BT/MHA-1-084",
+  "nameEn": "",
+  "nameJp": "爆豪 勝己",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】このターン中、次に自分が「BPの範囲に指定がある効果」でキャラを選ぶ際、指定できるBPの範囲+1000。（BP3000以下のキャラを選べる効果でBP4000以下を選べるようになる）",
+  "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] This turn, the next time you choose a character with an “effect that specifies a BP range”, that BP range gets +1000. (Effects that can choose characters with BP 3000 or less can choose characters with BP 4000 or less instead)",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP2500以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-084.png?v8"
+ },
+ "MHA-1-085": {
+  "key": "MHA-1-085",
+  "numberJp": "UA10BT/MHA-1-085",
+  "nameEn": "",
+  "nameJp": "爆豪 勝己",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈爆豪 勝己〉アクティブにし、フロントLに移動できる【自分のターン中】このキャラの下に置かれた裏向きのカード1枚につき、このキャラはBP+1000。【登場時】自分の山札の上から2枚を裏向きでこのキャラの下に置く。【アタック時】このキャラの下に置かれた裏向きのカードを1枚場外に置いてもよい。そうした場合、BP2500以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
+  "effectEn": "[Raid] Can Raid onto <爆豪 勝己>; set it to active and you may move it to the Front Line. [During Your Turn] This character gets BP+1000 for each 1 face-down card(s) placed under it. [On Play] Put the top 2 card(s) of your deck face down under this character. [When Attacking] You may put 1 face-down card(s) placed under this character into your Outside Area. If you do, Choose up to 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-085.png?v8"
+ },
+ "MHA-1-086": {
+  "key": "MHA-1-086",
+  "numberJp": "UA10BT/MHA-1-086",
+  "nameEn": "",
+  "nameJp": "プレゼント・マイク",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
+  "effectEn": "While this character is active, its generated energy +[Red].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-086.png?v8"
+ },
+ "MHA-1-087": {
+  "key": "MHA-1-087",
+  "numberJp": "UA10BT/MHA-1-087",
+  "nameEn": "",
+  "nameJp": "ベストジーニスト",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【退場時】手札が2枚になるようにカードを引く。",
+  "effectEn": "[On Retire] Draw cards until you have 2 cards in your hand.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-087.png?v8"
+ },
+ "MHA-1-088": {
+  "key": "MHA-1-088",
+  "numberJp": "UA10BT/MHA-1-088",
+  "nameEn": "",
+  "nameJp": "ホークス",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-088.png?v8"
+ },
+ "MHA-1-089": {
+  "key": "MHA-1-089",
+  "numberJp": "UA10BT/MHA-1-089",
+  "nameEn": "",
+  "nameJp": "ホークス",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の手札が3枚以下の場合、カードを1枚引く。",
+  "effectEn": "[On Play] If you have 3 or fewer cards in your hand, draw 1 card(s).",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP2500以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-089.png?v8"
+ },
+ "MHA-1-090": {
+  "key": "MHA-1-090",
+  "numberJp": "UA10BT/MHA-1-090",
+  "nameEn": "",
+  "nameJp": "ホークス",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈ホークス〉アクティブにし、フロントLに移動できる【登場時】自分の手札を望む枚数裏向きでこのキャラの下に置く。【アタック時】このキャラの下に置かれた裏向きのカードを見て、その中から1枚まで手札に加える。手札に加えた場合、自分の場の〈ホークス〉以外のキャラを1枚まで選び、アクティブにする。",
+  "effectEn": "[Raid] Can Raid onto <ホークス>; set it to active and you may move it to the Front Line. [On Play] Put any number of cards from your hand face down under this character. [When Attacking] Look at the face-down cards placed under this character and add up to 1 of them to your hand. If you added it to your hand, choose up to 1 character on your field other than <ホークス> and set it to active.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-090.png?v8"
+ },
+ "MHA-1-091": {
+  "key": "MHA-1-091",
+  "numberJp": "UA10BT/MHA-1-091",
+  "nameEn": "",
+  "nameJp": "Mt.レディ",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【アタック時】【ブロック時】自分のフロントLに空きがある場合、自分の手札を1枚場外に置いてもよい。そうした場合、このキャラはこのターン中、BP+2000。",
+  "effectEn": "[When Attacking] [When Blocking] If your Front Line has an open space, you may put 1 card(s) from your hand into your Outside Area. If you do, This character gets BP+2000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-091.png?v8"
+ },
+ "MHA-1-092": {
+  "key": "MHA-1-092",
+  "numberJp": "UA10BT/MHA-1-092",
+  "nameEn": "",
+  "nameJp": "ミッドナイト",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-092.png?v8"
+ },
+ "MHA-1-093": {
+  "key": "MHA-1-093",
+  "numberJp": "UA10BT/MHA-1-093",
+  "nameEn": "",
+  "nameJp": "緑谷 出久",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【フロントLにある場合】【ターン1】自分の場の〈緑谷 出久〉以外のキャラが相手のキャラの効果で場を離れる場合、代わりに自分のライフエリアにあるカードを1枚場外に置いてもよい。",
+  "effectEn": "[While in Front Line] [Once Per Turn] If a character other than <緑谷 出久> on your field would leave the field due to your opponent's character effect, you may put 1 card(s) from your Life Area into your Outside Area instead.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-093.png?v8"
+ },
+ "MHA-1-094": {
+  "key": "MHA-1-094",
+  "numberJp": "UA10BT/MHA-1-094",
+  "nameEn": "",
+  "nameJp": "ミルコ",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-094.png?v8"
+ },
+ "MHA-1-095": {
+  "key": "MHA-1-095",
+  "numberJp": "UA10BT/MHA-1-095",
+  "nameEn": "",
+  "nameJp": "ミルコ",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）このターン中にこのキャラが移動している場合、このキャラはこのターン中、【2回アタック】（このキャラがこのターン初めてアタックした時、アクティブにする）を得る。【起動メイン】【手札を1枚場外に置く】【ターン1】このキャラを別のラインに移動させる。",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) If this character has moved this turn, this character gains [Double Attack] (When this character attacks for the first time this turn, set it to active) this turn. [Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] Move this character to another line.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-095.png?v8"
+ },
+ "MHA-1-096": {
+  "key": "MHA-1-096",
+  "numberJp": "UA10BT/MHA-1-096",
+  "nameEn": "",
+  "nameJp": "エンデヴァー事務所",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】自分の効果で自分の手札を場外に置いた時、アクティブのこのフィールドをレストにしてもよい。そうした場合、カードを1枚引く。〈エンデヴァー事務所〉の効果は１ターンに１回のみ発動できる。",
+  "effectEn": "[During Your Turn] When you put cards from your hand into your Outside Area with your own effect, you may rest this active field. If you do, Draw 1 card(s). The effect of <エンデヴァー事務所> can only activate １ time(s) per １ turn(s).",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-096.png?v8"
+ },
+ "MHA-1-097": {
+  "key": "MHA-1-097",
+  "numberJp": "UA10BT/MHA-1-097",
+  "nameEn": "",
+  "nameJp": "榴弾砲着弾",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈爆豪 勝己〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <爆豪 勝己> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-097.png?v8"
+ },
+ "MHA-1-098": {
+  "key": "MHA-1-098",
+  "numberJp": "UA10BT/MHA-1-098",
+  "nameEn": "",
+  "nameJp": "Plus Ultra",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-098.png?v8"
+ },
+ "MHA-1-099": {
+  "key": "MHA-1-099",
+  "numberJp": "UA10BT/MHA-1-099",
+  "nameEn": "",
+  "nameJp": "プロミネンスバーン",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の他の手札が3枚以下の場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have 3 or fewer other cards in your hand, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-099.png?v8"
+ },
+ "MHA-1-100": {
+  "key": "MHA-1-100",
+  "numberJp": "UA10BT/MHA-1-100",
+  "nameEn": "",
+  "nameJp": "膨冷熱波",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。BP2000以下の相手のフロントLのキャラ全てを、レストにする。それは次の1回アクティブにならない。自分の場に〈轟 焦凍〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. All characters in your opponent's Front Line with BP 2000 or less , rest it. It does not become active the next 1 time(s). If you have <轟 焦凍> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-100.png?v8"
+ },
+ "MHA-1-101": {
+  "key": "MHA-1-101",
+  "numberJp": "UA10ST/MHA-1-101",
+  "nameEn": "",
+  "nameJp": "飯田 天哉",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10ST_MHA-1-101.png?v8"
+ },
+ "MHA-1-102": {
+  "key": "MHA-1-102",
+  "numberJp": "UA10ST/MHA-1-102",
+  "nameEn": "",
+  "nameJp": "オールマイト",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【自分のターン中】このキャラはBP+1000。【登場時】【フロントLにある場合】このキャラは次の自分のターン開始時まで、BP+1000。",
+  "effectEn": "[Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [During Your Turn] This character gets BP+1000. [On Play] [While in Front Line] This character gets BP+1000 until the start of your next turn.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10ST_MHA-1-102.png?v8"
+ },
+ "MHA-1-103": {
+  "key": "MHA-1-103",
+  "numberJp": "UA10ST/MHA-1-103",
+  "nameEn": "",
+  "nameJp": "切島 鋭児郎",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10ST_MHA-1-103.png?v8"
+ },
+ "MHA-1-104": {
+  "key": "MHA-1-104",
+  "numberJp": "UA10ST/MHA-1-104",
+  "nameEn": "",
+  "nameJp": "耳郎 響香",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から3枚見る。それらを望む順で自分の山札の上に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Put them on top of your deck in any order.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10ST_MHA-1-104.png?v8"
+ },
+ "MHA-1-105": {
+  "key": "MHA-1-105",
+  "numberJp": "UA10ST/MHA-1-105",
+  "nameEn": "",
+  "nameJp": "爆豪 勝己",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【アタック時】BP2500以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
+  "effectEn": "[When Attacking] Choose up to 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10ST_MHA-1-105.png?v8"
+ },
+ "MHA-1-106": {
+  "key": "MHA-1-106",
+  "numberJp": "UA10ST/MHA-1-106",
+  "nameEn": "",
+  "nameJp": "緑谷 出久",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "相手のフロントLにキャラが3枚以上ある場合、このキャラはBP+1000。",
+  "effectEn": "If your opponent has 3 or more characters in their Front Line, This character gets BP+1000.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10ST_MHA-1-106.png?v8"
+ },
+ "MHA-1-107": {
+  "key": "MHA-1-107",
+  "numberJp": "UA10ST/MHA-1-107",
+  "nameEn": "",
+  "nameJp": "緑谷 出久",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈緑谷 出久〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】相手のフロントLにキャラが3枚以上ある場合、カードを1枚引く。",
+  "effectEn": "[Raid] Can Raid onto <緑谷 出久>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] If your opponent has 3 or more characters in their Front Line, Draw 1 card(s).",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10ST_MHA-1-107.png?v8"
+ },
+ "MHA-1-108": {
+  "key": "MHA-1-108",
+  "numberJp": "UA10ST/MHA-1-108",
+  "nameEn": "",
+  "nameJp": "雄英高校",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分のフロントLにキャラが2枚以上ある場合、このフィールドの発生エナジー+【緑】。",
+  "effectEn": "If you have 2 or more characters in your Front Line, this field's generated energy +[Green].",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10ST_MHA-1-108.png?v8"
+ },
+ "MHA-1-109": {
+  "key": "MHA-1-109",
+  "numberJp": "UA10ST/MHA-1-109",
+  "nameEn": "",
+  "nameJp": "1年A組",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から5枚見る。その中からキャラカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。公開したカードが〈緑谷 出久〉の場合、カードを1枚引く。",
+  "effectEn": "Look at the top 5 card(s) of your deck. Reveal up to 1 character card among them and add it to your hand. Put the rest on the bottom of your deck in any order. If the revealed card is <緑谷 出久>, Draw 1 card(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10ST_MHA-1-109.png?v8"
+ },
+ "MHA-1-AP01": {
+  "key": "MHA-1-AP01",
+  "numberJp": "UA10BT/MHA-1-AP01",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(僕のヒーローアカデミア)",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-AP01.png?v8"
+ },
+ "MHA-1-AP02": {
+  "key": "MHA-1-AP02",
+  "numberJp": "UA10BT/MHA-1-AP02",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(僕のヒーローアカデミア)",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-AP02.png?v8"
+ },
+ "MHA-1-AP03": {
+  "key": "MHA-1-AP03",
+  "numberJp": "UA10BT/MHA-1-AP03",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(僕のヒーローアカデミア)",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-AP03.png?v8"
+ },
+ "MHA-1-AP04": {
+  "key": "MHA-1-AP04",
+  "numberJp": "UA10BT/MHA-1-AP04",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(僕のヒーローアカデミア)",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-AP04.png?v8"
+ },
+ "MHA-1-AP05": {
+  "key": "MHA-1-AP05",
+  "numberJp": "UA10BT/MHA-1-AP05",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(僕のヒーローアカデミア)",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-AP05.png?v8"
+ },
+ "MHA-1-AP06": {
+  "key": "MHA-1-AP06",
+  "numberJp": "UA10BT/MHA-1-AP06",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(僕のヒーローアカデミア)",
+  "series": "僕のヒーローアカデミア",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA10BT_MHA-1-AP06.png?v8"
+ }
+}

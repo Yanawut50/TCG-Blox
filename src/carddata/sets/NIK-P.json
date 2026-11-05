@@ -1,0 +1,130 @@
+{
+ "NIK-P-001": {
+  "key": "NIK-P-001",
+  "numberJp": "UAPR/NIK-P-001",
+  "nameEn": "Marian",
+  "nameJp": "マリアン",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UE14BT: GODDESS OF VICTORY: NIKKE",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PR",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "エリシオン",
+   "カウンターズ"
+  ],
+  "effectJp": "自分の場に他の［特徴：カウンターズ］が3枚以上ある場合、このキャラはBP+1000。【登場時】自分の山札の上から3枚見る。その中から〈記憶〉か［特徴：カウンターズ］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。キャラカードを手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "If you have 3 or more other [Trait: Counters] on your field, This character gets BP+1000. [On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 <Memory> or [Trait: Counters] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added a character card to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_NIK-P-001.png?v9"
+ },
+ "NIK-P-002": {
+  "key": "NIK-P-002",
+  "numberJp": "UAPR/NIK-P-002",
+  "nameEn": "Rapunzel",
+  "nameJp": "ラプンツェル",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UE14BT: GODDESS OF VICTORY: NIKKE",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "PR",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "パイオニア"
+  ],
+  "effectJp": "このカードが手札から場外に置かれた時、自分の場に紫のカードがあり、自分の他の手札が2枚以下の場合、自分の場の［特徴：パイオニア］を1枚まで選び、アクティブにする。",
+  "effectEn": "When this card is put from your hand into your Outside Area, if you have a purple card on your field and 2 or fewer other cards in your hand, choose up to 1 [Trait: Pioneer] on your field and set it to active.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_NIK-P-002.png?v9"
+ },
+ "NIK-P-003": {
+  "key": "NIK-P-003",
+  "numberJp": "UAPR/NIK-P-003",
+  "nameEn": "Elegg",
+  "nameJp": "エレグ",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UE14BT: GODDESS OF VICTORY: NIKKE",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "PR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ミシリス",
+   "エレクトリックショック"
+  ],
+  "effectJp": "【登場時】相手の場にBP4000以上のキャラがある場合、このターン中、次に手札から使用する［特徴：ミシリス］の消費APを-1する。〈エレグ〉のこの効果は1ターンに1回のみ発動する。",
+  "effectEn": "[On Play] If your opponent has character with BP 4000 or more on their field, This turn, the next [Trait: Missilis] you use from your hand costs 1 less AP. This <Elegg> effect can only activate 1 time(s) per 1 turn(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_NIK-P-003.png?v9"
+ },
+ "NIK-P-004": {
+  "key": "NIK-P-004",
+  "numberJp": "UAPR/NIK-P-004",
+  "nameEn": "",
+  "nameJp": "勝利の女神：NIKKE",
+  "series": "勝利の女神：NIKKE",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red",
+   "Blue",
+   "Yellow",
+   "Green",
+   "Purple"
+  ],
+  "rarity": "PR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "このカードの色と必要エナジーは、全ての色として扱う。自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "This card's color and required energy are treated as all colors. Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_NIK-P-004.png?v9"
+ }
+}

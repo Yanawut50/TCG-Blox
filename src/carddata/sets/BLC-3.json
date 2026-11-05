@@ -1,0 +1,382 @@
+{
+ "BLC-3-001": {
+  "key": "BLC-3-001",
+  "numberJp": "UA04NC/BLC-3-001",
+  "nameEn": "Ichigo Kurosaki",
+  "nameJp": "黒崎 一護",
+  "series": "BLEACH 千年血戦篇",
+  "setName": "UE01NC: New Card Selection: BLEACH: Thousand-Year Blood War",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SP",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）【自分のターン中】このターン中に自分の手札を場外に置いている場合、このキャラはBP+1000。",
+  "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active) [During Your Turn] If you have put cards from your hand into your Outside Area this turn, this character gets BP+1000.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA04NC_BLC-3-001.png?v8"
+ },
+ "BLC-3-002": {
+  "key": "BLC-3-002",
+  "numberJp": "UA04NC/BLC-3-002",
+  "nameEn": "Rukia Kuchiki",
+  "nameJp": "朽木 ルキア",
+  "series": "BLEACH 千年血戦篇",
+  "setName": "UE01NC: New Card Selection: BLEACH: Thousand-Year Blood War",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SP",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "護廷十三隊"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見る。その中から〈黒崎 一護〉か〈阿散井 恋次〉か〈朽木 ルキア〉か〈朽木 白哉〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 <Ichigo Kurosaki> or <Renji Abarai> or <Rukia Kuchiki> or <Byakuya Kuchiki> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA04NC_BLC-3-002.png?v8"
+ },
+ "BLC-3-003": {
+  "key": "BLC-3-003",
+  "numberJp": "UA04NC/BLC-3-003",
+  "nameEn": "Mayuri Kurotsuchi",
+  "nameJp": "涅 マユリ",
+  "series": "BLEACH 千年血戦篇",
+  "setName": "UE01NC: New Card Selection: BLEACH: Thousand-Year Blood War",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SP",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "護廷十三隊"
+  ],
+  "effectJp": "【登場時】以下から1つ選ぶ。・自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。・自分の場の他のキャラを1枚まで選び、このターン中、BP+3000と「このキャラのアタック終了時、このキャラを退場させる。」を与える。",
+  "effectEn": "[On Play] Choose 1 of the following. Choose up to 1 other character on your field, it gets BP+1000 this turn. Choose up to 1 other character on your field, and it gets BP+3000 and gains “At the end of this character's attack, retire this character” this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA04NC_BLC-3-003.png?v8"
+ },
+ "BLC-3-004": {
+  "key": "BLC-3-004",
+  "numberJp": "UA04NC/BLC-3-004",
+  "nameEn": "Kisuke Urahara",
+  "nameJp": "浦原 喜助",
+  "series": "BLEACH 千年血戦篇",
+  "setName": "UE01NC: New Card Selection: BLEACH: Thousand-Year Blood War",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SP",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】自分のフロントLのアクティブのキャラを1枚レストにする。そうした場合、このキャラはこのターン中、発生エナジー+【紫】。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] Rest 1 active character in your Front Line. If you do, This turn, this character's generated energy +[Purple].",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA04NC_BLC-3-004.png?v8"
+ },
+ "BLC-3-005": {
+  "key": "BLC-3-005",
+  "numberJp": "UA04NC/BLC-3-005",
+  "nameEn": "Renji Abarai",
+  "nameJp": "阿散井 恋次",
+  "series": "BLEACH 千年血戦篇",
+  "setName": "UE01NC: New Card Selection: BLEACH: Thousand-Year Blood War",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SP",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "護廷十三隊"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【起動メイン】相手のフロントLに元々のBPよりBPが低いキャラがある場合のみ発動できる。このキャラをアクティブにする。〈阿散井 恋次〉のこの効果は1ターンに1回のみ発動できる。",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [Activate: Main] Can only activate if your opponent has a character in their Front Line whose BP is lower than its original BP. Set this character to active. This <Renji Abarai> effect can only activate 1 time(s) per 1 turn(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA04NC_BLC-3-005.png?v8"
+ },
+ "BLC-3-006": {
+  "key": "BLC-3-006",
+  "numberJp": "UA04NC/BLC-3-006",
+  "nameEn": "Byakuya Kuchiki",
+  "nameJp": "朽木 白哉",
+  "series": "BLEACH 千年血戦篇",
+  "setName": "UE01NC: New Card Selection: BLEACH: Thousand-Year Blood War",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SP",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "護廷十三隊"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見る。その中から1枚まで場外に置き、残りを望む順で山札の上に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Put up to 1 of them into your Outside Area, Put the rest on top of your deck in any order.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA04NC_BLC-3-006.png?v8"
+ },
+ "BLC-3-007": {
+  "key": "BLC-3-007",
+  "numberJp": "UA04NC/BLC-3-007",
+  "nameEn": "Shunsui Kyoraku",
+  "nameJp": "京楽 春水",
+  "series": "BLEACH 千年血戦篇",
+  "setName": "UE01NC: New Card Selection: BLEACH: Thousand-Year Blood War",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SP",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "護廷十三隊"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見る。その中から［特徴：護廷十三隊］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: Gotei 13] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA04NC_BLC-3-007.png?v8"
+ },
+ "BLC-3-008": {
+  "key": "BLC-3-008",
+  "numberJp": "UA04NC/BLC-3-008",
+  "nameEn": "Kenpachi Zaraki",
+  "nameJp": "更木 剣八",
+  "series": "BLEACH 千年血戦篇",
+  "setName": "UE01NC: New Card Selection: BLEACH: Thousand-Year Blood War",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SP",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "護廷十三隊"
+  ],
+  "effectJp": "手札にあるこのカードの必要エナジーを【緑×1】減らす。このキャラはBPをマイナスする効果を受けない。【自分のターン中】相手のフロントLにBP3500以上のキャラがある場合、このキャラはBP+1000。",
+  "effectEn": "The required energy of this card in your hand [Green x1]is reduced. This character is not affected by effects that reduce BP. [During Your Turn] If your opponent has character with BP 3500 or more in their Front Line, This character gets BP+1000.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA04NC_BLC-3-008.png?v8"
+ },
+ "BLC-3-009": {
+  "key": "BLC-3-009",
+  "numberJp": "UA04NC/BLC-3-009",
+  "nameEn": "Toshiro Hitsugaya",
+  "nameJp": "日番谷 冬獅郎",
+  "series": "BLEACH 千年血戦篇",
+  "setName": "UE01NC: New Card Selection: BLEACH: Thousand-Year Blood War",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SP",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "護廷十三隊"
+  ],
+  "effectJp": "【登場時】カードを1枚引く。",
+  "effectEn": "[On Play] Draw 1 card(s).",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の手札から必要エナジーが2以下で消費APが1の緑のキャラカードを1枚自分の場にアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Green character card with required energy 2 or less and with AP cost 1 from your hand to your field active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA04NC_BLC-3-009.png?v8"
+ },
+ "BLC-3-010": {
+  "key": "BLC-3-010",
+  "numberJp": "UA04NC/BLC-3-010",
+  "nameEn": "Shinji Hirako",
+  "nameJp": "平子 真子",
+  "series": "BLEACH 千年血戦篇",
+  "setName": "UE01NC: New Card Selection: BLEACH: Thousand-Year Blood War",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SP",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "護廷十三隊"
+  ],
+  "effectJp": "【登場時】自分の山札の上から2枚見る。それらを山札の上と下に望む枚数ずつ望む順で置く。",
+  "effectEn": "[On Play] Look at the top 2 card(s) of your deck. Put any number of them on the top and the rest on the bottom of your deck in any order.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA04NC_BLC-3-010.png?v8"
+ },
+ "BLC-3-011": {
+  "key": "BLC-3-011",
+  "numberJp": "UA04NC/BLC-3-011",
+  "nameEn": "Jushiro Ukitake",
+  "nameJp": "浮竹 十四郎",
+  "series": "BLEACH 千年血戦篇",
+  "setName": "UE01NC: New Card Selection: BLEACH: Thousand-Year Blood War",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SP",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "護廷十三隊",
+   "霊王の右腕"
+  ],
+  "effectJp": "このキャラの下に裏向きのカードがある場合、このキャラの発生エナジー+【緑】。【登場時】自分の山札の上から1枚を裏向きでこのキャラの下に置いてもよい。【起動メイン】【レストにする】このキャラの下の裏向きのカードを1枚場外に置く。そうした場合、このキャラはこのターン中、発生エナジー+【緑】【緑】。",
+  "effectEn": "If there is a face-down card under this character, this character's generated energy +[Green]. [On Play] You may put the top 1 card(s) of your deck face down under this character. [Activate: Main] [Rest this card] Put 1 face-down card(s) under this character into your Outside Area. If you do, This turn, this character's generated energy +[Green][Green].",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA04NC_BLC-3-011.png?v8"
+ },
+ "BLC-3-AP01": {
+  "key": "BLC-3-AP01",
+  "numberJp": "UA04NC/BLC-3-AP01",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(BLEACH 千年血戦篇)",
+  "series": "BLEACH 千年血戦篇",
+  "setName": "UE01NC: New Card Selection: BLEACH: Thousand-Year Blood War",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA04NC_BLC-3-AP01.png?v8"
+ }
+}

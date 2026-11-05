@@ -1,0 +1,2752 @@
+{
+ "SMD-1-001": {
+  "key": "SMD-1-001",
+  "numberJp": "UA43BT/SMD-1-001",
+  "nameEn": "Obiguro",
+  "nameJp": "帯黒",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【退場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+3000。",
+  "effectEn": "[On Retire] Choose up to 1 other character on your field, it gets BP+3000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-001.png?v8"
+ },
+ "SMD-1-002": {
+  "key": "SMD-1-002",
+  "numberJp": "UA43BT/SMD-1-002",
+  "nameEn": "Piisuke",
+  "nameJp": "ピー助",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【黄】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Yellow] and gains “At the end of the Main Phase, retire this character”",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-002.png?v8"
+ },
+ "SMD-1-003": {
+  "key": "SMD-1-003",
+  "numberJp": "UA43BT/SMD-1-003",
+  "nameEn": "Boiled",
+  "nameJp": "ボイル",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）【ブロック時】アタックしている相手のキャラの元々のBPが3000以下の場合、このキャラはこのバトル中、BP+2000。",
+  "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active) [When Blocking] If the attacking opponent's character has original BP 3000 or less, this character gets BP+2000 during this battle.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-003.png?v8"
+ },
+ "SMD-1-004": {
+  "key": "SMD-1-004",
+  "numberJp": "UA43BT/SMD-1-004",
+  "nameEn": "Heisuke Mashimo",
+  "nameJp": "眞霜 平助",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-004.png?v8"
+ },
+ "SMD-1-005": {
+  "key": "SMD-1-005",
+  "numberJp": "UA43BT/SMD-1-005",
+  "nameEn": "Heisuke Mashimo",
+  "nameJp": "眞霜 平助",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【黄】。",
+  "effectEn": "While this character is active, its generated energy +[Yellow].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-005.png?v8"
+ },
+ "SMD-1-006": {
+  "key": "SMD-1-006",
+  "numberJp": "UA43BT/SMD-1-006",
+  "nameEn": "Heisuke Mashimo",
+  "nameJp": "眞霜 平助",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【手札を1枚場外に置く】自分の裏向きのライフを1枚表向きにする。そうした場合、自分の場の他のキャラを1枚まで選び、このターン中、BP+2000。",
+  "effectEn": "[Activate: Main] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] Turn 1 of your face-down Life face up. If you do, Choose up to 1 other character on your field, it gets BP+2000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-006.png?v8"
+ },
+ "SMD-1-007": {
+  "key": "SMD-1-007",
+  "numberJp": "UA43BT/SMD-1-007",
+  "nameEn": "Heisuke Mashimo",
+  "nameJp": "眞霜 平助",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】相手のフロントLのキャラを1枚まで選び、相手のライフエリアに表向きで置く。",
+  "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line and put it face up into your opponent's Life Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-007.png?v8"
+ },
+ "SMD-1-008": {
+  "key": "SMD-1-008",
+  "numberJp": "UA43BT/SMD-1-008",
+  "nameEn": "Heisuke Mashimo",
+  "nameJp": "眞霜 平助",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈眞霜 平助〉アクティブにし、フロントLに移動できる【登場時】このキャラはこのターン中、【狙い撃ち】を得る。自分のライフを1枚まで表向きにする。相手は自身のライフを1枚選び、それが裏向きの場合、表向きにする。【起動メイン】【ターン1】自分と相手の山札とライフに表向きのカードが合計3枚以上ある場合、このキャラはこのターン中、【インパクト（1）】を得る。",
+  "effectEn": "[Raid] Can Raid onto <Heisuke Mashimo>; set it to active and you may move it to the Front Line. [On Play] This character, this turn, [Snipe] is gained. Turn up to 1 of your Life face up. Your opponent chooses 1 of their Life cards; if it is face down, turn it face up. [Activate: Main] [Once Per Turn] If there are a total of 3 or more face-up cards in your and your opponent's decks and Life, this character gains [Impact 1] this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-008.png?v8"
+ },
+ "SMD-1-009": {
+  "key": "SMD-1-009",
+  "numberJp": "UA43BT/SMD-1-009",
+  "nameEn": "Lu Wutang",
+  "nameJp": "陸 無糖",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】カードを1枚引く。",
+  "effectEn": "[On Play] Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-009.png?v8"
+ },
+ "SMD-1-010": {
+  "key": "SMD-1-010",
+  "numberJp": "UA43BT/SMD-1-010",
+  "nameEn": "Lu Wutang",
+  "nameJp": "陸 無糖",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場に〈陸 少糖〉がある場合、このキャラをアクティブにする。",
+  "effectEn": "[On Play] If you have <Lu Shaotang> on your field, Set this character to active.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-010.png?v8"
+ },
+ "SMD-1-011": {
+  "key": "SMD-1-011",
+  "numberJp": "UA43BT/SMD-1-011",
+  "nameEn": "Nagumo",
+  "nameJp": "南雲",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ORDER"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-011.png?v8"
+ },
+ "SMD-1-012": {
+  "key": "SMD-1-012",
+  "numberJp": "UA43BT/SMD-1-012",
+  "nameEn": "Nagumo",
+  "nameJp": "南雲",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ORDER"
+  ],
+  "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】【レイド】を持たない自分の場の黄のキャラを1枚選び、このターン中、「自分の【レイド】を持つキャラカードはこのキャラにレイドできる。」を与える。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] [Raid] Choose 1 yellow character without it on your field; it gains “Your character cards with [Raid] can Raid onto this character” this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-012.png?v8"
+ },
+ "SMD-1-013": {
+  "key": "SMD-1-013",
+  "numberJp": "UA43BT/SMD-1-013",
+  "nameEn": "Shin Asakura",
+  "nameJp": "朝倉 シン",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "坂本商店"
+  ],
+  "effectJp": "【登場時】自分の山札の上から1枚見る。そのカードを山札の上か下に置く。上に置いた場合、そのカードを表向きにする。（山札の一番上ではなくなった場合は裏向きに戻る）",
+  "effectEn": "[On Play] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck. If you put it on top, turn that card face up. (If it is no longer the top card of the deck, it returns to face down)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-013.png?v8"
+ },
+ "SMD-1-014": {
+  "key": "SMD-1-014",
+  "numberJp": "UA43BT/SMD-1-014",
+  "nameEn": "Shin Asakura",
+  "nameJp": "朝倉 シン",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "坂本商店"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見る。その中から［特徴：坂本商店］か〈眞霜 平助〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: Sakamoto Store] or <Heisuke Mashimo> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-014.png?v8"
+ },
+ "SMD-1-015": {
+  "key": "SMD-1-015",
+  "numberJp": "UA43BT/SMD-1-015",
+  "nameEn": "Shin Asakura",
+  "nameJp": "朝倉 シン",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "坂本商店"
+  ],
+  "effectJp": "【アタック時】自分の場に［特徴：坂本商店］のカード名が3種類以上ある場合、以下から1つまで選ぶ。・カードを1枚引く。・このキャラはこのターン中、BP+1000。",
+  "effectEn": "[When Attacking] If you have 3 or more [Trait: Sakamoto Store] with different card names on your field, Choose up to 1 of the following. Draw 1 card(s). This character gets BP+1000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-015.png?v8"
+ },
+ "SMD-1-016": {
+  "key": "SMD-1-016",
+  "numberJp": "UA43BT/SMD-1-016",
+  "nameEn": "Shin Asakura",
+  "nameJp": "朝倉 シン",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "坂本商店"
+  ],
+  "effectJp": "【登場時】以下から1つ選ぶ。・自分の山札の上から1枚見る。そのカードを山札の上か下に置く。上に置いた場合、そのカードを表向きにする。・自分か相手の山札かライフに表向きのカードがある場合、このターン中、次に手札から使用する元々の消費APが2のカードの消費APを-1する。",
+  "effectEn": "[On Play] Choose 1 of the following. Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck. If you put it on top, turn that card face up. If there is a face-up card in your or your opponent's deck or Life, this turn, reduce the AP cost of the next card with original AP cost 2 you use from your hand by 1.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】相手のフロントLのキャラを1枚選び、レストにする。それは次の1回アクティブにならない。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-016.png?v8"
+ },
+ "SMD-1-017": {
+  "key": "SMD-1-017",
+  "numberJp": "UA43BT/SMD-1-017",
+  "nameEn": "Shin Asakura",
+  "nameJp": "朝倉 シン",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "坂本商店"
+  ],
+  "effectJp": "【レイド】〈朝倉 シン〉アクティブにし、フロントLに移動できる【登場時】相手は自身の手札を全て公開する。自分はその中から1枚まで、相手の山札の上に表向きで置く。【起動メイン】【フロントLにある場合】【ターン1】カードを1枚引き、自分の山札の上から1枚を表向きにする。この効果で表向きではないカードを引いた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[Raid] Can Raid onto <Shin Asakura>; set it to active and you may move it to the Front Line. [On Play] Your opponent reveals all cards in their hand. You put up to 1 of them face up on top of your opponent's deck. [Activate: Main] [While in Front Line] [Once Per Turn] Draw 1 card(s), then turn the top 1 card(s) of your deck face up. If you drew a card that was not face up with this effect, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-017.png?v8"
+ },
+ "SMD-1-018": {
+  "key": "SMD-1-018",
+  "numberJp": "UA43BT/SMD-1-018",
+  "nameEn": "Shin Asakura",
+  "nameJp": "朝倉 シン",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "坂本商店"
+  ],
+  "effectJp": "【登場時】相手のフロントLのキャラを1枚まで選び、レストにする。それは次の1回アクティブにならない。自分の山札の上に表向きのカードがある場合、そのカードを手札に加えてもよい。そうした場合、このキャラをアクティブにし、自分の山札の上から1枚を表向きにする。",
+  "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s). If the top card of your deck is face up, you may add that card to your hand. If you do, set this character to active and turn the top 1 card(s) of your deck face up.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-018.png?v8"
+ },
+ "SMD-1-019": {
+  "key": "SMD-1-019",
+  "numberJp": "UA43BT/SMD-1-019",
+  "nameEn": "Aoi Sakamoto",
+  "nameJp": "坂本 葵",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "坂本商店"
+  ],
+  "effectJp": "【登場時】【エナジーLにある場合】自分の場に［特徴：坂本商店］のカード名が3種類以上ある場合、このキャラをアクティブにする。【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] [While in Energy Line] If you have 3 or more [Trait: Sakamoto Store] with different card names on your field, Set this character to active. [Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-019.png?v8"
+ },
+ "SMD-1-020": {
+  "key": "SMD-1-020",
+  "numberJp": "UA43BT/SMD-1-020",
+  "nameEn": "Aoi Sakamoto",
+  "nameJp": "坂本 葵",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "坂本商店"
+  ],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-020.png?v8"
+ },
+ "SMD-1-021": {
+  "key": "SMD-1-021",
+  "numberJp": "UA43BT/SMD-1-021",
+  "nameEn": "Taro Sakamoto",
+  "nameJp": "坂本 太郎",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "坂本商店"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-021.png?v8"
+ },
+ "SMD-1-022": {
+  "key": "SMD-1-022",
+  "numberJp": "UA43BT/SMD-1-022",
+  "nameEn": "Taro Sakamoto",
+  "nameJp": "坂本 太郎",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "坂本商店"
+  ],
+  "effectJp": "【自分のターン中】自分の場に［特徴：坂本商店］のカード名が3種類以上ある場合、このキャラはBP+1000。",
+  "effectEn": "[During Your Turn] If you have 3 or more [Trait: Sakamoto Store] with different card names on your field, This character gets BP+1000.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-022.png?v8"
+ },
+ "SMD-1-023": {
+  "key": "SMD-1-023",
+  "numberJp": "UA43BT/SMD-1-023",
+  "nameEn": "Taro Sakamoto",
+  "nameJp": "坂本 太郎",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "坂本商店"
+  ],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-023.png?v8"
+ },
+ "SMD-1-024": {
+  "key": "SMD-1-024",
+  "numberJp": "UA43BT/SMD-1-024",
+  "nameEn": "Taro Sakamoto",
+  "nameJp": "坂本 太郎",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "坂本商店"
+  ],
+  "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【黄×2】減らす。【フロントLにある場合】〈坂本 太郎〉以外の自分の場の［特徴：坂本商店］は、相手の〔キャラ・イベントカード〕の効果で選ばれない。",
+  "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Yellow x2]is reduced. [While in Front Line] [Trait: Sakamoto Store] on your field other than <Taro Sakamoto>, by your opponent's character. Cannot be chosen by Event card effects.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】相手のフロントLのキャラを1枚選び、レストにする。それは次の1回アクティブにならない。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-024.png?v8"
+ },
+ "SMD-1-025": {
+  "key": "SMD-1-025",
+  "numberJp": "UA43BT/SMD-1-025",
+  "nameEn": "Taro Sakamoto",
+  "nameJp": "坂本 太郎",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "坂本商店"
+  ],
+  "effectJp": "【レイド】〈坂本 太郎〉アクティブにし、フロントLに移動できる【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】このキャラは次の自分のターン開始時まで、「このキャラは退場せず、BPをマイナスする効果を受けない。」を得る。自分の場のキャラを1枚まで選び、次の自分のターン開始時まで、「このキャラは相手の〔キャラ・イベントカード〕の効果で選ばれない。」を与える。",
+  "effectEn": "[Raid] Can Raid onto <Taro Sakamoto>; set it to active and you may move it to the Front Line. [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] Until the start of your next turn, this character gains “This character is not retired and is not affected by effects that reduce BP” Choose up to 1 character on your field; until the start of your next turn, it gains “This character cannot be chosen by your opponent's character or event card effects”",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-025.png?v8"
+ },
+ "SMD-1-026": {
+  "key": "SMD-1-026",
+  "numberJp": "UA43BT/SMD-1-026",
+  "nameEn": "Taro Sakamoto",
+  "nameJp": "坂本 太郎",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "坂本商店"
+  ],
+  "effectJp": "【レイド】〈坂本 太郎〉アクティブにし、フロントLに移動できる自分のアタックフェイズ終了時、レイド状態のこのキャラの一番上のカードを場外に置く。【登場時】このキャラはこのターン中、BP+1000と【インパクト（1）】を得る。自分の山札の上から5枚見る。その中から〈坂本商店〉かBP3500以下で消費APが1の黄のキャラカードを1枚まで自分の場にアクティブで登場させる。残りを望む順で山札の下に置く。",
+  "effectEn": "[Raid] Can Raid onto <Taro Sakamoto>; set it to active and you may move it to the Front Line. At the end of your Attack Phase, put the top card of this Raided character into your Outside Area. [On Play] This character gets BP+1000 and gains [Impact 1] this turn. Look at the top 5 card(s) of your deck. Play up to 1 <Sakamoto's> or yellow character card with BP 3500 or less and AP cost 1 among them to your field active. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-026.png?v8"
+ },
+ "SMD-1-027": {
+  "key": "SMD-1-027",
+  "numberJp": "UA43BT/SMD-1-027",
+  "nameEn": "Hana Sakamoto",
+  "nameJp": "坂本 花",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "坂本商店"
+  ],
+  "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-027.png?v8"
+ },
+ "SMD-1-028": {
+  "key": "SMD-1-028",
+  "numberJp": "UA43BT/SMD-1-028",
+  "nameEn": "Lu Shaotang",
+  "nameJp": "陸 少糖",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "坂本商店"
+  ],
+  "effectJp": "【自分のターン中】自分の場に［特徴：坂本商店］のカード名が3種類以上ある場合、このキャラはBP+2000。",
+  "effectEn": "[During Your Turn] If you have 3 or more [Trait: Sakamoto Store] with different card names on your field, This character gets BP+2000.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-028.png?v8"
+ },
+ "SMD-1-029": {
+  "key": "SMD-1-029",
+  "numberJp": "UA43BT/SMD-1-029",
+  "nameEn": "Lu Shaotang",
+  "nameJp": "陸 少糖",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "坂本商店"
+  ],
+  "effectJp": "このキャラはレイド状態のキャラにブロックされない。",
+  "effectEn": "This character cannot be blocked by Raided characters.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-029.png?v8"
+ },
+ "SMD-1-030": {
+  "key": "SMD-1-030",
+  "numberJp": "UA43BT/SMD-1-030",
+  "nameEn": "Lu Shaotang",
+  "nameJp": "陸 少糖",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "坂本商店"
+  ],
+  "effectJp": "【自分のターン中】自分の場に［特徴：坂本商店］のカード名が3種類以上ある場合、このキャラは「このキャラはBP4000以上のキャラにブロックされない。」を得る。このキャラがアタックしてブロックされなかった時、カードを1枚引く。",
+  "effectEn": "[During Your Turn] If you have 3 or more [Trait: Sakamoto Store] with different card names on your field, This character gains “This character cannot be blocked by characters with BP 4000 or more” When this character attacks and is not blocked, Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-030.png?v8"
+ },
+ "SMD-1-031": {
+  "key": "SMD-1-031",
+  "numberJp": "UA43BT/SMD-1-031",
+  "nameEn": "Lu Shaotang",
+  "nameJp": "陸 少糖",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "坂本商店"
+  ],
+  "effectJp": "【起動メイン】自分の手札を『6枚』場外に置く。そうした場合、このキャラはこのターン中、BP+2000と【2回アタック】を得る。自分の場にある［特徴：坂本商店］のカード名1種類につき、この効果で場外に置く手札の枚数-1。〈陸 少糖〉のこの効果は、1ターンに1回のみ発動できる。",
+  "effectEn": "[Activate: Main] Put “6” card(s) from your hand into your Outside Area. If you do, this character gets BP+2000 and gains [Double Attack] this turn. For each 1 different card name(s) among [Trait: Sakamoto Store] on your field, the number of cards from your hand put into your Outside Area by this effect is reduced by 1. This effect of <Lu Shaotang> can only activate 1 time(s) per 1 turn(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-031.png?v8"
+ },
+ "SMD-1-032": {
+  "key": "SMD-1-032",
+  "numberJp": "UA43BT/SMD-1-032",
+  "nameEn": "Asakura",
+  "nameJp": "朝倉",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "LABO"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の山札の上から1枚を表向きにする。この効果で表向きではないカードを引いた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then turn the top 1 card(s) of your deck face up. If you drew a card that was not face up with this effect, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-032.png?v8"
+ },
+ "SMD-1-033": {
+  "key": "SMD-1-033",
+  "numberJp": "UA43BT/SMD-1-033",
+  "nameEn": "Asakura",
+  "nameJp": "朝倉",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 2,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "LABO"
+  ],
+  "effectJp": "自分か相手の山札かライフに表向きのカードがある場合、手札にあるこのカードの消費APを-1する。【起動メイン】【レストにする】以下から1つ選ぶ。・カードを1枚引き、自分の手札を1枚場外に置く。・自分の山札の上から1枚を表向きにする。",
+  "effectEn": "If there is a face-up card in your or your opponent's deck or Life, reduce the AP cost of this card in your hand by 1. [Activate: Main] [Rest this card] Choose 1 of the following. Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. Turn the top 1 card(s) of your deck face up.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-033.png?v8"
+ },
+ "SMD-1-034": {
+  "key": "SMD-1-034",
+  "numberJp": "UA43BT/SMD-1-034",
+  "nameEn": "Shopping District's Survival Tournament",
+  "nameJp": "憩来坂商店街大サバゲ―大会",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Field",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ターン1】自分の場のキャラがアタックしてバトルに勝利した時、カードを1枚引く。",
+  "effectEn": "[Once Per Turn] When a character on your field attacks and wins a battle, draw 1 card(s).",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-034.png?v8"
+ },
+ "SMD-1-035": {
+  "key": "SMD-1-035",
+  "numberJp": "UA43BT/SMD-1-035",
+  "nameEn": "Sakamoto's",
+  "nameJp": "坂本商店",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Field",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "坂本商店"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【手札を1枚場外に置く】元々のBPが3500以下の自分の場の特徴に「坂本商店」を持つキャラを1枚選び、アクティブにする。",
+  "effectEn": "[Activate: Main] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] Choose 1 character with the trait “Sakamoto Store” and original BP 3500 or less on your field, and set it to active.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-035.png?v8"
+ },
+ "SMD-1-036": {
+  "key": "SMD-1-036",
+  "numberJp": "UA43BT/SMD-1-036",
+  "nameEn": "Sakamoto Family Motto",
+  "nameJp": "坂本家家訓",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "このターンのアタックフェイズ終了時、このターン中に相手のフロントLのキャラが退場していない場合、カードを4枚まで引く。",
+  "effectEn": "At the end of this turn's Attack Phase, if your opponent's Front Line characters were not retired this turn, draw up to 4 card(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-036.png?v8"
+ },
+ "SMD-1-037": {
+  "key": "SMD-1-037",
+  "numberJp": "UA43BT/SMD-1-037",
+  "nameEn": "Psychic Ability",
+  "nameJp": "超能力",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "カードを2枚引く。相手は自身の手札を全て公開する。",
+  "effectEn": "Draw 2 card(s). Your opponent reveals all cards in their hand.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-037.png?v8"
+ },
+ "SMD-1-038": {
+  "key": "SMD-1-038",
+  "numberJp": "UA43BT/SMD-1-038",
+  "nameEn": "The Legendary Man",
+  "nameJp": "伝説の男",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP2000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈坂本 太郎〉がある場合、『BP5000以下』に代わる。自分の場に［特徴：坂本商店］のカード名が5種類以上ある場合、自分の場のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 2000 or less, retire it. If you have <Taro Sakamoto> on your field, it becomes “BP 5000 or less” instead. If you have 5 or more [Trait: Sakamoto Store] with different card names on your field, Choose up to 1 character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-038.png?v8"
+ },
+ "SMD-1-039": {
+  "key": "SMD-1-039",
+  "numberJp": "UA43BT/SMD-1-039",
+  "nameEn": "An Ordinary Everyday Life",
+  "nameJp": "何て事ない日常",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-039.png?v8"
+ },
+ "SMD-1-040": {
+  "key": "SMD-1-040",
+  "numberJp": "UA43BT/SMD-1-040",
+  "nameEn": "I Can Hear Everything",
+  "nameJp": "丸聞こえだぜ…",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場に〈朝倉 シン〉がある場合、手札にあるこのカードの消費APを-1する。BP5000以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "effectEn": "If you have <Shin Asakura> on your field, reduce the AP cost of this card in your hand by 1. Choose 1 character in your opponent's Front Line with BP 5000 or less, retire it.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-040.png?v8"
+ },
+ "SMD-1-041": {
+  "key": "SMD-1-041",
+  "numberJp": "UA43BT/SMD-1-041",
+  "nameEn": "X",
+  "nameJp": "X",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 6,
+  "ap": 1,
+  "bp": 5000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）",
+  "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-041.png?v8"
+ },
+ "SMD-1-042": {
+  "key": "SMD-1-042",
+  "numberJp": "UA43BT/SMD-1-042",
+  "nameEn": "Osaragi",
+  "nameJp": "大佛",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ORDER"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-042.png?v8"
+ },
+ "SMD-1-043": {
+  "key": "SMD-1-043",
+  "numberJp": "UA43BT/SMD-1-043",
+  "nameEn": "Osaragi",
+  "nameJp": "大佛",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ORDER"
+  ],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-043.png?v8"
+ },
+ "SMD-1-044": {
+  "key": "SMD-1-044",
+  "numberJp": "UA43BT/SMD-1-044",
+  "nameEn": "Osaragi",
+  "nameJp": "大佛",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ORDER"
+  ],
+  "effectJp": "【自分のターン中】このターン中に自分がエクストラドローしている場合、このキャラはBP+1000。",
+  "effectEn": "[During Your Turn] If you have Extra Drawn this turn, this character gets BP+1000.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-044.png?v8"
+ },
+ "SMD-1-045": {
+  "key": "SMD-1-045",
+  "numberJp": "UA43BT/SMD-1-045",
+  "nameEn": "Osaragi",
+  "nameJp": "大佛",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ORDER"
+  ],
+  "effectJp": "【フロントLにある場合】自分はAPを支払わずにエクストラドローしてもよい。",
+  "effectEn": "[While in Front Line] You may Extra Draw without paying AP.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の場外から必要エナジーが2以下で消費APが1の紫のキャラカードを1枚自分のフロントLにアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Purple character card with required energy 2 or less and with AP cost 1 from your Outside Area to your Front Line active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-045.png?v8"
+ },
+ "SMD-1-046": {
+  "key": "SMD-1-046",
+  "numberJp": "UA43BT/SMD-1-046",
+  "nameEn": "Osaragi",
+  "nameJp": "大佛",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ORDER"
+  ],
+  "effectJp": "【レイド】〈大佛〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【アタック時】このターン中に自分がエクストラドローしている場合、カードを1枚まで引く。このキャラが登場したターン中の場合、このキャラはこのターン中、BP+1000と【ダメージ（2）】を得る。",
+  "effectEn": "[Raid] Can Raid onto <Osaragi>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [When Attacking] If you have Extra Drawn this turn, draw up to 1 card(s). During the turn this character was played, this character gains BP+1000 and [Damage 2] this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-046.png?v8"
+ },
+ "SMD-1-047": {
+  "key": "SMD-1-047",
+  "numberJp": "UA43BT/SMD-1-047",
+  "nameEn": "Taro Sakamoto",
+  "nameJp": "坂本 太郎",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ORDER"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-047.png?v8"
+ },
+ "SMD-1-048": {
+  "key": "SMD-1-048",
+  "numberJp": "UA43BT/SMD-1-048",
+  "nameEn": "Taro Sakamoto",
+  "nameJp": "坂本 太郎",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ORDER"
+  ],
+  "effectJp": "このターン中に自分か相手の【トリガー】が発動している場合、このキャラはBP+1000。",
+  "effectEn": "If your or your opponent's [Trigger] activated this turn, this character gets BP+1000.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-048.png?v8"
+ },
+ "SMD-1-049": {
+  "key": "SMD-1-049",
+  "numberJp": "UA43BT/SMD-1-049",
+  "nameEn": "Taro Sakamoto",
+  "nameJp": "坂本 太郎",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ORDER"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見る。その中から1枚まで場外に置き、残りを望む順で山札の上に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Put up to 1 of them into your Outside Area, Put the rest on top of your deck in any order.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-049.png?v8"
+ },
+ "SMD-1-050": {
+  "key": "SMD-1-050",
+  "numberJp": "UA43BT/SMD-1-050",
+  "nameEn": "Taro Sakamoto",
+  "nameJp": "坂本 太郎",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ORDER"
+  ],
+  "effectJp": "【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、自分のフロントLのレイド状態でないキャラを1枚まで選び、そのキャラの【トリガー】を発動する。",
+  "effectEn": "[On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, choose up to 1 non-Raided character in your Front Line and activate that character's [Trigger].",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-050.png?v8"
+ },
+ "SMD-1-051": {
+  "key": "SMD-1-051",
+  "numberJp": "UA43BT/SMD-1-051",
+  "nameEn": "Taro Sakamoto",
+  "nameJp": "坂本 太郎",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ORDER"
+  ],
+  "effectJp": "【レイド】〈坂本 太郎〉アクティブにし、フロントLに移動できる【登場時】カードを1枚引く。【起動メイン】【フロントLにある場合】【ターン1】自分の山札の上から5枚見る。その中から必要エナジーが2以下の紫のカードを1枚まで場外に置き、残りを望む順で山札の下に置く。その後、この効果で場外に置いたカードの【トリガー】を発動する。",
+  "effectEn": "[Raid] Can Raid onto <Taro Sakamoto>; set it to active and you may move it to the Front Line. [On Play] Draw 1 card(s). [Activate: Main] [While in Front Line] [Once Per Turn] Look at the top 5 card(s) of your deck. Put up to 1 purple card(s) with required energy 2 or less among them into your Outside Area, and put the rest on the bottom of your deck in any order. Then, activate the [Trigger] of the card put into your Outside Area by this effect.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-051.png?v8"
+ },
+ "SMD-1-052": {
+  "key": "SMD-1-052",
+  "numberJp": "UA43BT/SMD-1-052",
+  "nameEn": "Shishiba",
+  "nameJp": "神々廻",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ORDER"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-052.png?v8"
+ },
+ "SMD-1-053": {
+  "key": "SMD-1-053",
+  "numberJp": "UA43BT/SMD-1-053",
+  "nameEn": "Shishiba",
+  "nameJp": "神々廻",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ORDER"
+  ],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【紫】。",
+  "effectEn": "While this character is active, its generated energy +[Purple].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-053.png?v8"
+ },
+ "SMD-1-054": {
+  "key": "SMD-1-054",
+  "numberJp": "UA43BT/SMD-1-054",
+  "nameEn": "Shishiba",
+  "nameJp": "神々廻",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ORDER"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【手札を1枚場外に置く】自分がエクストラドローしたターン中のみ発動できる。このキャラはこのターン中、発生エナジー+【紫】。",
+  "effectEn": "[Activate: Main] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] Can only activate during a turn in which you Extra Drew. This turn, this character's generated energy +[Purple].",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-054.png?v8"
+ },
+ "SMD-1-055": {
+  "key": "SMD-1-055",
+  "numberJp": "UA43BT/SMD-1-055",
+  "nameEn": "Shishiba",
+  "nameJp": "神々廻",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ORDER"
+  ],
+  "effectJp": "【レイド】〈神々廻〉アクティブにし、フロントLに移動できる【登場時】このターン中に自分がエクストラドローしている場合、自分のレストのAPカードを1～2枚選び、アクティブにする。〈神々廻〉のこの効果は、1ターンに1回のみ発動する。",
+  "effectEn": "[Raid] Can Raid onto <Shishiba>; set it to active and you may move it to the Front Line. [On Play] If you have Extra Drawn this turn, choose 1 to 2 of your rested AP cards and set them to active. This effect of <Shishiba> activates only 1 time(s) per 1 turn(s).",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-055.png?v8"
+ },
+ "SMD-1-056": {
+  "key": "SMD-1-056",
+  "numberJp": "UA43BT/SMD-1-056",
+  "nameEn": "Takamura",
+  "nameJp": "篁",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 6,
+  "ap": 2,
+  "bp": 5000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ORDER"
+  ],
+  "effectJp": "このカードは自分がエクストラドローしたターン中のみ登場できる。【登場時】このキャラをアクティブにする。相手のフロントLのキャラか相手の場のフィールドを1枚まで選び、退場させる。",
+  "effectEn": "This card can only be played during a turn in which you Extra Drew. [On Play] Set this character to active. Choose up to 1 character in your opponent's Front Line or field on your opponent's field, and retire it.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-056.png?v8"
+ },
+ "SMD-1-057": {
+  "key": "SMD-1-057",
+  "numberJp": "UA43BT/SMD-1-057",
+  "nameEn": "Nagumo",
+  "nameJp": "南雲",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ORDER"
+  ],
+  "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）",
+  "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-057.png?v8"
+ },
+ "SMD-1-058": {
+  "key": "SMD-1-058",
+  "numberJp": "UA43BT/SMD-1-058",
+  "nameEn": "Nagumo",
+  "nameJp": "南雲",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ORDER"
+  ],
+  "effectJp": "自分の【レイド】を持つキャラカードはトリガーの効果でこのキャラにレイドできる。",
+  "effectEn": "Your character cards with [Raid] can Raid onto this character with Trigger effects.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の場外から必要エナジーが2以下で消費APが1の紫のキャラカードを1枚自分のフロントLにアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Purple character card with required energy 2 or less and with AP cost 1 from your Outside Area to your Front Line active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-058.png?v8"
+ },
+ "SMD-1-059": {
+  "key": "SMD-1-059",
+  "numberJp": "UA43BT/SMD-1-059",
+  "nameEn": "Nagumo",
+  "nameJp": "南雲",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ORDER"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【自分のターン中】このターン中に自分か相手の【トリガー】が発動している場合、このキャラは「このキャラはBP4000以上のキャラにブロックされない。」を得る。",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [During Your Turn] If your or your opponent's [Trigger] activated this turn, this character gains “This character cannot be blocked by characters with BP 4000 or more”",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-059.png?v8"
+ },
+ "SMD-1-060": {
+  "key": "SMD-1-060",
+  "numberJp": "UA43BT/SMD-1-060",
+  "nameEn": "Nagumo",
+  "nameJp": "南雲",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ORDER"
+  ],
+  "effectJp": "このカードの【ゲット】を発動する場合、代わりに【ドロートリガー】か【アクティブ】にしてもよい。",
+  "effectEn": "When activating this card's [Get], you may make it [Draw Trigger] or [Active] instead.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-060.png?v8"
+ },
+ "SMD-1-061": {
+  "key": "SMD-1-061",
+  "numberJp": "UA43BT/SMD-1-061",
+  "nameEn": "Nagumo",
+  "nameJp": "南雲",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ORDER"
+  ],
+  "effectJp": "【レイド】〈南雲〉アクティブにし、フロントLに移動できる【登場時】【フロントLにある場合】自分の場外から『【カラートリガー】』を持つ紫のキャラカードを1枚まで選び、そのカードの【トリガー】を発動する。レイド状態のこのキャラの一番上のカードを自分の場外に置いてもよい。そうした場合、『〈南雲〉以外の【レイドトリガー】』に代わる。",
+  "effectEn": "[Raid] Can Raid onto <Nagumo>; set it to active and you may move it to the Front Line. [On Play] [While in Front Line] Choose up to 1 purple character card with “[Color Trigger]” from your Outside Area and activate that card's [Trigger]. You may put the top card of this Raided character into your Outside Area. If you do, it becomes “[Raid Trigger] other than <Nagumo>” instead.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-061.png?v8"
+ },
+ "SMD-1-062": {
+  "key": "SMD-1-062",
+  "numberJp": "UA43BT/SMD-1-062",
+  "nameEn": "Hyo",
+  "nameJp": "豹",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ORDER"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見る。その中から［特徴：ORDER］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: ORDER] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-062.png?v8"
+ },
+ "SMD-1-063": {
+  "key": "SMD-1-063",
+  "numberJp": "UA43BT/SMD-1-063",
+  "nameEn": "Kashima",
+  "nameJp": "鹿島",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "LABO"
+  ],
+  "effectJp": "【登場時】【アタック時】自分の山札の上から3枚見る。その中から［特徴：LABO］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] [When Attacking] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: LABO] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-063.png?v8"
+ },
+ "SMD-1-064": {
+  "key": "SMD-1-064",
+  "numberJp": "UA43BT/SMD-1-064",
+  "nameEn": "Intruder Elimination System",
+  "nameJp": "侵入者排除システム",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "LABO"
+  ],
+  "effectJp": "【登場時】相手のフロントLにBP4000以上のキャラが4枚以上ある場合、カードを1枚引き、このキャラをアクティブにし、このキャラは次の自分のターン開始時まで、BP+2000。",
+  "effectEn": "[On Play] If your opponent has 4 or more characters with BP 4000 or more in their Front Line, draw 1 card(s), set this character to active, and it gets BP+2000 until the start of your next turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-064.png?v8"
+ },
+ "SMD-1-065": {
+  "key": "SMD-1-065",
+  "numberJp": "UA43BT/SMD-1-065",
+  "nameEn": "Natsuki Seba",
+  "nameJp": "勢羽 夏生",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "LABO"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-065.png?v8"
+ },
+ "SMD-1-066": {
+  "key": "SMD-1-066",
+  "numberJp": "UA43BT/SMD-1-066",
+  "nameEn": "Natsuki Seba",
+  "nameJp": "勢羽 夏生",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "LABO"
+  ],
+  "effectJp": "【登場時】自分の場の［特徴：LABO］を1枚まで選び、このターン中、BP+1000。【アタック時】自分の場の［特徴：LABO］全ては、このターン中、BP+1000。",
+  "effectEn": "[On Play] Choose up to 1 [Trait: LABO] on your field, it gets BP+1000 this turn. [When Attacking] All [Trait: LABO] on your field it gets BP+1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-066.png?v8"
+ },
+ "SMD-1-067": {
+  "key": "SMD-1-067",
+  "numberJp": "UA43BT/SMD-1-067",
+  "nameEn": "Natsuki Seba",
+  "nameJp": "勢羽 夏生",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "LABO"
+  ],
+  "effectJp": "【アタック時】自分の場に［特徴：LABO］が3枚以上ある場合、このキャラはこのターン中、BP+1000。",
+  "effectEn": "[When Attacking] If you have 3 or more [Trait: LABO] on your field, This character gets BP+1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-067.png?v8"
+ },
+ "SMD-1-068": {
+  "key": "SMD-1-068",
+  "numberJp": "UA43BT/SMD-1-068",
+  "nameEn": "Natsuki Seba",
+  "nameJp": "勢羽 夏生",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 2,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "LABO"
+  ],
+  "effectJp": "【登場時】カードを1枚引く。【アタック時】自分の手札から必要エナジーが4以下で消費APが1の紫の［特徴：LABO］を1枚まで自分の場にアクティブで登場させるかレイドさせる。この効果でこのキャラにはレイドできない。",
+  "effectEn": "[On Play] Draw 1 card(s). [When Attacking] Play up to 1 Purple [Trait: LABO] with required energy 4 or less and with AP cost 1 from your hand to your field active or Raid it. This effect cannot Raid onto this character.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-068.png?v8"
+ },
+ "SMD-1-069": {
+  "key": "SMD-1-069",
+  "numberJp": "UA43BT/SMD-1-069",
+  "nameEn": "Natsuki Seba",
+  "nameJp": "勢羽 夏生",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "LABO"
+  ],
+  "effectJp": "【レイド】〈勢羽 夏生〉アクティブにし、フロントLに移動できる【相手のターン中】相手はキャラの効果やイベントカードの効果でこのキャラを選ぶ際に、追加でAPを1支払わないと選べない。【起動メイン】【フロントLにある場合】【ターン1】このキャラが登場したターン中は発動できない。カードを1枚引く。自分の場に［特徴：LABO］が3枚以上あり、相手のライフが3以上ある場合、相手プレイヤーに1ダメージ。",
+  "effectEn": "[Raid] Can Raid onto <Natsuki Seba>; set it to active and you may move it to the Front Line. [During Opponent's Turn] Your opponent must pay 1 additional AP to choose this character with character effects or Event card effects. [Activate: Main] [While in Front Line] [Once Per Turn] Cannot activate during the turn this character was played. Draw 1 card(s). If you have 3 or more [Trait: LABO] on your field and your opponent's Life is 3 or more, deal 1 damage to the opposing player.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-069.png?v8"
+ },
+ "SMD-1-070": {
+  "key": "SMD-1-070",
+  "numberJp": "UA43BT/SMD-1-070",
+  "nameEn": "Tanaka",
+  "nameJp": "田中",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "LABO"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-070.png?v8"
+ },
+ "SMD-1-071": {
+  "key": "SMD-1-071",
+  "numberJp": "UA43BT/SMD-1-071",
+  "nameEn": "Invisibility Suit",
+  "nameJp": "透明スーツ",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "LABO"
+  ],
+  "effectJp": "このキャラはレイド以外で登場できない。【レイド】必要エナジーが4以下の紫のキャラ アクティブにし、フロントLに移動できるこのキャラは相手の効果で選ばれない。このキャラはこのキャラのレイド元のカードが持つ【登場時】【アタック時】を全て得る。",
+  "effectEn": "This character cannot be played except by Raid. [Raid] Can Raid onto a purple character with required energy 4 or less; set it to active and you may move it to the Front Line. This character cannot be chosen by your opponent's effects. This character gains all [On Play] of this character's Raid source cards. [When Attacking] Gains all of them.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の場外から必要エナジーが2以下で消費APが1の紫のキャラカードを1枚自分のフロントLにアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Purple character card with required energy 2 or less and with AP cost 1 from your Outside Area to your Front Line active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-071.png?v8"
+ },
+ "SMD-1-072": {
+  "key": "SMD-1-072",
+  "numberJp": "UA43BT/SMD-1-072",
+  "nameEn": "Mad Horiguchi",
+  "nameJp": "マッド堀口",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "LABO"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【紫】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Purple] and gains “At the end of the Main Phase, retire this character”",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-072.png?v8"
+ },
+ "SMD-1-073": {
+  "key": "SMD-1-073",
+  "numberJp": "UA43BT/SMD-1-073",
+  "nameEn": "LABO",
+  "nameJp": "LABO",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Field",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "LABO"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【手札を1枚場外に置く】自分の場の［特徴：LABO］を1枚選び、このターン中、「このキャラはBP4000以上のキャラにブロックされない。」を与える。",
+  "effectEn": "[Activate: Main] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] Choose 1 [Trait: LABO] on your field, it gains “This character cannot be blocked by characters with BP 4000 or more” this turn.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-073.png?v8"
+ },
+ "SMD-1-074": {
+  "key": "SMD-1-074",
+  "numberJp": "UA43BT/SMD-1-074",
+  "nameEn": "The Order",
+  "nameJp": "ORDER",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から5枚見る。その中から［特徴：ORDER］を2枚まで公開し手札に加える。残りを望む順で山札の下に置く。",
+  "effectEn": "Look at the top 5 card(s) of your deck. Reveal up to 2 [Trait: ORDER] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-074.png?v8"
+ },
+ "SMD-1-075": {
+  "key": "SMD-1-075",
+  "numberJp": "UA43BT/SMD-1-075",
+  "nameEn": "For the Order",
+  "nameJp": "秩序の名の下に",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-075.png?v8"
+ },
+ "SMD-1-076": {
+  "key": "SMD-1-076",
+  "numberJp": "UA43BT/SMD-1-076",
+  "nameEn": "Good Luck Ritual",
+  "nameJp": "ゲン担ぎ",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "〈ゲン担ぎ〉は1ターンに1枚のみ使用できる。カードを1枚引く。このターン中に自分がエクストラドローしている場合、自分のAPカードを1枚まで選び、アクティブにする。",
+  "effectEn": "Only 1 <Good Luck Ritual> can be used per 1 turn(s). Draw 1 card(s). If you have Extra Drawn this turn, choose up to 1 of your AP cards and set them to active.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-076.png?v8"
+ },
+ "SMD-1-077": {
+  "key": "SMD-1-077",
+  "numberJp": "UA43BT/SMD-1-077",
+  "nameEn": "Good Thing We Went Wild With B5, Huh",
+  "nameJp": "B5で暴れて正解やったなァー",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈神々廻〉か〈大佛〉がある場合、『BP4000以下』に代わる。自分の場に〈神々廻〉と〈大佛〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Shishiba> or <Osaragi> on your field, it becomes “BP 4000 or less” instead. If you have <Shishiba> and <Osaragi> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-077.png?v8"
+ },
+ "SMD-1-078": {
+  "key": "SMD-1-078",
+  "numberJp": "UA43BT/SMD-1-078",
+  "nameEn": "It's Almost Time, So I'm Clocking Out",
+  "nameJp": "そろそろ定時なんで上がらせてもらうわ",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "相手のフロントLのキャラを1枚選び、自分の場にある［特徴：LABO］1枚につき、このターン中、BP-1000。",
+  "effectEn": "Choose 1 character in your opponent's Front Line, For each 1 [Trait: LABO] on your field, it gets BP-1000 this turn.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-078.png?v8"
+ },
+ "SMD-1-079": {
+  "key": "SMD-1-079",
+  "numberJp": "UA43BT/SMD-1-079",
+  "nameEn": "Master of Disguise",
+  "nameJp": "変装の達人",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "BP5000以下の相手のフロントLのキャラを1枚選び、相手の山札の上か下の『相手が選んだ方』に置く。自分の場に〈南雲〉がある場合、『自分が選んだ方』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 5000 or less, and put it on the top or bottom of your opponent's deck (your opponent chooses which) If you have <Nagumo> on your field, it becomes “you choose” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-079.png?v8"
+ },
+ "SMD-1-080": {
+  "key": "SMD-1-080",
+  "numberJp": "UA43BT/SMD-1-080",
+  "nameEn": "Let the Fun Experiment Begin!",
+  "nameJp": "楽しい実験のはじまりだ～",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [
+   "LABO"
+  ],
+  "effectJp": "自分のAPカードを1枚まで選び、アクティブにする。相手は次の相手のターンの移動フェイズでエナジーLのキャラをフロントLに移動できず、フロントLのキャラをエナジーLへ移動できる。",
+  "effectEn": "Choose up to 1 of your AP cards, set it to active. During your opponent's next Movement Phase, they cannot move characters from the Energy Line to the Front Line, but can move Front Line characters to the Energy Line.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-080.png?v8"
+ },
+ "SMD-1-AP01": {
+  "key": "SMD-1-AP01",
+  "numberJp": "UA43BT/SMD-1-AP01",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(SAKAMOTO DAYS)",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-AP01.png?v8"
+ },
+ "SMD-1-AP02": {
+  "key": "SMD-1-AP02",
+  "numberJp": "UA43BT/SMD-1-AP02",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(SAKAMOTO DAYS)",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-AP02.png?v8"
+ },
+ "SMD-1-AP03": {
+  "key": "SMD-1-AP03",
+  "numberJp": "UA43BT/SMD-1-AP03",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(SAKAMOTO DAYS)",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-AP03.png?v8"
+ },
+ "SMD-1-AP04": {
+  "key": "SMD-1-AP04",
+  "numberJp": "UA43BT/SMD-1-AP04",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(SAKAMOTO DAYS)",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-AP04.png?v8"
+ },
+ "SMD-1-AP05": {
+  "key": "SMD-1-AP05",
+  "numberJp": "UA43BT/SMD-1-AP05",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(SAKAMOTO DAYS)",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-AP05.png?v8"
+ },
+ "SMD-1-AP06": {
+  "key": "SMD-1-AP06",
+  "numberJp": "UA43BT/SMD-1-AP06",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(SAKAMOTO DAYS)",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-AP06.png?v8"
+ },
+ "SMD-1-AP07": {
+  "key": "SMD-1-AP07",
+  "numberJp": "UA43BT/SMD-1-AP07",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(SAKAMOTO DAYS)",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-AP07.png?v8"
+ },
+ "SMD-1-AP08": {
+  "key": "SMD-1-AP08",
+  "numberJp": "UA43BT/SMD-1-AP08",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(SAKAMOTO DAYS)",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-AP08.png?v8"
+ },
+ "SMD-1-AP09": {
+  "key": "SMD-1-AP09",
+  "numberJp": "UA43BT/SMD-1-AP09",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(SAKAMOTO DAYS)",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-AP09.png?v8"
+ },
+ "SMD-1-AP10": {
+  "key": "SMD-1-AP10",
+  "numberJp": "UA43BT/SMD-1-AP10",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(SAKAMOTO DAYS)",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-AP10.png?v8"
+ },
+ "SMD-1-AP11": {
+  "key": "SMD-1-AP11",
+  "numberJp": "UA43BT/SMD-1-AP11",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(SAKAMOTO DAYS)",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-AP11.png?v8"
+ },
+ "SMD-1-AP12": {
+  "key": "SMD-1-AP12",
+  "numberJp": "UA43BT/SMD-1-AP12",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(SAKAMOTO DAYS)",
+  "series": "SAKAMOTO DAYS",
+  "setName": "UE19BT: SAKAMOTO DAYS",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA43BT_SMD-1-AP12.png?v8"
+ }
+}

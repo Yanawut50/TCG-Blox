@@ -1,0 +1,98 @@
+{
+ "SYN-P-001": {
+  "key": "SYN-P-001",
+  "numberJp": "UAPR/SYN-P-001",
+  "nameEn": "",
+  "nameJp": "ノワール",
+  "series": "SYNDUALITY Noir",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PR",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "メイガス"
+  ],
+  "effectJp": "【登場時】このキャラを退場させてもよい。そうした場合、自分の山札の上から3枚見る。それらを望む順で自分の山札の上に置く。その後、自分の山札の上から1枚を公開し『手札に加える』。自分のターン中で、公開したカードが必要エナジーを満たし消費APが1のカードの場合、『APを支払わずに使用する』に代えてもよい。",
+  "effectEn": "[On Play] You may retire this character. If you do, Look at the top 3 card(s) of your deck. Put them on top of your deck in any order. Then, reveal the top 1 card(s) of your deck and “add them to your hand” If it is your turn and the revealed card meets its required energy and has AP cost 1, you may instead make it “use it without paying AP”",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_SYN-P-001.png?v9"
+ },
+ "SYN-P-002": {
+  "key": "SYN-P-002",
+  "numberJp": "UAPR/SYN-P-002",
+  "nameEn": "",
+  "nameJp": "黒仮面",
+  "series": "SYNDUALITY Noir",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "PR",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "イデアール"
+  ],
+  "effectJp": "【アタック時】【ターン1】自分の場に〈シュネー〉がある場合、このターン中にアタックした【レイド】を持たない他のキャラを1枚選んでもよい。そうした場合、このキャラはこのアタックでダメージを与えず、選んだキャラをアクティブにする。その後、選んだキャラがレストの場合、そのキャラをアクティブにする。",
+  "effectEn": "[When Attacking] [Once Per Turn] If you have <シュネー> on your field, you may choose 1 other character without [Raid] that attacked this turn. If you do, this character deals no damage with this attack, and set the chosen character to active. Then, if the chosen character is rested, set that character to active.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_SYN-P-002.png?v9"
+ },
+ "SYN-P-003": {
+  "key": "SYN-P-003",
+  "numberJp": "UAPR/SYN-P-003",
+  "nameEn": "",
+  "nameJp": "シエル",
+  "series": "SYNDUALITY Noir",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "PR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "メイガス"
+  ],
+  "effectJp": "【登場時】カードを1枚引く。【起動メイン】【フロントLにある場合】【ターン1】このターン中、次に発動する赤の〈デイジーオーガ〉の【起動メイン】は【APを1支払う】を失う。",
+  "effectEn": "[On Play] Draw 1 card(s). [Activate: Main] [While in Front Line] [Once Per Turn] This turn, the next [Activate: Main] of a red <デイジーオーガ> you activate loses [Pay 1 AP].",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_SYN-P-003.png?v9"
+ }
+}

@@ -1,0 +1,3595 @@
+{
+ "FMA-1-001": {
+  "key": "FMA-1-001",
+  "numberJp": "UA37BT/FMA-1-001",
+  "nameEn": "Alphonse Elric",
+  "nameJp": "アルフォンス・エルリック",
+  "series": "鋼の錬金術師",
+  "setName": "UE09ST: FULLMETAL ALCHEMIST Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-001.png?v8"
+ },
+ "FMA-1-002": {
+  "key": "FMA-1-002",
+  "numberJp": "UA37BT/FMA-1-002",
+  "nameEn": "Alphonse Elric",
+  "nameJp": "アルフォンス・エルリック",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-002.png?v8"
+ },
+ "FMA-1-003": {
+  "key": "FMA-1-003",
+  "numberJp": "UA37BT/FMA-1-003",
+  "nameEn": "Alphonse Elric",
+  "nameJp": "アルフォンス・エルリック",
+  "series": "鋼の錬金術師",
+  "setName": "UE09ST: FULLMETAL ALCHEMIST Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の場外の【レイド】を持たない〈エドワード・エルリック〉を1枚、自分のフロントLの【レイド】を持ち、レイド状態でない〈エドワード・エルリック〉1枚の下に表向きで置く。そうした場合、そのキャラをアクティブにする。（レイド状態になる）",
+  "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Put 1 <Edward Elric> without [Raid] from your Outside Area face up under 1 <Edward Elric> in your Front Line that has [Raid] and is not Raided. If you do, set that character to active. (It becomes Raided)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-003.png?v8"
+ },
+ "FMA-1-004": {
+  "key": "FMA-1-004",
+  "numberJp": "UA37BT/FMA-1-004",
+  "nameEn": "Alphonse Elric",
+  "nameJp": "アルフォンス・エルリック",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【場外にある場合】自分の場に〈真理の扉〉がある場合、場外のこのカードの必要エナジーを【黄×1】減らす。【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】APを1支払ってもよい。そうした場合、以下から『1つ』選ぶ。このキャラが自分の効果で登場していた場合、『全て』に代わる。・相手のフロントLのキャラを1枚まで選び、レストにする。・このキャラをアクティブにする。",
+  "effectEn": "[While in Outside Area] If you have <Gateway of Truth> on your field, reduce the required energy of this card in your Outside Area by [Yellow x1]. [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] You may pay 1 AP. If you do, Choose 1 of the following. If this character was played by your own effect, it becomes “all” instead. Choose up to 1 character in your opponent's Front Line, rest it. Set this character to active.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】相手のフロントLのキャラを1枚選び、レストにする。それは次の1回アクティブにならない。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-004.png?v8"
+ },
+ "FMA-1-005": {
+  "key": "FMA-1-005",
+  "numberJp": "UA37BT/FMA-1-005",
+  "nameEn": "Izumi Curtis",
+  "nameJp": "イズミ・カーティス",
+  "series": "鋼の錬金術師",
+  "setName": "UE09ST: FULLMETAL ALCHEMIST Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】このキャラはBP+500。【起動メイン】【フロントLにある場合】【手札を1枚場外に置く】【ターン1】自分の場の〈エドワード・エルリック〉か〈アルフォンス・エルリック〉を1枚選び、アクティブにする。",
+  "effectEn": "[During Your Turn] This character gets BP+500. [Activate: Main] [While in Front Line] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] Choose 1 <Edward Elric> or <Alphonse Elric> on your field, set it to active.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-005.png?v8"
+ },
+ "FMA-1-006": {
+  "key": "FMA-1-006",
+  "numberJp": "UA37BT/FMA-1-006",
+  "nameEn": "Van Hohenheim",
+  "nameJp": "ヴァン・ホーエンハイム",
+  "series": "鋼の錬金術師",
+  "setName": "UE09ST: FULLMETAL ALCHEMIST Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-006.png?v8"
+ },
+ "FMA-1-007": {
+  "key": "FMA-1-007",
+  "numberJp": "UA37BT/FMA-1-007",
+  "nameEn": "Winry Rockbell",
+  "nameJp": "ウィンリィ・ロックベル",
+  "series": "鋼の錬金術師",
+  "setName": "UE09ST: FULLMETAL ALCHEMIST Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-007.png?v8"
+ },
+ "FMA-1-008": {
+  "key": "FMA-1-008",
+  "numberJp": "UA37BT/FMA-1-008",
+  "nameEn": "Winry Rockbell",
+  "nameJp": "ウィンリィ・ロックベル",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分のフロントLに〈エドワード・エルリック〉がある場合、このキャラの発生エナジー+【黄】。【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+500。",
+  "effectEn": "If you have <Edward Elric> in your Front Line, This character's generated energy +[Yellow]. [Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+500 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-008.png?v8"
+ },
+ "FMA-1-009": {
+  "key": "FMA-1-009",
+  "numberJp": "UA37BT/FMA-1-009",
+  "nameEn": "Edward Elric",
+  "nameJp": "エドワード・エルリック",
+  "series": "鋼の錬金術師",
+  "setName": "UE09ST: FULLMETAL ALCHEMIST Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-009.png?v8"
+ },
+ "FMA-1-010": {
+  "key": "FMA-1-010",
+  "numberJp": "UA37BT/FMA-1-010",
+  "nameEn": "Edward Elric",
+  "nameJp": "エドワード・エルリック",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中から〈エドワード・エルリック〉か〈アルフォンス・エルリック〉か〈真理の扉〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 <Edward Elric> or <Alphonse Elric> or <Gateway of Truth> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-010.png?v8"
+ },
+ "FMA-1-011": {
+  "key": "FMA-1-011",
+  "numberJp": "UA37BT/FMA-1-011",
+  "nameEn": "Edward Elric",
+  "nameJp": "エドワード・エルリック",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）自分の場に〈真理の扉〉がある場合、このキャラはBP+500。",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)If you have <Gateway of Truth> on your field, This character gets BP+500.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-011.png?v8"
+ },
+ "FMA-1-012": {
+  "key": "FMA-1-012",
+  "numberJp": "UA37BT/FMA-1-012",
+  "nameEn": "Edward Elric",
+  "nameJp": "エドワード・エルリック",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈エドワード・エルリック〉アクティブにし、フロントLに移動できる【自分のターン中】このキャラはBP+500。【登場時】以下から1つまで選ぶ。・カードを2枚引き、自分の手札を1枚場外に置く。・自分のターン中の場合、自分の場外から必要エナジーが3以下で消費APが1の〈アルフォンス・エルリック〉を1枚自分の場にレストで登場させてもよい。そうした場合、このキャラのレイド元のカードを1枚場外に置く。（このキャラはレイド状態ではなくなる）",
+  "effectEn": "[Raid] Can Raid onto <Edward Elric>; set it to active and you may move it to the Front Line. [During Your Turn] This character gets BP+500. [On Play] Choose up to 1 of the following. Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area. If it is your turn, you may play 1 <Alphonse Elric> with required energy 3 or less and AP cost 1 from your Outside Area to your field rested. If you do, put 1 of this character's Raid source cards into your Outside Area. (This character is no longer Raided)",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-012.png?v8"
+ },
+ "FMA-1-013": {
+  "key": "FMA-1-013",
+  "numberJp": "UA37BT/FMA-1-013",
+  "nameEn": "Scar",
+  "nameJp": "傷の男(スカー)",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラはアクティブで場に登場させる。【登場時】相手のフロントLのキャラを1枚まで選び、レストにする。自分の発生エナジーが7以上ある場合、このキャラはこのターン中、BP+1000と【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。【アタック時】相手は自身の場外にあるカードを2枚望む順で自身の山札の下に置く。",
+  "effectEn": "This character is played active. [On Play] Choose up to 1 character in your opponent's Front Line, rest it. If your generated energy is 7 or more, this character gains BP+1000 and [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opposing player) this turn. [When Attacking] Your opponent puts 2 card(s) from their Outside Area on the bottom of their deck in any order.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-013.png?v8"
+ },
+ "FMA-1-014": {
+  "key": "FMA-1-014",
+  "numberJp": "UA37BT/FMA-1-014",
+  "nameEn": "Tim Marcoh",
+  "nameJp": "ティム・マルコー",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "相手の場に青か紫のカードがある場合、手札にあるこのカードの必要エナジーを【黄×1】減らす。",
+  "effectEn": "If your opponent has Blue or Purple card on their field, the required energy of this card in your hand [Yellow x1]is reduced.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-014.png?v8"
+ },
+ "FMA-1-015": {
+  "key": "FMA-1-015",
+  "numberJp": "UA37BT/FMA-1-015",
+  "nameEn": "Trisha Elric",
+  "nameJp": "トリシャ・エルリック",
+  "series": "鋼の錬金術師",
+  "setName": "UE09ST: FULLMETAL ALCHEMIST Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【黄】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Yellow] and gains “At the end of the Main Phase, retire this character”",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-015.png?v8"
+ },
+ "FMA-1-016": {
+  "key": "FMA-1-016",
+  "numberJp": "UA37BT/FMA-1-016",
+  "nameEn": "Yoki",
+  "nameJp": "ヨキ",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【相手のターン中】【フロントLにある場合】〈ヨキ〉以外の自分の場のキャラは、「相手はイベントカードの効果でこのキャラを選ぶ際に、追加で自身の手札を1枚場外に置かないと選べない。」を得る。〈ヨキ〉のこの効果は重複しない。",
+  "effectEn": "[During Opponent's Turn] [While in Front Line] Characters on your field other than <Yoki> gain “When choosing this character with an event card effect, your opponent must additionally put 1 card(s) from their hand into their Outside Area” This <Yoki> effect does not stack.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-016.png?v8"
+ },
+ "FMA-1-017": {
+  "key": "FMA-1-017",
+  "numberJp": "UA37BT/FMA-1-017",
+  "nameEn": "Shao May",
+  "nameJp": "シャオメイ",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "シン国"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見る。その中から〈メイ・チャン〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 <May Chang> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-017.png?v8"
+ },
+ "FMA-1-018": {
+  "key": "FMA-1-018",
+  "numberJp": "UA37BT/FMA-1-018",
+  "nameEn": "Old Man Fu",
+  "nameJp": "フー",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "シン国"
+  ],
+  "effectJp": "【自分のターン中】自分の発生エナジーが7以上ある場合、このキャラはBP+1000。",
+  "effectEn": "[During Your Turn] If your generated energy is 7 or more, this character gets BP+1000.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-018.png?v8"
+ },
+ "FMA-1-019": {
+  "key": "FMA-1-019",
+  "numberJp": "UA37BT/FMA-1-019",
+  "nameEn": "May Chang",
+  "nameJp": "メイ・チャン",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "シン国"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-019.png?v8"
+ },
+ "FMA-1-020": {
+  "key": "FMA-1-020",
+  "numberJp": "UA37BT/FMA-1-020",
+  "nameEn": "May Chang",
+  "nameJp": "メイ・チャン",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "シン国"
+  ],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【黄】。",
+  "effectEn": "While this character is active, its generated energy +[Yellow].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-020.png?v8"
+ },
+ "FMA-1-021": {
+  "key": "FMA-1-021",
+  "numberJp": "UA37BT/FMA-1-021",
+  "nameEn": "May Chang",
+  "nameJp": "メイ・チャン",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "シン国"
+  ],
+  "effectJp": "【レイド】〈メイ・チャン〉アクティブにし、フロントLに移動できるこのキャラの発生エナジー+【黄】。【登場時】【エナジーLにある場合】カードを1枚引く。",
+  "effectEn": "[Raid] Can Raid onto <May Chang>; set it to active and you may move it to the Front Line. This character's generated energy +[Yellow]. [On Play] [While in Energy Line] Draw 1 card(s).",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-021.png?v8"
+ },
+ "FMA-1-022": {
+  "key": "FMA-1-022",
+  "numberJp": "UA37BT/FMA-1-022",
+  "nameEn": "Lanfan",
+  "nameJp": "ランファン",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "シン国"
+  ],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中から［特徴：シン国］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 [Trait: Xing] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-022.png?v8"
+ },
+ "FMA-1-023": {
+  "key": "FMA-1-023",
+  "numberJp": "UA37BT/FMA-1-023",
+  "nameEn": "Lanfan",
+  "nameJp": "ランファン",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "シン国"
+  ],
+  "effectJp": "自分の発生エナジーにより、このキャラは以下の効果を全て得る。・5以上：このキャラはBP+500。・6以上：このキャラはBP4000以上のキャラにブロックされない。・7以上：【登場時】APを1支払ってもよい。そうした場合、このキャラをアクティブにする。",
+  "effectEn": "Depending on your generated energy, this character gains all of the following effects. 5 or more: This character gets BP+500. 6 or more: This character cannot be blocked by characters with BP 4000 or more. 7 or more: [On Play] You may pay 1 AP. If you do, Set this character to active.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-023.png?v8"
+ },
+ "FMA-1-024": {
+  "key": "FMA-1-024",
+  "numberJp": "UA37BT/FMA-1-024",
+  "nameEn": "Ling Yao",
+  "nameJp": "リン・ヤオ",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "シン国"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-024.png?v8"
+ },
+ "FMA-1-025": {
+  "key": "FMA-1-025",
+  "numberJp": "UA37BT/FMA-1-025",
+  "nameEn": "Ling Yao",
+  "nameJp": "リン・ヤオ",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "シン国"
+  ],
+  "effectJp": "【登場時】自分の手札から必要エナジーが2以下で消費APが1の黄の［特徴：シン国］を1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[On Play] Play up to 1 Yellow [Trait: Xing] with required energy 2 or less and with AP cost 1 from your hand to your field rested.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-025.png?v8"
+ },
+ "FMA-1-026": {
+  "key": "FMA-1-026",
+  "numberJp": "UA37BT/FMA-1-026",
+  "nameEn": "Ling Yao",
+  "nameJp": "リン・ヤオ",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "シン国"
+  ],
+  "effectJp": "自分の発生エナジーにより、このキャラは以下の効果を全て得る。・6以上：【登場時】カードを1枚まで引く。・7以上：【アタック時】自分の場の他の［特徴：シン国］を1枚まで選び、このターン中、「このキャラはBP4000以上のキャラにブロックされない。」を与える。",
+  "effectEn": "Depending on your generated energy, this character gains all of the following effects. 6 or more: [On Play] Draw up to 1 card(s). 7 or more: [When Attacking] Choose up to 1 other [Trait: Xing] on your field; it gains “This character cannot be blocked by characters with BP 4000 or more” this turn.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】相手のフロントLのキャラを1枚選び、レストにする。それは次の1回アクティブにならない。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-026.png?v8"
+ },
+ "FMA-1-027": {
+  "key": "FMA-1-027",
+  "numberJp": "UA37BT/FMA-1-027",
+  "nameEn": "Greed",
+  "nameJp": "グリード",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 6,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "シン国",
+   "ホムンクルス"
+  ],
+  "effectJp": "【レイド】〈リン・ヤオ〉アクティブにし、フロントLに移動できるこのキャラはBP+1000。【登場時】このキャラはこのターン中、「相手はこのキャラのアタックを可能ならブロックしなければならない。」を得る。【退場時】自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外から必要エナジーが4以下で消費APが1の〈リン・ヤオ〉を1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[Raid] Can Raid onto <Ling Yao>; set it to active and you may move it to the Front Line. This character gets BP+1000. [On Play] This character gains “Your opponent must block this character's attacks if able” this turn. [On Retire] You may put 1 card(s) from your hand into your Outside Area. If you do, Play up to 1 <Ling Yao> with required energy 4 or less and with AP cost 1 from your Outside Area to your field rested.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-027.png?v8"
+ },
+ "FMA-1-028": {
+  "key": "FMA-1-028",
+  "numberJp": "UA37BT/FMA-1-028",
+  "nameEn": "Gateway of Truth",
+  "nameJp": "真理の扉",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Field",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "このフィールドは、相手の効果で選ばれない。【登場時】自分の場に〈エドワード・エルリック〉か〈アルフォンス・エルリック〉がある場合、カードを2枚引き、自分の手札を2枚場外に置く。【起動メイン】【レストにする】自分のライフエリアにあるカードを1枚場外に置く。そうした場合、自分の山札の上から6枚見る。その中からキャラカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
+  "effectEn": "This Field cannot be chosen by your opponent's effects. [On Play] If you have <Edward Elric> or <Alphonse Elric> on your field, Draw 2 card(s), then put 2 card(s) from your hand into your Outside Area. [Activate: Main] [Rest this card] Put 1 card(s) from your Life Area into your Outside Area. If you do, Look at the top 6 card(s) of your deck. Reveal up to 1 character card among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-028.png?v8"
+ },
+ "FMA-1-029": {
+  "key": "FMA-1-029",
+  "numberJp": "UA37BT/FMA-1-029",
+  "nameEn": "Automail",
+  "nameJp": "機械鎧",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場のキャラを1枚選び、このターン中、BP+2000。選んだキャラが〈エドワード・エルリック〉の場合、さらにこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）か【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を与える。",
+  "effectEn": "Choose 1 character on your field, it gets BP+2000 this turn. If the chosen character is <Edward Elric>, it also gains [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opposing player) or [Damage 2] (When this character deals direct damage by attacking, it deals 2 damage instead) this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-029.png?v8"
+ },
+ "FMA-1-030": {
+  "key": "FMA-1-030",
+  "numberJp": "UA37BT/FMA-1-030",
+  "nameEn": "Traveler from Xing",
+  "nameJp": "シン国からの旅人",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場にある［特徴：シン国］の枚数×1000以下のBPの相手のフロントLのキャラを1枚選び、退場させる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP equal to or less than 1000 × the number of [Trait: Xing] on your field, and retire it.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-030.png?v8"
+ },
+ "FMA-1-031": {
+  "key": "FMA-1-031",
+  "numberJp": "UA37BT/FMA-1-031",
+  "nameEn": "Equivalent Exchange",
+  "nameJp": "等価交換",
+  "series": "鋼の錬金術師",
+  "setName": "UE09ST: FULLMETAL ALCHEMIST Starter Deck",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-031.png?v8"
+ },
+ "FMA-1-032": {
+  "key": "FMA-1-032",
+  "numberJp": "UA37BT/FMA-1-032",
+  "nameEn": "Why Do I Have to Choose?",
+  "nameJp": "なんで二択なの？",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "以下から『1つ』選ぶ。自分の場に〈アルフォンス・エルリック〉がある場合、『全て』に代わる。・自分の山札の上から3枚見る。それらを山札の上と下に望む枚数ずつ望む順で置く。・カードを2枚引く。",
+  "effectEn": "Choose 1 of the following. If you have <Alphonse Elric> on your field, it becomes “all” instead. Look at the top 3 card(s) of your deck. Put any number of them on the top and the rest on the bottom of your deck in any order. Draw 2 card(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-032.png?v8"
+ },
+ "FMA-1-033": {
+  "key": "FMA-1-033",
+  "numberJp": "UA37BT/FMA-1-033",
+  "nameEn": "Fullmetal Alchemist",
+  "nameJp": "鋼の錬金術師",
+  "series": "鋼の錬金術師",
+  "setName": "UE09ST: FULLMETAL ALCHEMIST Starter Deck",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈エドワード・エルリック〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Edward Elric> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-033.png?v8"
+ },
+ "FMA-1-034": {
+  "key": "FMA-1-034",
+  "numberJp": "UA37BT/FMA-1-034",
+  "nameEn": "Alex Louis Armstrong",
+  "nameJp": "アレックス・ルイ・アームストロング",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-034.png?v8"
+ },
+ "FMA-1-035": {
+  "key": "FMA-1-035",
+  "numberJp": "UA37BT/FMA-1-035",
+  "nameEn": "Alex Louis Armstrong",
+  "nameJp": "アレックス・ルイ・アームストロング",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-035.png?v8"
+ },
+ "FMA-1-036": {
+  "key": "FMA-1-036",
+  "numberJp": "UA37BT/FMA-1-036",
+  "nameEn": "Alex Louis Armstrong",
+  "nameJp": "アレックス・ルイ・アームストロング",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-036.png?v8"
+ },
+ "FMA-1-037": {
+  "key": "FMA-1-037",
+  "numberJp": "UA37BT/FMA-1-037",
+  "nameEn": "Alex Louis Armstrong",
+  "nameJp": "アレックス・ルイ・アームストロング",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 2,
+  "bp": 4500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【ターン1】このキャラがアタックしてバトルに勝利した時、カードを2枚引く。",
+  "effectEn": "[Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [Once Per Turn] When this character attacks and wins a battle, Draw 2 card(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-037.png?v8"
+ },
+ "FMA-1-038": {
+  "key": "FMA-1-038",
+  "numberJp": "UA37BT/FMA-1-038",
+  "nameEn": "Izumi Curtis",
+  "nameJp": "イズミ・カーティス",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラがアタックしてブロックされなかった時、カードを1枚引く。",
+  "effectEn": "When this character attacks and is not blocked, Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-038.png?v8"
+ },
+ "FMA-1-039": {
+  "key": "FMA-1-039",
+  "numberJp": "UA37BT/FMA-1-039",
+  "nameEn": "Edward Elric",
+  "nameJp": "エドワード・エルリック",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【青】。",
+  "effectEn": "While this character is active, its generated energy +[Blue].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-039.png?v8"
+ },
+ "FMA-1-040": {
+  "key": "FMA-1-040",
+  "numberJp": "UA37BT/FMA-1-040",
+  "nameEn": "Edward Elric",
+  "nameJp": "エドワード・エルリック",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分のライフエリアにあるカードを1枚手札に加えてもよい。そうした場合、このキャラをアクティブにする。【起動メイン】【手札を2枚場外に置く】【ターン1】このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
+  "effectEn": "[On Play] You may add 1 card(s) from your Life Area to your hand. If you do, Set this character to active. [Activate: Main] [Put 2 card(s) from your hand into your Outside Area] [Once Per Turn] This character, this turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-040.png?v8"
+ },
+ "FMA-1-041": {
+  "key": "FMA-1-041",
+  "numberJp": "UA37BT/FMA-1-041",
+  "nameEn": "Kain Fuery",
+  "nameJp": "ケイン・フュリー",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-041.png?v8"
+ },
+ "FMA-1-042": {
+  "key": "FMA-1-042",
+  "numberJp": "UA37BT/FMA-1-042",
+  "nameEn": "Jean Havoc",
+  "nameJp": "ジャン・ハボック",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【退場時】自分の手札から〈ジャン・ハボック〉以外の必要エナジーが3以下で消費APが1の青のキャラカードを1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[On Retire] Play up to 1 Blue character card other than <Jean Havoc> and with required energy 3 or less and with AP cost 1 from your hand to your field rested.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-042.png?v8"
+ },
+ "FMA-1-043": {
+  "key": "FMA-1-043",
+  "numberJp": "UA37BT/FMA-1-043",
+  "nameEn": "Heymans Breda",
+  "nameJp": "ハイマンス・ブレダ",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "相手の場に黄か紫のカードがある場合、手札にあるこのカードの必要エナジーを【青×1】減らす。",
+  "effectEn": "If your opponent has Yellow or Purple card on their field, the required energy of this card in your hand [Blue x1]is reduced.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-043.png?v8"
+ },
+ "FMA-1-044": {
+  "key": "FMA-1-044",
+  "numberJp": "UA37BT/FMA-1-044",
+  "nameEn": "Black Hayate",
+  "nameJp": "ブラックハヤテ号",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から3枚見る。その中から〈リザ・ホークアイ〉か〈ケイン・フュリー〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 <Riza Hawkeye> or <Kain Fuery> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-044.png?v8"
+ },
+ "FMA-1-045": {
+  "key": "FMA-1-045",
+  "numberJp": "UA37BT/FMA-1-045",
+  "nameEn": "Maes Hughes",
+  "nameJp": "マース・ヒューズ",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【青】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Blue] and gains “At the end of the Main Phase, retire this character”",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-045.png?v8"
+ },
+ "FMA-1-046": {
+  "key": "FMA-1-046",
+  "numberJp": "UA37BT/FMA-1-046",
+  "nameEn": "Maes Hughes",
+  "nameJp": "マース・ヒューズ",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【手札を1枚場外に置く】【ターン1】このキャラはこのターン中、BP+1000。【退場時】自分の手札が2枚以下の場合、カードを1枚引く。",
+  "effectEn": "[Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] This character gets BP+1000 this turn. [On Retire] If you have 2 or fewer cards in your hand, draw 1 card(s).",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP3500以下の相手のフロントLのキャラを1枚選び、手札に戻す。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 3500 or less, return it to its owner's hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-046.png?v8"
+ },
+ "FMA-1-047": {
+  "key": "FMA-1-047",
+  "numberJp": "UA37BT/FMA-1-047",
+  "nameEn": "Maria Ross",
+  "nameJp": "マリア・ロス",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-047.png?v8"
+ },
+ "FMA-1-048": {
+  "key": "FMA-1-048",
+  "numberJp": "UA37BT/FMA-1-048",
+  "nameEn": "Riza Hawkeye",
+  "nameJp": "リザ・ホークアイ",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-048.png?v8"
+ },
+ "FMA-1-049": {
+  "key": "FMA-1-049",
+  "numberJp": "UA37BT/FMA-1-049",
+  "nameEn": "Riza Hawkeye",
+  "nameJp": "リザ・ホークアイ",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場に〈ロイ・マスタング〉がある場合、カードを1枚引く。",
+  "effectEn": "[On Play] If you have <Roy Mustang> on your field, Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-049.png?v8"
+ },
+ "FMA-1-050": {
+  "key": "FMA-1-050",
+  "numberJp": "UA37BT/FMA-1-050",
+  "nameEn": "Riza Hawkeye (Release Event Participation)",
+  "nameJp": "リザ・ホークアイ",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から2枚見る。それらを山札の上と下に望む枚数ずつ望む順で置く。",
+  "effectEn": "[On Play] Look at the top 2 card(s) of your deck. Put any number of them on the top and the rest on the bottom of your deck in any order.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-050.png?v8"
+ },
+ "FMA-1-051": {
+  "key": "FMA-1-051",
+  "numberJp": "UA37BT/FMA-1-051",
+  "nameEn": "Riza Hawkeye",
+  "nameJp": "リザ・ホークアイ",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈リザ・ホークアイ〉アクティブにし、フロントLに移動できる【登場時】BP1500以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。自分の山札の上から4枚見る。その中から1枚まで自分の山札の上に置き、残りを望む順で下に置く。【起動メイン】【フロントLにある場合】【ターン1】BP1500以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。",
+  "effectEn": "[Raid] Can Raid onto <Riza Hawkeye>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line with BP 1500 or more, it gets BP-1000 this turn. Look at the top 4 card(s) of your deck. Put up to 1 of them on top of your deck, and the rest on the bottom in any order. [Activate: Main] [While in Front Line] [Once Per Turn] Choose up to 1 character in your opponent's Front Line with BP 1500 or more, it gets BP-1000 this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-051.png?v8"
+ },
+ "FMA-1-052": {
+  "key": "FMA-1-052",
+  "numberJp": "UA37BT/FMA-1-052",
+  "nameEn": "Roy Mustang",
+  "nameJp": "ロイ・マスタング",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-052.png?v8"
+ },
+ "FMA-1-053": {
+  "key": "FMA-1-053",
+  "numberJp": "UA37BT/FMA-1-053",
+  "nameEn": "Roy Mustang",
+  "nameJp": "ロイ・マスタング",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】BP1500以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。",
+  "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line with BP 1500 or more, it gets BP-1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-053.png?v8"
+ },
+ "FMA-1-054": {
+  "key": "FMA-1-054",
+  "numberJp": "UA37BT/FMA-1-054",
+  "nameEn": "Roy Mustang",
+  "nameJp": "ロイ・マスタング",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】自分の手札が2枚以下の場合、このキャラはBP+1000。【アタック時】自分の手札が0枚の場合、カードを1枚まで引く。",
+  "effectEn": "[During Your Turn] If you have 2 or fewer cards in your hand, this character gets BP+1000. [When Attacking] If you have exactly 0 cards in your hand, draw up to 1 card(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-054.png?v8"
+ },
+ "FMA-1-055": {
+  "key": "FMA-1-055",
+  "numberJp": "UA37BT/FMA-1-055",
+  "nameEn": "Roy Mustang",
+  "nameJp": "ロイ・マスタング",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈ロイ・マスタング〉アクティブにし、フロントLに移動できる自分の手札が0枚の場合、このキャラは【インパクト（1）】を得る。【登場時】カードを1枚引く。【アタック時】自分の手札を望む枚数場外に置き、『BP1000』以下の相手のフロントLのキャラを1枚まで選び、退場させる。この効果で場外に置いたカード1枚につき、この効果で選べるキャラのBPの範囲+1000。この効果で退場させる際、さらに自分の手札を1枚場外に置いてもよい。そうした場合、退場させる代わりにリムーブエリアに置く。",
+  "effectEn": "[Raid] Can Raid onto <Roy Mustang>; set it to active and you may move it to the Front Line. If you have exactly 0 cards in your hand, this character gains [Impact 1]. [On Play] Draw 1 card(s). [When Attacking] Put any number of cards from your hand into your Outside Area, then choose up to 1 character in your opponent's Front Line with “BP 1000” or less, and retire it. For each 1 card(s) put into your Outside Area by this effect, the BP range of characters you can choose with this effect is increased by 1000. When retiring with this effect, you may also put 1 card(s) from your hand into your Outside Area. If you do, put it into the Remove Area instead of retiring it.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-055.png?v8"
+ },
+ "FMA-1-056": {
+  "key": "FMA-1-056",
+  "numberJp": "UA37BT/FMA-1-056",
+  "nameEn": "Vato Falman",
+  "nameJp": "ヴァトー・ファルマン",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ブリッグズ"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-056.png?v8"
+ },
+ "FMA-1-057": {
+  "key": "FMA-1-057",
+  "numberJp": "UA37BT/FMA-1-057",
+  "nameEn": "Olivier Mira Armstrong",
+  "nameJp": "オリヴィエ・ミラ・アームストロング",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ブリッグズ"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-057.png?v8"
+ },
+ "FMA-1-058": {
+  "key": "FMA-1-058",
+  "numberJp": "UA37BT/FMA-1-058",
+  "nameEn": "Olivier Mira Armstrong",
+  "nameJp": "オリヴィエ・ミラ・アームストロング",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ブリッグズ"
+  ],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中から［特徴：ブリッグズ］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 [Trait: Briggs] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-058.png?v8"
+ },
+ "FMA-1-059": {
+  "key": "FMA-1-059",
+  "numberJp": "UA37BT/FMA-1-059",
+  "nameEn": "Olivier Mira Armstrong",
+  "nameJp": "オリヴィエ・ミラ・アームストロング",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ブリッグズ"
+  ],
+  "effectJp": "【登場時】このターン中に自分の場に元々の消費APが2以上のカードが登場している場合、自分のAPカードを1枚まで選び、アクティブにする。〈オリヴィエ・ミラ・アームストロング〉のこの効果は1ターンに1回のみ発動する。",
+  "effectEn": "[On Play] If a card with original AP cost 2 or more was played to your field this turn, choose up to 1 of your AP cards and set them to active. This <Olivier Mira Armstrong> effect can only activate 1 time(s) per 1 turn(s).",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP3500以下の相手のフロントLのキャラを1枚選び、手札に戻す。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 3500 or less, return it to its owner's hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-059.png?v8"
+ },
+ "FMA-1-060": {
+  "key": "FMA-1-060",
+  "numberJp": "UA37BT/FMA-1-060",
+  "nameEn": "Olivier Mira Armstrong",
+  "nameJp": "オリヴィエ・ミラ・アームストロング",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 6,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ブリッグズ"
+  ],
+  "effectJp": "【レイド】〈オリヴィエ・ミラ・アームストロング〉アクティブにし、フロントLに移動できる【登場時】自分の場の［特徴：ブリッグズ］を全てアクティブにする。【アタック時】自分の手札を1枚場外に置いてもよい。そうした場合、自分の場の元々の消費APが2以上のキャラを1枚まで選び、アクティブにする。",
+  "effectEn": "[Raid] Can Raid onto <Olivier Mira Armstrong>; set it to active and you may move it to the Front Line. [On Play] Set all [Trait: Briggs] on your field to active. [When Attacking] You may put 1 card(s) from your hand into your Outside Area. If you do, choose up to 1 character on your field with original AP cost 2 or more and set it to active.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-060.png?v8"
+ },
+ "FMA-1-061": {
+  "key": "FMA-1-061",
+  "numberJp": "UA37BT/FMA-1-061",
+  "nameEn": "Buccaneer",
+  "nameJp": "バッカニア",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ブリッグズ"
+  ],
+  "effectJp": "自分の場に［特徴：ブリッグズ］が3枚以上ある場合、手札にあるこのカードの消費APを-1する。【起動メイン】【ターン1】このキャラは次の自分のターン開始時まで、BP+1000と【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）と「相手のアタックフェイズ終了時、このキャラを退場させ、カードを1枚引く。」を得る。",
+  "effectEn": "If you have 3 or more [Trait: Briggs] on your field, reduce the AP cost of this card in your hand by 1. [Activate: Main] [Once Per Turn] Until the start of your next turn, this character gains BP+1000, [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opposing player) and “At the end of your opponent's Attack Phase, retire this character and draw 1 card(s)”",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-061.png?v8"
+ },
+ "FMA-1-062": {
+  "key": "FMA-1-062",
+  "numberJp": "UA37BT/FMA-1-062",
+  "nameEn": "Miles",
+  "nameJp": "マイルズ",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ブリッグズ"
+  ],
+  "effectJp": "自分の場に他の［特徴：ブリッグズ］が3枚以上ある場合、このキャラの発生エナジー+【青】。",
+  "effectEn": "If you have 3 or more other [Trait: Briggs] on your field, This character's generated energy +[Blue].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-062.png?v8"
+ },
+ "FMA-1-063": {
+  "key": "FMA-1-063",
+  "numberJp": "UA37BT/FMA-1-063",
+  "nameEn": "Fort Briggs",
+  "nameJp": "ブリッグズ要塞",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Field",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 2,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ブリッグズ"
+  ],
+  "effectJp": "【登場時】このターン中、次に手札から使用する［特徴：ブリッグズ］の消費APを-1する。【起動メイン】【レストにする】このターン中に自分の場に元々の消費APが2以上のカードが登場している場合のみ発動できる。カードを1枚引く。〈ブリッグズ要塞〉のこの効果は1ターンに1回のみ発動できる。",
+  "effectEn": "[On Play] This turn, the next [Trait: Briggs] you use from your hand costs 1 less AP. [Activate: Main] [Rest this card] Can only activate if a card with original AP cost 2 or more was played to your field this turn. Draw 1 card(s). This <Fort Briggs> effect can only activate 1 time(s) per 1 turn(s).",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-063.png?v8"
+ },
+ "FMA-1-064": {
+  "key": "FMA-1-064",
+  "numberJp": "UA37BT/FMA-1-064",
+  "nameEn": "The Military is in Trouble!",
+  "nameJp": "軍がやべえ！！",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "カードを2枚引く。その後、自分の手札が2枚の場合、さらにカードを1枚引く。",
+  "effectEn": "Draw 2 card(s). Then, if you have exactly 2 cards in your hand, draw 1 more card(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-064.png?v8"
+ },
+ "FMA-1-065": {
+  "key": "FMA-1-065",
+  "numberJp": "UA37BT/FMA-1-065",
+  "nameEn": "State Alchemists",
+  "nameJp": "国家錬金術師",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-065.png?v8"
+ },
+ "FMA-1-066": {
+  "key": "FMA-1-066",
+  "numberJp": "UA37BT/FMA-1-066",
+  "nameEn": "Northern Wall of Briggs",
+  "nameJp": "ブリッグズの北壁",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "BP5000以下の相手のフロントLのキャラを1枚選び、『レストにする。それは次の1回アクティブにならない』。自分の場に〈オリヴィエ・ミラ・アームストロング〉がある場合、『退場させる』に代えてもよい。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 5000 or less, “rest it. It does not become active the next 1 time(s)” If you have <Olivier Mira Armstrong> on your field, you may change it to “retire it”",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-066.png?v8"
+ },
+ "FMA-1-067": {
+  "key": "FMA-1-067",
+  "numberJp": "UA37BT/FMA-1-067",
+  "nameEn": "Flame Alchemist",
+  "nameJp": "焰の錬金術師",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈ロイ・マスタング〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Roy Mustang> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-067.png?v8"
+ },
+ "FMA-1-068": {
+  "key": "FMA-1-068",
+  "numberJp": "UA37BT/FMA-1-068",
+  "nameEn": "Nina & Alexander",
+  "nameJp": "ニーナ＆アレキサンダー",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを場外に置く。その後、このキャラがレイド状態の場合、カードを1枚引く。【レイド】〈ニーナ＆アレキサンダー〉アクティブにし、フロントLに移動できるこのキャラの発生エナジー+【紫】。",
+  "effectEn": "[On Play] Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest into your Outside Area. Then, if this character is Raided, draw 1 card(s). [Raid] Can Raid onto <Nina & Alexander>; set it to active and you may move it to the Front Line. This character's generated energy +[Purple].",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-068.png?v8"
+ },
+ "FMA-1-069": {
+  "key": "FMA-1-069",
+  "numberJp": "UA37BT/FMA-1-069",
+  "nameEn": "Shou Tucker",
+  "nameJp": "ショウ・タッカー",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "人間"
+  ],
+  "effectJp": "【登場時】自分の手札を2枚場外に置いてもよい。そうした場合、自分の場外から〈ニーナ＆アレキサンダー〉を1枚まで自分の場にレストで登場させるかレイドさせる。",
+  "effectEn": "[On Play] You may put 2 card(s) from your hand into your Outside Area. If you do, Play up to 1 <Nina & Alexander> from your Outside Area to your field rested or Raid it.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-069.png?v8"
+ },
+ "FMA-1-070": {
+  "key": "FMA-1-070",
+  "numberJp": "UA37BT/FMA-1-070",
+  "nameEn": "Kimblee (Solf J. Kimblee)",
+  "nameJp": "ゾルフ・J・キンブリー",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "人間"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-070.png?v8"
+ },
+ "FMA-1-071": {
+  "key": "FMA-1-071",
+  "numberJp": "UA37BT/FMA-1-071",
+  "nameEn": "Kimblee (Solf J. Kimblee)",
+  "nameJp": "ゾルフ・J・キンブリー",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "人間"
+  ],
+  "effectJp": "【登場時】相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。",
+  "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line, it gets BP-1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-071.png?v8"
+ },
+ "FMA-1-072": {
+  "key": "FMA-1-072",
+  "numberJp": "UA37BT/FMA-1-072",
+  "nameEn": "Kimblee (Solf J. Kimblee)",
+  "nameJp": "ゾルフ・J・キンブリー",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "人間"
+  ],
+  "effectJp": "【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、カードを『1枚』引く。この効果で場外に置いたカードが〈賢者の石〉の場合、『2枚』に代わる。",
+  "effectEn": "[On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, draw “1” card(s). If the card put into your Outside Area by this effect is <Philosopher's Stone>, it becomes “2” instead.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-072.png?v8"
+ },
+ "FMA-1-073": {
+  "key": "FMA-1-073",
+  "numberJp": "UA37BT/FMA-1-073",
+  "nameEn": "Kimblee (Solf J. Kimblee)",
+  "nameJp": "ゾルフ・J・キンブリー",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "人間"
+  ],
+  "effectJp": "【レイド】〈ゾルフ・J・キンブリー〉アクティブにし、フロントLに移動できる【登場時】BP3000以下の相手のフロントLのキャラを1枚まで選び、退場させる。【起動メイン】【ターン1】自分の場外の〈賢者の石〉を1枚リムーブエリアに置く。そうした場合、このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
+  "effectEn": "[Raid] Can Raid onto <Kimblee (Solf J. Kimblee)>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it. [Activate: Main] [Once Per Turn] Put into the owner's remove area 1 <Philosopher's Stone> in your Outside Area. If you do, This character, this turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-073.png?v8"
+ },
+ "FMA-1-074": {
+  "key": "FMA-1-074",
+  "numberJp": "UA37BT/FMA-1-074",
+  "nameEn": "Nina & Alexander",
+  "nameJp": "ニーナ＆アレキサンダー",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "人間"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【紫】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Purple] and gains “At the end of the Main Phase, retire this character”",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-074.png?v8"
+ },
+ "FMA-1-075": {
+  "key": "FMA-1-075",
+  "numberJp": "UA37BT/FMA-1-075",
+  "nameEn": "Envy",
+  "nameJp": "エンヴィー",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ホムンクルス"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-075.png?v8"
+ },
+ "FMA-1-076": {
+  "key": "FMA-1-076",
+  "numberJp": "UA37BT/FMA-1-076",
+  "nameEn": "Envy",
+  "nameJp": "エンヴィー",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ホムンクルス"
+  ],
+  "effectJp": "自分の【レイド】を持つキャラカードはこのキャラにレイドできる。【登場時】自分の場外にカードが10枚以上ある場合、BP3000以下の相手のフロントLのキャラを1枚まで選び、レストにする。",
+  "effectEn": "Your character cards with [Raid] can Raid onto this character. [On Play] If you have 10 or more cards in your Outside Area, Choose up to 1 character in your opponent's Front Line with BP 3000 or less, rest it.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-076.png?v8"
+ },
+ "FMA-1-077": {
+  "key": "FMA-1-077",
+  "numberJp": "UA37BT/FMA-1-077",
+  "nameEn": "Envy",
+  "nameJp": "エンヴィー",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ホムンクルス"
+  ],
+  "effectJp": "【レイド】〈エンヴィー〉アクティブにし、フロントLに移動できる【登場時】このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。【アタック時】カードを1枚引き、自分の手札を1枚場外に置く。【退場時】相手のフロントLのキャラを1枚まで選び、レストにする。",
+  "effectEn": "[Raid] Can Raid onto <Envy>; set it to active and you may move it to the Front Line. [On Play] This character, this turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained. [When Attacking] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. [On Retire] Choose up to 1 character in your opponent's Front Line, rest it.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-077.png?v8"
+ },
+ "FMA-1-078": {
+  "key": "FMA-1-078",
+  "numberJp": "UA37BT/FMA-1-078",
+  "nameEn": "Father",
+  "nameJp": "お父様",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ホムンクルス"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見る。その中から［特徴：ホムンクルス］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: Homunculus] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-078.png?v8"
+ },
+ "FMA-1-079": {
+  "key": "FMA-1-079",
+  "numberJp": "UA37BT/FMA-1-079",
+  "nameEn": "Father",
+  "nameJp": "お父様",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 5000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ホムンクルス"
+  ],
+  "effectJp": "このカードは自分の場外にカードが20枚以上あり、自分の場にこのカードと同じカードナンバーのカードが無い場合のみ登場できる。このキャラはアクティブで場に登場させる。【2回アタック】（このキャラがこのターン初めてアタックした時、アクティブにする）【登場時】相手のフロントLのキャラを1枚まで選び、退場させる。【起動メイン】【場外にある場合】自分の場外にカードが20枚以上ある場合のみ発動できる。自分の手札の紫のカードを3枚場外に置く。そうした場合、場外のこのカードを手札に加える。",
+  "effectEn": "This card can only be played if you have 20 or more cards in your Outside Area and no card with the same card number as this card on your field. This character is played active. [Double Attack] (The first time this character attacks each turn, set it to active) [On Play] Choose up to 1 character in your opponent's Front Line, retire it. [Activate: Main] [While in Outside Area] Can only activate if you have 20 or more cards in your Outside Area. Put into the owner's outside area 3 Purple cards in your hand. If you do, add this card from your Outside Area to your hand.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-079.png?v8"
+ },
+ "FMA-1-080": {
+  "key": "FMA-1-080",
+  "numberJp": "UA37BT/FMA-1-080",
+  "nameEn": "Gluttony",
+  "nameJp": "グラトニー",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ホムンクルス"
+  ],
+  "effectJp": "【退場時】カードを1枚引く。",
+  "effectEn": "[On Retire] Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-080.png?v8"
+ },
+ "FMA-1-081": {
+  "key": "FMA-1-081",
+  "numberJp": "UA37BT/FMA-1-081",
+  "nameEn": "Gluttony",
+  "nameJp": "グラトニー",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ホムンクルス"
+  ],
+  "effectJp": "【起動メイン】【手札を1枚場外に置く】【ターン1】このキャラはこのターン中、【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）と「このキャラがアタックしてバトルに勝利した時、カードを1枚引く。」を得る。",
+  "effectEn": "[Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] This character gains [Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) and “When this character attacks and wins a battle, Draw 1 card(s)” this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-081.png?v8"
+ },
+ "FMA-1-082": {
+  "key": "FMA-1-082",
+  "numberJp": "UA37BT/FMA-1-082",
+  "nameEn": "Greed",
+  "nameJp": "グリード",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ホムンクルス"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-082.png?v8"
+ },
+ "FMA-1-083": {
+  "key": "FMA-1-083",
+  "numberJp": "UA37BT/FMA-1-083",
+  "nameEn": "Sloth",
+  "nameJp": "スロウス",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ホムンクルス"
+  ],
+  "effectJp": "相手の場に黄か青のカードがある場合、手札にあるこのカードの必要エナジーを【紫×1】減らす。",
+  "effectEn": "If your opponent has Yellow or Blue card on their field, the required energy of this card in your hand [Purple x1]is reduced.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-083.png?v8"
+ },
+ "FMA-1-084": {
+  "key": "FMA-1-084",
+  "numberJp": "UA37BT/FMA-1-084",
+  "nameEn": "Selim Bradley",
+  "nameJp": "セリム・ブラッドレイ",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ホムンクルス"
+  ],
+  "effectJp": "このカードは〈プライド〉としても扱う。",
+  "effectEn": "This card is also treated as <Pride>.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-084.png?v8"
+ },
+ "FMA-1-085": {
+  "key": "FMA-1-085",
+  "numberJp": "UA37BT/FMA-1-085",
+  "nameEn": "Pride",
+  "nameJp": "プライド",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ホムンクルス"
+  ],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-085.png?v8"
+ },
+ "FMA-1-086": {
+  "key": "FMA-1-086",
+  "numberJp": "UA37BT/FMA-1-086",
+  "nameEn": "Pride",
+  "nameJp": "プライド",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ホムンクルス"
+  ],
+  "effectJp": "【起動メイン】【ターン1】自分の場の〔〈ゾルフ・J・キンブリー〉か必要エナジーが4以上のキャラ〕を1枚退場させる。そうした場合、カードを1枚引き、このキャラはこのターン中、BP+2000と【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
+  "effectEn": "[Activate: Main] [Once Per Turn] Retire 1 <Kimblee (Solf J. Kimblee)> or character with required energy 4 or more on your field. If you do, draw 1 card(s), and this character gains BP+2000 and [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opposing player) this turn.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の場外から必要エナジーが2以下で消費APが1の紫のキャラカードを1枚自分のフロントLにアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Purple character card with required energy 2 or less and with AP cost 1 from your Outside Area to your Front Line active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-086.png?v8"
+ },
+ "FMA-1-087": {
+  "key": "FMA-1-087",
+  "numberJp": "UA37BT/FMA-1-087",
+  "nameEn": "The Dwarf in the Flask",
+  "nameJp": "フラスコの中の小人",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ホムンクルス"
+  ],
+  "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-087.png?v8"
+ },
+ "FMA-1-088": {
+  "key": "FMA-1-088",
+  "numberJp": "UA37BT/FMA-1-088",
+  "nameEn": "Lust",
+  "nameJp": "ラスト",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ホムンクルス"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-088.png?v8"
+ },
+ "FMA-1-089": {
+  "key": "FMA-1-089",
+  "numberJp": "UA37BT/FMA-1-089",
+  "nameEn": "Lust",
+  "nameJp": "ラスト",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ホムンクルス"
+  ],
+  "effectJp": "【登場時】自分の山札の上から1枚見て、見たカードが［特徴：ホムンクルス］の場合、公開し手札に加えてもよい。手札に加えない場合、そのカードを自分の山札の上か場外に置く。",
+  "effectEn": "[On Play] Look at the top 1 card(s) of your deck; if it is [Trait: Homunculus], you may reveal it and add it to your hand. If you don't add it to your hand, put that card on top of your deck or into your Outside Area.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の場外から必要エナジーが2以下で消費APが1の紫のキャラカードを1枚自分のフロントLにアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Purple character card with required energy 2 or less and with AP cost 1 from your Outside Area to your Front Line active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-089.png?v8"
+ },
+ "FMA-1-090": {
+  "key": "FMA-1-090",
+  "numberJp": "UA37BT/FMA-1-090",
+  "nameEn": "Lust",
+  "nameJp": "ラスト",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ホムンクルス"
+  ],
+  "effectJp": "【レイド】〈ラスト〉アクティブにし、フロントLに移動できる【登場時】カードを2枚引き、自分の手札を2枚場外に置く。その後、自分の場外にカードが10枚以上ある場合、さらにカードを1枚引く。【退場時】このキャラのレイド元のカードを1枚まで手札に戻す。",
+  "effectEn": "[Raid] Can Raid onto <Lust>; set it to active and you may move it to the Front Line. [On Play] Draw 2 card(s), then put 2 card(s) from your hand into your Outside Area. Then, if you have 10 or more cards in your Outside Area, draw 1 more card(s). [On Retire] Return up to 1 of this character's Raid source cards to your hand.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-090.png?v8"
+ },
+ "FMA-1-091": {
+  "key": "FMA-1-091",
+  "numberJp": "UA37BT/FMA-1-091",
+  "nameEn": "King Bradley",
+  "nameJp": "キング・ブラッドレイ",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ホムンクルス",
+   "人間"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-091.png?v8"
+ },
+ "FMA-1-092": {
+  "key": "FMA-1-092",
+  "numberJp": "UA37BT/FMA-1-092",
+  "nameEn": "King Bradley",
+  "nameJp": "キング・ブラッドレイ",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ホムンクルス",
+   "人間"
+  ],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【紫】。",
+  "effectEn": "While this character is active, its generated energy +[Purple].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-092.png?v8"
+ },
+ "FMA-1-093": {
+  "key": "FMA-1-093",
+  "numberJp": "UA37BT/FMA-1-093",
+  "nameEn": "King Bradley",
+  "nameJp": "キング・ブラッドレイ",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 6,
+  "ap": 1,
+  "bp": 4500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ホムンクルス",
+   "人間"
+  ],
+  "effectJp": "【レイド】〈キング・ブラッドレイ〉アクティブにし、フロントLに移動できる【登場時】このキャラはこのターン中、BP+500と【2回アタック】（このキャラがこのターン初めてアタックした時、アクティブにする）を得る。【起動メイン】【フロントLにある場合】【ターン1】相手のフロントLのキャラを1枚選び、このターン中、BP-1000。",
+  "effectEn": "[Raid] Can Raid onto <King Bradley>; set it to active and you may move it to the Front Line. [On Play] This character gains BP+500 and [Double Attack] (When this character attacks for the first time this turn, set it to active) this turn. [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 character in your opponent's Front Line, it gets BP-1000 this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-093.png?v8"
+ },
+ "FMA-1-094": {
+  "key": "FMA-1-094",
+  "numberJp": "UA37BT/FMA-1-094",
+  "nameEn": "Wrath",
+  "nameJp": "ラース",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ホムンクルス",
+   "人間"
+  ],
+  "effectJp": "このカードは〈キング・ブラッドレイ〉としても扱う。自分の場外にカードが20枚以上ある場合、このキャラは【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
+  "effectEn": "This card is also treated as <King Bradley>. If you have 20 or more cards in your Outside Area, This character [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-094.png?v8"
+ },
+ "FMA-1-095": {
+  "key": "FMA-1-095",
+  "numberJp": "UA37BT/FMA-1-095",
+  "nameEn": "Countrywide Transmutation Circle",
+  "nameJp": "国土錬成陣",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Field",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】自分の山札の上から1枚を場外に置く。その後、自分の場外にカードが20枚以上ある場合、カードを1枚引く。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] Put the top 1 card(s) of your deck into your Outside Area. Then, If you have 20 or more cards in your Outside Area, Draw 1 card(s).",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-095.png?v8"
+ },
+ "FMA-1-096": {
+  "key": "FMA-1-096",
+  "numberJp": "UA37BT/FMA-1-096",
+  "nameEn": "I Hate Smart Brats Like You",
+  "nameJp": "君のような勘のいいガキは嫌いだよ",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "相手は「手札に〈ニーナ＆アレキサンダー〉がある。」か「手札に〈ニーナ＆アレキサンダー〉がない。」のどちらかを選ぶ。その後、自分はカードを3枚引き、手札を全て公開する。相手が選んだ通りの場合、自分の手札を3枚リムーブエリアに置く。",
+  "effectEn": "Your opponent chooses either “there is <Nina & Alexander> in your hand” or “there is no <Nina & Alexander> in your hand” Then, draw 3 card(s) and reveal your entire hand. If it is as your opponent chose, put 3 card(s) from your hand into your Remove Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-096.png?v8"
+ },
+ "FMA-1-097": {
+  "key": "FMA-1-097",
+  "numberJp": "UA37BT/FMA-1-097",
+  "nameEn": "Philosopher's Stone",
+  "nameJp": "賢者の石",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-097.png?v8"
+ },
+ "FMA-1-098": {
+  "key": "FMA-1-098",
+  "numberJp": "UA37BT/FMA-1-098",
+  "nameEn": "Ultimate Eye",
+  "nameJp": "最強の眼",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈キング・ブラッドレイ〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <King Bradley> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-098.png?v8"
+ },
+ "FMA-1-099": {
+  "key": "FMA-1-099",
+  "numberJp": "UA37BT/FMA-1-099",
+  "nameEn": "Homunculi",
+  "nameJp": "ホムンクルス",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から2枚を場外に置く。その後、自分の場外から紫の［特徴：ホムンクルス］を1枚まで手札に加える。",
+  "effectEn": "Put the top 2 card(s) of your deck into your Outside Area. Then, add up to 1 purple [Trait: Homunculus] from your Outside Area to your hand.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-099.png?v8"
+ },
+ "FMA-1-100": {
+  "key": "FMA-1-100",
+  "numberJp": "UA37BT/FMA-1-100",
+  "nameEn": "I'll Be Taking Yours!",
+  "nameJp": "もらいうける！",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に［特徴：ホムンクルス］が4枚以上ある場合、以下から1つ選ぶ。・『BP5000以下』に代わる。・自分の山札の上から2枚を場外に置く。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have 4 or more [Trait: Homunculus] on your field, Choose 1 of the following. It becomes “BP 5000 or less” instead. Put the top 2 card(s) of your deck into your Outside Area.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-100.png?v8"
+ },
+ "FMA-1-101": {
+  "key": "FMA-1-101",
+  "numberJp": "UA37ST/FMA-1-101",
+  "nameEn": "Alphonse Elric",
+  "nameJp": "アルフォンス・エルリック",
+  "series": "鋼の錬金術師",
+  "setName": "UE09ST: FULLMETAL ALCHEMIST Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】このキャラが自分の効果で登場していた場合、カードを1枚引く。【起動メイン】【手札を2枚場外に置く】【ターン1】このキャラをアクティブにし、このキャラはこのターン中、BP+500。",
+  "effectEn": "[On Play] If this character was played by your own effect, draw 1 card(s). [Activate: Main] [Put 2 card(s) from your hand into your Outside Area] [Once Per Turn] Set this character to active, and this character gets BP+500 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37ST_FMA-1-101.png?v8"
+ },
+ "FMA-1-102": {
+  "key": "FMA-1-102",
+  "numberJp": "UA37ST/FMA-1-102",
+  "nameEn": "Edward Elric",
+  "nameJp": "エドワード・エルリック",
+  "series": "鋼の錬金術師",
+  "setName": "UE09ST: FULLMETAL ALCHEMIST Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを場外に置く。",
+  "effectEn": "[On Play] Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37ST_FMA-1-102.png?v8"
+ },
+ "FMA-1-103": {
+  "key": "FMA-1-103",
+  "numberJp": "UA37ST/FMA-1-103",
+  "nameEn": "Edward Elric",
+  "nameJp": "エドワード・エルリック",
+  "series": "鋼の錬金術師",
+  "setName": "UE09ST: FULLMETAL ALCHEMIST Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈エドワード・エルリック〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】「自分の山札の上から6枚見る。その中からキャラカードかフィールドカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。」をしてもよい。そうした場合、このキャラのレイド元のカードを1枚場外に置く。（このキャラはレイド状態ではなくなる）",
+  "effectEn": "[Raid] Can Raid onto <Edward Elric>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] “Look at the top 6 card(s) of your deck. Reveal up to 1 character card or Field card among them and add it to your hand. You may “put the rest on the bottom of your deck in any order” If you do, put 1 of this character's Raid source cards into your Outside Area. (This character is no longer Raided)",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37ST_FMA-1-103.png?v8"
+ },
+ "FMA-1-104": {
+  "key": "FMA-1-104",
+  "numberJp": "UA37ST/FMA-1-104",
+  "nameEn": "Pinako Rockbell",
+  "nameJp": "ピナコ・ロックベル",
+  "series": "鋼の錬金術師",
+  "setName": "UE09ST: FULLMETAL ALCHEMIST Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37ST_FMA-1-104.png?v8"
+ },
+ "FMA-1-105": {
+  "key": "FMA-1-105",
+  "numberJp": "UA37ST/FMA-1-105",
+  "nameEn": "Maes Hughes",
+  "nameJp": "マース・ヒューズ",
+  "series": "鋼の錬金術師",
+  "setName": "UE09ST: FULLMETAL ALCHEMIST Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
+  "effectEn": "[Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37ST_FMA-1-105.png?v8"
+ },
+ "FMA-1-106": {
+  "key": "FMA-1-106",
+  "numberJp": "UA37ST/FMA-1-106",
+  "nameEn": "Riza Hawkeye",
+  "nameJp": "リザ・ホークアイ",
+  "series": "鋼の錬金術師",
+  "setName": "UE09ST: FULLMETAL ALCHEMIST Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37ST_FMA-1-106.png?v8"
+ },
+ "FMA-1-107": {
+  "key": "FMA-1-107",
+  "numberJp": "UA37ST/FMA-1-107",
+  "nameEn": "Roy Mustang",
+  "nameJp": "ロイ・マスタング",
+  "series": "鋼の錬金術師",
+  "setName": "UE09ST: FULLMETAL ALCHEMIST Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】BP3000以下の相手のフロントLのキャラを1枚まで選び、リムーブエリアに置く。",
+  "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line with BP 3000 or less and put it into the Remove Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37ST_FMA-1-107.png?v8"
+ },
+ "FMA-1-108": {
+  "key": "FMA-1-108",
+  "numberJp": "UA37ST/FMA-1-108",
+  "nameEn": "Rockbell House",
+  "nameJp": "ロックベル家",
+  "series": "鋼の錬金術師",
+  "setName": "UE09ST: FULLMETAL ALCHEMIST Starter Deck",
+  "cardType": "Field",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中からカード名に「エルリック」か「ロックベル」を含むカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 card with “Elric” or “Rockbell” in its card name among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37ST_FMA-1-108.png?v8"
+ },
+ "FMA-1-109": {
+  "key": "FMA-1-109",
+  "numberJp": "UA37ST/FMA-1-109",
+  "nameEn": "Let's Go Home",
+  "nameJp": "一緒に帰ろう",
+  "series": "鋼の錬金術師",
+  "setName": "UE09ST: FULLMETAL ALCHEMIST Starter Deck",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場外から〈エドワード・エルリック〉か〈アルフォンス・エルリック〉を1枚まで手札に加える。自分の手札から必要エナジーを満たし消費APが1の〔〈エドワード・エルリック〉か〈アルフォンス・エルリック〉〕を1枚まで自分の場にレストで登場させるかレイドさせる。",
+  "effectEn": "Add up to 1 <Edward Elric> or <Alphonse Elric> from your Outside Area to your hand. Play up to 1 <Edward Elric> or <Alphonse Elric> whose required energy you meet and with AP cost 1 from your hand to your field rested or Raid it.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37ST_FMA-1-109.png?v8"
+ },
+ "FMA-1-110": {
+  "key": "FMA-1-110",
+  "numberJp": "UA37ST/FMA-1-110",
+  "nameEn": "Alex Louis Armstrong",
+  "nameJp": "アレックス・ルイ・アームストロング",
+  "series": "鋼の錬金術師",
+  "setName": "UE09ST: FULLMETAL ALCHEMIST Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）",
+  "effectEn": "[Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37ST_FMA-1-110.png?v8"
+ },
+ "FMA-1-111": {
+  "key": "FMA-1-111",
+  "numberJp": "UA37ST/FMA-1-111",
+  "nameEn": "Roy Mustang",
+  "nameJp": "ロイ・マスタング",
+  "series": "鋼の錬金術師",
+  "setName": "UE09ST: FULLMETAL ALCHEMIST Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）自分の手札が0枚の場合、このキャラはBP+1000。",
+  "effectEn": "[Impact Nullify] (The character that battles this character loses [Impact] during this battle) If you have exactly 0 cards in your hand, this character gets BP+1000.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37ST_FMA-1-111.png?v8"
+ },
+ "FMA-1-112": {
+  "key": "FMA-1-112",
+  "numberJp": "UA37ST/FMA-1-112",
+  "nameEn": "Father",
+  "nameJp": "お父様",
+  "series": "鋼の錬金術師",
+  "setName": "UE09ST: FULLMETAL ALCHEMIST Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ホムンクルス"
+  ],
+  "effectJp": "自分の場外にカードが20枚以上ある場合、このキャラは【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。【登場時】自分の場外から必要エナジーが2以下で消費APが1の［特徴：ホムンクルス］を1枚まで自分の場にレストで登場させる。",
+  "effectEn": "If you have 20 or more cards in your Outside Area, This character [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained. [On Play] Play up to 1 [Trait: Homunculus] with required energy 2 or less and with AP cost 1 from your Outside Area to your field rested.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37ST_FMA-1-112.png?v8"
+ },
+ "FMA-1-113": {
+  "key": "FMA-1-113",
+  "numberJp": "UA37ST/FMA-1-113",
+  "nameEn": "King Bradley",
+  "nameJp": "キング・ブラッドレイ",
+  "series": "鋼の錬金術師",
+  "setName": "UE09ST: FULLMETAL ALCHEMIST Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ホムンクルス",
+   "人間"
+  ],
+  "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、「このキャラは、相手のトリガーの効果で選ばれない。」を与える。",
+  "effectEn": "[On Play] Choose up to 1 other character on your field; it gains “This character cannot be chosen by your opponent's Trigger effects” this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37ST_FMA-1-113.png?v8"
+ },
+ "FMA-1-AP01": {
+  "key": "FMA-1-AP01",
+  "numberJp": "UA37BT/FMA-1-AP01",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(鋼の錬金術師)",
+  "series": "鋼の錬金術師",
+  "setName": "UE09ST: FULLMETAL ALCHEMIST Starter Deck",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-AP01.png?v8"
+ },
+ "FMA-1-AP02": {
+  "key": "FMA-1-AP02",
+  "numberJp": "UA37BT/FMA-1-AP02",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(鋼の錬金術師)",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-AP02.png?v8"
+ },
+ "FMA-1-AP03": {
+  "key": "FMA-1-AP03",
+  "numberJp": "UA37BT/FMA-1-AP03",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(鋼の錬金術師)",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-AP03.png?v8"
+ },
+ "FMA-1-AP04": {
+  "key": "FMA-1-AP04",
+  "numberJp": "UA37BT/FMA-1-AP04",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(鋼の錬金術師)",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-AP04.png?v8"
+ },
+ "FMA-1-AP05": {
+  "key": "FMA-1-AP05",
+  "numberJp": "UA37BT/FMA-1-AP05",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(鋼の錬金術師)",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-AP05.png?v8"
+ },
+ "FMA-1-AP06": {
+  "key": "FMA-1-AP06",
+  "numberJp": "UA37BT/FMA-1-AP06",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(鋼の錬金術師)",
+  "series": "鋼の錬金術師",
+  "setName": "UE09BT: FULLMETAL ALCHEMIST",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA37BT_FMA-1-AP06.png?v8"
+ }
+}

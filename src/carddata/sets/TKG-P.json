@@ -1,0 +1,121 @@
+{
+ "TKG-P-001": {
+  "key": "TKG-P-001",
+  "numberJp": "UAPR/TKG-P-001",
+  "nameEn": "",
+  "nameJp": "東京喰種トーキョーグール",
+  "series": "東京喰種トーキョーグール",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red",
+   "Blue",
+   "Yellow",
+   "Green",
+   "Purple"
+  ],
+  "rarity": "PR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "このカードの色と必要エナジーは、全ての色として扱う。自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "This card's color and required energy are treated as all colors. Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_TKG-P-001.png?v9"
+ },
+ "TKG-P-002": {
+  "key": "TKG-P-002",
+  "numberJp": "UAPR/TKG-P-002",
+  "nameEn": "",
+  "nameJp": "金木 研",
+  "series": "東京喰種トーキョーグール",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "PR",
+  "needEnergy": 7,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "手札にあるこのカードの必要エナジーを【紫×2】減らす。自分の場外にあるカードの必要エナジーの数が5種類以上ある場合、さらに【紫×2】減らす。【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【退場時】自分の山札の上から1枚見て、山札の上か場外に置く。",
+  "effectEn": "The required energy of this card in your hand [Purple x2]is reduced. If there are 5 or more different amounts of required energy among cards in your Outside Area, reduce it by a further [Purple x2]. [Impact Nullify] (The character that battles this character loses Impact during this battle) [On Retire] Look at the top 1 card(s) of your deck, put them on top of your deck or into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_TKG-P-002.png?v9"
+ },
+ "TKG-P-003": {
+  "key": "TKG-P-003",
+  "numberJp": "UAPR/TKG-P-003",
+  "nameEn": "",
+  "nameJp": "霧嶋 董香",
+  "series": "東京喰種トーキョーグール",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "PR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】必要エナジーが4以下の自分のフロントLのアクティブの〈金木 研〉を1枚レストにする。そうした場合、レストにした〈金木 研〉のBP以下の相手のフロントLのキャラを1枚まで選び、レストにする。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Rest 1 active <Ken Kaneki> in your Front Line with required energy 4 or less. If you do, choose up to 1 character in your opponent's Front Line with BP equal to or less than the rested <Ken Kaneki>'s BP, and rest it.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_TKG-P-003.png?v9"
+ },
+ "TKG-P-004": {
+  "key": "TKG-P-004",
+  "numberJp": "UAPR/TKG-P-004",
+  "nameEn": "",
+  "nameJp": "霧嶋 絢都",
+  "series": "東京喰種トーキョーグール",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "PR",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分のライフが3以下の場合、このキャラはBP+2000。【登場時】自分の山札の上から2枚見て、特徴に「CCG」を持たない赤の〔キャラカードかフィールドカード〕を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置くか、自分のライフを1枚手札に加える。",
+  "effectEn": "If you have 3 or less Life, this character gets BP+2000. [On Play] Look at the top 2 card(s) of your deck, reveal up to 1 red character card or field card without the trait “CCG” among them, and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area, or add 1 of your Life to your hand.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_TKG-P-004.png?v9"
+ }
+}

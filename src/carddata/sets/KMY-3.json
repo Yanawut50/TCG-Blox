@@ -1,0 +1,2362 @@
+{
+ "KMY-3-001": {
+  "key": "KMY-3-001",
+  "numberJp": "EX05BT/KMY-3-001",
+  "nameEn": "Kagaya Ubuyashiki",
+  "nameJp": "産屋敷 耀哉",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の場の［特徴：柱］を1枚選び、アクティブにする。",
+  "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Choose 1 [Trait: Hashira] on your field, set it to active.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-001.png?v8"
+ },
+ "KMY-3-002": {
+  "key": "KMY-3-002",
+  "numberJp": "EX05BT/KMY-3-002",
+  "nameEn": "Tanjiro Kamado",
+  "nameJp": "竈門 炭治郎",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】【フロントLにある場合】自分の場の〈竈門 禰󠄀豆子〉は、相手のキャラの効果やトリガーの効果で選ばれない。【登場時】自分のフロントLのアクティブの〈竈門 禰󠄀豆子〉を1枚レストにしてもよい。そうした場合、このキャラをアクティブにする。",
+  "effectEn": "[During Your Turn] [While in Front Line] <Nezuko Kamado> on your field cannot be chosen by your opponent's character effects or Trigger effects. [On Play] You may rest 1 active <Nezuko Kamado> in your Front Line. If you do, Set this character to active.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】相手のフロントLのキャラを1枚選び、レストにする。それは次の1回アクティブにならない。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-002.png?v8"
+ },
+ "KMY-3-003": {
+  "key": "KMY-3-003",
+  "numberJp": "EX05BT/KMY-3-003",
+  "nameEn": "Nezuko Kamado",
+  "nameJp": "竈門 禰󠄀豆子",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-003.png?v8"
+ },
+ "KMY-3-004": {
+  "key": "KMY-3-004",
+  "numberJp": "EX05BT/KMY-3-004",
+  "nameEn": "Aoi Kanzaki",
+  "nameJp": "神崎 アオイ",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外から必要エナジーが3以下の黄のキャラカードを1枚まで手札に加える。",
+  "effectEn": "[On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, add up to 1 Yellow character card(s) with required energy 3 or less from your Outside Area to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-004.png?v8"
+ },
+ "KMY-3-005": {
+  "key": "KMY-3-005",
+  "numberJp": "EX05BT/KMY-3-005",
+  "nameEn": "Tamayo",
+  "nameJp": "珠世",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】相手は自身の場外にあるカードを『1枚』リムーブエリアに置く。相手の場外にカードが10枚以上ある場合、『2枚』に代わる。",
+  "effectEn": "[Activate: Main] [Rest this card] Your opponent puts “1” card(s) from their Outside Area into the Remove Area. If your opponent has 10 or more cards in their Outside Area, it becomes “2” instead.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-005.png?v8"
+ },
+ "KMY-3-006": {
+  "key": "KMY-3-006",
+  "numberJp": "EX05BT/KMY-3-006",
+  "nameEn": "Yushiro",
+  "nameJp": "愈史郎",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場に〈珠世〉がある場合、このキャラはBP+1000。",
+  "effectEn": "If you have <Tamayo> on your field, This character gets BP+1000.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-006.png?v8"
+ },
+ "KMY-3-007": {
+  "key": "KMY-3-007",
+  "numberJp": "EX05BT/KMY-3-007",
+  "nameEn": "Mitsuri Kanroji",
+  "nameJp": "甘露寺 蜜璃",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "柱"
+  ],
+  "effectJp": "【起動メイン】【フロントLにある場合】【手札を1枚場外に置く】【ターン1】自分の場の消費APが2の［特徴：柱］を1枚選び、アクティブにする。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] Choose 1 [Trait: Hashira] on your field with AP cost 2, set it to active.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-007.png?v8"
+ },
+ "KMY-3-008": {
+  "key": "KMY-3-008",
+  "numberJp": "EX05BT/KMY-3-008",
+  "nameEn": "Shinobu Kocho",
+  "nameJp": "胡蝶 しのぶ",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "柱"
+  ],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）このキャラがアタックしてバトルに敗北した時、カードを1枚まで引く。【退場時】BPが0以下になることか効果によって、このキャラが退場している場合、カードを1枚引く。",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) When this character attacks and loses a battle, draw up to 1 card(s). [On Retire] If this character was retired by its BP becoming 0 or less or by an effect, draw 1 card(s).",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-008.png?v8"
+ },
+ "KMY-3-009": {
+  "key": "KMY-3-009",
+  "numberJp": "EX05BT/KMY-3-009",
+  "nameEn": "Muichiro Tokito",
+  "nameJp": "時透 無一郎",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "柱"
+  ],
+  "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分の場の消費APが2の［特徴：柱］を1枚選び、このターン中、【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を与える。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 [Trait: Hashira] on your field with AP cost 2, This turn, [Impact +1](Damage dealt by Impact is increased by 1; if it doesn't have Impact, [Impact 1])",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-009.png?v8"
+ },
+ "KMY-3-010": {
+  "key": "KMY-3-010",
+  "numberJp": "EX05BT/KMY-3-010",
+  "nameEn": "Giyu Tomioka",
+  "nameJp": "冨岡 義勇",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "柱"
+  ],
+  "effectJp": "自分の場に〈産屋敷 耀哉〉、［特徴：柱］が合計3枚以上ある場合、手札にあるこのカードの消費APを-1する。【アタック時】自分の場に〈産屋敷 耀哉〉、他の［特徴：柱］が合計6枚以上ある場合、自分の場の他の［特徴：柱］を1枚まで選び、このターン中、BP+1500。",
+  "effectEn": "If you have 3 or more <Kagaya Ubuyashiki> and [Trait: Hashira] in total on your field, reduce the AP cost of this card in your hand by 1. [When Attacking] If you have 6 or more <Kagaya Ubuyashiki> and other [Trait: Hashira] in total on your field, choose up to 1 other [Trait: Hashira] on your field, and it gets BP+1500 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-010.png?v8"
+ },
+ "KMY-3-011": {
+  "key": "KMY-3-011",
+  "numberJp": "EX05BT/KMY-3-011",
+  "nameEn": "Nursing",
+  "nameJp": "看病",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場外からキャラカードを1枚手札に加える。",
+  "effectEn": "Add 1 character card from your Outside Area to your hand.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-011.png?v8"
+ },
+ "KMY-3-012": {
+  "key": "KMY-3-012",
+  "numberJp": "EX05BT/KMY-3-012",
+  "nameEn": "Kakushi",
+  "nameJp": "隠",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】以下から1つ選ぶ。・自分の場のキャラを1枚まで選び、別のラインに移動させる。・自分のフロントLのキャラと自分のエナジーLのキャラを1枚ずつ選び、それらの位置を入れ替えてもよい。",
+  "effectEn": "[On Play] Choose 1 of the following. Choose up to 1 character on your field, move it to another line. You may choose 1 character in your Front Line and 1 character in your Energy Line, and swap their positions.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-012.png?v8"
+ },
+ "KMY-3-013": {
+  "key": "KMY-3-013",
+  "numberJp": "EX05BT/KMY-3-013",
+  "nameEn": "Kasugai Crow",
+  "nameJp": "鎹鴉",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【青】。メインフェイズ終了時、このキャラを退場させる。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Blue]. At the end of the Main Phase, retire this character.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-013.png?v8"
+ },
+ "KMY-3-014": {
+  "key": "KMY-3-014",
+  "numberJp": "EX05BT/KMY-3-014",
+  "nameEn": "Tanjiro Kamado",
+  "nameJp": "竈門 炭治郎",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-014.png?v8"
+ },
+ "KMY-3-015": {
+  "key": "KMY-3-015",
+  "numberJp": "EX05BT/KMY-3-015",
+  "nameEn": "Tanjiro Kamado",
+  "nameJp": "竈門 炭治郎",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ターン1】このキャラが自分の［特徴：日輪刀］の効果で選ばれた時、このキャラはこのターン中、BP+500。",
+  "effectEn": "[Once Per Turn] When this character is chosen by the effect of your [Trait: Nichirin Sword], this character gets BP+500 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-015.png?v8"
+ },
+ "KMY-3-016": {
+  "key": "KMY-3-016",
+  "numberJp": "EX05BT/KMY-3-016",
+  "nameEn": "Tanjiro Kamado",
+  "nameJp": "竈門 炭治郎",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ターン1】このキャラが自分の［特徴：日輪刀］の効果で選ばれた時、自分の場の〈竈門 禰󠄀豆子〉を1枚まで選び、このターン中、BP+1000。【起動メイン】【フロントLにある場合】【APを1支払う】【ターン1】自分の場の〈竈門 禰󠄀豆子〉を1枚選び、このターン中、BP+1000。",
+  "effectEn": "[Once Per Turn] When this character is chosen by the effect of your [Trait: Nichirin Sword], choose up to 1 <Nezuko Kamado> on your field, and it gets BP+1000 this turn. [Activate: Main] [While in Front Line] [Pay 1 AP] [Once Per Turn] Choose 1 <Nezuko Kamado> on your field, it gets BP+1000 this turn.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP3500以下の相手のフロントLのキャラを1枚選び、手札に戻す。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 3500 or less, return it to its owner's hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-016.png?v8"
+ },
+ "KMY-3-017": {
+  "key": "KMY-3-017",
+  "numberJp": "EX05BT/KMY-3-017",
+  "nameEn": "Tanjiro Kamado",
+  "nameJp": "竈門 炭治郎",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈竈門 炭治郎〉アクティブにし、フロントLに移動できる【ターン1】このキャラが自分の［特徴：日輪刀］の効果で選ばれた時、このキャラはこのターン中、【インパクト（1）】を得る。【登場時】自分の場の〈竈門 禰󠄀豆子〉を1枚手札に戻してもよい。そうした場合、自分の手札を1枚場外に置き、BP4000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
+  "effectEn": "[Raid] Can Raid onto <Tanjiro Kamado>; set it to active and you may move it to the Front Line. [Once Per Turn] When this character is chosen by the effect of your [Trait: Nichirin Sword], this character gains [Impact 1] this turn. [On Play] You may return 1 <Nezuko Kamado> on your field to the owner's hand. If you do, put 1 card(s) from your hand into your Outside Area, choose up to 1 character in your opponent's Front Line with BP 4000 or less, and retire it.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-017.png?v8"
+ },
+ "KMY-3-018": {
+  "key": "KMY-3-018",
+  "numberJp": "EX05BT/KMY-3-018",
+  "nameEn": "Nezuko Kamado",
+  "nameJp": "竈門 禰󠄀豆子",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。",
+  "effectEn": "[On Play] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-018.png?v8"
+ },
+ "KMY-3-019": {
+  "key": "KMY-3-019",
+  "numberJp": "EX05BT/KMY-3-019",
+  "nameEn": "Nezuko Kamado",
+  "nameJp": "竈門 禰󠄀豆子",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚自分の山札の上か下に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand on the top or bottom of your deck.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-019.png?v8"
+ },
+ "KMY-3-020": {
+  "key": "KMY-3-020",
+  "numberJp": "EX05BT/KMY-3-020",
+  "nameEn": "Nezuko Kamado",
+  "nameJp": "竈門 禰󠄀豆子",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【アタック時】自分の山札の上から1枚見る。そのカードを自分の山札の上に置く。見たカードが〈竈門 炭治郎〉か〈日輪刀（竈門 炭治郎）〉の場合、公開してもよい。そうした場合、このキャラはこのターン中、BP+1000。公開したカードを自分の山札の上に置く。",
+  "effectEn": "[When Attacking] Look at the top 1 card(s) of your deck. Put that card on top of your deck. If the card you looked at is <Tanjiro Kamado> or <Nichirin Sword (Tanjiro Kamado)>, you may reveal it. If you do, This character gets BP+1000 this turn. Put the revealed card on top of your deck.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-020.png?v8"
+ },
+ "KMY-3-021": {
+  "key": "KMY-3-021",
+  "numberJp": "UAPR/KMY-3-021",
+  "nameEn": "Nezuko Kamado",
+  "nameJp": "竈門 禰󠄀豆子",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "UR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈竈門 禰󠄀豆子〉アクティブにし、フロントLに移動できるこのキャラが自分の場から手札に戻る場合、代わりにこのキャラとこのキャラのレイド元のカードを手札に戻す。【自分のターン中】自分の場に〈竈門 炭治郎〉がある場合、このキャラはBP+500。【登場時】自分の場に〈竈門 炭治郎〉がある場合、『カードを1枚引く』。自分の場に〈竈門 炭治郎〉と〈日輪刀（竈門 炭治郎）〉がどちらもある場合、『カードを2枚引き、自分の手札を1枚自分の山札の上か下に置く』に代えてもよい。",
+  "effectEn": "[Raid] Can Raid onto <Nezuko Kamado>; set it to active and you may move it to the Front Line. If this character would return from your field to your hand, return this character and its Raid source cards to your hand instead. [During Your Turn] If you have <Tanjiro Kamado> on your field, This character gets BP+500. [On Play] If you have <Tanjiro Kamado> on your field, “Draw 1 card(s)” If you have both <Tanjiro Kamado> and <Nichirin Sword (Tanjiro Kamado)> on your field, you may change it to “draw 2 card(s), then put 1 card(s) from your hand on the top or bottom of your deck”",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_KMY-3-021.png?v9"
+ },
+ "KMY-3-022": {
+  "key": "KMY-3-022",
+  "numberJp": "EX05BT/KMY-3-022",
+  "nameEn": "Genya Shinazugawa",
+  "nameJp": "不死川 玄弥",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-022.png?v8"
+ },
+ "KMY-3-023": {
+  "key": "KMY-3-023",
+  "numberJp": "EX05BT/KMY-3-023",
+  "nameEn": "Genya Shinazugawa",
+  "nameJp": "不死川 玄弥",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-023.png?v8"
+ },
+ "KMY-3-024": {
+  "key": "KMY-3-024",
+  "numberJp": "EX05BT/KMY-3-024",
+  "nameEn": "Genya Shinazugawa",
+  "nameJp": "不死川 玄弥",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラはアクティブで場に登場させる。【退場時】このカードを自分の手札に加えてもよい。",
+  "effectEn": "This character is played active. [On Retire] You may add this card to your hand.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-024.png?v8"
+ },
+ "KMY-3-025": {
+  "key": "KMY-3-025",
+  "numberJp": "EX05BT/KMY-3-025",
+  "nameEn": "Hotaru Haganezuka",
+  "nameJp": "鋼鐵塚 蛍",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "刀鍛冶の里"
+  ],
+  "effectJp": "【登場時】以下から1つ選ぶ。・自分の山札の上から7枚見る。その中から［特徴：日輪刀］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。・自分の場に［特徴：日輪刀］がある場合、カードを1枚引く。",
+  "effectEn": "[On Play] Choose 1 of the following. Look at the top 7 card(s) of your deck. Reveal up to 1 [Trait: Nichirin Sword] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you have [Trait: Nichirin Sword] on your field, Draw 1 card(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-025.png?v8"
+ },
+ "KMY-3-026": {
+  "key": "KMY-3-026",
+  "numberJp": "EX05BT/KMY-3-026",
+  "nameEn": "Kozo Kanamori",
+  "nameJp": "鉄穴森 鋼蔵",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "刀鍛冶の里"
+  ],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【青】。",
+  "effectEn": "While this character is active, its generated energy +[Blue].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-026.png?v8"
+ },
+ "KMY-3-027": {
+  "key": "KMY-3-027",
+  "numberJp": "EX05BT/KMY-3-027",
+  "nameEn": "Kotetsu",
+  "nameJp": "小鉄",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "刀鍛冶の里"
+  ],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-027.png?v8"
+ },
+ "KMY-3-028": {
+  "key": "KMY-3-028",
+  "numberJp": "EX05BT/KMY-3-028",
+  "nameEn": "Tecchin Tecchikawahara",
+  "nameJp": "鉄地河原 鉄珍",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "刀鍛冶の里"
+  ],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中から［特徴：刀鍛冶の里］か［特徴：日輪刀］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 [Trait: Swordsmith Village] or [Trait: Nichirin Sword] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-028.png?v8"
+ },
+ "KMY-3-029": {
+  "key": "KMY-3-029",
+  "numberJp": "EX05BT/KMY-3-029",
+  "nameEn": "Yoriichi Type Zero",
+  "nameJp": "縁壱零式",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "刀鍛冶の里"
+  ],
+  "effectJp": "【退場時】以下から1つ選ぶ。・自分の山札の上から7枚見る。その中から［特徴：日輪刀］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。・自分の場外から［特徴：日輪刀］を1枚まで手札に加える。",
+  "effectEn": "[On Retire] Choose 1 of the following. Look at the top 7 card(s) of your deck. Reveal up to 1 [Trait: Nichirin Sword] among them and add it to your hand. Put the rest on the bottom of your deck in any order. Add up to 1 [Trait: Nichirin Sword] from your Outside Area to your hand.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-029.png?v8"
+ },
+ "KMY-3-030": {
+  "key": "KMY-3-030",
+  "numberJp": "EX05BT/KMY-3-030",
+  "nameEn": "Mitsuri Kanroji",
+  "nameJp": "甘露寺 蜜璃",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "柱"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-030.png?v8"
+ },
+ "KMY-3-031": {
+  "key": "KMY-3-031",
+  "numberJp": "UAPR/KMY-3-031",
+  "nameEn": "Mitsuri Kanroji",
+  "nameJp": "甘露寺 蜜璃",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "柱"
+  ],
+  "effectJp": "【退場時】自分の場のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[On Retire] Choose up to 1 character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_KMY-3-031.png?v9"
+ },
+ "KMY-3-032": {
+  "key": "KMY-3-032",
+  "numberJp": "EX05BT/KMY-3-032",
+  "nameEn": "Mitsuri Kanroji",
+  "nameJp": "甘露寺 蜜璃",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "柱"
+  ],
+  "effectJp": "【自分のターン中】【ターン1】このキャラが自分の［特徴：日輪刀］の効果で選ばれた時、このキャラはこのターン中、【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を得る。",
+  "effectEn": "[During Your Turn] [Once Per Turn] When this character is chosen by the effect of your [Trait: Nichirin Sword], this character gains [Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-032.png?v8"
+ },
+ "KMY-3-033": {
+  "key": "KMY-3-033",
+  "numberJp": "EX05BT/KMY-3-033",
+  "nameEn": "Mitsuri Kanroji",
+  "nameJp": "甘露寺 蜜璃",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "柱"
+  ],
+  "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）自分の場に〈日輪刀（甘露寺 蜜璃）〉がある場合、このキャラの発生エナジー+【青】。",
+  "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active)If you have <Nichirin Sword (Mitsuri Kanroji)> on your field, This character's generated energy +[Blue].",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP3500以下の相手のフロントLのキャラを1枚選び、手札に戻す。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 3500 or less, return it to its owner's hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-033.png?v8"
+ },
+ "KMY-3-034": {
+  "key": "KMY-3-034",
+  "numberJp": "EX05BT/KMY-3-034",
+  "nameEn": "Mitsuri Kanroji",
+  "nameJp": "甘露寺 蜜璃",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "柱"
+  ],
+  "effectJp": "【レイド】〈甘露寺 蜜璃〉アクティブにし、フロントLに移動できる【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【ターン1】このキャラが自分の［特徴：日輪刀］の効果で選ばれた時、このキャラは次の自分のターン開始時まで、BP+1000。【登場時】相手は自身のフロントLのキャラを1枚手札に戻す。【アタック時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[Raid] Can Raid onto <Mitsuri Kanroji>; set it to active and you may move it to the Front Line. [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [Once Per Turn] When this character is chosen by the effect of your [Trait: Nichirin Sword], this character gets BP+1000 until the start of your next turn. [On Play] Your opponent returns 1 of their characters in their Front Line to their hand. [When Attacking] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-034.png?v8"
+ },
+ "KMY-3-035": {
+  "key": "KMY-3-035",
+  "numberJp": "EX05BT/KMY-3-035",
+  "nameEn": "Muichiro Tokito",
+  "nameJp": "時透 無一郎",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "柱"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-035.png?v8"
+ },
+ "KMY-3-036": {
+  "key": "KMY-3-036",
+  "numberJp": "EX05BT/KMY-3-036",
+  "nameEn": "Muichiro Tokito",
+  "nameJp": "時透 無一郎",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "柱"
+  ],
+  "effectJp": "【アタック時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[When Attacking] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-036.png?v8"
+ },
+ "KMY-3-037": {
+  "key": "KMY-3-037",
+  "numberJp": "UAPR/KMY-3-037",
+  "nameEn": "Muichiro Tokito",
+  "nameJp": "時透 無一郎",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "柱"
+  ],
+  "effectJp": "【起動メイン】【ターン1】このターン中にこのキャラが自分の［特徴：日輪刀］の効果で選ばれている場合のみ発動できる。このキャラを別のラインに移動させる。",
+  "effectEn": "[Activate: Main] [Once Per Turn] Can only activate if this character was chosen by the effect of your [Trait: Nichirin Sword] this turn. Move this character to another line.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP3500以下の相手のフロントLのキャラを1枚選び、手札に戻す。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 3500 or less, return it to its owner's hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_KMY-3-037.png?v9"
+ },
+ "KMY-3-038": {
+  "key": "KMY-3-038",
+  "numberJp": "EX05BT/KMY-3-038",
+  "nameEn": "Muichiro Tokito",
+  "nameJp": "時透 無一郎",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "柱"
+  ],
+  "effectJp": "【アタック時】このターン中にこのキャラが自分の［特徴：日輪刀］の効果で選ばれている場合、以下から1つ選ぶ。・BP2500以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-2000。・BP1500以上の相手のフロントLのキャラを2枚まで選び、このターン中、BP-1000。",
+  "effectEn": "[When Attacking] If this character was chosen by the effect of your [Trait: Nichirin Sword] this turn, choose 1 of the following. Choose up to 1 character in your opponent's Front Line with BP 2500 or more, it gets BP-2000 this turn. Choose up to 2 characters in your opponent's Front Line with BP 1500 or more, it gets BP-1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-038.png?v8"
+ },
+ "KMY-3-039": {
+  "key": "KMY-3-039",
+  "numberJp": "UAPR/KMY-3-039",
+  "nameEn": "Muichiro Tokito",
+  "nameJp": "時透 無一郎",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "OBC",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "柱"
+  ],
+  "effectJp": "【レイド】〈時透 無一郎〉アクティブにし、フロントLに移動できる【ターン1】このキャラが自分の［特徴：日輪刀］の効果で選ばれた時、このキャラは次の自分のターン開始時まで、「このキャラはBP3000以下のキャラにブロックされない。」と「相手のキャラの効果で選ばれず、【狙い撃ち】で指定されない。」を得る。【登場時】BP2500以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-2000。【アタック時】カードを1枚引く。BP1500以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。",
+  "effectEn": "[Raid] Can Raid onto <Muichiro Tokito>; set it to active and you may move it to the Front Line. [Once Per Turn] When this character is chosen by the effect of your [Trait: Nichirin Sword], until the start of your next turn this character gains “This character cannot be blocked by characters with BP 3000 or less” and “Cannot be chosen by your opponent's character effects and cannot be targeted by [Snipe]” [On Play] Choose up to 1 character in your opponent's Front Line with BP 2500 or more, it gets BP-2000 this turn. [When Attacking] Draw 1 card(s). Choose up to 1 character in your opponent's Front Line with BP 1500 or more, it gets BP-1000 this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_KMY-3-039.png?v9"
+ },
+ "KMY-3-040": {
+  "key": "KMY-3-040",
+  "numberJp": "EX05BT/KMY-3-040",
+  "nameEn": "Swordsmith Village",
+  "nameJp": "刀鍛冶の里",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Field",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "刀鍛冶の里"
+  ],
+  "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】自分の山札の上から2枚見る。その中から［特徴：刀鍛冶の里］か［特徴：日輪刀］を1枚まで公開し手札に加える。残りを望む順で自分の山札の上に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "This Field is played active. [Activate: Main] [Rest this card] Look at the top 2 card(s) of your deck. Reveal up to 1 [Trait: Swordsmith Village] or [Trait: Nichirin Sword] among them and add it to your hand. Put the rest on top of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-040.png?v8"
+ },
+ "KMY-3-041": {
+  "key": "KMY-3-041",
+  "numberJp": "EX05BT/KMY-3-041",
+  "nameEn": "Nichirin Sword (Tanjiro Kamado)",
+  "nameJp": "日輪刀（竈門 炭治郎）",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Field",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "日輪刀"
+  ],
+  "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】このターン中に［特徴：日輪刀］の効果で選ばれているキャラは、この効果で選べない。自分の場の〈竈門 炭治郎〉を1枚選び、このターン中、BP+1000。その後、自分の山札の上から1枚見てもよい。そうした場合、そのカードを自分の山札の上か下に置く。",
+  "effectEn": "This Field is played active. [Activate: Main] [Rest this card] Characters chosen by a [Trait: Nichirin Sword] effect this turn cannot be chosen by this effect. Choose 1 <Tanjiro Kamado> on your field, it gets BP+1000 this turn. Then, you may look at the top 1 card(s) of your deck. If you do, Put that card on the top or bottom of your deck.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-041.png?v8"
+ },
+ "KMY-3-042": {
+  "key": "KMY-3-042",
+  "numberJp": "EX05BT/KMY-3-042",
+  "nameEn": "Nichirin Sword (Mitsuri Kanroji)",
+  "nameJp": "日輪刀（甘露寺 蜜璃）",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Field",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "日輪刀"
+  ],
+  "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】このターン中に［特徴：日輪刀］の効果で選ばれているキャラは、この効果で選べない。自分の場の〈甘露寺 蜜璃〉を1枚選び、このターン中、『BP+1000』。自分の手札を1枚場外に置いてもよい。そうした場合、『BP+2000』に代わる。",
+  "effectEn": "This Field is played active. [Activate: Main] [Rest this card] Characters chosen by a [Trait: Nichirin Sword] effect this turn cannot be chosen by this effect. Choose 1 <Mitsuri Kanroji> on your field, This turn, 『BP+1000』. You may put 1 card(s) from your hand into your Outside Area. If you do, it becomes “BP+2000” instead.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-042.png?v8"
+ },
+ "KMY-3-043": {
+  "key": "KMY-3-043",
+  "numberJp": "EX05BT/KMY-3-043",
+  "nameEn": "Nichirin Sword (Muichiro Tokito)",
+  "nameJp": "日輪刀（時透 無一郎）",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Field",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "日輪刀"
+  ],
+  "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】このターン中に［特徴：日輪刀］の効果で選ばれているキャラは、この効果で選べない。自分の場の〈時透 無一郎〉を1枚選び、このターン中、BP+1000と「このキャラはBP2000以下のキャラにブロックされない。」を与える。",
+  "effectEn": "This Field is played active. [Activate: Main] [Rest this card] Characters chosen by a [Trait: Nichirin Sword] effect this turn cannot be chosen by this effect. Choose 1 <Muichiro Tokito> on your field, it gets BP+1000 and gains “This character cannot be blocked by characters with BP 2000 or less” this turn.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-043.png?v8"
+ },
+ "KMY-3-044": {
+  "key": "KMY-3-044",
+  "numberJp": "EX05BT/KMY-3-044",
+  "nameEn": "The Mark",
+  "nameJp": "痣",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-044.png?v8"
+ },
+ "KMY-3-045": {
+  "key": "KMY-3-045",
+  "numberJp": "EX05BT/KMY-3-045",
+  "nameEn": "Dancing Flash",
+  "nameJp": "円舞一閃",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈竈門 炭治郎〉がある場合、『BP4000以下』に代わる。自分の場に〈竈門 炭治郎〉と〈日輪刀（竈門 炭治郎）〉がどちらもある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Tanjiro Kamado> on your field, it becomes “BP 4000 or less” instead. If you have both <Tanjiro Kamado> and <Nichirin Sword (Tanjiro Kamado)> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-045.png?v8"
+ },
+ "KMY-3-046": {
+  "key": "KMY-3-046",
+  "numberJp": "EX05BT/KMY-3-046",
+  "nameEn": "The Raging Sword",
+  "nameJp": "赫刀",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "このターン中に自分の［特徴：日輪刀］の効果で選ばれている自分の場のキャラを1枚選び、このターン中、BP+1000と〔【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）か【ダメージ（+1）】（このキャラがアタックで直接ダメージを与える時、追加で1ダメージ）〕を与え、カードを1枚引く。",
+  "effectEn": "Choose 1 character on your field that was chosen by the effect of your [Trait: Nichirin Sword] this turn; it gets BP+1000 and gains [Impact +1] (Damage dealt by Impact is increased by 1; if it doesn't have Impact, it gains [Impact 1]) or [Damage +1] (When this character deals direct damage by attacking, deal 1 additional damage) this turn, then draw 1 card(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-046.png?v8"
+ },
+ "KMY-3-047": {
+  "key": "KMY-3-047",
+  "numberJp": "EX05BT/KMY-3-047",
+  "nameEn": "Mist Breathing Fifth Form: Sea of Clouds and Haze",
+  "nameJp": "霞の呼吸 伍ノ型 霞雲の海",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場に〈時透 無一郎〉がある場合、手札にあるこのカードの消費APを-1する。BP5000以下の相手のフロントLのキャラを1枚選び、相手の山札の下に置く。",
+  "effectEn": "If you have <Muichiro Tokito> on your field, reduce the AP cost of this card in your hand by 1. Choose 1 character in your opponent's Front Line with BP 5000 or less, and put it on the bottom of your opponent's deck.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-047.png?v8"
+ },
+ "KMY-3-048": {
+  "key": "KMY-3-048",
+  "numberJp": "EX05BT/KMY-3-048",
+  "nameEn": "Love Breathing First Form: Shivers of First Love",
+  "nameJp": "恋の呼吸 壱ノ型 初恋のわななき",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "BP5000以下の相手のフロントLのキャラを1枚まで選び、手札に戻す。自分の場に〈甘露寺 蜜璃〉がある場合、カードを1枚引き、自分の場の〈甘露寺 蜜璃〉を1枚まで選び、このターン中、【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を与える。",
+  "effectEn": "Choose up to 1 character in your opponent's Front Line with BP 5000 or less, return it to its owner's hand. If you have <Mitsuri Kanroji> on your field, draw 1 card(s), choose up to 1 <Mitsuri Kanroji> on your field, and it gains [Impact +1] (Damage dealt by Impact is increased by 1; if it doesn't have Impact, it gains [Impact 1]) this turn.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-048.png?v8"
+ },
+ "KMY-3-049": {
+  "key": "KMY-3-049",
+  "numberJp": "EX05BT/KMY-3-049",
+  "nameEn": "Muzan Kibutsuji",
+  "nameJp": "鬼舞辻󠄀 無惨",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場外にカードが15枚以上ある場合、このキャラは【インパクト（1）】を得る。【登場時】自分の場の他のキャラを望む枚数退場させてもよい。そうした場合、この効果で退場させたキャラの枚数分カードを引く。【起動メイン】【ターン1】このターン中にこのキャラの【登場時】によってキャラが退場している場合のみ発動できる。自分の手札から必要エナジーが3以下で消費APが1の紫のキャラカードを1枚まで自分の場にレストで登場させる。",
+  "effectEn": "If you have 15 or more cards in your Outside Area, This character [Impact 1] is gained. [On Play] You may retire any number of other characters on your field. If you do, draw cards equal to the number of characters retired by this effect. [Activate: Main] [Once Per Turn] Can only activate if a character was retired by this character's [On Play] this turn. Play up to 1 Purple character card with required energy 3 or less and with AP cost 1 from your hand to your field rested.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-049.png?v8"
+ },
+ "KMY-3-050": {
+  "key": "KMY-3-050",
+  "numberJp": "EX05BT/KMY-3-050",
+  "nameEn": "Gyutaro",
+  "nameJp": "妓夫太郎",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "上弦の鬼"
+  ],
+  "effectJp": "【登場時】自分の場に〈堕姫〉がある場合、BP1500以上の相手の場のキャラを1枚まで選び、このターン中、BP-1000。",
+  "effectEn": "[On Play] If you have <Daki> on your field, Choose up to 1 character on your opponent's field with BP 1500 or more, it gets BP-1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-050.png?v8"
+ },
+ "KMY-3-051": {
+  "key": "KMY-3-051",
+  "numberJp": "EX05BT/KMY-3-051",
+  "nameEn": "Gyokko",
+  "nameJp": "玉壺",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "上弦の鬼"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-051.png?v8"
+ },
+ "KMY-3-052": {
+  "key": "KMY-3-052",
+  "numberJp": "EX05BT/KMY-3-052",
+  "nameEn": "Gyokko",
+  "nameJp": "玉壺",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "上弦の鬼"
+  ],
+  "effectJp": "【レイド】〈玉壺〉アクティブにし、フロントLに移動できる【登場時】相手のフロントLのキャラを1枚まで選び、このターン中、『BP-1500』。このターン中にキャラが退場していた場合、『BP-2500』に代わる。【アタック時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[Raid] Can Raid onto <Gyokko>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line, This turn, 『BP-1500』. If a character was retired this turn, it becomes “BP-2500” instead. [When Attacking] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-052.png?v8"
+ },
+ "KMY-3-053": {
+  "key": "KMY-3-053",
+  "numberJp": "EX05BT/KMY-3-053",
+  "nameEn": "Daki",
+  "nameJp": "堕姫",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "上弦の鬼"
+  ],
+  "effectJp": "【起動メイン】自分のフロントLの【レイド】を持ち、レイド状態でない〈堕姫〉を1枚選び、アクティブにし、そのキャラの下にこのキャラを表向きで置く。（レイド状態になる）",
+  "effectEn": "[Activate: Main] Choose 1 <Daki> in your Front Line that has [Raid] and is not Raided, set it to active, and put this character face up under that character. (It becomes Raided)",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-053.png?v8"
+ },
+ "KMY-3-054": {
+  "key": "KMY-3-054",
+  "numberJp": "EX05BT/KMY-3-054",
+  "nameEn": "Daki",
+  "nameJp": "堕姫",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "上弦の鬼"
+  ],
+  "effectJp": "【登場時】自分の場に〈妓夫太郎〉がある場合、BP1500以上の相手の場のキャラを1枚まで選び、このターン中、BP-1000。【起動メイン】【フロントLにある場合】【APを1支払う】【ターン1】自分の場の〈妓夫太郎〉を1枚選び、このターン中、【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を与える。",
+  "effectEn": "[On Play] If you have <Gyutaro> on your field, Choose up to 1 character on your opponent's field with BP 1500 or more, it gets BP-1000 this turn. [Activate: Main] [While in Front Line] [Pay 1 AP] [Once Per Turn] Choose 1 <Gyutaro> on your field, This turn, [Impact +1](Damage dealt by Impact is increased by 1; if it doesn't have Impact, [Impact 1])",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-054.png?v8"
+ },
+ "KMY-3-055": {
+  "key": "KMY-3-055",
+  "numberJp": "EX05BT/KMY-3-055",
+  "nameEn": "Hantengu",
+  "nameJp": "半天狗",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "上弦の鬼"
+  ],
+  "effectJp": "【退場時】自分の場外から〈哀絶〉、〈空喜〉、〈可楽〉、〈積怒〉をそれぞれ1枚まで選び、その中から2枚までを自分の場にレストで登場させ、残りを手札に加える。",
+  "effectEn": "[On Retire] Choose up to 1 each of <Aizetsu>, <Urogi>, <Karaku> and <Sekido> from your Outside Area; play up to 2 of them to your field rested, and add the rest to your hand.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-055.png?v8"
+ },
+ "KMY-3-056": {
+  "key": "KMY-3-056",
+  "numberJp": "EX05BT/KMY-3-056",
+  "nameEn": "Aizetsu",
+  "nameJp": "哀絶",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "上弦の鬼",
+   "半天狗の分身"
+  ],
+  "effectJp": "【退場時】自分の効果によって、このキャラが退場している場合、相手のフロントLのキャラを1枚まで選び、このターン中、『BP-1000』。自分の〈憎珀天〉の効果で退場したなら、『BP-2000』に代わる。",
+  "effectEn": "[On Retire] If this character was retired by your own effect, choose up to 1 character in your opponent's Front Line, and it gets “BP-1000” this turn. If it was retired by your <Zohakuten>'s effect, it becomes “BP-2000” instead.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-056.png?v8"
+ },
+ "KMY-3-057": {
+  "key": "KMY-3-057",
+  "numberJp": "EX05BT/KMY-3-057",
+  "nameEn": "Urogi",
+  "nameJp": "空喜",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "上弦の鬼",
+   "半天狗の分身"
+  ],
+  "effectJp": "【退場時】自分の効果によって、このキャラが退場している場合、カードを『1枚』引く。自分の〈憎珀天〉の効果で退場したなら、『2枚』に代わる。",
+  "effectEn": "[On Retire] If this character was retired by your own effect, draw “1” card(s). If it was retired by your <Zohakuten>'s effect, it becomes “2” instead.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-057.png?v8"
+ },
+ "KMY-3-058": {
+  "key": "KMY-3-058",
+  "numberJp": "EX05BT/KMY-3-058",
+  "nameEn": "Karaku",
+  "nameJp": "可楽",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "上弦の鬼",
+   "半天狗の分身"
+  ],
+  "effectJp": "【退場時】自分の山札の上から1枚を場外に置く。自分の〈憎珀天〉の効果によって、このキャラが退場している場合、自分のAPカードを1枚まで選び、アクティブにする。",
+  "effectEn": "[On Retire] Put the top 1 card(s) of your deck into your Outside Area. If this character was retired by your <Zohakuten>'s effect, choose up to 1 of your AP cards and set it to active.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-058.png?v8"
+ },
+ "KMY-3-059": {
+  "key": "KMY-3-059",
+  "numberJp": "EX05BT/KMY-3-059",
+  "nameEn": "Sekido",
+  "nameJp": "積怒",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "上弦の鬼",
+   "半天狗の分身"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-059.png?v8"
+ },
+ "KMY-3-060": {
+  "key": "KMY-3-060",
+  "numberJp": "EX05BT/KMY-3-060",
+  "nameEn": "Zohakuten",
+  "nameJp": "憎珀天",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "上弦の鬼",
+   "半天狗の分身"
+  ],
+  "effectJp": "【レイド】〈積怒〉アクティブにし、フロントLに移動できる【登場時】自分の場の〈哀絶〉、〈空喜〉、〈可楽〉をそれぞれ1枚まで退場させる。そうした場合、この効果で退場させたキャラを全てこのキャラの下に裏向きで置く。このキャラの下の裏向きのカードの枚数により、このキャラは以下の効果を全て得る。・1枚以上：【退場時】このカードを自分の場にレストで登場させてもよい。・2枚以上：【ダメージ（2）】と【2回ブロック】・3枚以上：このキャラはBP+500と【2回アタック】",
+  "effectEn": "[Raid] Can Raid onto <Sekido>; set it to active and you may move it to the Front Line. [On Play] Retire up to 1 each of <Aizetsu>, <Urogi> and <Karaku> on your field. If you do, put all characters retired by this effect face down under this character. Depending on the number of face-down cards under this character, this character gains all of the following effects. 1 or more: [On Retire] You may play this card to your field rested. 2 or more: [Damage 2] and [Double Block]. 3 or more: This character gets BP+500 and [Double Attack].",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-060.png?v8"
+ },
+ "KMY-3-061": {
+  "key": "KMY-3-061",
+  "numberJp": "EX05BT/KMY-3-061",
+  "nameEn": "Muzan's Research",
+  "nameJp": "無惨の研究",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場外にカードが5枚以上ある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have 5 or more cards in your Outside Area, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-061.png?v8"
+ },
+ "KMY-3-062": {
+  "key": "KMY-3-062",
+  "numberJp": "EX05BT/KMY-3-062",
+  "nameEn": "Zenitsu Agatsuma",
+  "nameJp": "我妻 善逸",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場にレイド状態の〔〈竈門 炭治郎〉か〈嘴平 伊之助〉〕がある場合、このキャラはBP+1000。",
+  "effectEn": "If you have a Raided <Tanjiro Kamado> or <Inosuke Hashibira> on your field, this character gets BP+1000.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-062.png?v8"
+ },
+ "KMY-3-063": {
+  "key": "KMY-3-063",
+  "numberJp": "EX05BT/KMY-3-063",
+  "nameEn": "Tanjiro Kamado",
+  "nameJp": "竈門 炭治郎",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の場のレイド状態の〈我妻 善逸〉を1枚選び、このターン中、【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を与える。【起動メイン】【レストにする】【このカードを退場させる】自分の場のレイド状態の〈嘴平 伊之助〉を1枚選び、このターン中、【ダメージ（+1）】（このキャラがアタックで直接ダメージを与える時、追加で1ダメージ）を与える。",
+  "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Choose 1 Raided <Zenitsu Agatsuma> on your field, and it gains [Impact +1] (Damage dealt by Impact is increased by 1; if it doesn't have Impact, it gains [Impact 1]) this turn. [Activate: Main] [Rest this card] [Retire this card] Choose 1 Raided <Inosuke Hashibira> on your field, and it gains [Damage +1] (When this character deals direct damage by attacking, deal 1 additional damage) this turn.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP2500以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-063.png?v8"
+ },
+ "KMY-3-064": {
+  "key": "KMY-3-064",
+  "numberJp": "EX05BT/KMY-3-064",
+  "nameEn": "Tanjiro Kamado",
+  "nameJp": "竈門 炭治郎",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈竈門 炭治郎〉アクティブにし、フロントLに移動できる【登場時】自分の山札の上から5枚見る。その中から〈我妻 善逸〉と〈嘴平 伊之助〉をそれぞれ1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。この効果によってカードを2枚手札に加えた場合、自分の手札を1枚場外に置く。【起動メイン】【フロントLにある場合】【レストにする】自分の場の〈我妻 善逸〉と〈嘴平 伊之助〉をそれぞれ1枚まで選び、このターン中、BP+2000。",
+  "effectEn": "[Raid] Can Raid onto <Tanjiro Kamado>; set it to active and you may move it to the Front Line. [On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 each of <Zenitsu Agatsuma> and <Inosuke Hashibira> among them and add them to your hand. Put the rest on the bottom of your deck in any order. If you added 2 card(s) to your hand by this effect, put 1 card(s) from your hand into your Outside Area. [Activate: Main] [While in Front Line] [Rest this card] Choose up to 1 each of <Zenitsu Agatsuma> and <Inosuke Hashibira> on your field, and they get BP+2000 this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-064.png?v8"
+ },
+ "KMY-3-065": {
+  "key": "KMY-3-065",
+  "numberJp": "EX05BT/KMY-3-065",
+  "nameEn": "Inosuke Hashibira",
+  "nameJp": "嘴平 伊之助",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場にレイド状態の〔〈竈門 炭治郎〉か〈我妻 善逸〉〕がある場合、このキャラをアクティブにする。",
+  "effectEn": "[On Play] If you have a Raided <Tanjiro Kamado> or <Zenitsu Agatsuma> on your field, set this character to active.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-065.png?v8"
+ },
+ "KMY-3-066": {
+  "key": "KMY-3-066",
+  "numberJp": "EX05BT/KMY-3-066",
+  "nameEn": "Shinjuro Rengoku",
+  "nameJp": "煉󠄁獄 槇寿郎",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【アタック時】このターン中に自分のイベントカードか〈煉󠄁獄 杏寿郎〉の効果で自分の手札を場外に置いている場合、以下から1つ選ぶ。・このキャラはこのターン中、BP+1000。・カードを1枚引く。",
+  "effectEn": "[When Attacking] If you have put cards from your hand into your Outside Area by the effect of your Event card or <Kyojuro Rengoku> this turn, choose 1 of the following. This character gets BP+1000 this turn. Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-066.png?v8"
+ },
+ "KMY-3-067": {
+  "key": "KMY-3-067",
+  "numberJp": "EX05BT/KMY-3-067",
+  "nameEn": "Ruka Rengoku",
+  "nameJp": "煉󠄁獄 瑠火",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分のイベントカードか〈煉󠄁獄 杏寿郎〉の効果でこのカードが手札から場外に置かれた時、カードを1枚引く。",
+  "effectEn": "When this card is put from your hand into your Outside Area by the effect of your Event card or <Kyojuro Rengoku>, draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-067.png?v8"
+ },
+ "KMY-3-068": {
+  "key": "KMY-3-068",
+  "numberJp": "EX05BT/KMY-3-068",
+  "nameEn": "Suma & Makio & Hinatsuru",
+  "nameJp": "須磨＆まきを＆雛鶴",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "天元の嫁"
+  ],
+  "effectJp": "【自分のターン中】自分の場に〈宇髄 天元〉がある場合、このキャラはBP+500。【自分のターン中】アタックフェイズ中にこのキャラが移動した時、自分の場の〈宇髄 天元〉か［特徴：変装］を1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[During Your Turn] If you have <Tengen Uzui> on your field, This character gets BP+500. [During Your Turn] When this character moves during the Attack Phase, choose up to 1 <Tengen Uzui> or [Trait: Disguise] on your field, and it gets BP+1000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-068.png?v8"
+ },
+ "KMY-3-069": {
+  "key": "KMY-3-069",
+  "numberJp": "EX05BT/KMY-3-069",
+  "nameEn": "Tengen Uzui",
+  "nameJp": "宇髄 天元",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "柱"
+  ],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【自分のターン中】自分の場に［特徴：天元の嫁］と［特徴：変装］が合計3枚以上ある場合、このキャラはBP+1000。",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [During Your Turn] If you have 3 or more [Trait: Tengen's Wives] and [Trait: Disguise] in total on your field, this character gets BP+1000.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-069.png?v8"
+ },
+ "KMY-3-070": {
+  "key": "KMY-3-070",
+  "numberJp": "EX05BT/KMY-3-070",
+  "nameEn": "Kyojuro Rengoku",
+  "nameJp": "煉󠄁獄 杏寿郎",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "柱"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-070.png?v8"
+ },
+ "KMY-3-071": {
+  "key": "KMY-3-071",
+  "numberJp": "EX05BT/KMY-3-071",
+  "nameEn": "Kyojuro Rengoku",
+  "nameJp": "煉󠄁獄 杏寿郎",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "柱"
+  ],
+  "effectJp": "【起動メイン】【手札を1枚場外に置く】【ターン1】このターン中、次に自分が「BPの範囲に指定がある効果」でキャラを選ぶ際、指定できるBPの範囲+1000。（BP3000以下のキャラを選べる効果でBP4000以下を選べるようになる）",
+  "effectEn": "[Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] This turn, the next time you choose a character with an “effect that specifies a BP range”, that BP range gets +1000. (Effects that can choose characters with BP 3000 or less can choose characters with BP 4000 or less instead)",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP2500以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-071.png?v8"
+ },
+ "KMY-3-072": {
+  "key": "KMY-3-072",
+  "numberJp": "EX05BT/KMY-3-072",
+  "nameEn": "Kyojuro Rengoku",
+  "nameJp": "煉󠄁獄 杏寿郎",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 6,
+  "ap": 1,
+  "bp": 4500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "柱"
+  ],
+  "effectJp": "【レイド】〈煉󠄁獄 杏寿郎〉アクティブにし、フロントLに移動できる【自分のターン中】このターン中に自分のイベントカードか〈煉󠄁獄 杏寿郎〉の効果で自分の手札を場外に置いている場合、このキャラはBP+500と【インパクト（1）】を得る。【登場時】自分の手札を望む枚数場外に置き、『BP3000』以下の相手のフロントLのキャラを1枚まで選び、退場させる。この効果で手札から場外に置いたカード1枚につき、この効果で選べるキャラのBPの範囲+500。",
+  "effectEn": "[Raid] Can Raid onto <Kyojuro Rengoku>; set it to active and you may move it to the Front Line. [During Your Turn] If you have put cards from your hand into your Outside Area with the effect of your event card or <Kyojuro Rengoku> this turn, this character gains BP+500 and [Impact 1]. [On Play] Put any number of cards from your hand into your Outside Area, then choose up to 1 character in your opponent's Front Line with “BP 3000” or less, and retire it. For each 1 card(s) put from your hand into the Outside Area by this effect, the BP range of characters this effect can choose gets +500.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-072.png?v8"
+ },
+ "KMY-3-073": {
+  "key": "KMY-3-073",
+  "numberJp": "EX05BT/KMY-3-073",
+  "nameEn": "Flame Breathing First Form: Unknowing Fire",
+  "nameJp": "炎の呼吸 壱ノ型 不知火",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2 Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。カードを1枚引き、自分の手札を1枚場外に置く。自分の場に〈煉󠄁獄 杏寿郎〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. If you have <Kyojuro Rengoku> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-073.png?v8"
+ },
+ "KMY-3-AP01": {
+  "key": "KMY-3-AP01",
+  "numberJp": "EX05BT/KMY-3-AP01",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(鬼滅の刃)",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-AP01.png?v8"
+ },
+ "KMY-3-AP01★": {
+  "key": "KMY-3-AP01★",
+  "numberJp": "EX05BT/KMY-3-AP01★",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(鬼滅の刃)",
+  "series": "鬼滅の刃",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-AP01_s.png?v8"
+ },
+ "KMY-3-AP02": {
+  "key": "KMY-3-AP02",
+  "numberJp": "EX05BT/KMY-3-AP02",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(鬼滅の刃)",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-AP02.png?v8"
+ },
+ "KMY-3-AP03": {
+  "key": "KMY-3-AP03",
+  "numberJp": "EX05BT/KMY-3-AP03",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(鬼滅の刃)",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-AP03.png?v8"
+ },
+ "KMY-3-AP04": {
+  "key": "KMY-3-AP04",
+  "numberJp": "EX05BT/KMY-3-AP04",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(鬼滅の刃)",
+  "series": "鬼滅の刃",
+  "setName": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX05BT_KMY-3-AP04.png?v8"
+ }
+}

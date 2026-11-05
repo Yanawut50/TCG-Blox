@@ -1,0 +1,3771 @@
+{
+ "AOT-1-001": {
+  "key": "AOT-1-001",
+  "numberJp": "UA23BT/AOT-1-001",
+  "nameEn": "Erwin Smith",
+  "nameJp": "エルヴィン・スミス",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-001.png?v8"
+ },
+ "AOT-1-002": {
+  "key": "AOT-1-002",
+  "numberJp": "UA23BT/AOT-1-002",
+  "nameEn": "Erwin Smith",
+  "nameJp": "エルヴィン・スミス",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から3枚見る。その中から〈リヴァイ〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。【起動メイン】【APを1支払う】【ターン1】このターン中、このキャラの発生エナジー+【青】。このターンのアタックフェイズ開始時、自分のAPカードを1枚まで選び、アクティブにする。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 <Levi> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area. [Activate: Main] [Pay 1 AP] [Once Per Turn] This turn, this character's generated energy +[Blue]. At the start of this turn's Attack Phase, choose up to 1 of your AP cards and set it to active.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-002.png?v8"
+ },
+ "AOT-1-003": {
+  "key": "AOT-1-003",
+  "numberJp": "UA23BT/AOT-1-003",
+  "nameEn": "Hange Zoe",
+  "nameJp": "ハンジ・ゾエ",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分か相手の場のアクティブの〔［特徴：巨人継承者］か［特徴：無垢の巨人］〕を1枚選び、レストにしてもよい。そうした場合、この効果でキャラがレストになったプレイヤーはカードを1枚引く。",
+  "effectEn": "[On Play] You may choose 1 active [Trait: Titan Inheritor] or [Trait: Pure Titan] on your or your opponent's field, and rest it. If you do, the player whose character was rested by this effect draws 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-003.png?v8"
+ },
+ "AOT-1-004": {
+  "key": "AOT-1-004",
+  "numberJp": "UA23BT/AOT-1-004",
+  "nameEn": "Eld Gin",
+  "nameJp": "エルド・ジン",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "リヴァイ班"
+  ],
+  "effectJp": "【自分のターン中】このターンのアタックフェイズ中に自分がAPを支払っている場合、このキャラはBP+2000。",
+  "effectEn": "[During Your Turn] If you have paid AP during this turn's Attack Phase, this character gets BP+2000.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-004.png?v8"
+ },
+ "AOT-1-005": {
+  "key": "AOT-1-005",
+  "numberJp": "UA23BT/AOT-1-005",
+  "nameEn": "Oruo Bozad",
+  "nameJp": "オルオ・ボザド",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "リヴァイ班"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【青】。メインフェイズ終了時、このキャラを退場させる。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Blue]. At the end of the Main Phase, retire this character.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-005.png?v8"
+ },
+ "AOT-1-006": {
+  "key": "AOT-1-006",
+  "numberJp": "UA23BT/AOT-1-006",
+  "nameEn": "Petra Rall",
+  "nameJp": "ペトラ・ラル",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "リヴァイ班"
+  ],
+  "effectJp": "【登場時】このターンのアタックフェイズ開始時、自分のAPカードを1枚まで選び、アクティブにする。",
+  "effectEn": "[On Play] At the start of this turn's Attack Phase, choose up to 1 of your AP cards and set it to active.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-006.png?v8"
+ },
+ "AOT-1-007": {
+  "key": "AOT-1-007",
+  "numberJp": "UA23BT/AOT-1-007",
+  "nameEn": "Levi",
+  "nameJp": "リヴァイ",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "リヴァイ班"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-007.png?v8"
+ },
+ "AOT-1-008": {
+  "key": "AOT-1-008",
+  "numberJp": "UA23BT/AOT-1-008",
+  "nameEn": "Levi",
+  "nameJp": "リヴァイ",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "リヴァイ班"
+  ],
+  "effectJp": "【アタック時】APを1支払ってもよい。そうした場合、カードを1枚引き、このキャラはこのターン中、BP+500。",
+  "effectEn": "[When Attacking] You may pay 1 AP. If you do, draw 1 card(s), and this character gets BP+500 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-008.png?v8"
+ },
+ "AOT-1-009": {
+  "key": "AOT-1-009",
+  "numberJp": "UA23BT/AOT-1-009",
+  "nameEn": "Levi",
+  "nameJp": "リヴァイ",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "リヴァイ班"
+  ],
+  "effectJp": "【アタック時】APを1支払ってもよい。そうした場合、カードを1枚引き、このキャラはこのターン中、BP+1000。",
+  "effectEn": "[When Attacking] You may pay 1 AP. If you do, draw 1 card(s), and this character gets BP+1000 this turn.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP3500以下の相手のフロントLのキャラを1枚選び、手札に戻す。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 3500 or less, return it to its owner's hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-009.png?v8"
+ },
+ "AOT-1-010": {
+  "key": "AOT-1-010",
+  "numberJp": "UA23BT/AOT-1-010",
+  "nameEn": "Levi",
+  "nameJp": "リヴァイ",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "リヴァイ班"
+  ],
+  "effectJp": "【フロントLにある場合】自分のアタックフェイズ開始時、このキャラがアクティブの場合、自分のAPカードを1枚まで選び、アクティブにする。【アタック時】APを1支払ってもよい。そうした場合、自分の場のキャラを1枚まで選び、このターン中、BP+1000と「このキャラは、相手のトリガーの効果で選ばれない。」を与える。",
+  "effectEn": "[While in Front Line] At the start of your Attack Phase, if this character is active, choose up to 1 of your AP cards and set it to active. [When Attacking] You may pay 1 AP. If you do, choose up to 1 character on your field, and it gets BP+1000 and gains “This character cannot be chosen by your opponent's Trigger effects” this turn.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-010.png?v8"
+ },
+ "AOT-1-011": {
+  "key": "AOT-1-011",
+  "numberJp": "UA23BT/AOT-1-011",
+  "nameEn": "Levi",
+  "nameJp": "リヴァイ",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 6,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "リヴァイ班"
+  ],
+  "effectJp": "【レイド】〈リヴァイ〉アクティブにし、フロントLに移動できる【ターン1】このキャラのアタック終了時、APを1支払ってもよい。そうした場合、このキャラをアクティブにする。【登場時】このキャラはこのターン中、BP+1000と【2回アタック】（このキャラがこのターン初めてアタックした時、アクティブにする）と「このターン中にこのキャラが3回目のアタックをする際、そのアタック終了時まで、【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、指定した場合、相手はブロックできない）を得る。」を得る。",
+  "effectEn": "[Raid] Can Raid onto <Levi>; set it to active and you may move it to the Front Line. [Once Per Turn] At the end of this character's attack, you may pay 1 AP. If you do, Set this character to active. [On Play] This character gets BP+1000, [Double Attack] (The first time this character attacks each turn, set it to active) and “When this character makes its 3nd attack this turn, it gains [Snipe] (Can attack a character in your opponent's Front Line; if it does, your opponent cannot block) until the end of that attack” this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-011.png?v8"
+ },
+ "AOT-1-012": {
+  "key": "AOT-1-012",
+  "numberJp": "UA23BT/AOT-1-012",
+  "nameEn": "Ymir",
+  "nameJp": "ユミル",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "巨人継承者"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-012.png?v8"
+ },
+ "AOT-1-013": {
+  "key": "AOT-1-013",
+  "numberJp": "UA23BT/AOT-1-013",
+  "nameEn": "Ymir",
+  "nameJp": "ユミル",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "巨人継承者"
+  ],
+  "effectJp": "【相手のターン中】自分の場に〈ヒストリア・レイス〉がある場合、このキャラはBP+1000。",
+  "effectEn": "[During Opponent's Turn] If you have <Historia Reiss> on your field, This character gets BP+1000.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-013.png?v8"
+ },
+ "AOT-1-014": {
+  "key": "AOT-1-014",
+  "numberJp": "UA23BT/AOT-1-014",
+  "nameEn": "Ymir (Jaw Titan)",
+  "nameJp": "ユミル（顎の巨人）",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "巨人継承者"
+  ],
+  "effectJp": "【レイド】〈ユミル〉アクティブにし、フロントLに移動できる【アタック時】【ターン1】カードを1枚引き、自分の手札を1枚場外に置く。その後、自分の場外にイベントカードが6枚以上ある場合、このキャラをアクティブにしてもよい。",
+  "effectEn": "[Raid] Can Raid onto <Ymir>; set it to active and you may move it to the Front Line. [When Attacking] [Once Per Turn] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. Then, if you have 6 or more Event cards in your Outside Area, you may set this character to active.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-014.png?v8"
+ },
+ "AOT-1-015": {
+  "key": "AOT-1-015",
+  "numberJp": "UA23BT/AOT-1-015",
+  "nameEn": "Armin Arlelt",
+  "nameJp": "アルミン・アルレルト",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-015.png?v8"
+ },
+ "AOT-1-016": {
+  "key": "AOT-1-016",
+  "numberJp": "UA23BT/AOT-1-016",
+  "nameEn": "Conny Springer",
+  "nameJp": "コニー・スプリンガー",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "相手の場に緑か赤のカードがある場合、手札にあるこのカードの必要エナジーを【青×1】減らす。",
+  "effectEn": "If your opponent has Green or Red card on their field, the required energy of this card in your hand [Blue x1]is reduced.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-016.png?v8"
+ },
+ "AOT-1-017": {
+  "key": "AOT-1-017",
+  "numberJp": "UA23BT/AOT-1-017",
+  "nameEn": "Sasha Braus",
+  "nameJp": "サシャ・ブラウス",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-017.png?v8"
+ },
+ "AOT-1-018": {
+  "key": "AOT-1-018",
+  "numberJp": "UA23BT/AOT-1-018",
+  "nameEn": "Jean Kirschtein",
+  "nameJp": "ジャン・キルシュタイン",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）",
+  "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-018.png?v8"
+ },
+ "AOT-1-019": {
+  "key": "AOT-1-019",
+  "numberJp": "UA23BT/AOT-1-019",
+  "nameEn": "Historia Reiss",
+  "nameJp": "ヒストリア・レイス",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-019.png?v8"
+ },
+ "AOT-1-020": {
+  "key": "AOT-1-020",
+  "numberJp": "UA23BT/AOT-1-020",
+  "nameEn": "Historia Reiss",
+  "nameJp": "ヒストリア・レイス",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "【登場時】自分の山札の上から2枚見る。『それらを望む順で自分の山札の上に置く』。自分の場にカード名に「ユミル」を含むキャラがある場合、『その中から望む枚数を望む順で自分の山札の上に置き、残りを場外に置く 』に代わる。",
+  "effectEn": "[On Play] Look at the top 2 card(s) of your deck. “Put them on top of your deck in any order” If you have a character with “Ymir” in its card name on your field, it becomes “Put any number of them on top of your deck in any order, and put the rest into your Outside Area” instead.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-020.png?v8"
+ },
+ "AOT-1-021": {
+  "key": "AOT-1-021",
+  "numberJp": "UA23BT/AOT-1-021",
+  "nameEn": "Historia Reiss",
+  "nameJp": "ヒストリア・レイス",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "自分の場にカード名に「ユミル」を含むキャラがある場合、このキャラはBP+500。【登場時】このターン中に自分がイベントカードを使用している場合、自分のAPカードを1枚まで選び、アクティブにする。〈ヒストリア・レイス〉のこの効果は1ターンに1回のみ発動する。",
+  "effectEn": "If you have a character with “Ymir” in its card name on your field, this character gets BP+500. [On Play] If you have used an Event card this turn, choose up to 1 of your AP cards and set it to active. This <Historia Reiss> effect can only activate 1 time(s) per 1 turn(s).",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP3500以下の相手のフロントLのキャラを1枚選び、手札に戻す。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 3500 or less, return it to its owner's hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-021.png?v8"
+ },
+ "AOT-1-022": {
+  "key": "AOT-1-022",
+  "numberJp": "UA23BT/AOT-1-022",
+  "nameEn": "Historia Reiss",
+  "nameJp": "ヒストリア・レイス",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "【レイド】〈ヒストリア・レイス〉アクティブにし、フロントLに移動できる自分の場外にあるイベントカードの枚数により、このキャラは以下の効果を全て得る。・2枚以上：【アタック時】自分の場の他の［特徴：104期兵］を1枚まで選び、このターン中、BP+1000。・4枚以上：【起動メイン】【フロントLにある場合】【ターン1】このターン中に自分がイベントカードを使用している場合、自分のAPカードを1枚まで選び、アクティブにする。・6枚以上：【インパクト（1）】",
+  "effectEn": "[Raid] Can Raid onto <Historia Reiss>; set it to active and you may move it to the Front Line. Depending on the number of Event card in your Outside Area, this character gains all of the following effects. 2 or more: [When Attacking]Choose up to 1 other [Trait: 104th Cadet Corps] on your field, it gets BP+1000 this turn. 4 or more: [Activate: Main]. [While in Front Line] [Once Per Turn] If you have used an Event card this turn, choose up to 1 of your AP cards and set it to active. 6 or more: [Impact 1].",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-022.png?v8"
+ },
+ "AOT-1-023": {
+  "key": "AOT-1-023",
+  "numberJp": "UA23BT/AOT-1-023",
+  "nameEn": "Mikasa Ackermann",
+  "nameJp": "ミカサ・アッカーマン",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-023.png?v8"
+ },
+ "AOT-1-024": {
+  "key": "AOT-1-024",
+  "numberJp": "UA23BT/AOT-1-024",
+  "nameEn": "Mikasa Ackermann",
+  "nameJp": "ミカサ・アッカーマン",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "自分の場外にあるイベントカードの枚数により、このキャラは以下の効果を全て得る。・2枚以上：このキャラの発生エナジー+【青】。・4枚以上：このキャラはBP+1000。",
+  "effectEn": "Depending on the number of Event card in your Outside Area, this character gains all of the following effects. 2 or more: This character's generated energy +[Blue]. 4 or more: This character gets BP+1000.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-024.png?v8"
+ },
+ "AOT-1-025": {
+  "key": "AOT-1-025",
+  "numberJp": "UA23BT/AOT-1-025",
+  "nameEn": "Mikasa Ackermann",
+  "nameJp": "ミカサ・アッカーマン",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "このキャラが与えたダメージによるトリガーチェックでは、相手は【アクティブ】を発動できない。【登場時】BP4000以下の相手のフロントLのキャラを1枚まで選び、手札に戻す。",
+  "effectEn": "During trigger checks from damage dealt by this character, your opponent cannot activate [Active]. [On Play] Choose up to 1 character in your opponent's Front Line with BP 4000 or less, return it to its owner's hand.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-025.png?v8"
+ },
+ "AOT-1-026": {
+  "key": "AOT-1-026",
+  "numberJp": "UA23BT/AOT-1-026",
+  "nameEn": "Eren Jaeger (Release Event Participation)",
+  "nameJp": "エレン・イェーガー",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班",
+   "巨人継承者"
+  ],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【青】。",
+  "effectEn": "While this character is active, its generated energy +[Blue].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-026.png?v8"
+ },
+ "AOT-1-027": {
+  "key": "AOT-1-027",
+  "numberJp": "UA23BT/AOT-1-027",
+  "nameEn": "Eren Jaeger",
+  "nameJp": "エレン・イェーガー",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班",
+   "巨人継承者"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】自分の山札の上から5枚見る。その中から青のイベントカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 Blue Event card among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-027.png?v8"
+ },
+ "AOT-1-028": {
+  "key": "AOT-1-028",
+  "numberJp": "UA23BT/AOT-1-028",
+  "nameEn": "Former Headquarters of the Scout Regiment",
+  "nameJp": "旧調査兵団本部",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Field",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】自分の山札の上から1枚を公開する。公開したカードが必要エナジーが3以下の青のキャラカードの場合、手札に加える。手札に加えなかった場合、公開したカードを自分の山札の上に置く。",
+  "effectEn": "[Activate: Main] [Rest this card] Reveal the top 1 card(s) of your deck. If the revealed card is a Blue character card with required energy 3 or less, add it to your hand. If you didn't add it to your hand, put the revealed card on top of your deck.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-028.png?v8"
+ },
+ "AOT-1-029": {
+  "key": "AOT-1-029",
+  "numberJp": "UA23BT/AOT-1-029",
+  "nameEn": "Memory",
+  "nameJp": "思い出",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "カードを1枚引き、自分の手札を1枚場外に置く。自分のAPカードを1枚まで選び、アクティブにする。",
+  "effectEn": "Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. Choose up to 1 of your AP cards, set it to active.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-029.png?v8"
+ },
+ "AOT-1-030": {
+  "key": "AOT-1-030",
+  "numberJp": "UA23BT/AOT-1-030",
+  "nameEn": "You Call That Clean?! Do It All Again.",
+  "nameJp": "全然なってない すべてやり直せ",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-030.png?v8"
+ },
+ "AOT-1-031": {
+  "key": "AOT-1-031",
+  "numberJp": "UA23BT/AOT-1-031",
+  "nameEn": "Cleanup",
+  "nameJp": "掃除",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを場外に置く。カードを2枚引く。",
+  "effectEn": "Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest into your Outside Area. Draw 2 card(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-031.png?v8"
+ },
+ "AOT-1-032": {
+  "key": "AOT-1-032",
+  "numberJp": "UA23BT/AOT-1-032",
+  "nameEn": "Bombs",
+  "nameJp": "爆弾",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "BP3500以下の相手のフロントLのキャラを1枚まで選び、手札に戻す。",
+  "effectEn": "Choose up to 1 character in your opponent's Front Line with BP 3500 or less, return it to its owner's hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-032.png?v8"
+ },
+ "AOT-1-033": {
+  "key": "AOT-1-033",
+  "numberJp": "UA23BT/AOT-1-033",
+  "nameEn": "Historia's Resolve",
+  "nameJp": "ヒストリアの決意",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP2000』以下の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈ヒストリア・レイス〉がある場合、自分の場外にあるイベントカード1枚につき、この効果で選べるキャラのBPの範囲+1000。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 2000 or less, retire it. If you have <Historia Reiss> on your field, for each 1 Event card(s) in your Outside Area, the BP range of characters this effect can choose gets +1000.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-033.png?v8"
+ },
+ "AOT-1-034": {
+  "key": "AOT-1-034",
+  "numberJp": "UA23BT/AOT-1-034",
+  "nameEn": "Levi's Barrage",
+  "nameJp": "リヴァイの連撃",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈リヴァイ〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Levi> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-034.png?v8"
+ },
+ "AOT-1-035": {
+  "key": "AOT-1-035",
+  "numberJp": "UA23BT/AOT-1-035",
+  "nameEn": "Kenny Ackermann",
+  "nameJp": "ケニー・アッカーマン",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "相手の場に青か赤のカードがある場合、手札にあるこのカードの必要エナジーを【緑×1】減らす。",
+  "effectEn": "If your opponent has Blue or Red card on their field, the required energy of this card in your hand [Green x1]is reduced.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-035.png?v8"
+ },
+ "AOT-1-036": {
+  "key": "AOT-1-036",
+  "numberJp": "UA23BT/AOT-1-036",
+  "nameEn": "Kenny Ackermann",
+  "nameJp": "ケニー・アッカーマン",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【ターン1】このキャラが登場したターン中のみ発動できる。このキャラのBP以下の相手のフロントLのキャラを1枚選び、退場させる。【起動メイン】【手札を1枚場外に置く】このキャラはこのターン中、BP+1000。",
+  "effectEn": "[Activate: Main] [Once Per Turn] Can only activate during the turn this character was played. Choose 1 character in your opponent's Front Line with BP equal to or less than this character's BP, and retire it. [Activate: Main] [Put 1 card(s) from your hand into your Outside Area] This character gets BP+1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-036.png?v8"
+ },
+ "AOT-1-037": {
+  "key": "AOT-1-037",
+  "numberJp": "UA23BT/AOT-1-037",
+  "nameEn": "Rod Reiss",
+  "nameJp": "ロッド・レイス",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-037.png?v8"
+ },
+ "AOT-1-038": {
+  "key": "AOT-1-038",
+  "numberJp": "UA23BT/AOT-1-038",
+  "nameEn": "Rod Reiss (Titan)",
+  "nameJp": "ロッド・レイス（巨人）",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈ロッド・レイス〉アクティブにし、フロントLに移動できる【自分のターン中】このキャラはBP+2000。相手のフロントLにアクティブのキャラがある場合、さらに【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を得る。【退場時】カードを1枚引く。",
+  "effectEn": "[Raid] Can Raid onto <Rod Reiss>; set it to active and you may move it to the Front Line. [During Your Turn] This character gets BP+2000. If your opponent has an active character in their Front Line, it also gains [Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [On Retire] Draw 1 card(s).",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-038.png?v8"
+ },
+ "AOT-1-039": {
+  "key": "AOT-1-039",
+  "numberJp": "UA23BT/AOT-1-039",
+  "nameEn": "Cart Titan",
+  "nameJp": "車力の巨人",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "巨人継承者"
+  ],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-039.png?v8"
+ },
+ "AOT-1-040": {
+  "key": "AOT-1-040",
+  "numberJp": "UA23BT/AOT-1-040",
+  "nameEn": "Pure Titan (Small Titan)",
+  "nameJp": "無垢の巨人（小柄な巨人）",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "無垢の巨人"
+  ],
+  "effectJp": "【登場時】カードを1枚引く。",
+  "effectEn": "[On Play] Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-040.png?v8"
+ },
+ "AOT-1-041": {
+  "key": "AOT-1-041",
+  "numberJp": "UA23BT/AOT-1-041",
+  "nameEn": "Pure Titans (Zeke's Titans)",
+  "nameJp": "無垢の巨人（ジークが用意していた巨人）",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "無垢の巨人"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-041.png?v8"
+ },
+ "AOT-1-042": {
+  "key": "AOT-1-042",
+  "numberJp": "UA23BT/AOT-1-042",
+  "nameEn": "Pure Titan (Peering Titan)",
+  "nameJp": "無垢の巨人（覗き込む巨人）",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "無垢の巨人"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-042.png?v8"
+ },
+ "AOT-1-043": {
+  "key": "AOT-1-043",
+  "numberJp": "UA23BT/AOT-1-043",
+  "nameEn": "Pure Titan (Bearded Titan)",
+  "nameJp": "無垢の巨人（髭がある巨人）",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "無垢の巨人"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-043.png?v8"
+ },
+ "AOT-1-044": {
+  "key": "AOT-1-044",
+  "numberJp": "UA23BT/AOT-1-044",
+  "nameEn": "Ymir",
+  "nameJp": "ユミル",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "巨人継承者"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-044.png?v8"
+ },
+ "AOT-1-045": {
+  "key": "AOT-1-045",
+  "numberJp": "UA23BT/AOT-1-045",
+  "nameEn": "Zeke Jaeger",
+  "nameJp": "ジーク・イェーガー",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "マーレの戦士",
+   "巨人継承者"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-045.png?v8"
+ },
+ "AOT-1-046": {
+  "key": "AOT-1-046",
+  "numberJp": "UA23BT/AOT-1-046",
+  "nameEn": "Zeke Jaeger",
+  "nameJp": "ジーク・イェーガー",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "マーレの戦士",
+   "巨人継承者"
+  ],
+  "effectJp": "【起動メイン】【レストにする】自分の場の［特徴：無垢の巨人］を1枚選び、このターン中、BP+1000。",
+  "effectEn": "[Activate: Main] [Rest this card] Choose 1 [Trait: Pure Titan] on your field, it gets BP+1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-046.png?v8"
+ },
+ "AOT-1-047": {
+  "key": "AOT-1-047",
+  "numberJp": "UA23BT/AOT-1-047",
+  "nameEn": "Zeke Jaeger",
+  "nameJp": "ジーク・イェーガー",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "マーレの戦士",
+   "巨人継承者"
+  ],
+  "effectJp": "【自分のターン中】自分の場に［特徴：無垢の巨人］が3枚以上ある場合、このキャラはBP+1500。【登場時】自分の手札から必要エナジーが2以下で消費APが1の［特徴：無垢の巨人］を1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[During Your Turn] If you have 3 or more [Trait: Pure Titan] on your field, This character gets BP+1500. [On Play] Play up to 1 [Trait: Pure Titan] with required energy 2 or less and with AP cost 1 from your hand to your field rested.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-047.png?v8"
+ },
+ "AOT-1-048": {
+  "key": "AOT-1-048",
+  "numberJp": "UA23BT/AOT-1-048",
+  "nameEn": "Zeke Jaeger (Beast Titan)",
+  "nameJp": "ジーク・イェーガー（獣の巨人）",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 7,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "マーレの戦士",
+   "巨人継承者"
+  ],
+  "effectJp": "自分の場にある［特徴：無垢の巨人］1枚につき、場以外の全ての場所でこのカードの必要エナジーを【緑×1】減らす。【レイド】〈ジーク・イェーガー〉アクティブにし、フロントLに移動できる【登場時】自分の場の［特徴：無垢の巨人］全ては、このターン中、BP+1000。【起動メイン】【ターン1】自分の場の［特徴：無垢の巨人］を1枚まで選び、このターン中、【インパクト（1）】を与える。このキャラがフロントLにある場合、自分の場の［特徴：無垢の巨人］全ては、このターン中、BP+1000。",
+  "effectEn": "For each 1 [Trait: Pure Titan] on your field, reduce this card's required energy by [Green x1] in all areas other than the field. [Raid] Can Raid onto <Zeke Jaeger>; set it to active and you may move it to the Front Line. [On Play] All [Trait: Pure Titan] on your field it gets BP+1000 this turn. [Activate: Main] [Once Per Turn] Choose up to 1 [Trait: Pure Titan] on your field, This turn, [Impact 1] is given. While this character is in the Front Line, all [Trait: Pure Titan] on your field get BP+1000 this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-048.png?v8"
+ },
+ "AOT-1-049": {
+  "key": "AOT-1-049",
+  "numberJp": "UA23BT/AOT-1-049",
+  "nameEn": "Pure Titan (Relaxing Titan)",
+  "nameJp": "無垢の巨人（くつろいでいる巨人）",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "無垢の巨人",
+   "奇行種"
+  ],
+  "effectJp": "【退場時】自分の手札から必要エナジーが2以下で消費APが1の［特徴：無垢の巨人］を1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[On Retire] Play up to 1 [Trait: Pure Titan] with required energy 2 or less and with AP cost 1 from your hand to your field rested.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-049.png?v8"
+ },
+ "AOT-1-050": {
+  "key": "AOT-1-050",
+  "numberJp": "UA23BT/AOT-1-050",
+  "nameEn": "Annie Leonhart",
+  "nameJp": "アニ・レオンハート",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "マーレの戦士",
+   "巨人継承者"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-050.png?v8"
+ },
+ "AOT-1-051": {
+  "key": "AOT-1-051",
+  "numberJp": "UA23BT/AOT-1-051",
+  "nameEn": "Annie Leonhart",
+  "nameJp": "アニ・レオンハート",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "マーレの戦士",
+   "巨人継承者"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見る。その中から［特徴：マーレの戦士］か［特徴：無垢の巨人］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: Marleyan Warrior] or [Trait: Pure Titan] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-051.png?v8"
+ },
+ "AOT-1-052": {
+  "key": "AOT-1-052",
+  "numberJp": "UA23BT/AOT-1-052",
+  "nameEn": "Annie Leonhart",
+  "nameJp": "アニ・レオンハート",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "マーレの戦士",
+   "巨人継承者"
+  ],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【緑】。",
+  "effectEn": "While this character is active, its generated energy +[Green].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-052.png?v8"
+ },
+ "AOT-1-053": {
+  "key": "AOT-1-053",
+  "numberJp": "UA23BT/AOT-1-053",
+  "nameEn": "Annie Leonhart (Female Titan)",
+  "nameJp": "アニ・レオンハート（女型の巨人）",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "マーレの戦士",
+   "巨人継承者"
+  ],
+  "effectJp": "【レイド】〈アニ・レオンハート〉アクティブにし、フロントLに移動できる【フロントLにある場合】自分の手札から［特徴：マーレの戦士］がレイドする際、そのカードの必要エナジーを【緑×1】減らす。【登場時】自分の手札から必要エナジーが3以下で消費APが1の緑のキャラカードを1枚まで自分の場にレストで登場させる。【退場時】このキャラのレイド元のカードを1枚まで手札に戻す。",
+  "effectEn": "[Raid] Can Raid onto <Annie Leonhart>; set it to active and you may move it to the Front Line. [While in Front Line] When a [Trait: Marleyan Warrior] Raids from your hand, reduce that card's required energy by [Green x1]. [On Play] Play up to 1 Green character card with required energy 3 or less and with AP cost 1 from your hand to your field rested. [On Retire] Return up to 1 of this character's Raid source cards to your hand.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-053.png?v8"
+ },
+ "AOT-1-054": {
+  "key": "AOT-1-054",
+  "numberJp": "UA23BT/AOT-1-054",
+  "nameEn": "Bertholdt Hoover",
+  "nameJp": "ベルトルト・フーバー",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "マーレの戦士",
+   "巨人継承者"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【緑】。メインフェイズ終了時、このキャラを退場させる。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Green]. At the end of the Main Phase, retire this character.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-054.png?v8"
+ },
+ "AOT-1-055": {
+  "key": "AOT-1-055",
+  "numberJp": "UA23BT/AOT-1-055",
+  "nameEn": "Bertholdt Hoover",
+  "nameJp": "ベルトルト・フーバー",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "マーレの戦士",
+   "巨人継承者"
+  ],
+  "effectJp": "【登場時】自分の発生エナジーが6以上ある場合、カードを1枚引く。",
+  "effectEn": "[On Play] If your generated energy is 6 or more, draw 1 card(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-055.png?v8"
+ },
+ "AOT-1-056": {
+  "key": "AOT-1-056",
+  "numberJp": "UA23BT/AOT-1-056",
+  "nameEn": "Bertholdt Hoover",
+  "nameJp": "ベルトルト・フーバー",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "マーレの戦士",
+   "巨人継承者"
+  ],
+  "effectJp": "このキャラはフロントLにある場合もエナジーを発生させる。",
+  "effectEn": "This character also generates energy while in the Front Line.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の手札から必要エナジーが2以下で消費APが1の緑のキャラカードを1枚自分の場にアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Green character card with required energy 2 or less and with AP cost 1 from your hand to your field active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-056.png?v8"
+ },
+ "AOT-1-057": {
+  "key": "AOT-1-057",
+  "numberJp": "UA23BT/AOT-1-057",
+  "nameEn": "Bertholdt Hoover (Colossal Titan)",
+  "nameJp": "ベルトルト・フーバー（超大型巨人）",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 10,
+  "ap": 1,
+  "bp": 6000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "マーレの戦士",
+   "巨人継承者"
+  ],
+  "effectJp": "【フロントLにある場合】自分のフロントLに置けるカードの枚数が1枚減る。【レイド】〈ベルトルト・フーバー〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【ダメージ（3）】（このキャラがアタックで直接ダメージを与える時、代わりに3ダメージ）【登場時】必要エナジーが0の相手のフロントLのキャラ全てを退場させる。このキャラはこのターン中、「このキャラは、相手のキャラの効果やトリガーの効果で選ばれない。」を得る。",
+  "effectEn": "[While in Front Line] The number of cards you can place in your Front Line is reduced by 1. [Raid] Can Raid onto <Bertholdt Hoover>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [Damage 3] (When this character deals direct damage by attacking, deal 3 damage instead) [On Play] Retire all characters in your opponent's Front Line with required energy 0. This character gains “This character cannot be chosen by your opponent's character effects or Trigger effects” this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-057.png?v8"
+ },
+ "AOT-1-058": {
+  "key": "AOT-1-058",
+  "numberJp": "UA23BT/AOT-1-058",
+  "nameEn": "Reiner Braun",
+  "nameJp": "ライナー・ブラウン",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "マーレの戦士",
+   "巨人継承者"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-058.png?v8"
+ },
+ "AOT-1-059": {
+  "key": "AOT-1-059",
+  "numberJp": "UA23BT/AOT-1-059",
+  "nameEn": "Reiner Braun",
+  "nameJp": "ライナー・ブラウン",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "マーレの戦士",
+   "巨人継承者"
+  ],
+  "effectJp": "自分の発生エナジーが6以上ある場合、このキャラはBP+1000。",
+  "effectEn": "If your generated energy is 6 or more, this character gets BP+1000.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-059.png?v8"
+ },
+ "AOT-1-060": {
+  "key": "AOT-1-060",
+  "numberJp": "UA23BT/AOT-1-060",
+  "nameEn": "Reiner Braun",
+  "nameJp": "ライナー・ブラウン",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 3
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "マーレの戦士",
+   "巨人継承者"
+  ],
+  "effectJp": "【登場時】カードを2枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-060.png?v8"
+ },
+ "AOT-1-061": {
+  "key": "AOT-1-061",
+  "numberJp": "UA23BT/AOT-1-061",
+  "nameEn": "Reiner Braun (Armored Titan)",
+  "nameJp": "ライナー・ブラウン（鎧の巨人）",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 7,
+  "ap": 1,
+  "bp": 5000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "マーレの戦士",
+   "巨人継承者"
+  ],
+  "effectJp": "【レイド】〈ライナー・ブラウン〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【相手のターン中】相手はキャラの効果やイベントカードの効果でこのキャラを選ぶ際に、追加でAPを1支払わないと選べない。",
+  "effectEn": "[Raid] Can Raid onto <Reiner Braun>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [During Opponent's Turn] Your opponent must pay 1 additional AP to choose this character with character effects or Event card effects.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-061.png?v8"
+ },
+ "AOT-1-062": {
+  "key": "AOT-1-062",
+  "numberJp": "UA23BT/AOT-1-062",
+  "nameEn": "Titan Forest",
+  "nameJp": "巨大樹の森",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Field",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【手札を1枚場外に置く】【ターン1】このターン中、このフィールドの発生エナジー+【緑】。",
+  "effectEn": "[Activate: Main] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] This turn, this Field's generated energy +[Green].",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-062.png?v8"
+ },
+ "AOT-1-063": {
+  "key": "AOT-1-063",
+  "numberJp": "UA23BT/AOT-1-063",
+  "nameEn": "Titan Injection",
+  "nameJp": "巨人化の薬",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から4枚見る。その中からカードを1枚公開し手札に加える。残りを望む順で自分の山札の下に置く。公開したカードが［特徴：無垢の巨人］かカード名に「ロッド・レイス」か「ジーク・イェーガー」を含むカードの場合、自分のAPカードを1枚まで選び、アクティブにする。",
+  "effectEn": "Look at the top 4 card(s) of your deck. Reveal 1 card among them and add it to your hand. Put the rest on the bottom of your deck in any order. If the revealed card is a [Trait: Pure Titan] or a card with “Rod Reiss” or “Zeke Yeager” in its card name, choose up to 1 of your AP cards and set them to active.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の手札から必要エナジーが2以下で消費APが1の緑のキャラカードを1枚自分の場にアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Green character card with required energy 2 or less and with AP cost 1 from your hand to your field active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-063.png?v8"
+ },
+ "AOT-1-064": {
+  "key": "AOT-1-064",
+  "numberJp": "UA23BT/AOT-1-064",
+  "nameEn": "We Fight Now!! We Decide This Right Here!!",
+  "nameJp": "勝負は今!!ここで決める!!",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 9,
+  "ap": 2,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "以下から『1つ』選ぶ。自分の場にカード名に「ライナー・ブラウン」を含むキャラがある場合、『全て』に代わる。・自分の山札の上から7枚見る。その中から緑のキャラカードを2枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。・自分の手札から必要エナジーが4以上で消費APが1の緑のキャラカードを2枚まで自分のフロントLにアクティブで登場させるか自分の場のキャラにレイドさせる。",
+  "effectEn": "Choose 1 of the following. If you have a character with “Reiner Braun” in its card name on your field, it becomes “all” instead. Look at the top 7 card(s) of your deck. Reveal up to 2 Green character cards among them and add it to your hand. Put the rest on the bottom of your deck in any order. Play up to 2 green character card(s) with required energy 4 or more and AP cost 1 from your hand to your Front Line active, or Raid them onto a character on your field.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-064.png?v8"
+ },
+ "AOT-1-065": {
+  "key": "AOT-1-065",
+  "numberJp": "UA23BT/AOT-1-065",
+  "nameEn": "Marleyan Warriors",
+  "nameJp": "マーレの戦士",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-065.png?v8"
+ },
+ "AOT-1-066": {
+  "key": "AOT-1-066",
+  "numberJp": "UA23BT/AOT-1-066",
+  "nameEn": "I'm Going For a Perfect Game.",
+  "nameJp": "目指すは完全試合だ",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場にカード名に「ジーク・イェーガー」を含むキャラがある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have a character with “Zeke Yeager” in its card name on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-066.png?v8"
+ },
+ "AOT-1-067": {
+  "key": "AOT-1-067",
+  "numberJp": "UA23BT/AOT-1-067",
+  "nameEn": "Are We Doing It?! Now...?! Here?!",
+  "nameJp": "やるんだな!?今…!ここで!",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "〈やるんだな!?今…!ここで!〉は1ターンに1枚のみ使用できる。自分の場のカードを1枚選び、このターン中、「このカードの発生エナジー+【緑】【緑】。」を与える。自分の場にカード名に「ベルトルト・フーバー」を含むキャラがある場合、自分のAPカードを1枚まで選び、アクティブにする。",
+  "effectEn": "Only 1 <Are We Doing It?! Now...?! Here?!> can be used per 1 turn(s). Choose 1 card on your field, and it gains “This card's generated energy +[Green][Green]” this turn. If you have a character with “Bertolt Hoover” in its card name on your field, choose up to 1 of your AP cards and set them to active.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-067.png?v8"
+ },
+ "AOT-1-068": {
+  "key": "AOT-1-068",
+  "numberJp": "UA23BT/AOT-1-068",
+  "nameEn": "Carla Jaeger",
+  "nameJp": "カルラ・イェーガー",
+  "series": "進撃の巨人",
+  "setName": "UE10ST: Attack on Titan Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【赤】。メインフェイズ終了時、このキャラを退場させる。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Red]. At the end of the Main Phase, retire this character.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-068.png?v8"
+ },
+ "AOT-1-069": {
+  "key": "AOT-1-069",
+  "numberJp": "UA23BT/AOT-1-069",
+  "nameEn": "Hange Zoe",
+  "nameJp": "ハンジ・ゾエ",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場に［特徴：巨人継承者］がある場合、カードを1枚引く。",
+  "effectEn": "[On Play] If you have [Trait: Titan Inheritor] on your field, Draw 1 card(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-069.png?v8"
+ },
+ "AOT-1-070": {
+  "key": "AOT-1-070",
+  "numberJp": "UA23BT/AOT-1-070",
+  "nameEn": "Hannes",
+  "nameJp": "ハンネス",
+  "series": "進撃の巨人",
+  "setName": "UE10ST: Attack on Titan Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-070.png?v8"
+ },
+ "AOT-1-071": {
+  "key": "AOT-1-071",
+  "numberJp": "UA23BT/AOT-1-071",
+  "nameEn": "Eren Kruger",
+  "nameJp": "エレン・クルーガー",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "巨人継承者"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の場に〈グリシャ・イェーガー〉がある場合のみ発動できる。カードを2枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Can only activate if you have <Grisha Jaeger> on your field. Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-071.png?v8"
+ },
+ "AOT-1-072": {
+  "key": "AOT-1-072",
+  "numberJp": "UA23BT/AOT-1-072",
+  "nameEn": "Grisha Jaeger",
+  "nameJp": "グリシャ・イェーガー",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "巨人継承者"
+  ],
+  "effectJp": "【登場時】自分の山札の上から5枚見る。その中からカード名に「エレン・イェーガー」を含む赤のキャラカードか〈地下室の鍵〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 red character card with “Eren Yeager” in its card name or <Key to the Basement> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-072.png?v8"
+ },
+ "AOT-1-073": {
+  "key": "AOT-1-073",
+  "numberJp": "UA23BT/AOT-1-073",
+  "nameEn": "Levi",
+  "nameJp": "リヴァイ",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 2,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "リヴァイ班"
+  ],
+  "effectJp": "このキャラはアクティブで場に登場させる。【2回アタック】（このキャラがこのターン初めてアタックした時、アクティブにする）",
+  "effectEn": "This character is played active. [Double Attack] (The first time this character attacks each turn, set it to active)",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-073.png?v8"
+ },
+ "AOT-1-074": {
+  "key": "AOT-1-074",
+  "numberJp": "UA23BT/AOT-1-074",
+  "nameEn": "Ymir",
+  "nameJp": "ユミル",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "巨人継承者"
+  ],
+  "effectJp": "相手の場に青か緑のカードがある場合、手札にあるこのカードの必要エナジーを【赤×1】減らす。",
+  "effectEn": "If your opponent has Blue or Green card on their field, the required energy of this card in your hand [Red x1]is reduced.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-074.png?v8"
+ },
+ "AOT-1-075": {
+  "key": "AOT-1-075",
+  "numberJp": "UA23BT/AOT-1-075",
+  "nameEn": "Armin Arlelt",
+  "nameJp": "アルミン・アルレルト",
+  "series": "進撃の巨人",
+  "setName": "UE10ST: Attack on Titan Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-075.png?v8"
+ },
+ "AOT-1-076": {
+  "key": "AOT-1-076",
+  "numberJp": "UA23BT/AOT-1-076",
+  "nameEn": "Armin Arlelt",
+  "nameJp": "アルミン・アルレルト",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "【自分のターン中】このキャラが自分の場から手札に戻った時、自分の手札の必要エナジーが1の赤の〈アルミン・アルレルト〉を1枚場外に置いてもよい。そうした場合、カードを2枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[During Your Turn] When this character returns from your field to your hand, you may put 1 red <Armin Arlelt> with required energy 1 from your hand into your Outside Area. If you do, Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-076.png?v8"
+ },
+ "AOT-1-077": {
+  "key": "AOT-1-077",
+  "numberJp": "UA23BT/AOT-1-077",
+  "nameEn": "Armin Arlelt",
+  "nameJp": "アルミン・アルレルト",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "【登場時】以下から1つ選ぶ。・自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。・このターン中、次に自分が「BPの範囲に指定がある効果」でキャラを選ぶ際、指定できるBPの範囲+1000。（BP2000以下のキャラを選べる効果でBP3000以下を選べるようになる）【起動メイン】【フロントLにある場合】【ターン1】このキャラの【登場時】を発動する。",
+  "effectEn": "[On Play] Choose 1 of the following. Choose up to 1 other character on your field, it gets BP+1000 this turn. This turn, the next time you choose a character with an “effect that specifies a BP range”, that BP range gets +1000. (Effects that can choose characters with BP 2000 or less can choose characters with BP 3000 or less instead) [Activate: Main] [While in Front Line] [Once Per Turn] Activate this character's [On Play].",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-077.png?v8"
+ },
+ "AOT-1-078": {
+  "key": "AOT-1-078",
+  "numberJp": "UA23BT/AOT-1-078",
+  "nameEn": "Christa Lenz",
+  "nameJp": "クリスタ・レンズ",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-078.png?v8"
+ },
+ "AOT-1-079": {
+  "key": "AOT-1-079",
+  "numberJp": "UA23BT/AOT-1-079",
+  "nameEn": "Conny Springer",
+  "nameJp": "コニー・スプリンガー",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-079.png?v8"
+ },
+ "AOT-1-080": {
+  "key": "AOT-1-080",
+  "numberJp": "UA23BT/AOT-1-080",
+  "nameEn": "Sasha Braus",
+  "nameJp": "サシャ・ブラウス",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "【登場時】自分の山札の上から7枚見る。その中から［特徴：食材］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 7 card(s) of your deck. Reveal up to 1 [Trait: Ingredient] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-080.png?v8"
+ },
+ "AOT-1-081": {
+  "key": "AOT-1-081",
+  "numberJp": "UA23BT/AOT-1-081",
+  "nameEn": "Sasha Braus",
+  "nameJp": "サシャ・ブラウス",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "【自分のターン中】このターン中に自分が［特徴：食材］を使用している場合、このキャラはBP+500と【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
+  "effectEn": "[During Your Turn] If you have used a [Trait: Ingredient] this turn, this character gains BP+500 and [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opposing player)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-081.png?v8"
+ },
+ "AOT-1-082": {
+  "key": "AOT-1-082",
+  "numberJp": "UA23BT/AOT-1-082",
+  "nameEn": "Sasha Braus",
+  "nameJp": "サシャ・ブラウス",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "【登場時】自分の場の［特徴：104期兵］を1枚まで選び、このターン中、BP+1000。このターン中に自分が［特徴：食材］を使用している場合、このキャラをアクティブにする。",
+  "effectEn": "[On Play] Choose up to 1 [Trait: 104th Cadet Corps] on your field, it gets BP+1000 this turn. If you have used a [Trait: Ingredient] this turn, set this character to active.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-082.png?v8"
+ },
+ "AOT-1-083": {
+  "key": "AOT-1-083",
+  "numberJp": "UA23BT/AOT-1-083",
+  "nameEn": "Jean Kirschtein",
+  "nameJp": "ジャン・キルシュタイン",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-083.png?v8"
+ },
+ "AOT-1-084": {
+  "key": "AOT-1-084",
+  "numberJp": "UA23BT/AOT-1-084",
+  "nameEn": "Jean Kirschtein",
+  "nameJp": "ジャン・キルシュタイン",
+  "series": "進撃の巨人",
+  "setName": "UE10ST: Attack on Titan Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
+  "effectEn": "[Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-084.png?v8"
+ },
+ "AOT-1-085": {
+  "key": "AOT-1-085",
+  "numberJp": "UA23BT/AOT-1-085",
+  "nameEn": "Mikasa Ackermann",
+  "nameJp": "ミカサ・アッカーマン",
+  "series": "進撃の巨人",
+  "setName": "UE10ST: Attack on Titan Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-085.png?v8"
+ },
+ "AOT-1-086": {
+  "key": "AOT-1-086",
+  "numberJp": "UA23BT/AOT-1-086",
+  "nameEn": "Mikasa Ackermann",
+  "nameJp": "ミカサ・アッカーマン",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "【自分のターン中】自分の場に他の［特徴：104期兵］が5枚以上ある場合、このキャラはBP+1000。",
+  "effectEn": "[During Your Turn] If you have 5 or more other [Trait: 104th Cadet Corps] on your field, This character gets BP+1000.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-086.png?v8"
+ },
+ "AOT-1-087": {
+  "key": "AOT-1-087",
+  "numberJp": "UA23BT/AOT-1-087",
+  "nameEn": "Mikasa Ackermann",
+  "nameJp": "ミカサ・アッカーマン",
+  "series": "進撃の巨人",
+  "setName": "UE10ST: Attack on Titan Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
+  "effectEn": "While this character is active, its generated energy +[Red].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-087.png?v8"
+ },
+ "AOT-1-088": {
+  "key": "AOT-1-088",
+  "numberJp": "UA23BT/AOT-1-088",
+  "nameEn": "Mikasa Ackermann",
+  "nameJp": "ミカサ・アッカーマン",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "【自分のターン中】このキャラが場から手札に戻る場合、代わりに自分の手札を1枚場外に置いてもよい。【自分のターン中】自分の場に他の［特徴：104期兵］が5枚以上ある場合、このキャラはBP+500。",
+  "effectEn": "[During Your Turn] If this character would return from the field to your hand, you may put 1 card(s) from your hand into your Outside Area instead. [During Your Turn] If you have 5 or more other [Trait: 104th Cadet Corps] on your field, This character gets BP+500.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP2500以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-088.png?v8"
+ },
+ "AOT-1-089": {
+  "key": "AOT-1-089",
+  "numberJp": "UA23BT/AOT-1-089",
+  "nameEn": "Mikasa Ackermann",
+  "nameJp": "ミカサ・アッカーマン",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "【レイド】〈ミカサ・アッカーマン〉アクティブにし、フロントLに移動できる【登場時】自分の場にカード名に「エレン・イェーガー」を含むキャラがある場合、BP3500以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
+  "effectEn": "[Raid] Can Raid onto <Mikasa Ackermann>; set it to active and you may move it to the Front Line. [On Play] If you have a character with “Eren Yeager” in its card name on your field, choose up to 1 character in your opponent's Front Line with BP 3500 or less and retire it.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-089.png?v8"
+ },
+ "AOT-1-090": {
+  "key": "AOT-1-090",
+  "numberJp": "UA23BT/AOT-1-090",
+  "nameEn": "Eren Jaeger",
+  "nameJp": "エレン・イェーガー",
+  "series": "進撃の巨人",
+  "setName": "UE10ST: Attack on Titan Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班",
+   "巨人継承者"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-090.png?v8"
+ },
+ "AOT-1-091": {
+  "key": "AOT-1-091",
+  "numberJp": "UA23BT/AOT-1-091",
+  "nameEn": "Eren Jaeger",
+  "nameJp": "エレン・イェーガー",
+  "series": "進撃の巨人",
+  "setName": "UE10ST: Attack on Titan Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班",
+   "巨人継承者"
+  ],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【起動メイン】【フロントLにある場合】【ターン1】自分のライフエリアにあるカードを1枚手札に加える。そうした場合、このキャラはこのターン中、BP+1000。",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [Activate: Main] [While in Front Line] [Once Per Turn] Add 1 card(s) from your Life Area to your hand. If you do, This character gets BP+1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-091.png?v8"
+ },
+ "AOT-1-092": {
+  "key": "AOT-1-092",
+  "numberJp": "UA23BT/AOT-1-092",
+  "nameEn": "Eren Jaeger",
+  "nameJp": "エレン・イェーガー",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班",
+   "巨人継承者"
+  ],
+  "effectJp": "【レイド】〈エレン・イェーガー〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【アタック時】自分のフロントLの他の［特徴：104期兵］を1枚まで自分の山札の上に置く。自分のフロントLに空きがある場合、自分の手札から必要エナジーが3以下で消費APが1の赤の［特徴：104期兵］を1枚まで自分のフロントLにアクティブで登場させる。そのキャラにこのターン中、「アタックフェイズ終了時、このキャラを手札に戻す。」を与える。",
+  "effectEn": "[Raid] Can Raid onto <Eren Jaeger>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [When Attacking] Put up to 1 other [Trait: 104th Cadet Corps] in your Front Line on top of your deck. If your Front Line has an open space, play up to 1 red [Trait: 104th Cadet Corps] with required energy 3 or less and AP cost 1 from your hand to your Front Line active. That character gains “At the end of the Attack Phase, return this character to your hand” this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-092.png?v8"
+ },
+ "AOT-1-093": {
+  "key": "AOT-1-093",
+  "numberJp": "UA23BT/AOT-1-093",
+  "nameEn": "Eren Jaeger (Attack Titan)",
+  "nameJp": "エレン・イェーガー（進撃の巨人）",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 6,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班",
+   "巨人継承者"
+  ],
+  "effectJp": "【レイド】〈エレン・イェーガー〉アクティブにし、フロントLに移動できる【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【自分のターン中】このキャラはBP+1000。【アタック時】以下から1つ選ぶ。・カードを1枚引く。・自分のライフが3以下の場合、自分の手札を2枚場外に置いてもよい。そうした場合、BP2000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
+  "effectEn": "[Raid] Can Raid onto <Eren Jaeger>; set it to active and you may move it to the Front Line. [Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [During Your Turn] This character gets BP+1000. [When Attacking] Choose 1 of the following. Draw 1 card(s). If you have 3 or less Life, you may put 2 card(s) from your hand into your Outside Area. If you do, Choose up to 1 character in your opponent's Front Line with BP 2000 or less, retire it.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-093.png?v8"
+ },
+ "AOT-1-094": {
+  "key": "AOT-1-094",
+  "numberJp": "UA23BT/AOT-1-094",
+  "nameEn": "Eren Jaeger (Attack Titan)",
+  "nameJp": "エレン・イェーガー（進撃の巨人）",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 8,
+  "ap": 1,
+  "bp": 5000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班",
+   "巨人継承者"
+  ],
+  "effectJp": "【レイド】〈エレン・イェーガー〉アクティブにし、フロントLに移動できる【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【起動メイン】【フロントLにある場合】【ターン1】BP2000以下の相手のフロントLのキャラを1枚まで選び、退場させる。【アタック時】【ターン1】以下から1つ選ぶ。・このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。・自分のライフが3以下の場合、このキャラをアクティブにする。",
+  "effectEn": "[Raid] Can Raid onto <Eren Jaeger>; set it to active and you may move it to the Front Line. [Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [Activate: Main] [While in Front Line] [Once Per Turn] Choose up to 1 character in your opponent's Front Line with BP 2000 or less, retire it. [When Attacking] [Once Per Turn] Choose 1 of the following. This character, this turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained. If your Life is 3 or less, set this character to active.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-094.png?v8"
+ },
+ "AOT-1-095": {
+  "key": "AOT-1-095",
+  "numberJp": "UA23BT/AOT-1-095",
+  "nameEn": "Basement",
+  "nameJp": "地下室",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Field",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 6,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 3
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場外に〈地下室の鍵〉がある場合、手札にあるこのカードの必要エナジーを【赤×2】減らす。【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "If you have <Key to the Basement> in your Outside Area, the required energy of this card in your hand [Red x2]is reduced. [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-095.png?v8"
+ },
+ "AOT-1-096": {
+  "key": "AOT-1-096",
+  "numberJp": "UA23BT/AOT-1-096",
+  "nameEn": "Hardened Punch",
+  "nameJp": "硬質化パンチ",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 5,
+  "ap": 2,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場にカード名に「エレン・イェーガー」を含むキャラがある場合、手札にあるこのカードの消費APを-1する。BP5000以下の相手のフロントLのキャラを1枚まで選び、退場させる。自分の場のレイド状態の〈エレン・イェーガー（進撃の巨人）〉を1枚まで選び、このターン中、「相手がこのキャラを【スペシャルトリガー】で退場させる場合、代わりに相手はその【スペシャルトリガー】を持つカードを手札に加える。」を与える。",
+  "effectEn": "If you have a character with “Eren Yeager” in its card name on your field, reduce the AP cost of this card in your hand by 1. Choose up to 1 character in your opponent's Front Line with BP 5000 or less, retire it. Choose up to 1 Raided <Eren Jaeger (Attack Titan)> on your field; it gains “If your opponent would retire this character with [Special Trigger], your opponent instead adds the card with that [Special Trigger] to their hand” this turn.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-096.png?v8"
+ },
+ "AOT-1-097": {
+  "key": "AOT-1-097",
+  "numberJp": "UA23BT/AOT-1-097",
+  "nameEn": "Dedicate Your Heart!!",
+  "nameJp": "心臓を捧げよ！",
+  "series": "進撃の巨人",
+  "setName": "UE10ST: Attack on Titan Starter Deck",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-097.png?v8"
+ },
+ "AOT-1-098": {
+  "key": "AOT-1-098",
+  "numberJp": "UA23BT/AOT-1-098",
+  "nameEn": "Key to the Basement",
+  "nameJp": "地下室の鍵",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から5枚見る。その中から〈地下室〉か［特徴：巨人継承者］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。公開したカードの元々の必要エナジーが6以上の場合、自分のAPカードを1枚まで選び、アクティブにする。",
+  "effectEn": "Look at the top 5 card(s) of your deck. Reveal up to 1 <Basement> or [Trait: Titan Inheritor] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If the revealed card's original required energy is 6 or more, choose up to 1 of your AP cards and set them to active.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP2500以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-098.png?v8"
+ },
+ "AOT-1-099": {
+  "key": "AOT-1-099",
+  "numberJp": "UA23BT/AOT-1-099",
+  "nameEn": "Omni-Directional Mobility Gear",
+  "nameJp": "立体機動装置",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "カードを2枚引く。自分の手札から必要エナジーが3以下で消費APが1の赤の［特徴：104期兵］を2枚まで自分のフロントLにアクティブで登場させる。それらのキャラにこのターン中、「アタックフェイズ終了時、このキャラを手札に戻す。」を与える。",
+  "effectEn": "Draw 2 card(s). Play up to 2 Red [Trait: 104th Cadet Corps] with required energy 3 or less and with AP cost 1 from your hand to your Front Line active. Those characters gain “At the end of the Attack Phase, return this character to your hand” this turn.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-099.png?v8"
+ },
+ "AOT-1-100": {
+  "key": "AOT-1-100",
+  "numberJp": "UA23BT/AOT-1-100",
+  "nameEn": "A Steamed Potato, Sir!",
+  "nameJp": "「蒸かした芋」です！",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan Release Event Cards",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [
+   "食材"
+  ],
+  "effectJp": "自分の手札を3枚まで望む順で自分の山札の下に置く。この効果で山札の下に置いたカードと同じ枚数のカードを引く。自分のAPカードを1枚まで選び、アクティブにする。",
+  "effectEn": "Put up to 3 card(s) from your hand on the bottom of your deck in any order. Draw cards equal to the number of cards put on the bottom of your deck by this effect. Choose up to 1 of your AP cards, set it to active.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-100.png?v8"
+ },
+ "AOT-1-101": {
+  "key": "AOT-1-101",
+  "numberJp": "UA23ST/AOT-1-101",
+  "nameEn": "Annie Leonhart",
+  "nameJp": "アニ・レオンハート",
+  "series": "進撃の巨人",
+  "setName": "UE10ST: Attack on Titan Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23ST_AOT-1-101.png?v8"
+ },
+ "AOT-1-102": {
+  "key": "AOT-1-102",
+  "numberJp": "UA23ST/AOT-1-102",
+  "nameEn": "Bertholdt Hoover",
+  "nameJp": "ベルトルト・フーバー",
+  "series": "進撃の巨人",
+  "setName": "UE10ST: Attack on Titan Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "104期兵"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23ST_AOT-1-102.png?v8"
+ },
+ "AOT-1-103": {
+  "key": "AOT-1-103",
+  "numberJp": "UA23ST/AOT-1-103",
+  "nameEn": "Reiner Braun",
+  "nameJp": "ライナー・ブラウン",
+  "series": "進撃の巨人",
+  "setName": "UE10ST: Attack on Titan Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵"
+  ],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23ST_AOT-1-103.png?v8"
+ },
+ "AOT-1-104": {
+  "key": "AOT-1-104",
+  "numberJp": "UA23ST/AOT-1-104",
+  "nameEn": "Armin Arlelt",
+  "nameJp": "アルミン・アルレルト",
+  "series": "進撃の巨人",
+  "setName": "UE10ST: Attack on Titan Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "【登場時】【エナジーLにある場合】以下から1つ選ぶ。・自分の山札の上から3枚見る。その中から必要エナジーが3以下の［特徴：104期兵］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。・自分の手札から必要エナジーが3以下で消費APが1の赤の［特徴：104期兵］を1枚まで自分のフロントLにアクティブで登場させる。そのキャラにこのターン中、「アタックフェイズ終了時、このキャラを手札に戻す。」を与える。",
+  "effectEn": "[On Play] [While in Energy Line] Choose 1 of the following. Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: 104th Cadet Corps] with required energy 3 or less among them and add it to your hand. Put the rest on the bottom of your deck in any order. Play up to 1 Red [Trait: 104th Cadet Corps] with required energy 3 or less and with AP cost 1 from your hand to your Front Line active. That character gains “At the end of the Attack Phase, return this character to your hand” this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23ST_AOT-1-104.png?v8"
+ },
+ "AOT-1-105": {
+  "key": "AOT-1-105",
+  "numberJp": "UA23ST/AOT-1-105",
+  "nameEn": "Mikasa Ackermann",
+  "nameJp": "ミカサ・アッカーマン",
+  "series": "進撃の巨人",
+  "setName": "UE10ST: Attack on Titan Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班"
+  ],
+  "effectJp": "自分の場にカード名に「エレン・イェーガー」を含むキャラがある場合、このキャラはアクティブで場に登場させる。【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）",
+  "effectEn": "If you have a character with “Eren Yeager” in its card name on your field, play this character to the field active. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent)",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23ST_AOT-1-105.png?v8"
+ },
+ "AOT-1-106": {
+  "key": "AOT-1-106",
+  "numberJp": "UA23ST/AOT-1-106",
+  "nameEn": "Eren Jaeger",
+  "nameJp": "エレン・イェーガー",
+  "series": "進撃の巨人",
+  "setName": "UE10ST: Attack on Titan Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班",
+   "巨人継承者"
+  ],
+  "effectJp": "自分のライフが3以下の場合、このキャラはBP+1000。",
+  "effectEn": "If you have 3 or less Life, this character gets BP+1000.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23ST_AOT-1-106.png?v8"
+ },
+ "AOT-1-107": {
+  "key": "AOT-1-107",
+  "numberJp": "UA23ST/AOT-1-107",
+  "nameEn": "Eren Jaeger",
+  "nameJp": "エレン・イェーガー",
+  "series": "進撃の巨人",
+  "setName": "UE10ST: Attack on Titan Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "104期兵",
+   "リヴァイ班",
+   "巨人継承者"
+  ],
+  "effectJp": "【レイド】〈エレン・イェーガー〉アクティブにし、フロントLに移動できる【登場時】カードを1枚引く。【起動メイン】【フロントLにある場合】自分のライフエリアにあるカードを1枚場外に置く。そうした場合、自分のAPカードを1枚まで選び、アクティブにする。〈エレン・イェーガー〉のこの効果は1ターンに1回のみ発動できる。",
+  "effectEn": "[Raid] Can Raid onto <Eren Jaeger>; set it to active and you may move it to the Front Line. [On Play] Draw 1 card(s). [Activate: Main] [While in Front Line] Put 1 card(s) from your Life Area into your Outside Area. If you do, Choose up to 1 of your AP cards, set it to active. This <Eren Jaeger> effect can only activate 1 time(s) per 1 turn(s).",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23ST_AOT-1-107.png?v8"
+ },
+ "AOT-1-108": {
+  "key": "AOT-1-108",
+  "numberJp": "UA23ST/AOT-1-108",
+  "nameEn": "Cadet Corps Grounds",
+  "nameJp": "訓練兵団訓練所",
+  "series": "進撃の巨人",
+  "setName": "UE10ST: Attack on Titan Starter Deck",
+  "cardType": "Field",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場に［特徴：104期兵］が5枚以上ある場合、このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】【このカードを退場させる】自分の場の［特徴：104期兵］全ては、このターン中、BP+1000。",
+  "effectEn": "If you have 5 or more [Trait: 104th Cadet Corps] on your field, This Field is played active. [Activate: Main] [Rest this card] [Retire this card] All [Trait: 104th Cadet Corps] on your field it gets BP+1000 this turn.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23ST_AOT-1-108.png?v8"
+ },
+ "AOT-1-109": {
+  "key": "AOT-1-109",
+  "numberJp": "UA23ST/AOT-1-109",
+  "nameEn": "104th Cadet Corps",
+  "nameJp": "104期訓練兵団",
+  "series": "進撃の巨人",
+  "setName": "UE10ST: Attack on Titan Starter Deck",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場の［特徴：104期兵］の枚数×1000以下のBPの相手のフロントLのキャラを1枚選び、退場させる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP equal to or less than 1000 × the number of [Trait: 104th Cadet Corps] on your field, and retire it.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23ST_AOT-1-109.png?v8"
+ },
+ "AOT-1-110": {
+  "key": "AOT-1-110",
+  "numberJp": "UA23ST/AOT-1-110",
+  "nameEn": "Levi",
+  "nameJp": "リヴァイ",
+  "series": "進撃の巨人",
+  "setName": "UE10ST: Attack on Titan Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "リヴァイ班"
+  ],
+  "effectJp": "【レイド】〈リヴァイ〉アクティブにし、フロントLに移動できる【登場時】BP2500以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-2000。【アタック時】APを1支払ってもよい。そうした場合、BP2000以下の相手のフロントLのキャラを1枚まで選び、手札に戻す。",
+  "effectEn": "[Raid] Can Raid onto <Levi>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line with BP 2500 or more, it gets BP-2000 this turn. [When Attacking] You may pay 1 AP. If you do, Choose up to 1 character in your opponent's Front Line with BP 2000 or less, return it to its owner's hand.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23ST_AOT-1-110.png?v8"
+ },
+ "AOT-1-111": {
+  "key": "AOT-1-111",
+  "numberJp": "UA23ST/AOT-1-111",
+  "nameEn": "Erwin Smith",
+  "nameJp": "エルヴィン・スミス",
+  "series": "進撃の巨人",
+  "setName": "UE10ST: Attack on Titan Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【フロントLにある場合】自分のアタックフェイズ開始時、このキャラがアクティブの場合、自分のAPカードを1枚まで選び、アクティブにする。【アタック時】APを1支払ってもよい。そうした場合、このキャラはこのターン中、BP+500。",
+  "effectEn": "[While in Front Line] At the start of your Attack Phase, if this character is active, choose up to 1 of your AP cards and set it to active. [When Attacking] You may pay 1 AP. If you do, This character gets BP+500 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23ST_AOT-1-111.png?v8"
+ },
+ "AOT-1-112": {
+  "key": "AOT-1-112",
+  "numberJp": "UA23ST/AOT-1-112",
+  "nameEn": "Armored Titan",
+  "nameJp": "鎧の巨人",
+  "series": "進撃の巨人",
+  "setName": "UE10ST: Attack on Titan Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "巨人継承者"
+  ],
+  "effectJp": "【相手のターン中】相手はキャラの効果やイベントカードの効果でこのキャラを選ぶ際に、追加でAPを1支払わないと選べない。【登場時】『BP2000以下』の相手のフロントLのキャラを1枚まで選び、退場させる。自分の発生エナジーが8以上ある場合、『BP4000以下』に代わる。",
+  "effectEn": "[During Opponent's Turn] Your opponent must pay 1 additional AP to choose this character with character effects or Event card effects. [On Play] Choose up to 1 character in your opponent's Front Line with BP 2000 or less, retire it. If your generated energy is 8 or more, it becomes “BP 4000 or less” instead.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23ST_AOT-1-112.png?v8"
+ },
+ "AOT-1-113": {
+  "key": "AOT-1-113",
+  "numberJp": "UA23ST/AOT-1-113",
+  "nameEn": "Colossal Titan",
+  "nameJp": "超大型巨人",
+  "series": "進撃の巨人",
+  "setName": "UE10ST: Attack on Titan Starter Deck",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 6,
+  "ap": 1,
+  "bp": 5000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "巨人継承者"
+  ],
+  "effectJp": "このカードはエナジーLに登場できない。【フロントLにある場合】自分のフロントLに置けるカードの枚数が1枚減る。【登場時】相手の場のフィールドを1枚まで選び、退場させる。",
+  "effectEn": "This card cannot be played to the Energy Line. [While in Front Line] The number of cards you can place in your Front Line is reduced by 1. [On Play] Choose up to 1 Field on your opponent's field, retire it.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23ST_AOT-1-113.png?v8"
+ },
+ "AOT-1-AP01": {
+  "key": "AOT-1-AP01",
+  "numberJp": "UA23BT/AOT-1-AP01",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(進撃の巨人)",
+  "series": "進撃の巨人",
+  "setName": "UE10ST: Attack on Titan Starter Deck",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-AP01.png?v8"
+ },
+ "AOT-1-AP01★": {
+  "key": "AOT-1-AP01★",
+  "numberJp": "UA23BT/AOT-1-AP01★",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(進撃の巨人)",
+  "series": "進撃の巨人",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-AP01_s.png?v8"
+ },
+ "AOT-1-AP02": {
+  "key": "AOT-1-AP02",
+  "numberJp": "UA23BT/AOT-1-AP02",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(進撃の巨人)",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-AP02.png?v8"
+ },
+ "AOT-1-AP02★": {
+  "key": "AOT-1-AP02★",
+  "numberJp": "UA23BT/AOT-1-AP02★",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(進撃の巨人)",
+  "series": "進撃の巨人",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-AP02_s.png?v8"
+ },
+ "AOT-1-AP03": {
+  "key": "AOT-1-AP03",
+  "numberJp": "UA23BT/AOT-1-AP03",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(進撃の巨人)",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-AP03.png?v8"
+ },
+ "AOT-1-AP04": {
+  "key": "AOT-1-AP04",
+  "numberJp": "UA23BT/AOT-1-AP04",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(進撃の巨人)",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-AP04.png?v8"
+ },
+ "AOT-1-AP05": {
+  "key": "AOT-1-AP05",
+  "numberJp": "UA23BT/AOT-1-AP05",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(進撃の巨人)",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-AP05.png?v8"
+ },
+ "AOT-1-AP06": {
+  "key": "AOT-1-AP06",
+  "numberJp": "UA23BT/AOT-1-AP06",
+  "nameEn": "Action Point Card",
+  "nameJp": "アクションポイントカード(進撃の巨人)",
+  "series": "進撃の巨人",
+  "setName": "UE10BT: Attack on Titan",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA23BT_AOT-1-AP06.png?v8"
+ }
+}

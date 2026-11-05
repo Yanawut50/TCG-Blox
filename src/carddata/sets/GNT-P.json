@@ -1,0 +1,98 @@
+{
+ "GNT-P-001": {
+  "key": "GNT-P-001",
+  "numberJp": "UAPR/GNT-P-001",
+  "nameEn": "",
+  "nameJp": "土方 十四郎",
+  "series": "銀魂",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "真選組"
+  ],
+  "effectJp": "【登場時】自分の手札から必要エナジーが2以下で消費APが1の［特徴：真選組］を1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[On Play] Play up to 1 [Trait: Shinsengumi] with required energy 2 or less and with AP cost 1 from your hand to your field rested.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_GNT-P-001.png?v9"
+ },
+ "GNT-P-002": {
+  "key": "GNT-P-002",
+  "numberJp": "UAPR/GNT-P-002",
+  "nameEn": "",
+  "nameJp": "高杉 晋助",
+  "series": "銀魂",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "PR",
+  "needEnergy": 3,
+  "ap": 2,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "鬼兵隊"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の場外にある［特徴：鬼兵隊］と［特徴：宇宙海賊春雨］の合計枚数が5枚以上の場合、自分のAPカードを1枚まで選び、アクティブにする。",
+  "effectEn": "[On Play] Draw 1 card(s); if the total number of [Trait: Kiheitai] and [Trait: Space Pirates Harusame] in your Outside Area is 5 or more, choose up to 1 of your AP cards and set them to active.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_GNT-P-002.png?v9"
+ },
+ "GNT-P-003": {
+  "key": "GNT-P-003",
+  "numberJp": "UAPR/GNT-P-003",
+  "nameEn": "",
+  "nameJp": "坂田 銀時",
+  "series": "銀魂",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "PR",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "万事屋"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の山札の上から5枚見る。その中から必要エナジーが2以下で消費APが1の特徴に「万事屋」を持つキャラカードを1枚まで自分の場にレストで登場させるか〈万事屋銀ちゃん〉を1枚まで自分のエナジーLにレストで登場させる。残りを望む順で自分の山札の下に置く。この効果で登場させなかった場合、このカードを手札に加える。",
+  "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Look at the top 5 card(s) of your deck. Play up to 1 character card(s) with the trait “Yorozuya”, required energy 2 or less and AP cost 1 among them to your field rested, or up to 1 <万事屋銀ちゃん> to your Energy Line rested. Put the rest on the bottom of your deck in any order. If nothing was played by this effect, add this card to your hand.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_GNT-P-003.png?v9"
+ }
+}

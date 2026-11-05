@@ -1,0 +1,98 @@
+{
+ "CGH-P-001": {
+  "key": "CGH-P-001",
+  "numberJp": "UAPR/CGH-P-001",
+  "nameEn": "",
+  "nameJp": "ルルーシュ・ランペルージ",
+  "series": "コードギアス 反逆のルルーシュ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "PR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "黒の騎士団"
+  ],
+  "effectJp": "【登場時】相手の場にレストのキャラがある場合、自分の場の他のキャラを1枚まで選び、アクティブにする。【起動メイン】【ターン1】相手の場にレストのキャラがある場合のみ発動できる。自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] If your opponent has rested character on their field, Choose up to 1 other character on your field, set it to active. [Activate: Main] [Once Per Turn] Can only activate if your opponent has a rested character on their field. Choose 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_CGH-P-001.png?v9"
+ },
+ "CGH-P-002": {
+  "key": "CGH-P-002",
+  "numberJp": "UAPR/CGH-P-002",
+  "nameEn": "",
+  "nameJp": "紅月 カレン",
+  "series": "コードギアス 反逆のルルーシュ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "PR",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "黒の騎士団"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】相手のフロントLのキャラを2枚まで選び、このターン中、BP-1000。自分の場に〈ルルーシュ・ランペルージ〉がある場合、以下から1つ選ぶ。・このキャラをアクティブにする。・自分のAPカードを1枚まで選び、アクティブにする。",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] Choose up to 2 characters in your opponent's Front Line, it gets BP-1000 this turn. If you have <Lelouch Lamperouge> on your field, Choose 1 of the following. Set this character to active. Choose up to 1 of your AP cards, set it to active.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_CGH-P-002.png?v9"
+ },
+ "CGH-P-003": {
+  "key": "CGH-P-003",
+  "numberJp": "UAPR/CGH-P-003",
+  "nameEn": "",
+  "nameJp": "C.C.",
+  "series": "コードギアス 反逆のルルーシュ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "PR",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "アッシュフォード学園"
+  ],
+  "effectJp": "自分の場外に［特徴：ピザ］が4枚以上ある場合、このキャラはBP+1500。【登場時】以下から1つ選ぶ。・自分の山札の上から7枚見る。その中から［特徴：ピザ］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。・自分の手札のイベントカードを1枚場外に置いてもよい。そうした場合、カードを1枚引く。",
+  "effectEn": "If you have 4 or more [Trait: Pizza] in your Outside Area, This character gets BP+1500. [On Play] Choose 1 of the following. Look at the top 7 card(s) of your deck. Reveal up to 1 [Trait: Pizza] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area. You may put 1 Event card in your hand into the Outside Area. If you do, Draw 1 card(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_CGH-P-003.png?v9"
+ }
+}

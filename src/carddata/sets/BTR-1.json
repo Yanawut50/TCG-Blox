@@ -1,0 +1,3418 @@
+{
+ "BTR-1-001": {
+  "key": "BTR-1-001",
+  "numberJp": "UA09BT/BTR-1-001",
+  "nameEn": "",
+  "nameJp": "赤青乳",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場外に［特徴：食べ物］が2枚以上ある場合、このキャラはBP+1000。",
+  "effectEn": "If you have 2 or more [Trait: Food] in your Outside Area, This character gets BP+1000.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-001.png?v8"
+ },
+ "BTR-1-002": {
+  "key": "BTR-1-002",
+  "numberJp": "UA09BT/BTR-1-002",
+  "nameEn": "",
+  "nameJp": "ギガント・クロダ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場外から［特徴：食べ物］を1枚まで手札に加える。",
+  "effectEn": "[On Play] Add up to 1 [Trait: Food] from your Outside Area to your hand.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-002.png?v8"
+ },
+ "BTR-1-003": {
+  "key": "BTR-1-003",
+  "numberJp": "UA09BT/BTR-1-003",
+  "nameEn": "",
+  "nameJp": "牛太郎",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】【アタック時】自分の手札の［特徴：食べ物］を1枚場外に置いてもよい。そうした場合、カードを1枚引き、このキャラはこのターン中、BP+1000。",
+  "effectEn": "[On Play] [When Attacking] You may put 1 [Trait: Food] in your hand into the Outside Area. If you do, draw 1 card(s), and this character gets BP+1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-003.png?v8"
+ },
+ "BTR-1-004": {
+  "key": "BTR-1-004",
+  "numberJp": "UA09BT/BTR-1-004",
+  "nameEn": "",
+  "nameJp": "ド吹かせババア",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "相手の場に青か緑のカードがある場合、手札にあるこのカードの必要エナジーを【黄×1】減らす。",
+  "effectEn": "If your opponent has Blue or Green card on their field, the required energy of this card in your hand [Yellow x1]is reduced.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-004.png?v8"
+ },
+ "BTR-1-005": {
+  "key": "BTR-1-005",
+  "numberJp": "UA09BT/BTR-1-005",
+  "nameEn": "",
+  "nameJp": "ドミ夫",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から5枚見る。その中から［特徴：食べ物］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 [Trait: Food] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-005.png?v8"
+ },
+ "BTR-1-006": {
+  "key": "BTR-1-006",
+  "numberJp": "UA09BT/BTR-1-006",
+  "nameEn": "",
+  "nameJp": "ボンド",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-006.png?v8"
+ },
+ "BTR-1-007": {
+  "key": "BTR-1-007",
+  "numberJp": "UA09BT/BTR-1-007",
+  "nameEn": "",
+  "nameJp": "ボンド",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中から〈ガチゴリラ〉か〈円ちゅわ～ん〉か〈モツオ〉か〈ロボコ〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 <ガチゴリラ> or <円ちゅわ～ん> or <モツオ> or <ロボコ> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-007.png?v8"
+ },
+ "BTR-1-008": {
+  "key": "BTR-1-008",
+  "numberJp": "UA09BT/BTR-1-008",
+  "nameEn": "",
+  "nameJp": "ボンド",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈ボンド〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【アタック時】自分のフロントLに異なるカード名のキャラが4種類ある場合、相手のフロントLのキャラを1枚まで選び、レストにする。",
+  "effectEn": "[Raid] Can Raid onto <ボンド>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [When Attacking] If you have 4 characters with different card names in your Front Line, choose up to 1 character in your opponent's Front Line and rest it.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-008.png?v8"
+ },
+ "BTR-1-009": {
+  "key": "BTR-1-009",
+  "numberJp": "UA09BT/BTR-1-009",
+  "nameEn": "",
+  "nameJp": "ボンドのママ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-009.png?v8"
+ },
+ "BTR-1-010": {
+  "key": "BTR-1-010",
+  "numberJp": "UA09BT/BTR-1-010",
+  "nameEn": "",
+  "nameJp": "ボンドのママ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-010.png?v8"
+ },
+ "BTR-1-011": {
+  "key": "BTR-1-011",
+  "numberJp": "UA09BT/BTR-1-011",
+  "nameEn": "",
+  "nameJp": "ボンドのママ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 6,
+  "ap": 2,
+  "bp": 4500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【登場時】相手のフロントLのキャラを1枚まで選び、レストにする。それは次の1回アクティブにならない。",
+  "effectEn": "[Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [On Play] Choose up to 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-011.png?v8"
+ },
+ "BTR-1-012": {
+  "key": "BTR-1-012",
+  "numberJp": "UA09BT/BTR-1-012",
+  "nameEn": "",
+  "nameJp": "円ちゅわ～ん",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。",
+  "effectEn": "[On Play] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-012.png?v8"
+ },
+ "BTR-1-013": {
+  "key": "BTR-1-013",
+  "numberJp": "UA09BT/BTR-1-013",
+  "nameEn": "",
+  "nameJp": "円ちゅわ～ん",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "±",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "山札にあるこのカードは必要エナジーを【黄×5】として扱ってもよい。【アタック時】自分と相手は自身の山札の上から1枚を公開し、公開したカードを自身の山札の下に置く。自分の公開したカードの必要エナジーの数が相手の公開したカードの必要エナジーの数以上だった場合、カードを1枚引き、このキャラはこのターン中、BP+1000。自分の公開したカードの必要エナジーの数が相手の公開したカードの必要エナジーの数未満だった場合、このキャラはこのターン中、BP-1000。",
+  "effectEn": "This card in your deck may be treated as having required energy [Yellow x5]. [When Attacking] You and your opponent each reveal the top 1 card(s) of your own deck and put the revealed cards on the bottom of your own deck. If the amount of required energy on your revealed card is equal to or greater than that on your opponent's revealed card, draw 1 card(s), and this character gets BP+1000 this turn. If the amount of required energy on your revealed card is less than that on your opponent's revealed card, this character gets BP-1000 this turn.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】相手のフロントLのキャラを1枚選び、レストにする。それは次の1回アクティブにならない。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-013.png?v8"
+ },
+ "BTR-1-014": {
+  "key": "BTR-1-014",
+  "numberJp": "UA09BT/BTR-1-014",
+  "nameEn": "",
+  "nameJp": "円ちゅわ～ん",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分のフロントLに異なるカード名のキャラが4種類ある場合のみ発動できる。自分の場の他のキャラを1枚選び、そのキャラとこのキャラはこのターン中、BP+1000。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if you have 4 characters with different card names in your Front Line. Choose 1 other character on your field; that character and this character get BP+1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-014.png?v8"
+ },
+ "BTR-1-015": {
+  "key": "BTR-1-015",
+  "numberJp": "UA09BT/BTR-1-015",
+  "nameEn": "",
+  "nameJp": "円ちゅわ～ん",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "±",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈円ちゅわ～ん〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【アタック時】自分と相手は自身の山札の上から1枚を公開し、公開したカードを自身の山札の下に置く。自分の公開したカードの必要エナジーの数が相手の公開したカードの必要エナジーの数以上だった場合、カードを1枚引き、このキャラはこのターン中、BP+1000。自分の公開したカードの必要エナジーの数が相手の公開したカードの必要エナジーの数未満だった場合、このキャラはこのターン中、BP-1000。",
+  "effectEn": "[Raid] Can Raid onto <円ちゅわ～ん>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [When Attacking] You and your opponent each reveal the top 1 card(s) of your own deck and put the revealed cards on the bottom of your own deck. If the amount of required energy on your revealed card is equal to or greater than that on your opponent's revealed card, draw 1 card(s), and this character gets BP+1000 this turn. If the amount of required energy on your revealed card is less than that on your opponent's revealed card, this character gets BP-1000 this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-015.png?v8"
+ },
+ "BTR-1-016": {
+  "key": "BTR-1-016",
+  "numberJp": "UA09BT/BTR-1-016",
+  "nameEn": "",
+  "nameJp": "三船千鶴",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。",
+  "effectEn": "[Activate: Main] [Rest this card] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-016.png?v8"
+ },
+ "BTR-1-017": {
+  "key": "BTR-1-017",
+  "numberJp": "UA09BT/BTR-1-017",
+  "nameEn": "",
+  "nameJp": "三船千鶴",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【ターン1】相手は自身の山札の上から1枚を公開し、自身の山札の上に置く。【起動メイン】【APを1支払う】【ターン1】相手は自身の山札の上から1枚を場外に置く。",
+  "effectEn": "[Activate: Main] [Once Per Turn] Your opponent reveals the top 1 card(s) of their deck and puts them back on top of their deck. [Activate: Main] [Pay 1 AP] [Once Per Turn] Your opponent puts the top 1 card(s) of their deck into their Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-017.png?v8"
+ },
+ "BTR-1-018": {
+  "key": "BTR-1-018",
+  "numberJp": "UA09BT/BTR-1-018",
+  "nameEn": "",
+  "nameJp": "睦野兄弟",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分と相手は自身の山札の上から1枚を公開し、公開したカードを自身の山札の下に置く。自分の公開したカードの必要エナジーの数が相手の公開したカードの必要エナジーの数以上だった場合、カードを1枚引く。自分の公開したカードの必要エナジーの数が相手の公開したカードの必要エナジーの数未満だった場合、相手はカードを1枚引く。",
+  "effectEn": "[On Play] You and your opponent each reveal the top 1 card(s) of your own deck and put the revealed cards on the bottom of your own deck. If the amount of required energy on your revealed card is equal to or greater than that on your opponent's revealed card, draw 1 card(s). If the amount of required energy on your revealed card is less than that on your opponent's revealed card, your opponent draws 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-018.png?v8"
+ },
+ "BTR-1-019": {
+  "key": "BTR-1-019",
+  "numberJp": "UA09BT/BTR-1-019",
+  "nameEn": "",
+  "nameJp": "モツオ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【アタック時】自分のフロントLに異なるカード名のキャラが4種類ある場合、カードを1枚引く。",
+  "effectEn": "[When Attacking] If you have 4 characters with different card names in your Front Line, draw 1 card(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-019.png?v8"
+ },
+ "BTR-1-020": {
+  "key": "BTR-1-020",
+  "numberJp": "UA09BT/BTR-1-020",
+  "nameEn": "",
+  "nameJp": "ロボコ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-020.png?v8"
+ },
+ "BTR-1-021": {
+  "key": "BTR-1-021",
+  "numberJp": "UA09BT/BTR-1-021",
+  "nameEn": "",
+  "nameJp": "ロボコ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-021.png?v8"
+ },
+ "BTR-1-022": {
+  "key": "BTR-1-022",
+  "numberJp": "UA09BT/BTR-1-022",
+  "nameEn": "",
+  "nameJp": "ロボコ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【アタック時】自分と相手は自身の山札の上から1枚を公開し、公開したカードを自身の山札の下に置く。このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
+  "effectEn": "[When Attacking] You and your opponent each reveal the top 1 card(s) of your own deck and put the revealed cards on the bottom of your own deck. This character, this turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-022.png?v8"
+ },
+ "BTR-1-023": {
+  "key": "BTR-1-023",
+  "numberJp": "UA09BT/BTR-1-023",
+  "nameEn": "",
+  "nameJp": "ロボコ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈ロボコ〉アクティブにし、フロントLに移動できる【登場時】自分の山札の上から7枚見る。その中から［特徴：食べ物］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。【自分のターン中】このターン中に自分が使用した［特徴：食べ物］の枚数により、このキャラは以下の効果を全て得る。・1枚以上：このキャラはBP+1000。・2枚以上：このターン中、他のキャラがアタックしていない場合、【狙い撃ち】・3枚以上：【インパクト（1）】",
+  "effectEn": "[Raid] Can Raid onto <ロボコ>; set it to active and you may move it to the Front Line. [On Play] Look at the top 7 card(s) of your deck. Reveal up to 1 [Trait: Food] among them and add it to your hand. Put the rest on the bottom of your deck in any order. [During Your Turn] Depending on the number of [Trait: Food] you have used this turn, this character gains all of the following effects. 1 or more: This character gets BP+1000. 2 or more: If no other character has attacked this turn, [Snipe]. 3 or more: [Impact 1].",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-023.png?v8"
+ },
+ "BTR-1-024": {
+  "key": "BTR-1-024",
+  "numberJp": "UA09BT/BTR-1-024",
+  "nameEn": "",
+  "nameJp": "ガチゴリラ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "我知家"
+  ],
+  "effectJp": "【アタック時】自分のフロントLに異なるカード名のキャラが4種類ある場合、このキャラはこのターン中、【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を得る。",
+  "effectEn": "[When Attacking] If you have 4 characters with different card names in your Front Line, this character gains [Damage 2] (When this character deals direct damage by attacking, it deals 2 damage instead) this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-024.png?v8"
+ },
+ "BTR-1-025": {
+  "key": "BTR-1-025",
+  "numberJp": "UA09BT/BTR-1-025",
+  "nameEn": "",
+  "nameJp": "ニョンタ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "動物"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【黄】。メインフェイズ終了時、このキャラを退場させる。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Yellow]. At the end of the Main Phase, retire this character.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-025.png?v8"
+ },
+ "BTR-1-026": {
+  "key": "BTR-1-026",
+  "numberJp": "UA09BT/BTR-1-026",
+  "nameEn": "",
+  "nameJp": "ニョンタ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "動物"
+  ],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【黄】。",
+  "effectEn": "While this character is active, its generated energy +[Yellow].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-026.png?v8"
+ },
+ "BTR-1-027": {
+  "key": "BTR-1-027",
+  "numberJp": "UA09BT/BTR-1-027",
+  "nameEn": "",
+  "nameJp": "ママの包丁",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の場のキャラを1枚選び、このターン中、BP+3000。選んだキャラが〈ボンドのママ〉の場合、さらにアクティブにする。",
+  "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Choose 1 character on your field, it gets BP+3000 this turn. If the chosen character is <ボンドのママ>, also set it to active.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-027.png?v8"
+ },
+ "BTR-1-028": {
+  "key": "BTR-1-028",
+  "numberJp": "UA09BT/BTR-1-028",
+  "nameEn": "",
+  "nameJp": "おかわり",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-028.png?v8"
+ },
+ "BTR-1-029": {
+  "key": "BTR-1-029",
+  "numberJp": "UA09BT/BTR-1-029",
+  "nameEn": "",
+  "nameJp": "ボドゲの女王",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "山札にあるこのカードは必要エナジーを【黄×8】として扱ってもよい。『BP2000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。自分の場に〈円ちゅわ～ん〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "This card in your deck may be treated as having required energy [Yellow x8]. Choose 1 character in your opponent's Front Line with BP 2000 or less, retire it. Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck. If you have <円ちゅわ～ん> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-029.png?v8"
+ },
+ "BTR-1-030": {
+  "key": "BTR-1-030",
+  "numberJp": "UA09BT/BTR-1-030",
+  "nameEn": "",
+  "nameJp": "目からビーム",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈ロボコ〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <ロボコ> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-030.png?v8"
+ },
+ "BTR-1-031": {
+  "key": "BTR-1-031",
+  "numberJp": "UA09BT/BTR-1-031",
+  "nameEn": "",
+  "nameJp": "ロボコクイズ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "必要エナジーの数を1つ指定する。自分の山札の上から1枚を公開し手札に加える。公開したカードの必要エナジーの数がこの効果で指定した数と同じだった場合、さらにカードを2枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "Declare 1 required energy colors. Reveal the top 1 card(s) of your deck and add them to your hand. If the amount of required energy on the revealed card equals the number declared by this effect, draw 2 more card(s) and put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-031.png?v8"
+ },
+ "BTR-1-032": {
+  "key": "BTR-1-032",
+  "numberJp": "UA09BT/BTR-1-032",
+  "nameEn": "",
+  "nameJp": "オムライス",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [
+   "食べ物"
+  ],
+  "effectJp": "カードを1枚引き、自分の手札を1枚場外に置く。自分のAPカードを1枚まで選び、アクティブにする。",
+  "effectEn": "Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. Choose up to 1 of your AP cards, set it to active.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-032.png?v8"
+ },
+ "BTR-1-033": {
+  "key": "BTR-1-033",
+  "numberJp": "UA09BT/BTR-1-033",
+  "nameEn": "",
+  "nameJp": "パネェぜ！薄力祭",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [
+   "食べ物"
+  ],
+  "effectJp": "BP4000以下の相手のフロントLのキャラを1枚まで選び、レストにする。自分の場に〈ロボコ〉がある場合、カードを1枚引く。",
+  "effectEn": "Choose up to 1 character in your opponent's Front Line with BP 4000 or less, rest it. If you have <ロボコ> on your field, Draw 1 card(s).",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】相手のフロントLのキャラを1枚選び、レストにする。それは次の1回アクティブにならない。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-033.png?v8"
+ },
+ "BTR-1-034": {
+  "key": "BTR-1-034",
+  "numberJp": "UA09BT/BTR-1-034",
+  "nameEn": "",
+  "nameJp": "カスタムメイコ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このカードは〈メイコ〉としても扱う。【登場時】必要エナジーが3以下の自分の場の他のキャラを1枚手札に戻してもよい。そうした場合、このターン中、次に手札から使用する必要エナジーが3以下のキャラカードの消費APを-1する。",
+  "effectEn": "This card is also treated as <メイコ>. [On Play] You may return 1 other character on your field with required energy 3 or less to the owner's hand. If you do, This turn, the next character card with required energy 3 or less you use from your hand costs 1 less AP.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-034.png?v8"
+ },
+ "BTR-1-035": {
+  "key": "BTR-1-035",
+  "numberJp": "UA09BT/BTR-1-035",
+  "nameEn": "",
+  "nameJp": "膝ロボコ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このカードは〈ロボコ〉としても扱う。【登場時】カードを2枚引き、自分の手札を2枚場外に置く。自分の場外にある〈ロボコのヒザ〉の枚数×1000以下のBPの相手のフロントLのキャラを1枚まで選び、退場させる。",
+  "effectEn": "This card is also treated as <ロボコ>. [On Play] Draw 2 card(s), then put 2 card(s) from your hand into your Outside Area. Choose up to 1 character in your opponent's Front Line with BP equal to or less than 1000 × the number of <ロボコのヒザ> in your Outside Area, and retire it.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP3500以下の相手のフロントLのキャラを1枚選び、手札に戻す。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 3500 or less, return it to its owner's hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-035.png?v8"
+ },
+ "BTR-1-036": {
+  "key": "BTR-1-036",
+  "numberJp": "UA09BT/BTR-1-036",
+  "nameEn": "",
+  "nameJp": "ボンド",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場外にイベントカードが4枚以上ある場合、このキャラはBP+1500。",
+  "effectEn": "If you have 4 or more Event cards in your Outside Area, This character gets BP+1500.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-036.png?v8"
+ },
+ "BTR-1-037": {
+  "key": "BTR-1-037",
+  "numberJp": "UA09BT/BTR-1-037",
+  "nameEn": "",
+  "nameJp": "ボンド",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを場外に置く。",
+  "effectEn": "[On Play] Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-037.png?v8"
+ },
+ "BTR-1-038": {
+  "key": "BTR-1-038",
+  "numberJp": "UA09BT/BTR-1-038",
+  "nameEn": "",
+  "nameJp": "ボンド",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈ボンド〉アクティブにし、フロントLに移動できる【登場時】自分の場外にあるイベントカードの枚数×1000以下のBPの相手のフロントLのキャラを1枚まで選び、手札に戻す。このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
+  "effectEn": "[Raid] Can Raid onto <ボンド>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line with BP equal to or less than 1000 × the number of event cards in your Outside Area, and return it to its owner's hand. This character, this turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-038.png?v8"
+ },
+ "BTR-1-039": {
+  "key": "BTR-1-039",
+  "numberJp": "UA09BT/BTR-1-039",
+  "nameEn": "",
+  "nameJp": "ボンドのママ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-039.png?v8"
+ },
+ "BTR-1-040": {
+  "key": "BTR-1-040",
+  "numberJp": "UA09BT/BTR-1-040",
+  "nameEn": "",
+  "nameJp": "円ちゅわ～ん",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【青】。",
+  "effectEn": "While this character is active, its generated energy +[Blue].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-040.png?v8"
+ },
+ "BTR-1-041": {
+  "key": "BTR-1-041",
+  "numberJp": "UA09BT/BTR-1-041",
+  "nameEn": "",
+  "nameJp": "メイコ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "相手の場に黄か緑のカードがある場合、手札にあるこのカードの必要エナジーを【青×1】減らす。",
+  "effectEn": "If your opponent has Yellow or Green card on their field, the required energy of this card in your hand [Blue x1]is reduced.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-041.png?v8"
+ },
+ "BTR-1-042": {
+  "key": "BTR-1-042",
+  "numberJp": "UA09BT/BTR-1-042",
+  "nameEn": "",
+  "nameJp": "メイコ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-042.png?v8"
+ },
+ "BTR-1-043": {
+  "key": "BTR-1-043",
+  "numberJp": "UA09BT/BTR-1-043",
+  "nameEn": "",
+  "nameJp": "モツオのパパ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【青】。メインフェイズ終了時、このキャラを退場させる。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Blue]. At the end of the Main Phase, retire this character.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-043.png?v8"
+ },
+ "BTR-1-044": {
+  "key": "BTR-1-044",
+  "numberJp": "UA09BT/BTR-1-044",
+  "nameEn": "",
+  "nameJp": "ロボコ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-044.png?v8"
+ },
+ "BTR-1-045": {
+  "key": "BTR-1-045",
+  "numberJp": "UA09BT/BTR-1-045",
+  "nameEn": "",
+  "nameJp": "ロボコ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から5枚見る。その中から〈ロボコのヒザ〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚自分の山札の下に置く。",
+  "effectEn": "[On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 <ロボコのヒザ> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand on the bottom of your deck.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-045.png?v8"
+ },
+ "BTR-1-046": {
+  "key": "BTR-1-046",
+  "numberJp": "UA09BT/BTR-1-046",
+  "nameEn": "",
+  "nameJp": "ロボコ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈ロボコ〉アクティブにし、フロントLに移動できる【登場時】自分の山札の上から7枚見る。その中から〈ロボコのヒザ〉を1枚まで公開し手札に加えるか、場外に置く。残りを望む順で自分の山札の下に置く。相手のフロントLのキャラを1枚まで選び、レストにする。自分の場外に〈ロボコのヒザ〉が1枚以上ある場合、それは次の1回アクティブにならない。",
+  "effectEn": "[Raid] Can Raid onto <ロボコ>; set it to active and you may move it to the Front Line. [On Play] Look at the top 7 card(s) of your deck. Reveal up to 1 <ロボコのヒザ> among them and add it to your hand, or put it into its owner's Outside Area. Put the rest on the bottom of your deck in any order. Choose up to 1 character in your opponent's Front Line, rest it. If you have 1 or more <ロボコのヒザ> in your Outside Area, it does not become active the next 1 time(s).",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-046.png?v8"
+ },
+ "BTR-1-047": {
+  "key": "BTR-1-047",
+  "numberJp": "UA09BT/BTR-1-047",
+  "nameEn": "",
+  "nameJp": "ガチゴリラ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "我知家"
+  ],
+  "effectJp": "【アタック時】自分の手札の枚数により以下の効果が発動する。・4枚以下：カードを1枚引いてもよい。そうした場合、相手はカードを1枚引く。・5枚以上：このキャラはこのターン中、BP+1000と【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を得る。",
+  "effectEn": "[When Attacking] Depending on the number of cards in your hand, the following effects activate. 4 or less: You may draw 1 card(s). If you do, your opponent draws 1 card(s). 5 or more: This character gains BP+1000 and [Damage 2] (When this character deals direct damage by attacking, it deals 2 damage instead) this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-047.png?v8"
+ },
+ "BTR-1-048": {
+  "key": "BTR-1-048",
+  "numberJp": "UA09BT/BTR-1-048",
+  "nameEn": "",
+  "nameJp": "西キャド総三郎",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "バミュ4"
+  ],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中から【レイド】を持たない［特徴：バミュ4］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 [Trait: Bamyu 4] without [Raid] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-048.png?v8"
+ },
+ "BTR-1-049": {
+  "key": "BTR-1-049",
+  "numberJp": "UA09BT/BTR-1-049",
+  "nameEn": "",
+  "nameJp": "妙々寺トゥカサ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "バミュ4"
+  ],
+  "effectJp": "【登場時】自分の場にカード名の異なる［特徴：バミュ4］が4種類ある場合、以下から1つ選ぶ。・カードを1枚引く。・BP3000以下の相手のフロントLのキャラを1枚まで選び、レストにする。【起動メイン】【フロントLにある場合】【ターン1】自分の場の［特徴：バミュ4］全ては、このターン中、BP+500。",
+  "effectEn": "[On Play] If you have 4 [Trait: Bamyu 4] with different card names on your field, choose 1 of the following. Draw 1 card(s). Choose up to 1 character in your opponent's Front Line with BP 3000 or less, rest it. [Activate: Main] [While in Front Line] [Once Per Turn] All [Trait: Bamyu 4] on your field it gets BP+500 this turn.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP3500以下の相手のフロントLのキャラを1枚選び、手札に戻す。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 3500 or less, return it to its owner's hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-049.png?v8"
+ },
+ "BTR-1-050": {
+  "key": "BTR-1-050",
+  "numberJp": "UA09BT/BTR-1-050",
+  "nameEn": "",
+  "nameJp": "モツオ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "バミュ4"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-050.png?v8"
+ },
+ "BTR-1-051": {
+  "key": "BTR-1-051",
+  "numberJp": "UA09BT/BTR-1-051",
+  "nameEn": "",
+  "nameJp": "モツオ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "バミュ4"
+  ],
+  "effectJp": "【登場時】自分と相手はカードを1枚引く。",
+  "effectEn": "[On Play] You and your opponent each draw 1 card(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-051.png?v8"
+ },
+ "BTR-1-052": {
+  "key": "BTR-1-052",
+  "numberJp": "UA09BT/BTR-1-052",
+  "nameEn": "",
+  "nameJp": "モツオ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 2,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "バミュ4"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚を公開する。相手はその中から1枚を指定する。相手が指定したカードを自分の山札の下に置き、残りを手札に加える。【アタック時】【ブロック時】自分の手札が5枚以上の場合、このキャラはこのターン中、BP+1000。",
+  "effectEn": "[On Play] Reveal the top 3 card(s) of your deck. Your opponent designates 1 of them. Put the card your opponent designated on the bottom of your deck, and add the rest to your hand. [When Attacking] [When Blocking] If you have 5 or more cards in your hand, this character gets BP+1000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-052.png?v8"
+ },
+ "BTR-1-053": {
+  "key": "BTR-1-053",
+  "numberJp": "UA09BT/BTR-1-053",
+  "nameEn": "",
+  "nameJp": "モツオ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "バミュ4"
+  ],
+  "effectJp": "【レイド】〈モツオ〉アクティブにし、フロントLに移動できる【登場時】以下から1つ選ぶ。・自分の手札が5枚以上の場合、BP3000以下の相手のフロントLのキャラを1枚まで選び、退場させる。・カードを1枚引く。",
+  "effectEn": "[Raid] Can Raid onto <モツオ>; set it to active and you may move it to the Front Line. [On Play] Choose 1 of the following. If you have 5 or more cards in your hand, choose up to 1 character in your opponent's Front Line with BP 3000 or less and retire it. Draw 1 card(s).",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-053.png?v8"
+ },
+ "BTR-1-054": {
+  "key": "BTR-1-054",
+  "numberJp": "UA09BT/BTR-1-054",
+  "nameEn": "",
+  "nameJp": "ルイ花技",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "バミュ4"
+  ],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中から【レイド】を持たない［特徴：バミュ4］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 [Trait: Bamyu 4] without [Raid] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-054.png?v8"
+ },
+ "BTR-1-055": {
+  "key": "BTR-1-055",
+  "numberJp": "UA09BT/BTR-1-055",
+  "nameEn": "",
+  "nameJp": "アーマード武者",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ロボコの敵"
+  ],
+  "effectJp": "【退場時】自分の手札を2枚場外に置いてもよい。そうした場合、このカードを手札に加える。",
+  "effectEn": "[On Retire] You may put 2 card(s) from your hand into your Outside Area. If you do, Add this card to your hand.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-055.png?v8"
+ },
+ "BTR-1-056": {
+  "key": "BTR-1-056",
+  "numberJp": "UA09BT/BTR-1-056",
+  "nameEn": "",
+  "nameJp": "カニオ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ロボコの敵"
+  ],
+  "effectJp": "【退場時】カードを1枚引く。",
+  "effectEn": "[On Retire] Draw 1 card(s).",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-056.png?v8"
+ },
+ "BTR-1-057": {
+  "key": "BTR-1-057",
+  "numberJp": "UA09BT/BTR-1-057",
+  "nameEn": "",
+  "nameJp": "カニオ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ロボコの敵"
+  ],
+  "effectJp": "【登場時】BP1500以上の相手の場のキャラを1枚まで選び、このターン中、BP-1000。",
+  "effectEn": "[On Play] Choose up to 1 character on your opponent's field with BP 1500 or more, it gets BP-1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-057.png?v8"
+ },
+ "BTR-1-058": {
+  "key": "BTR-1-058",
+  "numberJp": "UA09BT/BTR-1-058",
+  "nameEn": "",
+  "nameJp": "Dr.モッコス",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ロボコの敵"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の場外から〈Dr.モッコス〉以外の特徴に「ロボコの敵」を持つキャラカードを1枚手札に加える。",
+  "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Add 1 character card other than <Dr.モッコス> with the trait “Roboco's Enemy” from your Outside Area to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-058.png?v8"
+ },
+ "BTR-1-059": {
+  "key": "BTR-1-059",
+  "numberJp": "UA09BT/BTR-1-059",
+  "nameEn": "",
+  "nameJp": "Dr.モッコス",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ロボコの敵"
+  ],
+  "effectJp": "【登場時】自分の山札の上から5枚見る。その中から〈Dr.モッコス〉以外の［特徴：ロボコの敵］か〈河川敷〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
+  "effectEn": "[On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 [Trait: Roboco's Enemy] or <河川敷> other than <Dr.モッコス> among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-059.png?v8"
+ },
+ "BTR-1-060": {
+  "key": "BTR-1-060",
+  "numberJp": "UA09BT/BTR-1-060",
+  "nameEn": "",
+  "nameJp": "破壊兵器B.B",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ロボコの敵"
+  ],
+  "effectJp": "【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、BP2000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
+  "effectEn": "[On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, Choose up to 1 character in your opponent's Front Line with BP 2000 or less, retire it.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-060.png?v8"
+ },
+ "BTR-1-061": {
+  "key": "BTR-1-061",
+  "numberJp": "UA09BT/BTR-1-061",
+  "nameEn": "",
+  "nameJp": "河川敷",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】自分の場の［特徴：ロボコの敵］全ては、このターン中、BP+500。自分の場に［特徴：ロボコの敵］が3枚以上ある場合、さらにBP1000以上の相手の場のキャラを1枚まで選び、このターン中、BP-500。",
+  "effectEn": "This Field is played active. [Activate: Main] [Rest this card] All [Trait: Roboco's Enemy] on your field it gets BP+500 this turn. If you have 3 or more [Trait: Roboco's Enemy] on your field, also choose up to 1 character on your opponent's field with BP 1000 or more; it gets BP-500 this turn.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-061.png?v8"
+ },
+ "BTR-1-062": {
+  "key": "BTR-1-062",
+  "numberJp": "UA09BT/BTR-1-062",
+  "nameEn": "",
+  "nameJp": "最終兵器破れたり～!!",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に［特徴：ロボコの敵］が3枚以上ある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have 3 or more [Trait: Roboco's Enemy] on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-062.png?v8"
+ },
+ "BTR-1-063": {
+  "key": "BTR-1-063",
+  "numberJp": "UA09BT/BTR-1-063",
+  "nameEn": "",
+  "nameJp": "空飛ぶロボコ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを場外に置く。カードを2枚引く。",
+  "effectEn": "Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest into your Outside Area. Draw 2 card(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-063.png?v8"
+ },
+ "BTR-1-064": {
+  "key": "BTR-1-064",
+  "numberJp": "UA09BT/BTR-1-064",
+  "nameEn": "",
+  "nameJp": "難問",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、手札に戻し、カードを1枚引く。自分の場に〈モツオ〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with “BP 3000 or less”, return it to its owner's hand, and draw 1 card(s). If you have <モツオ> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-064.png?v8"
+ },
+ "BTR-1-065": {
+  "key": "BTR-1-065",
+  "numberJp": "UA09BT/BTR-1-065",
+  "nameEn": "",
+  "nameJp": "萌・萌・キュン",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-065.png?v8"
+ },
+ "BTR-1-066": {
+  "key": "BTR-1-066",
+  "numberJp": "UA09BT/BTR-1-066",
+  "nameEn": "",
+  "nameJp": "萌・萌・滅",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場外にある〈ロボコのヒザ〉の枚数により、以下の効果を全て発動する。・1枚以上：『BP4000以下』の相手のフロントLのキャラを1枚まで選び、退場させる。・2枚以上：『BP5000以下』に代わる。・4枚以上：自分の場の〈ロボコ〉を1枚まで選び、このターン中、【インパクト（+1）】と【ダメージ（+1）】（このキャラがアタックで直接ダメージを与える時、追加で1ダメージ）を与える。",
+  "effectEn": "Depending on the number of <ロボコのヒザ> in your Outside Area, all of the following effects activate. 1 or more: Choose up to 1 character in your opponent's Front Line with BP 4000 or less, retire it. 2 or more: it becomes “BP 5000 or less” instead. 4 or more: Choose up to 1 <ロボコ> on your field; it gains [Impact +1] and [Damage +1] (When this character deals direct damage by attacking, it deals 1 additional damage) this turn.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-066.png?v8"
+ },
+ "BTR-1-067": {
+  "key": "BTR-1-067",
+  "numberJp": "UA09BT/BTR-1-067",
+  "nameEn": "",
+  "nameJp": "ロボコのヒザ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "カードを1枚引く。自分の場のアクティブの〈ロボコ〉を1枚レストにしてもよい。そうした場合、自分のAPカードを1枚まで選び、アクティブにする。",
+  "effectEn": "Draw 1 card(s). You may rest 1 active <ロボコ> on your field. If you do, Choose up to 1 of your AP cards, set it to active.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-067.png?v8"
+ },
+ "BTR-1-068": {
+  "key": "BTR-1-068",
+  "numberJp": "UA09BT/BTR-1-068",
+  "nameEn": "",
+  "nameJp": "蚊トンボ膝ロボコ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "このカードは〈ロボコ〉としても扱う。相手の場に黄か青のカードがある場合、手札にあるこのカードの必要エナジーを【緑×1】減らす。",
+  "effectEn": "This card is also treated as <ロボコ>. If your opponent has Yellow or Blue card on their field, the required energy of this card in your hand [Green x1]is reduced.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-068.png?v8"
+ },
+ "BTR-1-069": {
+  "key": "BTR-1-069",
+  "numberJp": "UA09BT/BTR-1-069",
+  "nameEn": "",
+  "nameJp": "蚊トンボ膝ロボコ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このカードは〈ロボコ〉としても扱う。【登場時】BP2500以上の自分の場の他のキャラを1枚まで選び、このターン中、BP-2000と【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、指定した場合、相手はブロックできない）を与える。",
+  "effectEn": "This card is also treated as <ロボコ>. [On Play] Choose up to 1 other character on your field with BP 2500 or more; it gains BP-2000 and [Snipe] (Can attack a chosen character in your opponent's Front Line; if you do, your opponent cannot block) this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-069.png?v8"
+ },
+ "BTR-1-070": {
+  "key": "BTR-1-070",
+  "numberJp": "UA09BT/BTR-1-070",
+  "nameEn": "",
+  "nameJp": "蚊トンボ膝ロボコ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このカードは〈ロボコ〉としても扱う。【登場時】発生エナジーが1以下で消費APが1の相手のエナジーLのカードを1枚まで選び、退場させる。",
+  "effectEn": "This card is also treated as <ロボコ>. [On Play] Choose up to 1 card(s) in your opponent's Energy Line with generated energy 1 or less and AP cost 1, and retire them.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-070.png?v8"
+ },
+ "BTR-1-071": {
+  "key": "BTR-1-071",
+  "numberJp": "UA09BT/BTR-1-071",
+  "nameEn": "",
+  "nameJp": "芹澤岳",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-071.png?v8"
+ },
+ "BTR-1-072": {
+  "key": "BTR-1-072",
+  "numberJp": "UA09BT/BTR-1-072",
+  "nameEn": "",
+  "nameJp": "芹澤岳",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中から［特徴：動物］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 [Trait: Animal] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-072.png?v8"
+ },
+ "BTR-1-073": {
+  "key": "BTR-1-073",
+  "numberJp": "UA09BT/BTR-1-073",
+  "nameEn": "",
+  "nameJp": "芹澤岳",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈芹澤岳〉アクティブにし、フロントLに移動できる【登場時】このターン中、次に手札から使用する［特徴：動物］の消費APを-1する。【起動メイン】【フロントLにある場合】【ターン1】このターン中に［特徴：動物］が自分の場に登場していた場合のみ発動できる。カードを1枚引く。",
+  "effectEn": "[Raid] Can Raid onto <芹澤岳>; set it to active and you may move it to the Front Line. [On Play] This turn, the next [Trait: Animal] you use from your hand costs 1 less AP. [Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if a [Trait: Animal] was played to your field this turn. Draw 1 card(s).",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-073.png?v8"
+ },
+ "BTR-1-074": {
+  "key": "BTR-1-074",
+  "numberJp": "UA09BT/BTR-1-074",
+  "nameEn": "",
+  "nameJp": "ボンド",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このキャラのBPが5000以上の場合、このキャラは【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。【起動メイン】【APを1支払う】【ターン1】このキャラは次の自分のターン開始時まで、BP+1000。",
+  "effectEn": "If this character's BP is 5000 or more, This character [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained. [Activate: Main] [Pay 1 AP] [Once Per Turn] This character gets BP+1000 until the start of your next turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-074.png?v8"
+ },
+ "BTR-1-075": {
+  "key": "BTR-1-075",
+  "numberJp": "UA09BT/BTR-1-075",
+  "nameEn": "",
+  "nameJp": "円ちゅわ～ん",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-075.png?v8"
+ },
+ "BTR-1-076": {
+  "key": "BTR-1-076",
+  "numberJp": "UA09BT/BTR-1-076",
+  "nameEn": "",
+  "nameJp": "モツオ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場に【インパクト】か【ダメージ】を持つキャラがある場合、このキャラはBP+1000。",
+  "effectEn": "If you have a character with [Impact] or [Damage] on your field, this character gets BP+1000.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-076.png?v8"
+ },
+ "BTR-1-077": {
+  "key": "BTR-1-077",
+  "numberJp": "UA09BT/BTR-1-077",
+  "nameEn": "",
+  "nameJp": "ロボコ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【アタック時】自分の場のアクティブの［特徴：動物］を望む枚数レストにしてもよい。そうした場合、レストにした枚数により、このキャラはこのターン中、以下の効果を全て得る。・1枚以上：この効果でレストにしたカード1枚につき、BP+500。・3枚以上：【インパクト（1）】・4枚以上：【ダメージ（2）】",
+  "effectEn": "[When Attacking] You may rest any number of active [Trait: Animal] on your field. If you do, depending on the number of cards rested, this character gains all of the following effects this turn. 1 or more: BP+500 for each 1 card(s) rested by this effect. 3 or more: [Impact 1]. 4 or more: [Damage 2].",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の手札から必要エナジーが2以下で消費APが1の緑のキャラカードを1枚自分の場にアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Green character card with required energy 2 or less and with AP cost 1 from your hand to your field active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-077.png?v8"
+ },
+ "BTR-1-078": {
+  "key": "BTR-1-078",
+  "numberJp": "UA09BT/BTR-1-078",
+  "nameEn": "",
+  "nameJp": "ロボコ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場の〈ガチゴリラ〉を1枚選び、退場させてもよい。そうした場合、この効果で退場させた〈ガチゴリラ〉のBP以下の相手のフロントLのキャラを1枚まで選び、退場させる。カードを1枚引く。",
+  "effectEn": "[On Play] You may choose 1 <ガチゴリラ> on your field and retire it. If you do, choose up to 1 character in your opponent's Front Line with BP equal to or less than the BP of the <ガチゴリラ> retired by this effect, and retire it. Draw 1 card(s).",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-078.png?v8"
+ },
+ "BTR-1-079": {
+  "key": "BTR-1-079",
+  "numberJp": "UA09BT/BTR-1-079",
+  "nameEn": "",
+  "nameJp": "ガチゴリラ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "我知家"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-079.png?v8"
+ },
+ "BTR-1-080": {
+  "key": "BTR-1-080",
+  "numberJp": "UA09BT/BTR-1-080",
+  "nameEn": "",
+  "nameJp": "ガチゴリラ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "我知家"
+  ],
+  "effectJp": "【起動メイン】【APを1支払う】【ターン1】このキャラは次の自分のターン開始時まで、BP+500と【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を得る。",
+  "effectEn": "[Activate: Main] [Pay 1 AP] [Once Per Turn] Until the start of your next turn, this character gains BP+500 and [Damage 2] (When this character deals direct damage by attacking, it deals 2 damage instead)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-080.png?v8"
+ },
+ "BTR-1-081": {
+  "key": "BTR-1-081",
+  "numberJp": "UA09BT/BTR-1-081",
+  "nameEn": "",
+  "nameJp": "ガチゴリラ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 6,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "我知家"
+  ],
+  "effectJp": "【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【登場時】自分の場外から〈ガチゴリラ〉以外の消費APが1の緑の「［特徴：我知家］か〈ボンド〉か〈モツオ〉」を1枚まで手札に加えるか、自分の場にレストで登場させるかレイドさせる。",
+  "effectEn": "[Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [On Play] Add up to 1 green “[Trait: Gachi Family], <ボンド> or <モツオ>” other than <ガチゴリラ> with AP cost 1 from your Outside Area to your hand, or play it to your field rested, or Raid it.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の手札から必要エナジーが2以下で消費APが1の緑のキャラカードを1枚自分の場にアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Green character card with required energy 2 or less and with AP cost 1 from your hand to your field active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-081.png?v8"
+ },
+ "BTR-1-082": {
+  "key": "BTR-1-082",
+  "numberJp": "UA09BT/BTR-1-082",
+  "nameEn": "",
+  "nameJp": "ガチゴリラ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "我知家"
+  ],
+  "effectJp": "【レイド】〈ガチゴリラ〉アクティブにし、フロントLに移動できる【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【登場時】自分の場のキャラを1枚まで選び、このターン中、BP+1000。【退場時】自分のターン中の場合、このカードを手札に戻す。",
+  "effectEn": "[Raid] Can Raid onto <ガチゴリラ>; set it to active and you may move it to the Front Line. [Double Block] (The first time this character blocks each turn, set it to active) [Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [On Play] Choose up to 1 character on your field, it gets BP+1000 this turn. [On Retire] If it is your turn, return this card to your hand.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-082.png?v8"
+ },
+ "BTR-1-083": {
+  "key": "BTR-1-083",
+  "numberJp": "UA09BT/BTR-1-083",
+  "nameEn": "",
+  "nameJp": "ガチゴリラの母ちゃん",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "我知家"
+  ],
+  "effectJp": "【登場時】自分の場の他の［特徴：我知家］を1枚まで選び、アクティブにする。",
+  "effectEn": "[On Play] Choose up to 1 other [Trait: Gachi Family] on your field, set it to active.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-083.png?v8"
+ },
+ "BTR-1-084": {
+  "key": "BTR-1-084",
+  "numberJp": "UA09BT/BTR-1-084",
+  "nameEn": "",
+  "nameJp": "ゴリジ&ルミ＆ゴリスケ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "我知家"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【緑】。メインフェイズ終了時、このキャラを退場させる。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Green]. At the end of the Main Phase, retire this character.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-084.png?v8"
+ },
+ "BTR-1-085": {
+  "key": "BTR-1-085",
+  "numberJp": "UA09BT/BTR-1-085",
+  "nameEn": "",
+  "nameJp": "那須さん",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "我知家"
+  ],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【緑】。",
+  "effectEn": "While this character is active, its generated energy +[Green].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-085.png?v8"
+ },
+ "BTR-1-086": {
+  "key": "BTR-1-086",
+  "numberJp": "UA09BT/BTR-1-086",
+  "nameEn": "",
+  "nameJp": "ルリ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "我知家"
+  ],
+  "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-086.png?v8"
+ },
+ "BTR-1-087": {
+  "key": "BTR-1-087",
+  "numberJp": "UA09BT/BTR-1-087",
+  "nameEn": "",
+  "nameJp": "ルリ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "我知家"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見る。その中から［特徴：我知家］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: Gachi Family] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-087.png?v8"
+ },
+ "BTR-1-088": {
+  "key": "BTR-1-088",
+  "numberJp": "UA09BT/BTR-1-088",
+  "nameEn": "",
+  "nameJp": "ルリ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "我知家"
+  ],
+  "effectJp": "【レイド】〈ルリ〉アクティブにし、フロントLに移動できる【自分のターン中】自分の場に〈ガチゴリラ〉がある場合、このキャラはBP+500。【退場時】自分の山札の上から3枚見る。その中から［特徴：我知家］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
+  "effectEn": "[Raid] Can Raid onto <ルリ>; set it to active and you may move it to the Front Line. [During Your Turn] If you have <ガチゴリラ> on your field, This character gets BP+500. [On Retire] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: Gachi Family] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-088.png?v8"
+ },
+ "BTR-1-089": {
+  "key": "BTR-1-089",
+  "numberJp": "UA09BT/BTR-1-089",
+  "nameEn": "",
+  "nameJp": "ガチのゴリラ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "動物"
+  ],
+  "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）",
+  "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-089.png?v8"
+ },
+ "BTR-1-090": {
+  "key": "BTR-1-090",
+  "numberJp": "UA09BT/BTR-1-090",
+  "nameEn": "",
+  "nameJp": "熊八",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "動物"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-090.png?v8"
+ },
+ "BTR-1-091": {
+  "key": "BTR-1-091",
+  "numberJp": "UA09BT/BTR-1-091",
+  "nameEn": "",
+  "nameJp": "熊八",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "動物"
+  ],
+  "effectJp": "【起動メイン】【手札を1枚場外に置く】【ターン1】このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。【起動メイン】【フロントLにある場合】【APを1支払う】【ターン1】自分の場の［特徴：動物］全ては、このターン中、BP+1000。",
+  "effectEn": "[Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] This character, this turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained. [Activate: Main] [While in Front Line] [Pay 1 AP] [Once Per Turn] All [Trait: Animal] on your field it gets BP+1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-091.png?v8"
+ },
+ "BTR-1-092": {
+  "key": "BTR-1-092",
+  "numberJp": "UA09BT/BTR-1-092",
+  "nameEn": "",
+  "nameJp": "ニョンタ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "動物"
+  ],
+  "effectJp": "【起動メイン】【レストにする】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。このカードを手札に戻す。",
+  "effectEn": "[Activate: Main] [Rest this card] Choose up to 1 other character on your field, it gets BP+1000 this turn. Return this card to your hand.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-092.png?v8"
+ },
+ "BTR-1-093": {
+  "key": "BTR-1-093",
+  "numberJp": "UA09BT/BTR-1-093",
+  "nameEn": "",
+  "nameJp": "ニョンタ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "動物"
+  ],
+  "effectJp": "【自分のターン中】このキャラはBP+1000。",
+  "effectEn": "[During Your Turn] This character gets BP+1000.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-093.png?v8"
+ },
+ "BTR-1-094": {
+  "key": "BTR-1-094",
+  "numberJp": "UA09BT/BTR-1-094",
+  "nameEn": "",
+  "nameJp": "マカロン",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "動物"
+  ],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-094.png?v8"
+ },
+ "BTR-1-095": {
+  "key": "BTR-1-095",
+  "numberJp": "UA09BT/BTR-1-095",
+  "nameEn": "",
+  "nameJp": "我知動物病院",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】自分の場のキャラを1枚選び、このターン中、BP+1000。",
+  "effectEn": "This Field is played active. [Activate: Main] [Rest this card] Choose 1 character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-095.png?v8"
+ },
+ "BTR-1-096": {
+  "key": "BTR-1-096",
+  "numberJp": "UA09BT/BTR-1-096",
+  "nameEn": "",
+  "nameJp": "ガチゴリラミサイル",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈ガチゴリラ〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <ガチゴリラ> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-096.png?v8"
+ },
+ "BTR-1-097": {
+  "key": "BTR-1-097",
+  "numberJp": "UA09BT/BTR-1-097",
+  "nameEn": "",
+  "nameJp": "熊出没注意",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から4枚見る。その中から［特徴：動物］か〈芹澤岳〉か〈ロボコ〉を2枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
+  "effectEn": "Look at the top 4 card(s) of your deck. Reveal up to 2 [Trait: Animal] or <芹澤岳> or <ロボコ> among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-097.png?v8"
+ },
+ "BTR-1-098": {
+  "key": "BTR-1-098",
+  "numberJp": "UA09BT/BTR-1-098",
+  "nameEn": "",
+  "nameJp": "熊八なりのスキンシップ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に［特徴：動物］、〈芹澤岳〉、〈ロボコ〉が合計3枚以上ある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have a total of 3 or more [Trait: Animal], <芹澤岳> and <ロボコ> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-098.png?v8"
+ },
+ "BTR-1-099": {
+  "key": "BTR-1-099",
+  "numberJp": "UA09BT/BTR-1-099",
+  "nameEn": "",
+  "nameJp": "ツール・ド・ロボコ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-099.png?v8"
+ },
+ "BTR-1-100": {
+  "key": "BTR-1-100",
+  "numberJp": "UA09BT/BTR-1-100",
+  "nameEn": "",
+  "nameJp": "ロボコ砲",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場のキャラを1枚選び、アクティブにする。選んだキャラが［特徴：動物］の場合、自分のAPカードを1枚まで選び、アクティブにする。",
+  "effectEn": "Choose 1 character on your field, set it to active. If the chosen character is a [Trait: Animal], choose up to 1 of your AP cards and set them to active.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-100.png?v8"
+ },
+ "BTR-1-101": {
+  "key": "BTR-1-101",
+  "numberJp": "UA09ST/BTR-1-101",
+  "nameEn": "",
+  "nameJp": "ボンド",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】自分のフロントLのキャラを望む枚数選び、このターン中、BP+1000。この効果で同じカード名のキャラを選ぶことはできない。",
+  "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] Choose any number of characters in your Front Line; they get BP+1000 this turn. You cannot choose characters with the same card name with this effect.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09ST_BTR-1-101.png?v8"
+ },
+ "BTR-1-102": {
+  "key": "BTR-1-102",
+  "numberJp": "UA09ST/BTR-1-102",
+  "nameEn": "",
+  "nameJp": "円ちゅわ～ん",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場外の黄のキャラカードを1枚まで自分の山札の上に置く。",
+  "effectEn": "[On Play] Put up to 1 yellow character card(s) from your Outside Area on top of your deck.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09ST_BTR-1-102.png?v8"
+ },
+ "BTR-1-103": {
+  "key": "BTR-1-103",
+  "numberJp": "UA09ST/BTR-1-103",
+  "nameEn": "",
+  "nameJp": "メイコ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09ST_BTR-1-103.png?v8"
+ },
+ "BTR-1-104": {
+  "key": "BTR-1-104",
+  "numberJp": "UA09ST/BTR-1-104",
+  "nameEn": "",
+  "nameJp": "モツオ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【APを1支払う】【ターン1】カードを1枚引く。",
+  "effectEn": "[Activate: Main] [Pay 1 AP] [Once Per Turn] Draw 1 card(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09ST_BTR-1-104.png?v8"
+ },
+ "BTR-1-105": {
+  "key": "BTR-1-105",
+  "numberJp": "UA09ST/BTR-1-105",
+  "nameEn": "",
+  "nameJp": "ロボコ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09ST_BTR-1-105.png?v8"
+ },
+ "BTR-1-106": {
+  "key": "BTR-1-106",
+  "numberJp": "UA09ST/BTR-1-106",
+  "nameEn": "",
+  "nameJp": "ロボコ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈ロボコ〉アクティブにし、フロントLに移動できる自分の場外に［特徴：食べ物］が1枚以上ある場合、このキャラは【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。【登場時】自分の場外から［特徴：食べ物］を1枚まで手札に加える。",
+  "effectEn": "[Raid] Can Raid onto <ロボコ>; set it to active and you may move it to the Front Line. If you have 1 or more [Trait: Food] in your Outside Area, This character [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained. [On Play] Add up to 1 [Trait: Food] from your Outside Area to your hand.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09ST_BTR-1-106.png?v8"
+ },
+ "BTR-1-107": {
+  "key": "BTR-1-107",
+  "numberJp": "UA09ST/BTR-1-107",
+  "nameEn": "",
+  "nameJp": "ガチゴリラ",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "我知家"
+  ],
+  "effectJp": "【アタック時】自分の場のキャラを1枚まで選び、このターン中、BP+500。",
+  "effectEn": "[When Attacking] Choose up to 1 character on your field, it gets BP+500 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09ST_BTR-1-107.png?v8"
+ },
+ "BTR-1-108": {
+  "key": "BTR-1-108",
+  "numberJp": "UA09ST/BTR-1-108",
+  "nameEn": "",
+  "nameJp": "バミューダ小学校",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】以下から1つ選ぶ。・自分の場のキャラを1枚選び、別のラインに移動させる。・自分のフロントLのキャラと自分のエナジーLのキャラを1枚ずつ選び、それらの位置を入れ替える。",
+  "effectEn": "[Activate: Main] [Rest this card] Choose 1 of the following. Choose 1 character on your field, move it to another line. Choose 1 character in your Front Line and 1 character in your Energy Line, and swap their positions.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09ST_BTR-1-108.png?v8"
+ },
+ "BTR-1-109": {
+  "key": "BTR-1-109",
+  "numberJp": "UA09ST/BTR-1-109",
+  "nameEn": "",
+  "nameJp": "押忍!!クソ男飯!!",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [
+   "食べ物"
+  ],
+  "effectJp": "自分の場のキャラを1枚選び、このターン中、BP+2000。自分の場に〈ロボコ〉がある場合、自分のAPカードを1枚まで選び、アクティブにする。",
+  "effectEn": "Choose 1 character on your field, it gets BP+2000 this turn. If you have <ロボコ> on your field, Choose up to 1 of your AP cards, set it to active.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09ST_BTR-1-109.png?v8"
+ },
+ "BTR-1-AP01": {
+  "key": "BTR-1-AP01",
+  "numberJp": "UA09BT/BTR-1-AP01",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(僕とロボコ)",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-AP01.png?v8"
+ },
+ "BTR-1-AP02": {
+  "key": "BTR-1-AP02",
+  "numberJp": "UA09BT/BTR-1-AP02",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(僕とロボコ)",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-AP02.png?v8"
+ },
+ "BTR-1-AP03": {
+  "key": "BTR-1-AP03",
+  "numberJp": "UA09BT/BTR-1-AP03",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(僕とロボコ)",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-AP03.png?v8"
+ },
+ "BTR-1-AP04": {
+  "key": "BTR-1-AP04",
+  "numberJp": "UA09BT/BTR-1-AP04",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(僕とロボコ)",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-AP04.png?v8"
+ },
+ "BTR-1-AP05": {
+  "key": "BTR-1-AP05",
+  "numberJp": "UA09BT/BTR-1-AP05",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(僕とロボコ)",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-AP05.png?v8"
+ },
+ "BTR-1-AP06": {
+  "key": "BTR-1-AP06",
+  "numberJp": "UA09BT/BTR-1-AP06",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(僕とロボコ)",
+  "series": "僕とロボコ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA09BT_BTR-1-AP06.png?v8"
+ }
+}

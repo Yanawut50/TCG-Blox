@@ -1,0 +1,96 @@
+{
+ "NGR-P-001": {
+  "key": "NGR-P-001",
+  "numberJp": "UAPR/NGR-P-001",
+  "nameEn": "",
+  "nameJp": "橘 美花莉",
+  "series": "2.5次元の誘惑",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場にカード名に「リリサ」を含むキャラがある場合、自分の山札の上から5枚見て、［特徴：コスプレ］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。カード名に「美花莉」を含むカード以外を手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] If you have a character with “Lilysa” in its card name on your field, look at the top 5 card(s) of your deck, reveal up to 1 [Trait: Cosplay] among them, and add it to your hand. Put the rest on the bottom of your deck in any order. If you added a card other than one with “Mikari” in its card name to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_NGR-P-001.png?v9"
+ },
+ "NGR-P-002": {
+  "key": "NGR-P-002",
+  "numberJp": "UAPR/NGR-P-002",
+  "nameEn": "",
+  "nameJp": "753♡",
+  "series": "2.5次元の誘惑",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "PR",
+  "needEnergy": 2,
+  "ap": 2,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "コスプレ四天王"
+  ],
+  "effectJp": "【登場時】カードを1枚引く。自分の場外からカード名に「753♡」を含む［特徴：コスプレ］を1枚まで手札に加える。",
+  "effectEn": "[On Play] Draw 1 card(s). Add up to 1 [Trait: Cosplay] with “753♡” in its card name from your Outside Area to your hand.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_NGR-P-002.png?v9"
+ },
+ "NGR-P-003": {
+  "key": "NGR-P-003",
+  "numberJp": "UAPR/NGR-P-003",
+  "nameEn": "",
+  "nameJp": "リリエル 天使空挺隊/リリサ",
+  "series": "2.5次元の誘惑",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "PR",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "コスプレ　天使空挺隊"
+  ],
+  "effectJp": "【登場時】「美花莉」、「ノノア」、「アリア」から1つ指定する。その後、自分の山札の上から7枚見て、カード名にこの効果で指定したものを含む［特徴：天使空挺隊］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Declare 1 of “Mikari”, “Nonoa” or “Aria” Then, look at the top 7 card(s) of your deck, reveal up to 1 [Trait: Angel Airborne Unit] whose card name includes the name declared by this effect, and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_NGR-P-003.png?v9"
+ }
+}

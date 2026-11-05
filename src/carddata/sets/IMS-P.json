@@ -1,0 +1,127 @@
+{
+ "IMS-P-001": {
+  "key": "IMS-P-001",
+  "numberJp": "UAPR/IMS-P-001",
+  "nameEn": "",
+  "nameJp": "櫻木 真乃",
+  "series": "アイドルマスター シャイニーカラーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PR",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "illumination STARS"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】このターン中、次に手札から使用する元々の消費APが2の［特徴：illumination STARS］の必要エナジーを【黄×1】減らし、消費APを-1する。",
+  "effectEn": "[Activate: Main] [Rest this card] [Retire this card] This turn, reduce the required energy of the next [Trait: illumination STARS] with original AP cost 2 you use from your hand by [Yellow x1] and its AP cost by 1.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_IMS-P-001.png?v9"
+ },
+ "IMS-P-002": {
+  "key": "IMS-P-002",
+  "numberJp": "UAPR/IMS-P-002",
+  "nameEn": "",
+  "nameJp": "月岡 恋鐘",
+  "series": "アイドルマスター シャイニーカラーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "PR",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "L'Antica"
+  ],
+  "effectJp": "【登場時】自分の場に異なるカード名を持つ他の［特徴：L'Antica］が2種類以上ある場合、BP1500以上の相手の場のキャラを1枚まで選び、このターン中、BP-1000。",
+  "effectEn": "[On Play] If you have 2 or more other [Trait: L'Antica] with different card names on your field, choose up to 1 character on your opponent's field with BP 1500 or more; it gets BP-1000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_IMS-P-002.png?v9"
+ },
+ "IMS-P-003": {
+  "key": "IMS-P-003",
+  "numberJp": "UAPR/IMS-P-003",
+  "nameEn": "",
+  "nameJp": "小宮 果穂",
+  "series": "アイドルマスター シャイニーカラーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "PR",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "放課後クライマックスガールズ"
+  ],
+  "effectJp": "【登場時】自分の場に異なるカード名を持つ他の［特徴：放課後クライマックスガールズ］が3種類以上ある場合、このターン中、次に手札から使用する〈小宮 果穂〉の消費APを-1する。〈小宮 果穂〉のこの効果は1ターンに1回のみ発動する。",
+  "effectEn": "[On Play] If you have 3 or more other [Trait: Houkago Climax Girls] with different card names on your field, this turn, reduce the AP cost of the next <小宮 果穂> you use from your hand by 1. This <小宮 果穂> effect can only activate 1 time(s) per 1 turn(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_IMS-P-003.png?v9"
+ },
+ "IMS-P-004": {
+  "key": "IMS-P-004",
+  "numberJp": "UAPR/IMS-P-004",
+  "nameEn": "",
+  "nameJp": "アイドルマスター シャイニーカラーズ",
+  "series": "アイドルマスター シャイニーカラーズ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red",
+   "Blue",
+   "Yellow",
+   "Green",
+   "Purple"
+  ],
+  "rarity": "PR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "このカードの色と必要エナジーは、全ての色として扱う。自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "This card's color and required energy are treated as all colors. Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_IMS-P-004.png?v9"
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "OPM-P-001": {
+  "key": "OPM-P-001",
+  "numberJp": "UAPR/OPM-P-001",
+  "nameEn": "",
+  "nameJp": "戦慄のタツマキ",
+  "series": "ワンパンマン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【自分のターン中】【フロントLにある場合】自分の黄の〔〈戦慄のタツマキ〉と〈地獄のフブキ〉〕の効果に記載されている「イベントカード」を「イベントカードかキャラカード」に代えてもよい。",
+  "effectEn": "[During Your Turn] [While in Front Line] You may replace “event card” written in the effects of your yellow <Terrible Tornado> and <Hellish Blizzard> with “event card or character card”",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_OPM-P-001.png?v9"
+ },
+ "OPM-P-002": {
+  "key": "OPM-P-002",
+  "numberJp": "UAPR/OPM-P-002",
+  "nameEn": "",
+  "nameJp": "金属バット",
+  "series": "ワンパンマン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "PR",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ヒーロー"
+  ],
+  "effectJp": "【相手のターン中】自分のフロントLに【レイド】を持ち、レイド状態でない〈金属バット〉が登場した時、そのキャラを1枚選んでもよい。そうした場合、選んだキャラをアクティブにし、このターン中、BP+1000。選んだキャラの下にこのキャラを表向きで置く。（レイド状態になる）",
+  "effectEn": "[During Opponent's Turn] When a non-Raided <Metal Bat> with [Raid] is played to your Front Line, you may choose 1 of those characters. If you do, set the chosen character to active, and it gets BP+1000 this turn. Put this character face up under the chosen character. (It becomes Raided)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_OPM-P-002.png?v9"
+ },
+ "OPM-P-003": {
+  "key": "OPM-P-003",
+  "numberJp": "UAPR/OPM-P-003",
+  "nameEn": "",
+  "nameJp": "音速のソニック",
+  "series": "ワンパンマン",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "PR",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】以下から1つ選ぶ。・自分の山札の上から3枚見て、〈音速のソニック〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。・このキャラが自分の効果で登場していた場合、自分の手札を1枚場外に置いてもよい。そうした場合、自分の場のキャラを1枚まで選び、アクティブにする。",
+  "effectEn": "[On Play] Choose 1 of the following. Look at the top 3 card(s) of your deck, reveal up to 1 <Speed-o'-Sound Sonic> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area. If this character was played by your own effect, you may put 1 card(s) from your hand into your Outside Area. If you do, Choose up to 1 character on your field, set it to active.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_OPM-P-003.png?v9"
+ }
+}

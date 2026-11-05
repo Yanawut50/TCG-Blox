@@ -1,0 +1,130 @@
+{
+ "MSS-P-001": {
+  "key": "MSS-P-001",
+  "numberJp": "UAPR/MSS-P-001",
+  "nameEn": "",
+  "nameJp": "魔都精兵のスレイブ",
+  "series": "魔都精兵のスレイブ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red",
+   "Blue",
+   "Yellow",
+   "Green",
+   "Purple"
+  ],
+  "rarity": "PR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "このカードの色と必要エナジーは、全ての色として扱う。自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "This card's color and required energy are treated as all colors. Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_MSS-P-001.png?v9"
+ },
+ "MSS-P-002": {
+  "key": "MSS-P-002",
+  "numberJp": "UAPR/MSS-P-002",
+  "nameEn": "",
+  "nameJp": "羽前 京香",
+  "series": "魔都精兵のスレイブ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PR",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "魔防隊",
+   "七番組"
+  ],
+  "effectJp": "自分のターン中にこのキャラがレイドされた時、自分の場の〈和倉 優希（無窮の鎖）〉を1枚まで選び、このターン中、BP+1000。（レイドしたキャラの【登場時】とこの効果は望む順で処理する）【登場時】自分の山札の上から2枚見て、〈羽前 京香〉か〈和倉 優希（無窮の鎖）〉を1枚まで場外に置き、残りを望む順で山札の上に置く。",
+  "effectEn": "When this character is Raided during your turn, choose up to 1 <和倉 優希（無窮の鎖）> on your field; it gets BP+1000 this turn. (Of the Raided character's [On Play] and this effect are resolved in any order) [On Play] Look at the top 2 card(s) of your deck, put up to 1 <羽前 京香> or <和倉 優希（無窮の鎖）> among them into your Outside Area, and put the rest back on top of your deck in any order.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_MSS-P-002.png?v9"
+ },
+ "MSS-P-003": {
+  "key": "MSS-P-003",
+  "numberJp": "UAPR/MSS-P-003",
+  "nameEn": "",
+  "nameJp": "日万凛＆朱々",
+  "series": "魔都精兵のスレイブ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PR",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "魔防隊",
+   "七番組"
+  ],
+  "effectJp": "このカードは〈東 日万凛〉としても〈駿河 朱々〉としても扱い、〈日万凛＆朱々〉として扱わない。自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【黄×2】減らす。【登場時】自分の場に［特徴：七番組］のカード名が4種類以上ある場合、自分の場のキャラを1枚まで選び、このターン中、BP+1000。【アタック時】自分のフロントLに空きがある場合、このキャラはこのターン中、BP+1000。",
+  "effectEn": "This card is treated as both <東 日万凛> and <駿河 朱々>, and is not treated as <日万凛＆朱々>. If you have no cards on your field, the required energy of this card in your hand [Yellow x2]is reduced. [On Play] If you have 4 or more [Trait: 7th Division] with different card names on your field, Choose up to 1 character on your field, it gets BP+1000 this turn. [When Attacking] If your Front Line has an open space, this character gets BP+1000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_MSS-P-003.png?v9"
+ },
+ "MSS-P-004": {
+  "key": "MSS-P-004",
+  "numberJp": "UAPR/MSS-P-004",
+  "nameEn": "",
+  "nameJp": "出雲 天花",
+  "series": "魔都精兵のスレイブ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "PR",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "魔防隊",
+   "六番組"
+  ],
+  "effectJp": "このキャラはこのターン中に自分の効果で「1枚以上のキャラの移動」が2回以上行われている場合のみアタックできる。【自分のターン中】このキャラはBP+2000。【登場時】【エナジーLにある場合】このキャラをアクティブにする。",
+  "effectEn": "This character can only attack if “moving 1 or more characters” has been performed 2 or more times by your own effects this turn. [During Your Turn] This character gets BP+2000. [On Play] [While in Energy Line] Set this character to active.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_MSS-P-004.png?v9"
+ }
+}

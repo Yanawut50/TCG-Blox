@@ -1,0 +1,2390 @@
+{
+ "ARK-2-001": {
+  "key": "ARK-2-001",
+  "numberJp": "EX11BT/ARK-2-001",
+  "nameEn": "",
+  "nameJp": "ミーシャ",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】必要エナジーが0の自分の場のアクティブのキャラを2枚までレストにしてもよい。2枚レストにしなかった場合、このキャラを自分の手札に戻す。",
+  "effectEn": "[On Play] You may rest up to 2 active character(s) on your field with required energy 0. If you didn't rest 2, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-001.png?v8"
+ },
+ "ARK-2-002": {
+  "key": "ARK-2-002",
+  "numberJp": "EX11BT/ARK-2-002",
+  "nameEn": "",
+  "nameJp": "Guard",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "レユニオン"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-002.png?v8"
+ },
+ "ARK-2-003": {
+  "key": "ARK-2-003",
+  "numberJp": "EX11BT/ARK-2-003",
+  "nameEn": "",
+  "nameJp": "W",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "レユニオン"
+  ],
+  "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】必要エナジーが4以下の自分のエナジーLのキャラを1枚選び、このキャラと位置を入れ替える。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 character in your Energy Line with required energy 4 or less and swap its position with this character.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-003.png?v8"
+ },
+ "ARK-2-004": {
+  "key": "ARK-2-004",
+  "numberJp": "EX11BT/ARK-2-004",
+  "nameEn": "",
+  "nameJp": "W",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "レユニオン"
+  ],
+  "effectJp": "【レイド】〈W〉アクティブにし、フロントLに移動できる【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【ターン1】このキャラがフロントLからエナジーLに移動した時、相手のフロントLのキャラを1枚まで選び、退場させる。BP1500以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。【退場時】カードを2枚引く。",
+  "effectEn": "[Raid] Can Raid onto <W>; set it to active and you may move it to the Front Line. [Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [Once Per Turn] When this character moves from the Front Line to the Energy Line, choose up to 1 character in your opponent's Front Line and retire it. Choose up to 1 character in your opponent's Front Line with BP 1500 or more, it gets BP-1000 this turn. [On Retire] Draw 2 card(s).",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-004.png?v8"
+ },
+ "ARK-2-005": {
+  "key": "ARK-2-005",
+  "numberJp": "EX11BT/ARK-2-005",
+  "nameEn": "",
+  "nameJp": "タルラ",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "レユニオン"
+  ],
+  "effectJp": "【登場時】自分の場のアクティブのキャラを2枚レストにしてもよい。そうした場合、自分の手札から必要エナジーが2以下で消費APが1の黄のキャラカードを1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[On Play] You may rest 2 active characters on your field. If you do, Play up to 1 Yellow character card with required energy 2 or less and with AP cost 1 from your hand to your field rested.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-005.png?v8"
+ },
+ "ARK-2-006": {
+  "key": "ARK-2-006",
+  "numberJp": "EX11BT/ARK-2-006",
+  "nameEn": "",
+  "nameJp": "パトリオット",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "レユニオン"
+  ],
+  "effectJp": "【登場時】相手は自身の場のアクティブのキャラを2枚レストにする。",
+  "effectEn": "[On Play] Your opponent rests 2 active character(s) on their field.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-006.png?v8"
+ },
+ "ARK-2-007": {
+  "key": "ARK-2-007",
+  "numberJp": "EX11BT/ARK-2-007",
+  "nameEn": "",
+  "nameJp": "パトリオット",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "レユニオン"
+  ],
+  "effectJp": "【自分のターン中】相手の場にレストのキャラが2枚以上ある場合、このキャラは【インパクト（1）】と【ダメージ（2）】を得る。【登場時】相手のエナジーLのキャラを1枚まで選び、レストにする。それは次の1回アクティブにならない。このキャラは次の自分のターン開始時まで、BP+1000。【起動メイン】【フロントLにある場合】【ターン1】このキャラの【登場時】を発動する。",
+  "effectEn": "[During Your Turn] If your opponent has 2 or more rested characters on their field, this character gains [Impact 1] and [Damage 2]. [On Play] Choose up to 1 character in your opponent's Energy Line, rest it. It does not become active the next 1 time(s). This character gets BP+1000 until the start of your next turn. [Activate: Main] [While in Front Line] [Once Per Turn] Activate this character's [On Play].",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】相手のフロントLのキャラを1枚選び、レストにする。それは次の1回アクティブにならない。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-007.png?v8"
+ },
+ "ARK-2-008": {
+  "key": "ARK-2-008",
+  "numberJp": "EX11BT/ARK-2-008",
+  "nameEn": "",
+  "nameJp": "メフィスト",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "レユニオン"
+  ],
+  "effectJp": "【自分のターン中】自分の効果でこのキャラが場を離れた時、カードを1枚引く。",
+  "effectEn": "[During Your Turn] When this character leaves the field due to your own effect, draw 1 card(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-008.png?v8"
+ },
+ "ARK-2-009": {
+  "key": "ARK-2-009",
+  "numberJp": "EX11BT/ARK-2-009",
+  "nameEn": "",
+  "nameJp": "Mephisto・歌う者",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "レユニオン"
+  ],
+  "effectJp": "【レイド】〈メフィスト〉アクティブにし、フロントLに移動できる【起動メイン】【フロントLにある場合】【ターン1】このキャラの【退場時】を発動する。【退場時】BP1500以上の相手のフロントLのキャラ全ては、このターン中、BP-1000。",
+  "effectEn": "[Raid] Can Raid onto <メフィスト>; set it to active and you may move it to the Front Line. [Activate: Main] [While in Front Line] [Once Per Turn] Activate this character's [On Retire]. [On Retire] All characters in your opponent's Front Line with BP 1500 or more it gets BP-1000 this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-009.png?v8"
+ },
+ "ARK-2-010": {
+  "key": "ARK-2-010",
+  "numberJp": "EX11BT/ARK-2-010",
+  "nameEn": "",
+  "nameJp": "フロストノヴァ",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "レユニオン",
+   "スノーデビル小隊"
+  ],
+  "effectJp": "【登場時】相手の場のレストのキャラ2枚につき、カードを1枚引く。",
+  "effectEn": "[On Play] For each 2 rested characters on your opponent's field, Draw 1 card(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-010.png?v8"
+ },
+ "ARK-2-011": {
+  "key": "ARK-2-011",
+  "numberJp": "EX11BT/ARK-2-011",
+  "nameEn": "",
+  "nameJp": "レユニオンの「暴君」",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "カードを1枚引き、自分のエナジーLのレストのキャラ全てを、アクティブにする。この効果でカードを3枚以上アクティブにした場合、自分のAPカードを1枚まで選び、アクティブにする。",
+  "effectEn": "Draw 1 card(s), and set all rested characters in your Energy Line to active. If you set 3 or more cards to active with this effect, choose up to 1 of your AP cards and set them to active.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-011.png?v8"
+ },
+ "ARK-2-012": {
+  "key": "ARK-2-012",
+  "numberJp": "EX11BT/ARK-2-012",
+  "nameEn": "",
+  "nameJp": "受け継がれる意志",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場外から必要エナジーが1以下で消費APが1の黄のキャラカードを1枚まで自分の場にレストで登場させるかレイドさせる。その後、必要エナジーが2以下の自分の場のキャラ全ては、このターン中、BP+1000。",
+  "effectEn": "Play up to 1 Yellow character card with required energy 1 or less and with AP cost 1 from your Outside Area to your field rested or Raid it. Then, all characters on your field with required energy 2 or less it gets BP+1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-012.png?v8"
+ },
+ "ARK-2-013": {
+  "key": "ARK-2-013",
+  "numberJp": "EX11BT/ARK-2-013",
+  "nameEn": "",
+  "nameJp": "盾兵",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "レユニオン"
+  ],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中から〈ロスモンティス〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 <ロスモンティス> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-013.png?v8"
+ },
+ "ARK-2-014": {
+  "key": "ARK-2-014",
+  "numberJp": "EX11BT/ARK-2-014",
+  "nameEn": "",
+  "nameJp": "アーミヤ",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "R",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ロドス・アイランド製薬"
+  ],
+  "effectJp": "このキャラは可能ならアタックしなければならない。【登場時】自分のエナジーLにBP4000以上のキャラがある場合、このキャラをアクティブにする。【アタック時】以下から1つ選ぶ。・このキャラは次の1回アクティブにならない。・自分の場のキャラを1枚選び、退場させる。",
+  "effectEn": "This character must attack if able. [On Play] If you have character with BP 4000 or more in your Energy Line, Set this character to active. [When Attacking] Choose 1 of the following. This character it does not become active the next 1 time(s). Choose 1 character on your field, retire it.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-014.png?v8"
+ },
+ "ARK-2-015": {
+  "key": "ARK-2-015",
+  "numberJp": "EX11BT/ARK-2-015",
+  "nameEn": "",
+  "nameJp": "エリジウム",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ロドス・アイランド製薬"
+  ],
+  "effectJp": "【起動メイン】【レストにする】自分の山札の上から3枚見る。その中から［特徴：ロドス・アイランド製薬］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。このキャラはこのターン中、「メインフェイズ終了時、このキャラを退場させる。」を得る。〈エリジウム〉のこの効果は1ターンに1回のみ発動できる。",
+  "effectEn": "[Activate: Main] [Rest this card] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: Rhodes Island Pharmaceutical] among them and add it to your hand. Put the rest on the bottom of your deck in any order. This character gains “At the end of the Main Phase, retire this character” this turn. This <エリジウム> effect can only activate 1 time(s) per 1 turn(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-015.png?v8"
+ },
+ "ARK-2-016": {
+  "key": "ARK-2-016",
+  "numberJp": "UAPR/ARK-2-016",
+  "nameEn": "",
+  "nameJp": "ケルシー",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ロドス・アイランド製薬"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見る。その中から1枚まで場外に置き、残りを望む順で山札の上に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Put up to 1 of them into your Outside Area, Put the rest on top of your deck in any order.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_ARK-2-016.png?v9"
+ },
+ "ARK-2-017": {
+  "key": "ARK-2-017",
+  "numberJp": "EX11BT/ARK-2-017",
+  "nameEn": "",
+  "nameJp": "ケルシー",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ロドス・アイランド製薬"
+  ],
+  "effectJp": "【登場時】自分の場外から〈ケルシー〉以外の必要エナジーが『3以下』のキャラカードを1枚まで手札に加える。APを1支払ってもよい。そうした場合、『4以上』に代わる。",
+  "effectEn": "[On Play] Add up to 1 character card other than <ケルシー> with required energy “3 or less” from your Outside Area to your hand. You may pay 1 AP. If you do, it becomes “4 or more” instead.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-017.png?v8"
+ },
+ "ARK-2-018": {
+  "key": "ARK-2-018",
+  "numberJp": "EX11BT/ARK-2-018",
+  "nameEn": "",
+  "nameJp": "ニアール",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ロドス・アイランド製薬"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【退場時】自分のライフが6以下の場合、自分の手札を1枚場外に置いてもよい。そうした場合、このカードを自分のライフエリアに表向きで置く。",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Retire] If you have 6 or less Life, you may put 1 card(s) from your hand into your Outside Area. If you do, put this card face up into your Life Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-018.png?v8"
+ },
+ "ARK-2-019": {
+  "key": "ARK-2-019",
+  "numberJp": "EX11BT/ARK-2-019",
+  "nameEn": "",
+  "nameJp": "ワルファリン",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ロドス・アイランド製薬"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】自分の場の他のキャラを1枚まで選び、このターン中、BP+2000。このキャラはこのターン中、BP+2000と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] Choose up to 1 other character on your field, it gets BP+2000 this turn. This character it gets BP+2000 and gains “At the end of the Main Phase, retire this character” this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-019.png?v8"
+ },
+ "ARK-2-020": {
+  "key": "ARK-2-020",
+  "numberJp": "EX11BT/ARK-2-020",
+  "nameEn": "",
+  "nameJp": "ブレイズ",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ロドス・アイランド製薬",
+   "エリートオペレーター"
+  ],
+  "effectJp": "【アタック時】自分の手札を1枚場外に置いてもよい。そうした場合、BP1000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
+  "effectEn": "[When Attacking] You may put 1 card(s) from your hand into your Outside Area. If you do, Choose up to 1 character in your opponent's Front Line with BP 1000 or less, retire it.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP3500以下の相手のフロントLのキャラを1枚選び、手札に戻す。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 3500 or less, return it to its owner's hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-020.png?v8"
+ },
+ "ARK-2-021": {
+  "key": "ARK-2-021",
+  "numberJp": "EX11BT/ARK-2-021",
+  "nameEn": "",
+  "nameJp": "ロスモンティス",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ロドス・アイランド製薬",
+   "エリートオペレーター"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-021.png?v8"
+ },
+ "ARK-2-022": {
+  "key": "ARK-2-022",
+  "numberJp": "EX11BT/ARK-2-022",
+  "nameEn": "",
+  "nameJp": "ロスモンティス",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ロドス・アイランド製薬",
+   "エリートオペレーター"
+  ],
+  "effectJp": "【アタック時】BP1500以下の相手のフロントLのキャラを1枚まで選び、レストにする。",
+  "effectEn": "[When Attacking] Choose up to 1 character in your opponent's Front Line with BP 1500 or less, rest it.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-022.png?v8"
+ },
+ "ARK-2-023": {
+  "key": "ARK-2-023",
+  "numberJp": "EX11BT/ARK-2-023",
+  "nameEn": "",
+  "nameJp": "ロスモンティス",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "SR",
+  "needEnergy": 6,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Blue",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ロドス・アイランド製薬",
+   "エリートオペレーター"
+  ],
+  "effectJp": "【レイド】〈ロスモンティス〉アクティブにし、フロントLに移動できる【登場時】相手のフロントLのキャラを1枚まで選び、レストにする。それは次の1回アクティブにならない。【起動メイン】【フロントLにある場合】【ターン1】カードを1枚引く。BP2500以上の相手のフロントLのキャラ全ては、このターン中、BP-2000。",
+  "effectEn": "[Raid] Can Raid onto <ロスモンティス>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s). [Activate: Main] [While in Front Line] [Once Per Turn] Draw 1 card(s). All characters in your opponent's Front Line with BP 2500 or more it gets BP-2000 this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-023.png?v8"
+ },
+ "ARK-2-024": {
+  "key": "ARK-2-024",
+  "numberJp": "EX11BT/ARK-2-024",
+  "nameEn": "",
+  "nameJp": "「君が望むままに」",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Blue"
+  ],
+  "rarity": "C",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "BP5000以下の相手のフロントLのキャラを1枚まで選び、『手札に戻す』。自分の場に〈ロスモンティス〉がある場合、『退場させる』に代わる。",
+  "effectEn": "Choose up to 1 character in your opponent's Front Line with BP 5000 or less, “return it to its owner's hand” If you have <ロスモンティス> on your field, it becomes “retire it” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-024.png?v8"
+ },
+ "ARK-2-025": {
+  "key": "ARK-2-025",
+  "numberJp": "EX11BT/ARK-2-025",
+  "nameEn": "",
+  "nameJp": "アリーナ",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このカードはフロントLに登場できず、フロントLに移動できない。【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【紫】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
+  "effectEn": "This card cannot be played to the Front Line and cannot move to the Front Line. [Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Purple] and gains “At the end of the Main Phase, retire this character”",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-025.png?v8"
+ },
+ "ARK-2-026": {
+  "key": "ARK-2-026",
+  "numberJp": "EX11BT/ARK-2-026",
+  "nameEn": "",
+  "nameJp": "アリーナ",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-026.png?v8"
+ },
+ "ARK-2-027": {
+  "key": "ARK-2-027",
+  "numberJp": "EX11BT/ARK-2-027",
+  "nameEn": "",
+  "nameJp": "アリーナ",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【エナジーLにある場合】自分のアタックフェイズ終了時、BP1500以上の自分のフロントLのキャラを1枚選び、このキャラと位置を入れ替えてもよい。【退場時】カードを1枚引く。自分の山札の上から3枚を場外に置く。",
+  "effectEn": "[While in Energy Line] At the end of your Attack Phase, you may choose 1 character in your Front Line with BP 1500 or more and swap its position with this character. [On Retire] Draw 1 card(s). Put the top 3 card(s) of your deck into your Outside Area.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の場外から必要エナジーが2以下で消費APが1の紫のキャラカードを1枚自分のフロントLにアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Purple character card with required energy 2 or less and with AP cost 1 from your Outside Area to your Front Line active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-027.png?v8"
+ },
+ "ARK-2-028": {
+  "key": "ARK-2-028",
+  "numberJp": "EX11BT/ARK-2-028",
+  "nameEn": "",
+  "nameJp": "イーノ",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【退場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Retire] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-028.png?v8"
+ },
+ "ARK-2-029": {
+  "key": "ARK-2-029",
+  "numberJp": "EX11BT/ARK-2-029",
+  "nameEn": "",
+  "nameJp": "皇帝の利刃",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】カードを1枚引く。その後、相手の場のフィールドを1枚まで選び、退場させる。",
+  "effectEn": "[On Play] Draw 1 card(s). Then, Choose up to 1 Field on your opponent's field, retire it.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-029.png?v8"
+ },
+ "ARK-2-030": {
+  "key": "ARK-2-030",
+  "numberJp": "EX11BT/ARK-2-030",
+  "nameEn": "",
+  "nameJp": "コシチェイ",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分の場の他のキャラを1枚選び、このターン中、「このキャラはフロントLにある場合もエナジーを発生させる。」を与える。【退場時】このカードを裏向きで自分の場のカード名に「タルラ」を含むキャラ1枚の下に置いてもよい。そうした場合、自分の山札の上から3枚を場外に置く。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 other character on your field, it gains “This character also generates energy while in the Front Line” this turn. [On Retire] You may put this card face down under 1 character with “Talulah” in its card name on your field. If you do, Put the top 3 card(s) of your deck into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-030.png?v8"
+ },
+ "ARK-2-031": {
+  "key": "ARK-2-031",
+  "numberJp": "EX11BT/ARK-2-031",
+  "nameEn": "",
+  "nameJp": "サーシャ",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分の山札の上から1枚見る。そのカードを山札の上か場外に置く。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Look at the top 1 card(s) of your deck. Put that card on top of your deck or into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-031.png?v8"
+ },
+ "ARK-2-032": {
+  "key": "ARK-2-032",
+  "numberJp": "EX11BT/ARK-2-032",
+  "nameEn": "",
+  "nameJp": "W",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】以下から1つ選ぶ。・自分の場外にカードが15枚以上ある場合、自分の場の［特徴：レユニオン］を1枚まで選び、このターン中、【インパクト（+1）】を与える。・自分のリムーブエリアにカードが9枚以上ある場合、自分の場の［特徴：ロドス・アイランド製薬］を1枚まで選び、このターン中、【インパクト（+1）】を与える。",
+  "effectEn": "[On Play] Choose 1 of the following. If you have 15 or more cards in your Outside Area, Choose up to 1 [Trait: Reunion] on your field, This turn, [Impact +1] is given. If you have 9 or more cards in your Remove Area, choose up to 1 [Trait: Rhodes Island Pharmaceutical] on your field; it gains [Impact +1] this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-032.png?v8"
+ },
+ "ARK-2-033": {
+  "key": "ARK-2-033",
+  "numberJp": "EX11BT/ARK-2-033",
+  "nameEn": "",
+  "nameJp": "W",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の手札の【スペシャルトリガー】を持つカードを1枚公開し、このキャラの下に裏向きで置いてもよい。そうした場合、このキャラをアクティブにし、自分の山札の上から1枚を裏向きでこのキャラの下に置く。【退場時】このキャラの下の裏向きのカードを全て公開し手札に加える。",
+  "effectEn": "[On Play] You may reveal 1 card with [Special Trigger] from your hand and put it face down under this character. If you do, set this character to active, and put the top 1 card(s) of your deck face down under this character. [On Retire] Reveal all face-down cards under this character and add them to your hand.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-033.png?v8"
+ },
+ "ARK-2-034": {
+  "key": "ARK-2-034",
+  "numberJp": "EX11BT/ARK-2-034",
+  "nameEn": "",
+  "nameJp": "チェン",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-034.png?v8"
+ },
+ "ARK-2-035": {
+  "key": "ARK-2-035",
+  "numberJp": "EX11BT/ARK-2-035",
+  "nameEn": "",
+  "nameJp": "チェン",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場外のカードを1枚までリムーブエリアに置く。その後、自分のリムーブエリアにカードが3枚以上ある場合、自分の場のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] Put into the owner's remove area up to 1 card in your Outside Area. Then, if you have 3 or more cards in your Remove Area, choose up to 1 character on your field; it gets BP+1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-035.png?v8"
+ },
+ "ARK-2-036": {
+  "key": "ARK-2-036",
+  "numberJp": "EX11BT/ARK-2-036",
+  "nameEn": "",
+  "nameJp": "チェン",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【自分のターン中】自分のリムーブエリアにカードが3枚以上ある場合、このキャラは【ダメージ（+1）】（このキャラがアタックで直接ダメージを与える時、追加で1ダメージ）を得る。",
+  "effectEn": "[During Your Turn] If you have 3 or more cards in your Remove Area, this character gains [Damage +1] (When this character deals direct damage by attacking, it deals 1 additional damage)",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-036.png?v8"
+ },
+ "ARK-2-037": {
+  "key": "ARK-2-037",
+  "numberJp": "EX11BT/ARK-2-037",
+  "nameEn": "",
+  "nameJp": "チェン",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【起動メイン】【フロントLにある場合】【ターン1】自分の場外のカードを1枚リムーブエリアに置く。",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [Activate: Main] [While in Front Line] [Once Per Turn] Put into the owner's remove area 1 card in your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-037.png?v8"
+ },
+ "ARK-2-038": {
+  "key": "ARK-2-038",
+  "numberJp": "EX11BT/ARK-2-038",
+  "nameEn": "",
+  "nameJp": "チェン",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【レイド】〈チェン〉アクティブにし、フロントLに移動できる【起動メイン】自分のリムーブエリアにあるカード3枚につき、このキャラはこのターン中、【ダメージ（+1）】を得る。〈チェン〉のこの効果は1ターンに1回のみ発動できる。【起動メイン】【フロントLにある場合】【ターン1】カードを1枚引く。自分の場外のカードを1枚までリムーブエリアに置く。",
+  "effectEn": "[Raid] Can Raid onto <チェン>; set it to active and you may move it to the Front Line. [Activate: Main] This character gains [Damage +1] this turn for each 3 card(s) in your Remove Area. This <チェン> effect can only activate 1 time(s) per 1 turn(s). [Activate: Main] [While in Front Line] [Once Per Turn] Draw 1 card(s). Put into the owner's remove area up to 1 card in your Outside Area.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-038.png?v8"
+ },
+ "ARK-2-039": {
+  "key": "ARK-2-039",
+  "numberJp": "EX11BT/ARK-2-039",
+  "nameEn": "",
+  "nameJp": "闘士タルラ",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "レユニオン"
+  ],
+  "effectJp": "自分の場外にカードが15枚以上ある場合、このカードのカード名は〈不死の黒蛇 タルラ〉に変わる。自分の場外にカードが15枚以上ある場合、このキャラの発生エナジー+【紫】。",
+  "effectEn": "If you have 15 or more cards in your Outside Area, this card's name becomes <不死の黒蛇 タルラ>. If you have 15 or more cards in your Outside Area, This character's generated energy +[Purple].",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-039.png?v8"
+ },
+ "ARK-2-040": {
+  "key": "ARK-2-040",
+  "numberJp": "EX11BT/ARK-2-040",
+  "nameEn": "",
+  "nameJp": "闘士タルラ",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "レユニオン"
+  ],
+  "effectJp": "自分の場外にカードが15枚以上ある場合、このカードのカード名は〈不死の黒蛇 タルラ〉に変わる。【登場時】【エナジーLにある場合】自分の手札を1枚場外に置く。この効果で場外に置いたカードが〈コシチェイ〉の場合、そのカードの【退場時】を発動してもよい。",
+  "effectEn": "If you have 15 or more cards in your Outside Area, this card's name becomes <不死の黒蛇 タルラ>. [On Play] [While in Energy Line] Put 1 card(s) from your hand into your Outside Area. If the card put into your Outside Area by this effect is <コシチェイ>, you may activate that card's [On Retire].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-040.png?v8"
+ },
+ "ARK-2-041": {
+  "key": "ARK-2-041",
+  "numberJp": "EX11BT/ARK-2-041",
+  "nameEn": "",
+  "nameJp": "闘士タルラ",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "レユニオン"
+  ],
+  "effectJp": "自分の場外にカードが15枚以上ある場合、このカードのカード名は〈不死の黒蛇 タルラ〉に変わる。【起動メイン】【レストにする】【ターン1】BP1000以下の自分の場のキャラを1枚選び、別のラインに移動させる。",
+  "effectEn": "If you have 15 or more cards in your Outside Area, this card's name becomes <不死の黒蛇 タルラ>. [Activate: Main] [Rest this card] [Once Per Turn] Choose 1 character on your field with BP 1000 or less, move it to another line.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-041.png?v8"
+ },
+ "ARK-2-042": {
+  "key": "ARK-2-042",
+  "numberJp": "EX11BT/ARK-2-042",
+  "nameEn": "",
+  "nameJp": "闘士タルラ",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "レユニオン"
+  ],
+  "effectJp": "自分の場外にカードが15枚以上ある場合、このカードのカード名は〈不死の黒蛇 タルラ〉に変わる。【レイド】〈闘士タルラ〉/〈不死の黒蛇 タルラ〉アクティブにし、フロントLに移動できる【登場時】カードを1枚引く。【アタック時】【ターン1】BP1000以下の自分のフロントLのアクティブのキャラを1枚レストにしてもよい。そうした場合、このキャラをアクティブにし、その後、BP1000以下の自分のエナジーLのアクティブのキャラを1枚レストにしてもよい。そうしたなら、カードを1枚引く。",
+  "effectEn": "If you have 15 or more cards in your Outside Area, this card's name becomes <不死の黒蛇 タルラ>. [Raid] <闘士タルラ>/Can Raid onto <不死の黒蛇 タルラ>; set it to active and you may move it to the Front Line. [On Play] Draw 1 card(s). [When Attacking] [Once Per Turn] You may rest 1 active character in your Front Line with BP 1000 or less. If you do, set this character to active; then you may rest 1 active character in your Energy Line with BP 1000 or less. If you do, draw 1 card(s).",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-042.png?v8"
+ },
+ "ARK-2-043": {
+  "key": "ARK-2-043",
+  "numberJp": "EX11BT/ARK-2-043",
+  "nameEn": "",
+  "nameJp": "パトリオット",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "レユニオン"
+  ],
+  "effectJp": "【フロントLにある場合】元々のBPが1000以下の自分の場のキャラは、BPをマイナスする効果を受けない。",
+  "effectEn": "[While in Front Line] Characters on your field with original BP 1000 or less are not affected by effects that reduce BP.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-043.png?v8"
+ },
+ "ARK-2-044": {
+  "key": "ARK-2-044",
+  "numberJp": "EX11BT/ARK-2-044",
+  "nameEn": "",
+  "nameJp": "不死の黒蛇 タルラ",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 7,
+  "ap": 1,
+  "bp": 5000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "レユニオン"
+  ],
+  "effectJp": "【レイド】〈不死の黒蛇 タルラ〉アクティブにし、フロントLに移動できる【2回アタック】（このキャラがこのターン初めてアタックした時、アクティブにする）【登場時】相手のフロントLのキャラを1枚まで選び、このターン中、BP-5000。【起動メイン】【フロントLにある場合】【ターン1】このキャラの下に裏向きのカードがある場合、相手のフロントLのキャラを1枚選び、次の自分のターン開始時まで、BP-2000。",
+  "effectEn": "[Raid] Can Raid onto <不死の黒蛇 タルラ>; set it to active and you may move it to the Front Line. [Double Attack] (The first time this character attacks each turn, set it to active) [On Play] Choose up to 1 character in your opponent's Front Line, it gets BP-5000 this turn. [Activate: Main] [While in Front Line] [Once Per Turn] If this character has face-down cards under it, choose 1 character in your opponent's Front Line; it gets BP-2000 until the start of your next turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-044.png?v8"
+ },
+ "ARK-2-045": {
+  "key": "ARK-2-045",
+  "numberJp": "EX11BT/ARK-2-045",
+  "nameEn": "",
+  "nameJp": "フロストノヴァ",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "レユニオン"
+  ],
+  "effectJp": "自分の場外にあるカード5枚につき、このキャラはBP+500。",
+  "effectEn": "For each 5 cards in your Outside Area, This character gets BP+500.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-045.png?v8"
+ },
+ "ARK-2-046": {
+  "key": "ARK-2-046",
+  "numberJp": "EX11BT/ARK-2-046",
+  "nameEn": "",
+  "nameJp": "フロストノヴァ",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "レユニオン"
+  ],
+  "effectJp": "【登場時】このターン中、次に手札から使用するBP1000以下のキャラカードの消費APを-1する。",
+  "effectEn": "[On Play] This turn, the next character card with BP 1000 or less you use from your hand costs 1 less AP.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-046.png?v8"
+ },
+ "ARK-2-047": {
+  "key": "ARK-2-047",
+  "numberJp": "EX11BT/ARK-2-047",
+  "nameEn": "",
+  "nameJp": "アーミヤ",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ロドス・アイランド製薬"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-047.png?v8"
+ },
+ "ARK-2-048": {
+  "key": "ARK-2-048",
+  "numberJp": "UAPR/ARK-2-048",
+  "nameEn": "",
+  "nameJp": "アーミヤ",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ロドス・アイランド製薬"
+  ],
+  "effectJp": "【登場時】自分の場に〈チェン〉がある場合、以下から1つ選ぶ。・カードを1枚引く。・自分の場外のカードを2枚までリムーブエリアに置く。",
+  "effectEn": "[On Play] If you have <チェン> on your field, Choose 1 of the following. Draw 1 card(s). Put into the owner's remove area up to 2 cards in your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_ARK-2-048.png?v9"
+ },
+ "ARK-2-049": {
+  "key": "ARK-2-049",
+  "numberJp": "UAPR/ARK-2-049",
+  "nameEn": "",
+  "nameJp": "アーミヤ",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ロドス・アイランド製薬"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見る。その中から［特徴：ロドス・アイランド製薬］か〈チェン〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: Rhodes Island Pharmaceutical] or <チェン> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の場外から必要エナジーが2以下で消費APが1の紫のキャラカードを1枚自分のフロントLにアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Purple character card with required energy 2 or less and with AP cost 1 from your Outside Area to your Front Line active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_ARK-2-049.png?v9"
+ },
+ "ARK-2-050": {
+  "key": "ARK-2-050",
+  "numberJp": "EX11BT/ARK-2-050",
+  "nameEn": "",
+  "nameJp": "アーミヤ",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ロドス・アイランド製薬"
+  ],
+  "effectJp": "【レイド】〈アーミヤ〉アクティブにし、フロントLに移動できる【ターン1】このキャラがアタックしてブロックされなかった時、自分の場外のカードを1枚までリムーブエリアに置く。【登場時】カードを1枚引く。その後、自分の手札から必要エナジーが『1以下』で消費APが1の紫のキャラカードを1枚まで自分の場にレストで登場させる。自分のリムーブエリアにカードが3枚以上ある場合、『3以下』に代わる。",
+  "effectEn": "[Raid] Can Raid onto <アーミヤ>; set it to active and you may move it to the Front Line. [Once Per Turn] When this character attacks and is not blocked, Put into the owner's remove area up to 1 card in your Outside Area. [On Play] Draw 1 card(s). Then, play up to 1 purple character card(s) with required energy “1 or less” and AP cost 1 from your hand to your field rested. If you have 3 or more cards in your Remove Area, it becomes “3 or less” instead.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-050.png?v8"
+ },
+ "ARK-2-051": {
+  "key": "ARK-2-051",
+  "numberJp": "UAPR/ARK-2-051",
+  "nameEn": "",
+  "nameJp": "アーミヤ",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "UR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ロドス・アイランド製薬"
+  ],
+  "effectJp": "【レイド】〈アーミヤ〉アクティブにし、フロントLに移動できる自分のリムーブエリアにあるカードの枚数により、このキャラは以下の効果を全て得る。・3枚以上：【登場時】BP3000以下の相手のフロントLのキャラを1枚まで選び、退場させる。・6枚以上：【インパクト（1）】・9枚以上：【起動メイン】【ターン1】自分の場の〈チェン〉を1枚まで選ぶ。このキャラはこのターン中、BP+1000と選んだ〈チェン〉と同じ数の【ダメージ（+1）】を得る。",
+  "effectEn": "[Raid] Can Raid onto <アーミヤ>; set it to active and you may move it to the Front Line. Depending on the number of cards in your Remove Area, this character gains all of the following effects. 3 or more: [On Play]Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it. 6 or more: [Impact 1]. 9 or more: [Activate: Main]. [Once Per Turn] Choose up to 1 <チェン> on your field. This turn, this character gets BP+1000 and gains [Damage +1] equal to the number of chosen <チェン>.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_ARK-2-051.png?v9"
+ },
+ "ARK-2-052": {
+  "key": "ARK-2-052",
+  "numberJp": "EX11BT/ARK-2-052",
+  "nameEn": "",
+  "nameJp": "ケルシー",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ロドス・アイランド製薬"
+  ],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【紫】。",
+  "effectEn": "While this character is active, its generated energy +[Purple].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-052.png?v8"
+ },
+ "ARK-2-053": {
+  "key": "ARK-2-053",
+  "numberJp": "EX11BT/ARK-2-053",
+  "nameEn": "",
+  "nameJp": "ドクター",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ロドス・アイランド製薬"
+  ],
+  "effectJp": "このカードが場外に置かれた時、このカードを場外からリムーブエリアに置いてもよい。そうした場合、このカードの【登場時】を発動する。このカードはフロントLに登場できず、フロントLに移動できない。【登場時】〈ドクター〉以外の自分の場の紫の〔［特徴：ロドス・アイランド製薬］か〈チェン〉〕を1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "When this card is put into your Outside Area, you may put this card from your Outside Area into your Remove Area. If you do, activate this card's [On Play]. This card cannot be played to the Front Line and cannot move to the Front Line. [On Play] Choose up to 1 Purple [Trait: Rhodes Island Pharmaceutical] or <チェン> on your field other than <ドクター>, it gets BP+1000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-053.png?v8"
+ },
+ "ARK-2-054": {
+  "key": "ARK-2-054",
+  "numberJp": "EX11BT/ARK-2-054",
+  "nameEn": "",
+  "nameJp": "ロスモンティス",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ロドス・アイランド製薬",
+   "エリートオペレーター"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-054.png?v8"
+ },
+ "ARK-2-055": {
+  "key": "ARK-2-055",
+  "numberJp": "EX11BT/ARK-2-055",
+  "nameEn": "",
+  "nameJp": "チェルノボーグ中枢区画",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】自分の場のキャラを1枚選び、このターン中、BP+1000。",
+  "effectEn": "This Field is played active. [Activate: Main] [Rest this card] Choose 1 character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-055.png?v8"
+ },
+ "ARK-2-056": {
+  "key": "ARK-2-056",
+  "numberJp": "EX11BT/ARK-2-056",
+  "nameEn": "",
+  "nameJp": "決戦",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-056.png?v8"
+ },
+ "ARK-2-057": {
+  "key": "ARK-2-057",
+  "numberJp": "EX11BT/ARK-2-057",
+  "nameEn": "",
+  "nameJp": "鎮まぬ悪炎",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "相手のフロントLのキャラを1枚選び、このターン中、BP-4000。自分の場に〈不死の黒蛇 タルラ〉がある場合、相手のフロントLのキャラ全ては、このターン中、BP-1000。",
+  "effectEn": "Choose 1 character in your opponent's Front Line, it gets BP-4000 this turn. If you have <不死の黒蛇 タルラ> on your field, all characters in your opponent's Front Line it gets BP-1000 this turn.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-057.png?v8"
+ },
+ "ARK-2-058": {
+  "key": "ARK-2-058",
+  "numberJp": "EX11BT/ARK-2-058",
+  "nameEn": "",
+  "nameJp": "赤霄＆影霄",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈アーミヤ〉か〈チェン〉がある場合、『BP4000以下』に代わる。自分の場に〈アーミヤ〉と〈チェン〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <アーミヤ> or <チェン> on your field, it becomes “BP 4000 or less” instead. If you have <アーミヤ> and <チェン> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-058.png?v8"
+ },
+ "ARK-2-059": {
+  "key": "ARK-2-059",
+  "numberJp": "EX11BT/ARK-2-059",
+  "nameEn": "",
+  "nameJp": "遠い日の思い出",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から4枚見る。その中から2枚まで手札に加え、残りをリムーブエリアに置く。",
+  "effectEn": "Look at the top 4 card(s) of your deck. Add up to 2 of them to your hand and put the rest into your Remove Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-059.png?v8"
+ },
+ "ARK-2-060": {
+  "key": "ARK-2-060",
+  "numberJp": "EX11BT/ARK-2-060",
+  "nameEn": "",
+  "nameJp": "不屈",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場外からキャラカードを1枚まで手札に加える。自分の場にカード名に「タルラ」を含むキャラがある場合、カードを1枚引く。",
+  "effectEn": "Add up to 1 character card from your Outside Area to your hand. If you have a character with “Talulah” in its card name on your field, draw 1 card(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-060.png?v8"
+ },
+ "ARK-2-061": {
+  "key": "ARK-2-061",
+  "numberJp": "EX11BT/ARK-2-061",
+  "nameEn": "",
+  "nameJp": "烈炎の中で",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "このカードは自分の場外にキャラカードがない場合のみ使用できる。以下から1つ選ぶ。・カードを3枚引く。・自分の場の〈アーミヤ〉を1枚まで選び、このターン中、BP+1000と【インパクト（+3）】（インパクトの与えるダメージが+3され、インパクトを持たない場合、【インパクト（3）】を得る）を与える。",
+  "effectEn": "This card can only be used if you have no character cards in your Outside Area. Choose 1 of the following. Draw 3 card(s). Choose up to 1 <アーミヤ> on your field; it gains BP+1000 and [Impact +3] (Impact damage is increased by 3; if it doesn't have Impact, it gains [Impact 3]) this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-061.png?v8"
+ },
+ "ARK-2-062": {
+  "key": "ARK-2-062",
+  "numberJp": "EX11BT/ARK-2-062",
+  "nameEn": "",
+  "nameJp": "モスティマ",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】相手のフロントLのキャラ全てに、このターン中、「このキャラがブロックしてバトルに勝利した時、このキャラをエナジーLに移動させる。」を与える。",
+  "effectEn": "[On Play] All characters in your opponent's Front Line gain “When this character blocks and wins a battle, move this character to the Energy Line” this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-062.png?v8"
+ },
+ "ARK-2-063": {
+  "key": "ARK-2-063",
+  "numberJp": "EX11BT/ARK-2-063",
+  "nameEn": "",
+  "nameJp": "エクシア",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "-",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ペンギン急便"
+  ],
+  "effectJp": "【相手のターン中】【フロントLにある場合】このキャラはBP-2000。【退場時】自分の山札の上から3枚見る。その中から［特徴：ペンギン急便］かBPが2500のキャラカードを1枚まで公開し手札に加える。残りを望む順で山札の下に置く。",
+  "effectEn": "[During Opponent's Turn] [While in Front Line] This character BP-2000. [On Retire] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: Penguin Logistics] or character card with BP 2500 among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-063.png?v8"
+ },
+ "ARK-2-064": {
+  "key": "ARK-2-064",
+  "numberJp": "EX11BT/ARK-2-064",
+  "nameEn": "",
+  "nameJp": "クロワッサン",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ペンギン急便"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【ブロック時】元々のBPが2500の自分のフロントLのアクティブのキャラを1枚レストにしてもよい。そうした場合、このキャラはこのターン中、BP+2500。",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [When Blocking] You may rest 1 active character in your Front Line with original BP 2500. If you do, This character gets BP+2500 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-064.png?v8"
+ },
+ "ARK-2-065": {
+  "key": "ARK-2-065",
+  "numberJp": "EX11BT/ARK-2-065",
+  "nameEn": "",
+  "nameJp": "ソラ",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ペンギン急便"
+  ],
+  "effectJp": "このキャラはアタックできない。【起動メイン】【レストにする】以下から1つ選ぶ。・自分の場の他のキャラを1枚選び、このターン中、BP+500。・自分の場の他のキャラを1枚選び、このターン中、BP+1500。このキャラを手札に戻す。",
+  "effectEn": "This character cannot attack. [Activate: Main] [Rest this card] Choose 1 of the following. Choose 1 other character on your field, it gets BP+500 this turn. Choose 1 other character on your field, it gets BP+1500 this turn. Return this character to your hand.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-065.png?v8"
+ },
+ "ARK-2-066": {
+  "key": "ARK-2-066",
+  "numberJp": "EX11BT/ARK-2-066",
+  "nameEn": "",
+  "nameJp": "テキサス",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ペンギン急便"
+  ],
+  "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【赤×2】減らす。【退場時】自分の手札から〈テキサス〉以外のBPが2500で消費APが1の赤のキャラカードを1枚まで自分のフロントLにレストで登場させる。",
+  "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Red x2]is reduced. [On Retire] Play up to 1 red character card(s) other than <テキサス> with BP 2500 and AP cost 1 from your hand to your Front Line rested.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-066.png?v8"
+ },
+ "ARK-2-067": {
+  "key": "ARK-2-067",
+  "numberJp": "EX11BT/ARK-2-067",
+  "nameEn": "",
+  "nameJp": "スワイヤー",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "龍門"
+  ],
+  "effectJp": "【退場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+3000。",
+  "effectEn": "[On Retire] Choose up to 1 other character on your field, it gets BP+3000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-067.png?v8"
+ },
+ "ARK-2-068": {
+  "key": "ARK-2-068",
+  "numberJp": "EX11BT/ARK-2-068",
+  "nameEn": "",
+  "nameJp": "チェン",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "龍門"
+  ],
+  "effectJp": "【退場時】カードを1枚引く。",
+  "effectEn": "[On Retire] Draw 1 card(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-068.png?v8"
+ },
+ "ARK-2-069": {
+  "key": "ARK-2-069",
+  "numberJp": "EX11BT/ARK-2-069",
+  "nameEn": "",
+  "nameJp": "チェン",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "龍門"
+  ],
+  "effectJp": "【起動メイン】【ターン1】このキャラと同じラインに【2回ブロック】を持つキャラがある場合のみ発動できる。このキャラはこのターン中、【ダメージ（2）】を得る。",
+  "effectEn": "[Activate: Main] [Once Per Turn] Can only activate if there is a character with [Double Block] in the same line as this character. This character, this turn, [Damage 2] is gained.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-069.png?v8"
+ },
+ "ARK-2-070": {
+  "key": "ARK-2-070",
+  "numberJp": "EX11BT/ARK-2-070",
+  "nameEn": "",
+  "nameJp": "ホシグマ",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "龍門"
+  ],
+  "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）【フロントLにある場合】【ターン1】自分が一度に2ダメージ以上受ける場合、代わりに1ダメージにしてもよい。",
+  "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active) [While in Front Line] [Once Per Turn] If you would take 2 or more damage at once, you may take 1 damage instead.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-070.png?v8"
+ },
+ "ARK-2-071": {
+  "key": "ARK-2-071",
+  "numberJp": "EX11BT/ARK-2-071",
+  "nameEn": "",
+  "nameJp": "ホシグマ",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "龍門"
+  ],
+  "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）【起動メイン】【フロントLにある場合】【ターン1】相手のフロントLにキャラがある場合のみ発動できる。自分の場の【ダメージ（2）】を持つキャラを1枚選び、アクティブにする。",
+  "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active) [Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if your opponent has a character in their Front Line. Choose 1 character with [Damage 2] on your field and set it to active.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP2500以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-071.png?v8"
+ },
+ "ARK-2-072": {
+  "key": "ARK-2-072",
+  "numberJp": "EX11BT/ARK-2-072",
+  "nameEn": "",
+  "nameJp": "リン",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "龍門"
+  ],
+  "effectJp": "【フロントLにある場合】このキャラがレストの場合、〈リン〉以外の自分のフロントLのキャラは、相手のイベントカードの効果で選ばれない。【自分のターン中】エンドフェイズにこのキャラをアクティブにしなくてもよい。",
+  "effectEn": "[While in Front Line] While this character is rested, characters in your Front Line other than <リン> cannot be chosen by the effects of your opponent's event cards. [During Your Turn] You don't have to set this character to active during the End Phase.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-072.png?v8"
+ },
+ "ARK-2-073": {
+  "key": "ARK-2-073",
+  "numberJp": "EX11BT/ARK-2-073",
+  "nameEn": "",
+  "nameJp": "謎に満ちた物流会社",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から5枚見る。その中から赤のキャラカードをBPの合計が7500以下になるように望む枚数公開し手札に加える。残りを望む順で山札の下に置く。",
+  "effectEn": "Look at the top 5 card(s) of your deck. Reveal any number of red character cards among them with a total BP of 7500 or less and add them to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-073.png?v8"
+ },
+ "ARK-2-AP01": {
+  "key": "ARK-2-AP01",
+  "numberJp": "EX11BT/ARK-2-AP01",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アークナイツ)",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-AP01.png?v8"
+ },
+ "ARK-2-AP02": {
+  "key": "ARK-2-AP02",
+  "numberJp": "EX11BT/ARK-2-AP02",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アークナイツ)",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-AP02.png?v8"
+ },
+ "ARK-2-AP03": {
+  "key": "ARK-2-AP03",
+  "numberJp": "EX11BT/ARK-2-AP03",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アークナイツ)",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-AP03.png?v8"
+ },
+ "ARK-2-AP04": {
+  "key": "ARK-2-AP04",
+  "numberJp": "EX11BT/ARK-2-AP04",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アークナイツ)",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-AP04.png?v8"
+ },
+ "ARK-2-AP05": {
+  "key": "ARK-2-AP05",
+  "numberJp": "EX11BT/ARK-2-AP05",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アークナイツ)",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-AP05.png?v8"
+ },
+ "ARK-2-AP06": {
+  "key": "ARK-2-AP06",
+  "numberJp": "EX11BT/ARK-2-AP06",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アークナイツ)",
+  "series": "アークナイツ",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/EX11BT_ARK-2-AP06.png?v8"
+ }
+}

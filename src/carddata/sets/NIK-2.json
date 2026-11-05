@@ -1,0 +1,1660 @@
+{
+ "NIK-2-001": {
+  "key": "NIK-2-001",
+  "numberJp": "PC02BT/NIK-2-001",
+  "nameEn": "Abe",
+  "nameJp": "エイブ",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PcC",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "オールドテイルズ"
+  ],
+  "effectJp": "このカードは〈グレイブ〉としても扱う。【起動メイン】【レストにする】自分のリムーブエリアにカードが10枚以上ある場合のみ発動できる。このキャラをリムーブエリアに置き、カードを1枚引く。このターン中、次に手札から使用する元々の必要エナジーが10以上の〈シンデレラ〉の必要エナジーを【黄×6】減らす。",
+  "effectEn": "This card is also treated as <Grave>. [Activate: Main] [Rest this card] Can only activate if you have 10 or more cards in your Remove Area. Put this character into the Remove Area and draw 1 card(s). This turn, reduce the required energy of the next <Cinderella> with original required energy 10 or more you use from your hand by [Yellow x6].",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-001.png?v8"
+ },
+ "NIK-2-002": {
+  "key": "NIK-2-002",
+  "numberJp": "PC02BT/NIK-2-002",
+  "nameEn": "Neon: Blue Ocean",
+  "nameJp": "ネオン：ブルーオーシャン",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PcR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "エリシオン",
+   "カウンターズ"
+  ],
+  "effectJp": "このカードは〈ネオン〉としても扱う。【自分のターン中】このターン中に自分がイベントカードを使用している場合、このキャラはBP+1000。このキャラのアタックがブロックされなかった時、カードを1枚引く。",
+  "effectEn": "This card is also treated as <Neon>. [During Your Turn] If you have used an Event card this turn, this character gets BP+1000. When this character's attack is not blocked, draw 1 card(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-002.png?v8"
+ },
+ "NIK-2-003": {
+  "key": "NIK-2-003",
+  "numberJp": "PC02BT/NIK-2-003",
+  "nameEn": "Marian (PcSR**)",
+  "nameJp": "マリアン",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PcSR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "エリシオン",
+   "カウンターズ"
+  ],
+  "effectJp": "【登場時】【エナジーLにある場合】このキャラをアクティブにする。【起動メイン】【レストにする】このターン中に自分が〈記憶〉を使用している場合のみ発動できる。以下から1つ選ぶ。このターン中に〈マリアン〉が既に選んだ効果は選べない。・自分の場の［特徴：カウンターズ］を1枚選び、このターン中、BP+2000。・BP2500以上の相手のフロントLのキャラを1枚選び、このターン中、BP-2000。",
+  "effectEn": "[On Play] [While in Energy Line] Set this character to active. [Activate: Main] [Rest this card] Can only activate if you have used <Memory> this turn. Choose 1 of the following. You cannot choose an effect <Marian (PcSR**)> has already chosen this turn. Choose 1 [Trait: Counters] on your field, it gets BP+2000 this turn. Choose 1 character in your opponent's Front Line with BP 2500 or more, it gets BP-2000 this turn.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】相手のフロントLのキャラを1枚選び、レストにする。それは次の1回アクティブにならない。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-003.png?v8"
+ },
+ "NIK-2-004": {
+  "key": "NIK-2-004",
+  "numberJp": "PC02BT/NIK-2-004",
+  "nameEn": "Rapi",
+  "nameJp": "ラピ",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PcR",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "エリシオン",
+   "カウンターズ"
+  ],
+  "effectJp": "【自分のターン中】このターン中に自分がイベントカードを使用している場合、このキャラはBP+1000。このキャラがレイドされた時、このキャラの下に裏向きのカードがある場合、カードを1枚引く。（レイドしたキャラの【登場時】とこの効果は望む順で処理する）",
+  "effectEn": "[During Your Turn] If you have used an Event card this turn, this character gets BP+1000. When this character is Raided, if there is a face-down card under this character, draw 1 card(s). (Of the Raided character's [On Play] and this effect are resolved in any order)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-004.png?v8"
+ },
+ "NIK-2-005": {
+  "key": "NIK-2-005",
+  "numberJp": "PC02BT/NIK-2-005",
+  "nameEn": "Rapi: Red Hood (PcSR**)",
+  "nameJp": "ラピ：レッドフード",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PcSR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "エリシオン",
+   "カウンターズ"
+  ],
+  "effectJp": "このカードは〈ラピ〉としても扱う。【レイド】を持たない自分の〈ラピ〉のアタック終了時、そのキャラの下に裏向きのカードがあり、このカードの必要エナジーを満たしている場合、手札にあるこのカードをその〈ラピ〉にレイドさせてもよい。〈ラピ：レッドフード〉のこの効果は1ターンに1回のみ発動できる。【レイド】〈ラピ〉アクティブにし、フロントLに移動できる【登場時】自分の場に〈アニス〉と〈ネオン〉がある場合、このキャラはこのターン中、BP+2000と【インパクト（1）】を得る。",
+  "effectEn": "This card is also treated as <Rapi>. [Raid] At the end of an attack by your <Rapi> without it, if there is a face-down card under that character and you meet this card's required energy, you may Raid this card from your hand onto that <Rapi>. This <Rapi: Red Hood (PcSR**)> effect can only activate 1 time(s) per 1 turn(s). [Raid] Can Raid onto <Rapi>; set it to active and you may move it to the Front Line. [On Play] If you have <Anis> and <Neon> on your field, this character gains BP+2000 and [Impact 1] this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-005.png?v8"
+ },
+ "NIK-2-006": {
+  "key": "NIK-2-006",
+  "numberJp": "PC02BT/NIK-2-006",
+  "nameEn": "Viper (PcR*)",
+  "nameJp": "バイパー",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PcR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "テトラライン",
+   "エキゾチック"
+  ],
+  "effectJp": "【レイド】〈バイパー〉アクティブにし、フロントLに移動できる【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）【起動メイン】【フロントLにある場合】【ターン1】自分のフロントLのアクティブの〔他の［特徴：エキゾチック］か［特徴：ワードレス］〕を1枚レストにする。そうした場合、自分の場の〔［特徴：エキゾチック］か［特徴：ワードレス］〕を1枚選び、このターン中、BP+2000と【インパクト（1）】を与え、カードを2枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[Raid] Can Raid onto <Viper (PcR*)>; set it to active and you may move it to the Front Line. [Double Block] (The first time this character blocks each turn, set it to active) [Activate: Main] [While in Front Line] [Once Per Turn] Rest 1 other active [Trait: Exotic] or [Trait: Wordless] in your Front Line. If you do, choose 1 [Trait: Exotic] or [Trait: Wordless] on your field; it gets BP+2000 and gains [Impact 1] this turn, then draw 2 card(s) and put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-006.png?v8"
+ },
+ "NIK-2-007": {
+  "key": "NIK-2-007",
+  "numberJp": "PC02BT/NIK-2-007",
+  "nameEn": "Anis: Sparkling Summer",
+  "nameJp": "アニス：スパークリングサマー",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PcC",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "テトラライン",
+   "カウンターズ"
+  ],
+  "effectJp": "このカードは〈アニス〉としても扱う。自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【黄×2】減らす。【自分のターン中】このターン中に自分がイベントカードを使用している場合、このキャラはBP+1000。",
+  "effectEn": "This card is also treated as <Anis>. If you have no cards on your field, the required energy of this card in your hand [Yellow x2]is reduced. [During Your Turn] If you have used an Event card this turn, this character gets BP+1000.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-007.png?v8"
+ },
+ "NIK-2-008": {
+  "key": "NIK-2-008",
+  "numberJp": "PC02BT/NIK-2-008",
+  "nameEn": "Anis: Sparkling Summer",
+  "nameJp": "アニス：スパークリングサマー",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PcR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "テトラライン",
+   "カウンターズ"
+  ],
+  "effectJp": "このカードは〈アニス〉としても扱う。【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【登場時】カードを2枚引き、自分の手札を2枚場外に置く。",
+  "effectEn": "This card is also treated as <Anis>. [Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [On Play] Draw 2 card(s), then put 2 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-008.png?v8"
+ },
+ "NIK-2-009": {
+  "key": "NIK-2-009",
+  "numberJp": "PC02BT/NIK-2-009",
+  "nameEn": "Grave",
+  "nameJp": "グレイブ",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PcC",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "オールドテイルズ"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：オールドテイルズ］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚リムーブエリアに置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: Old Tales] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into the Remove Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-009.png?v8"
+ },
+ "NIK-2-010": {
+  "key": "NIK-2-010",
+  "numberJp": "PC02BT/NIK-2-010",
+  "nameEn": "Grave",
+  "nameJp": "グレイブ",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PcC",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "オールドテイルズ"
+  ],
+  "effectJp": "【登場時】このキャラが自分の手札から登場していた場合、APを1支払ってもよい。そうした場合、カードを1枚引く。その後、自分の手札の〈シンデレラ〉を1枚リムーブエリアに置いてもよい。そうした場合、そのカードの【トリガー】を発動する。",
+  "effectEn": "[On Play] If this character was played from your hand, you may pay 1 AP. If you do, Draw 1 card(s). Then, You may put 1 <Cinderella> in your hand into the Remove Area. If you do, activate that card's [Trigger].",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-010.png?v8"
+ },
+ "NIK-2-011": {
+  "key": "NIK-2-011",
+  "numberJp": "PC02BT/NIK-2-011",
+  "nameEn": "Grave (011) (PcR*)",
+  "nameJp": "グレイブ",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PcR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "オールドテイルズ"
+  ],
+  "effectJp": "【レイド】〈グレイブ〉アクティブにし、フロントLに移動できる【登場時】自分の山札の上から2枚をリムーブエリアに置く。自分の手札を1枚リムーブエリアに置いてもよい。そうした場合、自分のリムーブエリアから必要エナジーが『0』以下で消費APが1の黄の［特徴：オールドテイルズ］を1枚まで自分の場にレストで登場させる。自分のターン中なら、自分のリムーブエリアにあるカード1枚につき、この効果で登場させるキャラの必要エナジーの範囲+1。",
+  "effectEn": "[Raid] Can Raid onto <Grave>; set it to active and you may move it to the Front Line. [On Play] Put the top 2 card(s) of your deck into your Remove Area. You may put 1 card(s) from your hand into the Remove Area. If you do, play up to 1 Yellow [Trait: Old Tales] with required energy “0” or less and AP cost 1 from your Remove Area to your field rested. If it is your turn, for each 1 card(s) in your Remove Area, the required energy range of characters played by this effect gets +1.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-011.png?v8"
+ },
+ "NIK-2-012": {
+  "key": "NIK-2-012",
+  "numberJp": "PC02BT/NIK-2-012",
+  "nameEn": "Cinderella",
+  "nameJp": "シンデレラ",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PcC",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "オールドテイルズ"
+  ],
+  "effectJp": "【登場時】自分の山札の上から2枚見て、1枚までリムーブエリアに置く。残りを望む順で山札の上に置く。",
+  "effectEn": "[On Play] Look at the top 2 card(s) of your deck, and put up to 1 of them into the Remove Area. Put the rest on top of your deck in any order.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-012.png?v8"
+ },
+ "NIK-2-013": {
+  "key": "NIK-2-013",
+  "numberJp": "PC02BT/NIK-2-013",
+  "nameEn": "Cinderella",
+  "nameJp": "シンデレラ",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PcC",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "オールドテイルズ"
+  ],
+  "effectJp": "【登場時】自分のリムーブエリアにカードが3枚以上ある場合、カードを1枚引く。",
+  "effectEn": "[On Play] If you have 3 or more cards in your Remove Area, draw 1 card(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-013.png?v8"
+ },
+ "NIK-2-014": {
+  "key": "NIK-2-014",
+  "numberJp": "PC02BT/NIK-2-014",
+  "nameEn": "Cinderella (014) (PcR*)",
+  "nameJp": "シンデレラ",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PcR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "オールドテイルズ"
+  ],
+  "effectJp": "【レイド】〈シンデレラ〉アクティブにし、フロントLに移動できる【登場時】自分の場の［特徴：オールドテイルズ］を1枚まで選び、アクティブにする。【退場時】自分の山札の上から3枚見て、1枚を手札に加え、残りをリムーブエリアに置く。",
+  "effectEn": "[Raid] Can Raid onto <Cinderella>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 [Trait: Old Tales] on your field, set it to active. [On Retire] Look at the top 3 card(s) of your deck, add 1 of them to your hand, and put the rest into the Remove Area.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-014.png?v8"
+ },
+ "NIK-2-015": {
+  "key": "NIK-2-015",
+  "numberJp": "PC02BT/NIK-2-015",
+  "nameEn": "Cinderella (015) (PcSR***)",
+  "nameJp": "シンデレラ",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PcSR",
+  "needEnergy": 10,
+  "ap": 1,
+  "bp": 5000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "オールドテイルズ"
+  ],
+  "effectJp": "このキャラはアクティブで登場させる。【インパクト（1）】（アタックしてバトルに勝利した時、相手に1ダメージ）【フロントLにある場合】〈シンデレラ〉以外の自分の場のキャラは、相手の効果で選ばれない。【登場時】相手のフロントLのキャラを1枚まで選び、退場させる。〈シンデレラ〉のこの効果は1ターンに1回のみ発動できる。",
+  "effectEn": "This character is played active. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [While in Front Line] Characters on your field other than <Cinderella> cannot be chosen by your opponent's effects. [On Play] Choose up to 1 character in your opponent's Front Line, retire it. This <Cinderella> effect can only activate 1 time(s) per 1 turn(s).",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-015.png?v8"
+ },
+ "NIK-2-016": {
+  "key": "NIK-2-016",
+  "numberJp": "PC02BT/NIK-2-016",
+  "nameEn": "Little Mermaid",
+  "nameJp": "リトルマーメイド",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PcC",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "オールドテイルズ"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【自分のターン中】自分のリムーブエリアにカードが3枚以上ある場合、このキャラはBP+1000。【退場時】このカードをリムーブエリアに置く。",
+  "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [During Your Turn] If you have 3 or more cards in your Remove Area, this character gets BP+1000. [On Retire] Put this card into the Remove Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-016.png?v8"
+ },
+ "NIK-2-017": {
+  "key": "NIK-2-017",
+  "numberJp": "PC02BT/NIK-2-017",
+  "nameEn": "Little Mermaid",
+  "nameJp": "リトルマーメイド",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PcSR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Yellow",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "オールドテイルズ"
+  ],
+  "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）【アタック時】自分の山札の上から1枚見て、山札の上かリムーブエリアに置く。その後、自分のリムーブエリアにカードが6枚以上ある場合、カードを1枚引く。【退場時】このカードをリムーブエリアに置く。",
+  "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active) [When Attacking] Look at the top 1 card(s) of your deck, and put it on top of your deck or into the Remove Area. Then, if you have 6 or more cards in your Remove Area, draw 1 card(s). [On Retire] Put this card into the Remove Area.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】相手のフロントLのキャラを1枚選び、レストにする。それは次の1回アクティブにならない。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-017.png?v8"
+ },
+ "NIK-2-018": {
+  "key": "NIK-2-018",
+  "numberJp": "PC02BT/NIK-2-018",
+  "nameEn": "SUCCESSION",
+  "nameJp": "継承",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Event",
+  "colors": [
+   "Yellow"
+  ],
+  "rarity": "PcC",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から2枚見て、望む枚数を望む順で山札の上に置き、残りを場外に置く。自分の場外から必要エナジーが2以下の〈ラピ〉を1枚自分の場にアクティブで登場させてもよい。そうした場合、その〈ラピ〉をこのターン中、BP+2500し、このカードを裏向きでその〈ラピ〉の下に置く。",
+  "effectEn": "Look at the top 2 card(s) of your deck, Put any number of them on top of your deck in any order, Put the rest into your Outside Area. You may play 1 <Rapi> with required energy 2 or less from your Outside Area to your field active. If you do, that <Rapi> gets BP+2500 this turn, and put this card face down under that <Rapi>.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】相手のフロントLのキャラを1枚選び、レストにする。それは次の1回アクティブにならない。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-018.png?v8"
+ },
+ "NIK-2-019": {
+  "key": "NIK-2-019",
+  "numberJp": "PC02BT/NIK-2-019",
+  "nameEn": "Dorothy (019) (PcSR**)",
+  "nameJp": "ドロシー",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "PcSR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "インヘルト"
+  ],
+  "effectJp": "【登場時】自分の場に【トリガー】を持たないカードが6枚以上ある場合、このキャラをアクティブにする。〈ドロシー〉のこの効果は1ターンに1回のみ発動する。【退場時】自分の手札の【トリガー】を持たないカードを1枚場外に置いてもよい。そうした場合、相手のフロントLの【トリガー】を持つキャラを1枚まで選び、レストにする。",
+  "effectEn": "[On Play] If you have 6 or more cards without [Trigger] on your field, set this character to active. This <Dorothy (019) (PcSR**)> effect can only activate 1 time(s) per 1 turn(s). [On Retire] You may put 1 card(s) without [Trigger] from your hand into your Outside Area. If you do, choose up to 1 character with [Trigger] in your opponent's Front Line, and rest it.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-019.png?v8"
+ },
+ "NIK-2-020": {
+  "key": "NIK-2-020",
+  "numberJp": "PC02BT/NIK-2-020",
+  "nameEn": "Crown",
+  "nameJp": "クラウン",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "PcC",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "ヴァイスリッター"
+  ],
+  "effectJp": "【登場時】自分の山札の上から2枚見て、［特徴：ヴァイスリッター］か［特徴：パイオニア］か〈モダニア〉を1枚まで場外に置く。残りを望む順で山札の上に置く。",
+  "effectEn": "[On Play] Look at the top 2 card(s) of your deck, and put up to 1 [Trait: Weiss Ritter] or [Trait: Pioneer] or <Modernia> among them into your Outside Area. Put the rest on top of your deck in any order.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-020.png?v8"
+ },
+ "NIK-2-021": {
+  "key": "NIK-2-021",
+  "numberJp": "PC02BT/NIK-2-021",
+  "nameEn": "Crown",
+  "nameJp": "クラウン",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "PcC",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "ヴァイスリッター"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：ヴァイスリッター］か［特徴：パイオニア］か〈モダニア〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: Weiss Ritter] or [Trait: Pioneer] or <Modernia> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-021.png?v8"
+ },
+ "NIK-2-022": {
+  "key": "NIK-2-022",
+  "numberJp": "PC02BT/NIK-2-022",
+  "nameEn": "Crown (022) (PcR*)",
+  "nameJp": "クラウン",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "PcR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "ヴァイスリッター"
+  ],
+  "effectJp": "【レイド】〈クラウン〉/〈トロンベ〉アクティブにし、フロントLに移動できる【登場時】カードを1枚引く。その後、自分の手札を1枚場外に置いてもよい。そうした場合、自分の手札から必要エナジーが3以下で消費APが1の紫の〔［特徴：ヴァイスリッター］か［特徴：パイオニア］か〈モダニア〉〕を1枚まで自分の場にレストで登場させる。【起動メイン】【ターン1】このキャラはこのターン中、BP+1000と【インパクト（1）】を得る。自分の手札を全て場外に置く。",
+  "effectEn": "[Raid] <Crown>/Can Raid onto <Trombe>; set it to active and you may move it to the Front Line. [On Play] Draw 1 card(s). Then, You may put 1 card(s) from your hand into your Outside Area. If you do, Play up to 1 Purple [Trait: Weiss Ritter] or [Trait: Pioneer] or <Modernia> with required energy 3 or less and with AP cost 1 from your hand to your field rested. [Activate: Main] [Once Per Turn] This character gets BP+1000 and gains [Impact 1] this turn. Put all cards in your hand into your Outside Area.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-022.png?v8"
+ },
+ "NIK-2-023": {
+  "key": "NIK-2-023",
+  "numberJp": "PC02BT/NIK-2-023",
+  "nameEn": "Trombe",
+  "nameJp": "トロンベ",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "PcC",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "ヴァイスリッター"
+  ],
+  "effectJp": "【登場時】自分の場に〈クラウン〉がある場合、以下から1つ選ぶ。・カードを1枚引き、自分の手札を1枚場外に置く。・このターン中に自分の効果で自分の手札を場外に置いている場合、カードを1枚引く。",
+  "effectEn": "[On Play] If you have <Crown> on your field, Choose 1 of the following. Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. If you have put cards from your hand into your Outside Area by your own effect this turn, draw 1 card(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-023.png?v8"
+ },
+ "NIK-2-024": {
+  "key": "NIK-2-024",
+  "numberJp": "PC02BT/NIK-2-024",
+  "nameEn": "Scarlet: Black Shadow",
+  "nameJp": "紅蓮：ブラックシャドウ",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "PcC",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "ゴッデス"
+  ],
+  "effectJp": "このカードは〈紅蓮〉としても扱う。",
+  "effectEn": "This card is also treated as <Scarlet>.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-024.png?v8"
+ },
+ "NIK-2-025": {
+  "key": "NIK-2-025",
+  "numberJp": "PC02BT/NIK-2-025",
+  "nameEn": "Scarlet: Black Shadow (025) (PcSR**)",
+  "nameJp": "紅蓮：ブラックシャドウ",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "PcSR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "ゴッデス"
+  ],
+  "effectJp": "このカードは〈紅蓮〉としても扱う。このキャラはBP2000以下のキャラにブロックされない。このキャラのBPが6000以上の場合、このキャラは【ダメージ（2）】を得る。【登場時】このカード以外の自分の場の［特徴：ゴッデス］の元々のカード名が3種類以上ある場合、このキャラをアクティブにする。〈紅蓮：ブラックシャドウ〉のこの効果は1ターンに1回のみ発動する。",
+  "effectEn": "This card is also treated as <Scarlet>. This character cannot be blocked by characters with BP 2000 or less. If this character's BP is 6000 or more, This character [Damage 2] is gained. [On Play] If there are 3 or more different original card names among [Trait: Goddess] on your field other than this card, set this character to active. This <Scarlet: Black Shadow> effect can only activate 1 time(s) per 1 turn(s).",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-025.png?v8"
+ },
+ "NIK-2-026": {
+  "key": "NIK-2-026",
+  "numberJp": "PC02BT/NIK-2-026",
+  "nameEn": "Snow White: Innocent Days",
+  "nameJp": "スノーホワイト：イノセントデイズ",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "PcC",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "ゴッデス"
+  ],
+  "effectJp": "このカードは〈スノーホワイト〉としても扱う。",
+  "effectEn": "This card is also treated as <Snow White>.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-026.png?v8"
+ },
+ "NIK-2-027": {
+  "key": "NIK-2-027",
+  "numberJp": "PC02BT/NIK-2-027",
+  "nameEn": "Snow White: Innocent Days",
+  "nameJp": "スノーホワイト：イノセントデイズ",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "PcC",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "ゴッデス"
+  ],
+  "effectJp": "このカードは〈スノーホワイト〉としても扱う。【登場時】自分の山札の上から3枚見て、［特徴：ゴッデス］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "This card is also treated as <Snow White>. [On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: Goddess] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-027.png?v8"
+ },
+ "NIK-2-028": {
+  "key": "NIK-2-028",
+  "numberJp": "PC02BT/NIK-2-028",
+  "nameEn": "Snow White: Innocent Days (028) (PcR*)",
+  "nameJp": "スノーホワイト：イノセントデイズ",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "PcR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "ゴッデス"
+  ],
+  "effectJp": "このカードは〈スノーホワイト〉としても扱う。【レイド】〈スノーホワイト：イノセントデイズ〉アクティブにし、フロントLに移動できる【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【起動メイン】【フロントLにある場合】【ターン1】自分の場の［特徴：ゴッデス］を1枚選び、このターン中、BP+1000。【アタック時】自分の場に〈レッドフード〉がある場合、カードを1枚引く。",
+  "effectEn": "This card is also treated as <Snow White>. [Raid] Can Raid onto <Snow White: Innocent Days>; set it to active and you may move it to the Front Line. [Impact Nullify] (The character that battles this character loses Impact during this battle) [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 [Trait: Goddess] on your field, it gets BP+1000 this turn. [When Attacking] If you have <Red Hood> on your field, Draw 1 card(s).",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-028.png?v8"
+ },
+ "NIK-2-029": {
+  "key": "NIK-2-029",
+  "numberJp": "PC02BT/NIK-2-029",
+  "nameEn": "Dorothy",
+  "nameJp": "ドロシー",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "PcC",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "ゴッデス"
+  ],
+  "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【紫×2】減らす。【自分のターン中】このカード以外の自分の場のキャラの元々のカード名が3種類以上ある場合、このキャラはBP+1000。【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Purple x2]is reduced. [During Your Turn] If there are 3 or more different original card names among characters on your field other than this card, this character gets BP+1000. [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-029.png?v8"
+ },
+ "NIK-2-030": {
+  "key": "NIK-2-030",
+  "numberJp": "PC02BT/NIK-2-030",
+  "nameEn": "Rapunzel: Pure Grace",
+  "nameJp": "ラプンツェル：ピュアグレイス",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "PcC",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "ゴッデス"
+  ],
+  "effectJp": "このカードは〈ラプンツェル〉としても扱う。【アタック時】このカード以外の自分の場の［特徴：ゴッデス］の元々のカード名が3種類以上ある場合、カードを1枚引いてもよい。そうした場合、自分の手札を1枚場外に置く。",
+  "effectEn": "This card is also treated as <Rapunzel>. [When Attacking] If there are 3 or more different original card names among [Trait: Goddess] on your field other than this card, you may draw 1 card(s). If you do, Put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-030.png?v8"
+ },
+ "NIK-2-031": {
+  "key": "NIK-2-031",
+  "numberJp": "PC02BT/NIK-2-031",
+  "nameEn": "Rapunzel: Pure Grace (031) (PcR*)",
+  "nameJp": "ラプンツェル：ピュアグレイス",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "PcR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "ゴッデス"
+  ],
+  "effectJp": "このカードは〈ラプンツェル〉としても扱う。【登場時】自分の場外から〈ラプンツェル：ピュアグレイス〉以外の必要エナジーが3以下で消費APが1の［特徴：ゴッデス］を1枚まで手札に加える。",
+  "effectEn": "This card is also treated as <Rapunzel>. [On Play] Add up to 1 [Trait: Goddess] other than <Rapunzel: Pure Grace> with required energy 3 or less and AP cost 1 from your Outside Area to your hand.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の場外から必要エナジーが2以下で消費APが1の紫のキャラカードを1枚自分のフロントLにアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Purple character card with required energy 2 or less and with AP cost 1 from your Outside Area to your Front Line active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-031.png?v8"
+ },
+ "NIK-2-032": {
+  "key": "NIK-2-032",
+  "numberJp": "PC02BT/NIK-2-032",
+  "nameEn": "Liliweiss",
+  "nameJp": "リリーバイス",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "PcC",
+  "needEnergy": 9,
+  "ap": 1,
+  "bp": 5000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "ゴッデス"
+  ],
+  "effectJp": "自分の場にある［特徴：ゴッデス］の元々のカード名1種類につき、手札にあるこのカードの必要エナジーを【紫×1】減らす。",
+  "effectEn": "For each 1 different original card name(s) among [Trait: Goddess] on your field, reduce the required energy of this card in your hand by [Purple x1].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-032.png?v8"
+ },
+ "NIK-2-033": {
+  "key": "NIK-2-033",
+  "numberJp": "PC02BT/NIK-2-033",
+  "nameEn": "Red Hood",
+  "nameJp": "レッドフード",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "PcC",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "ゴッデス"
+  ],
+  "effectJp": "【登場時】自分の場の［特徴：ゴッデス］を『1枚』まで選び、このターン中、BP+1000。このキャラが自分の〈レッドフード〉の効果で登場していた場合、『2枚』に代わる。",
+  "effectEn": "[On Play] Choose up to “1” [Trait: Goddess] on your field, and it gets BP+1000 this turn. If this character was played by the effect of your <Red Hood>, it becomes “2” instead.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-033.png?v8"
+ },
+ "NIK-2-034": {
+  "key": "NIK-2-034",
+  "numberJp": "PC02BT/NIK-2-034",
+  "nameEn": "Red Hood",
+  "nameJp": "レッドフード",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "PcC",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "ゴッデス"
+  ],
+  "effectJp": "【登場時】自分の場の必要エナジーが3以下の他の［特徴：ゴッデス］を1枚手札に戻してもよい。そうした場合、自分の場の［特徴：ゴッデス］を1枚まで選び、『このターン中、BP+1000』。このキャラが自分の〈レッドフード〉の効果で登場していたなら、『アクティブにし、このターン中、BP+1000』に代わる。",
+  "effectEn": "[On Play] You may return 1 other [Trait: Goddess] on your field with required energy 3 or less to the owner's hand. If you do, Choose up to 1 [Trait: Goddess] on your field, “it gets BP+1000 this turn” If this character was played by the effect of your <Red Hood>, it becomes “set it to active, and it gets BP+1000 this turn” instead.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-034.png?v8"
+ },
+ "NIK-2-035": {
+  "key": "NIK-2-035",
+  "numberJp": "PC02BT/NIK-2-035",
+  "nameEn": "Red Hood",
+  "nameJp": "レッドフード",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "PcR",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "ゴッデス"
+  ],
+  "effectJp": "このカード以外の自分の場の［特徴：ゴッデス］の元々のカード名が3種類以上ある場合、このキャラの発生エナジー+【紫】。【登場時】このキャラが自分の〈レッドフード〉の効果で登場していた場合、自分は次の自分のターン開始時まで、「自分のフロントLに〈レッドフード〉がある場合、〈レッドフード〉以外の自分の場のキャラを相手が効果で選ぶ際、相手は追加で自身の手札を1枚場外に置かないと選べない。」を得る。",
+  "effectEn": "If there are 3 or more different original card names among [Trait: Goddess] on your field other than this card, this character's generated energy +[Purple]. [On Play] If this character was played by the effect of your <Red Hood>, you gain “If you have <Red Hood> in your Front Line, your opponent must put 1 additional card(s) from their hand into their Outside Area to choose characters on your field other than <Red Hood> with effects” until the start of your next turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-035.png?v8"
+ },
+ "NIK-2-036": {
+  "key": "NIK-2-036",
+  "numberJp": "UAPR/NIK-2-036",
+  "nameEn": "Red Hood (036) (PcSR**)",
+  "nameJp": "レッドフード",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "UR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "ゴッデス"
+  ],
+  "effectJp": "このキャラのBPが6000以上の場合、このキャラは【インパクト（1）】を得る。【レイド】〈レッドフード〉アクティブにし、フロントLに移動できるこのキャラのアタック終了時、このキャラのレイド元のカードを1枚まで自分の場にレストで登場させる。【登場時】このキャラはこのターン中、「このキャラは、相手のトリガーの効果で選ばれない。」を得る。",
+  "effectEn": "If this character's BP is 6000 or more, This character [Impact 1] is gained. [Raid] Can Raid onto <Red Hood>; set it to active and you may move it to the Front Line. At the end of this character's attack, play up to 1 of this character's Raid source cards to your field rested. [On Play] This character gains “This character cannot be chosen by your opponent's Trigger effects” this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_NIK-2-036.png?v9"
+ },
+ "NIK-2-037": {
+  "key": "NIK-2-037",
+  "numberJp": "PC02BT/NIK-2-037",
+  "nameEn": "Scarlet",
+  "nameJp": "紅蓮",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "PcSR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ピルグリム",
+   "パイオニア"
+  ],
+  "effectJp": "【レイド】〈紅蓮〉アクティブにし、フロントLに移動できる【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【起動メイン】【このカードを退場させる】自分の手札から必要エナジーが5以下の紫の［特徴：パイオニア］を1枚まで自分の場にアクティブで登場させる。【退場時】このキャラのレイド元のカードを1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[Raid] Can Raid onto <Scarlet>; set it to active and you may move it to the Front Line. [Impact Nullify] (The character that battles this character loses Impact during this battle) [Activate: Main] [Retire this card] Play up to 1 Purple [Trait: Pioneer] with required energy 5 or less from your hand to your field active. [On Retire] Play up to 1 of this character's Raid source cards to your field rested.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-037.png?v8"
+ },
+ "NIK-2-038": {
+  "key": "NIK-2-038",
+  "numberJp": "PC02BT/NIK-2-038",
+  "nameEn": "Goddesses of Victory",
+  "nameJp": "勝利の女神ゴッデス",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "PcC",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-038.png?v8"
+ },
+ "NIK-2-039": {
+  "key": "NIK-2-039",
+  "numberJp": "PC02BT/NIK-2-039",
+  "nameEn": "Snow and Wolf",
+  "nameJp": "雪と狼",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "PcC",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈スノーホワイト：イノセントデイズ〉か〈レッドフード〉がある場合、『BP4000以下』に代わる。自分の場に〈スノーホワイト：イノセントデイズ〉と〈レッドフード〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Snow White: Innocent Days> or <Red Hood> on your field, it becomes “BP 4000 or less” instead. If you have <Snow White: Innocent Days> and <Red Hood> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-039.png?v8"
+ },
+ "NIK-2-040": {
+  "key": "NIK-2-040",
+  "numberJp": "PC02BT/NIK-2-040",
+  "nameEn": "Alice: Wonderland Bunny",
+  "nameJp": "アリス：ワンダーランドバニー",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "PcSR",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "テトラライン",
+   "アンリミテッド"
+  ],
+  "effectJp": "このカードは〈アリス〉としても扱う。【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【登場時】自分の場外から必要エナジーが『0』以下で消費APが1の緑の［特徴：テトラライン］を1枚まで自分の場にアクティブで登場させるかレイドさせる。自分の場のカードの下の裏向きのカード1枚につき、この効果で登場させるかレイドさせるキャラの必要エナジーの範囲+1。",
+  "effectEn": "This card is also treated as <Alice>. [Impact Nullify] (The character that battles this character loses Impact during this battle) [On Play] Play up to 1 Green [Trait: Tetra Line] with required energy “0” or less and AP cost 1 from your Outside Area to your field active, or Raid with it. For each 1 face-down card(s) under cards on your field, the required energy range of characters played or Raided by this effect gets +1.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-040.png?v8"
+ },
+ "NIK-2-041": {
+  "key": "NIK-2-041",
+  "numberJp": "PC02BT/NIK-2-041",
+  "nameEn": "Noir",
+  "nameJp": "ノワール",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "PcC",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "テトラライン",
+   "777"
+  ],
+  "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【緑×2】減らす。【登場時】カードを1枚引き、自分の手札を1枚裏向きで自分の場の［特徴：テトラライン］の下に置く。",
+  "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Green x2]is reduced. [On Play] Draw 1 card(s), then put 1 card(s) from your hand face down under [Trait: Tetra Line] on your field.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-041.png?v8"
+ },
+ "NIK-2-042": {
+  "key": "NIK-2-042",
+  "numberJp": "PC02BT/NIK-2-042",
+  "nameEn": "Blanc",
+  "nameJp": "ブラン",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "PcC",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "テトラライン",
+   "777"
+  ],
+  "effectJp": "【登場時】以下から1つ選ぶ。・自分の場のカードの下の裏向きのカードが合計2枚以上ある場合、カードを1枚引く。・自分の場のカードの下の裏向きのカードを1枚場外に置いてもよい。そうした場合、自分の場の［特徴：テトラライン］を1枚まで選び、このターン中、BP+1500。",
+  "effectEn": "[On Play] Choose 1 of the following. If there are 2 or more face-down cards in total under cards on your field, draw 1 card(s). You may put 1 face-down card(s) under cards on your field into your Outside Area. If you do, Choose up to 1 [Trait: Tetra Line] on your field, it gets BP+1500 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-042.png?v8"
+ },
+ "NIK-2-043": {
+  "key": "NIK-2-043",
+  "numberJp": "PC02BT/NIK-2-043",
+  "nameEn": "Rouge (PcR*)",
+  "nameJp": "ルージュ",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "PcR",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "テトラライン",
+   "777"
+  ],
+  "effectJp": "このキャラの下に裏向きのカードがある場合、このキャラの発生エナジー+【緑】。【起動メイン】【レストにする】【ターン1】自分の山札の上から1枚を裏向きでこのキャラの下に置く。",
+  "effectEn": "If there is a face-down card under this character, this character's generated energy +[Green]. [Activate: Main] [Rest this card] [Once Per Turn] Put the top 1 card(s) of your deck face down under this character.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-043.png?v8"
+ },
+ "NIK-2-044": {
+  "key": "NIK-2-044",
+  "numberJp": "PC02BT/NIK-2-044",
+  "nameEn": "Soda: Twinkling Bunny",
+  "nameJp": "ソーダ：トゥインクルバニー",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "PcR",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "テトラライン",
+   "メイド・フォー・ユー"
+  ],
+  "effectJp": "このカードは〈ソーダ〉としても扱う。【登場時】自分の場のカードの下の裏向きのカードを望む枚数このキャラの下に移動させてもよい。2枚以上移動させた場合、このキャラをアクティブにする。〈ソーダ：トゥインクルバニー〉のこの効果は1ターンに1回のみ発動できる。【アタック時】このキャラの下の裏向きのカードを望む枚数場外に置いてもよい。そうした場合、この効果で場外に置いたカード1枚につき、このキャラはこのターン中、BP+500。",
+  "effectEn": "This card is also treated as <Soda>. [On Play] You may move any number of face-down cards under cards on your field to under this character. If you moved 2 or more, set this character to active. This <Soda: Twinkling Bunny> effect can only activate 1 time(s) per 1 turn(s). [When Attacking] You may put any number of face-down cards under this character into your Outside Area. If you do, for each 1 card(s) put into the Outside Area by this effect, this character gets BP+500 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-044.png?v8"
+ },
+ "NIK-2-045": {
+  "key": "NIK-2-045",
+  "numberJp": "PC02BT/NIK-2-045",
+  "nameEn": "Elegg: Boom and Shock",
+  "nameJp": "エレグ：ブーム・アンド・ショック",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "PcR",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ミシリス",
+   "エレクトリックショック"
+  ],
+  "effectJp": "このカードは〈エレグ〉としても扱う。このキャラはアクティブで登場させる。【登場時】カードを1枚引く。【起動メイン】【フロントLにある場合】【ターン1】以下から2つまで選ぶ。・自分の場の他の［特徴：ミシリス］を1枚まで選び、このターン中、BP+1000。・自分の場の他の［特徴：ミシリス］を1枚まで選び、このターン中、【インパクト（1）】を与える。",
+  "effectEn": "This card is also treated as <Elegg>. This character is played active. [On Play] Draw 1 card(s). [Activate: Main] [While in Front Line] [Once Per Turn] Choose up to 2 of the following. Choose up to 1 other [Trait: Missilis] on your field, it gets BP+1000 this turn. Choose up to 1 other [Trait: Missilis] on your field, This turn, [Impact 1] is given.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-045.png?v8"
+ },
+ "NIK-2-046": {
+  "key": "NIK-2-046",
+  "numberJp": "PC02BT/NIK-2-046",
+  "nameEn": "Tia",
+  "nameJp": "ティア",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "PcC",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ミシリス",
+   "ダージリンパール"
+  ],
+  "effectJp": "【登場時】自分の場の他の［特徴：ミシリス］を1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] Choose up to 1 other [Trait: Missilis] on your field, it gets BP+1000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-046.png?v8"
+ },
+ "NIK-2-047": {
+  "key": "NIK-2-047",
+  "numberJp": "PC02BT/NIK-2-047",
+  "nameEn": "Naga",
+  "nameJp": "ナガ",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "PcC",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ミシリス",
+   "ダージリンパール"
+  ],
+  "effectJp": "【登場時】自分の山札の上から『1枚』見て、1枚まで山札の上に置き、残りを望む順で下に置く。自分のフロントLのBP4000以上の［特徴：ミシリス］1枚につき、この効果で見る山札の枚数+1。",
+  "effectEn": "[On Play] Look at the top “1” card(s) of your deck, put up to 1 of them on top of your deck, and the rest on the bottom in any order. For each 1 [Trait: Missilis] with 4000 or more BP in your Front Line, the number of cards looked at by this effect gets +1.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-047.png?v8"
+ },
+ "NIK-2-048": {
+  "key": "NIK-2-048",
+  "numberJp": "PC02BT/NIK-2-048",
+  "nameEn": "Drake",
+  "nameJp": "ドレイク",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "PcR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "ミシリス",
+   "メティス"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【起動メイン】【フロントLにある場合】【ターン1】このキャラのBPが4000以上の場合のみ発動できる。自分の場の他の［特徴：ミシリス］を1枚選び、このターン中、BP+1000。",
+  "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if this character's BP is 4000 or more. Choose 1 other [Trait: Missilis] on your field, it gets BP+1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-048.png?v8"
+ },
+ "NIK-2-049": {
+  "key": "NIK-2-049",
+  "numberJp": "PC02BT/NIK-2-049",
+  "nameEn": "Laplace",
+  "nameJp": "ラプラス",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "PcC",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ミシリス",
+   "メティス"
+  ],
+  "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【緑×2】減らす。【ターン1】このキャラのBPがプラスされた時、自分のターン中の場合、このキャラはこのターン中、BP+500。",
+  "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Green x2]is reduced. [Once Per Turn] When this character's BP is increased, if it is your turn, this character gets BP+500 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-049.png?v8"
+ },
+ "NIK-2-050": {
+  "key": "NIK-2-050",
+  "numberJp": "PC02BT/NIK-2-050",
+  "nameEn": "Laplace",
+  "nameJp": "ラプラス",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "PcSR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "ミシリス",
+   "メティス"
+  ],
+  "effectJp": "【レイド】〈ラプラス〉アクティブにし、フロントLに移動できるこのキャラのBPが6000以上の場合、このキャラは【インパクト（1）】を得る。【登場時】カードを1枚引く。このキャラはこのターン中、BP+1000。このキャラがレイドする際のレイド元のBPが4000以上だった場合、さらにカードを1枚引く。",
+  "effectEn": "[Raid] Can Raid onto <Laplace>; set it to active and you may move it to the Front Line. If this character's BP is 6000 or more, This character [Impact 1] is gained. [On Play] Draw 1 card(s). This character gets BP+1000 this turn. If the BP of this character's Raid source was 4000 or more when it Raided, also draw 1 card(s).",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-050.png?v8"
+ },
+ "NIK-2-051": {
+  "key": "NIK-2-051",
+  "numberJp": "PC02BT/NIK-2-051",
+  "nameEn": "GOLDEN COIN RUSH",
+  "nameJp": "GOLDEN COIN RUSH",
+  "series": "勝利の女神：NIKKE",
+  "setName": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+  "cardType": "Event",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "PcC",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000』以下の相手のフロントLのキャラを1枚選び、退場させる。自分の場の［特徴：777］とカード名に「バニー」を含むキャラの合計枚数1枚につき、この効果で選べるキャラのBPの範囲+1000。自分の場のキャラを1枚選び、このターン中、BP+500し、自分の山札の上から1枚を裏向きでそのキャラの下に置く。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. For each 1 [Trait: 777] and character(s) with “Bunny” in its card name on your field in total, the BP range of characters this effect can choose gets +1000. Choose 1 character on your field; it gets BP+500 this turn, and put the top 1 card(s) of your deck face down under that character.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/PC02BT_NIK-2-051.png?v8"
+ }
+}

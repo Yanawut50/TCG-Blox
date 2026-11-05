@@ -1,0 +1,92 @@
+{
+ "MGS-2-015": {
+  "key": "MGS-2-015",
+  "numberJp": "UAPR/MGS-2-015",
+  "nameEn": "",
+  "nameJp": "忍野 忍",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "UR",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【ターン1】自分のフロントLに〔〈キスショット・アセロラオリオン・ハートアンダーブレード〉か〈忍野 忍〉か〈阿良々木 暦〉〕以外のキャラがなく、このキャラが登場したターン中のみ発動できる。以下から『1つ』まで選ぶ。自分の手札を1枚場外に置いてもよい。そうした場合、『2つ』に代わる。・自分の場外から〈阿良々木 暦〉を1枚手札に加え、自分の手札を2枚場外に置く。・自分の場の〈阿良々木 暦〉を1枚選び、このターン中、「このキャラはBP3000以下のキャラにブロックされない。」を与える。・BP1500以上の相手のフロントLのキャラを1枚選び、このターン中、BP-1000。",
+  "effectEn": "[Activate: Main] [Once Per Turn] Can only activate if you have no characters other than <キスショット・アセロラオリオン・ハートアンダーブレード>, <忍野 忍> or <阿良々木 暦> in your Front Line, and only during the turn this character was played. Choose up to “1” of the following. You may put 1 card(s) from your hand into your Outside Area. If you do, it becomes “2” instead. Add 1 <阿良々木 暦> from your Outside Area to your hand, and put 2 card(s) from your hand into your Outside Area. Choose 1 <阿良々木 暦> on your field, it gains “This character cannot be blocked by characters with BP 3000 or less” this turn. Choose 1 character in your opponent's Front Line with BP 1500 or more, it gets BP-1000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_MGS-2-015.png?v9"
+ },
+ "MGS-2-043": {
+  "key": "MGS-2-043",
+  "numberJp": "UAPR/MGS-2-043",
+  "nameEn": "",
+  "nameJp": "斧乃木 余接",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Green"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Green",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の場の必要エナジーが3以下のキャラを3枚まで選び、このターン中、BP+500。自分のフロントLに必要エナジーが1のキャラと3のキャラがある場合、さらに自分の場の必要エナジーが3以下のキャラを1枚まで選び、このターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手に1ダメージ）を与える。",
+  "effectEn": "[On Play] Choose up to 3 characters on your field with required energy 3 or less, it gets BP+500 this turn. If you have a character with required energy 1 and a character with required energy 3 in your Front Line, also choose up to 1 character on your field with required energy 3 or less; it gains [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opponent) this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_MGS-2-043.png?v9"
+ },
+ "MGS-2-069": {
+  "key": "MGS-2-069",
+  "numberJp": "UAPR/MGS-2-069",
+  "nameEn": "",
+  "nameJp": "八九寺 真宵",
+  "series": "〈物語〉シリーズ",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【赤×2】減らす。【登場時】自分の山札の上から1枚見て、山札の上かリムーブエリアに置く。",
+  "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Red x2]is reduced. [On Play] Look at the top 1 card(s) of your deck, and put it on top of your deck or into the Remove Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UAPR_MGS-2-069.png?v9"
+ }
+}

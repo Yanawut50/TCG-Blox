@@ -1,0 +1,2816 @@
+{
+ "AND-1-001": {
+  "key": "AND-1-001",
+  "numberJp": "UA25BT/AND-1-001",
+  "nameEn": "",
+  "nameJp": "クリード",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNDER"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-001.png?v8"
+ },
+ "AND-1-002": {
+  "key": "AND-1-002",
+  "numberJp": "UA25BT/AND-1-002",
+  "nameEn": "",
+  "nameJp": "クリード",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNDER"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-002.png?v8"
+ },
+ "AND-1-003": {
+  "key": "AND-1-003",
+  "numberJp": "UA25BT/AND-1-003",
+  "nameEn": "",
+  "nameJp": "バックス",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNDER"
+  ],
+  "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-003.png?v8"
+ },
+ "AND-1-004": {
+  "key": "AND-1-004",
+  "numberJp": "UA25BT/AND-1-004",
+  "nameEn": "",
+  "nameJp": "バックス",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNDER"
+  ],
+  "effectJp": "【登場時】相手のフロントLのキャラを1枚まで選び、このターン中、元々の効果を全て失わせる。",
+  "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line; it loses all original effects this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-004.png?v8"
+ },
+ "AND-1-005": {
+  "key": "AND-1-005",
+  "numberJp": "UA25BT/AND-1-005",
+  "nameEn": "",
+  "nameJp": "ビリー",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNDER"
+  ],
+  "effectJp": "【自分のターン中】自分のフロントLに他の［特徴：UNDER］が2枚以上ある場合、このキャラはBP+1500。",
+  "effectEn": "[During Your Turn] If you have 2 or more other [Trait: UNDER] in your Front Line, This character gets BP+1500.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-005.png?v8"
+ },
+ "AND-1-006": {
+  "key": "AND-1-006",
+  "numberJp": "UA25BT/AND-1-006",
+  "nameEn": "",
+  "nameJp": "ビリー",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNDER"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見る。その中から［特徴：UNDER］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: UNDER] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の場外から必要エナジーが2以下で消費APが1の紫のキャラカードを1枚自分のフロントLにアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Purple character card with required energy 2 or less and with AP cost 1 from your Outside Area to your Front Line active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-006.png?v8"
+ },
+ "AND-1-007": {
+  "key": "AND-1-007",
+  "numberJp": "UA25BT/AND-1-007",
+  "nameEn": "",
+  "nameJp": "ビリー",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNDER"
+  ],
+  "effectJp": "【レイド】〈ビリー〉アクティブにし、フロントLに移動できる【登場時】カードを1枚引く。【起動メイン】【ターン1】相手のフロントLにあるキャラに応じて、このキャラはこのターン中、以下の効果を全て得る。・BP2000以下：このキャラはBP2000以下のキャラにブロックされない。・レイド状態：BP+1000と【ダメージ（2）】・消費APが2以上：BP+1000と【インパクト（1）】",
+  "effectEn": "[Raid] Can Raid onto <ビリー>; set it to active and you may move it to the Front Line. [On Play] Draw 1 card(s). [Activate: Main] [Once Per Turn] Depending on the characters in your opponent's Front Line, this character gains all of the following effects this turn. BP 2000 or less: This character cannot be blocked by characters with BP 2000 or less. Raided: BP+1000 and [Damage 2]. AP cost 2 or more: BP+1000 and [Impact 1].",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-007.png?v8"
+ },
+ "AND-1-008": {
+  "key": "AND-1-008",
+  "numberJp": "UA25BT/AND-1-008",
+  "nameEn": "",
+  "nameJp": "ファン",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNDER"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-008.png?v8"
+ },
+ "AND-1-009": {
+  "key": "AND-1-009",
+  "numberJp": "UA25BT/AND-1-009",
+  "nameEn": "",
+  "nameJp": "ラトラ",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "UNDER"
+  ],
+  "effectJp": "【起動メイン】【ターン1】自分のフロントLの他の［特徴：UNDER］を1枚選び、エナジーLに移動させる。",
+  "effectEn": "[Activate: Main] [Once Per Turn] Choose 1 other [Trait: UNDER] in your Front Line, move it to the Energy Line.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-009.png?v8"
+ },
+ "AND-1-010": {
+  "key": "AND-1-010",
+  "numberJp": "UA25BT/AND-1-010",
+  "nameEn": "",
+  "nameJp": "ラトラ",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNDER"
+  ],
+  "effectJp": "このキャラは、相手のトリガーの効果で選ばれない。【自分のターン中】自分のフロントLに他の［特徴：UNDER］が3枚以上あり、その中に〈リップ〉がある場合、このキャラはBP+1000。",
+  "effectEn": "This character cannot be chosen by your opponent's Trigger effects. [During Your Turn] If you have 3 or more other [Trait: UNDER] in your Front Line, including <リップ>, this character gets BP+1000.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-010.png?v8"
+ },
+ "AND-1-011": {
+  "key": "AND-1-011",
+  "numberJp": "UA25BT/AND-1-011",
+  "nameEn": "",
+  "nameJp": "リップ",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNDER"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-011.png?v8"
+ },
+ "AND-1-012": {
+  "key": "AND-1-012",
+  "numberJp": "UA25BT/AND-1-012",
+  "nameEn": "",
+  "nameJp": "リップ",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "UNDER"
+  ],
+  "effectJp": "【自分のターン中】自分のフロントLに他の［特徴：UNDER］が2枚以上ある場合、このキャラはBP+1000。",
+  "effectEn": "[During Your Turn] If you have 2 or more other [Trait: UNDER] in your Front Line, This character gets BP+1000.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-012.png?v8"
+ },
+ "AND-1-013": {
+  "key": "AND-1-013",
+  "numberJp": "UA25BT/AND-1-013",
+  "nameEn": "",
+  "nameJp": "リップ",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNDER"
+  ],
+  "effectJp": "【アタック時】自分の場の他の［特徴：UNDER］を1枚まで選び、このターン中、【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を与える。",
+  "effectEn": "[When Attacking] Choose up to 1 other [Trait: UNDER] on your field, This turn, [Impact +1](Damage dealt by Impact is increased by 1; if it doesn't have Impact, [Impact 1])",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-013.png?v8"
+ },
+ "AND-1-014": {
+  "key": "AND-1-014",
+  "numberJp": "UA25BT/AND-1-014",
+  "nameEn": "",
+  "nameJp": "リップ",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNDER"
+  ],
+  "effectJp": "【レイド】〈リップ〉アクティブにし、フロントLに移動できるこのキャラが与えたダメージによるトリガーチェックでは、相手は【アクティブ】を発動できない。【登場時】このキャラはこのターン中、【インパクト（1）】を得る。相手のフロントLのキャラを『1枚まで』選び、次の自分のターン開始時まで、BP-1000。自分のフロントLに他の［特徴：UNDER］が3枚以上ある場合、『2枚まで』に代わる。",
+  "effectEn": "[Raid] Can Raid onto <リップ>; set it to active and you may move it to the Front Line. During trigger checks from damage dealt by this character, your opponent cannot activate [Active]. [On Play] This character, this turn, [Impact 1] is gained. Choose “up to 1” character in your opponent's Front Line; it gets BP-1000 until the start of your next turn. If you have 3 or more other [Trait: UNDER] in your Front Line, it becomes “up to 2” instead.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-014.png?v8"
+ },
+ "AND-1-015": {
+  "key": "AND-1-015",
+  "numberJp": "UA25BT/AND-1-015",
+  "nameEn": "",
+  "nameJp": "アンディ",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-015.png?v8"
+ },
+ "AND-1-016": {
+  "key": "AND-1-016",
+  "numberJp": "UA25BT/AND-1-016",
+  "nameEn": "",
+  "nameJp": "アンディ",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】このキャラの下に裏向きのカードがある場合のみ発動できる。相手のフロントLのキャラを1枚選び、このターン中、BP-1000。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if there is a face-down card under this character. Choose 1 character in your opponent's Front Line, it gets BP-1000 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-016.png?v8"
+ },
+ "AND-1-017": {
+  "key": "AND-1-017",
+  "numberJp": "UA25BT/AND-1-017",
+  "nameEn": "",
+  "nameJp": "アンディ",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】このキャラの下に裏向きのカードがあり、このキャラがアクティブの場合のみ発動できる。カードを1枚引く。",
+  "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if this character has face-down cards under it and is active. Draw 1 card(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-017.png?v8"
+ },
+ "AND-1-018": {
+  "key": "AND-1-018",
+  "numberJp": "UA25BT/AND-1-018",
+  "nameEn": "",
+  "nameJp": "出雲 風子",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【登場時】自分の山札の上から3枚見る。その中から［特徴：UNION］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: UNION] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-018.png?v8"
+ },
+ "AND-1-019": {
+  "key": "AND-1-019",
+  "numberJp": "UA25BT/AND-1-019",
+  "nameEn": "",
+  "nameJp": "出雲 風子",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【登場時】以下から1つまで選ぶ。・カードを1枚引き、自分の手札を1枚場外に置く。・自分の場のレイド状態の〈ヴィクトル〉を1枚選び、レイド状態の上のカードを1枚場外に置く。そうした場合、自分のAPカードを1枚まで選び、アクティブにする。",
+  "effectEn": "[On Play] Choose up to 1 of the following. Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. Choose 1 Raided <ヴィクトル> on your field and put 1 of its top Raided card(s) into your Outside Area. If you do, Choose up to 1 of your AP cards, set it to active.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】自分の場外から必要エナジーが2以下で消費APが1の紫のキャラカードを1枚自分のフロントLにアクティブで登場させる。",
+  "triggerEn": "[Color] Play 1 Purple character card with required energy 2 or less and with AP cost 1 from your Outside Area to your Front Line active.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-019.png?v8"
+ },
+ "AND-1-020": {
+  "key": "AND-1-020",
+  "numberJp": "UA25BT/AND-1-020",
+  "nameEn": "",
+  "nameJp": "出雲 風子",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【レイド】〈出雲 風子〉アクティブにし、フロントLに移動できる【自分のターン中】自分の場に他の［特徴：UNION］が3枚以上ある場合、このキャラはBP+500。【登場時】カードを1枚引く。裏向きのカードが下にない自分の場の〈アンディ〉を1枚まで選び、自分の山札の上から1枚を裏向きで選んだキャラの下に置く。【起動メイン】【フロントLにある場合】【ターン1】相手のフロントLのキャラを1枚選び、このターン中、BP-1000。",
+  "effectEn": "[Raid] Can Raid onto <出雲 風子>; set it to active and you may move it to the Front Line. [During Your Turn] If you have 3 or more other [Trait: UNION] on your field, This character gets BP+500. [On Play] Draw 1 card(s). Choose up to 1 <アンディ> on your field with no face-down cards under it, and put the top 1 card(s) of your deck face down under the chosen character. [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 character in your opponent's Front Line, it gets BP-1000 this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-020.png?v8"
+ },
+ "AND-1-021": {
+  "key": "AND-1-021",
+  "numberJp": "UA25BT/AND-1-021",
+  "nameEn": "",
+  "nameJp": "一心",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）",
+  "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-021.png?v8"
+ },
+ "AND-1-022": {
+  "key": "AND-1-022",
+  "numberJp": "UA25BT/AND-1-022",
+  "nameEn": "",
+  "nameJp": "ヴィクトル",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "このキャラが自分の場から場外に置かれた時、裏向きのカードが下にない自分の場の〈アンディ〉の下に、このカードを裏向きで置いてもよい。【登場時】以下から2つ選ぶ。・このキャラをアクティブにする。・相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。・自分の場のキャラの下に置かれた裏向きのカードを全て見て、その中から1枚まで手札に加える。",
+  "effectEn": "When this character is put from your field into your Outside Area, you may put this card face down under <アンディ> on your field that has no face-down cards under it. [On Play] Choose 2 of the following. Set this character to active. Choose up to 1 character in your opponent's Front Line, it gets BP-1000 this turn. Look at all face-down cards placed under characters on your field and add up to 1 of them to your hand.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-022.png?v8"
+ },
+ "AND-1-023": {
+  "key": "AND-1-023",
+  "numberJp": "UA25BT/AND-1-023",
+  "nameEn": "",
+  "nameJp": "ヴィクトル",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "このキャラが自分の場から場外に置かれた時、裏向きのカードが下にない自分の場の〈アンディ〉の下に、このカードを裏向きで置いてもよい。【レイド】〈アンディ〉アクティブにし、フロントLに移動できる【登場時】相手のフロントLのキャラを1枚まで選び、このターン中、BP-3000。このキャラの下に裏向きのカードがある場合、以下の効果が発動する。・このキャラの下の裏向きのカードを1枚場外に置き、このキャラはこのターン中、【インパクト（1）】を得る。",
+  "effectEn": "When this character is put from your field into your Outside Area, you may put this card face down under <アンディ> on your field that has no face-down cards under it. [Raid] Can Raid onto <アンディ>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line, it gets BP-3000 this turn. If this character has face-down cards under it, the following effects activate. Put 1 face-down card(s) under this character into your Outside Area, and this character gains [Impact 1] this turn.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-023.png?v8"
+ },
+ "AND-1-024": {
+  "key": "AND-1-024",
+  "numberJp": "UA25BT/AND-1-024",
+  "nameEn": "",
+  "nameJp": "シェン",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【ブロック時】アタックしている相手のキャラが【インパクト】か【ダメージ】を持つ場合、このキャラはこのターン中、BP+1000。",
+  "effectEn": "[When Blocking] If the attacking opponent's character has [Impact] or [Damage], this character gets BP+1000 this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-024.png?v8"
+ },
+ "AND-1-025": {
+  "key": "AND-1-025",
+  "numberJp": "UA25BT/AND-1-025",
+  "nameEn": "",
+  "nameJp": "ジュイス",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-025.png?v8"
+ },
+ "AND-1-026": {
+  "key": "AND-1-026",
+  "numberJp": "UA25BT/AND-1-026",
+  "nameEn": "",
+  "nameJp": "ジュイス",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【登場時】自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを場外に置く。",
+  "effectEn": "[On Play] Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest into your Outside Area.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-026.png?v8"
+ },
+ "AND-1-027": {
+  "key": "AND-1-027",
+  "numberJp": "UA25BT/AND-1-027",
+  "nameEn": "",
+  "nameJp": "ジュイス",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【アタック時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[When Attacking] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-027.png?v8"
+ },
+ "AND-1-028": {
+  "key": "AND-1-028",
+  "numberJp": "UA25BT/AND-1-028",
+  "nameEn": "",
+  "nameJp": "タチアナ",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-028.png?v8"
+ },
+ "AND-1-029": {
+  "key": "AND-1-029",
+  "numberJp": "UA25BT/AND-1-029",
+  "nameEn": "",
+  "nameJp": "トップ",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "このキャラはBP2000以下のキャラにブロックされない。",
+  "effectEn": "This character cannot be blocked by characters with BP 2000 or less.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-029.png?v8"
+ },
+ "AND-1-030": {
+  "key": "AND-1-030",
+  "numberJp": "UA25BT/AND-1-030",
+  "nameEn": "",
+  "nameJp": "ニコ",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【紫】。メインフェイズ終了時、このキャラを退場させる。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Purple]. At the end of the Main Phase, retire this character.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-030.png?v8"
+ },
+ "AND-1-031": {
+  "key": "AND-1-031",
+  "numberJp": "UA25BT/AND-1-031",
+  "nameEn": "",
+  "nameJp": "ビリー",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【紫】。",
+  "effectEn": "While this character is active, its generated energy +[Purple].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-031.png?v8"
+ },
+ "AND-1-032": {
+  "key": "AND-1-032",
+  "numberJp": "UA25BT/AND-1-032",
+  "nameEn": "",
+  "nameJp": "フィル",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "このキャラはBPをマイナスする効果を受けない。",
+  "effectEn": "This character is not affected by effects that reduce BP.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-032.png?v8"
+ },
+ "AND-1-033": {
+  "key": "AND-1-033",
+  "numberJp": "UA25BT/AND-1-033",
+  "nameEn": "",
+  "nameJp": "UMAカイン",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Purple",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "UNDER"
+  ],
+  "effectJp": "【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外から必要エナジーが3以下で特徴に「UNDER」を持つキャラカードを1枚まで手札に加える。",
+  "effectEn": "[On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, add up to 1 character card with the trait “UNDER” and required energy 3 or less from your Outside Area to your hand.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-033.png?v8"
+ },
+ "AND-1-034": {
+  "key": "AND-1-034",
+  "numberJp": "UA25BT/AND-1-034",
+  "nameEn": "",
+  "nameJp": "不死",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場外からキャラカードを1枚まで手札に加える。自分の場に〈アンディ〉か〈ヴィクトル〉がある場合、カードを1枚引く。",
+  "effectEn": "Add up to 1 character card from your Outside Area to your hand. If you have <アンディ> or <ヴィクトル> on your field, Draw 1 card(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-034.png?v8"
+ },
+ "AND-1-035": {
+  "key": "AND-1-035",
+  "numberJp": "UA25BT/AND-1-035",
+  "nameEn": "",
+  "nameJp": "不公平だろう？",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "カードを1枚引く。自分の場に特徴に「UNDER」を持つ〈ビリー〉がある場合、相手は自身の手札を1枚場外に置く。",
+  "effectEn": "Draw 1 card(s). If you have <ビリー> with the trait “UNDER” on your field, your opponent puts 1 card(s) from their hand into their Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-035.png?v8"
+ },
+ "AND-1-036": {
+  "key": "AND-1-036",
+  "numberJp": "UA25BT/AND-1-036",
+  "nameEn": "",
+  "nameJp": "不治",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "相手のフロントLのキャラを1枚選び、次の自分のターン開始時まで、BP-2000。",
+  "effectEn": "Choose 1 character in your opponent's Front Line, Until the start of your next turn, BP-2000.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-036.png?v8"
+ },
+ "AND-1-037": {
+  "key": "AND-1-037",
+  "numberJp": "UA25BT/AND-1-037",
+  "nameEn": "",
+  "nameJp": "集結",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の山札の上から5枚見る。その中から［特徴：UNION］を2枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
+  "effectEn": "Look at the top 5 card(s) of your deck. Reveal up to 2 [Trait: UNION] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-037.png?v8"
+ },
+ "AND-1-038": {
+  "key": "AND-1-038",
+  "numberJp": "UA25BT/AND-1-038",
+  "nameEn": "",
+  "nameJp": "死刃",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈アンディ〉か〈ヴィクトル〉がある場合、『BP5000以下』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <アンディ> or <ヴィクトル> on your field, it becomes “BP 5000 or less” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-038.png?v8"
+ },
+ "AND-1-039": {
+  "key": "AND-1-039",
+  "numberJp": "UA25BT/AND-1-039",
+  "nameEn": "",
+  "nameJp": "走刃脚",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "相手のフロントLのキャラを1枚選び、次の自分のターン開始時まで、『BP-3000』。自分の場に〈リップ〉がある場合、以下から1つ選ぶ。・『BP-4000』に代わる。・カードを1枚引く。",
+  "effectEn": "Choose 1 character in your opponent's Front Line, Until the start of your next turn, 『BP-3000』. If you have <リップ> on your field, Choose 1 of the following. It becomes “BP-4000” instead. Draw 1 card(s).",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-039.png?v8"
+ },
+ "AND-1-040": {
+  "key": "AND-1-040",
+  "numberJp": "UA25BT/AND-1-040",
+  "nameEn": "",
+  "nameJp": "ボクのカッコイイヒーロー達",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Purple"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-040.png?v8"
+ },
+ "AND-1-041": {
+  "key": "AND-1-041",
+  "numberJp": "UA25BT/AND-1-041",
+  "nameEn": "",
+  "nameJp": "安野 雲",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【赤】。メインフェイズ終了時、このキャラを退場させる。",
+  "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Red]. At the end of the Main Phase, retire this character.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-041.png?v8"
+ },
+ "AND-1-042": {
+  "key": "AND-1-042",
+  "numberJp": "UA25BT/AND-1-042",
+  "nameEn": "",
+  "nameJp": "安野 雲",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中からカードを1枚まで場外に置く。残りを望む順で自分の山札の上に置く。【退場時】カードを1枚引く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. From among them, put up to 1 card(s) into your Outside Area. Put the rest on top of your deck in any order. [On Retire] Draw 1 card(s).",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-042.png?v8"
+ },
+ "AND-1-043": {
+  "key": "AND-1-043",
+  "numberJp": "UA25BT/AND-1-043",
+  "nameEn": "",
+  "nameJp": "アンディ",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-043.png?v8"
+ },
+ "AND-1-044": {
+  "key": "AND-1-044",
+  "numberJp": "UA25BT/AND-1-044",
+  "nameEn": "",
+  "nameJp": "アンディ",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【退場時】〈アンディ〉以外の自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外から必要エナジーが2以下の赤の〈アンディ〉を1枚まで自分の場にアクティブで登場させる。",
+  "effectEn": "[On Retire] You may put 1 card(s) other than <アンディ> from your hand into your Outside Area. If you do, Play up to 1 Red <アンディ> with required energy 2 or less from your Outside Area to your field active.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-044.png?v8"
+ },
+ "AND-1-045": {
+  "key": "AND-1-045",
+  "numberJp": "UA25BT/AND-1-045",
+  "nameEn": "",
+  "nameJp": "アンディ",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【自分のターン中】このターン中に場外から自分の場にキャラが登場している場合、このキャラはBP+1000。",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [During Your Turn] If a character was played from the Outside Area to your field this turn, this character gets BP+1000.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-045.png?v8"
+ },
+ "AND-1-046": {
+  "key": "AND-1-046",
+  "numberJp": "UA25BT/AND-1-046",
+  "nameEn": "",
+  "nameJp": "アンディ",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【レイド】〈アンディ〉アクティブにし、フロントLに移動できる【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。【退場時】このカードが必要エナジーを満たしている場合、このカードを自分の場のキャラにレイドさせてもよい。",
+  "effectEn": "[Raid] Can Raid onto <アンディ>; set it to active and you may move it to the Front Line. [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] This character, this turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained. [On Retire] If this card meets its required energy, you may Raid this card onto a character on your field.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-046.png?v8"
+ },
+ "AND-1-047": {
+  "key": "AND-1-047",
+  "numberJp": "UA25BT/AND-1-047",
+  "nameEn": "",
+  "nameJp": "出雲 風子",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-047.png?v8"
+ },
+ "AND-1-048": {
+  "key": "AND-1-048",
+  "numberJp": "UA25BT/AND-1-048",
+  "nameEn": "",
+  "nameJp": "出雲 風子",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【登場時】自分の山札の上から4枚見る。その中から〈アンディ〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+  "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 <アンディ> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-048.png?v8"
+ },
+ "AND-1-049": {
+  "key": "AND-1-049",
+  "numberJp": "UA25BT/AND-1-049",
+  "nameEn": "",
+  "nameJp": "出雲 風子",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【登場時】自分の場の他のキャラを1枚退場させてもよい。そうした場合、自分の場外から必要エナジーが2以下の赤の〈アンディ〉を1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[On Play] You may retire 1 other character on your field. If you do, Play up to 1 Red <アンディ> with required energy 2 or less from your Outside Area to your field rested.",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP2500以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-049.png?v8"
+ },
+ "AND-1-050": {
+  "key": "AND-1-050",
+  "numberJp": "UA25BT/AND-1-050",
+  "nameEn": "",
+  "nameJp": "出雲 風子",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【レイド】〈出雲 風子〉アクティブにし、フロントLに移動できる【登場時】自分の場の他のキャラを1枚退場させてもよい。そうした場合、そのキャラのBP以下の相手のフロントLのキャラを1枚まで選び、退場させ、自分の場外から必要エナジーが2以下の赤の〈アンディ〉を1枚まで自分の場にレストで登場させる。",
+  "effectEn": "[Raid] Can Raid onto <出雲 風子>; set it to active and you may move it to the Front Line. [On Play] You may retire 1 other character on your field. If you do, choose up to 1 character in your opponent's Front Line with BP equal to or less than that character's BP and retire it, then play up to 1 red <アンディ> with required energy 2 or less from your Outside Area to your field rested.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-050.png?v8"
+ },
+ "AND-1-051": {
+  "key": "AND-1-051",
+  "numberJp": "UA25BT/AND-1-051",
+  "nameEn": "",
+  "nameJp": "一心",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【退場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
+  "effectEn": "[On Retire] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-051.png?v8"
+ },
+ "AND-1-052": {
+  "key": "AND-1-052",
+  "numberJp": "UA25BT/AND-1-052",
+  "nameEn": "",
+  "nameJp": "ジーナ",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 2,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【登場時】相手のフロントLのキャラを1枚まで選び、次の相手のアタックフェイズ終了時まで、「このキャラはアタックもブロックもできない。」を与える。【起動メイン】【ターン1】自分の場に必要エナジーが5以上のキャラがある場合のみ発動できる。以下から1つ選ぶ。・このキャラはこのターン中、【インパクト（1）】を得る。・このキャラはこのターン中、【ダメージ（2）】を得る。",
+  "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line; until the end of your opponent's next Attack Phase, it gains “This character cannot attack or block” [Activate: Main] [Once Per Turn] Can only activate if you have a character with required energy 5 or more on your field. Choose 1 of the following. This character, this turn, [Impact 1] is gained. This character, this turn, [Damage 2] is gained.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-052.png?v8"
+ },
+ "AND-1-053": {
+  "key": "AND-1-053",
+  "numberJp": "UA25BT/AND-1-053",
+  "nameEn": "",
+  "nameJp": "ジーナ",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【登場時】自分のフロントLの他の［特徴：UNION］を1枚まで選び、そのキャラとこのキャラに次の相手のターン中、「相手はキャラの効果やイベントカードの効果でこのキャラを選ぶ際に、追加でAPを1支払わないと選べない。」を与える。〈ジーナ〉のこの効果は1ターンに1回のみ発動する。",
+  "effectEn": "[On Play] Choose up to 1 other [Trait: UNION] in your Front Line; during your opponent's next turn, that character and this character gain “When choosing this character with a character effect or event card effect, your opponent must additionally pay 1 AP” This <ジーナ> effect can only activate 1 time(s) per 1 turn(s).",
+  "triggerType": "Color",
+  "triggerJp": "【カラー】BP2500以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Color] Choose 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-053.png?v8"
+ },
+ "AND-1-054": {
+  "key": "AND-1-054",
+  "numberJp": "UA25BT/AND-1-054",
+  "nameEn": "",
+  "nameJp": "シェン",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-054.png?v8"
+ },
+ "AND-1-055": {
+  "key": "AND-1-055",
+  "numberJp": "UA25BT/AND-1-055",
+  "nameEn": "",
+  "nameJp": "シェン",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【相手のターン中】このキャラがバトルに勝利した時、カードを1枚引く。",
+  "effectEn": "[During Opponent's Turn] When this character wins a battle, draw 1 card(s).",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-055.png?v8"
+ },
+ "AND-1-056": {
+  "key": "AND-1-056",
+  "numberJp": "UA25BT/AND-1-056",
+  "nameEn": "",
+  "nameJp": "シェン",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": 4000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【レイド】〈シェン〉アクティブにし、フロントLに移動できる【フロントLにある場合】相手の場のキャラは可能ならアタックしなければならない。【相手のターン中】このキャラがバトルに勝利した時、カードを1枚引く。【登場時】このキャラはこのターン中、BP+1000と「相手はこのキャラのアタックを可能ならブロックしなければならない。」を得る。【起動メイン】【手札を2枚場外に置く】【ターン1】このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
+  "effectEn": "[Raid] Can Raid onto <シェン>; set it to active and you may move it to the Front Line. [While in Front Line] Characters on your opponent's field must attack if able. [During Opponent's Turn] When this character wins a battle, draw 1 card(s). [On Play] This character it gets BP+1000 and gains “Your opponent must block this character's attacks if able” this turn. [Activate: Main] [Put 2 card(s) from your hand into your Outside Area] [Once Per Turn] This character, this turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained.",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-056.png?v8"
+ },
+ "AND-1-057": {
+  "key": "AND-1-057",
+  "numberJp": "UA25BT/AND-1-057",
+  "nameEn": "",
+  "nameJp": "重野 力",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-057.png?v8"
+ },
+ "AND-1-058": {
+  "key": "AND-1-058",
+  "numberJp": "UA25BT/AND-1-058",
+  "nameEn": "",
+  "nameJp": "重野 力",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【登場時】BP3000以下の相手のフロントLのキャラを1枚まで選び、このターン中、「このキャラはブロックできない。」を与える。",
+  "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line with BP 3000 or less, it gains “This character cannot block” this turn.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-058.png?v8"
+ },
+ "AND-1-059": {
+  "key": "AND-1-059",
+  "numberJp": "UA25BT/AND-1-059",
+  "nameEn": "",
+  "nameJp": "ジュイス",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-059.png?v8"
+ },
+ "AND-1-060": {
+  "key": "AND-1-060",
+  "numberJp": "UA25BT/AND-1-060",
+  "nameEn": "",
+  "nameJp": "ジュイス",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "自分の場に他の［特徴：UNION］が5枚以上ある場合、このキャラはBP+500。",
+  "effectEn": "If you have 5 or more other [Trait: UNION] on your field, This character gets BP+500.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-060.png?v8"
+ },
+ "AND-1-061": {
+  "key": "AND-1-061",
+  "numberJp": "UA25BT/AND-1-061",
+  "nameEn": "",
+  "nameJp": "ジュイス",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+500。",
+  "effectEn": "[Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+500 this turn.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-061.png?v8"
+ },
+ "AND-1-062": {
+  "key": "AND-1-062",
+  "numberJp": "UA25BT/AND-1-062",
+  "nameEn": "",
+  "nameJp": "ジュイス",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "SR",
+  "needEnergy": 6,
+  "ap": 1,
+  "bp": 4500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【レイド】〈ジュイス〉アクティブにし、フロントLに移動できる【起動メイン】【フロントLにある場合】【ターン1】相手はBP3000以上の自身のフロントLのキャラを1枚退場させてもよい。相手が退場させなかった場合、自分はカードを2枚まで引く。〈ジュイス〉のこの効果は1ターンに1回のみ発動できる。",
+  "effectEn": "[Raid] Can Raid onto <ジュイス>; set it to active and you may move it to the Front Line. [Activate: Main] [While in Front Line] [Once Per Turn] Your opponent may retire 1 character in their Front Line with BP 3000 or more. If your opponent didn't retire one, draw up to 2 card(s). This <ジュイス> effect can only activate 1 time(s) per 1 turn(s).",
+  "triggerType": "Raid",
+  "triggerJp": "【レイド】このカードを手札に加えるか、必要エナジーを満たしている場合、レイドさせる。",
+  "triggerEn": "[Raid] Add this card to your hand, or if you meet its required energy, Raid it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-062.png?v8"
+ },
+ "AND-1-063": {
+  "key": "AND-1-063",
+  "numberJp": "UA25BT/AND-1-063",
+  "nameEn": "",
+  "nameJp": "タチアナ",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 1000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "このキャラはBP4000以上のキャラにブロックされない。",
+  "effectEn": "This character cannot be blocked by characters with BP 4000 or more.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-063.png?v8"
+ },
+ "AND-1-064": {
+  "key": "AND-1-064",
+  "numberJp": "UA25BT/AND-1-064",
+  "nameEn": "",
+  "nameJp": "タチアナ",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-064.png?v8"
+ },
+ "AND-1-065": {
+  "key": "AND-1-065",
+  "numberJp": "UA25BT/AND-1-065",
+  "nameEn": "",
+  "nameJp": "タチアナ",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【レイド】〈タチアナ〉アクティブにし、フロントLに移動できるこのキャラはBP4000以上のキャラにブロックされない。【起動メイン】【手札を1枚場外に置く】【ターン1】このキャラはこのターン中、「このキャラはBP3000以下のキャラにブロックされない。」を得る。",
+  "effectEn": "[Raid] Can Raid onto <タチアナ>; set it to active and you may move it to the Front Line. This character cannot be blocked by characters with BP 4000 or more. [Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] This character gains “This character cannot be blocked by characters with BP 3000 or less” this turn.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-065.png?v8"
+ },
+ "AND-1-066": {
+  "key": "AND-1-066",
+  "numberJp": "UA25BT/AND-1-066",
+  "nameEn": "",
+  "nameJp": "トップ",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
+  "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-066.png?v8"
+ },
+ "AND-1-067": {
+  "key": "AND-1-067",
+  "numberJp": "UA25BT/AND-1-067",
+  "nameEn": "",
+  "nameJp": "トップ",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "このキャラのアタック終了時、このキャラをエナジーLに移動させる。",
+  "effectEn": "At the end of this character's attack, move this character to the Energy Line.",
+  "triggerType": "Active",
+  "triggerJp": "【アクティブ】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+3000。",
+  "triggerEn": "[Active] Choose 1 character on your field, set it to active, and it gets BP+3000 this turn.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-067.png?v8"
+ },
+ "AND-1-068": {
+  "key": "AND-1-068",
+  "numberJp": "UA25BT/AND-1-068",
+  "nameEn": "",
+  "nameJp": "ニコ",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 1500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
+  "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-068.png?v8"
+ },
+ "AND-1-069": {
+  "key": "AND-1-069",
+  "numberJp": "UA25BT/AND-1-069",
+  "nameEn": "",
+  "nameJp": "ビリー",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 1,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "+",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【自分のターン中】自分のフロントLの他の［特徴：UNION］1枚につき、このキャラはBP+500。",
+  "effectEn": "[During Your Turn] For each 1 other [Trait: UNION] in your Front Line, This character gets BP+500.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-069.png?v8"
+ },
+ "AND-1-070": {
+  "key": "AND-1-070",
+  "numberJp": "UA25BT/AND-1-070",
+  "nameEn": "",
+  "nameJp": "フィル",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 0,
+  "ap": 1,
+  "bp": 2000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
+  "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-070.png?v8"
+ },
+ "AND-1-071": {
+  "key": "AND-1-071",
+  "numberJp": "UA25BT/AND-1-071",
+  "nameEn": "",
+  "nameJp": "ボイド",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、指定した場合、相手はブロックできない）このキャラはBP2000以上のキャラを【狙い撃ち】で指定できない。",
+  "effectEn": "[Snipe] (Can attack a chosen character in your opponent's Front Line; if you do, your opponent cannot block) This character cannot target characters with BP 2000 or more with [Snipe].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-071.png?v8"
+ },
+ "AND-1-072": {
+  "key": "AND-1-072",
+  "numberJp": "UA25BT/AND-1-072",
+  "nameEn": "",
+  "nameJp": "ムイ",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": 3000,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 2
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "【起動メイン】【ターン1】このキャラが登場したターン中のみ発動できる。自分の場の他のキャラを1枚選び、このターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を与える。",
+  "effectEn": "[Activate: Main] [Once Per Turn] Can only activate during the turn this character was played. Choose 1 other character on your field, This turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is given.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-072.png?v8"
+ },
+ "AND-1-073": {
+  "key": "AND-1-073",
+  "numberJp": "UA25BT/AND-1-073",
+  "nameEn": "",
+  "nameJp": "ムイ",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Character",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": 2500,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
+  "effectEn": "While this character is active, its generated energy +[Red].",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-073.png?v8"
+ },
+ "AND-1-074": {
+  "key": "AND-1-074",
+  "numberJp": "UA25BT/AND-1-074",
+  "nameEn": "",
+  "nameJp": "円卓",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   },
+   {
+    "color": "Plus",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "自分の場に他の［特徴：UNION］が3枚以上ある場合、このフィールドの発生エナジー+【赤】。",
+  "effectEn": "If you have 3 or more other [Trait: UNION] on your field, this field's generated energy +[Red].",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-074.png?v8"
+ },
+ "AND-1-075": {
+  "key": "AND-1-075",
+  "numberJp": "UA25BT/AND-1-075",
+  "nameEn": "",
+  "nameJp": "UMAクローゼス",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Field",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [
+   {
+    "color": "Red",
+    "count": 1
+   }
+  ],
+  "traits": [
+   "UNION"
+  ],
+  "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】自分の場のキャラを1枚選び、このターン中、BP+1000。",
+  "effectEn": "This Field is played active. [Activate: Main] [Rest this card] Choose 1 character on your field, it gets BP+1000 this turn.",
+  "triggerType": "Get",
+  "triggerJp": "【ゲット】このカードを手札に加える。",
+  "triggerEn": "[Get] Add this card to your hand.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-075.png?v8"
+ },
+ "AND-1-076": {
+  "key": "AND-1-076",
+  "numberJp": "UA25BT/AND-1-076",
+  "nameEn": "",
+  "nameJp": "黙示録",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "C",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "カードを『1枚』引き、自分のライフエリアにあるカードを1枚まで手札に加える。自分の場に必要エナジーが5以上のキャラがある場合、『2枚』に代わる。",
+  "effectEn": "Draw “1” card(s), and add up to 1 card(s) from your Life Area to your hand. If you have character with required energy 5 or more on your field, it becomes “2” instead.",
+  "triggerType": "Draw",
+  "triggerJp": "【ドロー】カードを1枚引く。",
+  "triggerEn": "[Draw] Draw 1 card(s).",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-076.png?v8"
+ },
+ "AND-1-077": {
+  "key": "AND-1-077",
+  "numberJp": "UA25BT/AND-1-077",
+  "nameEn": "",
+  "nameJp": "君に伝われ",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 3,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
+  "effectEn": "Choose up to 2 of your AP cards, set it to active.",
+  "triggerType": "Final",
+  "triggerJp": "【ファイナル】自分のライフが無い場合、自分の山札の上から1枚を自分のライフエリアに置く。",
+  "triggerEn": "[Final] If you have no Life, put the top 1 card(s) of your deck into your Life Area.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-077.png?v8"
+ },
+ "AND-1-078": {
+  "key": "AND-1-078",
+  "numberJp": "UA25BT/AND-1-078",
+  "nameEn": "",
+  "nameJp": "死閃",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 2,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "BP3000以下の相手のフロントLのキャラを1枚選び、退場させる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it.",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-078.png?v8"
+ },
+ "AND-1-079": {
+  "key": "AND-1-079",
+  "numberJp": "UA25BT/AND-1-079",
+  "nameEn": "",
+  "nameJp": "不運",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "R",
+  "needEnergy": 4,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "このカードは自分の場に〈出雲 風子〉がある場合のみ使用できる。BP5000以下の相手のフロントLのキャラを1枚か自分の場の〈アンディ〉を1枚選び、退場させる。",
+  "effectEn": "This card can only be used if you have <出雲 風子> on your field. Choose 1 character in your opponent's Front Line with BP 5000 or less, or 1 <アンディ> on your field, and retire it.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-079.png?v8"
+ },
+ "AND-1-080": {
+  "key": "AND-1-080",
+  "numberJp": "UA25BT/AND-1-080",
+  "nameEn": "",
+  "nameJp": "UNIONの力",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Event",
+  "colors": [
+   "Red"
+  ],
+  "rarity": "U",
+  "needEnergy": 5,
+  "ap": 1,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "自分の場の［特徴：UNION］の合計枚数×1000以下のBPの相手のフロントLのキャラを1枚選び、『退場させる』。自分の場に〈ジュイス〉がある場合、『リムーブエリアに置く』に代わる。",
+  "effectEn": "Choose 1 character in your opponent's Front Line with BP equal to or less than 1000 × the total number of [Trait: UNION] on your field, and “retire it” If you have <ジュイス> on your field, it becomes “put it into the Remove Area” instead.",
+  "triggerType": "Special",
+  "triggerJp": "【スペシャル】相手のフロントLのキャラを1枚選び、退場させる。",
+  "triggerEn": "[Special] Choose 1 character in your opponent's Front Line, retire it.",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-080.png?v8"
+ },
+ "AND-1-AP01": {
+  "key": "AND-1-AP01",
+  "numberJp": "UA25BT/AND-1-AP01",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アンデッドアンラック)",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-AP01.png?v8"
+ },
+ "AND-1-AP01★": {
+  "key": "AND-1-AP01★",
+  "numberJp": "UA25BT/AND-1-AP01★",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アンデッドアンラック)",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-AP01_s.png?v8"
+ },
+ "AND-1-AP02": {
+  "key": "AND-1-AP02",
+  "numberJp": "UA25BT/AND-1-AP02",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アンデッドアンラック)",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-AP02.png?v8"
+ },
+ "AND-1-AP02★": {
+  "key": "AND-1-AP02★",
+  "numberJp": "UA25BT/AND-1-AP02★",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アンデッドアンラック)",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-AP02_s.png?v8"
+ },
+ "AND-1-AP03": {
+  "key": "AND-1-AP03",
+  "numberJp": "UA25BT/AND-1-AP03",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アンデッドアンラック)",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-AP03.png?v8"
+ },
+ "AND-1-AP04": {
+  "key": "AND-1-AP04",
+  "numberJp": "UA25BT/AND-1-AP04",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アンデッドアンラック)",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-AP04.png?v8"
+ },
+ "AND-1-AP05": {
+  "key": "AND-1-AP05",
+  "numberJp": "UA25BT/AND-1-AP05",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アンデッドアンラック)",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-AP05.png?v8"
+ },
+ "AND-1-AP06": {
+  "key": "AND-1-AP06",
+  "numberJp": "UA25BT/AND-1-AP06",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アンデッドアンラック)",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-AP06.png?v8"
+ },
+ "AND-1-AP07": {
+  "key": "AND-1-AP07",
+  "numberJp": "UA25BT/AND-1-AP07",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アンデッドアンラック)",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-AP07.png?v8"
+ },
+ "AND-1-AP08": {
+  "key": "AND-1-AP08",
+  "numberJp": "UA25BT/AND-1-AP08",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アンデッドアンラック)",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-AP08.png?v8"
+ },
+ "AND-1-AP09": {
+  "key": "AND-1-AP09",
+  "numberJp": "UA25BT/AND-1-AP09",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アンデッドアンラック)",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-AP09.png?v8"
+ },
+ "AND-1-AP10": {
+  "key": "AND-1-AP10",
+  "numberJp": "UA25BT/AND-1-AP10",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アンデッドアンラック)",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-AP10.png?v8"
+ },
+ "AND-1-AP11": {
+  "key": "AND-1-AP11",
+  "numberJp": "UA25BT/AND-1-AP11",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アンデッドアンラック)",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-AP11.png?v8"
+ },
+ "AND-1-AP12": {
+  "key": "AND-1-AP12",
+  "numberJp": "UA25BT/AND-1-AP12",
+  "nameEn": "",
+  "nameJp": "アクションポイントカード(アンデッドアンラック)",
+  "series": "アンデッドアンラック",
+  "setName": "",
+  "cardType": "Action Point",
+  "colors": [],
+  "rarity": "",
+  "needEnergy": null,
+  "ap": null,
+  "bp": null,
+  "bpMark": "",
+  "generatedEnergy": [],
+  "traits": [],
+  "effectJp": "",
+  "effectEn": "",
+  "triggerType": "",
+  "triggerJp": "",
+  "triggerEn": "",
+  "imageUrl": "https://www.unionarena-tcg.com/jp/images/cardlist/card/UA25BT_AND-1-AP12.png?v8"
+ }
+}
