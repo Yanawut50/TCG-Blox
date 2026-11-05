@@ -1,0 +1,15 @@
+# Roblox place files (the real game lives in the group's Team Create)
+*.rbxl
+*.rbxlx
+*.rbxl.lock
+*.rbxlx.lock
+
+# Build output
+/build/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/*
+!.vscode/extensions.json
