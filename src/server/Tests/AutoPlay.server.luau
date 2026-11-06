@@ -1,7 +1,6 @@
 --!strict
 -- Step 2 test: two simple bots play full games with random legal HTR decks.
 -- Checks rule invariants after every action and prints a summary to Output.
--- Turn it off by setting the attribute Enabled = false on this script.
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Shared = ReplicatedStorage:WaitForChild("Shared")
@@ -12,7 +11,10 @@ local GameDir = script.Parent.Parent:WaitForChild("Game")
 local RulesEngine = require(GameDir:WaitForChild("RulesEngine"))
 local GameState = require(GameDir:WaitForChild("GameState"))
 
-if script:GetAttribute("Enabled") == false then
+-- Off by default. To run: set RUN = true here, or give this script the
+-- attribute RunAutoPlay = true in Studio before pressing Play.
+local RUN = false
+if not (RUN or script:GetAttribute("RunAutoPlay") == true) then
 	return
 end
 

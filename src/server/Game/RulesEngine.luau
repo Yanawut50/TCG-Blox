@@ -792,6 +792,7 @@ end
 function RulesEngine.new(deck1: { string }, deck2: { string }, opts: { firstPlayer: number?, seed: number? }?): GameState
 	local state = GameState.new(opts and opts.seed)
 	state.firstPlayer = (opts and opts.firstPlayer) or state.rng:NextInteger(1, 2)
+	state.turnPlayer = state.firstPlayer
 	for _, key in deck1 do
 		GameState.createCard(state, key, 1)
 	end

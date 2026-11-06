@@ -329,9 +329,17 @@ function GameState.viewFor(state: GameState, viewer: number): { [string]: any }
 			options = d.options,
 		}
 	end
+	-- Face-up cards being resolved right now (revealed Life cards, events in use).
+	local resolving = {}
+	for uid, c in state.cards do
+		if c.zone == "Resolving" then
+			table.insert(resolving, cardView(uid, false))
+		end
+	end
 	return {
 		you = viewer,
 		players = players,
+		resolving = resolving,
 		firstPlayer = state.firstPlayer,
 		turnPlayer = state.turnPlayer,
 		turnNumber = state.turnNumber,
