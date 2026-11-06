@@ -75,7 +75,15 @@ def _local_key(piece: str, names: list[str], traits: list[str], ua) -> dict:
     piece = re.sub(r"⟨n(\d+)⟩", rn, piece)
     piece = re.sub(r"⟦t(\d+)⟧", rt, piece)
     key, nums = ua.template_key(piece)
-    return {"key": key, "nums": [int(n) for n in nums], "names": local_names, "traits": local_traits}
+    # English for prompts (e.g. "choose one of the following"): rebuild the JP
+    # sentence with its real names/traits and run the project's translator on it.
+    jp = re.sub(r"⟨n(\d+)⟩", lambda m: "〈" + local_names[int(m.group(1))] + "〉", piece)
+    jp = re.sub(r"⟦t(\d+)⟧", lambda m: "［特徴：" + local_traits[int(m.group(1))] + "］", jp)
+    try:
+        en = ua.translate(jp)[0]
+    except Exception:  # the translator is best-effort; never block the export
+        en = ""
+    return {"key": key, "nums": [int(n) for n in nums], "names": local_names, "traits": local_traits, "en": en}
 
 
 def parse(effect_jp: str, card_type: str, root: Path) -> list[dict]:

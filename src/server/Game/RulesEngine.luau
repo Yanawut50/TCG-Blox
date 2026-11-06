@@ -205,6 +205,7 @@ local function effectCtx(state: GameState, p: number, source: number): EffectReg
 		did = true,
 		failed = false,
 		addedToHand = false,
+		chosen = {},
 		yesNo = function(player, prompt)
 			return yesNo(state, player, "UseEffect", prompt)
 		end,
@@ -286,7 +287,7 @@ local function raidTargets(state: GameState, p: number, uid: number): { number }
 		for _, t in line do
 			local td = GameState.def(state, t)
 			if td.cardType == "Character" and not td.raid then
-				local match = if spec.kind == "name" then td.nameJp == spec.value else table.find(td.traits, spec.value) ~= nil
+				local match = if spec.kind == "name" then EffectRegistry.hasName(state, t, spec.value) else table.find(td.traits, spec.value) ~= nil
 				if match then
 					table.insert(out, t)
 				end
@@ -323,6 +324,7 @@ local function doRaid(state: GameState, p: number, uid: number, targetUid: numbe
 	c.under = under
 	c.bpTurn, c.bpManual, c.granted = 0, 0, {}
 	c.attacksThisTurn, c.blocksThisTurn = 0, 0
+	c.playedTurn = state.turnNumber
 	-- 3. becomes Active.
 	c.rested = false
 	log(state, ("P%d Raid: %s onto %s"):format(p, GameState.name(state, uid), GameState.name(state, targetUid)))
@@ -464,7 +466,7 @@ local function attackFlow(state: GameState, p: number, atkUid: number, targetUid
 	local blockers = {}
 	for _, uid in state.players[defP].front do
 		local c = GameState.inst(state, uid)
-		if GameState.isCharacter(state, uid) and not c.rested then
+		if GameState.isCharacter(state, uid) and not c.rested and EffectRegistry.canBlock(state, atkUid, uid) then
 			table.insert(blockers, uid)
 		end
 	end
@@ -508,12 +510,13 @@ local function beginTurn(state: GameState, p: number)
 	-- 2. Everything Active, including AP cards.
 	for _, line in { ps.front, ps.energy } do
 		for _, uid in line do
-			GameState.inst(state, uid).rested = false
+			GameState.untap(state, uid)
 		end
 	end
 	for _, a in ps.ap do
 		a.rested = false
 	end
+	state.limits = {}
 	for _, c in state.cards do
 		c.attacksThisTurn = 0
 		c.blocksThisTurn = 0
@@ -543,7 +546,7 @@ local function endTurnFlow(state: GameState)
 	-- 2. Characters and Fields Active (AP cards stay rested).
 	for _, line in { ps.front, ps.energy } do
 		for _, uid in line do
-			GameState.inst(state, uid).rested = false
+			GameState.untap(state, uid)
 		end
 	end
 	-- 3. Hand limit.
@@ -558,6 +561,7 @@ local function endTurnFlow(state: GameState)
 	for _, c in state.cards do
 		c.bpTurn = 0
 		c.granted = {}
+		c.energyTurn = {}
 	end
 	checkStateRules(state)
 	beginTurn(state, other(p))

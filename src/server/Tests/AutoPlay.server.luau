@@ -18,8 +18,10 @@ if not (RUN or script:GetAttribute("RunAutoPlay") == true) then
 	return
 end
 
+-- Series to test, e.g. attribute Series = "HTR,JJK,KMY". Games are spread over them.
 local GAMES = 30
-local SERIES = "HTR"
+local SERIES_LIST = string.split(script:GetAttribute("Series") or "HTR", ",")
+local SERIES = SERIES_LIST[1]
 local MAX_ACTIONS = 5000
 
 local function buildDeck(rng: Random): { string }
@@ -294,6 +296,7 @@ local lastState: any = nil
 for g = 1, GAMES do
 	local ok, err = pcall(function()
 		local rng = Random.new(1000 + g)
+		SERIES = SERIES_LIST[((g - 1) % #SERIES_LIST) + 1]
 		local d1, d2 = buildDeck(rng), buildDeck(rng)
 		local ok1, e1 = DeckRules.validate(d1)
 		local ok2, e2 = DeckRules.validate(d2)

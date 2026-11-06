@@ -19,6 +19,9 @@ export type CardInst = {
 	attacksThisTurn: number,
 	blocksThisTurn: number,
 	usedOnce: { [number]: boolean }, -- ability index -> used this turn (Once Per Turn)
+	playedTurn: number, -- turn number it last entered the field
+	frozen: number, -- "does not become Active the next N times"
+	energyTurn: { [string]: number }, -- extra energy generated this turn
 }
 
 export type APCard = {
@@ -74,6 +77,7 @@ export type GameState = {
 	co: thread?,
 	flowQueue: { () -> () }, -- flows waiting for the current one to finish
 	delayed: { { when: string, fn: () -> () } }, -- e.g. "at the end of the Main Phase"
+	limits: { [string]: number }, -- "this <name> effect only N times per turn" counters, cleared each turn
 }
 
 export type Action = { [string]: any } -- always has `type: string`

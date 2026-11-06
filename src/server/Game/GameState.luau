@@ -60,6 +60,7 @@ function GameState.new(seed: number?): GameState
 		co = nil,
 		flowQueue = {},
 		delayed = {},
+		limits = {},
 	}
 end
 
@@ -107,6 +108,9 @@ function GameState.createCard(state: GameState, key: string, owner: number): num
 		attacksThisTurn = 0,
 		blocksThisTurn = 0,
 		usedOnce = {},
+		playedTurn = 0,
+		frozen = 0,
+		energyTurn = {},
 	}
 	table.insert(state.players[owner].deck, uid)
 	return uid
@@ -150,6 +154,8 @@ local function resetFieldState(c: CardInst)
 	c.attacksThisTurn = 0
 	c.blocksThisTurn = 0
 	c.usedOnce = {}
+	c.frozen = 0
+	c.energyTurn = {}
 end
 
 -- Moves a card to a zone. Leaving the field: Raid cards underneath go to the
@@ -171,6 +177,7 @@ function GameState.moveCard(state: GameState, uid: number, to: ZoneName, opts: {
 		resetFieldState(c)
 	elseif not wasOnField and toField then
 		resetFieldState(c)
+		c.playedTurn = state.turnNumber
 	end
 
 	c.zone = to
@@ -210,19 +217,35 @@ function GameState.keyword(state: GameState, uid: number, name: string): any
 	end
 	local d = GameState.def(state, uid)
 	local kw = (d :: any).keywords
-	return kw and kw[name]
+	local printed = kw and kw[name]
+	if printed ~= nil then
+		return printed
+	end
+	return if GameState.staticKeyword then GameState.staticKeyword(state, uid, name) else nil
 end
 
 -- Set by EffectRegistry: BP from static abilities ("this character gets BP+X").
 GameState.staticBP = nil :: ((any, number) -> number)?
 -- Set by EffectRegistry: extra energy from static abilities.
 GameState.staticEnergy = nil :: ((any, number) -> { [string]: number }?)?
+-- Set by EffectRegistry: keywords from static abilities.
+GameState.staticKeyword = nil :: ((any, number, string) -> any)?
 
 function GameState.bp(state: GameState, uid: number): number
 	local c = GameState.inst(state, uid)
 	local d = GameState.def(state, uid)
 	local static = if GameState.staticBP then GameState.staticBP(state, uid) else 0
 	return (d.bp or 0) + c.bpTurn + c.bpManual + static
+end
+
+-- Switch a field card to Active, unless an effect keeps it Rested this time.
+function GameState.untap(state: GameState, uid: number)
+	local c = GameState.inst(state, uid)
+	if c.rested and c.frozen > 0 then
+		c.frozen -= 1
+		return
+	end
+	c.rested = false
 end
 
 function GameState.isCharacter(state: GameState, uid: number): boolean
@@ -240,6 +263,9 @@ function GameState.energy(state: GameState, p: number): { [string]: number }
 		end
 		local extra = if GameState.staticEnergy then GameState.staticEnergy(state, uid) else nil
 		for color, n in extra or {} do
+			out[color] = (out[color] or 0) + n
+		end
+		for color, n in GameState.inst(state, uid).energyTurn do
 			out[color] = (out[color] or 0) + n
 		end
 	end
