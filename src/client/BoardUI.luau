@@ -536,8 +536,8 @@ local function decisionPanel(parent: Instance, v: any)
 	if not d then
 		if v.phase == "GameOver" then
 			label(f, ("Game over: P%d wins (%s)"):format(v.winner or 0, v.winReason or ""), { Size = UDim2.new(1, 0, 0, 40), MaxText = 16 })
-			button(f, "Play again", function()
-				actionEvent:FireServer(viewSeat, { type = "Rematch" })
+			button(f, "Back to lobby", function()
+				Net.event("LobbyAction"):FireServer({ type = "Leave" })
 			end)
 		else
 			label(f, "No decision waiting.", { Size = UDim2.new(1, 0, 0, 20), TextColor3 = MUTED, MaxText = 13 })
@@ -669,7 +669,7 @@ render = function()
 	end
 	local v = view()
 	if not v then
-		label(root, "Waiting for a game… (alone after 3 seconds = play both sides)", { MaxText = 22 })
+		label(root, "Waiting for the game…", { MaxText = 22 })
 		return
 	end
 	local me, opp = viewSeat, 3 - viewSeat
@@ -699,7 +699,7 @@ local BoardUI = {}
 
 function BoardUI.start()
 	local playerGui = Players.LocalPlayer:WaitForChild("PlayerGui")
-	gui = new("ScreenGui", { Name = "UnionArena", ResetOnSpawn = false, IgnoreGuiInset = true, ZIndexBehavior = Enum.ZIndexBehavior.Sibling, Parent = playerGui })
+	gui = new("ScreenGui", { Name = "UnionArena", Enabled = false, DisplayOrder = 2, ResetOnSpawn = false, IgnoreGuiInset = true, ZIndexBehavior = Enum.ZIndexBehavior.Sibling, Parent = playerGui })
 	new("Frame", { Size = UDim2.fromScale(1, 1), BackgroundColor3 = BG, Parent = gui })
 	root = new("Frame", { Name = "Root", Size = UDim2.new(1, -12, 1, -12), Position = UDim2.fromOffset(6, 6), BackgroundTransparency = 1, Parent = gui })
 	toast = new("TextLabel", {
@@ -730,10 +730,21 @@ function BoardUI.start()
 			end
 		end
 		mode = nil
+		gui.Enabled = true
 		render()
 	end)
 	errorEvent.OnClientEvent:Connect(function(msg: string)
 		showToast(msg)
+	end)
+	-- Back in the lobby: hide the board and forget the old game.
+	Net.event("LobbyUpdate").OnClientEvent:Connect(function(p: any)
+		if p.status ~= "playing" then
+			gui.Enabled = false
+			payload = nil
+			selected = nil
+			mode = nil
+			autoFollow = true
+		end
 	end)
 	-- Countdown refresh while a decision is open.
 	task.spawn(function()
