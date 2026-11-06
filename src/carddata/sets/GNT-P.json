@@ -21,9 +21,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "真選組"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札から必要エナジーが2以下で消費APが1の［特徴：真選組］を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[On Play] Play up to 1 [Trait: Shinsengumi] with required energy 2 or less and with AP cost 1 from your hand to your field rested.",
   "triggerType": "Draw",
@@ -53,9 +57,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "鬼兵隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の場外にある［特徴：鬼兵隊］と［特徴：宇宙海賊春雨］の合計枚数が5枚以上の場合、自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "[On Play] Draw 1 card(s); if the total number of [Trait: Kiheitai] and [Trait: Space Pirates Harusame] in your Outside Area is 5 or more, choose up to 1 of your AP cards and set them to active.",
   "triggerType": "Active",
@@ -85,9 +93,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "万事屋"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の山札の上から5枚見る。その中から必要エナジーが2以下で消費APが1の特徴に「万事屋」を持つキャラカードを1枚まで自分の場にレストで登場させるか〈万事屋銀ちゃん〉を1枚まで自分のエナジーLにレストで登場させる。残りを望む順で自分の山札の下に置く。この効果で登場させなかった場合、このカードを手札に加える。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Look at the top 5 card(s) of your deck. Play up to 1 character card(s) with the trait “Yorozuya”, required energy 2 or less and AP cost 1 among them to your field rested, or up to 1 <万事屋銀ちゃん> to your Energy Line rested. Put the rest on the bottom of your deck in any order. If nothing was played by this effect, add this card to your hand.",
   "triggerType": "Draw",

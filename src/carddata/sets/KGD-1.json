@@ -21,9 +21,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "燕"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle)",
   "triggerType": "Active",
@@ -53,9 +59,15 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "燕"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【自分のターン中】自分の場の黄のカードの特徴が3種類以上ある場合、このキャラはBP+1000。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [During Your Turn] If yellow cards on your field have 3 or more different traits, this character gets BP+1000.",
   "triggerType": "Active",
@@ -85,9 +97,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "韓"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分のターン中で、自分の場の黄のカードの特徴が3種類以上ある場合、自分の手札を1枚場外に置いてもよい。そうした場合、BP3000以下の相手のフロントLのキャラを1枚まで選び、レストにする。",
   "effectEn": "[On Play] If it is your turn and yellow cards on your field have 3 or more different traits, you may put 1 card(s) from your hand into your Outside Area. If you do, Choose up to 1 character in your opponent's Front Line with BP 3000 or less, rest it.",
   "triggerType": "Draw",
@@ -117,9 +133,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魏"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -149,9 +169,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魏"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -181,9 +205,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魏"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "呉鳳明"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈呉鳳明〉アクティブにし、フロントLに移動できる【アタック時】以下から1つ選ぶ。・自分の山札の上から自分の場の黄のカードの特徴の種類数分カードを見て、キャラカードかフィールドカードを1枚まで公開し手札に加える。残りを望む順で山札の下に置く。・このキャラはこのターン中、「このキャラはBP4000以上のキャラにブロックされない。」を得る。〈呉鳳明〉のこの効果は1ターンに1回のみ選べる。",
   "effectEn": "[Raid] Can Raid onto <呉鳳明>; set it to active and you may move it to the Front Line. [When Attacking] Choose 1 of the following. Look at cards from the top of your deck equal to the number of different traits among yellow cards on your field, reveal up to 1 character card or field card among them, and add it to your hand. Put the rest on the bottom of your deck in any order. This character gains “This character cannot be blocked by characters with BP 4000 or more” this turn. This <呉鳳明> effect can only be chosen 1 time(s) per 1 turn(s).",
   "triggerType": "Raid",
@@ -213,9 +244,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "楚"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：楚］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: Chu] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Color",
@@ -245,9 +280,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "楚"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】このキャラのBPが4000以上の場合、カードを1枚引く。",
   "effectEn": "[When Attacking] If this character's BP is 4000 or more, Draw 1 card(s).",
   "triggerType": "",
@@ -277,9 +316,18 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "楚"
   ],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": {
+   "kind": "name",
+   "value": "媧燐"
+  },
+  "deckLimit": null,
   "effectJp": "このカードはフロントLに登場できず、このカードの【起動メイン】以外でフロントLに移動できない。【インパクト（1）】（アタックしてバトルに勝利した時、相手に1ダメージ）【起動メイン】【ターン1】このキャラのBPが5000以上の場合のみ発動できる。このキャラを別のラインに移動させる。【レイド】〈媧燐〉アクティブにし、フロントLに移動できる【起動メイン】【ターン1】このキャラのレイド元のカードを自分のフロントLにアクティブで登場させる。そのキャラはこのターン中、BP+1000。",
   "effectEn": "This card cannot be played to the Front Line, and cannot move to the Front Line except by this card's [Activate: Main]. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [Activate: Main] [Once Per Turn] Can only activate if this character's BP is 5000 or more. Move this character to another line. [Raid] Can Raid onto <媧燐>; set it to active and you may move it to the Front Line. [Activate: Main] [Once Per Turn] Play this character's Raid source cards to your Front Line active. That character gets BP+1000 this turn.",
   "triggerType": "Raid",
@@ -309,9 +357,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "楚"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -339,15 +391,15 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "楚"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【黄】。",
   "effectEn": "While this character is active, its generated energy +[Yellow].",
   "triggerType": "",
@@ -377,9 +429,18 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "楚"
   ],
+  "keywords": {
+   "damage": 2
+  },
+  "raid": {
+   "kind": "name",
+   "value": "汗明"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈汗明〉アクティブにし、フロントLに移動できる【ダメージ（2）】（このキャラがアタックで与える直接ダメージは2ダメージ）【自分のターン中】【フロントLにある場合】自分の場の［特徴：楚］全ては、BP+2000。【起動メイン】【フロントLにある場合】【ターン1】カードを1枚引く。自分のフロントLに他のキャラがない場合、このターン中、次に手札から使用する〈誰が至強か!?〉か〈ドドンド ドンドン 汗明!!〉の消費APを-1する。",
   "effectEn": "[Raid] Can Raid onto <汗明>; set it to active and you may move it to the Front Line. [Damage 2] (The direct damage this character deals by attacking is 2 damage) [During Your Turn] [While in Front Line] All [Trait: Chu] on your field BP+2000. [Activate: Main] [While in Front Line] [Once Per Turn] Draw 1 card(s). If you have no other characters in your Front Line, This turn, the next <誰が至強か!?> or <ドドンド ドンドン 汗明!!> you use from your hand costs 1 less AP.",
   "triggerType": "Raid",
@@ -409,9 +470,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "楚"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラのBPが4000以上の場合、このキャラは【インパクト（1）】（アタックしてバトルに勝利した時、相手に1ダメージ）を得る。",
   "effectEn": "If this character's BP is 4000 or more, This character [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained.",
   "triggerType": "Active",
@@ -441,9 +506,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "楚"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードはフロントLに登場できず、フロントLに移動できない。【起動メイン】【レストにする】自分のフロントLの黄のキャラを望む枚数選び、エナジーLに移動させる。",
   "effectEn": "This card cannot be played to the Front Line and cannot move to the Front Line. [Activate: Main] [Rest this card] Choose any number of yellow characters in your Front Line and move them to the Energy Line.",
   "triggerType": "Get",
@@ -473,9 +542,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "楚"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】以下から1つ選ぶ。・元々のBPが4000以上の自分の場のキャラを1枚まで選び、このターン中、BP+1000。・自分の手札を1枚場外に置く。そうした場合、自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] Choose 1 of the following. Choose up to 1 character on your field with original BP 4000 or more; it gets BP+1000 this turn. Put 1 card(s) from your hand into your Outside Area. If you do, Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -505,9 +578,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "楚"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に〈媧燐〉がある場合、このキャラはBP+1000と【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）を得る。",
   "effectEn": "If you have <媧燐> on your field, this character gains BP+1000 and [Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "Active",
@@ -537,9 +614,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "楚"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外から必要エナジーが2以下の黄の［特徴：楚］を1枚まで自分の場にアクティブで登場させる。【起動メイン】【ターン1】このキャラのBPが5000以上の場合のみ発動できる。このキャラをアクティブにする。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, Play up to 1 Yellow [Trait: Chu] with required energy 2 or less from your Outside Area to your field active. [Activate: Main] [Once Per Turn] Can only activate if this character's BP is 5000 or more. Set this character to active.",
   "triggerType": "Draw",
@@ -569,9 +652,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "趙"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -601,9 +688,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "趙"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】自分の場に〈李牧〉がある場合、自分の手札から〈カイネ〉以外の必要エナジーが2以下で消費APが1の黄のキャラカードを1枚まで自分の場にレストで登場させる。",
   "effectEn": "[On Retire] If you have <李牧> on your field, Play up to 1 Yellow character card other than <カイネ> and with required energy 2 or less and with AP cost 1 from your hand to your field rested.",
   "triggerType": "Draw",
@@ -633,9 +724,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "趙"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【相手のターン中】相手は効果でこのキャラを選ぶ際と【狙い撃ち】でこのキャラを指定する際に、追加で自身の手札を1枚場外に置かないとそれらを行えない。【登場時】カードを2枚引き、自分の手札を1枚場外に置く。自分の場の黄のカードの特徴が3種類以上ある場合、このキャラをアクティブにする。",
   "effectEn": "[During Opponent's Turn] When choosing this character with an effect or targeting it with [Snipe], your opponent must additionally put 1 card(s) from their hand into their Outside Area. [On Play] Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area. If yellow cards on your field have 3 or more different traits, set this character to active.",
   "triggerType": "Get",
@@ -665,9 +760,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "趙"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -697,9 +796,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "趙"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【フロントLにある場合】自分のアタックフェイズ終了時、自分のフロントLに元々のBPが4500以上の他のキャラがあるか、このターン中にこのキャラが移動していない場合、このキャラを自分の山札の下に置く。【アタック時】このキャラはこのターン中、【インパクト（1）】か【ダメージ（2）】を得る。【退場時】このカードを自分の山札の下に置く。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [While in Front Line] At the end of your Attack Phase, if you have another character with original BP 4500 or more in your Front Line, or this character didn't move this turn, put this character on the bottom of your deck. [When Attacking] This character gains [Impact 1] or [Damage 2] this turn. [On Retire] Put this card on the bottom of your deck.",
   "triggerType": "Color",
@@ -727,15 +832,15 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "趙"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【黄】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Yellow] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -765,9 +870,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "趙"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -797,9 +906,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "趙"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見て、山札の上と下に望む枚数ずつ望む順で置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck and put any number of them on the top and the rest on the bottom of your deck in any order.",
   "triggerType": "",
@@ -829,9 +942,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "趙"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "李牧"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈李牧〉アクティブにし、フロントLに移動できる【登場時】自分の山札の上から4枚見て、必要エナジーが『0』以下で消費APが1の黄のキャラカードを1枚まで自分の場にレストで登場させる。残りを望む順で山札の下に置く。自分の場の黄のカードの特徴1種類につき、この効果で登場させるキャラの必要エナジーの範囲+1。【起動メイン】【フロントLにある場合】【ターン1】自分のフロントLの他のキャラと自分のエナジーLのキャラを1枚ずつ選び、それらの位置を入れ替える。",
   "effectEn": "[Raid] Can Raid onto <李牧>; set it to active and you may move it to the Front Line. [On Play] Look at the top 4 card(s) of your deck and play up to 1 yellow character card(s) with required energy “0” or less and AP cost 1 among them to your field rested. Put the rest on the bottom of your deck in any order. For each 1 different trait(s) among yellow cards on your field, the required energy range of characters played by this effect is increased by 1. [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 each of other characters in your Front Line and characters in your Energy Line, and swap their positions.",
   "triggerType": "Raid",
@@ -861,9 +981,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "魏"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場に〈呉鳳明〉がある場合、自分の場のキャラを1枚まで選び、このターン中、「このキャラはBP4000以上のキャラにブロックされない。」を与える。【起動メイン】【レストにする】【このカードを退場させる】自分の場のキャラを1枚まで選び、別のラインに移動させる。",
   "effectEn": "[On Play] If you have <呉鳳明> on your field, Choose up to 1 character on your field, it gains “This character cannot be blocked by characters with BP 4000 or more” this turn. [Activate: Main] [Rest this card] [Retire this card] Choose up to 1 character on your field, move it to another line.",
   "triggerType": "Get",
@@ -888,7 +1012,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを2枚引く。自分の場の黄のカードの特徴が3種類以上ある場合、さらにカードを1枚引く。",
   "effectEn": "Draw 2 card(s). If yellow cards on your field have 3 or more different traits, draw 1 more card(s).",
   "triggerType": "Draw",
@@ -913,7 +1041,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -938,7 +1070,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場の［特徴：楚］の枚数×1000以下のBPの相手のフロントLのキャラを1枚選び、退場させる。自分の場にBP5000以上の［特徴：楚］がある場合、自分の場の［特徴：楚］を1枚まで選び、別のラインに移動させる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP equal to or less than 1000 × the number of [Trait: Chu] on your field, and retire it. If you have [Trait: Chu] with BP 5000 or more on your field, Choose up to 1 [Trait: Chu] on your field, move it to another line.",
   "triggerType": "Special",
@@ -963,7 +1099,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -988,7 +1128,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈李牧〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <李牧> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -1013,7 +1157,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の下を1枚公開し『手札に加える』。公開したカードが消費APが1の黄の〈龐煖〉の場合、『自分の場にレストで登場させる』に代えてもよい。",
   "effectEn": "Reveal the bottom 1 card(s) of your deck and “add them to your hand” If the revealed card is a yellow <龐煖> with AP cost 1, you may instead make it “play it to your field rested”",
   "triggerType": "Draw",
@@ -1041,15 +1189,15 @@
    {
     "color": "Blue",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "秦"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【青】。",
   "effectEn": "While this character is active, its generated energy +[Blue].",
   "triggerType": "",
@@ -1079,9 +1227,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはアクティブで登場させる。自分のターン開始時、このキャラを退場させる。【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、自分の場の他のキャラを1枚まで選び、アクティブにする。",
   "effectEn": "This character is played active. At the start of your turn, retire this character. [On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, Choose up to 1 other character on your field, set it to active.",
   "triggerType": "Get",
@@ -1109,15 +1261,15 @@
    {
     "color": "Blue",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "秦"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【青】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Blue] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -1147,10 +1299,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "楽華隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このターンのアタックフェイズ開始時、自分のAPカードを1枚までアクティブにする。このキャラはこのターン中、「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] At the start of this turn's Attack Phase, set up to 1 of your AP cards to active. This character gains “At the end of the Main Phase, retire this character” this turn.",
   "triggerType": "Active",
@@ -1180,10 +1336,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "楽華隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見て、〈信〉か〈王賁〉か〈蒙恬〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 <信> or <王賁> or <蒙恬> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -1213,10 +1373,14 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "楽華隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の〔〈信〉か〈王賁〉か〈蒙恬〉〕を1枚まで選び、別のラインに移動させる。【エナジーLにある場合】【ターン1】自分のキャラがアタックした時、APを1支払ってもよい。そうした場合、自分のフロントLのキャラを1枚まで選び、このターン中、「このキャラは、相手の効果で選ばれない。」を与える。",
   "effectEn": "[On Play] Choose up to 1 <信> or <王賁> or <蒙恬> on your field, move it to another line. [While in Energy Line] [Once Per Turn] When your character attacks, you may pay 1 AP. If you do, choose up to 1 character in your Front Line; it gains “This character cannot be chosen by your opponent's effects” this turn.",
   "triggerType": "Draw",
@@ -1246,10 +1410,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "楽華隊"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "蒙恬"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈蒙恬〉アクティブにし、フロントLに移動できる【フロントLにある場合】自分のアタックフェイズ開始時、自分のAPカードを1枚までアクティブにする。【登場時】カードを『2枚』引き、自分の手札を1枚場外に置く。自分のフロントLに〈信〉と〈王賁〉がある場合、『3枚』に代わる。",
   "effectEn": "[Raid] Can Raid onto <蒙恬>; set it to active and you may move it to the Front Line. [While in Front Line] At the start of your Attack Phase, set up to 1 of your AP cards to active. [On Play] Draw “2” card(s), then put 1 card(s) from your hand into your Outside Area. If you have <信> and <王賁> in your Front Line, it becomes “3” instead.",
   "triggerType": "Raid",
@@ -1279,10 +1450,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "玉鳳隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】APを1支払ってもよい。そうした場合、このキャラはこのターン中、BP+2500。",
   "effectEn": "[When Attacking] You may pay 1 AP. If you do, This character gets BP+2500 this turn.",
   "triggerType": "",
@@ -1312,10 +1487,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "玉鳳隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】APを1支払ってもよい。そうした場合、このキャラはこのターン中、BP+1000と「このキャラはBP2000以下のキャラにブロックされない。」を得る。",
   "effectEn": "[When Attacking] You may pay 1 AP. If you do, This character it gets BP+1000 and gains “This character cannot be blocked by characters with BP 2000 or less” this turn.",
   "triggerType": "Active",
@@ -1345,10 +1524,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "玉鳳隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラのアタック終了時、APを1支払ってもよい。そうした場合、自分の手札から必要エナジーを満たす〈王賁〉を1枚までレイドさせ、そのキャラにこのターン中、【インパクト（1）】を与える。〈王賁〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "At the end of this character's attack, you may pay 1 AP. If you do, Raid up to 1 <王賁> that meets its required energy from your hand, and that character gains [Impact 1] this turn. This <王賁> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Color",
@@ -1378,10 +1561,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "玉鳳隊"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "王賁"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈王賁〉アクティブにし、フロントLに移動できるこのキャラのアタックがブロックされなかった時、カードを『1枚』引く。自分のフロントLに〈信〉と〈蒙恬〉がある場合、『2枚』に代わる。【登場時】BP1500以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。【アタック時】「APを1支払い、相手のフロントLのキャラを1枚選ぶ。」をしてもよい。そうした場合、相手は選ばれたキャラ以外のキャラでこのアタックをブロックできない。",
   "effectEn": "[Raid] Can Raid onto <王賁>; set it to active and you may move it to the Front Line. When this character's attack is not blocked, draw “1” card(s). If you have <信> and <蒙恬> in your Front Line, it becomes “2” instead. [On Play] Choose up to 1 character in your opponent's Front Line with BP 1500 or more, it gets BP-1000 this turn. [When Attacking] You may “pay 1 AP, and choose 1 character in your opponent's Front Line” If you do, your opponent cannot block this attack with characters other than the chosen character.",
   "triggerType": "Raid",
@@ -1411,10 +1601,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "飛信隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他の［特徴：飛信隊］を1枚まで選び、このターン中、「このキャラはBP4000以上のキャラにブロックされない。」を与える。",
   "effectEn": "[On Play] Choose up to 1 other [Trait: Hishin Unit] on your field, it gains “This character cannot be blocked by characters with BP 4000 or more” this turn.",
   "triggerType": "",
@@ -1444,10 +1638,14 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "飛信隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場外から必要エナジーが2以下の〔［特徴：飛信隊］かイベントカード〕を1枚まで手札に加える。",
   "effectEn": "[On Play] Add up to 1 [Trait: Hishin Unit] or event card with required energy 2 or less from your Outside Area to your hand.",
   "triggerType": "Color",
@@ -1477,10 +1675,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "飛信隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見て、青の［特徴：飛信隊］を1枚まで場外に置き、残りを望む順で山札の上に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck, put up to 1 blue [Trait: Hishin Unit] into your Outside Area, and put the rest back on top of your deck in any order.",
   "triggerType": "Active",
@@ -1510,10 +1712,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "飛信隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】このキャラが自分の効果で登場していた場合、カードを1枚引く。",
   "effectEn": "[On Play] If this character was played by your own effect, draw 1 card(s).",
   "triggerType": "Draw",
@@ -1543,10 +1749,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "飛信隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはアクティブで登場させる。【登場時】自分の場に［特徴：飛信隊］のカード名が4種類以上ある場合、自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外から必要エナジーが2以下の青のイベントカードを1枚まで手札に加える。【アタック時】自分の手札から必要エナジーが2以下の青のイベントカードをAPを支払わずに1枚使用できる。",
   "effectEn": "This character is played active. [On Play] If you have 4 or more [Trait: Hishin Unit] with different card names on your field, You may put 1 card(s) from your hand into your Outside Area. If you do, add up to 1 blue event card with required energy 2 or less from your Outside Area to your hand. [When Attacking] You may use 1 blue event card with required energy 2 or less from your hand without paying AP.",
   "triggerType": "Get",
@@ -1576,10 +1786,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "飛信隊"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "羌瘣"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈羌瘣〉アクティブにし、フロントLに移動できる【登場時】以下から『1つ』選ぶ。自分のターン中で、このキャラが自分の効果で登場していた場合、『2つ』に代わる。・相手のフロントLのレイド状態のカードを1枚まで選び、レイド状態の上のカードを1枚場外に置く。・必要エナジーが3以下の相手のフロントLのキャラを1枚まで選び、手札に戻す。",
   "effectEn": "[Raid] Can Raid onto <羌瘣>; set it to active and you may move it to the Front Line. [On Play] Choose 1 of the following. If it is your turn and this character was played by your own effect, it becomes “2” instead. Choose up to 1 Raided card in your opponent's Front Line, and put 1 top card of that Raided stack into the Outside Area. Choose up to 1 character in your opponent's Front Line with required energy 3 or less, return it to its owner's hand.",
   "triggerType": "Raid",
@@ -1609,10 +1826,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "飛信隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見て、［特徴：飛信隊］を1枚まで公開し手札に加える。残りを場外に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck, reveal up to 1 [Trait: Hishin Unit] among them and add it to your hand. Put the rest into your Outside Area. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -1642,10 +1863,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "飛信隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1675,10 +1900,14 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "飛信隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このキャラはBP+1000。",
   "effectEn": "[During Your Turn] This character gets BP+1000.",
   "triggerType": "",
@@ -1708,10 +1937,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "飛信隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【青×2】減らす。【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Blue x2]is reduced. [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -1741,10 +1974,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "飛信隊"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）自分のキャラがレイドした時、自分のターン中の場合、レストのこのキャラをアクティブにしてもよい。そうした場合、このキャラはこのターン中、BP+1000。〈信〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) When your character Raids, if it is your turn, you may set this rested character to active. If you do, This character gets BP+1000 this turn. This <信> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Get",
@@ -1774,10 +2013,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "飛信隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】『カードを1枚引き、自分の手札を1枚場外に置く』。自分の場に［特徴：飛信隊］のカード名が4種類以上ある場合、『カードを1枚引く』に代えてもよい。",
   "effectEn": "[On Play] “Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area” If you have 4 or more different card names among [Trait: Hishin Unit] on your field, you may instead make it “Draw 1 card(s)”",
   "triggerType": "",
@@ -1807,10 +2050,14 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "飛信隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -1840,10 +2087,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "飛信隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分の場に［特徴：飛信隊］のカード名が4種類以上ある場合、このキャラはBP+1000。",
   "effectEn": "[During Your Turn] If you have 4 or more [Trait: Hishin Unit] with different card names on your field, This character gets BP+1000.",
   "triggerType": "",
@@ -1873,10 +2124,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "飛信隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他の［特徴：飛信隊］を1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other [Trait: Hishin Unit] on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -1906,10 +2161,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "飛信隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【相手のターン中】自分の場に［特徴：飛信隊］のカード名が4種類以上ある場合、このキャラは【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）と「このキャラは移動せず、手札に戻らず、BPをマイナスする効果を受けない。」を得る。",
   "effectEn": "[During Opponent's Turn] If you have 4 or more different card names among [Trait: Hishin Unit] on your field, this character gains [Impact Nullify] (The character that battles this character loses Impact during this battle) and “This character does not move, is not returned to the hand, and is not affected by effects that reduce BP”",
   "triggerType": "Active",
@@ -1939,9 +2198,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このフィールドはアクティブで登場させる。自分のアタックフェイズ終了時、「アクティブのこのフィールドをレストにし、APを1支払う。」をしてもよい。そうした場合、カードを1枚引く。",
   "effectEn": "This Field is played active. At the end of your Attack Phase, you may “rest this active field and pay 1 AP” If you do, Draw 1 card(s).",
   "triggerType": "Get",
@@ -1966,7 +2229,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1991,7 +2258,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2016,7 +2287,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを1枚引く。以下から1つ選ぶ。・自分の手札から必要エナジーを満たし消費APが1の〈羌瘣〉を1枚まで自分の場にレストで登場させるかレイドさせる。この効果で消費APが2の〈羌瘣〉にはレイドできない。・自分の場の［特徴：飛信隊］を1枚まで選び、このターン中、BP+1000。選んだキャラが〈羌瘣〉の場合、さらにこのターン中、「このキャラはBP4000以上のキャラにブロックされない。」を与える。",
   "effectEn": "Draw 1 card(s). Choose 1 of the following. Play up to 1 <羌瘣> whose required energy you meet and with AP cost 1 from your hand to your field rested or Raid it. This effect cannot Raid onto <羌瘣> with AP cost 2. Choose up to 1 [Trait: Hishin Unit] on your field, it gets BP+1000 this turn. If the chosen character is <羌瘣>, it also gains “This character cannot be blocked by characters with BP 4000 or more” this turn.",
   "triggerType": "Draw",
@@ -2041,7 +2316,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から6枚見て、〈信〉と〈王賁〉と〈蒙恬〉をそれぞれ1枚まで公開し手札に加える。残りを望む順で山札の下に置く。",
   "effectEn": "Look at the top 6 card(s) of your deck, reveal up to 1 each of <信>, <王賁> and <蒙恬> among them, and add them to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -2066,7 +2345,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "BP5000以下の相手のフロントLのキャラを1枚選び、『手札に戻す』。自分の場に〈王賁〉がある場合、『退場させる』に代えてもよい。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 5000 or less, “return it to its owner's hand” If you have <王賁> on your field, you may change it to “retire it”",
   "triggerType": "Special",
@@ -2091,7 +2374,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈信〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <信> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -2121,9 +2408,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -2153,9 +2444,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見て、1枚まで場外に置き、残りを望む順で山札の上に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck, Put up to 1 of them into your Outside Area, Put the rest on top of your deck in any order.",
   "triggerType": "Draw",
@@ -2185,9 +2480,16 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "嬴政"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈嬴政〉アクティブにし、フロントLに移動できる【登場時】自分の場外から必要エナジーが4以下で消費APが1の【レイド】を持たない赤のキャラカードを1枚まで自分の場にレストで登場させる。登場させた場合、アクティブのこのキャラをレストにしてもよい。そうした場合、そのキャラをアクティブにする。【起動メイン】【フロントLにある場合】【レストにする】【ターン1】自分の場の他のキャラを1枚選び、アクティブにする。選んだキャラの必要エナジーが0の場合、そのキャラはこのターン中、BP+2000。",
   "effectEn": "[Raid] Can Raid onto <嬴政>; set it to active and you may move it to the Front Line. [On Play] Play up to 1 red character card(s) with required energy 4 or less, AP cost 1 and without [Raid] from your Outside Area to your field rested. If you played it, you may rest this active character. If you do, set that character to active. [Activate: Main] [While in Front Line] [Rest this card] [Once Per Turn] Choose 1 other character on your field, set it to active. If the chosen character has required energy 0, that character gets BP+2000 this turn.",
   "triggerType": "Raid",
@@ -2217,9 +2519,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】自分の場に〈嬴政〉がある場合、カードを1枚引く。",
   "effectEn": "[On Retire] If you have <嬴政> on your field, Draw 1 card(s).",
   "triggerType": "",
@@ -2249,9 +2555,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -2281,9 +2591,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】以下から1つ選ぶ。・自分の山札の上から3枚見て、1枚まで場外に置き、残りを望む順で山札の上に置く。・自分の場の必要エナジーが2以下のキャラを1枚手札に戻してもよい。そうした場合、自分の場の他のキャラを1枚まで選び、アクティブにする。",
   "effectEn": "[On Play] Choose 1 of the following. Look at the top 3 card(s) of your deck, Put up to 1 of them into your Outside Area, Put the rest on top of your deck in any order. You may return 1 character on your field with required energy 2 or less to the owner's hand. If you do, Choose up to 1 other character on your field, set it to active.",
   "triggerType": "Draw",
@@ -2313,9 +2627,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -2345,9 +2663,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはBP2000以下のキャラにブロックされない。自分のフロントLに異なるカード名のキャラが4種類以上ある場合、このキャラは「このキャラはBP4000以上のキャラにブロックされない。」を得る。",
   "effectEn": "This character cannot be blocked by characters with BP 2000 or less. If you have 4 or more characters with different card names in your Front Line, this character gains “This character cannot be blocked by characters with BP 4000 or more”",
   "triggerType": "Active",
@@ -2377,9 +2699,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】以下から1つ選ぶ。・このキャラはこのターン中、「このキャラのアタックがブロックされなかった時、カードを1枚まで引く。」を得る。・自分のフロントLに異なるカード名のキャラが4種類以上ある場合、カードを1枚引く。",
   "effectEn": "[When Attacking] Choose 1 of the following. This character gains “When this character's attack is not blocked, draw up to 1 card(s)” this turn. If you have 4 or more characters with different card names in your Front Line, draw 1 card(s).",
   "triggerType": "",
@@ -2407,15 +2733,15 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "秦"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
   "effectEn": "While this character is active, its generated energy +[Red].",
   "triggerType": "",
@@ -2445,9 +2771,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分のターン中の場合、APを1支払ってもよい。そうした場合、以下から1つ選ぶ。・BP4500以上の相手のフロントLのキャラを1枚まで選び、退場させる。・自分のフロントLに異なるカード名のキャラが4種類以上ある場合、BP3500以上の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "[On Play] If it is your turn, you may pay 1 AP. If you do, Choose 1 of the following. Choose up to 1 character in your opponent's Front Line with BP 4500 or more, retire it. If you have 4 or more characters with different card names in your Front Line, choose up to 1 character in your opponent's Front Line with BP 3500 or more and retire it.",
   "triggerType": "Active",
@@ -2477,9 +2807,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、カードを『1枚』引く。場外に置いたカードが〈嬴政〉の場合、『2枚』に代わる。",
   "effectEn": "[On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, draw “1” card(s). If the card put into your Outside Area is <嬴政>, it becomes “2” instead.",
   "triggerType": "Draw",
@@ -2509,9 +2843,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "山の民"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分の場に〈楊端和〉がある場合、このキャラはBP+1000。",
   "effectEn": "[During Your Turn] If you have <楊端和> on your field, This character gets BP+1000.",
   "triggerType": "Draw",
@@ -2541,9 +2879,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "山の民"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【登場時】自分の場に〈嬴政〉がある場合、APを1支払ってもよい。そうした場合、このキャラをアクティブにし、このキャラはこのターン中、「【エナジーLにある場合】自分のキャラのアタック終了時、自分のフロントLのキャラを1枚選び、このキャラと位置を入れ替えてもよい。」を得て、自分の場のキャラを1枚まで選び、このターン中、BP+2000。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [On Play] If you have <嬴政> on your field, You may pay 1 AP. If you do, set this character to active; it gains “[While in Energy Line] At the end of your character's attack, you may choose 1 character in your Front Line and swap its position with this character” this turn, and choose up to 1 character on your field; it gets BP+2000 this turn.",
   "triggerType": "Draw",
@@ -2573,10 +2917,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "桓騎軍"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】自分のターン中の場合、自分のAPカードを1枚アクティブにする。〈オギコ〉のこの効果は1ターンに1回のみ発動する。",
   "effectEn": "[On Retire] If it is your turn, set 1 of your AP cards to active. This <オギコ> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "",
@@ -2606,10 +2954,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "桓騎軍"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -2639,10 +2991,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "桓騎軍"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：桓騎軍］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: Kanki Army] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Color",
@@ -2672,10 +3028,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "桓騎軍"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【赤×2】減らす。【起動メイン】【フロントLにある場合】【ターン1】自分の場の他の［特徴：桓騎軍］を1枚退場させる。そうした場合、このキャラはこのターン中、BP+2000。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Red x2]is reduced. [Activate: Main] [While in Front Line] [Once Per Turn] Retire 1 other [Trait: Kanki Army] on your field. If you do, This character gets BP+2000 this turn.",
   "triggerType": "Draw",
@@ -2705,10 +3065,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "桓騎軍"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "桓騎"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈桓騎〉アクティブにし、フロントLに移動できる【登場時】自分の場の他の［特徴：桓騎軍］を1枚まで選び、アクティブにする。【起動メイン】【フロントLにある場合】【ターン1】このターン中にキャラの効果でキャラが退場していた場合のみ発動できる。以下から1つ選ぶ。このターン中に〈桓騎〉が既に選んだ効果は選べない。・このターン中、次に手札から使用する［特徴：桓騎軍］の消費APを-1する。・カードを1枚引く。",
   "effectEn": "[Raid] Can Raid onto <桓騎>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 other [Trait: Kanki Army] on your field, set it to active. [Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if a character was retired by a character's effect this turn. Choose 1 of the following. You cannot choose an effect <桓騎> has already chosen this turn. This turn, the next [Trait: Kanki Army] you use from your hand costs 1 less AP. Draw 1 card(s).",
   "triggerType": "Raid",
@@ -2738,10 +3105,14 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "桓騎軍"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他の［特徴：桓騎軍］を1枚退場させてもよい。そうした場合、カードを2枚引く。",
   "effectEn": "[On Play] You may retire 1 other [Trait: Kanki Army] on your field. If you do, Draw 2 card(s).",
   "triggerType": "Draw",
@@ -2771,10 +3142,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "桓騎軍"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【登場時】自分の場に〈桓騎〉がある場合、相手は自身のフロントLのキャラを1枚退場させる。【起動メイン】【ターン1】自分の手札の［特徴：桓騎軍］を1枚場外に置く。そうした場合、このキャラをアクティブにする。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [On Play] If you have <桓騎> on your field, your opponent retires 1 character in their Front Line. [Activate: Main] [Once Per Turn] Put into the owner's outside area 1 [Trait: Kanki Army] in your hand. If you do, Set this character to active.",
   "triggerType": "Active",
@@ -2802,16 +3179,16 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "秦",
    "桓騎軍"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【赤】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Red] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -2841,10 +3218,14 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "桓騎軍"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】〈摩論〉以外の自分の場の［特徴：桓騎軍］を1枚まで選び、このターン中、「【退場時】このカードを手札に加える。」を与える。",
   "effectEn": "[On Play] Choose up to 1 [Trait: Kanki Army] on your field other than <摩論>, it gains “[On Retire]Add this card to your hand” this turn.",
   "triggerType": "Draw",
@@ -2874,10 +3255,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "桓騎軍"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に〈桓騎〉がある場合、手札にあるこのカードの必要エナジーを【赤×1】減らす。【自分のターン中】このターン中にキャラの効果でキャラが退場していた場合、このキャラはBP+1000と【インパクト（1）】（アタックしてバトルに勝利した時、相手に1ダメージ）を得る。",
   "effectEn": "If you have <桓騎> on your field, the required energy of this card in your hand [Red x1]is reduced. [During Your Turn] If a character was retired by a character's effect this turn, this character gains BP+1000 and [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opponent)",
   "triggerType": "",
@@ -2907,10 +3292,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "桓騎軍"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見て、［特徴：桓騎軍］を1枚まで場外に置く。残りを望む順で山札の上に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck, and put up to 1 [Trait: Kanki Army] among them into your Outside Area. Put the rest on top of your deck in any order.",
   "triggerType": "Active",
@@ -2940,10 +3329,14 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "飛信隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分の場に〈嬴政〉がある場合、このキャラはBP+2000。【エナジーLにある場合】【ターン1】自分のキャラのアタック終了時、このターン中にアタックしていない自分のフロントLのキャラを1枚選び、このキャラと位置を入れ替えてもよい。【起動メイン】【手札を2枚場外に置く】【ターン1】このキャラはこのターン中、【インパクト（1）】を得る。",
   "effectEn": "[During Your Turn] If you have <嬴政> on your field, This character gets BP+2000. [While in Energy Line] [Once Per Turn] At the end of your character's attack, you may choose 1 character in your Front Line that hasn't attacked this turn, and swap its position with this character. [Activate: Main] [Put 2 card(s) from your hand into your Outside Area] [Once Per Turn] This character, this turn, [Impact 1] is gained.",
   "triggerType": "Color",
@@ -2973,9 +3366,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【このカードを退場させる】自分の場の［特徴：秦］を1枚まで選び、次の自分のターン開始時まで、BP+2000。",
   "effectEn": "[Activate: Main] [Retire this card] Choose up to 1 [Trait: Qin] on your field, Until the start of your next turn, BP+2000.",
   "triggerType": "Get",
@@ -3000,7 +3397,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -3025,7 +3426,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -3050,7 +3455,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは自分の場に〈桓騎〉がある場合のみ使用できる。BP5000以下の相手のフロントLのキャラを1枚選び、退場させる。このターン中にキャラの効果でキャラが退場していた場合、自分の場の［特徴：桓騎軍］を1枚まで選び、このターン中、BP+1000。",
   "effectEn": "This card can only be used if you have <桓騎> on your field. Choose 1 character in your opponent's Front Line with BP 5000 or less, retire it. If a character was retired by a character's effect this turn, choose up to 1 [Trait: Kanki Army] on your field; it gets BP+1000 this turn.",
   "triggerType": "Special",
@@ -3075,7 +3484,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは自分の場に〈嬴政〉がある場合のみ使用できる。自分の場の［特徴：秦］の枚数×1000以下のBPの相手のフロントLのキャラを1枚選び、退場させる。",
   "effectEn": "This card can only be used if you have <嬴政> on your field. Choose 1 character in your opponent's Front Line with BP equal to or less than 1000 × the number of [Trait: Qin] on your field, and retire it.",
   "triggerType": "Special",
@@ -3100,7 +3513,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のキャラを1枚選び、このターン中、BP+2000。選んだキャラが〈麃公〉か〈信〉の場合、さらに【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、その場合ブロックされない）を与える。",
   "effectEn": "Choose 1 character on your field, it gets BP+2000 this turn. If the chosen character is <麃公> or <信>, it also gains [Snipe] (Can attack a chosen character in your opponent's Front Line; if so, it cannot be blocked)",
   "triggerType": "Active",
@@ -3125,7 +3542,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場外から必要エナジーが0の赤のキャラカードを『1枚』まで自分の場にレストで登場させる。自分のフロントLに〈嬴政〉がある場合、『2枚』に代わる。",
   "effectEn": "Play up to “1” red character card with required energy 0 from your Outside Area to your field rested. If you have <嬴政> in your Front Line, it becomes “2” instead.",
   "triggerType": "Active",
@@ -3155,9 +3576,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分の場の他のキャラを1枚選び、このターン中、「【アタック時】カードを1枚まで引く。」を与える。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 other character on your field, it gains “[When Attacking]Draw up to 1 card(s)” this turn.",
   "triggerType": "Draw",
@@ -3187,9 +3612,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはアクティブで登場させる。【アタック時】カードを1枚引く。【退場時】自分の場の〈信〉を1枚まで選び、アクティブにし、このターン中、BP+3000。",
   "effectEn": "This character is played active. [When Attacking] Draw 1 card(s). [On Retire] Choose up to 1 <信> on your field, set it to active, and it gets BP+3000 this turn.",
   "triggerType": "Active",
@@ -3219,9 +3648,15 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle)",
   "triggerType": "Active",
@@ -3251,10 +3686,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "飛信隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の場外から〈河了貂〉以外の必要エナジーが2以下の青の［特徴：飛信隊］を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Play up to 1 Blue [Trait: Hishin Unit] other than <河了貂> and with required energy 2 or less from your Outside Area to your field rested.",
   "triggerType": "Draw",
@@ -3284,10 +3723,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "飛信隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【ターン1】このキャラを別のラインに移動させる。",
   "effectEn": "[Activate: Main] [Once Per Turn] Move this character to another line.",
   "triggerType": "",
@@ -3317,10 +3760,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "飛信隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に［特徴：飛信隊］のカード名が4種類以上ある場合、このキャラはBP+1000。",
   "effectEn": "If you have 4 or more [Trait: Hishin Unit] with different card names on your field, This character gets BP+1000.",
   "triggerType": "Draw",
@@ -3350,10 +3797,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "飛信隊"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "信"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈信〉アクティブにし、フロントLに移動できる【自分のターン中】このキャラのBPは自分の場の［特徴：飛信隊］のカード名の種類数×500プラスされる。このキャラのBPにより、このキャラは以下の効果を全て得る。・BP6000以上：【アタック時】自分の場の［特徴：飛信隊］を1枚まで選び、このターン中、BP+1000。・BP7000以上：【インパクト（1）】（アタックしてバトルに勝利した時、相手に1ダメージ）【登場時】自分の手札から必要エナジーが2以下で消費APが1の青の［特徴：飛信隊］を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[Raid] Can Raid onto <信>; set it to active and you may move it to the Front Line. [During Your Turn] This character's BP is increased by 500 × the number of different card names among [Trait: Hishin Unit] on your field. Depending on this character's BP, this character gains all of the following effects. BP 6000 or more: [When Attacking] Choose up to 1 [Trait: Hishin Unit] on your field; it gets BP+1000 this turn. BP 7000 or more: [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opponent) [On Play] Play up to 1 Blue [Trait: Hishin Unit] with required energy 2 or less and with AP cost 1 from your hand to your field rested.",
   "triggerType": "Raid",
@@ -3381,16 +3835,16 @@
    {
     "color": "Blue",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "秦",
    "飛信隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に［特徴：飛信隊］のカード名が4種類以上ある場合、このフィールドの発生エナジー+【青】。【登場時】自分の山札の上から1枚見て、山札の上か場外に置く。",
   "effectEn": "If you have 4 or more different card names among [Trait: Hishin Unit] on your field, this field's generated energy +[Blue]. [On Play] Look at the top 1 card(s) of your deck, put them on top of your deck or into your Outside Area.",
   "triggerType": "Get",
@@ -3415,7 +3869,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から6枚見て、異なるカード名の［特徴：飛信隊］をそれぞれ1枚ずつ合計2枚まで公開し手札に加える。残りを望む順で山札の下に置く。",
   "effectEn": "Look at the top 6 card(s) of your deck, reveal up to 1 each of [Trait: Hishin Unit] with different card names, up to 2 in total, and add them to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -3445,9 +3903,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "楚"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【黄×2】減らす。【自分のターン中】このキャラはBP+1000。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Yellow x2]is reduced. [During Your Turn] This character gets BP+1000.",
   "triggerType": "Draw",
@@ -3477,9 +3939,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "趙"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。【起動メイン】【レストにする】【ターン1】自分のエナジーLのカードを1枚選び、アクティブにする。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. [Activate: Main] [Rest this card] [Once Per Turn] Choose 1 card in your Energy Line, set it to active.",
   "triggerType": "Draw",
@@ -3509,9 +3975,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の必要エナジーが2以下のキャラを1枚手札に戻してもよい。そうした場合、このキャラをアクティブにする。【退場時】自分のフロントLに【レイド】を持つキャラがない場合、自分の手札を1枚場外に置いてもよい。そうした場合、このカードを手札に加える。",
   "effectEn": "[On Play] You may return 1 character on your field with required energy 2 or less to the owner's hand. If you do, Set this character to active. [On Retire] If you have no character with [Raid] in your Front Line, you may put 1 card(s) from your hand into your Outside Area. If you do, Add this card to your hand.",
   "triggerType": "Draw",
@@ -3541,10 +4011,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "秦",
    "桓騎軍"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他の［特徴：桓騎軍］を1枚退場させてもよい。そうした場合、このキャラをアクティブにする。【起動メイン】自分の場の他の［特徴：桓騎軍］を1枚退場させる。そうした場合、このキャラはこのターン中、BP+1000と【2回アタック】（このキャラがこのターン初めてアタックした時、アクティブにする）を得る。〈桓騎〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "[On Play] You may retire 1 other [Trait: Kanki Army] on your field. If you do, Set this character to active. [Activate: Main] Retire 1 other [Trait: Kanki Army] on your field. If you do, this character gains BP+1000 and [Double Attack] (When this character attacks for the first time this turn, set it to active) this turn. This <桓騎> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Get",
@@ -3567,7 +4041,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3590,7 +4068,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3613,7 +4095,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3636,7 +4122,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3659,7 +4149,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3682,7 +4176,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

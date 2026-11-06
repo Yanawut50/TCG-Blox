@@ -21,7 +21,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはアクティブで場に登場させる。自分のアタックフェイズ終了時、このキャラを退場させる。【登場時】自分の場外にあるキャラカードを2枚までリムーブエリアに置く。【退場時】このキャラをリムーブエリアに置き、自分のリムーブエリアから〈鹿目 まどか〉以外の必要エナジーが3以下で消費APが1の異なるカード名の黄の［特徴：魔法少女］を2枚まで自分の場にレストで登場させる。",
   "effectEn": "This character is played active. At the end of your Attack Phase, retire this character. [On Play] Put into the owner's remove area up to 2 character cards in your Outside Area. [On Retire] Put this character into the Remove Area, and play up to 2 yellow [Trait: Magical Girl] with different card names other than <鹿目 まどか>, required energy 3 or less and AP cost 1 from your Remove Area to your field rested.",
   "triggerType": "Get",
@@ -51,7 +55,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "鹿目 まどか"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈鹿目 まどか〉アクティブにし、フロントLに移動できる【フロントLにある場合】自分は自分のリムーブエリアの〈鹿目 まどか〉以外の【レイド】を持たない［特徴：魔法少女］か〈円環の理〉を使用できる。（使用する場合は必要エナジーを満たす必要があり、消費APを支払う）【登場時】自分の場外にあるキャラカードを2枚までリムーブエリアに置く。このターン中、次にリムーブエリアから使用するカードの消費APを-1する。【退場時】このキャラをリムーブエリアに置く。",
   "effectEn": "[Raid] Can Raid onto <鹿目 まどか>; set it to active and you may move it to the Front Line. [While in Front Line] You may use [Trait: Magical Girl] without [Raid] other than <鹿目 まどか>, or <円環の理>, from your Remove Area. (To use it, you must meet its required energy and pay its AP cost) [On Play] Put into the owner's remove area up to 2 character cards in your Outside Area. This turn, reduce the AP cost of the next card you use from your Remove Area by 1. [On Retire] Put this character into the Remove Area.",
   "triggerType": "Raid",
@@ -81,7 +92,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から4枚見る。その中から黄のイベントカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 Yellow Event card among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -111,7 +126,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -141,9 +160,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】自分のリムーブエリアにある〈アルティメットまどか〉を1枚場外に置いてもよい。そうした場合、このキャラはこのターン中、BP+1000と【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
   "effectEn": "[When Attacking] You may put 1 <アルティメットまどか> from your Remove Area into your Outside Area. If you do, this character gains BP+1000 and [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opposing player) this turn.",
   "triggerType": "Draw",
@@ -173,9 +196,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -205,9 +232,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から〈アルティメットまどか〉か［特徴：魔法少女］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 <アルティメットまどか> or [Trait: Magical Girl] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -237,9 +268,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から4枚見る。その中からキャラカードを1枚まで場外に置く。残りを望む順で自分の山札の上に置く。【起動メイン】【レストにする】自分の山札の上から1枚見る。そのカードを自分の山札の上か場外に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Put up to 1 character card(s) among them into your Outside Area. Put the rest on top of your deck in any order. [Activate: Main] [Rest this card] Look at the top 1 card(s) of your deck. Put that card on top of your deck or into your Outside Area.",
   "triggerType": "Color",
@@ -269,9 +304,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -301,9 +340,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に紫か赤のカードがある場合、手札にあるこのカードの必要エナジーを【黄×1】減らす。",
   "effectEn": "If your opponent has Purple or Red card on their field, the required energy of this card in your hand [Yellow x1]is reduced.",
   "triggerType": "",
@@ -333,9 +376,15 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "Active",
@@ -365,9 +414,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {
+   "doubleBlock": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）",
   "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active)",
   "triggerType": "Active",
@@ -397,9 +452,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "Draw",
@@ -429,9 +490,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -461,9 +526,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -493,9 +562,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から1枚見る。そのカードを自分の山札の上か場外に置く。",
   "effectEn": "[On Play] Look at the top 1 card(s) of your deck. Put that card on top of your deck or into your Outside Area.",
   "triggerType": "Draw",
@@ -525,9 +598,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分の場外にイベントカードが2枚以上ある場合、このキャラはBP+1000。",
   "effectEn": "[During Your Turn] If you have 2 or more Event cards in your Outside Area, This character gets BP+1000.",
   "triggerType": "Active",
@@ -557,9 +634,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場外にイベントカードが2枚以上ある場合、カードを1枚引く。",
   "effectEn": "[On Play] If you have 2 or more Event cards in your Outside Area, Draw 1 card(s).",
   "triggerType": "",
@@ -589,9 +670,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "巴 マミ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈巴 マミ〉アクティブにし、フロントLに移動できる【登場時】カードを1枚引き、自分の手札を1枚場外に置く。その後、自分の場外にあるイベントカードの枚数×1000以下のBPの相手のフロントLのキャラを1枚まで選び、手札に戻す。",
   "effectEn": "[Raid] Can Raid onto <巴 マミ>; set it to active and you may move it to the Front Line. [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. Then, choose up to 1 character in your opponent's Front Line with BP equal to or less than 1000 × the number of event cards in your Outside Area, and return it to its owner's hand.",
   "triggerType": "Raid",
@@ -621,9 +709,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場外にイベントカードが4枚以上ある場合、手札にあるこのカードの必要エナジーを【黄×5】減らす。【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）",
   "effectEn": "If you have 4 or more Event cards in your Outside Area, the required energy of this card in your hand [Yellow x5]is reduced. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent)",
   "triggerType": "Color",
@@ -653,9 +747,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -685,9 +785,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このキャラはBP+1000。【登場時】このキャラがリムーブエリアから登場していた場合、カードを1枚引く。〈百江 なぎさ〉のこの効果は1ターンに1回のみ発動する。",
   "effectEn": "[During Your Turn] This character gets BP+1000. [On Play] If this character was played from the Remove Area, draw 1 card(s). This <百江 なぎさ> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "",
@@ -715,15 +819,15 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【黄】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Yellow] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -753,9 +857,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】このキャラがリムーブエリアから登場していた場合、自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを場外に置く。",
   "effectEn": "[On Play] If this character was played from the Remove Area, look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest into your Outside Area.",
   "triggerType": "Active",
@@ -785,9 +893,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -815,15 +927,15 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【黄】。",
   "effectEn": "While this character is active, its generated energy +[Yellow].",
   "triggerType": "",
@@ -853,7 +965,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【ターン1】自分の手札のイベントカードを1枚場外に置く。そうした場合、このターン中、自分の手札にある全ての〈巴 マミ〉の必要エナジーを【黄×1】減らす。",
   "effectEn": "[Activate: Main] [Once Per Turn] Put into the owner's outside area 1 Event card in your hand. If you do, this turn, reduce the required energy of all <巴 マミ> in your hand by [Yellow x1].",
   "triggerType": "Get",
@@ -878,7 +994,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは自分の場に〈鹿目 まどか〉か〈アルティメットまどか〉がある場合のみ使用できる。BP5000以下の相手のフロントLのキャラを1枚選び、選んだキャラとこのカードをリムーブエリアに置く。自分のリムーブエリアから使用されている場合、このカードはリムーブエリアに置く代わりに自分の山札の下に置く。",
   "effectEn": "This card can only be used if you have <鹿目 まどか> or <アルティメットまどか> on your field. Choose 1 character in your opponent's Front Line with BP 5000 or less, and put the chosen character and this card into the Remove Area. If used from your Remove Area, this card is put on the bottom of your deck instead of the Remove Area.",
   "triggerType": "Special",
@@ -903,7 +1023,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のフロントLのアクティブのキャラを1枚レストにする。そうした場合、カードを3枚引く。",
   "effectEn": "Rest 1 active character in your Front Line. If you do, Draw 3 card(s).",
   "triggerType": "Active",
@@ -928,7 +1052,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -953,7 +1081,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -978,7 +1110,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "BP5000以下の相手のフロントLのキャラを1枚選び、『レストにする。それは次の1回アクティブにならない』。自分の場に〈巴 マミ〉がある場合、『退場させる』に代えてもよい。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 5000 or less, “rest it. It does not become active the next 1 time(s)” If you have <巴 マミ> on your field, you may change it to “retire it”",
   "triggerType": "Special",
@@ -1003,7 +1139,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "〈もう何も恐くない〉は1ターンに1枚のみ使用できる。相手のフロントLのキャラを1枚選び、『レストにする』。自分の場に〈巴 マミ〉があり、自分の場外にイベントカードが2枚以上ある場合、『レストにする。それは次の1回アクティブにならない』に代わる。",
   "effectEn": "Only 1 <もう何も恐くない> can be used per 1 turn(s). Choose 1 character in your opponent's Front Line, “rest it” If you have <巴 マミ> on your field and 2 or more event cards in your Outside Area, “rest it. It becomes “it does not become active the next 1 time(s)” instead.",
   "triggerType": "",
@@ -1028,7 +1168,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "〈訳が分からないよ〉は1ターンに1枚のみ使用できる。カードを2枚引き、自分の手札を1枚場外に置く。この効果でイベントカードを場外に置いた場合、自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "Only 1 <訳が分からないよ> can be used per 1 turn(s). Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area. If you put an Event card into the Outside Area by this effect, choose up to 1 of your AP cards and set it to active.",
   "triggerType": "Draw",
@@ -1058,7 +1202,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは〈暁美 ほむら〉としても扱う。【起動メイン】【エナジーLにある場合】【ターン1】自分のフロントLの〈鹿目 まどか〉を1枚選び、このキャラと位置を入れ替える。【アタック時】自分のエナジーLに〈鹿目 まどか〉がある場合、相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。",
   "effectEn": "This card is also treated as <暁美 ほむら>. [Activate: Main] [While in Energy Line] [Once Per Turn] Choose 1 <鹿目 まどか> in your Front Line and swap its position with this character. [When Attacking] If you have <鹿目 まどか> in your Energy Line, Choose up to 1 character in your opponent's Front Line, it gets BP-1000 this turn.",
   "triggerType": "Color",
@@ -1088,7 +1236,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "暁美 ほむら"
+  },
+  "deckLimit": null,
   "effectJp": "このカードは〈暁美 ほむら〉としても扱う。【レイド】〈暁美 ほむら〉アクティブにし、フロントLに移動できる【フロントLにある場合】自分の場の〈悪魔ほむら〉全ては自分と相手の効果でリムーブエリアに置くことができない。【登場時】自分の場の〈鹿目 まどか〉を1枚手札に戻してもよい。そうした場合、相手のフロントLのキャラを1枚まで選び、このターン中、『BP-3000』。自分の場にあるキャラが全て〈暁美 ほむら〉と〈鹿目 まどか〉の場合、『BP-4000』に代わる。",
   "effectEn": "This card is also treated as <暁美 ほむら>. [Raid] Can Raid onto <暁美 ほむら>; set it to active and you may move it to the Front Line. [While in Front Line] All <悪魔ほむら> on your field cannot be put into the Remove Area by your or your opponent's effects. [On Play] You may return 1 <鹿目 まどか> on your field to the owner's hand. If you do, Choose up to 1 character in your opponent's Front Line, This turn, 『BP-3000』. If all characters on your field are <暁美 ほむら> and <鹿目 まどか>, it becomes “BP-4000” instead.",
   "triggerType": "Raid",
@@ -1118,7 +1273,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に黄か赤のカードがある場合、手札にあるこのカードの必要エナジーを【紫×1】減らす。",
   "effectEn": "If your opponent has Yellow or Red card on their field, the required energy of this card in your hand [Purple x1]is reduced.",
   "triggerType": "",
@@ -1148,7 +1307,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは〈百江 なぎさ〉としても扱う。【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "This card is also treated as <百江 なぎさ>. [On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -1178,9 +1341,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -1210,9 +1377,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から5枚見る。その中から〈鹿目 まどか〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 <鹿目 まどか> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -1242,9 +1413,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "暁美 ほむら"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈暁美 ほむら〉アクティブにし、フロントLに移動できる【登場時】カードを2枚引き、自分の手札を1枚場外に置く。【退場時】自分の場に〈鹿目 まどか〉がある場合、このキャラのレイド元のカードを1枚まで手札に戻す。",
   "effectEn": "[Raid] Can Raid onto <暁美 ほむら>; set it to active and you may move it to the Front Line. [On Play] Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area. [On Retire] If you have <鹿目 まどか> on your field, return up to 1 of this character's Raid source cards to your hand.",
   "triggerType": "Raid",
@@ -1274,9 +1452,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札から『必要エナジーが1以下』で消費APが1の紫の〔〈暁美 ほむら〉か〈鹿目 まどか〉〕を1枚まで自分の場にレストで登場させる。自分の場にあるキャラが全て〈暁美 ほむら〉と〈鹿目 まどか〉のみの場合、『必要エナジーが2以下』に代わる。",
   "effectEn": "[On Play] Play up to 1 purple <暁美 ほむら> or <鹿目 まどか> with “required energy 1 or less” and AP cost 1 from your hand to your field rested. If the only characters on your field are <暁美 ほむら> and <鹿目 まどか>, it becomes “required energy 2 or less” instead.",
   "triggerType": "",
@@ -1306,9 +1488,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から〈百江 なぎさ〉か［特徴：ピュエラ・マギ・ホーリー・クインテット］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 <百江 なぎさ> or [Trait: Puella Magi Holy Quintet] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -1338,9 +1524,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "百江 なぎさ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈百江 なぎさ〉アクティブにし、フロントLに移動できる【起動メイン】【フロントLにある場合】【手札を1枚場外に置く】【ターン1】自分の場の〈百江 なぎさ〉と［特徴：ピュエラ・マギ・ホーリー・クインテット］全ては、このターン中、BP+1000。【アタック時】自分の山札の上から1枚を公開する。公開したカードが〈百江 なぎさ〉か［特徴：ピュエラ・マギ・ホーリー・クインテット］の場合、そのカードを手札に加える。公開したカードがそれら以外の場合、自分の山札の上か下に置く。",
   "effectEn": "[Raid] Can Raid onto <百江 なぎさ>; set it to active and you may move it to the Front Line. [Activate: Main] [While in Front Line] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] All <百江 なぎさ> and [Trait: Puella Magi Holy Quintet] on your field it gets BP+1000 this turn. [When Attacking] Reveal the top 1 card(s) of your deck. If the revealed card is <百江 なぎさ> or [Trait: Puella Magi Holy Quintet], add that card to your hand. If the revealed card is anything else, put it on the top or bottom of your deck.",
   "triggerType": "Raid",
@@ -1370,10 +1563,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女",
    "ピュエラ・マギ・ホーリー・クインテット"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "Draw",
@@ -1401,16 +1600,16 @@
    {
     "color": "Purple",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "魔法少女",
    "ピュエラ・マギ・ホーリー・クインテット"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【紫】。",
   "effectEn": "While this character is active, its generated energy +[Purple].",
   "triggerType": "",
@@ -1440,10 +1639,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女",
    "ピュエラ・マギ・ホーリー・クインテット"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -1473,10 +1676,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女",
    "ピュエラ・マギ・ホーリー・クインテット"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを場外に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest into your Outside Area.",
   "triggerType": "",
@@ -1506,10 +1713,14 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女",
    "ピュエラ・マギ・ホーリー・クインテット"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【ターン1】このキャラが登場したターン中のみ発動できる。自分の場の他のキャラを1枚選び、このターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を与える。",
   "effectEn": "[Activate: Main] [Once Per Turn] Can only activate during the turn this character was played. Choose 1 other character on your field, This turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is given.",
   "triggerType": "Active",
@@ -1539,10 +1750,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女",
    "ピュエラ・マギ・ホーリー・クインテット"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -1572,10 +1787,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女",
    "ピュエラ・マギ・ホーリー・クインテット"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -1605,10 +1824,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女",
    "ピュエラ・マギ・ホーリー・クインテット"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【ターン1】このキャラのBPが5000以上の場合のみ発動できる。このキャラをアクティブにする。",
   "effectEn": "[Activate: Main] [Once Per Turn] Can only activate if this character's BP is 5000 or more. Set this character to active.",
   "triggerType": "",
@@ -1638,10 +1861,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女",
    "ピュエラ・マギ・ホーリー・クインテット"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1671,10 +1898,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女",
    "ピュエラ・マギ・ホーリー・クインテット"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "Draw",
@@ -1704,10 +1937,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女",
    "ピュエラ・マギ・ホーリー・クインテット"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】このキャラがアクティブの場合のみ発動できる。自分の場の〈百江 なぎさ〉か他の［特徴：ピュエラ・マギ・ホーリー・クインテット］を1枚選び、このターン中、BP+1000。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Can only activate while this character is active. Choose 1 <百江 なぎさ> or other [Trait: Puella Magi Holy Quintet] on your field; it gets BP+1000 this turn.",
   "triggerType": "Color",
@@ -1737,10 +1974,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女",
    "ピュエラ・マギ・ホーリー・クインテット"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "巴 マミ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈巴 マミ〉アクティブにし、フロントLに移動できる【登場時】自分の山札の上から4枚見る。その中から必要エナジーが2以下で消費APが1の紫のキャラカードを1枚まで自分の場にレストで登場させる。残りを望む順で自分の山札の下に置く。自分の場に他の［特徴：ピュエラ・マギ・ホーリー・クインテット］が4枚以上ある場合、このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
   "effectEn": "[Raid] Can Raid onto <巴 マミ>; set it to active and you may move it to the Front Line. [On Play] Look at the top 4 card(s) of your deck. Play up to 1 Purple character card with required energy 2 or less and with AP cost 1 from among them to your field rested. Put the rest on the bottom of your deck in any order. If you have 4 or more other [Trait: Puella Magi Holy Quintet] on your field, This character, this turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained.",
   "triggerType": "Raid",
@@ -1768,16 +2012,16 @@
    {
     "color": "Purple",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "魔法少女",
    "ピュエラ・マギ・ホーリー・クインテット"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【紫】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Purple] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -1807,10 +2051,14 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女",
    "ピュエラ・マギ・ホーリー・クインテット"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -1840,10 +2088,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女",
    "ピュエラ・マギ・ホーリー・クインテット"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -1873,10 +2125,14 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女",
    "ピュエラ・マギ・ホーリー・クインテット"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場外から紫の［特徴：魔法少女］を1枚まで手札に加える。",
   "effectEn": "[On Play] Add up to 1 purple [Trait: Magical Girl] from your Outside Area to your hand.",
   "triggerType": "Active",
@@ -1906,7 +2162,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【手札を1枚場外に置く】カードを1枚引く。",
   "effectEn": "[Activate: Main] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] Draw 1 card(s).",
   "triggerType": "Get",
@@ -1931,7 +2191,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のフロントLのキャラを1枚選び、このターン中、BP+2000と【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を与える。自分の場に〈暁美 ほむら〉がある場合、カードを1枚引く。",
   "effectEn": "Choose 1 character in your Front Line; it gains BP+2000 and [Impact +1] (Impact damage is increased by 1; if it doesn't have Impact, it gains [Impact 1]) this turn. If you have <暁美 ほむら> on your field, Draw 1 card(s).",
   "triggerType": "Active",
@@ -1956,7 +2220,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1981,7 +2249,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP2000』以下の相手のフロントLのキャラを1枚選び、退場させる。自分の場の［特徴：ピュエラ・マギ・ホーリー・クインテット］1枚につき、この効果で選べるキャラのBPの範囲+1000。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 2000 or less, retire it. For each 1 [Trait: Puella Magi Holy Quintet] on your field, the BP range of characters you can choose with this effect is increased by 1000.",
   "triggerType": "Special",
@@ -2006,7 +2278,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から5枚見る。その中から［特徴：ピュエラ・マギ・ホーリー・クインテット］を2枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "Look at the top 5 card(s) of your deck. Reveal up to 2 [Trait: Puella Magi Holy Quintet] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -2031,7 +2307,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈暁美 ほむら〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <暁美 ほむら> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -2056,7 +2336,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "〈暁美 ほむら〉を選んで使用する場合、このカードの消費APを-1する。自分のフロントLのキャラを1枚選び、このターン中、BP+1000と【2回アタック】（このキャラがこのターン初めてアタックした時、アクティブにする）を与える。",
   "effectEn": "When you choose <暁美 ほむら> and use this card, reduce this card's AP cost by 1. Choose 1 character in your Front Line; it gains BP+1000 and [Double Attack] (When this character attacks for the first time this turn, set it to active) this turn.",
   "triggerType": "Special",
@@ -2086,7 +2370,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に黄か紫のカードがある場合、手札にあるこのカードの必要エナジーを【赤×1】減らす。",
   "effectEn": "If your opponent has Yellow or Purple card on their field, the required energy of this card in your hand [Red x1]is reduced.",
   "triggerType": "",
@@ -2116,7 +2404,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】このカードを手札に加える。",
   "effectEn": "[On Retire] Add this card to your hand.",
   "triggerType": "",
@@ -2144,13 +2436,13 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【赤】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Red] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -2180,7 +2472,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "damage": 2
+  },
+  "raid": {
+   "kind": "name",
+   "value": "美樹 さやか"
+  },
+  "deckLimit": null,
   "effectJp": "このカードは〈美樹 さやか〉としても扱う。自分のライフが5以上の場合、このカードは使用できない。【レイド】〈美樹 さやか〉アクティブにし、フロントLに移動できる【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）このキャラはBP2000以下のキャラにブロックされない。",
   "effectEn": "This card is also treated as <美樹 さやか>. If your Life is 5 or more, this card cannot be used. [Raid] Can Raid onto <美樹 さやか>; set it to active and you may move it to the Front Line. [Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead)This character cannot be blocked by characters with BP 2000 or less.",
   "triggerType": "Get",
@@ -2210,9 +2511,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -2242,9 +2547,15 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "Draw",
@@ -2274,9 +2585,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場に〈鹿目 まどか〉がある場合、カードを1枚引く。",
   "effectEn": "[On Play] If you have <鹿目 まどか> on your field, Draw 1 card(s).",
   "triggerType": "",
@@ -2306,9 +2621,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "暁美 ほむら"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈暁美 ほむら〉アクティブにし、フロントLに移動できる【登場時】自分の手札から必要エナジーが2以下で消費APが1の赤の［特徴：魔法少女］を1枚まで自分の場にレストで登場させる。自分の場に〈鹿目 まどか〉がある場合、相手のフロントLのキャラを1枚まで選び、次の自分のターン開始時まで、「このキャラはアタックできない。」を与える。",
   "effectEn": "[Raid] Can Raid onto <暁美 ほむら>; set it to active and you may move it to the Front Line. [On Play] Play up to 1 Red [Trait: Magical Girl] with required energy 2 or less and with AP cost 1 from your hand to your field rested. If you have <鹿目 まどか> on your field, Choose up to 1 character in your opponent's Front Line, Until the start of your next turn, it gains “This character cannot attack”",
   "triggerType": "Raid",
@@ -2338,9 +2660,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -2368,15 +2694,15 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカード以外の自分の場の［特徴：魔法少女］のカード名が3種類以上ある場合、このキャラの発生エナジー+【赤】。",
   "effectEn": "If you have 3 or more different card names among [Trait: Magical Girl] on your field other than this card, this character's generated energy +[Red].",
   "triggerType": "Color",
@@ -2406,9 +2732,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "鹿目 まどか"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈鹿目 まどか〉アクティブにし、フロントLに移動できる【登場時】このカード以外の自分の場の［特徴：魔法少女］のカード名の種類の数×1000以下のBPの相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "[Raid] Can Raid onto <鹿目 まどか>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line with BP equal to or less than 1000 × the number of different card names among [Trait: Magical Girl] on your field other than this card, and retire it.",
   "triggerType": "Raid",
@@ -2438,9 +2771,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "",
@@ -2470,9 +2809,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【自分のターン中】このターン中に自分がライフエリアにあるカードを手札に加えている場合、このキャラはBP+1000。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [During Your Turn] If you have added a card from your Life Area to your hand this turn, this character gets BP+1000.",
   "triggerType": "",
@@ -2500,15 +2845,15 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
   "effectEn": "While this character is active, its generated energy +[Red].",
   "triggerType": "",
@@ -2538,9 +2883,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札から必要エナジーが2以下で消費APが1の赤の［特徴：魔法少女］を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[On Play] Play up to 1 Red [Trait: Magical Girl] with required energy 2 or less and with AP cost 1 from your hand to your field rested.",
   "triggerType": "Draw",
@@ -2570,9 +2919,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "佐倉 杏子"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈佐倉 杏子〉アクティブにし、フロントLに移動できる【自分のターン中】このターン中に自分がライフエリアにあるカードを手札に加えている場合、このキャラは【2回アタック】（このキャラがこのターン初めてアタックした時、アクティブにする）を得る。【アタック時】自分の場のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[Raid] Can Raid onto <佐倉 杏子>; set it to active and you may move it to the Front Line. [During Your Turn] If you have added a card from your Life Area to your hand this turn, this character gains [Double Attack] (When this character attacks for the first time this turn, set it to active) [When Attacking] Choose up to 1 character on your field, it gets BP+1000 this turn.",
   "triggerType": "Raid",
@@ -2602,9 +2958,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -2634,9 +2994,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -2666,9 +3030,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -2698,9 +3066,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分の場に〈佐倉 杏子〉がある場合、このキャラはBP+1000。",
   "effectEn": "[During Your Turn] If you have <佐倉 杏子> on your field, This character gets BP+1000.",
   "triggerType": "Draw",
@@ -2730,9 +3102,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "Active",
@@ -2762,9 +3140,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分のライフが4以下の場合、このキャラはBP+500。【起動メイン】【ターン1】自分のライフエリアにあるカードを1枚手札に加える。そうした場合、このキャラをアクティブにする。",
   "effectEn": "[During Your Turn] If you have 4 or less Life, this character gets BP+500. [Activate: Main] [Once Per Turn] Add 1 card(s) from your Life Area to your hand. If you do, Set this character to active.",
   "triggerType": "Color",
@@ -2794,9 +3176,19 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {
+   "impact": 1,
+   "nullifyImpact": true
+  },
+  "raid": {
+   "kind": "name",
+   "value": "美樹 さやか"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈美樹 さやか〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【起動メイン】【ターン1】自分のライフエリアにあるカードを1枚手札に加える。そうした場合、このキャラは次の自分のターン開始時まで、「【退場時】このカードを自分の場にレストで登場させるかレイドさせる。」を得る。",
   "effectEn": "[Raid] Can Raid onto <美樹 さやか>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [Activate: Main] [Once Per Turn] Add 1 card(s) from your Life Area to your hand. If you do, until the start of your next turn this character gains “[On Retire] Play this card to your field rested or Raid it”",
   "triggerType": "Raid",
@@ -2826,7 +3218,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】自分の場の［特徴：魔法少女］を1枚選び、このターン中、BP+500。",
   "effectEn": "This Field is played active. [Activate: Main] [Rest this card] Choose 1 [Trait: Magical Girl] on your field, it gets BP+500 this turn.",
   "triggerType": "Get",
@@ -2851,7 +3247,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のライフエリアにあるカードを1枚手札に加える。そうした場合、カードを2枚引く。",
   "effectEn": "Add 1 card(s) from your Life Area to your hand. If you do, Draw 2 card(s).",
   "triggerType": "Draw",
@@ -2876,7 +3276,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈美樹 さやか〉があり、自分のライフが5以下の場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <美樹 さやか> on your field and your Life is 5 or less, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -2901,7 +3305,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈鹿目 まどか〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <鹿目 まどか> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -2926,7 +3334,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2951,7 +3363,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2976,7 +3392,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -3001,7 +3421,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から5枚見る。その中からキャラカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。公開したカードが【レイド】を持つ［特徴：魔法少女］の場合、自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "Look at the top 5 card(s) of your deck. Reveal up to 1 character card among them and add it to your hand. Put the rest on the bottom of your deck in any order. If the revealed card is a [Trait: Magical Girl] with [Raid], choose up to 1 of your AP cards and set them to active.",
   "triggerType": "Draw",
@@ -3026,7 +3450,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に〈佐倉 杏子〉がある場合、手札にあるこのカードの消費APを-1する。BP5000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "If you have <佐倉 杏子> on your field, reduce the AP cost of this card in your hand by 1. Choose up to 1 character in your opponent's Front Line with BP 5000 or less, retire it.",
   "triggerType": "Special",
@@ -3051,7 +3479,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場の〈佐倉 杏子〉を1枚退場させる。そうした場合、そのキャラのBP以下の相手のフロントLのキャラを1枚まで選び、退場させ、カードを2枚引く。",
   "effectEn": "Retire 1 <佐倉 杏子> on your field. If you do, choose up to 1 character in your opponent's Front Line with BP equal to or less than that character's BP, retire it, and draw 2 card(s).",
   "triggerType": "Active",
@@ -3081,9 +3513,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -3113,9 +3549,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の〈鹿目 まどか〉を1枚自分の山札の下に置いてもよい。そうした場合、カードを1枚引き、自分の手札から必要エナジーが4以下で消費APが1の赤の［特徴：魔法少女］を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[On Play] You may put 1 <鹿目 まどか> on your field on the bottom of your deck. If you do, draw 1 card(s), and play up to 1 red [Trait: Magical Girl] with required energy 4 or less and AP cost 1 from your hand to your field rested.",
   "triggerType": "Get",
@@ -3145,9 +3585,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から4枚見る。その中から〈鹿目 まどか〉以外の［特徴：魔法少女］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 [Trait: Magical Girl] other than <鹿目 まどか> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -3177,9 +3621,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "鹿目 まどか"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈鹿目 まどか〉アクティブにし、フロントLに移動できるこのカード以外の自分の場の［特徴：魔法少女］のカード名の種類の数により、このキャラは以下の効果を全て得る。2種類以上：このキャラがアタックしてブロックされなかった時、カードを1枚引く。4種類以上：【自分のターン中】このキャラはBP+1000と【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）",
   "effectEn": "[Raid] Can Raid onto <鹿目 まどか>; set it to active and you may move it to the Front Line. Depending on the number of different card names among [Trait: Magical Girl] on your field other than this card, this character gains all of the following effects. 2 or more types: When this character attacks and is not blocked, Draw 1 card(s). 4 or more different: [During Your Turn] This character gets BP+1000 and [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opposing player)",
   "triggerType": "Raid",
@@ -3209,9 +3660,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -3241,9 +3696,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはアクティブで場に登場させる。自分のターン開始時、このキャラを退場させる。【登場時】カードを2枚引く。",
   "effectEn": "This character is played active. At the start of your turn, retire this character. [On Play] Draw 2 card(s).",
   "triggerType": "Active",
@@ -3273,9 +3732,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3305,7 +3768,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外から必要エナジーが3以下で消費APが1の［特徴：魔法少女］を1枚まで手札に加える。",
   "effectEn": "[On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, add up to 1 [Trait: Magical Girl] with required energy 3 or less and AP cost 1 from your Outside Area to your hand.",
   "triggerType": "Get",
@@ -3330,7 +3797,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から5枚見る。その中から異なるカード名の［特徴：魔法少女］をそれぞれ1枚ずつ合計3枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "Look at the top 5 card(s) of your deck. Reveal up to 1 each of [Trait: Magical Girl] with different card names among them, up to a total of 3, and add them to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -3360,9 +3831,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "巴 マミ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈巴 マミ〉アクティブにし、フロントLに移動できる【登場時】このターン中、次に手札から使用する必要エナジーが3以下のイベントカードの消費APを-1する。【起動メイン】【手札を1枚場外に置く】【ターン1】自分の場外にイベントカードが6枚以上ある場合のみ発動できる。自分の場の他のキャラを1枚選び、アクティブにする。",
   "effectEn": "[Raid] Can Raid onto <巴 マミ>; set it to active and you may move it to the Front Line. [On Play] This turn, the next Event card with required energy 3 or less you use from your hand costs 1 less AP. [Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] Can only activate if you have 6 or more Event cards in your Outside Area. Choose 1 other character on your field, set it to active.",
   "triggerType": "Get",
@@ -3392,9 +3870,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】このキャラがリムーブエリアから登場していた場合、自分の場の他のキャラを1枚まで選び、アクティブにする。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] If this character was played from the Remove Area, choose up to 1 other character on your field and set it to active.",
   "triggerType": "Draw",
@@ -3424,9 +3908,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】自分の場外から必要エナジーが2以下の〈鹿目 まどか〉を1枚まで手札に加える。",
   "effectEn": "[On Retire] Add up to 1 <鹿目 まどか> with required energy 2 or less from your Outside Area to your hand.",
   "triggerType": "Draw",
@@ -3456,10 +3944,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "魔法少女",
    "ピュエラ・マギ・ホーリー・クインテット"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に他の［特徴：ピュエラ・マギ・ホーリー・クインテット］が4枚以上ある場合、このキャラはBP+500。",
   "effectEn": "If you have 4 or more other [Trait: Puella Magi Holy Quintet] on your field, This character gets BP+500.",
   "triggerType": "Active",
@@ -3482,7 +3974,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3505,7 +4001,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3528,7 +4028,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3551,7 +4055,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3574,7 +4082,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3597,7 +4109,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3620,7 +4136,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3643,7 +4163,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

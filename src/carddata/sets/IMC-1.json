@@ -19,13 +19,13 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【黄】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Yellow] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -55,9 +55,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "BEYOND THE STARLIGHT"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -87,9 +91,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "BEYOND THE STARLIGHT"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【相手のターン中】このキャラはBP+1000と【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）を得る。【起動メイン】【ターン1】自分の場にBP5000以上の他のキャラがある場合のみ発動できる。このキャラはこのターン中、BP+1000。【起動メイン】【フロントLにある場合】【ターン1】このキャラのBPが5000以上の場合のみ発動できる。このキャラをアクティブにする。",
   "effectEn": "[During Opponent's Turn] This character gains BP+1000 and [Impact Nullify] (The character that battles this character loses Impact during this battle) [Activate: Main] [Once Per Turn] Can only activate if you have another character with BP 5000 or more on your field. This character gets BP+1000 this turn. [Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if this character's BP is 5000 or more. Set this character to active.",
   "triggerType": "Active",
@@ -119,9 +127,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "BEYOND THE STARLIGHT"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の［特徴：BEYOND THE STARLIGHT］の効果でこのカードが手札から場外に置かれた時、自分の場の［特徴：BEYOND THE STARLIGHT］を1枚まで選び、このターン中、BP+1000。",
   "effectEn": "When this card is put from your hand into your Outside Area by the effect of your [Trait: BEYOND THE STARLIGHT], choose up to 1 [Trait: BEYOND THE STARLIGHT] on your field; it gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -149,15 +161,15 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "BEYOND THE STARLIGHT"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【黄】。",
   "effectEn": "While this character is active, its generated energy +[Yellow].",
   "triggerType": "",
@@ -187,9 +199,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "BEYOND THE STARLIGHT"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【黄×2】減らす。【起動メイン】【ターン1】自分の場にBP5000以上の他のキャラがある場合のみ発動できる。このキャラはこのターン中、BP+1000。【アタック時】このキャラのBPが5000以上の場合、自分の山札の上から1枚を公開する。公開したカードが［特徴：BEYOND THE STARLIGHT］の場合、そのカードを手札に加えてもよい。手札に加えない場合、山札の上か下に置く。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Yellow x2]is reduced. [Activate: Main] [Once Per Turn] Can only activate if you have another character with BP 5000 or more on your field. This character gets BP+1000 this turn. [When Attacking] If this character's BP is 5000 or more, Reveal the top 1 card(s) of your deck. If the revealed card is a [Trait: BEYOND THE STARLIGHT], you may add that card to your hand. If you don't add it to your hand, put it on the top or bottom of your deck.",
   "triggerType": "",
@@ -219,9 +235,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "BEYOND THE STARLIGHT"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -251,9 +271,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "BEYOND THE STARLIGHT"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】自分の場の他の［特徴：BEYOND THE STARLIGHT］を1枚選び、このターン中、BP+1000。",
   "effectEn": "[Activate: Main] [Rest this card] Choose 1 other [Trait: BEYOND THE STARLIGHT] on your field, it gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -283,9 +307,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "BEYOND THE STARLIGHT"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはアクティブで登場させる。【登場時】カードを1枚引き、自分の手札から必要エナジーが3以下で消費APが1の特徴に「BEYOND THE STARLIGHT」を持つ黄のキャラカードを1枚まで自分の場にレストで登場させるかレイドさせる。登場かレイドさせたキャラの元々の必要エナジー1につき、このキャラはこのターン中、BP-1000。",
   "effectEn": "This character is played active. [On Play] Draw 1 card(s), and play up to 1 yellow character card(s) with the trait “BEYOND THE STARLIGHT”, required energy 3 or less and AP cost 1 from your hand to your field rested, or Raid them. For each 1 original required energy of the played or Raided character, this character gets BP-1000 this turn.",
   "triggerType": "Active",
@@ -315,9 +343,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "BEYOND THE STARLIGHT"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から7枚見て、黄のフィールドカードを1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 7 card(s) of your deck, reveal up to 1 Yellow Field card among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -347,9 +379,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "BEYOND THE STARLIGHT"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ターン1】このキャラのBPがプラスされた時、自分のターン中の場合、このキャラはこのターン中、BP+1000。",
   "effectEn": "[Once Per Turn] When this character's BP is increased, if it is your turn, this character gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -379,9 +415,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "BEYOND THE STARLIGHT"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "城ヶ崎 莉嘉"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈城ヶ崎 莉嘉〉アクティブにし、フロントLに移動できる【ターン1】このキャラのBPがプラスされた時、自分のターン中の場合、このキャラはこのターン中、BP+500。【登場時】このキャラはこのターン中、「このキャラのBPが7000以上の場合、このキャラは【狙い撃ち】を得る。」を得る。【アタック時】このキャラのBPが5000以上の場合、カードを1枚引く。",
   "effectEn": "[Raid] Can Raid onto <城ヶ崎 莉嘉>; set it to active and you may move it to the Front Line. [Once Per Turn] When this character's BP is increased, if it is your turn, this character gets BP+500 this turn. [On Play] This character gains “If this character's BP is 7000 or more, This character [Snipe] is gained” this turn. [When Attacking] If this character's BP is 5000 or more, Draw 1 card(s).",
   "triggerType": "Raid",
@@ -411,9 +454,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "BEYOND THE STARLIGHT"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他の［特徴：BEYOND THE STARLIGHT］を1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other [Trait: BEYOND THE STARLIGHT] on your field, it gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -443,9 +490,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "BEYOND THE STARLIGHT"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：BEYOND THE STARLIGHT］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: BEYOND THE STARLIGHT] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Color",
@@ -475,9 +526,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "BEYOND THE STARLIGHT"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】自分の場にBP5000以上の他のキャラがある場合、カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[When Attacking] If you have other character with BP 5000 or more on your field, Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -507,9 +562,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "BEYOND THE STARLIGHT"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "北条 加蓮"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈北条 加蓮〉アクティブにし、フロントLに移動できる【登場時】カードを1枚引き、自分の手札を1枚場外に置く。自分の場外から必要エナジーが3以下の［特徴：BEYOND THE STARLIGHT］を1枚まで手札に加える。【起動メイン】【フロントLにある場合】【ターン1】このキャラのBPが5000以上の場合のみ発動できる。自分の山札の上から1枚見て、山札の上か場外に置く。自分の場の他のキャラを『1枚選び』、このターン中、BP+1000。このキャラのBPが7000以上の場合、『全て』に代わる。",
   "effectEn": "[Raid] Can Raid onto <北条 加蓮>; set it to active and you may move it to the Front Line. [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. Add up to 1 [Trait: BEYOND THE STARLIGHT] with required energy 3 or less from your Outside Area to your hand. [Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if this character's BP is 5000 or more. Look at the top 1 card(s) of your deck, put them on top of your deck or into your Outside Area. “Choose 1” other character on your field; it gets BP+1000 this turn. If this character's BP is 7000 or more, it becomes “all” instead.",
   "triggerType": "Raid",
@@ -539,9 +601,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ポジティブパッション"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から1枚見て、山札の上か場外に置く。",
   "effectEn": "[On Play] Look at the top 1 card(s) of your deck, put them on top of your deck or into your Outside Area.",
   "triggerType": "",
@@ -571,9 +637,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ポジティブパッション"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：ポジティブパッション］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: Positive Passion] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -603,9 +673,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "ポジティブパッション"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引く。",
   "effectEn": "[On Play] Draw 1 card(s).",
   "triggerType": "Color",
@@ -635,9 +709,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ポジティブパッション"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "高森 藍子"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈高森 藍子〉アクティブにし、フロントLに移動できる【登場時】相手のフロントLのキャラを1枚まで選び、レストにする。このキャラが自分の効果でレイドしていた場合、それは次の1回アクティブにならない。【起動メイン】【フロントLにある場合】【レストにする】【ターン1】自分の手札から必要エナジーを満たす〈本田 未央〉か〈日野 茜〉を1枚までレイドさせる。",
   "effectEn": "[Raid] Can Raid onto <高森 藍子>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line, rest it. If this character Raided by your own effect, it does not become active the next 1 time(s). [Activate: Main] [While in Front Line] [Rest this card] [Once Per Turn] Raid up to 1 <本田 未央> or <日野 茜> that meets its required energy from your hand.",
   "triggerType": "Raid",
@@ -667,9 +748,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ポジティブパッション"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -697,15 +782,15 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "ポジティブパッション"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】自分のフロントLのアクティブのキャラを1枚レストにする。そうした場合、このキャラはこのターン中、発生エナジー+【黄】。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] Rest 1 active character in your Front Line. If you do, This turn, this character's generated energy +[Yellow].",
   "triggerType": "",
@@ -735,9 +820,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "ポジティブパッション"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】【フロントLにある場合】自分の手札から必要エナジーが2以下の黄の［特徴：ポジティブパッション］を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[On Play] [While in Front Line] Play up to 1 Yellow [Trait: Positive Passion] with required energy 2 or less from your hand to your field rested.",
   "triggerType": "Active",
@@ -767,9 +856,18 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ポジティブパッション"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": {
+   "kind": "name",
+   "value": "日野 茜"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈日野 茜〉アクティブにし、フロントLに移動できる【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【登場時】このキャラはこのターン中、BP+1000。このキャラが自分の効果でレイドしていた場合、さらにこのキャラはこのターン中、【ダメージ（2）】を得る。【アタック時】カードを1枚引く。このターンで最初の自分のキャラのアタックの場合、APを1支払ってもよい。そうした場合、自分の手札から必要エナジーを満たす〈本田 未央〉か〈高森 藍子〉を1枚までレイドさせる。",
   "effectEn": "[Raid] Can Raid onto <日野 茜>; set it to active and you may move it to the Front Line. [Impact Nullify] (The character that battles this character loses Impact during this battle) [On Play] This character gets BP+1000 this turn. If this character Raided by your own effect, this character also gains [Damage 2] this turn. [When Attacking] Draw 1 card(s). If this is your first character attack this turn, you may pay 1 AP. If you do, Raid up to 1 <本田 未央> or <高森 藍子> that meets its required energy from your hand.",
   "triggerType": "Raid",
@@ -799,9 +897,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ポジティブパッション"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -831,9 +933,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "ポジティブパッション"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このキャラはBP+1000。",
   "effectEn": "[During Your Turn] This character gets BP+1000.",
   "triggerType": "",
@@ -861,15 +967,15 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "ポジティブパッション"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に［特徴：ポジティブパッション］が4枚以上ある場合、このキャラの発生エナジー+【黄】。",
   "effectEn": "If you have 4 or more [Trait: Positive Passion] on your field, This character's generated energy +[Yellow].",
   "triggerType": "",
@@ -899,9 +1005,18 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ポジティブパッション"
   ],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": {
+   "kind": "name",
+   "value": "本田 未央"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈本田 未央〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手に1ダメージ）【登場時】以下から2つまで選ぶ。・自分の場の必要エナジーが3以下の［特徴：ポジティブパッション］を1枚手札に戻してもよい。そうした場合、自分の手札から必要エナジーを満たし消費APが1の〈日野 茜〉か〈高森 藍子〉を1枚まで自分の場にレストで登場させるかレイドさせる。・このキャラが自分の効果でレイドしていた場合、自分の場の［特徴：ポジティブパッション］を1枚まで選び、アクティブにする。",
   "effectEn": "[Raid] Can Raid onto <本田 未央>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] Choose up to 2 of the following. You may return 1 [Trait: Positive Passion] on your field with required energy 3 or less to the owner's hand. If you do, Play up to 1 <日野 茜> or <高森 藍子> whose required energy you meet and with AP cost 1 from your hand to your field rested or Raid it. If this character Raided by your own effect, choose up to 1 [Trait: Positive Passion] on your field and set it to active.",
   "triggerType": "Raid",
@@ -931,9 +1046,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "BEYOND THE STARLIGHT"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このフィールドはアクティブで登場させる。【起動メイン】【手札を1枚場外に置く】自分の場のキャラを1枚まで選び、このターン中、『BP+1000』。この効果で【スペシャルトリガー】を持つカードを場外に置いていた場合、『BP+3000』に代わる。【起動メイン】【レストにする】自分の場のキャラが全て［特徴：BEYOND THE STARLIGHT］の場合のみ発動できる。BP7000以上の自分の場のキャラを1枚選び、このターン中、【インパクト（1）】を与える。",
   "effectEn": "This Field is played active. [Activate: Main] [Put 1 card(s) from your hand into your Outside Area] Choose up to 1 character on your field, This turn, 『BP+1000』. If you put a card with [Special Trigger] into your Outside Area with this effect, it becomes “BP+3000” instead. [Activate: Main] [Rest this card] Can only activate if all characters on your field are [Trait: BEYOND THE STARLIGHT]. Choose 1 character on your field with BP 7000 or more, This turn, [Impact 1] is given.",
   "triggerType": "Special",
@@ -958,7 +1077,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に［特徴：ポジティブパッション］が3枚以上ある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have 3 or more [Trait: Positive Passion] on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -983,7 +1106,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1008,7 +1135,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを1枚引く。自分の場の［特徴：BEYOND THE STARLIGHT］を1枚まで選び、このターン中、BP+2000。この効果で〈城ヶ崎 莉嘉〉を選んだ場合、さらにこのターン中、【インパクト（1）】を与える。",
   "effectEn": "Draw 1 card(s). Choose up to 1 [Trait: BEYOND THE STARLIGHT] on your field, it gets BP+2000 this turn. If you chose <城ヶ崎 莉嘉> with this effect, it also gains [Impact 1] this turn.",
   "triggerType": "Draw",
@@ -1033,7 +1164,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から6枚見て、〈本田 未央〉と〈日野 茜〉と〈高森 藍子〉をそれぞれ1枚まで公開し手札に加える。残りを望む順で山札の下に置く。",
   "effectEn": "Look at the top 6 card(s) of your deck, reveal up to 1 each of <本田 未央>, <日野 茜> and <高森 藍子> among them, and add them to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -1061,13 +1196,13 @@
    {
     "color": "Blue",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【青】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Blue] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -1097,9 +1232,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ガールズ・イン・ザ・フロンティア"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -1129,9 +1268,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ガールズ・イン・ザ・フロンティア"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このターン中に自分のキャラが自分の効果で登場している場合、このキャラはBP+1000。",
   "effectEn": "[During Your Turn] If your character was played by your own effect this turn, this character gets BP+1000.",
   "triggerType": "",
@@ -1161,9 +1304,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ガールズ・イン・ザ・フロンティア"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】このキャラが自分のキャラの効果で登場していた場合、カードを1枚引く。【アタック時】APを1支払ってもよい。そうした場合、このキャラはこのターン中、【インパクト（1）】を得る。",
   "effectEn": "[On Play] If this character was played by your character's effect, draw 1 card(s). [When Attacking] You may pay 1 AP. If you do, This character, this turn, [Impact 1] is gained.",
   "triggerType": "Active",
@@ -1193,9 +1340,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ガールズ・イン・ザ・フロンティア"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】カードを1枚引く。",
   "effectEn": "[On Retire] Draw 1 card(s).",
   "triggerType": "Active",
@@ -1225,9 +1376,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "ガールズ・イン・ザ・フロンティア"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このターン中にこのキャラが自分の効果で〔登場しているか移動している〕場合、このキャラはBP+1000。【起動メイン】【エナジーLにある場合】【手札を1枚場外に置く】自分のフロントLに［特徴：ガールズ・イン・ザ・フロンティア］が3枚ある場合のみ発動できる。このキャラをフロントLに移動させる。このキャラはこのターン中、「このキャラのアタック終了時、このキャラをエナジーLに移動させる。」を得る。",
   "effectEn": "[During Your Turn] If this character was played or moved by your own effect this turn, this character gets BP+1000. [Activate: Main] [While in Energy Line] [Put 1 card(s) from your hand into your Outside Area] Can only activate if you have exactly 3 [Trait: Girls in the Frontier] in your Front Line. Move this character to the Front Line. This character gains “At the end of this character's attack, move this character to the Energy Line” this turn.",
   "triggerType": "",
@@ -1257,9 +1412,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ガールズ・イン・ザ・フロンティア"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1289,9 +1448,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ガールズ・イン・ザ・フロンティア"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：ガールズ・イン・ザ・フロンティア］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: Girls in the Frontier] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -1321,9 +1484,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ガールズ・イン・ザ・フロンティア"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札から必要エナジーが2以下の青の［特徴：ガールズ・イン・ザ・フロンティア］を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[On Play] Play up to 1 Blue [Trait: Girls in the Frontier] with required energy 2 or less from your hand to your field rested.",
   "triggerType": "Draw",
@@ -1353,9 +1520,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ガールズ・イン・ザ・フロンティア"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "渋谷 凛"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈渋谷 凛〉アクティブにし、フロントLに移動できる【退場時】このキャラのレイド元のカードを1枚まで手札に戻す。【アタック時】自分の場のキャラを1枚自分の山札の下に置いてもよい。そうした場合、自分の山札の上から3枚見て、青の［特徴：ガールズ・イン・ザ・フロンティア］を1枚まで自分の場にレストで登場させる。残りを望む順で山札の下に置く。その後、自分の手札を1枚場外に置いてもよい。そうした場合、登場させたキャラをアクティブにする。",
   "effectEn": "[Raid] Can Raid onto <渋谷 凛>; set it to active and you may move it to the Front Line. [On Retire] Return up to 1 of this character's Raid source cards to your hand. [When Attacking] You may put 1 character on your field on the bottom of your deck. If you do, look at the top 3 card(s) of your deck and play up to 1 blue [Trait: Girls in the Frontier] among them to your field rested. Put the rest on the bottom of your deck in any order. Then, You may put 1 card(s) from your hand into your Outside Area. If you do, set the played character to active.",
   "triggerType": "Raid",
@@ -1385,9 +1559,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ガールズ・イン・ザ・フロンティア"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle)",
   "triggerType": "Active",
@@ -1415,15 +1595,15 @@
    {
     "color": "Blue",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "ガールズ・イン・ザ・フロンティア"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【青】。",
   "effectEn": "While this character is active, its generated energy +[Blue].",
   "triggerType": "",
@@ -1453,9 +1633,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ガールズ・イン・ザ・フロンティア"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【青×2】減らす。【登場時】自分の場の［特徴：ガールズ・イン・ザ・フロンティア］を1枚まで選び、このターン中、「このキャラはBP4000以上のキャラにブロックされない。」を与える。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Blue x2]is reduced. [On Play] Choose up to 1 [Trait: Girls in the Frontier] on your field, it gains “This character cannot be blocked by characters with BP 4000 or more” this turn.",
   "triggerType": "Draw",
@@ -1485,9 +1669,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "LiPPS"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見て、［特徴：LiPPS］を1枚まで場外に置く。残りを望む順で山札の上に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck, and put up to 1 [Trait: LiPPS] among them into your Outside Area. Put the rest on top of your deck in any order.",
   "triggerType": "Active",
@@ -1517,9 +1705,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "LiPPS"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【青×2】減らす。【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Blue x2]is reduced. [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -1549,9 +1741,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "LiPPS"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "一ノ瀬 志希"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈一ノ瀬 志希〉アクティブにし、フロントLに移動できる【登場時】BP2500以下かBP4500以上の相手のフロントLのキャラを1枚まで選び、手札に戻す。【アタック時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[Raid] Can Raid onto <一ノ瀬 志希>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line with BP 2500 or less or BP 4500 or more, and return it to its owner's hand. [When Attacking] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Raid",
@@ -1581,9 +1780,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "LiPPS"
   ],
+  "keywords": {
+   "doubleBlock": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）",
   "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active)",
   "triggerType": "Active",
@@ -1613,9 +1818,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "LiPPS"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場外から必要エナジーが2以下の［特徴：LiPPS］を1枚まで手札に加える。【起動メイン】【レストにする】【このカードを退場させる】相手の場にBP4500以上のキャラがある場合のみ発動できる。自分の場外から必要エナジーが2以下の青の［特徴：LiPPS］を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[On Play] Add up to 1 [Trait: LiPPS] with required energy 2 or less from your Outside Area to your hand. [Activate: Main] [Rest this card] [Retire this card] Can only activate if your opponent has a character with BP 4500 or more on their field. Play up to 1 Blue [Trait: LiPPS] with required energy 2 or less from your Outside Area to your field rested.",
   "triggerType": "Color",
@@ -1645,9 +1854,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "LiPPS"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】相手のフロントLのキャラか〈速水 奏〉以外の自分の場の［特徴：LiPPS］を1枚選び、このターン中、BP+500。",
   "effectEn": "[Activate: Main] [Rest this card] Choose 1 character in your opponent's Front Line or [Trait: LiPPS] on your field other than <速水 奏>; it gets BP+500 this turn.",
   "triggerType": "Draw",
@@ -1677,9 +1890,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "LiPPS"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -1709,9 +1926,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "LiPPS"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはBP4500以上のキャラにブロックされない。【起動メイン】相手の場にBP4500以上のキャラがある場合のみ発動できる。このキャラをアクティブにする。〈速水 奏〉のこの効果は1ターンに1回のみ発動できる。【起動メイン】【フロントLにある場合】【ターン1】相手のフロントLのキャラか〈速水 奏〉以外の自分の場の［特徴：LiPPS］を1枚選び、このターン中、BP+500。",
   "effectEn": "This character cannot be blocked by characters with BP 4500 or more. [Activate: Main] Can only activate if your opponent has a character with BP 4500 or more on their field. Set this character to active. This <速水 奏> effect can only activate 1 time(s) per 1 turn(s). [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 character in your opponent's Front Line or [Trait: LiPPS] on your field other than <速水 奏>; it gets BP+500 this turn.",
   "triggerType": "Get",
@@ -1741,9 +1962,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "LiPPS"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【ターン1】相手の場にBP4500以上のキャラがある場合のみ発動できる。このキャラはこのターン中、BP+2000。",
   "effectEn": "[Activate: Main] [Once Per Turn] Can only activate if your opponent has a character with BP 4500 or more on their field. This character gets BP+2000 this turn.",
   "triggerType": "Draw",
@@ -1773,9 +1998,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "LiPPS"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：LiPPS］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: LiPPS] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -1805,9 +2034,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "LiPPS"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "宮本 フレデリカ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈宮本 フレデリカ〉アクティブにし、フロントLに移動できる【ターン1】このキャラがアタックしてバトルに敗北した時、このキャラをアクティブにする。【登場時】自分の手札から必要エナジーが2以下の青の［特徴：LiPPS］を1枚まで自分の場にレストで登場させる。相手の場にBP4500以上のキャラがある場合、カードを1枚引く。",
   "effectEn": "[Raid] Can Raid onto <宮本 フレデリカ>; set it to active and you may move it to the Front Line. [Once Per Turn] When this character attacks and loses a battle, set this character to active. [On Play] Play up to 1 Blue [Trait: LiPPS] with required energy 2 or less from your hand to your field rested. If your opponent has character with BP 4500 or more on their field, Draw 1 card(s).",
   "triggerType": "Raid",
@@ -1837,10 +2073,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "LiPPS",
    "ガールズ・イン・ザ・フロンティア"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -1870,10 +2110,14 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "LiPPS",
    "ガールズ・イン・ザ・フロンティア"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -1903,10 +2147,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "LiPPS",
    "ガールズ・イン・ザ・フロンティア"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【起動メイン】【ターン1】相手の場にBP4500以上のキャラがある場合のみ発動できる。このキャラはこのターン中、BP+2000。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [Activate: Main] [Once Per Turn] Can only activate if your opponent has a character with BP 4500 or more on their field. This character gets BP+2000 this turn.",
   "triggerType": "Draw",
@@ -1936,10 +2186,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "LiPPS",
    "ガールズ・イン・ザ・フロンティア"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラのアタックがブロックされなかった時、カードを1枚まで引く。【登場時】このキャラをアクティブにする。自分のAPカードを1枚アクティブにしてもよい。そうした場合、このキャラはこのターン中、「アタックフェイズ終了時、このキャラを手札に戻す。」を得る。",
   "effectEn": "When this character's attack is not blocked, draw up to 1 card(s). [On Play] Set this character to active. You may set 1 of your AP cards to active. If you do, this character gains “At the end of the Attack Phase, return this character to your hand” this turn.",
   "triggerType": "Color",
@@ -1964,7 +2218,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に［特徴：ガールズ・イン・ザ・フロンティア］が3枚以上ある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have 3 or more [Trait: Girls in the Frontier] on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -1989,7 +2247,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2014,7 +2276,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "BP5000以下の相手のフロントLのキャラを1枚選び、『手札に戻す』。自分の場に［特徴：LiPPS］が3枚以上ある場合、『退場させる』に代えてもよい。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 5000 or less, “return it to its owner's hand” If you have 3 or more [Trait: LiPPS] on your field, you may instead make it “retire it”",
   "triggerType": "Special",
@@ -2039,7 +2305,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から3枚見て、青の［特徴：ガールズ・イン・ザ・フロンティア］を1枚まで自分の場にレストで登場させるかレイドさせる。残りを望む順で山札の下に置く。",
   "effectEn": "Look at the top 3 card(s) of your deck and play up to 1 blue [Trait: Girls in the Frontier] among them to your field rested, or Raid it. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -2064,7 +2334,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを2枚引く。相手の場にBP4500以上のキャラがある場合、さらにカードを1枚引く。",
   "effectEn": "Draw 2 card(s). If your opponent has a character with BP 4500 or more on their field, draw 1 more card(s).",
   "triggerType": "Draw",
@@ -2092,13 +2366,13 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【赤】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Red] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -2128,9 +2402,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "お願い！シンデレラ"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】以下から1つまで選ぶ。・自分の場の他のキャラを1枚退場させてもよい。そうした場合、カードを2枚引き、自分の手札から必要エナジーが3以下で消費APが1の赤の［特徴：お願い！シンデレラ］を2枚まで自分の場にレストで登場させる。・自分の場と場外に［特徴：お願い！シンデレラ］のカード名が合計9種類以上ある場合、BP5000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "[On Play] Choose up to 1 of the following. You may retire 1 other character on your field. If you do, draw 2 card(s), and play up to 2 red [Trait: Onegai! Cinderella] with required energy 3 or less and AP cost 1 from your hand to your field rested. If you have a total of 9 or more different card names among [Trait: Onegai! Cinderella] on your field and in your Outside Area, choose up to 1 character in your opponent's Front Line with BP 5000 or less and retire it.",
   "triggerType": "Get",
@@ -2160,9 +2438,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "お願い！シンデレラ"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】『カードを1枚引き、自分の手札を1枚場外に置く』。自分の場と場外に［特徴：お願い！シンデレラ］のカード名が合計6種類以上ある場合、『カードを1枚引く』に代わる。",
   "effectEn": "[On Play] “Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area” If you have a total of 6 or more different card names among [Trait: Onegai! Cinderella] on your field and in your Outside Area, it becomes “Draw 1 card(s)” instead.",
   "triggerType": "Draw",
@@ -2192,9 +2474,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "お願い！シンデレラ"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場と場外に［特徴：お願い！シンデレラ］のカード名が合計6種類以上ある場合、このキャラはBP+1000。",
   "effectEn": "If you have a total of 6 or more different card names among [Trait: Onegai! Cinderella] on your field and in your Outside Area, this character gets BP+1000.",
   "triggerType": "Draw",
@@ -2224,9 +2510,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "お願い！シンデレラ"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分の場と場外に［特徴：お願い！シンデレラ］のカード名が合計6種類以上ある場合、このキャラはBP+1500。",
   "effectEn": "[During Your Turn] If you have a total of 6 or more different card names among [Trait: Onegai! Cinderella] on your field and in your Outside Area, this character gets BP+1500.",
   "triggerType": "Active",
@@ -2256,9 +2546,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "お願い！シンデレラ"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアタックしてバトルに勝利した時、自分の場と場外に［特徴：お願い！シンデレラ］のカード名が合計9種類以上ある場合、カードを1枚まで引く。【登場時】自分の手札の［特徴：お願い！シンデレラ］を1枚場外に置いてもよい。そうした場合、このキャラをアクティブにする。",
   "effectEn": "When this character attacks and wins a battle, if you have a total of 9 or more different card names among [Trait: Onegai! Cinderella] on your field and in your Outside Area, draw up to 1 card(s). [On Play] You may put 1 [Trait: Onegai! Cinderella] in your hand into the Outside Area. If you do, Set this character to active.",
   "triggerType": "",
@@ -2288,9 +2582,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "お願い！シンデレラ"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードはフロントLに登場できず、フロントLに移動できない。【登場時】『カードを1枚引く』。自分の場と場外に［特徴：お願い！シンデレラ］のカード名が合計9種類以上ある場合、『自分の山札の上から2枚見て、1枚まで手札に加え、残りを場外に置く。』に代わる。",
   "effectEn": "This card cannot be played to the Front Line and cannot move to the Front Line. [On Play] “Draw 1 card(s)” If you have a total of 9 or more different card names among [Trait: Onegai! Cinderella] on your field and in your Outside Area, it becomes “Look at the top 2 card(s) of your deck, add up to 1 to your hand, and put the rest into your Outside Area” instead.",
   "triggerType": "Draw",
@@ -2320,9 +2618,15 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "お願い！シンデレラ"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【アタック時】自分の場と場外に［特徴：お願い！シンデレラ］のカード名が合計9種類以上ある場合、自分の場のキャラを2枚まで選び、このターン中、BP+1000。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [When Attacking] If you have a total of 9 or more different card names among [Trait: Onegai! Cinderella] on your field and in your Outside Area, choose up to 2 character on your field; it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -2352,9 +2656,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "お願い！シンデレラ"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分の場と場外に［特徴：お願い！シンデレラ］のカード名が合計6種類以上ある場合、このキャラはBP+1000。【登場時】必要エナジーが1以下の自分の場の［特徴：お願い！シンデレラ］を1枚手札に戻してもよい。そうした場合、自分の手札から必要エナジーが1以下の赤の［特徴：お願い！シンデレラ］を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[During Your Turn] If you have a total of 6 or more different card names among [Trait: Onegai! Cinderella] on your field and in your Outside Area, this character gets BP+1000. [On Play] You may return 1 [Trait: Onegai! Cinderella] on your field with required energy 1 or less to the owner's hand. If you do, Play up to 1 Red [Trait: Onegai! Cinderella] with required energy 1 or less from your hand to your field rested.",
   "triggerType": "",
@@ -2384,9 +2692,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "Starry-Go-Round"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：Starry-Go-Round］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: Starry-Go-Round] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -2416,9 +2728,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "Starry-Go-Round"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【赤×2】減らす。【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Red x2]is reduced. [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -2448,9 +2764,18 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "Starry-Go-Round"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": {
+   "kind": "name",
+   "value": "アナスタシア"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈アナスタシア〉アクティブにし、フロントLに移動できる【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【登場時】自分の山札の上から6枚見て、必要エナジーが2の赤の［特徴：Starry-Go-Round］を1枚まで自分の場にレストで登場させる。残りを望む順で山札の下に置く。",
   "effectEn": "[Raid] Can Raid onto <アナスタシア>; set it to active and you may move it to the Front Line. [Impact Nullify] (The character that battles this character loses Impact during this battle) [On Play] Look at the top 6 card(s) of your deck and play up to 1 red [Trait: Starry-Go-Round] with required energy 2 among them to your field rested. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Raid",
@@ -2480,9 +2805,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "Starry-Go-Round"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札から必要エナジーが2以下の赤の［特徴：Starry-Go-Round］を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[On Play] Play up to 1 Red [Trait: Starry-Go-Round] with required energy 2 or less from your hand to your field rested.",
   "triggerType": "",
@@ -2512,9 +2841,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "Starry-Go-Round"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】【エナジーLにある場合】自分の場に必要エナジーが2の［特徴：Starry-Go-Round］が3枚以上ある場合、このキャラをアクティブにする。【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
   "effectEn": "[On Play] [While in Energy Line] If you have 3 or more [Trait: Starry-Go-Round] with required energy 2 on your field, set this character to active. [Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -2544,9 +2877,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "Starry-Go-Round"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に必要エナジーが2の［特徴：Starry-Go-Round］が3枚以上ある場合、このキャラはBP+1500。",
   "effectEn": "If you have 3 or more [Trait: Starry-Go-Round] with required energy 2 on your field, this character gets BP+1500.",
   "triggerType": "Active",
@@ -2574,15 +2911,15 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "Starry-Go-Round"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に必要エナジーが2の［特徴：Starry-Go-Round］が3枚以上ある場合、このキャラの発生エナジー+【赤】。",
   "effectEn": "If you have 3 or more [Trait: Starry-Go-Round] with required energy 2 on your field, this character's generated energy +[Red].",
   "triggerType": "Color",
@@ -2612,9 +2949,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "Starry-Go-Round"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分の場に必要エナジーが2の［特徴：Starry-Go-Round］が3枚以上ある場合、このキャラはBP+1000。",
   "effectEn": "[During Your Turn] If you have 3 or more [Trait: Starry-Go-Round] with required energy 2 on your field, this character gets BP+1000.",
   "triggerType": "Active",
@@ -2644,9 +2985,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "Starry-Go-Round"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【自分のターン中】自分の場に必要エナジーが2の［特徴：Starry-Go-Round］が3枚以上ある場合、このキャラはBP+1500。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [During Your Turn] If you have 3 or more [Trait: Starry-Go-Round] with required energy 2 on your field, this character gets BP+1500.",
   "triggerType": "",
@@ -2676,9 +3023,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "Starry-Go-Round"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見て、［特徴：Starry-Go-Round］を1枚まで場外に置く。残りを望む順で自分の山札の上に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck, and put up to 1 [Trait: Starry-Go-Round] among them into your Outside Area. Put the rest on top of your deck in any order.",
   "triggerType": "Draw",
@@ -2708,9 +3059,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "Starry-Go-Round"
   ],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手に1ダメージ）",
   "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent)",
   "triggerType": "",
@@ -2740,9 +3097,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "Starry-Go-Round"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "前川 みく"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈前川 みく〉アクティブにし、フロントLに移動できる【登場時】自分の場外から必要エナジーが2の［特徴：Starry-Go-Round］を『1枚』まで手札に加える。自分の場に必要エナジーが2の［特徴：Starry-Go-Round］が3枚以上ある場合、『2枚』に代わる。【アタック時】自分の場のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[Raid] Can Raid onto <前川 みく>; set it to active and you may move it to the Front Line. [On Play] Add up to “1” [Trait: Starry-Go-Round] with required energy 2 from your Outside Area to your hand. If you have 3 or more [Trait: Starry-Go-Round] with required energy 2 on your field, it becomes “2” instead. [When Attacking] Choose up to 1 character on your field, it gets BP+1000 this turn.",
   "triggerType": "Raid",
@@ -2772,10 +3136,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "new generations",
    "お願い！シンデレラ"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -2805,10 +3173,16 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "new generations",
    "お願い！シンデレラ"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【登場時】自分の山札の上から1枚見て、山札の上か場外に置く。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [On Play] Look at the top 1 card(s) of your deck, put them on top of your deck or into your Outside Area.",
   "triggerType": "",
@@ -2836,16 +3210,16 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "new generations",
    "お願い！シンデレラ"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
   "effectEn": "While this character is active, its generated energy +[Red].",
   "triggerType": "",
@@ -2875,10 +3249,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "new generations",
    "お願い！シンデレラ"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -2908,10 +3286,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "new generations",
    "お願い！シンデレラ"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から1枚見て、山札の上か場外に置く。",
   "effectEn": "[On Play] Look at the top 1 card(s) of your deck, put them on top of your deck or into your Outside Area.",
   "triggerType": "",
@@ -2941,10 +3323,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "new generations",
    "お願い！シンデレラ"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場と場外に［特徴：お願い！シンデレラ］のカード名が合計6種類以上ある場合、自分の場の［特徴：お願い！シンデレラ］を1枚まで選び、このターン中、BP+1000。合計9種類以上ある場合、さらにこのターン中、【インパクト（1）】を与える。",
   "effectEn": "[On Play] If you have a total of 6 or more different card names among [Trait: Onegai! Cinderella] on your field and in your Outside Area, choose up to 1 [Trait: Onegai! Cinderella] on your field; it gets BP+1000 this turn. If there are a total of 9 or more different, it also gains [Impact 1] this turn.",
   "triggerType": "Color",
@@ -2974,10 +3360,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "new generations",
    "お願い！シンデレラ"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "島村 卯月"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈島村 卯月〉アクティブにし、フロントLに移動できる【登場時】自分の山札の上から2枚見て、1枚まで手札に加え、残りを場外に置く。【アタック時】自分の手札を1枚場外に置いてもよい。そうした場合、このキャラのレイド元のカードを1枚自分の場にレストで登場させる。",
   "effectEn": "[Raid] Can Raid onto <島村 卯月>; set it to active and you may move it to the Front Line. [On Play] Look at the top 2 card(s) of your deck, add up to 1 of them to your hand, and put the rest into your Outside Area. [When Attacking] You may put 1 card(s) from your hand into your Outside Area. If you do, play 1 of this character's Raid source cards to your field rested.",
   "triggerType": "Raid",
@@ -3007,10 +3400,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "new generations",
    "お願い！シンデレラ"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見て、1枚まで場外に置き、残りを望む順で山札の上に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck, Put up to 1 of them into your Outside Area, Put the rest on top of your deck in any order.",
   "triggerType": "Draw",
@@ -3040,10 +3437,14 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "new generations",
    "お願い！シンデレラ"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -3073,10 +3474,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "new generations",
    "お願い！シンデレラ"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはアタックできない。自分のアタックフェイズ開始時、APを1支払ってもよい。そうした場合、このキャラはこのターン中、元々の効果を全て失う。【相手のターン中】このキャラはBP-1000。",
   "effectEn": "This character cannot attack. At the start of your Attack Phase, you may pay 1 AP. If you do, this character loses all original effects this turn. [During Opponent's Turn] This character BP-1000.",
   "triggerType": "Draw",
@@ -3101,7 +3506,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを1枚引く。このターン中、次に手札から使用する［特徴：お願い！シンデレラ］の消費APを-1する。自分の場と場外に［特徴：お願い！シンデレラ］のカード名が合計6種類以上ある場合、このターン中、『次に自分の場に登場させる［特徴：お願い！シンデレラ］1枚』は、アクティブで登場させる。合計9種類以上ある場合、『自分の場に登場させる［特徴：お願い！シンデレラ］全て』に代わる。",
   "effectEn": "Draw 1 card(s). This turn, the next [Trait: Onegai! Cinderella] you use from your hand costs 1 less AP. If you have a total of 6 or more different card names among [Trait: Onegai! Cinderella] on your field and in your Outside Area, this turn, “the next 1 [Trait: Onegai! Cinderella] played to your field” is played active. If there are a total of 9 or more different, it becomes “all [Trait: Onegai! Cinderella] played to your field” instead.",
   "triggerType": "Special",
@@ -3126,7 +3535,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP2000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に［特徴：Starry-Go-Round］が3枚以上ある場合、『BP5000以下』に代わる。自分の場に必要エナジーが2の［特徴：Starry-Go-Round］が4枚以上ある場合、自分の場のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 2000 or less, retire it. If you have 3 or more [Trait: Starry-Go-Round] on your field, it becomes “BP 5000 or less” instead. If you have 4 or more [Trait: Starry-Go-Round] with required energy 2 on your field, choose up to 1 character on your field; it gets BP+1000 this turn.",
   "triggerType": "Special",
@@ -3151,7 +3564,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -3181,10 +3598,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "new generations",
    "お願い！シンデレラ"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【登場時】自分の場に元々のBPが4000の［特徴：new generations］が3枚以上ある場合、カードを1枚引く。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [On Play] If you have 3 or more [Trait: new generations] with original BP 4000 on your field, draw 1 card(s).",
   "triggerType": "",
@@ -3214,10 +3637,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "new generations",
    "お願い！シンデレラ"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "渋谷 凛"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈渋谷 凛〉アクティブにし、フロントLに移動できる【登場時】このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手に1ダメージ）を得る。自分の場の元々のBPが4000の他の［特徴：new generations］の枚数×1000以下のBPの相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "[Raid] Can Raid onto <渋谷 凛>; set it to active and you may move it to the Front Line. [On Play] This character, this turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained. Choose up to 1 character in your opponent's Front Line with BP equal to or less than 1000 × the number of other [Trait: new generations] with original BP 4000 on your field, and retire it.",
   "triggerType": "Raid",
@@ -3247,10 +3677,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "new generations",
    "お願い！シンデレラ"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】自分のフロントLに元々のBPが4000の［特徴：new generations］が3枚以上ある場合、カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[When Attacking] If you have 3 or more [Trait: new generations] with original BP 4000 in your Front Line, draw 1 card(s) and put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -3280,10 +3714,14 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "new generations",
    "お願い！シンデレラ"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に〈渋谷 凛〉と〈本田 未央〉がある場合、手札にあるこのカードの消費APを-1する。",
   "effectEn": "If you have <渋谷 凛> and <本田 未央> on your field, reduce the AP cost of this card in your hand by 1.",
   "triggerType": "Color",
@@ -3313,10 +3751,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "new generations",
    "お願い！シンデレラ"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：new generations］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: new generations] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -3346,10 +3788,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "new generations",
    "お願い！シンデレラ"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "本田 未央"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈本田 未央〉アクティブにし、フロントLに移動できる【登場時】自分の山札の上から3枚見て、［特徴：new generations］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。自分の場に元々のBPが4000の［特徴：new generations］が4枚以上ある場合、自分の場の［特徴：new generations］を1枚まで選び、アクティブにする。",
   "effectEn": "[Raid] Can Raid onto <本田 未央>; set it to active and you may move it to the Front Line. [On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: new generations] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you have 4 or more [Trait: new generations] with original BP 4000 on your field, choose up to 1 [Trait: new generations] on your field and set it to active.",
   "triggerType": "Raid",
@@ -3379,7 +3828,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】カードを1枚引く。その後、自分の手札から必要エナジーが3以下で消費APが1の赤のキャラカードを1枚まで自分の場にレストで登場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Draw 1 card(s). Then, Play up to 1 Red character card with required energy 3 or less and with AP cost 1 from your hand to your field rested.",
   "triggerType": "Draw",
@@ -3404,7 +3857,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のフロントLのキャラ全ては、このターン中、BP+1000。カードを1枚引く。",
   "effectEn": "All characters in your Front Line it gets BP+1000 this turn. Draw 1 card(s).",
   "triggerType": "Active",
@@ -3429,7 +3886,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場の［特徴：new generations］の枚数×1000以下のBPの相手のフロントLのキャラを1枚選び、退場させる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP equal to or less than 1000 × the number of [Trait: new generations] on your field, and retire it.",
   "triggerType": "Special",
@@ -3459,9 +3920,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "BEYOND THE STARLIGHT"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】このキャラのBPが4000以上の場合のみ発動できる。以下から1つ選ぶ。・自分の場のキャラを1枚選び、このターン中、BP+1000。・BP3000以上の自分の場のキャラを1枚選び、このターン中、BP+2000。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if this character's BP is 4000 or more. Choose 1 of the following. Choose 1 character on your field, it gets BP+1000 this turn. Choose 1 character on your field with BP 3000 or more, it gets BP+2000 this turn.",
   "triggerType": "Draw",
@@ -3491,9 +3956,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ポジティブパッション"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】APを1支払ってもよい。そうした場合、自分の場外から【レイド】を持つ黄の［特徴：ポジティブパッション］を1枚自分の手札に加える。【アタック時】自分の場に【レイド】を持つ黄の［特徴：ポジティブパッション］がある場合、カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] You may pay 1 AP. If you do, add 1 yellow [Trait: Positive Passion] with [Raid] from your Outside Area to your hand. [When Attacking] If you have a yellow [Trait: Positive Passion] with [Raid] on your field, draw 1 card(s) and put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -3523,9 +3992,18 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ガールズ・イン・ザ・フロンティア"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": {
+   "kind": "name",
+   "value": "渋谷 凛"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈渋谷 凛〉アクティブにし、フロントLに移動できる【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【登場時】自分の場のキャラを1枚自分の山札の下に置いてもよい。そうした場合、自分の山札の上から3枚見て、その中から青の［特徴：ガールズ・イン・ザ・フロンティア］を1枚まで自分の場にレストで登場させ、1枚を手札に加え、残りを望む順で山札の下に置く。",
   "effectEn": "[Raid] Can Raid onto <渋谷 凛>; set it to active and you may move it to the Front Line. [Impact Nullify] (The character that battles this character loses Impact during this battle) [On Play] You may put 1 character on your field on the bottom of your deck. If you do, look at the top 3 card(s) of your deck, play up to 1 blue [Trait: Girls in the Frontier] among them to your field rested, add 1 to your hand, and put the rest on the bottom of your deck in any order.",
   "triggerType": "Raid",
@@ -3553,15 +4031,15 @@
    {
     "color": "Blue",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "LiPPS"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に［特徴：LiPPS］が4枚以上ある場合、このキャラの発生エナジー+【青】。【登場時】相手のフロントLのキャラか〈速水 奏〉以外の自分の場の［特徴：LiPPS］を1枚まで選び、このターン中、BP+500。",
   "effectEn": "If you have 4 or more [Trait: LiPPS] on your field, This character's generated energy +[Blue]. [On Play] Choose up to 1 character in your opponent's Front Line or [Trait: LiPPS] on your field other than <速水 奏>; it gets BP+500 this turn.",
   "triggerType": "",
@@ -3584,7 +4062,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3607,7 +4089,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3630,7 +4116,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3653,7 +4143,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3676,7 +4170,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3699,7 +4197,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3722,7 +4224,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3745,7 +4251,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3768,7 +4278,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3791,7 +4305,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3814,7 +4332,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3837,7 +4359,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3860,7 +4386,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

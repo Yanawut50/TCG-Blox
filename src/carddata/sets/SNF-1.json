@@ -21,7 +21,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【緑×2】減らす。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Green x2]is reduced.",
   "triggerType": "Draw",
@@ -51,7 +55,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【ターン1】このキャラと別のラインに［特徴：ヴォーパルバニー］がある場合、このキャラを別のラインに移動させる。",
   "effectEn": "[Activate: Main] [Once Per Turn] If there is a [Trait: Vorpal Bunny] in a different line from this character, move this character to the other line.",
   "triggerType": "Active",
@@ -81,7 +89,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場に〈ビィラック〉がある場合、このキャラをアクティブにする。",
   "effectEn": "[On Play] If you have <ビィラック> on your field, Set this character to active.",
   "triggerType": "",
@@ -111,7 +123,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】【ブロック時】自分の手札の緑のイベントカードを1枚場外に置いてもよい。そうした場合、このキャラはこのターン中、BP+2500。",
   "effectEn": "[When Attacking] [When Blocking] You may put 1 Green Event card in your hand into the Outside Area. If you do, This character gets BP+2500 this turn.",
   "triggerType": "Active",
@@ -141,7 +157,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【相手のターン中】このキャラはBP-1000。",
   "effectEn": "[During Opponent's Turn] This character BP-1000.",
   "triggerType": "",
@@ -171,7 +191,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札の緑のカードを望む枚数場外に置く。この効果で場外に置いたカードの種類に応じて、以下の効果を全て発動する。・キャラカード：このキャラをアクティブにする。・イベントカード：BP3000以下の相手のフロントLのキャラを1枚まで選び、退場させる。・フィールドカード：カードを2枚引く。",
   "effectEn": "[On Play] Draw 1 card(s), and put any number of green cards from your hand into your Outside Area. Depending on the types of cards put into your Outside Area by this effect, activate all of the following effects. Character card: Set this character to active. Event card: Choose up to 1 character in your opponent's Front Line with BP 3000 or less and retire it. Field card: Draw 2 card(s).",
   "triggerType": "Get",
@@ -201,7 +225,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": {
+   "kind": "name",
+   "value": "サンラク"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈サンラク〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】このキャラは次の自分のターン開始時まで、「相手はキャラの効果やイベントカードの効果でこのキャラを選ぶ際に、追加で自身の手札を2枚場外に置かないと選べない。」を得る。【ブロック時】【ターン1】カードを1枚引く。このキャラはこのターン中、『BP-3000』。自分の手札の緑のイベントカードを1枚場外に置いてもよい。そうした場合、『BP+3000』に代わる。",
   "effectEn": "[Raid] Can Raid onto <サンラク>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] Until the start of your next turn, this character gains “When choosing this character with a character effect or event card effect, your opponent must additionally put 2 card(s) from their hand into their Outside Area” [When Blocking] [Once Per Turn] Draw 1 card(s). This character, this turn, 『BP-3000』. You may put 1 Green Event card in your hand into the Outside Area. If you do, it becomes “BP+3000” instead.",
   "triggerType": "Raid",
@@ -231,7 +264,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは〈サンラク〉としても扱う。",
   "effectEn": "This card is also treated as <サンラク>.",
   "triggerType": "Get",
@@ -261,7 +298,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは〈サンラク〉としても扱う。【登場時】カードを1枚引き、自分の手札を1枚場外に置く。この効果で緑のイベントカードを場外に置いた場合、自分の場のキャラを1枚まで選び、このターン中、「このキャラはBP4000以上のキャラにブロックされない。」を与える。",
   "effectEn": "This card is also treated as <サンラク>. [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. If you put a green event card into your Outside Area with this effect, choose up to 1 character on your field; it gains “This character cannot be blocked by characters with BP 4000 or more” this turn.",
   "triggerType": "Draw",
@@ -291,9 +332,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ヴォーパルバニー"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【相手のターン中】このターンの移動フェイズで相手のキャラが移動していない場合、このキャラはBP+1000。",
   "effectEn": "[During Opponent's Turn] If your opponent's characters didn't move during this turn's Movement Phase, this character gets BP+1000.",
   "triggerType": "",
@@ -323,9 +368,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ヴォーパルバニー"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分か相手のフロントLのキャラを1枚まで選び、このターン中、元々の効果を全て失わせる。",
   "effectEn": "[On Play] Choose up to 1 character in your or your opponent's Front Line; it loses all original effects this turn.",
   "triggerType": "Draw",
@@ -355,9 +404,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ヴォーパルバニー"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -387,9 +440,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ヴォーパルバニー"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から〈サンラク〉か〈ラビッツ〉か［特徴：ヴォーパルバニー］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 <サンラク> or <ラビッツ> or [Trait: Vorpal Bunny] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -419,9 +476,15 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "ヴォーパルバニー"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【退場時】自分の手札の緑のイベントカードを1枚場外に置いてもよい。そうした場合、このカードを自分のフロントLにレストで登場させる。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Retire] You may put 1 Green Event card in your hand into the Outside Area. If you do, play this card to your Front Line rested.",
   "triggerType": "Active",
@@ -451,9 +514,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ヴォーパルバニー"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "エムル"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈エムル〉アクティブにし、フロントLに移動できる自分のアタックフェイズ終了時、自分の手札の緑のイベントカードを1枚場外に置くかレイド状態のこのキャラの一番上のカードを場外に置く。【登場時】自分の場外から必要エナジーが3以下の緑のイベントカードを2枚まで手札に加える。",
   "effectEn": "[Raid] Can Raid onto <エムル>; set it to active and you may move it to the Front Line. At the end of your Attack Phase, put 1 green event card(s) from your hand into your Outside Area, or put the top card of this Raided character into your Outside Area. [On Play] Add up to 2 green event card with required energy 3 or less from your Outside Area to your hand.",
   "triggerType": "Raid",
@@ -481,15 +551,15 @@
    {
     "color": "Green",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "ヴォーパルバニー"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【緑】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Green] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -519,9 +589,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "ヴォーパルバニー"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -551,9 +625,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ヴォーパルバニー"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -581,15 +659,15 @@
    {
     "color": "Green",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "ヴォーパルバニー"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【緑】。",
   "effectEn": "While this character is active, its generated energy +[Green].",
   "triggerType": "",
@@ -619,9 +697,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ヴォーパルバニー"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】自分の場のキャラ全ては、このターン中、『BP+500』。自分の手札の緑のイベントカードを1枚場外に置いてもよい。そうした場合、『BP+1000』に代わる。",
   "effectEn": "[Activate: Main] [Rest this card] All characters on your field This turn, 『BP+500』. You may put 1 Green Event card in your hand into the Outside Area. If you do, it becomes “BP+1000” instead.",
   "triggerType": "Draw",
@@ -651,9 +733,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒狼"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】このターン中、自分の手札の全てのイベントカードの必要エナジーを【緑×1】減らす。",
   "effectEn": "[On Play] This turn, reduce the required energy of all event cards in your hand by [Green x1].",
   "triggerType": "",
@@ -683,9 +769,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒狼"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "Active",
@@ -715,9 +807,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒狼"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚まで裏向きでこのキャラの下に置く。【起動メイン】【フロントLにある場合】【ターン1】このキャラがアクティブの場合のみ発動できる。このキャラの下の裏向きのカードを見て、その中から1枚まで公開し、場外に置く。公開したカードが緑のイベントカードの場合、必要エナジーを無視してAPを支払わずにそのカードを使用する。",
   "effectEn": "[On Play] Draw 1 card(s), and put up to 1 card(s) from your hand face down under this character. [Activate: Main] [While in Front Line] [Once Per Turn] Can only activate while this character is active. Look at the face-down cards under this character, reveal up to 1 of them, and put them into your Outside Area. If the revealed card is a green event card, use that card ignoring its required energy and without paying AP.",
   "triggerType": "Get",
@@ -747,9 +843,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒狼"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "サイガ-0"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈サイガ-0〉アクティブにし、フロントLに移動できる【起動メイン】【手札を1枚場外に置く】このターン中、自分の手札の全てのイベントカードの必要エナジーを【緑×2】減らす。【アタック時】自分がこのターン中にイベントカードを使用している場合、『BP2000以下』の相手のフロントLのキャラを1枚まで選び、退場させ、このキャラはこのターン中、【インパクト（1）】を得る。このキャラが登場したターン中の場合、『BP3000以下』に代わる。",
   "effectEn": "[Raid] Can Raid onto <サイガ-0>; set it to active and you may move it to the Front Line. [Activate: Main] [Put 1 card(s) from your hand into your Outside Area] This turn, reduce the required energy of all event cards in your hand by [Green x2]. [When Attacking] If you have used an event card this turn, choose up to 1 character in your opponent's Front Line with “BP 2000 or less” and retire it, and this character gains [Impact 1] this turn. During the turn this character was played, it becomes “BP 3000 or less” instead.",
   "triggerType": "Raid",
@@ -779,9 +882,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒狼"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "Active",
@@ -811,9 +920,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒狼"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】このターン中に自分が元々の必要エナジーが6以上のイベントカードを使用している場合、このキャラをアクティブにしてもよい。",
   "effectEn": "[On Play] If you have used an event card with original required energy 6 or more this turn, you may set this character to active.",
   "triggerType": "",
@@ -843,9 +956,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒狼"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【フロントLにある場合】自分の手札の全てのイベントカードの必要エナジーを【緑×1】減らす。【登場時】自分の山札の上から1枚を公開し、手札に加える。公開したカードが［特徴：黒狼］か元々の必要エナジーが6以上の緑のイベントカード以外の場合、手札を1枚場外に置く。",
   "effectEn": "[While in Front Line] Reduce the required energy of all event cards in your hand by [Green x1]. [On Play] Reveal the top 1 card(s) of your deck and add them to your hand. If the revealed card is not a [Trait: Black Wolf] or a green event card with original required energy 6 or more, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -875,9 +992,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒狼"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは〈サイガ-0〉としても扱う。",
   "effectEn": "This card is also treated as <サイガ-0>.",
   "triggerType": "Get",
@@ -907,9 +1028,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒狼"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは〈サイガ-0〉としても扱う。【登場時】カードを1枚引き、自分の手札を1枚場外に置く。【起動メイン】【レストにする】このターン中、自分の手札にある全てのイベントカードの必要エナジーを【緑×2】減らす。このキャラはこのターン中、「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "This card is also treated as <サイガ-0>. [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. [Activate: Main] [Rest this card] This turn, reduce the required energy of all event cards in your hand by [Green x2]. This character gains “At the end of the Main Phase, retire this character” this turn.",
   "triggerType": "Color",
@@ -939,7 +1064,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場のキャラを1枚まで選び、このターン中、BP+500。【起動メイン】【レストにする】自分の場の〈サンラク〉か［特徴：ヴォーパルバニー］を1枚まで選び、このターン中、「このキャラはBP4000以上のキャラにブロックされない。」を与える。",
   "effectEn": "[On Play] Choose up to 1 character on your field, it gets BP+500 this turn. [Activate: Main] [Rest this card] Choose up to 1 <サンラク> or [Trait: Vorpal Bunny] on your field, it gains “This character cannot be blocked by characters with BP 4000 or more” this turn.",
   "triggerType": "Get",
@@ -969,7 +1098,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【手札を1枚場外に置く】【このカードを退場させる】自分のアクティブのAPカードの枚数分、カードを引く。自分はこのターン中、手札からイベントカードを使用できない。",
   "effectEn": "[Activate: Main] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] [Retire this card] Draw cards equal to the number of your active AP cards. This turn, you cannot use event cards from your hand.",
   "triggerType": "Get",
@@ -994,7 +1127,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手のフロントLのキャラを1枚選び、退場させる。BP1500以上の相手のフロントLのキャラ全ては、このターン中、BP-1000。",
   "effectEn": "Choose 1 character in your opponent's Front Line, retire it. All characters in your opponent's Front Line with BP 1500 or more it gets BP-1000 this turn.",
   "triggerType": "Special",
@@ -1019,7 +1156,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを2枚引く。このターン中、次に手札から使用する〈神魔の大剣〉以外のカードの消費APを-1する。自分の場の〈サイガ-0〉を1枚まで選び、このターン中、【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を与える。",
   "effectEn": "Draw 2 card(s). This turn, the next card other than <神魔の大剣> you use from your hand costs 1 less AP. Choose up to 1 <サイガ-0> on your field, This turn, [Damage 2](When this character deals direct damage by attacking, deal 2 damage instead) is given.",
   "triggerType": "Draw",
@@ -1044,7 +1185,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のキャラを1枚選び、このターン中、BP+2500と【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、指定した場合、相手はブロックできない）を与える。",
   "effectEn": "Choose 1 character on your field, and it gets BP+2500 and gains [Snipe] (Can attack a character in your opponent's Front Line; if it does, your opponent cannot block) this turn.",
   "triggerType": "Special",
@@ -1069,7 +1214,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "以下から1つ選ぶ。・自分の手札か場外から必要エナジーが3以下で消費APが1の緑の［特徴：黒狼］を2枚まで自分の場にレストで登場させる。・自分の手札か場外から必要エナジーが5以下で消費APが1の緑の［特徴：黒狼］を1枚まで自分の場にレストで登場させる。",
   "effectEn": "Choose 1 of the following. Play up to 2 green [Trait: Black Wolf] with required energy 3 or less and AP cost 1 from your hand or Outside Area to your field rested. Play up to 1 green [Trait: Black Wolf] with required energy 5 or less and AP cost 1 from your hand or Outside Area to your field rested.",
   "triggerType": "Active",
@@ -1094,7 +1243,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈サンラク〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <サンラク> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -1119,7 +1272,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを1枚引く。自分のフロントLのキャラを1枚まで選び、アクティブにする。相手のフロントLのキャラを1枚まで選び、レストにする。",
   "effectEn": "Draw 1 card(s). Choose up to 1 character in your Front Line, set it to active. Choose up to 1 character in your opponent's Front Line, rest it.",
   "triggerType": "Active",
@@ -1144,7 +1301,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1169,7 +1330,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から5枚見る。その中から必要エナジーが2以下のカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。自分の手札から必要エナジーが1以下で消費APが1の緑のキャラカードを1枚まで自分の場にレストで登場させる。",
   "effectEn": "Look at the top 5 card(s) of your deck. Reveal up to 1 card with required energy 2 or less among them and add it to your hand. Put the rest on the bottom of your deck in any order. Play up to 1 Green character card with required energy 1 or less and with AP cost 1 from your hand to your field rested.",
   "triggerType": "",
@@ -1194,7 +1359,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを1枚引き、自分の場のキャラを1枚まで選び、このターン中、BP+1000。このカードが自分の緑のカードの効果で手札から場外に置かれた時、カードを1枚引く。",
   "effectEn": "Draw 1 card(s), then choose up to 1 character on your field, and it gets BP+1000 this turn. When this card is put from your hand into your Outside Area by the effect of your green card, draw 1 card(s).",
   "triggerType": "Color",
@@ -1224,7 +1393,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から7枚見る。その中から必要エナジーが3以上の赤のフィールドカードを1枚まで自分の手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 7 card(s) of your deck. Add up to 1 red field card with required energy 3 or more among them to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -1254,7 +1427,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場のキャラ全ては、このターン中、BP+500。",
   "effectEn": "[On Play] All characters on your field it gets BP+500 this turn.",
   "triggerType": "Draw",
@@ -1284,7 +1461,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】APを1支払ってもよい。そうした場合、自分の場外から必要エナジーが3以上で消費APが1の赤のフィールドカードを1枚まで自分のエナジーLにレストで登場させる。",
   "effectEn": "[On Play] You may pay 1 AP. If you do, Play up to 1 Red Field card with required energy 3 or more and with AP cost 1 from your Outside Area to your Energy Line rested.",
   "triggerType": "Active",
@@ -1314,7 +1495,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "アーサー・ペンシルゴン"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈アーサー・ペンシルゴン〉アクティブにし、フロントLに移動できる【登場時】自分の手札から必要エナジーが『3以下』で消費APが1の赤のキャラカードを1枚まで自分の場にレストで登場させる。このキャラが自分の〔キャラ・フィールド〕の効果で登場していた場合、『4以下』に代わる。【起動メイン】【ターン1】自分の場のキャラを1枚選び、このターン中、BP+1000。",
   "effectEn": "[Raid] Can Raid onto <アーサー・ペンシルゴン>; set it to active and you may move it to the Front Line. [On Play] Play up to 1 red character card(s) with required energy “3 or less” and AP cost 1 from your hand to your field rested. When this character is chosen by your character's. If it was played by a field's effect, it becomes “4 or less” instead. [Activate: Main] [Once Per Turn] Choose 1 character on your field, it gets BP+1000 this turn.",
   "triggerType": "Raid",
@@ -1344,7 +1532,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは〈アーサー・ペンシルゴン〉としても扱う。【起動メイン】【レストにする】【このカードを退場させる】カードを1枚引く。その後、自分の手札から必要エナジーを満たし消費APが1の赤のキャラカードを1枚まで自分の場にレストで登場させるかレイドさせる。",
   "effectEn": "This card is also treated as <アーサー・ペンシルゴン>. [Activate: Main] [Rest this card] [Retire this card] Draw 1 card(s). Then, Play up to 1 Red character card whose required energy you meet and with AP cost 1 from your hand to your field rested or Raid it.",
   "triggerType": "",
@@ -1374,7 +1566,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは〈オイカッツォ〉としても扱う。",
   "effectEn": "This card is also treated as <オイカッツォ>.",
   "triggerType": "Active",
@@ -1404,7 +1600,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から〈サンラク〉か〈オイカッツォ〉か〈アーサー・ペンシルゴン〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 <サンラク> or <オイカッツォ> or <アーサー・ペンシルゴン> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -1432,13 +1632,13 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
   "effectEn": "While this character is active, its generated energy +[Red].",
   "triggerType": "",
@@ -1468,7 +1668,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【起動メイン】【手札を1枚場外に置く】【ターン1】このキャラはこのターン中、BP+1000。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] This character gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -1498,7 +1704,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "オイカッツォ"
+  },
+  "deckLimit": null,
   "effectJp": "【登場時】カードを『1枚』引き、自分の手札を1枚場外に置く。【レイド】〈オイカッツォ〉アクティブにし、フロントLに移動できるこのキャラの【登場時】の『1枚』が『2枚』に代わる。このキャラが自分の〔キャラ・フィールド〕の効果で登場していた場合、『3枚』に代わる。",
   "effectEn": "[On Play] Draw “1” card(s), then put 1 card(s) from your hand into your Outside Area. [Raid] Can Raid onto <オイカッツォ>; set it to active and you may move it to the Front Line. “1” in this character's [On Play] becomes “2” When this character is chosen by your character's. If it was played by a field's effect, it becomes “3” instead.",
   "triggerType": "Raid",
@@ -1528,7 +1741,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】相手はカードを1枚引く。",
   "effectEn": "[On Retire] Your opponent draws 1 card(s).",
   "triggerType": "",
@@ -1558,7 +1775,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -1588,7 +1809,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは全ての場所でイベントカードとしても扱う。【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "This card is also treated as an Event card in all areas. [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -1618,7 +1843,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは全ての場所でイベントカードとしても扱う。【登場時】自分の場にレイド状態の〈墓守のウェザエモン〉がある場合、このキャラをアクティブにする。",
   "effectEn": "This card is also treated as an Event card in all areas. [On Play] If you have a Raided <墓守のウェザエモン> on your field, set this character to active.",
   "triggerType": "Color",
@@ -1648,7 +1877,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】BP3000以下の相手のフロントLのキャラを1枚まで選び、退場させる。この効果で必要エナジーが0のキャラを退場させた場合、カードを2枚引く。",
   "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you retired a character with required energy 0 with this effect, draw 2 card(s).",
   "triggerType": "Draw",
@@ -1678,7 +1911,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に〈オイカッツォ〉がある場合、このキャラはBP+500。自分の場に〈アーサー・ペンシルゴン〉がある場合、このキャラはBP+500。",
   "effectEn": "If you have <オイカッツォ> on your field, This character gets BP+500. If you have <アーサー・ペンシルゴン> on your field, This character gets BP+500.",
   "triggerType": "Draw",
@@ -1708,7 +1945,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true,
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【ブロック時】このキャラはこのターン中、BP+500。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [When Blocking] This character gets BP+500 this turn.",
   "triggerType": "",
@@ -1738,7 +1982,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【自分のターン中】自分のライフが2以下の場合、このキャラはBP+1000と【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。【登場時】このキャラが自分の〔キャラ・フィールド〕の効果で登場していた場合、このキャラをアクティブにする。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [During Your Turn] If your Life is 2 or less, this character gains BP+1000 and [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opposing player) [On Play] When this character is chosen by your character's. If it was played by a field's effect, set this character to active.",
   "triggerType": "Color",
@@ -1766,13 +2016,13 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【赤】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Red] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -1802,7 +2052,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "Active",
@@ -1832,7 +2088,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを望む順で下に置く。【起動メイン】【レストにする】【このカードを退場させる】このキャラの【登場時】を発動する。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest on the bottom of your deck in any order. [Activate: Main] [Rest this card] [Retire this card] Activate this character's [On Play].",
   "triggerType": "",
@@ -1862,7 +2122,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1892,7 +2156,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】このキャラを退場させる。【退場時】カードを1枚引く。",
   "effectEn": "[Activate: Main] [Rest this card] Retire this character. [On Retire] Draw 1 card(s).",
   "triggerType": "Active",
@@ -1922,7 +2190,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】カードを2枚引く。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Draw 2 card(s).",
   "triggerType": "",
@@ -1952,7 +2224,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】カードを2枚引く。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Draw 2 card(s).",
   "triggerType": "Draw",
@@ -1982,7 +2258,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から6枚見る。その中から必要エナジーが異なる赤の〔イベントカードか〈セツナの墓〉〕を望む枚数公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "[On Play] Look at the top 6 card(s) of your deck. Reveal any number of red event cards with different required energy or <セツナの墓> among them and add them to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Get",
@@ -2012,7 +2292,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "墓守のウェザエモン"
+  },
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このキャラは、このターン中に自分の〈墓守のウェザエモン〉が退場している場合のみレイドできる。【レイド】〈墓守のウェザエモン〉アクティブにし、フロントLに移動できるこのキャラはＢＰ+1000。【登場時】このターン中、自分が手札から使用する赤のイベントカードは各必要エナジーにつき1枚まで、消費APが-1される。",
   "effectEn": "[During Your Turn] This character can only Raid if your <墓守のウェザエモン> was retired this turn. [Raid] Can Raid onto <墓守のウェザエモン>; set it to active and you may move it to the Front Line. This character ＢＰ+1000. [On Play] This turn, red event cards you use from your hand have their AP cost reduced by 1, up to 1 for each required energy.",
   "triggerType": "Raid",
@@ -2042,7 +2329,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは〈サンラク〉としても扱う。【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "This card is also treated as <サンラク>. [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -2072,7 +2363,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の場外から必要エナジーが4で消費APが1の赤の〔〈サンラク〉か〈オイカッツォ〉か〈アーサー・ペンシルゴン〉〕を1枚まで自分の場にレストで登場させるかレイドさせる。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Play up to 1 red <サンラク>, <オイカッツォ> or <アーサー・ペンシルゴン> with required energy 4 and AP cost 1 from your Outside Area to your field rested, or Raid them.",
   "triggerType": "Get",
@@ -2100,13 +2395,13 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このターン中に自分の場のキャラが退場している場合、このフィールドは発生エナジー+【赤】。【登場時】自分の山札の上から4枚見る。その中から赤のイベントカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "If a character on your field was retired this turn, this field's generated energy +[Red]. [On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 Red Event card among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Get",
@@ -2136,7 +2431,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】カードを1枚引き、自分の手札を1枚場外に置く。その後、自分の場のキャラを1枚まで選ぶ。そのキャラのBPはこのターン中、この効果で場外に置いたカードの必要エナジーの数×500プラスされる。",
   "effectEn": "[Activate: Main] [Rest this card] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. Then, Choose up to 1 character on your field. This turn, that character's BP is increased by 500 × the amount of required energy on the cards put into your Outside Area by this effect.",
   "triggerType": "Get",
@@ -2161,7 +2460,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から5枚見る。その中から〈サンラク〉か〈オイカッツォ〉か〈アーサー・ペンシルゴン〉を2枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "Look at the top 5 card(s) of your deck. Reveal up to 2 <サンラク> or <オイカッツォ> or <アーサー・ペンシルゴン> among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -2186,7 +2489,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場のレイド状態のキャラを1枚まで選ぶ。そのキャラのレイド状態の上のカードを1枚場外に置き、そのキャラのレイド元のカードに、このターン中、「このキャラはブロックできない。」を与える。",
   "effectEn": "Choose up to 1 Raided character on your opponent's field. Put 1 of that character's top Raided card(s) into the Outside Area, and that character's Raid source card gains “This character cannot block” this turn.",
   "triggerType": "Active",
@@ -2211,7 +2518,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈アーサー・ペンシルゴン〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <アーサー・ペンシルゴン> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -2236,7 +2547,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2261,7 +2576,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを1枚引く。このターン中、自分が「BPの範囲に指定がある効果」でキャラを選ぶ際、指定できるBPの範囲+1000。（BP2500以下のキャラを選べる効果でBP3500以下を選べるようになる）",
   "effectEn": "Draw 1 card(s). This turn, when you choose a character with “an effect that specifies a BP range”, the BP range you can choose is increased by 1000. (Effects that can choose characters with BP 2500 or less can choose characters with BP 3500 or less instead)",
   "triggerType": "Active",
@@ -2286,7 +2605,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "BP2500以下の相手のフロントLのキャラを1枚まで選び、退場させる。自分の場の〈墓守のウェザエモン〉を1枚まで選び、このターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を与える。",
   "effectEn": "Choose up to 1 character in your opponent's Front Line with BP 2500 or less, retire it. Choose up to 1 <墓守のウェザエモン> on your field, This turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is given.",
   "triggerType": "",
@@ -2311,7 +2634,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に〈墓守のウェザエモン〉がある場合、手札のこのカードの消費AP-1。BP5000以下の相手のフロントLのキャラを1枚まで選び、退場させる。自分の場の〈墓守のウェザエモン〉を1枚まで選び、このターン中、【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を与える。",
   "effectEn": "If you have <墓守のウェザエモン> on your field, reduce the AP cost of this card in your hand by 1. Choose up to 1 character in your opponent's Front Line with BP 5000 or less, retire it. Choose up to 1 <墓守のウェザエモン> on your field, This turn, [Damage 2](When this character deals direct damage by attacking, deal 2 damage instead) is given.",
   "triggerType": "Special",
@@ -2336,7 +2663,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを1枚引き、自分のライフエリアにあるカードを1枚手札に加える。その後、自分の場のキャラを1枚まで選び、このターン中、BP+2000と「相手はこのキャラのアタックを可能ならブロックしなければならない。」を与える。この効果で自分のライフが0になった場合、自分の山札の上から1枚を自分のライフエリアに置く。",
   "effectEn": "Draw 1 card(s), and add 1 card(s) from your Life Area to your hand. Then, Choose up to 1 character on your field, it gets BP+2000 and gains “Your opponent must block this character's attacks if able” this turn. If your Life becomes 0 due to this effect, put the top 1 card(s) of your deck into your Life Area.",
   "triggerType": "",
@@ -2361,7 +2692,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを1枚引く。BP4000以下の相手のフロントLのキャラを1枚まで選び、エナジーLに移動させる。（移動させる時にエナジーLに空きがない場合、相手はエナジーLのカードを1枚選んでリムーブエリアに置いてから移動させる）",
   "effectEn": "Draw 1 card(s). Choose up to 1 character in your opponent's Front Line with BP 4000 or less, move it to the Energy Line. (When moving, if there is no space in the Energy Line, your opponent chooses 1 card(s) in their Energy Line, puts them into the Remove Area, then moves it)",
   "triggerType": "Draw",
@@ -2384,7 +2719,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2407,7 +2746,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2430,7 +2773,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2453,7 +2800,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2476,7 +2827,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2499,7 +2854,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2522,7 +2881,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2545,7 +2908,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2568,7 +2935,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2591,7 +2962,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2614,7 +2989,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2637,7 +3016,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2660,7 +3043,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2683,7 +3070,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

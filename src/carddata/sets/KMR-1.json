@@ -21,7 +21,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場外にある消費APが2で特徴を持つカードの枚数により、手札にあるこのカードは以下の効果を全て得る。・2枚以上：必要エナジーを【黄×5】減らす。・5枚以上：このキャラはアクティブで場に登場させる。【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】自分の山札の上から10枚を場外に置いてもよい。そうした場合、BP4000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "Depending on the number of cards with traits and AP cost 2 in your Outside Area, this card in your hand gains all of the following effects. 2 or more: Reduce its required energy by [Yellow x5]. 5 or more: This character is played active. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] You may put the top 10 card(s) of your deck into your Outside Area. If you do, Choose up to 1 character in your opponent's Front Line with BP 4000 or less, retire it.",
   "triggerType": "Color",
@@ -51,7 +57,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このターン中に自分の山札から【レイド】を持つ黄以外のカードを公開して手札に加えている場合、このキャラはBP+1500。",
   "effectEn": "[During Your Turn] If you have revealed a non-yellow card with [Raid] from your deck and added it to your hand this turn, this character gets BP+1500.",
   "triggerType": "Draw",
@@ -81,7 +91,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【ターン1】このターン中に自分の山札から【レイド】を持つ黄以外のカードを公開して手札に加えている場合のみ発動できる。以下から1つ選ぶ。・カードを1枚引き、自分の手札を1枚場外に置く。・このキャラはこのターン中、BP+1000。",
   "effectEn": "[Activate: Main] [Once Per Turn] Can only activate if you have revealed a non-yellow card with [Raid] from your deck and added it to your hand this turn. Choose 1 of the following. Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. This character gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -111,7 +125,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはアクティブで場に登場させる。【フロントLにある場合】自分のアタックフェイズ終了時、自分の場にカード名に「ライダー」を含み、異なるカード名のキャラが8枚以上ある場合、相手プレイヤーに1ダメージ。【登場時】このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
   "effectEn": "This character is played active. [While in Front Line] At the end of your Attack Phase, if you have 8 or more characters with “Rider” in their card names and different card names on your field, deal 1 damage to the opposing player. [On Play] This character, this turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained.",
   "triggerType": "Get",
@@ -141,7 +159,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【レイド】カード名に「ジオウ」を含むキャラ アクティブにし、フロントLに移動できる【登場時】自分の手札からBP4000以下で【レイド】を持つ黄以外の異なるカード名のキャラカードを2枚まで自分のフロントLにレストで登場させる。自分のフロントLのキャラを1枚まで選び、アクティブにする。【起動メイン】【フロントLにある場合】【APを1支払う】【ターン1】自分の場のキャラ全ては、このターン中、BP+1000。",
   "effectEn": "[Raid] Can Raid onto a character with “Zi-O” in its card name; set it to active and you may move it to the Front Line. [On Play] Play up to 2 non-yellow character cards with different card names, BP 4000 or less and [Raid] from your hand to your Front Line rested. Choose up to 1 character in your Front Line, set it to active. [Activate: Main] [While in Front Line] [Pay 1 AP] [Once Per Turn] All characters on your field it gets BP+1000 this turn.",
   "triggerType": "Raid",
@@ -171,7 +193,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -201,7 +227,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "Draw",
@@ -231,7 +263,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）このキャラは相手の効果で手札に戻らない。自分のアタックフェイズ終了時、「自分の手札を1枚場外に置き、このキャラを退場させる。」をしてもよい。そうした場合、自分の場外から〈仮面ライダーゲイツリバイブ疾風〉を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses [Impact] during this battle) This character is not returned to the hand by your opponent's effects. At the end of your Attack Phase, you may “put 1 card(s) from your hand into your Outside Area, and retire this character” If you do, Play up to 1 <仮面ライダーゲイツリバイブ疾風> from your Outside Area to your field rested.",
   "triggerType": "Active",
@@ -261,7 +299,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはBPをマイナスする効果を受けない。【自分のターン中】このキャラはBP+1000。自分のアタックフェイズ終了時、「自分の手札を1枚場外に置き、このキャラを退場させる。」をしてもよい。そうした場合、自分の場外から〈仮面ライダーゲイツリバイブ剛烈〉を1枚まで自分の場にレストで登場させる。",
   "effectEn": "This character is not affected by effects that reduce BP. [During Your Turn] This character gets BP+1000. At the end of your Attack Phase, you may “put 1 card(s) from your hand into your Outside Area, and retire this character” If you do, Play up to 1 <仮面ライダーゲイツリバイブ剛烈> from your Outside Area to your field rested.",
   "triggerType": "Draw",
@@ -289,13 +331,13 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【黄】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Yellow] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -325,7 +367,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを望む順で下に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest on the bottom of your deck in any order.",
   "triggerType": "",
@@ -355,7 +401,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から7枚見る。その中から【レイド】を持つ黄以外のカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "[On Play] Look at the top 7 card(s) of your deck. Reveal up to 1 non-yellow card with [Raid] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Color",
@@ -385,7 +435,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【レイド】カード名に「ジオウ」を含むキャラ アクティブにし、フロントLに移動できる【登場時】自分の山札の上から5枚見る。その中からカード名に「ライダー」を含むカードを『1枚』まで公開し手札に加える。残りを望む順で自分の山札の下に置く。自分の場にカード名に「ゲイツ」を含むキャラとカード名に「ウォズ」を含むキャラがどちらもある場合、『2枚』に代わる。",
   "effectEn": "[Raid] Can Raid onto a character with “Zi-O” in its card name; set it to active and you may move it to the Front Line. [On Play] Look at the top 5 card(s) of your deck. Reveal up to “1” card with “Rider” in its card name among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you have both a character with “Geiz” in its card name and a character with “Woz” in its card name on your field, it becomes “2” instead.",
   "triggerType": "Raid",
@@ -415,7 +469,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から1枚を公開してもよい。そうした場合、公開したカードが【レイド】を持つ黄以外のカードなら、そのカードを手札に加える。公開したカードがそれ以外なら、そのカードを自分の山札の上か下に置く。",
   "effectEn": "[On Play] You may reveal the top 1 card(s) of your deck. If you do, and the revealed card is a non-yellow card with [Raid], add that card to your hand. If the revealed card is anything else, put that card on the top or bottom of your deck.",
   "triggerType": "Draw",
@@ -445,7 +503,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に青か赤のカードがある場合、手札にあるこのカードの必要エナジーを【黄×1】減らす。",
   "effectEn": "If your opponent has Blue or Red card on their field, the required energy of this card in your hand [Yellow x1]is reduced.",
   "triggerType": "",
@@ -473,15 +535,15 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "A.I.M.S. SQUAD"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【黄】。",
   "effectEn": "While this character is active, its generated energy +[Yellow].",
   "triggerType": "",
@@ -511,9 +573,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "A.I.M.S. SQUAD"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "",
@@ -543,9 +611,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "A.I.M.S. SQUAD"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -575,9 +647,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "A.I.M.S. SQUAD"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【レイド】カード名に「バルカン」を含むキャラ アクティブにし、フロントLに移動できる【起動メイン】【ターン1】以下から『1つ』選ぶ。このキャラがこのターン中に登場していない場合、APを1支払ってもよい。そうした場合、『全て』に代わる。・このキャラはこのターン中、【インパクト（1）】を得る。・このキャラはこのターン中、【ダメージ（2）】を得る。・このキャラはこのターン中、BP+1000。",
   "effectEn": "[Raid] Can Raid onto a character with “Vulcan” in its card name; set it to active and you may move it to the Front Line. [Activate: Main] [Once Per Turn] Choose 1 of the following. If this character was not played this turn, you may pay 1 AP. If you do, it becomes “all” instead. This character, this turn, [Impact 1] is gained. This character, this turn, [Damage 2] is gained. This character gets BP+1000 this turn.",
   "triggerType": "Raid",
@@ -607,9 +683,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ザイアエンタープライズ"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場外に異なるカード名の〔［特徴：飛電インテリジェンス］と［特徴：A.I.M.S. SQUAD］と［特徴：滅亡迅雷.net］〕が合計4枚以上ある場合、このキャラは【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を得る。",
   "effectEn": "If you have a total of 4 or more [Trait: Hiden Intelligence], [Trait: A.I.M.S. SQUAD] and [Trait: Metsubojinrai.net] with different card names in your Outside Area, this character gains [Damage 2] (When this character deals direct damage by attacking, it deals 2 damage instead)",
   "triggerType": "",
@@ -639,9 +719,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "飛電インテリジェンス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のアタックフェイズ中に〈仮面ライダーゼロワン リアライジングホッパー〉がレイドした時、自分の場に［特徴：飛電インテリジェンス］が3枚以上ある場合、手札にあるこのカードを自分の場にレストで登場させてもよい。〈仮面ライダーゼロツー（イズ）〉のこの効果は1ターンに1回のみ発動できる。【登場時】自分の場のカード名に「ゼロワン」を含むキャラを1枚まで選び、このターン中、BP+1000と【ダメージ（2）】を与える。",
   "effectEn": "When <仮面ライダーゼロワン リアライジングホッパー> Raids during your Attack Phase, if you have 3 or more [Trait: Hiden Intelligence] on your field, you may play this card from your hand to your field rested. This <仮面ライダーゼロツー（イズ）> effect can only activate 1 time(s) per 1 turn(s). [On Play] Choose up to 1 character with “Zero-One” in its card name on your field; it gains BP+1000 and [Damage 2] this turn.",
   "triggerType": "Get",
@@ -671,9 +755,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "飛電インテリジェンス"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【レイド】カード名に「ゼロワン」を含むキャラ アクティブにし、フロントLに移動できる【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】自分の手札か自分の場外から必要エナジーが1以下で消費APが1の黄のキャラカードを1枚まで自分の場にレストで登場させる。手札から登場させた場合、カードを1枚まで引く。",
   "effectEn": "[Raid] Can Raid onto a character with “Zero-One” in its card name; set it to active and you may move it to the Front Line. [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] Play up to 1 yellow character card(s) with required energy 1 or less and AP cost 1 from your hand or Outside Area to your field rested. If it was played from your hand, draw up to 1 card(s).",
   "triggerType": "Raid",
@@ -703,9 +793,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "飛電インテリジェンス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -735,9 +829,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "滅亡迅雷.net"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを2枚引き、自分の手札を2枚場外に置く。その後、『BP2000』以下の相手のフロントLのキャラを1枚まで選び、退場させる。この効果で場外に置いた［特徴：滅亡迅雷.net］1枚につき、この効果で選べるキャラのBPの範囲+1000。",
   "effectEn": "[On Play] Draw 2 card(s), then put 2 card(s) from your hand into your Outside Area. Then, Choose up to 1 character in your opponent's Front Line with BP 2000 or less, retire it. For each 1 [Trait: Metsubojinrai.net] put into your Outside Area by this effect, the BP range of characters you can choose with this effect is increased by 1000.",
   "triggerType": "Active",
@@ -767,9 +865,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "滅亡迅雷.net"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【フロントLにある場合】〈仮面ライダー迅 バーニングファルコン〉以外の自分の場のキャラが相手のキャラの効果によって退場する場合、代わりにこのキャラを退場させてもよい。【退場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[While in Front Line] If a character on your field other than <仮面ライダー迅 バーニングファルコン> would be retired by your opponent's character effect, you may retire this character instead. [On Retire] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -799,9 +901,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "滅亡迅雷.net"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -831,9 +937,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "滅亡迅雷.net"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【手札を1枚場外に置く】【ターン1】このキャラはこのターン中、BP+1000。【起動メイン】【フロントLにある場合】【ターン1】自分の山札の上から1枚見る。そのカードを自分の山札の上か場外に置く。",
   "effectEn": "[Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] This character gets BP+1000 this turn. [Activate: Main] [While in Front Line] [Once Per Turn] Look at the top 1 card(s) of your deck. Put that card on top of your deck or into your Outside Area.",
   "triggerType": "",
@@ -863,7 +973,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から4枚見る。その中からカード名に「ジオウ」か「ゲイツ」か「ウォズ」か「ツクヨミ」を含むキャラカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。【起動メイン】【レストにする】【このカードを退場させる】自分の場外から【レイド】を持つ黄以外のカードを1枚まで自分の山札の上に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 character card with “Zi-O”, “Geiz”, “Woz” or “Tsukuyomi” in its card name among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area. [Activate: Main] [Rest this card] [Retire this card] Put up to 1 non-yellow card(s) with [Raid] from your Outside Area on top of your deck.",
   "triggerType": "Get",
@@ -893,9 +1007,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "滅亡迅雷.net"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の山札の上から4枚見る。その中から［特徴：滅亡迅雷.net］かカード名に「アサルト」か「アーク」を含むカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。【起動メイン】【場外にある場合】【APを1支払う】自分の発生エナジーが3以上ある場合のみ発動できる。場外のこのカードを自分のエナジーLにレストで登場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Look at the top 4 card(s) of your deck. Reveal up to 1 [Trait: Metsubojinrai.net] or card with “Assault” or “Ark” in its card name among them and add it to your hand. Put the rest on the bottom of your deck in any order. [Activate: Main] [While in Outside Area] [Pay 1 AP] Can only activate if your generated energy is 3 or more. Play this card from your Outside Area to your Energy Line rested.",
   "triggerType": "",
@@ -920,7 +1038,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から7枚見る。その中からカード名に「ジオウ」を含むキャラカードと【レイド】を持つ黄以外のカードをそれぞれ1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "Look at the top 7 card(s) of your deck. Reveal up to 1 each of character cards with “Zi-O” in their card name and non-yellow cards with [Raid] among them, and add them to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Active",
@@ -945,7 +1067,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP2000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場にカード名に「ジオウ」を含むキャラがある場合、『BP5000以下』に代わる。このターン中に自分の山札から【レイド】を持つ黄以外のカードを公開して手札に加えている場合、自分の場のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 2000 or less, retire it. If you have a character with “Zi-O” in its card name on your field, it becomes “BP 5000 or less” instead. If you have revealed a non-yellow card with [Raid] from your deck and added it to your hand this turn, choose up to 1 character on your field; it gets BP+1000 this turn.",
   "triggerType": "Special",
@@ -970,7 +1096,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -995,7 +1125,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "BP5000以下の相手のフロントLのキャラを1枚選び、『レストにする。それは次の1回アクティブにならない』。自分の場にカード名に「ゼロワン」を含むキャラがある場合、『退場させる』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 5000 or less, “rest it. It does not become active the next 1 time(s)” If you have a character with “Zero-One” in its card name on your field, it becomes “retire it” instead.",
   "triggerType": "Special",
@@ -1025,7 +1159,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分の手札の必要エナジーが同じカードを3枚場外に置く。そうした場合、自分の手札から必要エナジーが3以下で消費APが1のカード名に「オーズ」を含むキャラカードを1枚まで自分の場にレストで登場させ、このメインフェイズ終了時、カードを3枚引く。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Put 3 card(s) with the same required energy from your hand into your Outside Area. If you do, play up to 1 character card(s) with “OOO” in its card name, required energy 3 or less and AP cost 1 from your hand to your field rested, and at the end of this Main Phase, draw 3 card(s).",
   "triggerType": "",
@@ -1055,7 +1193,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分の手札の必要エナジーが同じカードを3枚場外に置く。そうした場合、相手のフロントLのキャラを1枚まで選び、レストにし、このメインフェイズ終了時、カードを3枚引く。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Put 3 card(s) with the same required energy from your hand into your Outside Area. If you do, choose up to 1 character in your opponent's Front Line and rest it, and at the end of this Main Phase, draw 3 card(s).",
   "triggerType": "Active",
@@ -1085,7 +1227,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分の手札の必要エナジーが同じカードを3枚場外に置く。そうした場合、このキャラはこのターン中、「このキャラはBP4000以上のキャラにブロックされない。」を得て、このメインフェイズ終了時、カードを3枚引く。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Put 3 card(s) with the same required energy from your hand into your Outside Area. If you do, this character gains “This character cannot be blocked by characters with BP 4000 or more” this turn, and at the end of this Main Phase, draw 3 card(s).",
   "triggerType": "Draw",
@@ -1115,7 +1261,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中からカード名に「オーズ」を含むキャラカードか〈コアメダル〉か〈セルメダル〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 character card with “OOO” in its card name, <コアメダル> or <セルメダル> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Color",
@@ -1145,7 +1295,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このキャラはBP+1000。",
   "effectEn": "[During Your Turn] This character gets BP+1000.",
   "triggerType": "Active",
@@ -1175,7 +1329,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【レイド】カード名に「オーズ」を含むキャラ アクティブにし、フロントLに移動できる自分の手札が7枚以上の場合、このキャラは【ダメージ（2）】を得る。【登場時】自分の場か自分の手札の〈アンク〉を1枚リムーブエリアに置いてもよい。そうした場合、カードを1枚まで引き、このキャラはこのターン中、BP+1000と【インパクト（1）】を得る。【起動メイン】【フロントLにある場合】【ターン1】自分の手札の必要エナジーが同じカードを3枚場外に置く。そうした場合、カードを1枚引き、このメインフェイズ終了時、カードを3枚引く。",
   "effectEn": "[Raid] Can Raid onto a character with “OOO” in its card name; set it to active and you may move it to the Front Line. If you have 7 or more cards in your hand, this character gains [Damage 2]. [On Play] You may put 1 <アンク> from your field or hand into your Remove Area. If you do, draw up to 1 card(s), and this character gains BP+1000 and [Impact 1] this turn. [Activate: Main] [While in Front Line] [Once Per Turn] Put 3 card(s) with the same required energy from your hand into your Outside Area. If you do, draw 1 card(s), and at the end of this Main Phase, draw 3 card(s).",
   "triggerType": "Raid",
@@ -1205,7 +1363,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から7枚見る。その中から〈アンク〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札の〈アンク〉か必要エナジーが1以下のカードを1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 7 card(s) of your deck. Reveal up to 1 <アンク> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 <アンク> or card with required energy 1 or less from your hand into your Outside Area.",
   "triggerType": "",
@@ -1235,7 +1397,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードの【レイドトリガー】はレイドできる場合、発動しレイドしなければならない。【レイド】カード名に「オーズ」を含むキャラ アクティブにし、フロントLに移動できるこのキャラが与えたダメージによるトリガーチェックでは、相手は【アクティブ】を発動できない。【登場時】BP4000以下の相手のフロントLのキャラを1枚まで選び、相手の山札の下に置く。自分のライフが2以上の場合、自分のライフエリアにあるカードを1枚自分の山札の下に置く。",
   "effectEn": "This card's [Raid Trigger] must activate and Raid if it can Raid. [Raid] Can Raid onto a character with “OOO” in its card name; set it to active and you may move it to the Front Line. During trigger checks from damage dealt by this character, your opponent cannot activate [Active]. [On Play] Choose up to 1 character in your opponent's Front Line with BP 4000 or less, and put it on the bottom of your opponent's deck. If your Life is 2 or more, put 1 card(s) from your Life Area on the bottom of your deck.",
   "triggerType": "Raid",
@@ -1265,7 +1431,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このキャラはBP+1500。【起動メイン】【フロントLにある場合】【ターン1】自分の手札の必要エナジーが同じカードを3枚場外に置く。そうした場合、このキャラをアクティブにし、このメインフェイズ終了時、カードを3枚引く。",
   "effectEn": "[During Your Turn] This character gets BP+1500. [Activate: Main] [While in Front Line] [Once Per Turn] Put 3 card(s) with the same required energy from your hand into your Outside Area. If you do, set this character to active, and at the end of this Main Phase, draw 3 card(s).",
   "triggerType": "Draw",
@@ -1295,7 +1465,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【青×2】減らす。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Blue x2]is reduced.",
   "triggerType": "Active",
@@ -1325,7 +1499,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札を1枚場外に置く。【退場時】自分の場にあるカードが全て青の場合、このキャラを手札に戻す。【レイド】カード名に「ゲンム」を含むキャラ アクティブにし、フロントLに移動できる【起動メイン】【フロントLにある場合】【ターン1】自分の場外にあるカード名に「ゾンビゲーマー」を含むカードを1枚リムーブエリアに置く。そうした場合、BP3000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "[On Play] Put 1 card(s) from your hand into your Outside Area. [On Retire] If all cards on your field are blue, return this character to your hand. [Raid] Can Raid onto a character with “Genm” in its card name; set it to active and you may move it to the Front Line. [Activate: Main] [While in Front Line] [Once Per Turn] Put 1 card(s) with “Zombie Gamer” in its card name from your Outside Area into your Remove Area. If you do, Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it.",
   "triggerType": "Raid",
@@ -1355,7 +1533,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】自分の場の他のキャラを1枚選び、このターン中、BP+1000。このカードを手札に戻す。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] Choose 1 other character on your field, it gets BP+1000 this turn. Return this card to your hand.",
   "triggerType": "Draw",
@@ -1385,7 +1567,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -1415,7 +1601,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【ターン1】このターン中、次に手札から使用する〈セルメダル〉の消費APを-1する。",
   "effectEn": "[Activate: Main] [Once Per Turn] This turn, the next <セルメダル> you use from your hand costs 1 less AP.",
   "triggerType": "Active",
@@ -1443,15 +1633,15 @@
    {
     "color": "Blue",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "ドクター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラの下に裏向きのカードがある場合、このキャラの発生エナジー+【青】。【登場時】必要エナジーが1以下でカード名に「エグゼイド」を含む自分の場の他のキャラを1枚選んでもよい。そうした場合、そのキャラとそのキャラの下の裏向きのカードを裏向きでこのキャラの下に置き、カードを1枚引く。",
   "effectEn": "If this character has face-down cards under it, this character's generated energy +[Blue]. [On Play] You may choose 1 other character on your field with required energy 1 or less and “Ex-Aid” in its card name. If you do, put that character and the face-down cards under it face down under this character, and draw 1 card(s).",
   "triggerType": "Draw",
@@ -1479,15 +1669,15 @@
    {
     "color": "Blue",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "ドクター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【青】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Blue] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -1517,9 +1707,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドクター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが3以下でカード名に「エグゼイド」を含む自分の場の他のキャラを1枚選んでもよい。そうした場合、そのキャラとそのキャラの下の裏向きのカードを裏向きでこのキャラの下に置き、カードを1枚引き、自分の手札か自分の場外から必要エナジーが3以下でカード名に「エグゼイド」を含むキャラカードを1枚まで自分の場にレストで登場させる。この効果で登場したキャラの【登場時】は発動しない。",
   "effectEn": "[On Play] You may choose 1 other character on your field with required energy 3 or less and “Ex-Aid” in its card name. If you do, put that character and the face-down cards under it face down under this character, draw 1 card(s), and play up to 1 character card(s) with “Ex-Aid” in its card name and required energy 3 or less from your hand or Outside Area to your field rested. [On Play] of characters played by this effect does not activate.",
   "triggerType": "Color",
@@ -1549,9 +1743,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドクター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラの下に裏向きのカードがあり、このキャラが相手の効果で退場する場合、代わりにこのキャラの下の裏向きのカードを1枚場外に置いてもよい。【登場時】必要エナジーが5以下でカード名に「エグゼイド」を含む自分の場の他のキャラを1枚選んでもよい。そうした場合、そのキャラとそのキャラの下の裏向きのカードを裏向きでこのキャラの下に置き、カードを1枚引き、相手のフロントLのキャラを1枚まで選び、次の自分のターン開始時まで、元々の効果を全て失わせる。",
   "effectEn": "If this character has face-down cards under it and would be retired by your opponent's effect, you may put 1 face-down card(s) under this character into your Outside Area instead. [On Play] You may choose 1 other character on your field with required energy 5 or less and “Ex-Aid” in its card name. If you do, put that character and the face-down cards under it face down under this character, draw 1 card(s), choose up to 1 character in your opponent's Front Line, and it loses all original effects until the start of your next turn.",
   "triggerType": "Get",
@@ -1581,9 +1779,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドクター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【レイド】カード名に「エグゼイド」を含むキャラ アクティブにし、フロントLに移動できるこのキャラはBP+1000。このキャラの下の裏向きのカードの枚数により、このキャラは以下の効果を全て得る。・2枚以上：【2回アタック】・4枚以上：このキャラはバトルの敗北とカードの効果で場を離れず、BPをマイナスする効果を受けない。【登場時】このキャラのレイド元が必要エナジーが5以上のカードの場合、自分の山札の上から1枚を裏向きでこのキャラの下に置いてもよい。",
   "effectEn": "[Raid] Can Raid onto a character with “Ex-Aid” in its card name; set it to active and you may move it to the Front Line. This character gets BP+1000. Depending on the number of face-down cards under this character, this character gains all of the following effects. 2 or more: [Double Attack]. 4 or more: This character does not leave the field by losing battles or by card effects, and is not affected by effects that reduce BP. [On Play] If this character's Raid source is a card with required energy 5 or more, you may put the top 1 card(s) of your deck face down under this character.",
   "triggerType": "Raid",
@@ -1613,9 +1815,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドクター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中からカードを1枚手札に加え、1枚を裏向きで自分の場の［特徴：ドクター］の下に置き、残りを自分の山札の上か下に置く。【起動メイン】【ターン1】このキャラの下の裏向きのカードを1枚場外に置く。そうした場合、BP3000以下の相手のフロントLのキャラを1枚まで選び、手札に戻す。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Add 1 of them to your hand, put 1 face down under a [Trait: Doctor] on your field, and put the rest on the top or bottom of your deck. [Activate: Main] [Once Per Turn] Put 1 face-down card(s) under this character into your Outside Area. If you do, Choose up to 1 character in your opponent's Front Line with BP 3000 or less, return it to its owner's hand.",
   "triggerType": "Get",
@@ -1645,9 +1851,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドクター"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "Active",
@@ -1677,9 +1889,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドクター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -1707,15 +1923,15 @@
    {
     "color": "Blue",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "ドクター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【青】。",
   "effectEn": "While this character is active, its generated energy +[Blue].",
   "triggerType": "",
@@ -1745,9 +1961,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドクター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -1777,9 +1997,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドクター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】以下から1つ選ぶ。・自分の場の他の［特徴：ドクター］を1枚まで選ぶ。自分の山札の上から1枚を裏向きでそのキャラの下に置き、そのキャラはこのターン中、BP+1000。・自分の手札から必要エナジーが1以下で消費APが1の青の［特徴：ドクター］を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[On Play] Choose 1 of the following. Choose up to 1 other [Trait: Doctor] on your field. Put the top 1 card(s) of your deck face down under that character, and it gets BP+1000 this turn. Play up to 1 Blue [Trait: Doctor] with required energy 1 or less and with AP cost 1 from your hand to your field rested.",
   "triggerType": "",
@@ -1809,9 +2033,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドクター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から5枚見る。その中からカード名に「エグゼイド」を含むキャラカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "Look at the top 5 card(s) of your deck. Reveal up to 1 character card with “Ex-Aid” in its card name among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -1841,7 +2069,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。【起動メイン】【レストにする】カード名に「エグゼイド」を含む自分の場のキャラを1枚選び、そのキャラの下にこのキャラを裏向きで置く。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn. [Activate: Main] [Rest this card] Choose 1 character with “Ex-Aid” in its card name on your field, and put this character face down under that character.",
   "triggerType": "Active",
@@ -1871,7 +2103,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に黄か赤のカードがある場合、手札にあるこのカードの必要エナジーを【青×1】減らす。",
   "effectEn": "If your opponent has Yellow or Red card on their field, the required energy of this card in your hand [Blue x1]is reduced.",
   "triggerType": "",
@@ -1901,7 +2137,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】この効果はこのターン中にカード名に「オーズ」を含むキャラの効果で自分の手札を3枚以上場外に置いている場合のみ発動できる。カードを1枚引く。〈アンク〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "[Activate: Main] [Rest this card] This effect can only activate if you have put 3 or more cards from your hand into your Outside Area with the effect of a character with “OOO” in its card name this turn. Draw 1 card(s). This <アンク> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Get",
@@ -1926,7 +2166,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを2枚引く。【自分のターン中】【場外にある場合】アタックフェイズ終了時、このターン中にカード名に「オーズ」か「バース」を含むキャラがアタックしている場合、場外のこのカードを手札に加えてもよい。そうした場合、自分の手札を1枚自分の山札の下に置く。〈コアメダル〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "Draw 2 card(s). [During Your Turn] [While in Outside Area] At the end of the Attack Phase, if a character with “OOO” or “Birth” in its card name attacked this turn, you may add this card from your Outside Area to your hand. If you do, put 1 card(s) from your hand on the bottom of your deck. This <コアメダル> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Draw",
@@ -1951,7 +2195,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP2000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場にカード名に「オーズ」を含むキャラがある場合、『BP4000以下』に代わり、さらに自分の他の手札が3枚以上あるなら、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 2000 or less, retire it. If you have a character with “OOO” in its card name on your field, it becomes “BP 4000 or less” instead, and if you also have 3 or more other cards in your hand, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -1976,7 +2224,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを1枚引き、自分の場のキャラを1枚まで選び、このターン中、BP+500。【自分のターン中】【場外にある場合】アタックフェイズ終了時、このターン中にカード名に「オーズ」か「バース」を含むキャラがアタックしている場合、場外のこのカードを手札に加えてもよい。そうした場合、自分の手札を1枚自分の山札の下に置く。〈セルメダル〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "Draw 1 card(s), then choose up to 1 character on your field, and it gets BP+500 this turn. [During Your Turn] [While in Outside Area] At the end of the Attack Phase, if a character with “OOO” or “Birth” in its card name attacked this turn, you may add this card from your Outside Area to your hand. If you do, put 1 card(s) from your hand on the bottom of your deck. This <セルメダル> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Draw",
@@ -2001,7 +2253,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2026,7 +2282,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場にカード名に「エグゼイド」か「ゲンム」を含むキャラがある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have a character with “Ex-Aid” or “Genm” in its card name on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -2056,7 +2316,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の場外から〈スパークルカット〉を1枚手札に加える。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Add 1 <スパークルカット> from your Outside Area to your hand.",
   "triggerType": "",
@@ -2086,7 +2350,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -2116,7 +2384,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のフロントLに空きがある場合、このキャラはBP+1000。【アタック時】自分のフロントLのキャラを1枚退場させてもよい。",
   "effectEn": "If your Front Line has an open space, this character gets BP+1000. [When Attacking] You may retire 1 character in your Front Line.",
   "triggerType": "Draw",
@@ -2146,7 +2418,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札を1枚場外に置く。【起動メイン】【フロントLにある場合】【ターン1】このキャラが登場したターン中のみ発動できる。自分の手札から〈デネブイマジン〉を1枚自分の場にレストで登場させる。",
   "effectEn": "[On Play] Put 1 card(s) from your hand into your Outside Area. [Activate: Main] [While in Front Line] [Once Per Turn] Can only activate during the turn this character was played. Play 1 <デネブイマジン> from your hand to your field rested.",
   "triggerType": "",
@@ -2176,7 +2452,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -2204,13 +2484,13 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
   "effectEn": "While this character is active, its generated energy +[Red].",
   "triggerType": "",
@@ -2240,7 +2520,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "キンタロス"
+  },
+  "deckLimit": null,
   "effectJp": "このカードは〈キンタロス〉としても扱う。【レイド】〈キンタロス〉アクティブにし、フロントLに移動できる【登場時】このキャラはこのターン中、相手の効果で選ばれない。【退場時】このキャラのレイド元のカードを1枚まで自分の場にレストで登場させる。",
   "effectEn": "This card is also treated as <キンタロス>. [Raid] Can Raid onto <キンタロス>; set it to active and you may move it to the Front Line. [On Play] This character cannot be chosen by your opponent's effects this turn. [On Retire] Play up to 1 of this character's Raid source cards to your field rested.",
   "triggerType": "Active",
@@ -2270,7 +2557,14 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "リュウタロス"
+  },
+  "deckLimit": null,
   "effectJp": "このカードは〈リュウタロス〉としても扱う。【レイド】〈リュウタロス〉アクティブにし、フロントLに移動できる【登場時】必要エナジーが0の相手のフロントLのキャラを1枚まで選び、退場させる。【退場時】このキャラのレイド元のカードを1枚まで自分の場にレストで登場させる。",
   "effectEn": "This card is also treated as <リュウタロス>. [Raid] Can Raid onto <リュウタロス>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line with required energy 0 and retire it. [On Retire] Play up to 1 of this character's Raid source cards to your field rested.",
   "triggerType": "Draw",
@@ -2300,7 +2594,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場と場外に〈モモタロス〉、〈ウラタロス〉、〈キンタロス〉、〈リュウタロス〉が合計何種類あるかにより、このキャラは以下の効果を全て得る。・2種類以上：【登場時】このキャラをアクティブにし、カードを1枚引く。・4種類以上：【アタック時】自分の手札から必要エナジーが3以下で消費APが1のカード名に「電王」を含むキャラカードを1枚までレイドさせる。そのキャラはこのターン中、BP+1000。",
   "effectEn": "Depending on how many different cards among <モモタロス>, <ウラタロス>, <キンタロス> and <リュウタロス> you have in total on your field and in your Outside Area, this character gains all of the following effects. 2 or more different: [On Play] Set this character to active and draw 1 card(s). 4 or more different: [When Attacking] Raid up to 1 character card(s) with “Den-O” in its card name, required energy 3 or less and AP cost 1 from your hand. That character gets BP+1000 this turn.",
   "triggerType": "Get",
@@ -2330,7 +2628,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "モモタロス"
+  },
+  "deckLimit": null,
   "effectJp": "このカードは〈モモタロス〉としても扱う。【レイド】〈モモタロス〉アクティブにし、フロントLに移動できる【登場時】このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。【退場時】このキャラのレイド元のカードを1枚まで自分の場にレストで登場させる。",
   "effectEn": "This card is also treated as <モモタロス>. [Raid] Can Raid onto <モモタロス>; set it to active and you may move it to the Front Line. [On Play] This character, this turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained. [On Retire] Play up to 1 of this character's Raid source cards to your field rested.",
   "triggerType": "Raid",
@@ -2360,7 +2665,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の【レイド】を持つカード名に「電王」を含むキャラカードはこのキャラにレイドできる。【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "Your character cards with [Raid] and “Den-O” in their card names can Raid onto this character. [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Get",
@@ -2390,7 +2699,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "仮面ライダー電王 プラットフォーム"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈仮面ライダー電王 プラットフォーム〉アクティブにし、フロントLに移動できる【登場時】自分の場と場外を合わせて〈モモタロス〉、〈ウラタロス〉、〈キンタロス〉、〈リュウタロス〉が全てある場合、このキャラはこのターン中、【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、指定した場合、相手はブロックできない）を得る。【アタック時】自分の場のレイド状態のカード名に「タロス」を含むキャラを1枚まで選び、選んだキャラの持つ全ての【登場時】をこのカードが発動してもよい。【退場時】このキャラのレイド元のカードを1枚まで自分の場にレストで登場させる。",
   "effectEn": "[Raid] Can Raid onto <仮面ライダー電王 プラットフォーム>; set it to active and you may move it to the Front Line. [On Play] If you have all of <モモタロス>, <ウラタロス>, <キンタロス> and <リュウタロス> across your field and Outside Area, this character gains [Snipe] (Can attack a chosen character in your opponent's Front Line; if you do, your opponent cannot block) this turn. [When Attacking] Choose up to 1 Raided character with “Taros” in its card name on your field; this card may activate all [On Play] effects of the chosen character. [On Retire] Play up to 1 of this character's Raid source cards to your field rested.",
   "triggerType": "Raid",
@@ -2420,7 +2736,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "ウラタロス"
+  },
+  "deckLimit": null,
   "effectJp": "このカードは〈ウラタロス〉としても扱う。【レイド】〈ウラタロス〉アクティブにし、フロントLに移動できる【登場時】このキャラはこのターン中、「このキャラがアタックしてブロックされなかった時、カードを1枚まで引く。」を得る。【退場時】このキャラのレイド元のカードを1枚まで自分の場にレストで登場させる。",
   "effectEn": "This card is also treated as <ウラタロス>. [Raid] Can Raid onto <ウラタロス>; set it to active and you may move it to the Front Line. [On Play] This character gains “When this character attacks and is not blocked, Draw up to 1 card(s)” this turn. [On Retire] Play up to 1 of this character's Raid source cards to your field rested.",
   "triggerType": "",
@@ -2450,7 +2773,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】【フロントLにある場合】自分のキャラの効果で自分の手札から［特徴：ファイズギア］を場外に置いた時、そのカードを自分の山札の上に置いてもよい。【起動メイン】【手札を1枚場外に置く】【ターン1】このターン中、次に自分が「BPの範囲に指定がある効果」でキャラを選ぶ際、指定できるBPの範囲+1000。（BP3000以下のキャラを選べる効果でBP4000以下を選べるようになる）【アタック時】このターン中に自分の効果で自分の手札を場外に置いている場合、カードを1枚まで引く。",
   "effectEn": "[During Your Turn] [While in Front Line] When you put a [Trait: Faiz Gear] from your hand into your Outside Area with your character's effect, you may put that card on top of your deck. [Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] This turn, the next time you choose a character with an “effect that specifies a BP range”, that BP range gets +1000. (Effects that can choose characters with BP 3000 or less can choose characters with BP 4000 or less instead) [When Attacking] If you have put cards from your hand into your Outside Area with your own effect this turn, draw up to 1 card(s).",
   "triggerType": "Get",
@@ -2480,7 +2807,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -2510,7 +2841,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から5枚見る。その中から［特徴：ファイズギア］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 [Trait: Faiz Gear] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -2540,7 +2875,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、カードを2枚引く。【自分のターン中】このターン中に自分が手札から［特徴：ファイズギア］を使用している場合、このキャラはBP+500。",
   "effectEn": "[On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, Draw 2 card(s). [During Your Turn] If you have used a [Trait: Faiz Gear] from your hand this turn, this character gets BP+500.",
   "triggerType": "Color",
@@ -2570,7 +2909,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはレイド以外で登場できない。【レイド】カード名に「ファイズ」を含むキャラアクティブにし、フロントLに移動できる自分のアタックフェイズ終了時、レイド状態のこのキャラの一番上のカードを場外に置く。【アタック時】【ターン1】このキャラをアクティブにし、カードを2枚引く。その後、自分の手札の［特徴：ファイズギア］を1枚場外に置いてもよい。そうした場合、BP1500以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "This character cannot be played except by Raid. [Raid] Can Raid onto a character with “Faiz” in its card name; set it to active and you may move it to the Front Line. At the end of your Attack Phase, put the top card of this Raided character into your Outside Area. [When Attacking] [Once Per Turn] Set this character to active and draw 2 card(s). Then, You may put 1 [Trait: Faiz Gear] in your hand into the Outside Area. If you do, Choose up to 1 character in your opponent's Front Line with BP 1500 or less, retire it.",
   "triggerType": "Get",
@@ -2600,7 +2943,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "damage": 2
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【レイド】カード名に「ファイズ」を含むキャラアクティブにし、フロントLに移動できる【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）このキャラがアタックしてバトルに勝利した時、自分の手札の［特徴：ファイズギア］を1枚場外に置いてもよい。そうした場合、BP3000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "[Raid] Can Raid onto a character with “Faiz” in its card name; set it to active and you may move it to the Front Line. [Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead)When this character attacks and wins a battle, You may put 1 [Trait: Faiz Gear] in your hand into the Outside Area. If you do, Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it.",
   "triggerType": "Raid",
@@ -2630,7 +2979,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に黄か青のカードがある場合、手札にあるこのカードの必要エナジーを【赤×1】減らす。",
   "effectEn": "If your opponent has Yellow or Blue card on their field, the required energy of this card in your hand [Red x1]is reduced.",
   "triggerType": "",
@@ -2660,7 +3013,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】BP4000以下の相手のフロントLのキャラを1枚選び、退場させてもよい。そうした場合、相手は自身の手札を2枚場外に置いてもよい。そうした場合、相手はこの効果で退場させたキャラを1枚手札に加える。",
   "effectEn": "[On Play] You may choose 1 character in your opponent's Front Line with BP 4000 or less and retire it. If you do, your opponent may put 2 card(s) from their hand into their Outside Area. If you do, your opponent adds 1 of the characters retired by this effect to their hand.",
   "triggerType": "Active",
@@ -2690,9 +3047,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "イマジン"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはBP2000以下のキャラにブロックされない。",
   "effectEn": "This character cannot be blocked by characters with BP 2000 or less.",
   "triggerType": "Active",
@@ -2722,9 +3083,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "イマジン"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -2754,9 +3121,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "イマジン"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -2786,9 +3157,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "イマジン"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から5枚見る。その中から〈仮面ライダー電王 プラットフォーム〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札の〈仮面ライダー電王 プラットフォーム〉か必要エナジーが1以下のカードを1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 <仮面ライダー電王 プラットフォーム> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 <仮面ライダー電王 プラットフォーム> or card with required energy 1 or less from your hand into your Outside Area.",
   "triggerType": "Color",
@@ -2816,15 +3191,15 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "イマジン"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【赤】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Red] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -2854,7 +3229,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】自分の場のレイド状態でカード名に「電王」を含むキャラを1枚選び、このターン中、BP+1000。【起動メイン】【手札を1枚場外に置く】【ターン1】このターン中に自分がレイドしている場合のみ発動できる。このフィールドをアクティブにする。",
   "effectEn": "This Field is played active. [Activate: Main] [Rest this card] Choose 1 Raided character with “Den-O” in its card name on your field; it gets BP+1000 this turn. [Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] Can only activate if you have Raided this turn. Set this field to active.",
   "triggerType": "Get",
@@ -2879,7 +3258,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から5枚見る。その中からカード名に「電王」を含むキャラカードか〈デンライナー〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。相手のライフが5以上の場合、自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "Look at the top 5 card(s) of your deck. Reveal up to 1 character card with “Den-O” in its card name or <デンライナー> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If your opponent's Life is 5 or more, choose up to 1 of your AP cards and set them to active.",
   "triggerType": "Active",
@@ -2904,7 +3287,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場にレイド状態でカード名に「電王」を含むキャラがある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have a Raided character with “Den-O” in its card name on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -2929,7 +3316,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2954,9 +3345,13 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [
    "ファイズギア"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "BP3000以下の相手のフロントLのキャラを1枚選び、退場させる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it.",
   "triggerType": "",
@@ -2981,9 +3376,13 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [
    "ファイズギア"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚まで選び、退場させる。自分の場にカード名に「ファイズ」を含むキャラがある場合、『BP4000以下』に代わり、このターン中、次に自分が「BPの範囲に指定がある効果」でキャラを選ぶ際、指定できるBPの範囲+1000。（BP3000以下のキャラを選べる効果でBP4000以下を選べるようになる）",
   "effectEn": "Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have a character with “Faiz” in its card name on your field, it becomes “BP 4000 or less” instead, and this turn, the next time you choose a character with “an effect that specifies a BP range”, the BP range you can choose is increased by 1000. (Effects that can choose characters with BP 3000 or less can choose characters with BP 4000 or less instead)",
   "triggerType": "Special",
@@ -3008,9 +3407,13 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [
    "ファイズギア"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のキャラを1枚まで選び、このターン中、BP+2000。BP2000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "Choose up to 1 character on your field, it gets BP+2000 this turn. Choose up to 1 character in your opponent's Front Line with BP 2000 or less, retire it.",
   "triggerType": "Active",
@@ -3040,7 +3443,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3070,9 +3477,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "A.I.M.S. SQUAD"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -3102,9 +3513,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "A.I.M.S. SQUAD"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -3134,9 +3549,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "飛電インテリジェンス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】カードを1枚引き、自分の手札を1枚自分の山札の上か下に置く。【退場時】自分の場に他の［特徴：飛電インテリジェンス］が3枚以上ある場合、自分の手札からカード名に「ゼロツー」を含むキャラカードを1枚まで自分の場にレストで登場させる。",
   "effectEn": "[When Attacking] Draw 1 card(s), then put 1 card(s) from your hand on the top or bottom of your deck. [On Retire] If you have 3 or more other [Trait: Hiden Intelligence] on your field, play up to 1 character card with “Zero-Two” in its card name from your hand to your field rested.",
   "triggerType": "Color",
@@ -3166,9 +3585,15 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "飛電インテリジェンス"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【自分のターン中】このターン中に自分の場にキャラが3枚以上登場している場合、このキャラはBP+1000。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [During Your Turn] If 3 or more characters were played to your field this turn, this character gets BP+1000.",
   "triggerType": "Active",
@@ -3198,9 +3623,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "飛電インテリジェンス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から［特徴：飛電インテリジェンス］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: Hiden Intelligence] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -3230,9 +3659,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "飛電インテリジェンス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【レイド】カード名に「ゼロワン」を含むキャラ アクティブにし、フロントLに移動できるこのキャラのアタック終了時、自分のフロントLのアクティブのカード名に「ゼロワン」を含むキャラ1枚に、レイド状態のこのキャラの一番上のカードをレイドさせてもよい。【登場時】このキャラはこのターン中、BP+1000と「このキャラは、相手の効果で選ばれない。」を得る。【自分のターン中】自分のフロントLにアクティブのキャラがない場合、このキャラは【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに１ダメージ）を得る。",
   "effectEn": "[Raid] Can Raid onto a character with “Zero-One” in its card name; set it to active and you may move it to the Front Line. At the end of this character's attack, you may Raid the top card of this Raided character onto 1 active character with “Zero-One” in its card name in your Front Line. [On Play] This character gains BP+1000 and “This character cannot be chosen by your opponent's effects” this turn. [During Your Turn] If you have no active characters in your Front Line, This character [Impact 1](When this attacks and wins a battle, deal １ damage to your opponent) is gained.",
   "triggerType": "Raid",
@@ -3262,9 +3695,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "飛電インテリジェンス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。【起動メイン】【レストにする】【手札を1枚場外に置く】【APを1支払う】自分の場外から必要エナジーが1以下で消費APが1の黄の［特徴：飛電インテリジェンス］を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[On Play] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck. [Activate: Main] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] [Pay 1 AP] Play up to 1 Yellow [Trait: Hiden Intelligence] with required energy 1 or less and with AP cost 1 from your Outside Area to your field rested.",
   "triggerType": "Get",
@@ -3289,7 +3726,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から4枚見る。その中から必要エナジーが4以下で消費APが1の黄の特徴に「飛電インテリジェンス」を持つキャラカードを1枚まで自分の場にレストで登場させるかレイドさせる。残りを望む順で自分の山札の下に置く。",
   "effectEn": "Look at the top 4 card(s) of your deck. Play up to 1 yellow character card(s) with the trait “Hiden Intelligence”, required energy 4 or less and AP cost 1 among them to your field rested, or Raid them. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -3319,7 +3760,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分の場外にあるカード名に「メダル」を含むカード1枚につき、このキャラはBP+500。【登場時】自分のメインフェイズ中の場合、自分の手札の必要エナジーが同じカードを3枚場外に置いてもよい。そうした場合、BP4000以下の相手のフロントLのキャラを1枚まで選び、退場させ、このメインフェイズ終了時、カードを3枚引く。",
   "effectEn": "[During Your Turn] This character gets BP+500 for each 1 card(s) with “Medal” in its card name in your Outside Area. [On Play] If it is your Main Phase, you may put 3 card(s) with the same required energy from your hand into your Outside Area. If you do, choose up to 1 character in your opponent's Front Line with BP 4000 or less and retire it, and at the end of this Main Phase, draw 3 card(s).",
   "triggerType": "Active",
@@ -3349,7 +3794,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【場外にある場合】【手札を2枚場外に置く】【APを1支払う】自分の発生エナジーが4以上ある場合のみ発動できる。場外のこのカードを自分の場にレストで登場させる。【退場時】このキャラがバトルによって退場した場合、BP1500以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。",
   "effectEn": "[Activate: Main] [While in Outside Area] [Put 2 card(s) from your hand into your Outside Area] [Pay 1 AP] Can only activate if your generated energy is 4 or more. Play this card from your Outside Area to your field rested. [On Retire] If this character is retired by battle, choose up to 1 character in your opponent's Front Line with BP 1500 or more; it gets BP-1000 this turn.",
   "triggerType": "Draw",
@@ -3379,7 +3828,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "damage": 2
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【登場時】自分の手札を1枚場外に置く。【アタック時】自分の場のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [On Play] Put 1 card(s) from your hand into your Outside Area. [When Attacking] Choose up to 1 character on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -3409,7 +3864,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】相手は自身の山札の上から1枚を公開する。自分はこの効果で公開されたカードを相手の山札の上か場外に置く。【退場時】自分の山札の上から4枚見る。その中からカード名に「ファイズ」を含むカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Your opponent reveals the top 1 card(s) of their deck. You put the cards revealed by this effect on top of your opponent's deck or into their Outside Area. [On Retire] Look at the top 4 card(s) of your deck. Reveal up to 1 card with “Faiz” in its card name among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -3432,7 +3891,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3455,7 +3918,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3478,7 +3945,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3501,7 +3972,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3524,7 +3999,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3547,7 +4026,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3570,7 +4053,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

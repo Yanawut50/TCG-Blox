@@ -21,7 +21,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】自分の手札を望む枚数公開する。自分の場と手札から公開した［特徴：指定ポケット］の種類が4種類以上の場合、自分の場のキャラを1枚まで選び、このターン中、【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を与える。",
   "effectEn": "[When Attacking] Reveal any number of cards from your hand. If there are 4 or more different [Trait: Designated Pocket] revealed from your field and hand, choose up to 1 character on your field; it gains [Impact +1] (Impact damage is increased by 1; if it doesn't have Impact, it gains [Impact 1]) this turn.",
   "triggerType": "Active",
@@ -51,9 +55,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "ゾルディック家"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】このターン中に相手の場のキャラが退場している場合、このキャラはこのターン中、BP+1000。【起動メイン】【ターン1】このターン中に相手の場のキャラが退場している場合のみ発動できる。このキャラを別のラインに移動させる。",
   "effectEn": "[When Attacking] If a character on your opponent's field was retired this turn, this character gets BP+1000 this turn. [Activate: Main] [Once Per Turn] Can only activate if a character on your opponent's field was retired this turn. Move this character to another line.",
   "triggerType": "Draw",
@@ -83,7 +91,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にBP5000以上のキャラがある場合、このキャラは【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
   "effectEn": "If you have character with BP 5000 or more on your field, This character [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained.",
   "triggerType": "Active",

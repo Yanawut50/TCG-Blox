@@ -21,7 +21,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -51,7 +57,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。",
   "effectEn": "[On Play] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
   "triggerType": "Active",
@@ -81,7 +91,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "アルフェン"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈アルフェン〉アクティブにし、フロントLに移動できる【登場時】BP3000以下の相手のフロントLのキャラを1枚まで選び、手札に戻す。【起動メイン】【手札を1枚場外に置く】このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
   "effectEn": "[Raid] Can Raid onto <アルフェン>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line with BP 3000 or less, return it to its owner's hand. [Activate: Main] [Put 1 card(s) from your hand into your Outside Area] This character, this turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained.",
   "triggerType": "Get",
@@ -111,7 +128,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -141,7 +162,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【相手のターン中】このキャラはBP+1000。",
   "effectEn": "[During Opponent's Turn] This character gets BP+1000.",
   "triggerType": "",
@@ -171,7 +196,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "impact": 1,
+   "doubleBlock": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）【相手のターン中】相手はキャラの効果やイベントカードの効果でこのキャラを選ぶ際に、追加でAPを1支払わないと選べない。",
   "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [Double Block] (The first time this character blocks each turn, set it to active) [During Opponent's Turn] Your opponent must pay 1 additional AP to choose this character with character effects or Event card effects.",
   "triggerType": "Color",
@@ -201,7 +233,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "doubleBlock": true
+  },
+  "raid": {
+   "kind": "name",
+   "value": "キサラ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈キサラ〉アクティブにし、フロントLに移動できる【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）【ターン1】このキャラがアタックしてブロックされなかった時、自分の山札の上から2枚見てもよい。そうした場合、その中からカードを1枚手札に加え、残りを望む順で自分の山札の下に置く。",
   "effectEn": "[Raid] Can Raid onto <キサラ>; set it to active and you may move it to the Front Line. [Double Block] (The first time this character blocks each turn, set it to active) [Once Per Turn] When this character attacks and is not blocked, you may look at the top 2 card(s) of your deck. If you do, add 1 of them to your hand and put the rest on the bottom of your deck in any order.",
   "triggerType": "Raid",
@@ -231,7 +272,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】カードを1枚引く。",
   "effectEn": "[On Retire] Draw 1 card(s).",
   "triggerType": "",
@@ -261,7 +306,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に緑か赤のカードがある場合、手札にあるこのカードの必要エナジーを【青×1】減らす。",
   "effectEn": "If your opponent has Green or Red card on their field, the required energy of this card in your hand [Blue x1]is reduced.",
   "triggerType": "",
@@ -291,7 +340,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "シオン"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈シオン〉アクティブにし、フロントLに移動できるこのキャラはBP2000以下のキャラにブロックされない。【登場時】カードを2枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[Raid] Can Raid onto <Shion>; set it to active and you may move it to the Front Line. This character cannot be blocked by characters with BP 2000 or less. [On Play] Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Get",
@@ -321,7 +377,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場に〈キサラ〉がある場合、自分の場のキャラを1枚まで選び、このターン中、「【ターン1】このキャラがアタックしてブロックされなかった時、カードを1枚引く。」を与える。",
   "effectEn": "[On Play] If you have <キサラ> on your field, Choose up to 1 character on your field, it gains “[Once Per Turn]When this character attacks and is not blocked, Draw 1 card(s)” this turn.",
   "triggerType": "Draw",
@@ -351,7 +411,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場に〈キサラ〉がある場合、BP1500以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。",
   "effectEn": "[On Play] If you have <キサラ> on your field, Choose up to 1 character in your opponent's Front Line with BP 1500 or more, it gets BP-1000 this turn.",
   "triggerType": "",
@@ -379,13 +443,13 @@
    {
     "color": "Blue",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【青】。",
   "effectEn": "While this character is active, its generated energy +[Blue].",
   "triggerType": "",
@@ -415,7 +479,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のフロントLに〈キサラ〉がある場合、手札にあるこのカードの消費APを-1する。【登場時】自分の場の他のキャラを1枚まで選び、次の自分のターン開始時まで、BP+1000。",
   "effectEn": "If you have <キサラ> in your Front Line, reduce the AP cost of this card in your hand by 1. [On Play] Choose up to 1 other character on your field, Until the start of your next turn, BP+1000.",
   "triggerType": "Get",
@@ -443,13 +511,13 @@
    {
     "color": "Blue",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【青】。メインフェイズ終了時、このキャラを退場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Blue]. At the end of the Main Phase, retire this character.",
   "triggerType": "",
@@ -479,7 +547,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -509,7 +581,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【手札を1枚場外に置く】【このカードを退場させる】自分の場外からイベントカードを1枚手札に加える。",
   "effectEn": "[Activate: Main] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] [Retire this card] Add 1 event card(s) from your Outside Area to your hand.",
   "triggerType": "Active",
@@ -539,7 +615,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -569,7 +649,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から5枚見る。その中から〈エアスラスト〉か〈サンダーブレード〉か〈白薙・神鳴〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 <エアスラスト> or <サンダーブレード> or <白薙・神鳴> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -599,7 +683,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中からカードを1枚手札に加える。残りを望む順で自分の山札の下に置く。このターン中、次に手札から使用する〈エアスラスト〉か〈サンダーブレード〉か〈白薙・神鳴〉の消費APを-1する。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. From among them, add 1 card to your hand. Put the rest on the bottom of your deck in any order. This turn, the next <エアスラスト> or <サンダーブレード> or <白薙・神鳴> you use from your hand costs 1 less AP.",
   "triggerType": "Color",
@@ -629,7 +717,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": {
+   "kind": "name",
+   "value": "リンウェル"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈リンウェル〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】カードを1枚引き、自分の手札を1枚場外に置く。このターン中、次に手札から使用するイベントカードの消費APを-1する。",
   "effectEn": "[Raid] Can Raid onto <リンウェル>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. This turn, the next Event card you use from your hand costs 1 less AP.",
   "triggerType": "Raid",
@@ -659,7 +756,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場に〈リンウェル〉がある場合、カードを1枚引く。",
   "effectEn": "[On Play] If you have <リンウェル> on your field, Draw 1 card(s).",
   "triggerType": "",
@@ -689,7 +790,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場に〈リンウェル〉がある場合、カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] If you have <リンウェル> on your field, Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -719,7 +824,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -749,7 +858,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のフロントLに〈リンウェル〉がある場合、手札にあるこのカードの消費APを-1する。自分の場外にあるイベントカードの枚数により、このキャラは以下の効果を全て得る。・5枚以上：【ダメージ（2）】・7枚以上：【アタック時】相手のフロントLのキャラを1枚まで選び、レストにする。",
   "effectEn": "If you have <リンウェル> in your Front Line, reduce the AP cost of this card in your hand by 1. Depending on the number of Event card in your Outside Area, this character gains all of the following effects. 5 or more: [Damage 2]. 7 or more: [When Attacking]Choose up to 1 character in your opponent's Front Line, rest it.",
   "triggerType": "Get",
@@ -779,7 +892,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "This Field is played active. [Activate: Main] [Rest this card] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -804,7 +921,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードを使用する際に、自分の手札からイベントカードを1枚場外に置いてもよい。『BP3000以下』の相手のフロントＬのキャラを1枚選び、手札に戻す。このカードの効果でイベントカードを場外に置いていた場合、『BP4000以下』に代わる。",
   "effectEn": "When using this card, you may put 1 event card(s) from your hand into your Outside Area. Choose 1 character in your opponent's Front Line with “BP 3000 or less” and return it to its owner's hand. If you put an event card into your Outside Area with this card's effect, it becomes “BP 4000 or less” instead.",
   "triggerType": "Active",
@@ -829,7 +950,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手のフロントＬのキャラを1枚選び、レストにする。自分の手札から、イベントカードを1枚場外に置いてもよい。そうした場合、自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "Choose 1 character in your opponent's Front Line and rest it. You may put 1 event card(s) from your hand into your Outside Area. If you do, Choose up to 1 of your AP cards, set it to active.",
   "triggerType": "Draw",
@@ -854,7 +979,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のフロントLのキャラを『1枚』選び、次の自分のターン開始時まで、「相手はキャラの効果・イベントカードの効果・トリガーの効果でこのキャラを選べない。」を与える。自分の場に〈キサラ〉がある場合、『1～2枚』に代わる。",
   "effectEn": "Choose “1” character in your Front Line; until the start of your next turn, it gains “Your opponent cannot choose this character with character effects, event card effects or Trigger effects” If you have <キサラ> on your field, it becomes “1 to 2” instead.",
   "triggerType": "Draw",
@@ -879,7 +1008,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP2000』以下の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈リンウェル〉がある場合、自分の場外にあるイベントカード1枚につき、『BP+1000』される。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 2000 or less, retire it. If you have <リンウェル> on your field, it gets “BP+1000” for each 1 event card(s) in your Outside Area.",
   "triggerType": "Special",
@@ -904,7 +1037,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈キサラ〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <キサラ> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -929,7 +1066,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のキャラを1枚選び、『このターン中』、BP+1000。自分の場に〈キサラ〉がある場合、『次の自分のターン開始時まで』に代わる。",
   "effectEn": "Choose 1 character on your field; it gets BP+1000 “this turn” If you have <キサラ> on your field, it becomes “until the start of your next turn” instead.",
   "triggerType": "Draw",
@@ -954,7 +1095,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -979,7 +1124,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のキャラを1枚まで選び、このターン中、BP+2500。自分の場に〈リンウェル〉がある場合、カードを1枚引く。",
   "effectEn": "Choose up to 1 character on your field, it gets BP+2500 this turn. If you have <リンウェル> on your field, Draw 1 card(s).",
   "triggerType": "Draw",
@@ -1009,7 +1158,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場に〈シオン〉がある場合、カードを1枚引く。",
   "effectEn": "[On Play] If you have <Shion> on your field, Draw 1 card(s).",
   "triggerType": "",
@@ -1039,7 +1192,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に〈シオン〉がある場合、このキャラは【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
   "effectEn": "If you have <Shion> on your field, This character [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained.",
   "triggerType": "Active",
@@ -1069,7 +1226,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】カードを1枚引く。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Draw 1 card(s).",
   "triggerType": "Draw",
@@ -1097,13 +1258,13 @@
    {
     "color": "Green",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【緑】。",
   "effectEn": "While this character is active, its generated energy +[Green].",
   "triggerType": "",
@@ -1133,7 +1294,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。",
   "effectEn": "[When Attacking] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
   "triggerType": "",
@@ -1163,7 +1328,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "damage": 2
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のフロントLに〈シオン〉がある場合、手札にあるこのカードの消費APを-1する。【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【登場時】BP5000以下の相手のフロントLのキャラを1枚選び、退場させてもよい。そうした場合、自分のエナジーLのキャラを1枚退場させる。",
   "effectEn": "If you have <Shion> in your Front Line, reduce the AP cost of this card in your hand by 1. [Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [On Play] You may choose 1 character in your opponent's Front Line with BP 5000 or less and retire it. If you do, Retire 1 character in your Energy Line.",
   "triggerType": "Get",
@@ -1193,7 +1364,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場に〈テュオハリム〉がある場合、自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] If you have <テュオハリム> on your field, Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -1223,7 +1398,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場に〈テュオハリム〉がある場合、自分の手札から必要エナジーが2以下で消費APが1の緑のキャラカードを1枚まで自分の場にレストで登場させる。",
   "effectEn": "[On Play] If you have <テュオハリム> on your field, Play up to 1 Green character card with required energy 2 or less and with AP cost 1 from your hand to your field rested.",
   "triggerType": "",
@@ -1253,7 +1432,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -1283,7 +1466,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のフロントLに〈テュオハリム〉がある場合、手札にあるこのカードの消費APを-1する。【登場時】自分の場のキャラを1枚まで選び、このターン中、「相手はこのキャラのアタックを可能ならブロックしなければならない。」を与える。",
   "effectEn": "If you have <テュオハリム> in your Front Line, reduce the AP cost of this card in your hand by 1. [On Play] Choose up to 1 character on your field, it gains “Your opponent must block this character's attacks if able” this turn.",
   "triggerType": "Get",
@@ -1313,7 +1500,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1343,7 +1534,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の発生エナジーが6以上ある場合、このキャラはBP+1000。",
   "effectEn": "If your generated energy is 6 or more, this character gets BP+1000.",
   "triggerType": "",
@@ -1373,7 +1568,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはフロントLにある場合もエナジーを発生させる。【登場時】自分の場外から必要エナジーが3以下で消費APが1の緑のキャラカードを1枚まで自分の場にアクティブで登場させる。",
   "effectEn": "This character also generates energy while in the Front Line. [On Play] Play up to 1 Green character card with required energy 3 or less and with AP cost 1 from your Outside Area to your field active.",
   "triggerType": "Color",
@@ -1403,7 +1602,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "シオン"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈シオン〉アクティブにし、フロントLに移動できるこのキャラはフロントLにある場合もエナジーを発生させる。【登場時】自分の山札の上から2枚見る。その中からカードを1枚手札に加え、残りを場外に置く。",
   "effectEn": "[Raid] Can Raid onto <Shion>; set it to active and you may move it to the Front Line. This character also generates energy while in the Front Line. [On Play] Look at the top 2 card(s) of your deck. From among them, add 1 card(s) to your hand and put the rest into your Outside Area.",
   "triggerType": "Raid",
@@ -1433,7 +1639,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1463,7 +1673,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。",
   "effectEn": "[On Play] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
   "triggerType": "Draw",
@@ -1493,7 +1707,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分の場のキャラを1枚まで選び、このターン中、BP+1000。このターン中に自分がイベントカードを使用している場合、カードを1枚引く。【退場時】カードを1枚引く。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Choose up to 1 character on your field, it gets BP+1000 this turn. If you have used an Event card this turn, draw 1 card(s). [On Retire] Draw 1 card(s).",
   "triggerType": "Color",
@@ -1523,7 +1741,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "テュオハリム"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈テュオハリム〉アクティブにし、フロントLに移動できる【起動メイン】【ターン1】このターン中に自分がイベントカードを使用している場合のみ発動できる。自分の場の他のキャラを1枚選び、このターン中、「BP+1000と【インパクト（+1）】」か「BP+1000と【ダメージ（2）】」を与える。",
   "effectEn": "[Raid] Can Raid onto <テュオハリム>; set it to active and you may move it to the Front Line. [Activate: Main] [Once Per Turn] Can only activate if you have used an Event card this turn. Choose 1 other character on your field; it gains “BP+1000 and [Impact +1]” or “BP+1000 and [Damage 2]” this turn.",
   "triggerType": "Raid",
@@ -1551,13 +1776,13 @@
    {
     "color": "Green",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【緑】。メインフェイズ終了時、このキャラを退場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Green]. At the end of the Main Phase, retire this character.",
   "triggerType": "",
@@ -1587,7 +1812,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -1617,7 +1846,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -1647,7 +1880,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "リンウェル"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈リンウェル〉アクティブにし、フロントLに移動できる【登場時】カードを2枚引く。",
   "effectEn": "[Raid] Can Raid onto <リンウェル>; set it to active and you may move it to the Front Line. [On Play] Draw 2 card(s).",
   "triggerType": "Get",
@@ -1677,7 +1917,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -1707,7 +1953,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に青か赤のカードがある場合、手札にあるこのカードの必要エナジーを【緑×1】減らす。",
   "effectEn": "If your opponent has Blue or Red card on their field, the required energy of this card in your hand [Green x1]is reduced.",
   "triggerType": "",
@@ -1737,7 +1987,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "ロウ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ロウ〉アクティブにし、フロントLに移動できる【アタック時】自分のフロントLのキャラ全ては、このターン中、BP+1000。",
   "effectEn": "[Raid] Can Raid onto <ロウ>; set it to active and you may move it to the Front Line. [When Attacking] All characters in your Front Line it gets BP+1000 this turn.",
   "triggerType": "Get",
@@ -1767,7 +2024,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ターン1】自分の場のキャラがアタックしてバトルに勝利した時、カードを1枚引く。",
   "effectEn": "[Once Per Turn] When a character on your field attacks and wins a battle, draw 1 card(s).",
   "triggerType": "Draw",
@@ -1792,7 +2053,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈シオン〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Shion> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -1817,7 +2082,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚まで選び、退場させる。自分のフロントLのキャラを1枚まで選び、このターン中、BP+1000。自分の場に〈テュオハリム〉がある場合、『BP4000以下』に代わる。",
   "effectEn": "Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it. Choose up to 1 character in your Front Line, it gets BP+1000 this turn. If you have <テュオハリム> on your field, it becomes “BP 4000 or less” instead.",
   "triggerType": "Special",
@@ -1842,7 +2111,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に〈シオン〉がある場合、手札にあるこのカードの必要エナジーを【緑×1】減らす。自分の手札から、必要エナジーが3以下で消費APが1以下のキャラカードを1枚まで自分のエナジーLにレストで登場させる。",
   "effectEn": "If you have <Shion> on your field, the required energy of this card in your hand [Green x1]is reduced. Play up to 1 character card(s) with required energy 3 or less and AP cost 1 or less from your hand to your Energy Line rested.",
   "triggerType": "Active",
@@ -1867,7 +2140,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のキャラを1枚まで選び、このターン中、BP+1000と【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を与える。自分の場に〈テュオハリム〉がある場合、カードを1枚引く。",
   "effectEn": "Choose up to 1 character on your field; it gains BP+1000 and [Impact +1] (Impact damage is increased by 1; if it doesn't have Impact, it gains [Impact 1]) this turn. If you have <テュオハリム> on your field, Draw 1 card(s).",
   "triggerType": "Draw",
@@ -1892,7 +2169,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "BP1500以上の相手の場のキャラを1枚まで選び、このターン中、BP-1000。『カードを1枚引く』。自分の場に〈テュオハリム〉がある場合、『カードを2枚引く』に代わる。",
   "effectEn": "Choose up to 1 character on your opponent's field with BP 1500 or more, it gets BP-1000 this turn. “Draw 1 card(s)” If you have <テュオハリム> on your field, it becomes “Draw 2 card(s)” instead.",
   "triggerType": "Draw",
@@ -1917,7 +2198,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場外からキャラカードを1枚まで手札に加える。",
   "effectEn": "Add up to 1 character card from your Outside Area to your hand.",
   "triggerType": "Draw",
@@ -1942,7 +2227,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1972,7 +2261,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のライフが4以下の場合、このキャラはBP+500。",
   "effectEn": "If you have 4 or less Life, this character gets BP+500.",
   "triggerType": "",
@@ -2002,7 +2295,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】BP4000以下の相手のフロントLのキャラを1枚まで選び、退場させてもよい。そうした場合、自分のライフエリアにあるカードを1枚場外に置く。",
   "effectEn": "[On Play] You may choose up to 1 character in your opponent's Front Line with BP 4000 or less and retire it. If you do, put 1 card(s) from your Life Area into your Outside Area.",
   "triggerType": "Color",
@@ -2032,7 +2329,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "damage": 2
+  },
+  "raid": {
+   "kind": "name",
+   "value": "アルフェン"
+  },
+  "deckLimit": null,
   "effectJp": "【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）自分のアタックフェイズ終了時、自分のライフエリアにあるカードを1枚場外に置く。【レイド】〈アルフェン〉アクティブにし、フロントLに移動できる【登場時】BP3000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "[Damage 2] (When this character deals direct damage by attacking, it deals 2 damage instead) At the end of your Attack Phase, put 1 card(s) from your Life Area into your Outside Area. [Raid] Can Raid onto <アルフェン>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it.",
   "triggerType": "Raid",
@@ -2062,7 +2368,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -2092,7 +2404,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に青か緑のカードがある場合、手札にあるこのカードの必要エナジーを【赤×1】減らす。",
   "effectEn": "If your opponent has Blue or Green card on their field, the required energy of this card in your hand [Red x1]is reduced.",
   "triggerType": "",
@@ -2122,7 +2438,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "doubleBlock": true,
+   "nullifyImpact": true
+  },
+  "raid": {
+   "kind": "name",
+   "value": "キサラ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈キサラ〉アクティブにし、フロントLに移動できる【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【相手のターン中】このキャラはBP+500。【退場時】自分のエナジーLのキャラを1枚まで選び、フロントLに移動させる。",
   "effectEn": "[Raid] Can Raid onto <キサラ>; set it to active and you may move it to the Front Line. [Double Block] (The first time this character blocks each turn, set it to active) [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [During Opponent's Turn] This character gets BP+500. [On Retire] Choose up to 1 character in your Energy Line, move it to the Front Line.",
   "triggerType": "Get",
@@ -2152,7 +2478,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場に〈アルフェン〉がある場合、カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] If you have <アルフェン> on your field, Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -2182,7 +2512,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場に〈アルフェン〉がある場合、自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを望む順で下に置く。",
   "effectEn": "[On Play] If you have <アルフェン> on your field, Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest on the bottom of your deck in any order.",
   "triggerType": "Active",
@@ -2212,7 +2546,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -2240,13 +2578,13 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
   "effectEn": "While this character is active, its generated energy +[Red].",
   "triggerType": "",
@@ -2276,7 +2614,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分はこのターン中、自分の効果でライフエリアにあるカードを場外に置くことができない。",
   "effectEn": "[On Play] This turn, you cannot put cards from your Life Area into your Outside Area with your own effects.",
   "triggerType": "Draw",
@@ -2306,7 +2648,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のフロントLに〈アルフェン〉がある場合、手札にあるこのカードの消費APを-1する。【登場時】カードを1枚引く。【起動メイン】【フロントLにある場合】【手札を1枚場外に置く】【ターン1】自分はこのターン中、自分の効果でライフエリアにあるカードを場外に置くことができない。",
   "effectEn": "If you have <アルフェン> in your Front Line, reduce the AP cost of this card in your hand by 1. [On Play] Draw 1 card(s). [Activate: Main] [While in Front Line] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] This turn, you cannot put cards from your Life Area into your Outside Area with your own effects.",
   "triggerType": "Get",
@@ -2336,7 +2682,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは〈アルフェン〉としても扱う。",
   "effectEn": "This card is also treated as <アルフェン>.",
   "triggerType": "Get",
@@ -2366,7 +2716,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "",
@@ -2396,7 +2752,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "Active",
@@ -2426,7 +2788,16 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true
+  },
+  "raid": {
+   "kind": "name",
+   "value": "テュオハリム"
+  },
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【レイド】〈テュオハリム〉アクティブにし、フロントLに移動できる【登場時】自分の場のキャラを1枚まで選び、このターン中、【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）か【ダメージ（2）】を与える。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [Raid] Can Raid onto <テュオハリム>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character on your field; it gains [Impact +1] (Impact damage is increased by 1; if it doesn't have Impact, it gains [Impact 1]) or [Damage 2] this turn.",
   "triggerType": "Get",
@@ -2454,13 +2825,13 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【赤】。メインフェイズ終了時、このキャラを退場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Red]. At the end of the Main Phase, retire this character.",
   "triggerType": "",
@@ -2490,7 +2861,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場に〈ロウ〉がある場合、自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] If you have <ロウ> on your field, Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -2520,7 +2895,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場に〈ロウ〉がある場合、カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] If you have <ロウ> on your field, Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -2550,7 +2929,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -2580,7 +2963,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のフロントLに〈ロウ〉がある場合、手札にあるこのカードの消費APを-1する。【登場時】自分の山札の上から6枚見る。その中から必要エナジーが2以下の赤のイベントカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "If you have <ロウ> in your Front Line, reduce the AP cost of this card in your hand by 1. [On Play] Look at the top 6 card(s) of your deck. Reveal up to 1 Red Event card with required energy 2 or less among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Get",
@@ -2610,7 +2997,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -2640,7 +3031,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分の場外にイベントカードが4枚以上ある場合、このキャラはBP+1000。",
   "effectEn": "[During Your Turn] If you have 4 or more Event cards in your Outside Area, This character gets BP+1000.",
   "triggerType": "",
@@ -2670,7 +3065,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "doubleAttack": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場外にイベントカードが5枚以上ある場合、このキャラはアクティブで場に登場させる。【2回アタック】（このキャラがこのターン初めてアタックした時、アクティブにする）",
   "effectEn": "If you have 5 or more Event cards in your Outside Area, This character is played active. [Double Attack] (The first time this character attacks each turn, set it to active)",
   "triggerType": "Color",
@@ -2700,7 +3101,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": {
+   "kind": "name",
+   "value": "ロウ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ロウ〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】このターン中に自分が使用したイベントカードの枚数により、以下の効果が全て発動する。・1枚以上：カードを1枚引く。・2枚以上：自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "[Raid] Can Raid onto <ロウ>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] Depending on the number of event cards you have used this turn, all of the following effects activate. 1 or more: Draw 1 card(s). 2 or more: Choose up to 1 of your AP cards, set it to active.",
   "triggerType": "Raid",
@@ -2730,7 +3140,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【このカードを退場させる】このターン中に元々のBPが4000以上の相手の場のキャラが退場している場合のみ発動できる。カードを2枚引く。",
   "effectEn": "[Activate: Main] [Retire this card] Can only activate if a character on your opponent's field with original BP 4000 or more was retired this turn. Draw 2 card(s).",
   "triggerType": "",
@@ -2755,7 +3169,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを1枚引き、自分の手札を1枚場外に置く。自分の場に〈ロウ〉がある場合、自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. If you have <ロウ> on your field, Choose up to 1 of your AP cards, set it to active.",
   "triggerType": "Draw",
@@ -2780,7 +3198,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000』以下の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈ロウ〉がある場合、このターン中に自分が使用した他のイベントカード1枚につき、『BP+1000』される。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <ロウ> on your field, it gets “BP+1000” for each 1 other event card(s) you have used this turn.",
   "triggerType": "Special",
@@ -2805,7 +3227,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈アルフェン〉があり、自分のライフが5以下の場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <アルフェン> on your field and your Life is 5 or less, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -2830,7 +3256,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2855,7 +3285,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のキャラを1枚選び、このターン中、BP+1000。選んだキャラが〈アルフェン〉の場合、さらにアクティブにする。",
   "effectEn": "Choose 1 character on your field, it gets BP+1000 this turn. If the chosen character is <アルフェン>, also set it to active.",
   "triggerType": "Active",
@@ -2880,7 +3314,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "BP2500以下の相手のフロントLのキャラを1枚まで選び、退場させる。カードを1枚引き、自分の手札を1枚場外に置く。自分のライフエリアにあるカードを1枚場外に置く。",
   "effectEn": "Choose up to 1 character in your opponent's Front Line with BP 2500 or less, retire it. Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. Put 1 card(s) from your Life Area into your Outside Area.",
   "triggerType": "Draw",
@@ -2905,7 +3343,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のキャラを1枚まで選び、このターン中、BP+2000。自分の場に〈ロウ〉がある場合、カードを1枚引く。",
   "effectEn": "Choose up to 1 character on your field, it gets BP+2000 this turn. If you have <ロウ> on your field, Draw 1 card(s).",
   "triggerType": "Draw",
@@ -2935,7 +3377,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【ターン1】このキャラはこのターン中、BP+1000。自分のライフエリアにあるカードを1枚場外に置く。",
   "effectEn": "[Activate: Main] [Once Per Turn] This character gets BP+1000 this turn. Put 1 card(s) from your Life Area into your Outside Area.",
   "triggerType": "Active",
@@ -2965,7 +3411,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "アルフェン"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈アルフェン〉アクティブにし、フロントLに移動できる【アタック時】このキャラはこのターン中、【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を得てもよい。そうした場合、自分のライフエリアにあるカードを1枚場外に置く。",
   "effectEn": "[Raid] Can Raid onto <アルフェン>; set it to active and you may move it to the Front Line. [When Attacking] This character may gain [Damage 2] (When this character deals direct damage by attacking, it deals 2 damage instead) this turn. If you do, put 1 card(s) from your Life Area into your Outside Area.",
   "triggerType": "Raid",
@@ -2995,7 +3448,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+2000と【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を与える。自分はこのターン中、自分の効果でライフエリアにあるカードを場外に置くことができない。",
   "effectEn": "[On Play] Choose up to 1 other character on your field; it gains BP+2000 and [Impact +1] (Impact damage is increased by 1; if it doesn't have Impact, it gains [Impact 1]) this turn. This turn, you cannot put cards from your Life Area into your Outside Area with your own effects.",
   "triggerType": "Get",
@@ -3025,7 +3482,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】BP3000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it.",
   "triggerType": "Get",
@@ -3055,7 +3516,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[When Attacking] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -3085,7 +3550,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3115,7 +3584,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -3145,7 +3618,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分のAＰカードを1枚まで選び、アクティブにする。カードを1枚引く。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Choose up to 1 of your AP cards and set them to active. Draw 1 card(s).",
   "triggerType": "Get",
@@ -3170,7 +3647,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から4枚見る。その中からキャラカードを2枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "Look at the top 4 card(s) of your deck. Reveal up to 2 character cards among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "",
@@ -3193,7 +3674,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3216,7 +3701,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3239,7 +3728,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3262,7 +3755,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3285,7 +3782,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3308,7 +3809,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

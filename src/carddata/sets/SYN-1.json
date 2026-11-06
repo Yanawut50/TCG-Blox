@@ -21,9 +21,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引く。",
   "effectEn": "[On Play] Draw 1 card(s).",
   "triggerType": "",
@@ -53,9 +57,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -85,9 +93,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを2枚引き、自分の手札を1枚自分の山札の上に置く。",
   "effectEn": "[On Play] Draw 2 card(s), then put 1 card(s) from your hand on top of your deck.",
   "triggerType": "Color",
@@ -117,7 +129,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の場外から［特徴：メイガス］か［特徴：クレイドルコフィン］を1枚まで手札に加える。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Add up to 1 [Trait: Magus] or [Trait: Cradle Coffin] from your Outside Area to your hand.",
   "triggerType": "",
@@ -145,13 +161,13 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【黄】。",
   "effectEn": "While this character is active, its generated energy +[Yellow].",
   "triggerType": "",
@@ -181,9 +197,18 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "クレイドルコフィン"
   ],
+  "keywords": {
+   "damage": 2
+  },
+  "raid": {
+   "kind": "name",
+   "value": "トキオ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈トキオ〉アクティブにし、フロントLに移動できる【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【退場時】カードを1枚引く。",
   "effectEn": "[Raid] Can Raid onto <トキオ>; set it to active and you may move it to the Front Line. [Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [On Retire] Draw 1 card(s).",
   "triggerType": "Get",
@@ -213,9 +238,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "クレイドルコフィン"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "カナタ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈カナタ〉アクティブにし、フロントLに移動できる自分の場に〈ノワール〉がある場合、このキャラは【インパクト（1）】を得る。【起動メイン】【フロントLにある場合】【手札を2枚場外に置く】【ターン1】自分の山札の上から1枚を公開し『手札に加える』。公開したカードが必要エナジーを満たし消費APが1のカードの場合、『APを支払わずに使用する』に代えてもよい。",
   "effectEn": "[Raid] Can Raid onto <カナタ>; set it to active and you may move it to the Front Line. If you have <Noir> on your field, This character [Impact 1] is gained. [Activate: Main] [While in Front Line] [Put 2 card(s) from your hand into your Outside Area] [Once Per Turn] Reveal the top 1 card(s) of your deck and “add them to your hand” If the revealed card meets its required energy and has AP cost 1, you may instead “use it without paying AP”",
   "triggerType": "Get",
@@ -245,9 +277,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "クレイドルコフィン"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "エリー"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈エリー〉アクティブにし、フロントLに移動できる自分の場に〈アンジェ〉がある場合、このキャラは【インパクト（1）】を得る。【登場時】必要エナジーが3以下の自分の場のキャラを1枚手札に戻してもよい。そうした場合、BP3000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "[Raid] Can Raid onto <エリー>; set it to active and you may move it to the Front Line. If you have <アンジェ> on your field, This character [Impact 1] is gained. [On Play] You may return 1 character on your field with required energy 3 or less to the owner's hand. If you do, Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it.",
   "triggerType": "Raid",
@@ -277,9 +316,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドリフター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -309,9 +352,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドリフター"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "Active",
@@ -341,9 +390,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドリフター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このターン中に自分のキャラが場から手札に戻っている場合、このキャラはBP+500と「このキャラがアタックしてブロックされなかった時、自分の手札から必要エナジーが2以下で消費APが1の黄のキャラカードを1枚まで自分の場にレストで登場させる。」を得る。",
   "effectEn": "[During Your Turn] If your character returned from the field to your hand this turn, this character gains BP+500 and “When this character attacks and is not blocked, play up to 1 yellow character card with required energy 2 or less and AP cost 1 from your hand to your field rested”",
   "triggerType": "",
@@ -373,9 +426,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドリフター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から5枚見る。その中から〈アンジェ〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。【起動メイン】【フロントLにある場合】このターン中に自分のキャラが場から手札に戻っている場合のみ発動できる。自分のAPカードを1枚選び、アクティブにする。〈エリー〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "[On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 <アンジェ> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area. [Activate: Main] [While in Front Line] Can only activate if your character returned from the field to your hand this turn. Choose 1 of your AP cards and set them to active. This <エリー> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Get",
@@ -405,9 +462,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドリフター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -437,9 +498,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドリフター"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "Active",
@@ -469,9 +536,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドリフター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このターン中に自分が山札からカードを使用している場合、このキャラはBP＋500。【登場時】このキャラが山札から使用されて登場していた場合、このキャラをアクティブにする。",
   "effectEn": "[During Your Turn] If you have used a card from your deck this turn, this character gets BP+500. [On Play] If this character was used and played from your deck, set this character to active.",
   "triggerType": "",
@@ -501,9 +572,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドリフター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "山札にあるこのカードは消費APを1として扱ってもよい。【登場時】相手のフロントLのキャラを1枚まで選び、レストにする。それは次の1回アクティブにならない。",
   "effectEn": "This card in your deck may be treated as having AP cost 1. [On Play] Choose up to 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s).",
   "triggerType": "Active",
@@ -533,9 +608,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドリフター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -565,9 +644,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドリフター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札から必要エナジーが2以下で消費APが1の黄のキャラカードを1枚まで自分の場にレストで登場させる。",
   "effectEn": "[On Play] Play up to 1 Yellow character card with required energy 2 or less and with AP cost 1 from your hand to your field rested.",
   "triggerType": "Draw",
@@ -597,9 +680,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドリフター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】BP2500以下の相手のフロントLのキャラを1枚まで選び、レストにする。",
   "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line with BP 2500 or less, rest it.",
   "triggerType": "",
@@ -629,9 +716,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドリフター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に紫か赤のカードがある場合、手札にあるこのカードの必要エナジーを【黄×1】減らす。",
   "effectEn": "If your opponent has Purple or Red card on their field, the required energy of this card in your hand [Yellow x1]is reduced.",
   "triggerType": "",
@@ -661,9 +752,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -693,9 +788,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -725,9 +824,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【ターン1】必要エナジーが3以下の自分の場の他のキャラを1枚手札に戻す。そうした場合、以下から1つ選ぶ。・カードを1枚引き、自分の手札を1枚場外に置く。・自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[Activate: Main] [Once Per Turn] Return to the owner's hand 1 other character on your field with required energy 3 or less. If you do, Choose 1 of the following. Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Color",
@@ -757,9 +860,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】相手のフロントLの【レイド】を持つキャラを1枚まで選び、レストにする。(レイド状態かどうかは問わない)",
   "effectEn": "[On Retire] Choose up to 1 character with [Raid] in your opponent's Front Line and rest it. (Whether or not it is Raided)",
   "triggerType": "Active",
@@ -789,9 +896,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -821,9 +932,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -851,15 +968,15 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "メイガス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【黄】。メインフェイズ終了時、このキャラを退場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Yellow]. At the end of the Main Phase, retire this character.",
   "triggerType": "",
@@ -889,7 +1006,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このフィールドはアクティブで場に登場させる。【登場時】自分の山札の上から5枚見る。その中から［特徴：クレイドルコフィン］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。【起動メイン】【レストにする】以下から1つ選ぶ。・自分の場のキャラを1枚まで選び、別のラインに移動させる。・自分のフロントLのキャラと自分のエナジーLのキャラを1枚ずつ選び、それらの位置を入れ替える。",
   "effectEn": "This Field is played active. [On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 [Trait: Cradle Coffin] among them and add it to your hand. Put the rest on the bottom of your deck in any order. [Activate: Main] [Rest this card] Choose 1 of the following. Choose up to 1 character on your field, move it to another line. Choose 1 character in your Front Line and 1 character in your Energy Line, and swap their positions.",
   "triggerType": "Get",
@@ -914,7 +1035,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚まで選び、退場させる。自分の場に〔〈エリー〉か〈リアリド〉〕と〈アンジェ〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <エリー> or <リアリド>, and <アンジェ> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -939,7 +1064,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から6枚見る。その中から〔［特徴：ドリフター］か［特徴：クレイドルコフィン］〕と［特徴：メイガス］をそれぞれ1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "Look at the top 6 card(s) of your deck. Reveal up to 1 each of [Trait: Drifter] or [Trait: Cradle Coffin], and [Trait: Magus] among them, and add them to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Active",
@@ -964,7 +1093,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -989,7 +1122,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚まで選び、退場させる。自分の場に〔〈カナタ〉か〈デイジーオーガ〉〕と〈ノワール〉がある場合、『BP5000以下』に代わる。このカードが山札から使用されている場合、自分の場のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <カナタ> or <デイジーオーガ>, and <Noir> on your field, it becomes “BP 5000 or less” instead. If this card is used from your deck, choose up to 1 character on your field; it gets BP+1000 this turn.",
   "triggerType": "Special",
@@ -1014,7 +1151,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のフロントLのキャラを1枚選び、このターン中、BP+2000。自分の場に〈エリー〉か〈リアリド〉がある場合、さらにこのターン中、【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を与える。",
   "effectEn": "Choose 1 character in your Front Line, it gets BP+2000 this turn. If you have <エリー> or <リアリド> on your field, it also gains [Impact +1] (Impact damage is increased by 1; if it doesn't have Impact, it gains [Impact 1]) this turn.",
   "triggerType": "Draw",
@@ -1044,7 +1185,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に黄か赤のカードがある場合、手札にあるこのカードの必要エナジーを【紫×1】減らす。",
   "effectEn": "If your opponent has Yellow or Red card on their field, the required energy of this card in your hand [Purple x1]is reduced.",
   "triggerType": "",
@@ -1074,7 +1219,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -1104,7 +1253,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】以下から1つ選ぶ。・自分の場外から特徴に「メイガス」か「クレイドルコフィン」を持つキャラカードを1枚まで手札に加える。・カードを2枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Choose 1 of the following. Add up to 1 character card with the trait “Magus” or “Cradle Coffin” from your Outside Area to your hand. Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -1132,13 +1285,13 @@
    {
     "color": "Purple",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【紫】。",
   "effectEn": "While this character is active, its generated energy +[Purple].",
   "triggerType": "",
@@ -1168,9 +1321,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "イデアール"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -1200,9 +1357,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "イデアール"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に他の［特徴：イデアール］が4枚以上ある場合、このキャラは【インパクト（1）】を得る。【起動メイン】【フロントLにある場合】【ターン1】自分の場の〈シエル〉を1枚退場させる。そうした場合、自分の場外から〈シエル〉を1枚まで手札に加える。",
   "effectEn": "If you have 4 or more other [Trait: Ideal] on your field, This character [Impact 1] is gained. [Activate: Main] [While in Front Line] [Once Per Turn] Retire 1 <シエル> on your field. If you do, Add up to 1 <シエル> from your Outside Area to your hand.",
   "triggerType": "Get",
@@ -1232,9 +1393,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "イデアール"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1264,9 +1429,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "イデアール"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】相手のフロントLのキャラを1枚まで選び、このターン中、BP-500。",
   "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line, it gets BP-500 this turn.",
   "triggerType": "",
@@ -1296,9 +1465,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "イデアール"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】相手のフロントLのキャラを1～2枚選び、このターン中、BP-500してもよい。そうした場合、このキャラは次の1回アクティブにならない。",
   "effectEn": "[When Attacking] You may choose 1 to 2 character(s) in your opponent's Front Line; they get BP-500 this turn. If you do, This character it does not become active the next 1 time(s).",
   "triggerType": "Draw",
@@ -1328,9 +1501,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "イデアール"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】自分の手札を1枚場外に置いてもよい。そうした場合、相手のフロントLのキャラを1枚まで選び、このターン中、BP-2000し、このキャラは次の1回アクティブにならない。",
   "effectEn": "[When Attacking] You may put 1 card(s) from your hand into your Outside Area. If you do, choose up to 1 character in your opponent's Front Line; it gets BP-2000 this turn, and this character does not become active the next 1 time(s).",
   "triggerType": "Active",
@@ -1360,9 +1537,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "クレイドルコフィン"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "トキオ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈トキオ〉アクティブにし、フロントLに移動できる自分の場に〈ムートン〉がある場合、このキャラは【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）と「このキャラはBPをマイナスする効果を受けない。」を得る。【登場時】カードを2枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[Raid] Can Raid onto <トキオ>; set it to active and you may move it to the Front Line. If you have <ムートン> on your field, this character gains [Impact Nullify] (The character that battles this character loses [Impact] during this battle) and “This character is not affected by effects that reduce BP” [On Play] Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Get",
@@ -1392,10 +1576,19 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "クレイドルコフィン",
    "イデアール"
   ],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": {
+   "kind": "name",
+   "value": "トキオ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈トキオ〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】自分の場に〈ムートン〉がある場合、相手は自身の手札から1枚を残し、それ以外の手札を全て公開する。自分はその中から1枚を指定し、場外に置いてもよい。そうした場合、相手はカードを1枚引く。",
   "effectEn": "[Raid] Can Raid onto <トキオ>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] If you have <ムートン> on your field, your opponent keeps 1 card(s) in their hand and reveals all other cards in their hand. You may designate 1 of them and put them into the Outside Area. If you do, your opponent draws 1 card(s).",
   "triggerType": "Raid",
@@ -1425,9 +1618,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドリフター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1457,9 +1654,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドリフター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に〈ムートン〉がある場合、このキャラはBP+500と【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）を得る。",
   "effectEn": "If you have <ムートン> on your field, this character gains BP+500 and [Impact Nullify] (The character that battles this character loses [Impact] during this battle)",
   "triggerType": "Active",
@@ -1489,9 +1690,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドリフター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このターン中に自分か相手の効果で自分か相手が手札を場外に置いている場合、このキャラはBP+1000。【退場時】自分の場に〈ムートン〉がある場合、カードを1枚引く。",
   "effectEn": "[During Your Turn] If you or your opponent has put cards from hand into the Outside Area with your or your opponent's effect this turn, this character gets BP+1000. [On Retire] If you have <ムートン> on your field, Draw 1 card(s).",
   "triggerType": "",
@@ -1521,10 +1726,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドリフター",
    "イデアール"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは〈トキオ〉としても扱う。【自分のターン中】このターン中に自分か相手が手札を場外に置いている場合、このキャラはBP+1000。【登場時】このターン中に自分か相手が手札を場外に置いている場合、カードを1枚引く。【退場時】自分の場に〈ムートン〉がある場合、自分の手札を1枚場外に置いてもよい。そうした場合、このカードを自分の山札の上に置く。",
   "effectEn": "This card is also treated as <トキオ>. [During Your Turn] If you or your opponent has put cards from hand into the Outside Area this turn, this character gets BP+1000. [On Play] If you or your opponent has put cards from hand into the Outside Area this turn, draw 1 card(s). [On Retire] If you have <ムートン> on your field, You may put 1 card(s) from your hand into your Outside Area. If you do, put this card on top of your deck.",
   "triggerType": "Draw",
@@ -1554,9 +1763,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -1586,9 +1801,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -1618,9 +1837,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札を2枚まで場外に置いてもよい。そうした場合、この効果で場外に置いたカードと同じ枚数のカードを引く。",
   "effectEn": "[On Play] You may put up to 2 card(s) from your hand into your Outside Area. If you do, draw cards equal to the number of cards put into your Outside Area by this effect.",
   "triggerType": "Color",
@@ -1650,10 +1873,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "クレイドルコフィン",
    "イデアール"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "黒仮面"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈黒仮面〉アクティブにし、フロントLに移動できる【登場時】自分の場に〈シュネー〉がある場合、以下から1つ選ぶ。・相手のフロントLのキャラを1枚まで選び、このターン中、BP-3000。・相手のフロントLのキャラを1枚まで選び、レストにする。【アタック時】このキャラはこのターン中、【インパクト（1）】を得てもよい。そうした場合、このキャラは次の1回アクティブにならない。",
   "effectEn": "[Raid] Can Raid onto <黒仮面>; set it to active and you may move it to the Front Line. [On Play] If you have <シュネー> on your field, Choose 1 of the following. Choose up to 1 character in your opponent's Front Line, it gets BP-3000 this turn. Choose up to 1 character in your opponent's Front Line, rest it. [When Attacking] This character may gain [Impact 1] this turn. If you do, This character it does not become active the next 1 time(s).",
   "triggerType": "Raid",
@@ -1683,10 +1913,17 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "クレイドルコフィン",
    "イデアール"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "trait",
+   "value": "イデアール"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】［特徴：イデアール］アクティブにし、フロントLに移動できる【登場時】自分の山札の上から4枚見る。その中から［特徴：イデアール］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "[Raid] Can Raid onto [Trait: Ideal]; set it to active and you may move it to the Front Line. [On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 [Trait: Ideal] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Get",
@@ -1714,16 +1951,16 @@
    {
     "color": "Purple",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "メイガス",
    "イデアール"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【紫】。メインフェイズ終了時、このキャラを退場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Purple]. At the end of the Main Phase, retire this character.",
   "triggerType": "",
@@ -1753,10 +1990,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス",
    "イデアール"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】カードを1枚引く。",
   "effectEn": "[On Retire] Draw 1 card(s).",
   "triggerType": "",
@@ -1786,10 +2027,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス",
    "イデアール"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】以下から1つ選ぶ。・カードを2枚引き、自分の手札を1枚場外に置く。・カードを1枚引く。自分のターン中の場合、自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "[On Retire] Choose 1 of the following. Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area. Draw 1 card(s). If it is your turn, choose up to 1 of your AP cards and set them to active.",
   "triggerType": "Draw",
@@ -1819,10 +2064,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス",
    "イデアール"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の〈黒仮面〉か〈ギルボウ〉を1枚まで選び、次の自分のターン開始時まで、「相手はキャラの効果でこのキャラを選べない。」を与える。",
   "effectEn": "[On Play] Choose up to 1 <黒仮面> or <ギルボウ> on your field; until the start of your next turn, it gains “Your opponent cannot choose this character with character effects”",
   "triggerType": "Active",
@@ -1852,10 +2101,14 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス",
    "イデアール"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -1885,10 +2138,14 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス",
    "イデアール"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のアタックフェイズ終了時、自分の手札を1枚場外に置いてもよい。そうした場合、自分の場の〈黒仮面〉か〈ギルボウ〉を1枚まで選び、アクティブにする。【登場時】自分の山札の上から4枚見る。その中から〈黒仮面〉か〈ギルボウ〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "At the end of your Attack Phase, You may put 1 card(s) from your hand into your Outside Area. If you do, Choose up to 1 <黒仮面> or <ギルボウ> on your field, set it to active. [On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 <黒仮面> or <ギルボウ> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Color",
@@ -1918,7 +2175,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】自分の場に［特徴：イデアール］が4枚以上ある場合のみ発動できる。相手のフロントLのキャラを1枚選び、このターン中、BP-500。",
   "effectEn": "This Field is played active. [Activate: Main] [Rest this card] Can only activate if you have 4 or more [Trait: Ideal] on your field. Choose 1 character in your opponent's Front Line, it gets BP-500 this turn.",
   "triggerType": "Get",
@@ -1943,7 +2204,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から3枚を公開する。『その中からカードを1枚手札に加え、残りを望む順で自分の山札の下に置く』。公開した3枚のカードの必要エナジーの数が全て同じか、連続する3つの数だった場合、『公開したカードを全て手札に加える』に代わる。",
   "effectEn": "Reveal the top 3 card(s) of your deck. “Add 1 of them to your hand, and put the rest on the bottom of your deck in any order” If the 3 revealed cards all have the same amount of required energy, or 3 consecutive amounts, it becomes “add all revealed cards to your hand” instead.",
   "triggerType": "Draw",
@@ -1968,7 +2233,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手のフロントLのキャラを1枚選び、このターン中、『BP-3000』。自分の場に〔〈黒仮面〉か〈ギルボウ〉〕と〈シュネー〉がある場合、『BP-5000』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line, This turn, 『BP-3000』. If you have <黒仮面> or <ギルボウ>, and <シュネー> on your field, it becomes “BP-5000” instead.",
   "triggerType": "Special",
@@ -1993,7 +2262,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から6枚見る。その中から〔〈黒仮面〉か〈ヴァイスハイト〉か［特徴：ドリフター］か［特徴：クレイドルコフィン］〕と［特徴：メイガス］をそれぞれ1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "Look at the top 6 card(s) of your deck. Reveal up to 1 each of <黒仮面>, <ヴァイスハイト>, [Trait: Drifter] or [Trait: Cradle Coffin], and [Trait: Magus] among them, and add them to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Active",
@@ -2018,7 +2291,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚まで選び、退場させる。自分の場に〔〈トキオ〉か〈ジョンガスメーカー〉か〈ボーンドウル〉〕と〈ムートン〉がある場合、『BP5000以下』に代わる。自分の手札を1枚場外に置いてもよい。そうした場合、カードを1枚引く。",
   "effectEn": "Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <トキオ>, <ジョンガスメーカー> or <ボーンドウル>, and <ムートン> on your field, it becomes “BP 5000 or less” instead. You may put 1 card(s) from your hand into your Outside Area. If you do, Draw 1 card(s).",
   "triggerType": "Special",
@@ -2043,7 +2320,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2073,7 +2354,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に黄か紫のカードがある場合、手札にあるこのカードの必要エナジーを【赤×1】減らす。",
   "effectEn": "If your opponent has Yellow or Purple card on their field, the required energy of this card in your hand [Red x1]is reduced.",
   "triggerType": "",
@@ -2101,13 +2386,13 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
   "effectEn": "While this character is active, its generated energy +[Red].",
   "triggerType": "",
@@ -2137,7 +2422,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から4枚見る。その中から［特徴：メイガス］か［特徴：クレイドルコフィン］か〈マリアのラボ〉か〈マリアのミサイル〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。【起動メイン】【レストにする】【このカードを退場させる】このターン中、次に自分が「BPの範囲に指定がある効果」でキャラを選ぶ際、指定できるBPの範囲+1000。(BP3000以下のキャラを選べる効果でBP4000以下を選べるようになる)",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 [Trait: Magus] or [Trait: Cradle Coffin] or <マリアのラボ> or <マリアのミサイル> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area. [Activate: Main] [Rest this card] [Retire this card] This turn, the next time you choose a character with an “effect that specifies a BP range”, that BP range gets +1000. (Effects that can choose characters with BP 3000 or less can choose BP 4000 or less instead)",
   "triggerType": "Draw",
@@ -2167,9 +2456,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "クレイドルコフィン"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "クラウディア"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈クラウディア〉アクティブにし、フロントLに移動できる【自分のターン中】【フロントLにある場合】自分の効果で相手がカードを引く場合、代わりに自分が同じ枚数カードを引く。【アタック時】自分の場に〈フラム〉がある場合、自分の手札を2枚場外に置いてもよい。そうした場合、このターン中に自分が引いたカードの枚数×1000以下のBPの相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "[Raid] Can Raid onto <クラウディア>; set it to active and you may move it to the Front Line. [During Your Turn] [While in Front Line] If your opponent would draw cards due to your effect, you draw the same number of cards instead. [When Attacking] If you have <フラム> on your field, You may put 2 card(s) from your hand into your Outside Area. If you do, choose up to 1 character in your opponent's Front Line with BP equal to or less than 1000 × the number of cards you drew this turn, and retire it.",
   "triggerType": "Raid",
@@ -2199,9 +2495,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "クレイドルコフィン"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "カナタ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈カナタ〉アクティブにし、フロントLに移動できる【登場時】このキャラはこのターン中、BP+500。自分の場に〈シエル〉がある場合、相手のフロントLのキャラを1枚まで選び、このターン中、「このキャラはアタックもブロックできない。」を与える。【起動メイン】【フロントLにある場合】【APを1支払う】【ターン1】このキャラがこのターン中に登場していない場合のみ発動できる。このキャラの【登場時】を発動する。",
   "effectEn": "[Raid] Can Raid onto <カナタ>; set it to active and you may move it to the Front Line. [On Play] This character gets BP+500 this turn. If you have <シエル> on your field, choose up to 1 character in your opponent's Front Line; it gains “This character cannot attack or block” this turn. [Activate: Main] [While in Front Line] [Pay 1 AP] [Once Per Turn] Can only activate if this character was not played this turn. Activate this character's [On Play].",
   "triggerType": "Raid",
@@ -2231,9 +2534,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "クレイドルコフィン"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "カナタ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈カナタ〉アクティブにし、フロントLに移動できる【登場時】『BP2000以下』の相手のフロントLのキャラを1枚まで選び、退場させる。自分の場の〈ミステル〉を1枚裏向きでこのキャラの下に置いてもよい。そうした場合、『BP4000以下』に代わる。【退場時】このキャラの下の裏向きのカードを全て公開し、手札に加える。",
   "effectEn": "[Raid] Can Raid onto <カナタ>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line with BP 2000 or less, retire it. You may put 1 <ミステル> on your field face down under this character. If you do, it becomes “BP 4000 or less” instead. [On Retire] Reveal all face-down cards under this character and add them to your hand.",
   "triggerType": "Raid",
@@ -2263,9 +2573,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドリフター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外から特徴に「メイガス」を持つキャラカードを1枚まで手札に加える。",
   "effectEn": "[On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, add up to 1 character card with the trait “Magus” from your Outside Area to your hand.",
   "triggerType": "Draw",
@@ -2295,9 +2609,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドリフター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -2327,9 +2645,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドリフター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -2359,9 +2681,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドリフター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このキャラはBP+1000。",
   "effectEn": "[During Your Turn] This character gets BP+1000.",
   "triggerType": "",
@@ -2391,9 +2717,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドリフター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分の場の〈デイジーオーガ〉か〈デイジーオーガアルター〉を1枚選び、このターン中、【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を与える。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 <デイジーオーガ> or <デイジーオーガアルター> on your field, This turn, [Impact +1](Damage dealt by Impact is increased by 1; if it doesn't have Impact, [Impact 1])",
   "triggerType": "Active",
@@ -2423,9 +2753,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドリフター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -2455,9 +2789,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドリフター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】このキャラはこのターン中、「【自分のターン中】自分の効果で相手がカードを引く場合、代わりに自分が同じ枚数カードを引く。」を得る。",
   "effectEn": "[On Play] This character gains “[During Your Turn] If your opponent would draw cards due to your effect, you draw the same number of cards instead” this turn.",
   "triggerType": "",
@@ -2487,9 +2825,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドリフター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】このターン中に自分がカードを2枚以上引いている場合のみ発動できる。自分の場のキャラを1枚選び、このターン中、BP+1000。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if you have drawn 2 or more cards this turn. Choose 1 character on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -2519,9 +2861,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドリフター"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【自分のターン中】相手のフロントLに【レイド】を持つキャラがある場合、このキャラはBP+500。(レイド状態かどうかは問わない)",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [During Your Turn] If your opponent has a character with [Raid] in their Front Line, this character gets BP+500. (Whether or not it is Raided)",
   "triggerType": "",
@@ -2549,15 +2897,15 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "メイガス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【赤】。メインフェイズ終了時、このキャラを退場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Red]. At the end of the Main Phase, retire this character.",
   "triggerType": "",
@@ -2587,9 +2935,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -2619,9 +2971,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -2651,9 +3007,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【起動メイン】【レストにする】【このカードを退場させる】BP2500以下の相手のフロントLのキャラを1枚選び、このターン中、「このキャラはブロックできない。」を与える。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [Activate: Main] [Rest this card] [Retire this card] Choose 1 character in your opponent's Front Line with BP 2500 or less, it gains “This character cannot block” this turn.",
   "triggerType": "",
@@ -2683,9 +3045,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の〈カナタ〉を1枚まで選び、アクティブにする。",
   "effectEn": "[On Play] Choose up to 1 <カナタ> on your field, set it to active.",
   "triggerType": "Color",
@@ -2715,9 +3081,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】「相手はカードを1枚引く。」を自分が選んでもよい。",
   "effectEn": "[On Play] You may choose for yourself to perform “your opponent draws 1 card(s)”",
   "triggerType": "",
@@ -2747,9 +3117,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分と相手はカードを1枚引く。",
   "effectEn": "[On Play] You and your opponent each draw 1 card(s).",
   "triggerType": "Active",
@@ -2779,9 +3153,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【手札を1枚場外に置く】【APを1支払う】【ターン1】このターン中にこのキャラが登場している場合のみ発動できる。BP3000以下の相手のフロントLのキャラを1枚まで選び、退場させる。自分と相手はカードを1枚引く。",
   "effectEn": "[Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Pay 1 AP] [Once Per Turn] Can only activate if this character was played this turn. Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it. You and your opponent each draw 1 card(s).",
   "triggerType": "Color",
@@ -2811,9 +3189,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -2843,9 +3225,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -2875,9 +3261,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】【ターン1】以下から1つ選ぶ。・このキャラはこのターン中、BP+1000。・自分の手札を1枚場外に置いてもよい。そうした場合、BP1500以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "[When Attacking] [Once Per Turn] Choose 1 of the following. This character gets BP+1000 this turn. You may put 1 card(s) from your hand into your Outside Area. If you do, Choose up to 1 character in your opponent's Front Line with BP 1500 or less, retire it.",
   "triggerType": "Color",
@@ -2907,7 +3297,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】自分の場のキャラを1枚選び、このターン中、BP+1000。",
   "effectEn": "This Field is played active. [Activate: Main] [Rest this card] Choose 1 character on your field, it gets BP+1000 this turn.",
   "triggerType": "Get",
@@ -2932,7 +3326,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "BP5000以下の相手のフロントLのキャラを1枚選び、『このターン中、「このキャラはブロックできない」を与える』。自分の場に〔〈カナタ〉か〈デイジーオーガ〉〕と〈シエル〉がある場合、『退場させる』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 5000 or less, “it gains “This character cannot block” this turn” If you have <カナタ> or <デイジーオーガ>, and <シエル> on your field, it becomes “retire it” instead.",
   "triggerType": "Special",
@@ -2957,7 +3355,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2982,7 +3384,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを1枚引く。自分の場に〈クラウディア〉か〈フラム〉か〈グレンシノビ〉がある場合、さらにカードを1枚引き、自分はこのターン中、「自分の効果で相手がカードを引く場合、代わりに自分が同じ枚数カードを引く。」を得る。",
   "effectEn": "Draw 1 card(s). If you have <クラウディア>, <フラム> or <グレンシノビ> on your field, draw 1 more card(s), and you gain “If your opponent would draw cards due to your effect, you draw the same number of cards instead” this turn.",
   "triggerType": "Draw",
@@ -3007,7 +3413,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から6枚見る。その中から〔［特徴：ドリフター］か［特徴：クレイドルコフィン］〕と［特徴：メイガス］をそれぞれ1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "Look at the top 6 card(s) of your deck. Reveal up to 1 each of [Trait: Drifter] or [Trait: Cradle Coffin], and [Trait: Magus] among them, and add them to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Active",
@@ -3032,7 +3442,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "BP3000以下の相手のフロントLのキャラを1枚選び、退場させる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it.",
   "triggerType": "",
@@ -3057,7 +3471,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP2500以下』の相手のフロントLのキャラを1枚まで選び、退場させる。カードを1枚引き、自分の手札を1枚場外に置く。自分の場に〔〈クラウディア〉か〈グレンシノビ〉〕と〈フラム〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose up to 1 character in your opponent's Front Line with BP 2500 or less, retire it. Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. If you have <クラウディア> or <グレンシノビ>, and <フラム> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -3082,7 +3500,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚まで選び、退場させる。自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。自分の場に〔〈カナタ〉か〈デイジーオーガアルター〉〕と〈ミステル〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it. Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck. If you have <カナタ> or <デイジーオーガアルター>, and <ミステル> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -3112,7 +3534,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -3142,9 +3568,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "クレイドルコフィン"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "カナタ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈カナタ〉アクティブにし、フロントLに移動できる【登場時】自分の山札の上から1枚を公開し『手札に加える』。自分のターン中で、自分の場に〈ノワール〉があり、公開したカードが必要エナジーが4以下で消費APが1の黄のカードの場合、『APを支払わずに使用する』に代えてもよい。",
   "effectEn": "[Raid] Can Raid onto <カナタ>; set it to active and you may move it to the Front Line. [On Play] Reveal the top 1 card(s) of your deck and “add them to your hand” If it is your turn, you have <Noir> on your field, and the revealed card is a yellow card with required energy 4 or less and AP cost 1, you may instead “use it without paying AP”",
   "triggerType": "Raid",
@@ -3174,9 +3607,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドリフター"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】『自分の場外から〈ノワール〉を1枚手札に加えてもよい。そうした場合、自分の手札を1枚場外に置く』。このキャラが山札から使用されて登場していた場合、『自分の場外から〈ノワール〉を1枚まで手札に加える』に代わる。",
   "effectEn": "[On Play] “You may add 1 <Noir> from your Outside Area to your hand. If you do, Put 1 card(s) from your hand into your Outside Area” If this character was used and played from your deck, it becomes “Add up to 1 <Noir> from your Outside Area to your hand” instead.",
   "triggerType": "",
@@ -3206,9 +3643,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ドリフター"
   ],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】カードを1枚引く。",
   "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] Draw 1 card(s).",
   "triggerType": "Active",
@@ -3238,9 +3681,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -3270,9 +3717,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを望む順で下に置く。【起動メイン】【レストにする】【このカードを退場させる】このキャラの【登場時】を発動する。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest on the bottom of your deck in any order. [Activate: Main] [Rest this card] [Retire this card] Activate this character's [On Play].",
   "triggerType": "",
@@ -3302,9 +3753,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "メイガス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3334,7 +3789,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。",
   "effectEn": "[Activate: Main] [Rest this card] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
   "triggerType": "Get",
@@ -3359,7 +3818,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを3枚引き、自分の手札を1枚自分の山札の上に置く。",
   "effectEn": "Draw 3 card(s), then put 1 card(s) from your hand on top of your deck.",
   "triggerType": "Draw",
@@ -3382,7 +3845,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3405,7 +3872,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3428,7 +3899,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3451,7 +3926,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3474,7 +3953,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3497,7 +3980,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3520,7 +4007,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

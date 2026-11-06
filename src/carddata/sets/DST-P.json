@@ -21,7 +21,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【APを1支払う】自分の手札から〈科学船ペルセウス〉を1枚まで自分のエナジーLにアクティブで登場させる。【アタック時】このターン中に自分が手札から〈石油〉を使用しているか、〈科学船ペルセウス〉の効果で自分の手札の〈石油〉を場外に置いている場合、カードを1枚引き、このキャラはこのターン中、【インパクト（1）】を得る。",
   "effectEn": "[Activate: Main] [Pay 1 AP] Play up to 1 <科学船ペルセウス> from your hand to your Energy Line active. [When Attacking] If you have used <石油> from your hand this turn, or put <石油> from your hand into your Outside Area with the effect of <科学船ペルセウス>, draw 1 card(s), and this character gains [Impact 1] this turn.",
   "triggerType": "Get",
@@ -51,7 +55,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このターン中に自分の効果で自分の手札を公開している場合、このキャラはBP+500。【登場時】必要エナジーの数を1つ指定する。自分の手札を1枚相手が選ぶ。選ばれたカードを公開し、そのカードの必要エナジーの数がこの効果で指定した数と同じだった場合、自分の場外から特徴を持たないキャラカードか〈ケータイ〉を1枚まで自分の山札の上に置く。",
   "effectEn": "[During Your Turn] If you have revealed cards from your hand with your own effect this turn, this character gets BP+500. [On Play] Declare 1 required energy colors. Your opponent chooses 1 card(s) from your hand. Reveal the chosen card; if the amount of its required energy equals the number declared by this effect, put up to 1 character card with no traits or <ケータイ> from your Outside Area on top of your deck.",
   "triggerType": "Active",
@@ -81,9 +89,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "科学王国"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】【エナジーLにある場合】このキャラをアクティブにする。【起動メイン】【レストにする】【ターン1】このターン中に自分の効果でアクティブからレストになったことがある自分のフロントLの他の［特徴：科学王国］を1枚選び、アクティブにする。【起動メイン】【レストにする】【手札を2枚場外に置く】【ターン1】自分の場に［特徴：クラフト］が2枚以上ある場合のみ発動できる。自分のフロントLの他のキャラを1枚選び、このターン中、【ダメージ（2）】を与える。",
   "effectEn": "[On Play] [While in Energy Line] Set this character to active. [Activate: Main] [Rest this card] [Once Per Turn] Choose 1 other [Trait: Kingdom of Science] in your Front Line that went from active to rested by your own effect this turn, and set it to active. [Activate: Main] [Rest this card] [Put 2 card(s) from your hand into your Outside Area] [Once Per Turn] Can only activate if you have 2 or more [Trait: Craft] on your field. Choose 1 other character in your Front Line, This turn, [Damage 2] is given.",
   "triggerType": "Active",

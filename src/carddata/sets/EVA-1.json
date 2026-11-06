@@ -19,13 +19,13 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【黄】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Yellow] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -55,7 +55,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【相手のターン中】このキャラは移動せず、手札に戻らず、BPをマイナスする効果を受けない。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [During Opponent's Turn] This character does not move, is not returned to the hand, and is not affected by effects that reduce BP.",
   "triggerType": "",
@@ -85,7 +91,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このターン中に自分の場に【ゲット】を持つキャラが登場している場合、このキャラはBP+1000。",
   "effectEn": "[During Your Turn] If a character with [Get] was played to your field this turn, this character gets BP+1000.",
   "triggerType": "Draw",
@@ -115,7 +125,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】自分の場のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] Choose up to 1 character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -145,7 +161,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分か相手の効果やバトルによってこのキャラが場を離れた時、自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外から必要エナジーが2以下の黄の〈綾波 レイ〉を1枚まで自分の場にアクティブで登場させる。",
   "effectEn": "When this character leaves the field due to your or your opponent's effect or a battle, you may put 1 card(s) from your hand into your Outside Area. If you do, Play up to 1 Yellow <Rei Ayanami> with required energy 2 or less from your Outside Area to your field active.",
   "triggerType": "Get",
@@ -175,7 +195,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の場の黄のキャラを1枚選び、アクティブにする。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Choose 1 Yellow character on your field, set it to active.",
   "triggerType": "Get",
@@ -203,13 +227,13 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【黄】。",
   "effectEn": "While this character is active, its generated energy +[Yellow].",
   "triggerType": "",
@@ -239,7 +263,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【相手のターン中】自分が必要エナジーを満たしているキャラカードの【ゲット】を発動する場合、代わりにそのカードを自分の場にレストで登場させてもよい。そうした場合、自分の手札を1枚場外に置く。〈葛󠄀城 ミサト〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "[During Opponent's Turn] When you activate the [Get] of a character card whose required energy you meet, you may play that card to your field rested instead. If you do, Put 1 card(s) from your hand into your Outside Area. This <Misato Katsuragi> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Get",
@@ -269,7 +297,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -299,7 +331,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場のキャラを1枚まで選び、このターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を与える。",
   "effectEn": "[On Play] Choose up to 1 character on your field, This turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is given.",
   "triggerType": "",
@@ -329,7 +365,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -359,7 +399,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚退場させてもよい。そうした場合、以下から1つ選ぶ。・カードを2枚引く。・カードを1枚引き、自分の場のキャラを1枚まで選び、アクティブにする。",
   "effectEn": "[On Play] You may retire 1 other character on your field. If you do, Choose 1 of the following. Draw 2 card(s). Draw 1 card(s), then choose up to 1 character on your field and set it to active.",
   "triggerType": "Active",
@@ -389,7 +433,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】このキャラをアクティブにし、以下から1つ選ぶ。・相手のフロントLのキャラを1枚まで選び、レストにする。・自分のターン中の場合、自分の場のキャラを1枚退場させてもよい。そうした場合、BP5000以下の相手のフロントLのキャラを1枚まで選び、退場させ、このターン中、次に手札から使用する必要エナジーが2以下の黄のキャラカードの消費APを-1する。【起動メイン】【手札を2枚場外に置く】【ターン1】このキャラはこのターン中、BP+1000と【インパクト（1）】を得る。",
   "effectEn": "[On Play] Set this character to active and choose 1 of the following. Choose up to 1 character in your opponent's Front Line, rest it. If it is your turn, you may retire 1 character on your field. If you do, choose up to 1 character in your opponent's Front Line with BP 5000 or less and retire it, and this turn, reduce the AP cost of the next yellow character card with required energy 2 or less you use from your hand by 1. [Activate: Main] [Put 2 card(s) from your hand into your Outside Area] [Once Per Turn] This character gets BP+1000 and gains [Impact 1] this turn.",
   "triggerType": "Get",
@@ -419,7 +467,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -449,7 +501,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に紫か赤のカードがある場合、手札にあるこのカードの必要エナジーを【黄×1】減らす。",
   "effectEn": "If your opponent has Purple or Red card on their field, the required energy of this card in your hand [Yellow x1]is reduced.",
   "triggerType": "",
@@ -479,7 +535,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "Draw",
@@ -509,7 +571,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から4枚見る。その中から【ゲット】を持つキャラカードを1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 character card with [Get] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Color",
@@ -539,7 +605,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【相手のターン中】【フロントLにある場合】自分の【ドロートリガー】か【アクティブ】を発動する場合、代わりに【ゲット】にしてもよい。【アタック時】APを1支払ってもよい。そうした場合、カードを1枚引き、〈真希波・マリ・イラストリアス〉以外の自分の場のキャラを1枚まで選び、アクティブにする。",
   "effectEn": "[During Opponent's Turn] [While in Front Line] When you activate your [Draw Trigger] or [Active], you may make it [Get] instead. [When Attacking] You may pay 1 AP. If you do, draw 1 card(s), choose up to 1 character on your field other than <Mari Makinami Illustrious>, and set it to active.",
   "triggerType": "Get",
@@ -569,7 +639,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外から必要エナジーが3以下の黄のキャラカードを1枚まで手札に加える。",
   "effectEn": "[On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, add up to 1 Yellow character card(s) with required energy 3 or less from your Outside Area to your hand.",
   "triggerType": "Draw",
@@ -594,7 +668,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈式波・アスカ・ラングレー〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Asuka Shikinami Langley> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -619,7 +697,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のキャラを1枚選び、アクティブにする。選んだキャラが〈綾波 レイ〉の場合、自分のAPカードを1枚まで選び、アクティブにする。自分の場に黄以外の〈碇 シンジ〉がある場合、カードを1枚引く。",
   "effectEn": "Choose 1 character on your field, set it to active. If the chosen character is <Rei Ayanami>, choose up to 1 of your AP cards and set it to active. If you have a non-yellow <Shinji Ikari> on your field, draw 1 card(s).",
   "triggerType": "Draw",
@@ -644,7 +726,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手のフロントLのキャラを1枚選び、レストにする。選んだキャラが【レイド】を持たない場合、カードを1枚引く。",
   "effectEn": "Choose 1 character in your opponent's Front Line, rest it. If the chosen character doesn't have [Raid], draw 1 card(s).",
   "triggerType": "Draw",
@@ -669,7 +755,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -699,7 +789,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -729,7 +823,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から1枚見る。そのカードを山札の上か場外に置く。",
   "effectEn": "[On Play] Look at the top 1 card(s) of your deck. Put that card on top of your deck or into your Outside Area.",
   "triggerType": "",
@@ -759,7 +857,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のターン開始時、このキャラの下に裏向きのカードが3枚以上ある場合、このキャラを退場させる。【自分のターン中】このキャラの下の裏向きのカード1枚につき、このキャラはBP+500。【アタック時】自分の山札の上から1枚を裏向きでこのキャラの下に置く。",
   "effectEn": "At the start of your turn, if this character has 3 or more face-down cards under it, retire this character. [During Your Turn] For each 1 face-down card(s) under this character, This character gets BP+500. [When Attacking] Put the top 1 card(s) of your deck face down under this character.",
   "triggerType": "",
@@ -789,7 +891,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -819,7 +925,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】自分の山札の上から1枚を場外に置く。",
   "effectEn": "[Activate: Main] [Rest this card] Put the top 1 card(s) of your deck into your Outside Area.",
   "triggerType": "Active",
@@ -847,13 +957,13 @@
    {
     "color": "Purple",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【紫】。",
   "effectEn": "While this character is active, its generated energy +[Purple].",
   "triggerType": "",
@@ -883,7 +993,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】自分の場のカードの下の裏向きのカードを1枚まで場外に置く。【起動メイン】【エナジーLにある場合】このキャラをフロントLに移動させる。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] Put up to 1 face-down card(s) under cards on your field into your Outside Area. [Activate: Main] [While in Energy Line] Move this character to the Front Line.",
   "triggerType": "",
@@ -913,7 +1029,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "手札と場外にあるこのカードの必要エナジーを【紫×2】減らす。【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【自分のターン中】自分の場に必要エナジーが5以上の他のカードがある場合、このキャラはBP+1000。",
   "effectEn": "Reduce the required energy of this card in your hand and Outside Area by [Purple x2]. [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [During Your Turn] If you have other card with required energy 5 or more on your field, This character gets BP+1000.",
   "triggerType": "Active",
@@ -943,7 +1065,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札か場外から必要エナジーが2以下の紫の〔〈アヤナミレイ（仮称）〉か〈渚 カヲル〉かフィールドカード〕を1枚まで自分の場にレストで登場させる。場外から登場させた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Play up to 1 purple <Rei Ayanami (Tentative Name)> or <Kaworu Nagisa> or field card with required energy 2 or less from your hand or Outside Area to your field rested. If it was played from your Outside Area, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Get",
@@ -973,7 +1099,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": {
+   "kind": "name",
+   "value": "碇 シンジ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈碇 シンジ〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】カードを1枚引き、自分の手札から消費APが1で【レイド】を持たない紫のキャラカードを1枚まで自分の場にアクティブで登場させる。【起動メイン】【フロントLにある場合】【ターン1】自分のフロントLの他のキャラを1枚退場させる。そうした場合、このキャラの【登場時】を発動する。",
   "effectEn": "[Raid] Can Raid onto <Shinji Ikari>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] Draw 1 card(s), and play up to 1 purple character card(s) with AP cost 1 and without [Raid] from your hand to your field active. [Activate: Main] [While in Front Line] [Once Per Turn] Retire 1 other character in your Front Line. If you do, activate this character's [On Play].",
   "triggerType": "Raid",
@@ -1003,7 +1138,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "碇 シンジ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈碇 シンジ〉/〈渚 カヲル〉アクティブにし、フロントLに移動できる【自分のターン中】自分の場外にあるカードの枚数により、このキャラは以下の効果を全て得る。・13枚以上：BP+1000と【ダメージ（2）】・26枚以上：BP+1000と【インパクト（4）】【起動メイン】【フロントLにある場合】【ターン1】自分の場のカードの下の裏向きのカードを1枚場外に置く。そうした場合、カードを1枚引く。",
   "effectEn": "[Raid] <Shinji Ikari>/Can Raid onto <Kaworu Nagisa>; set it to active and you may move it to the Front Line. [During Your Turn] Depending on the number of card in your Outside Area, this character gains all of the following effects. 13 or more: BP+1000 and [Damage 2]. 26 or more: BP+1000 and [Impact 4]. [Activate: Main] [While in Front Line] [Once Per Turn] Put 1 face-down card(s) under cards on your field into your Outside Area. If you do, Draw 1 card(s).",
   "triggerType": "Raid",
@@ -1033,7 +1175,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "渚 カヲル"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈渚 カヲル〉アクティブにし、フロントLに移動できる【登場時】カードを1枚引く。自分か相手の場のカードを1枚まで選び、そのカードの下にあるカードを全て場外に置く。",
   "effectEn": "[Raid] Can Raid onto <Kaworu Nagisa>; set it to active and you may move it to the Front Line. [On Play] Draw 1 card(s). Choose up to 1 card on your or your opponent's field and put all cards under that card into the Outside Area.",
   "triggerType": "Get",
@@ -1063,7 +1212,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "アヤナミレイ（仮称）"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈アヤナミレイ（仮称）〉アクティブにし、フロントLに移動できる【自分のターン中】このキャラはBP+500。【登場時】カードを2枚引き、自分の手札を2枚場外に置く。【退場時】自分の手札を1枚場外に置いてもよい。そうした場合、このカードを自分の場にレストで登場させる。",
   "effectEn": "[Raid] Can Raid onto <Rei Ayanami (Tentative Name)>; set it to active and you may move it to the Front Line. [During Your Turn] This character gets BP+500. [On Play] Draw 2 card(s), then put 2 card(s) from your hand into your Outside Area. [On Retire] You may put 1 card(s) from your hand into your Outside Area. If you do, play this card to your field rested.",
   "triggerType": "Raid",
@@ -1091,13 +1247,13 @@
    {
     "color": "Purple",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【紫】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Purple] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -1127,7 +1283,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から4枚見る。その中から〈碇 シンジ〉か〈エヴァンゲリオン第13号機〉か〈リリス〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 <Shinji Ikari> or <Evangelion 13> or <Lilith> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -1157,7 +1317,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+500。【起動メイン】【エナジーLにある場合】自分のエナジーLのレストの〈碇 シンジ〉を1枚選び、アクティブにする。そうした場合、このキャラをアクティブにする。〈渚 カヲル〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "[Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+500 this turn. [Activate: Main] [While in Energy Line] Choose 1 rested <Shinji Ikari> in your Energy Line, set it to active. If you do, Set this character to active. This <Kaworu Nagisa> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Color",
@@ -1187,9 +1351,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "WILLE"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -1219,9 +1387,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "WILLE"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "式波・アスカ・ラングレー"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈式波・アスカ・ラングレー〉アクティブにし、フロントLに移動できるこのキャラが退場する場合、代わりにレイド状態の上のこのカードを場外に置いてもよい。【登場時】相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。",
   "effectEn": "[Raid] Can Raid onto <Asuka Shikinami Langley>; set it to active and you may move it to the Front Line. If this character would be retired, you may put this card on top of the Raid stack into your Outside Area instead. [On Play] Choose up to 1 character in your opponent's Front Line, it gets BP-1000 this turn.",
   "triggerType": "Raid",
@@ -1251,9 +1426,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "WILLE"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "真希波・マリ・イラストリアス"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈真希波・マリ・イラストリアス〉アクティブにし、フロントLに移動できるこのキャラの下の裏向きのカード1枚につき、このキャラはBP+500。【登場時】カードを2枚引き、自分の手札を1枚場外に置く。【起動メイン】【フロントLにある場合】【ターン1】相手のフロントLのキャラを1枚選び、このターン中、BP-1000。この効果で相手のキャラのBPが0以下になった場合、自分の山札の上から1枚まで裏向きでこのキャラの下に置く。",
   "effectEn": "[Raid] Can Raid onto <Mari Makinami Illustrious>; set it to active and you may move it to the Front Line. For each 1 face-down card(s) under this character, This character gets BP+500. [On Play] Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area. [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 character in your opponent's Front Line, it gets BP-1000 this turn. If your opponent's character's BP became 0 or less due to this effect, put up to 1 card(s) from the top of your deck face down under this character.",
   "triggerType": "Raid",
@@ -1283,9 +1465,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "WILLE"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "式波・アスカ・ラングレー"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈式波・アスカ・ラングレー〉アクティブにし、フロントLに移動できるこのキャラのアタック終了時、自分の場外の［特徴：WILLE］を4枚リムーブエリアに置いてもよい。そうした場合、このキャラをアクティブにし、このキャラはこのターン中、BP+3000と「このキャラはBP3000以下のキャラにブロックされない。」を得て、このキャラのレイド元のカードを場外に置く。【登場時】相手のフロントLに元々のBPよりBPが低いキャラが2枚以上ある場合、このキャラはこのターン中、【2回アタック】を得る。",
   "effectEn": "[Raid] Can Raid onto <Asuka Shikinami Langley>; set it to active and you may move it to the Front Line. At the end of this character's attack, you may put 4 [Trait: WILLE] from your Outside Area into your Remove Area. If you do, set this character to active; it gains BP+3000 and “This character cannot be blocked by characters with BP 3000 or less” this turn, and put this character's Raid source cards into your Outside Area. [On Play] If your opponent has 2 or more characters whose BP is lower than their original BP in their Front Line, this character gains [Double Attack] this turn.",
   "triggerType": "Raid",
@@ -1315,9 +1504,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "WILLE"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -1347,9 +1540,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "WILLE"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の場の必要エナジーが5以上の紫のキャラを1枚まで選び、このターン中、【インパクト（1）】か【ダメージ（2）】を与える。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Choose up to 1 purple character on your field with required energy 5 or more; it gains [Impact 1] or [Damage 2] this turn.",
   "triggerType": "Draw",
@@ -1379,9 +1576,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "WILLE"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】自分の手札の［特徴：WILLE］を1枚場外に置く。そうした場合、カードを1枚引く。",
   "effectEn": "[Activate: Main] [Rest this card] Put into the owner's outside area 1 [Trait: WILLE] in your hand. If you do, Draw 1 card(s).",
   "triggerType": "Active",
@@ -1411,9 +1612,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "WILLE"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に黄か赤のカードがある場合、手札にあるこのカードの必要エナジーを【紫×1】減らす。",
   "effectEn": "If your opponent has Yellow or Red card on their field, the required energy of this card in your hand [Purple x1]is reduced.",
   "triggerType": "",
@@ -1443,9 +1648,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "WILLE"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1475,9 +1684,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "WILLE"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "Draw",
@@ -1507,9 +1722,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "WILLE"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分の手札の［特徴：WILLE］を1枚場外に置く。そうした場合、相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Put into the owner's outside area 1 [Trait: WILLE] in your hand. If you do, Choose up to 1 character in your opponent's Front Line, it gets BP-1000 this turn.",
   "triggerType": "Draw",
@@ -1539,9 +1758,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "WILLE"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このキャラはBP+1000。【登場時】カードを1枚引く。",
   "effectEn": "[During Your Turn] This character gets BP+1000. [On Play] Draw 1 card(s).",
   "triggerType": "Active",
@@ -1571,9 +1794,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "WILLE"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の場外から〈碇 シンジ〉か［特徴：WILLE］を1枚手札に加える。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Add 1 <Shinji Ikari> or [Trait: WILLE] from your Outside Area to your hand.",
   "triggerType": "",
@@ -1603,9 +1830,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "WILLE"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "葛城 ミサト"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈葛城 ミサト〉アクティブにし、フロントLに移動できる【登場時】このキャラはこのターン中、「相手はこのキャラのアタックを可能ならブロックしなければならない。」を得る。【退場時】自分の山札の上から5枚見る。その中から必要エナジーが5以上のカードを2枚まで公開し手札に加える。残りを望む順で山札の下に置く。",
   "effectEn": "[Raid] Can Raid onto <葛城 ミサト>; set it to active and you may move it to the Front Line. [On Play] This character gains “Your opponent must block this character's attacks if able” this turn. [On Retire] Look at the top 5 card(s) of your deck. Reveal up to 2 cards with required energy 5 or more among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Raid",
@@ -1635,9 +1869,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "WILLE"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -1667,9 +1905,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "WILLE"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から［特徴：WILLE］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: WILLE] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -1699,9 +1941,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "WILLE"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【ターン1】このキャラが登場したターン中のみ発動できる。自分の場の［特徴：WILLE］を1枚選び、このターン中、「このキャラがアタックしてブロックされなかった時、カードを1枚まで引く。」を与える。",
   "effectEn": "[Activate: Main] [Once Per Turn] Can only activate during the turn this character was played. Choose 1 [Trait: WILLE] on your field, it gains “When this character attacks and is not blocked, Draw up to 1 card(s)” this turn.",
   "triggerType": "Color",
@@ -1731,9 +1977,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "WILLE"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外から必要エナジーが3以下で消費APが1の紫の〈碇 シンジ〉を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[When Attacking] You may put 1 card(s) from your hand into your Outside Area. If you do, Play up to 1 Purple <Shinji Ikari> with required energy 3 or less and with AP cost 1 from your Outside Area to your field rested.",
   "triggerType": "",
@@ -1763,7 +2013,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚を裏向きでこのフィールドの下に置く。【起動メイン】【レストにする】このフィールドの下に裏向きのカードがない場合のみ発動できる。このフィールドを退場させる。【退場時】自分の場外からキャラカードを1枚まで手札に加える。自分のターン中の場合、自分の手札を1枚場外に置いてもよい。そうした場合、自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "[On Play] Put the top 2 card(s) of your deck face down under this Field. [Activate: Main] [Rest this card] Can only activate if this field has no face-down cards under it. Retire this Field. [On Retire] Add up to 1 character card from your Outside Area to your hand. If it is your turn, you may put 1 card(s) from your hand into your Outside Area. If you do, Choose up to 1 of your AP cards, set it to active.",
   "triggerType": "Get",
@@ -1788,7 +2042,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1813,7 +2071,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のフロントLのアクティブのキャラを1枚レストにする。そうした場合、カードを3枚引く。",
   "effectEn": "Rest 1 active character in your Front Line. If you do, Draw 3 card(s).",
   "triggerType": "Draw",
@@ -1838,7 +2100,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手のフロントLのキャラを1枚まで選び、このターン中、BP-3000。相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。",
   "effectEn": "Choose up to 1 character in your opponent's Front Line, it gets BP-3000 this turn. Choose up to 1 character in your opponent's Front Line, it gets BP-1000 this turn.",
   "triggerType": "Special",
@@ -1863,7 +2129,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場外から紫の〈碇 シンジ〉を1枚自分の場にレストで登場させる。",
   "effectEn": "Play 1 Purple <Shinji Ikari> from your Outside Area to your field rested.",
   "triggerType": "Active",
@@ -1888,7 +2158,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。カードを1枚引き、自分の手札を1枚場外に置く。自分の場に〈碇 シンジ〉か〈エヴァンゲリオン初号機（ガイウスの槍）〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. If you have <Shinji Ikari> or <Evangelion Test Type-01 (Spear of Gaius)> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -1913,7 +2187,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1938,7 +2216,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に〈碇 シンジ〉か〈エヴァンゲリオン第13号機〉がある場合、手札にあるこのカードの消費APを-1する。BP5000以下の相手のフロントLのキャラを1枚選び、退場させる。",
   "effectEn": "If you have <Shinji Ikari> or <Evangelion 13> on your field, reduce the AP cost of this card in your hand by 1. Choose 1 character in your opponent's Front Line with BP 5000 or less, retire it.",
   "triggerType": "Special",
@@ -1963,7 +2245,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手のフロントLのキャラを1枚選び、このターン中、BP-1000。自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "Choose 1 character in your opponent's Front Line, it gets BP-1000 this turn. Choose up to 1 of your AP cards, set it to active.",
   "triggerType": "Active",
@@ -1988,7 +2274,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2016,13 +2306,13 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
   "effectEn": "While this character is active, its generated energy +[Red].",
   "triggerType": "",
@@ -2050,13 +2340,13 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【赤】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Red] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -2086,7 +2376,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から1枚まで場外に置き、残りを望む順で山札の上に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Put up to 1 of them into your Outside Area, Put the rest on top of your deck in any order.",
   "triggerType": "Draw",
@@ -2114,13 +2408,15 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【起動メイン】【ターン1】自分の場外に必要エナジーが異なる赤の〈綾波 レイ〉が2種類以上ある場合のみ発動できる。このキャラは次の自分のターン開始時まで、発生エナジー+【赤】。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [Activate: Main] [Once Per Turn] Can only activate if you have 2 or more red <Rei Ayanami> with different required energy in your Outside Area. Until the start of your next turn, this character's generated energy +[Red].",
   "triggerType": "",
@@ -2150,7 +2446,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[Activate: Main] [Rest this card] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -2180,7 +2480,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -2210,7 +2514,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【赤×2】減らす。【登場時】自分の山札の上から1枚見る。そのカードを山札の上か場外に置く。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Red x2]is reduced. [On Play] Look at the top 1 card(s) of your deck. Put that card on top of your deck or into your Outside Area.",
   "triggerType": "Active",
@@ -2240,7 +2548,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【場外にある場合】【手札を2枚場外に置く】【APを1支払う】このカードの必要エナジーを満たしている場合のみ発動できる。場外のこのカードを自分の場にレストで登場させる。【登場時】このキャラと別のラインにある自分のキャラを1枚選び、このキャラと位置を入れ替えてもよい。",
   "effectEn": "[Activate: Main] [While in Outside Area] [Put 2 card(s) from your hand into your Outside Area] [Pay 1 AP] Can only activate if you meet this card's required energy. Play this card from your Outside Area to your field rested. [On Play] You may choose 1 of your characters in a different line from this character and swap its position with this character.",
   "triggerType": "Color",
@@ -2270,7 +2582,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に黄か紫のカードがある場合、手札にあるこのカードの必要エナジーを【赤×1】減らす。",
   "effectEn": "If your opponent has Yellow or Purple card on their field, the required energy of this card in your hand [Red x1]is reduced.",
   "triggerType": "",
@@ -2300,7 +2616,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "真希波・マリ・イラストリアス"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈真希波・マリ・イラストリアス〉アクティブにし、フロントLに移動できる【登場時】自分の場に【トリガー】を持たないカードが4枚以上ある場合、カードを1枚引く。【退場時】相手のフロントLのキャラを1枚まで選び、レストにする。",
   "effectEn": "[Raid] Can Raid onto <Mari Makinami Illustrious>; set it to active and you may move it to the Front Line. [On Play] If you have 4 or more cards without [Trigger] on your field, draw 1 card(s). [On Retire] Choose up to 1 character in your opponent's Front Line, rest it.",
   "triggerType": "",
@@ -2330,7 +2653,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の〈式波・アスカ・ラングレー〉を1枚退場させてもよい。そうした場合、このキャラをアクティブにし、カードを1枚引く。",
   "effectEn": "[On Play] You may retire 1 <Asuka Shikinami Langley> on your field. If you do, set this character to active and draw 1 card(s).",
   "triggerType": "",
@@ -2360,7 +2687,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "碇 シンジ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈碇 シンジ〉アクティブにし、フロントLに移動できるこのキャラの下の裏向きのカードの枚数により、このキャラは以下の効果を得る。・0枚：【自分のターン中】このキャラはBP+5000と【インパクト（3）】・4枚以上：このキャラは、相手のトリガーの効果で選ばれない。このキャラのアタック終了時、このキャラの下の裏向きのカードを見て、2枚まで公開し手札に加える。2枚手札に加えた場合、このキャラをアクティブにする。【登場時】自分の場外から赤の〈綾波 レイ〉を各必要エナジーにつき1枚までこのキャラの下に裏向きで置く。",
   "effectEn": "[Raid] Can Raid onto <Shinji Ikari>; set it to active and you may move it to the Front Line. Depending on the number of face-down cards under this character, this character gains the following effects. 0: [During Your Turn] This character gets BP+5000 and [Impact 3]. 4 or more: This character cannot be chosen by your opponent's Trigger effects. At the end of this character's attack, look at the face-down cards under this character, reveal up to 2 of them, and add them to your hand. If you added 2 card(s) to your hand, set this character to active. [On Play] Put up to 1 red <Rei Ayanami> of each required energy from your Outside Area face down under this character.",
   "triggerType": "Raid",
@@ -2390,7 +2724,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "綾波 レイ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈綾波 レイ〉アクティブにし、フロントLに移動できる【起動メイン】【フロントLにある場合】【このカードを退場させる】相手のフロントLのキャラを1枚まで選び、退場させる。このターン中、次に手札から使用する〈碇 シンジ〉かカード名に「初号機」を含むキャラカードの必要エナジーを【赤×1】減らし、消費APを-1する。【退場時】カードを2枚引く。",
   "effectEn": "[Raid] Can Raid onto <Rei Ayanami>; set it to active and you may move it to the Front Line. [Activate: Main] [While in Front Line] [Retire this card] Choose up to 1 character in your opponent's Front Line, retire it. This turn, reduce the required energy of the next <Shinji Ikari> or character card with “Unit-01” in its card name you use from your hand by [Red x1] and its AP cost by 1. [On Retire] Draw 2 card(s).",
   "triggerType": "Raid",
@@ -2420,7 +2761,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "式波・アスカ・ラングレー"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈式波・アスカ・ラングレー〉アクティブにし、フロントLに移動できる【登場時】自分の手札から必要エナジーが『0』以下の【トリガー】を持たない赤のキャラカードを1枚まで自分の場にレストで登場させる。自分の場の【トリガー】を持たないカード1枚につき、この効果で登場させるキャラの必要エナジーの範囲+1。自分の場に【トリガー】を持たないカードが4枚以上ある場合、カードを2枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[Raid] Can Raid onto <Asuka Shikinami Langley>; set it to active and you may move it to the Front Line. [On Play] Play up to 1 red character card with required energy “0” or less and without [Trigger] from your hand to your field rested. For each 1 card(s) without [Trigger] on your field, the required energy range of characters played by this effect is increased by 1. If you have 4 or more cards without [Trigger] on your field, draw 2 card(s) and put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Raid",
@@ -2450,7 +2798,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "damage": 2
+  },
+  "raid": {
+   "kind": "name",
+   "value": "真希波・マリ・イラストリアス"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈真希波・マリ・イラストリアス〉アクティブにし、フロントLに移動できる【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【ターン1】このキャラのアタック終了時、相手のフロントLにキャラがある場合、自分の手札の【トリガー】を持たないカードを2枚場外に置いてもよい。そうした場合、このキャラをアクティブにし、このターン中、BP+3000。",
   "effectEn": "[Raid] Can Raid onto <Mari Makinami Illustrious>; set it to active and you may move it to the Front Line. [Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [Once Per Turn] At the end of this character's attack, if your opponent has a character in their Front Line, you may put 2 card(s) without [Trigger] from your hand into your Outside Area. If you do, set this character to active, and it gets BP+3000 this turn.",
   "triggerType": "Raid",
@@ -2480,7 +2837,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -2510,7 +2871,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -2540,7 +2905,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】以下から1つ選ぶ。・自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。・自分の場のキャラを1枚まで選び、別のラインに移動させる。",
   "effectEn": "[On Play] Choose 1 of the following. Choose up to 1 other character on your field, it gets BP+1000 this turn. Choose up to 1 character on your field, move it to another line.",
   "triggerType": "Draw",
@@ -2570,7 +2939,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -2600,7 +2975,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【相手のターン中】自分のライフエリアから【トリガー】を持たないカードが場外に置かれた時、このキャラをこのターン中、BP+2000してもよい。〈式波・アスカ・ラングレー〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "[During Opponent's Turn] When a card without [Trigger] is put from your Life Area into your Outside Area, you may give this character BP+2000 this turn. This <Asuka Shikinami Langley> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "",
@@ -2630,7 +3009,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【赤×2】減らす。【登場時】自分の山札の上から1枚見て、見たカードが【トリガー】を持たないカードの場合、公開し手札に加えてもよい。手札に加えない場合、そのカードを山札の上に置く。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Red x2]is reduced. [On Play] Look at the top 1 card(s) of your deck; if it is a card without [Trigger], you may reveal it and add it to your hand. If you don't add it to your hand, put that card on top of your deck.",
   "triggerType": "",
@@ -2660,7 +3043,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -2690,7 +3077,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見る。その中から【トリガー】を持たない赤のカードを1枚まで場外に置く。残りを望む順で山札の上に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck. Put up to 1 red card(s) without [Trigger] among them into your Outside Area. Put the rest on top of your deck in any order.",
   "triggerType": "",
@@ -2720,7 +3111,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中からカード名に「2号機」を含むキャラカードか【トリガー】を持たないキャラカードを1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 character card with “Unit-02” in its card name or character card without [Trigger] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -2750,7 +3145,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【相手のターン中】自分のライフエリアから【トリガー】を持たないカードが場外に置かれた時、自分の場に【トリガー】を持たないカードが4枚以上ある場合、アクティブのこのキャラをレストにしてもよい。そうした場合、場外に置かれたそのカードを1枚まで手札に加える。〈真希波・マリ・イラストリアス〉のこの効果は1ターンに1回のみ発動できる。【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[During Opponent's Turn] When a card without [Trigger] is put from your Life Area into your Outside Area, if you have 4 or more cards without [Trigger] on your field, you may rest this active character. If you do, add up to 1 of the cards put into the Outside Area to your hand. This <Mari Makinami Illustrious> effect can only activate 1 time(s) per 1 turn(s). [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -2780,7 +3179,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から5枚見る。その中からカード名に「零号機」か「初号機」を含むキャラカードを1枚まで公開し手札に加える。残りを望む順で山札の下に置く。【起動メイン】【ターン1】自分のエナジーLのカードを1枚選び、アクティブにする。",
   "effectEn": "[On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 character card with “Unit-00” or “Unit-01” in its card name among them and add it to your hand. Put the rest on the bottom of your deck in any order. [Activate: Main] [Once Per Turn] Choose 1 card in your Energy Line, set it to active.",
   "triggerType": "Get",
@@ -2805,7 +3208,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは自分の場に〈碇 シンジ〉かカード名に「初号機」を含むキャラがある場合のみ使用できる。BP5000以下の相手のフロントLのキャラを1枚選び、退場させる。自分の場外の〈綾波 レイ〉を1枚まで、裏向きのカードが下にない自分の場の〈碇 シンジ〉の下に裏向きで置く。",
   "effectEn": "This card can only be used if you have <Shinji Ikari> or a character with “Unit-01” in its card name on your field. Choose 1 character in your opponent's Front Line with BP 5000 or less, retire it. Put up to 1 <Rei Ayanami> from your Outside Area face down under <Shinji Ikari> on your field that has no face-down cards under it.",
   "triggerType": "Special",
@@ -2830,7 +3237,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈碇 シンジ〉かカード名に「初号機」を含むキャラがある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Shinji Ikari> or a character with “Unit-01” in its card name on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -2855,7 +3266,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場の【レイド】を持ち、レイド状態でないキャラを1枚選び、アクティブにし、このターン中、BP+1000と【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、指定した場合、相手はブロックできない）を与える。",
   "effectEn": "Choose 1 non-Raided character with [Raid] on your field, set it to active, and it gains BP+1000 and [Snipe] (Can attack a chosen character in your opponent's Front Line; if you do, your opponent cannot block) this turn.",
   "triggerType": "Draw",
@@ -2880,7 +3295,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2905,7 +3324,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP2000』以下の相手のフロントLのキャラを1枚選び、退場させる。自分の場の【トリガー】を持たないカード1枚につき、この効果で選べるキャラのBPの範囲+1000。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 2000 or less, retire it. For each 1 card(s) without [Trigger] on your field, the BP range of characters you can choose with this effect is increased by 1000.",
   "triggerType": "Special",
@@ -2930,7 +3353,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを2枚引く。自分の場に【トリガー】を持たないカードが4枚以上ある場合、さらにカードを1枚引く。",
   "effectEn": "Draw 2 card(s). If you have 4 or more cards without [Trigger] on your field, draw 1 more card(s).",
   "triggerType": "Active",
@@ -2955,7 +3382,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2985,7 +3416,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "Active",
@@ -3015,7 +3452,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見る。その中から望む枚数を望む順で山札の上に置き、残りを場外に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest into your Outside Area.",
   "triggerType": "Active",
@@ -3045,7 +3486,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "",
@@ -3075,7 +3522,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": {
+   "kind": "name",
+   "value": "碇 シンジ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈碇 シンジ〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【アタック時】自分のエナジーLのアクティブのカードを望む枚数レストにする。この効果でレストにしたカードの必要エナジーの合計により、このキャラはこのターン中、以下の効果を全て得る。・4以上：BP+3000。・8以上：【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）",
   "effectEn": "[Raid] Can Raid onto <Shinji Ikari>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [When Attacking] Rest any number of active cards in your Energy Line. Depending on the total required energy of the cards rested by this effect, this character gains all of the following effects this turn. 4 or more: BP+3000. 8 or more: [Damage 2] (When this character deals direct damage by attacking, it deals 2 damage instead)",
   "triggerType": "Raid",
@@ -3105,7 +3561,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "doubleBlock": true
+  },
+  "raid": {
+   "kind": "name",
+   "value": "綾波 レイ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈綾波 レイ〉アクティブにし、フロントLに移動できる【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）【退場時】カードを2枚引く。その後、自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外から必要エナジーが1以下で赤の〈綾波 レイ〉を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[Raid] Can Raid onto <Rei Ayanami>; set it to active and you may move it to the Front Line. [Double Block] (The first time this character blocks each turn, set it to active) [On Retire] Draw 2 card(s). Then, You may put 1 card(s) from your hand into your Outside Area. If you do, Play up to 1 Red <Rei Ayanami> with required energy 1 or less from your Outside Area to your field rested.",
   "triggerType": "Raid",
@@ -3135,7 +3600,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）自分の場に【トリガー】を持たないカードが4枚以上ある場合、このキャラは【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses [Impact] during this battle) If you have 4 or more cards without [Trigger] on your field, this character gains [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opposing player)",
   "triggerType": "Color",
@@ -3165,7 +3636,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -3195,7 +3670,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、カードを2枚引く。【起動メイン】【レストにする】【このカードを退場させる】カードを1枚引く。",
   "effectEn": "[On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, Draw 2 card(s). [Activate: Main] [Rest this card] [Retire this card] Draw 1 card(s).",
   "triggerType": "",
@@ -3220,7 +3699,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場の〈碇 シンジ〉かカード名に「初号機」を含むキャラを1枚まで選び、次の自分のターン開始時まで、BP+3000。自分の場のアクティブの〈綾波 レイ〉を1枚レストにしてもよい。そうした場合、カードを1枚引く。",
   "effectEn": "Choose up to 1 <Shinji Ikari> or character with “Unit-01” in its card name on your field; it gets BP+3000 until the start of your next turn. You may rest 1 active <Rei Ayanami> on your field. If you do, Draw 1 card(s).",
   "triggerType": "Active",
@@ -3250,7 +3733,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】カードを1枚引く。",
   "effectEn": "[On Retire] Draw 1 card(s).",
   "triggerType": "Get",
@@ -3280,7 +3767,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. [Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -3310,7 +3801,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【紫×2】減らす。【起動メイン】【レストにする】このカードを裏向きで自分の場の〈エヴァンゲリオン第13号機〉の下に置く。そうした場合、カードを2枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Purple x2]is reduced. [Activate: Main] [Rest this card] Put this card face down under <Evangelion 13> on your field. If you do, Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -3340,9 +3835,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "WILLE"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがレイドされた時、以下から1つ選ぶ。（レイドしたキャラの【登場時】とこの効果は望む順で処理する）・カードを1枚引く。・相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。",
   "effectEn": "When this character is Raided, choose 1 of the following. (Of the Raided character's [On Play] and this effect are resolved in any order) Draw 1 card(s). Choose up to 1 character in your opponent's Front Line, it gets BP-1000 this turn.",
   "triggerType": "",
@@ -3365,7 +3864,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3388,7 +3891,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3411,7 +3918,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3434,7 +3945,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3457,7 +3972,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3480,7 +3999,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

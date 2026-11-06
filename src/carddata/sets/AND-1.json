@@ -21,9 +21,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNDER"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -53,9 +59,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNDER"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "Active",
@@ -85,9 +97,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNDER"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -117,9 +133,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNDER"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】相手のフロントLのキャラを1枚まで選び、このターン中、元々の効果を全て失わせる。",
   "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line; it loses all original effects this turn.",
   "triggerType": "",
@@ -149,9 +169,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNDER"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分のフロントLに他の［特徴：UNDER］が2枚以上ある場合、このキャラはBP+1500。",
   "effectEn": "[During Your Turn] If you have 2 or more other [Trait: UNDER] in your Front Line, This character gets BP+1500.",
   "triggerType": "Active",
@@ -181,9 +205,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNDER"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から［特徴：UNDER］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: UNDER] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Color",
@@ -213,9 +241,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNDER"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "ビリー"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ビリー〉アクティブにし、フロントLに移動できる【登場時】カードを1枚引く。【起動メイン】【ターン1】相手のフロントLにあるキャラに応じて、このキャラはこのターン中、以下の効果を全て得る。・BP2000以下：このキャラはBP2000以下のキャラにブロックされない。・レイド状態：BP+1000と【ダメージ（2）】・消費APが2以上：BP+1000と【インパクト（1）】",
   "effectEn": "[Raid] Can Raid onto <ビリー>; set it to active and you may move it to the Front Line. [On Play] Draw 1 card(s). [Activate: Main] [Once Per Turn] Depending on the characters in your opponent's Front Line, this character gains all of the following effects this turn. BP 2000 or less: This character cannot be blocked by characters with BP 2000 or less. Raided: BP+1000 and [Damage 2]. AP cost 2 or more: BP+1000 and [Impact 1].",
   "triggerType": "Raid",
@@ -245,9 +280,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNDER"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -277,9 +316,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNDER"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【ターン1】自分のフロントLの他の［特徴：UNDER］を1枚選び、エナジーLに移動させる。",
   "effectEn": "[Activate: Main] [Once Per Turn] Choose 1 other [Trait: UNDER] in your Front Line, move it to the Energy Line.",
   "triggerType": "Draw",
@@ -309,9 +352,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNDER"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラは、相手のトリガーの効果で選ばれない。【自分のターン中】自分のフロントLに他の［特徴：UNDER］が3枚以上あり、その中に〈リップ〉がある場合、このキャラはBP+1000。",
   "effectEn": "This character cannot be chosen by your opponent's Trigger effects. [During Your Turn] If you have 3 or more other [Trait: UNDER] in your Front Line, including <リップ>, this character gets BP+1000.",
   "triggerType": "",
@@ -341,9 +388,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNDER"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -373,9 +424,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNDER"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分のフロントLに他の［特徴：UNDER］が2枚以上ある場合、このキャラはBP+1000。",
   "effectEn": "[During Your Turn] If you have 2 or more other [Trait: UNDER] in your Front Line, This character gets BP+1000.",
   "triggerType": "Active",
@@ -405,9 +460,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNDER"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】自分の場の他の［特徴：UNDER］を1枚まで選び、このターン中、【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を与える。",
   "effectEn": "[When Attacking] Choose up to 1 other [Trait: UNDER] on your field, This turn, [Impact +1](Damage dealt by Impact is increased by 1; if it doesn't have Impact, [Impact 1])",
   "triggerType": "",
@@ -437,9 +496,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNDER"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "リップ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈リップ〉アクティブにし、フロントLに移動できるこのキャラが与えたダメージによるトリガーチェックでは、相手は【アクティブ】を発動できない。【登場時】このキャラはこのターン中、【インパクト（1）】を得る。相手のフロントLのキャラを『1枚まで』選び、次の自分のターン開始時まで、BP-1000。自分のフロントLに他の［特徴：UNDER］が3枚以上ある場合、『2枚まで』に代わる。",
   "effectEn": "[Raid] Can Raid onto <リップ>; set it to active and you may move it to the Front Line. During trigger checks from damage dealt by this character, your opponent cannot activate [Active]. [On Play] This character, this turn, [Impact 1] is gained. Choose “up to 1” character in your opponent's Front Line; it gets BP-1000 until the start of your next turn. If you have 3 or more other [Trait: UNDER] in your Front Line, it becomes “up to 2” instead.",
   "triggerType": "Raid",
@@ -469,9 +535,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -501,9 +571,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】このキャラの下に裏向きのカードがある場合のみ発動できる。相手のフロントLのキャラを1枚選び、このターン中、BP-1000。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if there is a face-down card under this character. Choose 1 character in your opponent's Front Line, it gets BP-1000 this turn.",
   "triggerType": "Active",
@@ -533,9 +607,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】このキャラの下に裏向きのカードがあり、このキャラがアクティブの場合のみ発動できる。カードを1枚引く。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if this character has face-down cards under it and is active. Draw 1 card(s).",
   "triggerType": "Draw",
@@ -565,9 +643,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から［特徴：UNION］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: UNION] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -597,9 +679,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】以下から1つまで選ぶ。・カードを1枚引き、自分の手札を1枚場外に置く。・自分の場のレイド状態の〈ヴィクトル〉を1枚選び、レイド状態の上のカードを1枚場外に置く。そうした場合、自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "[On Play] Choose up to 1 of the following. Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. Choose 1 Raided <ヴィクトル> on your field and put 1 of its top Raided card(s) into your Outside Area. If you do, Choose up to 1 of your AP cards, set it to active.",
   "triggerType": "Color",
@@ -629,9 +715,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "出雲 風子"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈出雲 風子〉アクティブにし、フロントLに移動できる【自分のターン中】自分の場に他の［特徴：UNION］が3枚以上ある場合、このキャラはBP+500。【登場時】カードを1枚引く。裏向きのカードが下にない自分の場の〈アンディ〉を1枚まで選び、自分の山札の上から1枚を裏向きで選んだキャラの下に置く。【起動メイン】【フロントLにある場合】【ターン1】相手のフロントLのキャラを1枚選び、このターン中、BP-1000。",
   "effectEn": "[Raid] Can Raid onto <出雲 風子>; set it to active and you may move it to the Front Line. [During Your Turn] If you have 3 or more other [Trait: UNION] on your field, This character gets BP+500. [On Play] Draw 1 card(s). Choose up to 1 <アンディ> on your field with no face-down cards under it, and put the top 1 card(s) of your deck face down under the chosen character. [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 character in your opponent's Front Line, it gets BP-1000 this turn.",
   "triggerType": "Raid",
@@ -661,9 +754,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {
+   "doubleBlock": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）",
   "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active)",
   "triggerType": "Active",
@@ -693,9 +792,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラが自分の場から場外に置かれた時、裏向きのカードが下にない自分の場の〈アンディ〉の下に、このカードを裏向きで置いてもよい。【登場時】以下から2つ選ぶ。・このキャラをアクティブにする。・相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。・自分の場のキャラの下に置かれた裏向きのカードを全て見て、その中から1枚まで手札に加える。",
   "effectEn": "When this character is put from your field into your Outside Area, you may put this card face down under <アンディ> on your field that has no face-down cards under it. [On Play] Choose 2 of the following. Set this character to active. Choose up to 1 character in your opponent's Front Line, it gets BP-1000 this turn. Look at all face-down cards placed under characters on your field and add up to 1 of them to your hand.",
   "triggerType": "Get",
@@ -725,9 +828,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "アンディ"
+  },
+  "deckLimit": null,
   "effectJp": "このキャラが自分の場から場外に置かれた時、裏向きのカードが下にない自分の場の〈アンディ〉の下に、このカードを裏向きで置いてもよい。【レイド】〈アンディ〉アクティブにし、フロントLに移動できる【登場時】相手のフロントLのキャラを1枚まで選び、このターン中、BP-3000。このキャラの下に裏向きのカードがある場合、以下の効果が発動する。・このキャラの下の裏向きのカードを1枚場外に置き、このキャラはこのターン中、【インパクト（1）】を得る。",
   "effectEn": "When this character is put from your field into your Outside Area, you may put this card face down under <アンディ> on your field that has no face-down cards under it. [Raid] Can Raid onto <アンディ>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line, it gets BP-3000 this turn. If this character has face-down cards under it, the following effects activate. Put 1 face-down card(s) under this character into your Outside Area, and this character gains [Impact 1] this turn.",
   "triggerType": "Raid",
@@ -757,9 +867,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ブロック時】アタックしている相手のキャラが【インパクト】か【ダメージ】を持つ場合、このキャラはこのターン中、BP+1000。",
   "effectEn": "[When Blocking] If the attacking opponent's character has [Impact] or [Damage], this character gets BP+1000 this turn.",
   "triggerType": "",
@@ -789,9 +903,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -821,9 +939,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを場外に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest into your Outside Area.",
   "triggerType": "",
@@ -853,9 +975,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[When Attacking] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -885,9 +1011,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -917,9 +1047,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはBP2000以下のキャラにブロックされない。",
   "effectEn": "This character cannot be blocked by characters with BP 2000 or less.",
   "triggerType": "Draw",
@@ -947,15 +1081,15 @@
    {
     "color": "Purple",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【紫】。メインフェイズ終了時、このキャラを退場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Purple]. At the end of the Main Phase, retire this character.",
   "triggerType": "",
@@ -983,15 +1117,15 @@
    {
     "color": "Purple",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【紫】。",
   "effectEn": "While this character is active, its generated energy +[Purple].",
   "triggerType": "",
@@ -1021,9 +1155,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはBPをマイナスする効果を受けない。",
   "effectEn": "This character is not affected by effects that reduce BP.",
   "triggerType": "Draw",
@@ -1053,9 +1191,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNDER"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外から必要エナジーが3以下で特徴に「UNDER」を持つキャラカードを1枚まで手札に加える。",
   "effectEn": "[On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, add up to 1 character card with the trait “UNDER” and required energy 3 or less from your Outside Area to your hand.",
   "triggerType": "Draw",
@@ -1080,7 +1222,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場外からキャラカードを1枚まで手札に加える。自分の場に〈アンディ〉か〈ヴィクトル〉がある場合、カードを1枚引く。",
   "effectEn": "Add up to 1 character card from your Outside Area to your hand. If you have <アンディ> or <ヴィクトル> on your field, Draw 1 card(s).",
   "triggerType": "Draw",
@@ -1105,7 +1251,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを1枚引く。自分の場に特徴に「UNDER」を持つ〈ビリー〉がある場合、相手は自身の手札を1枚場外に置く。",
   "effectEn": "Draw 1 card(s). If you have <ビリー> with the trait “UNDER” on your field, your opponent puts 1 card(s) from their hand into their Outside Area.",
   "triggerType": "Draw",
@@ -1130,7 +1280,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手のフロントLのキャラを1枚選び、次の自分のターン開始時まで、BP-2000。",
   "effectEn": "Choose 1 character in your opponent's Front Line, Until the start of your next turn, BP-2000.",
   "triggerType": "",
@@ -1155,7 +1309,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から5枚見る。その中から［特徴：UNION］を2枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "Look at the top 5 card(s) of your deck. Reveal up to 2 [Trait: UNION] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -1180,7 +1338,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈アンディ〉か〈ヴィクトル〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <アンディ> or <ヴィクトル> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -1205,7 +1367,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手のフロントLのキャラを1枚選び、次の自分のターン開始時まで、『BP-3000』。自分の場に〈リップ〉がある場合、以下から1つ選ぶ。・『BP-4000』に代わる。・カードを1枚引く。",
   "effectEn": "Choose 1 character in your opponent's Front Line, Until the start of your next turn, 『BP-3000』. If you have <リップ> on your field, Choose 1 of the following. It becomes “BP-4000” instead. Draw 1 card(s).",
   "triggerType": "Special",
@@ -1230,7 +1396,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1258,13 +1428,13 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【赤】。メインフェイズ終了時、このキャラを退場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Red]. At the end of the Main Phase, retire this character.",
   "triggerType": "",
@@ -1294,7 +1464,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から4枚見る。その中からカードを1枚まで場外に置く。残りを望む順で自分の山札の上に置く。【退場時】カードを1枚引く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck. From among them, put up to 1 card(s) into your Outside Area. Put the rest on top of your deck in any order. [On Retire] Draw 1 card(s).",
   "triggerType": "Draw",
@@ -1324,9 +1498,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1356,9 +1534,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】〈アンディ〉以外の自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外から必要エナジーが2以下の赤の〈アンディ〉を1枚まで自分の場にアクティブで登場させる。",
   "effectEn": "[On Retire] You may put 1 card(s) other than <アンディ> from your hand into your Outside Area. If you do, Play up to 1 Red <アンディ> with required energy 2 or less from your Outside Area to your field active.",
   "triggerType": "",
@@ -1388,9 +1570,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【自分のターン中】このターン中に場外から自分の場にキャラが登場している場合、このキャラはBP+1000。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [During Your Turn] If a character was played from the Outside Area to your field this turn, this character gets BP+1000.",
   "triggerType": "",
@@ -1420,9 +1608,18 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": {
+   "kind": "name",
+   "value": "アンディ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈アンディ〉アクティブにし、フロントLに移動できる【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。【退場時】このカードが必要エナジーを満たしている場合、このカードを自分の場のキャラにレイドさせてもよい。",
   "effectEn": "[Raid] Can Raid onto <アンディ>; set it to active and you may move it to the Front Line. [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] This character, this turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained. [On Retire] If this card meets its required energy, you may Raid this card onto a character on your field.",
   "triggerType": "Raid",
@@ -1452,9 +1649,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -1484,9 +1685,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から4枚見る。その中から〈アンディ〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 <アンディ> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -1516,9 +1721,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚退場させてもよい。そうした場合、自分の場外から必要エナジーが2以下の赤の〈アンディ〉を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[On Play] You may retire 1 other character on your field. If you do, Play up to 1 Red <アンディ> with required energy 2 or less from your Outside Area to your field rested.",
   "triggerType": "Color",
@@ -1548,9 +1757,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "出雲 風子"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈出雲 風子〉アクティブにし、フロントLに移動できる【登場時】自分の場の他のキャラを1枚退場させてもよい。そうした場合、そのキャラのBP以下の相手のフロントLのキャラを1枚まで選び、退場させ、自分の場外から必要エナジーが2以下の赤の〈アンディ〉を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[Raid] Can Raid onto <出雲 風子>; set it to active and you may move it to the Front Line. [On Play] You may retire 1 other character on your field. If you do, choose up to 1 character in your opponent's Front Line with BP equal to or less than that character's BP and retire it, then play up to 1 red <アンディ> with required energy 2 or less from your Outside Area to your field rested.",
   "triggerType": "Raid",
@@ -1580,9 +1796,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Retire] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -1612,9 +1832,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】相手のフロントLのキャラを1枚まで選び、次の相手のアタックフェイズ終了時まで、「このキャラはアタックもブロックもできない。」を与える。【起動メイン】【ターン1】自分の場に必要エナジーが5以上のキャラがある場合のみ発動できる。以下から1つ選ぶ。・このキャラはこのターン中、【インパクト（1）】を得る。・このキャラはこのターン中、【ダメージ（2）】を得る。",
   "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line; until the end of your opponent's next Attack Phase, it gains “This character cannot attack or block” [Activate: Main] [Once Per Turn] Can only activate if you have a character with required energy 5 or more on your field. Choose 1 of the following. This character, this turn, [Impact 1] is gained. This character, this turn, [Damage 2] is gained.",
   "triggerType": "Get",
@@ -1644,9 +1868,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分のフロントLの他の［特徴：UNION］を1枚まで選び、そのキャラとこのキャラに次の相手のターン中、「相手はキャラの効果やイベントカードの効果でこのキャラを選ぶ際に、追加でAPを1支払わないと選べない。」を与える。〈ジーナ〉のこの効果は1ターンに1回のみ発動する。",
   "effectEn": "[On Play] Choose up to 1 other [Trait: UNION] in your Front Line; during your opponent's next turn, that character and this character gain “When choosing this character with a character effect or event card effect, your opponent must additionally pay 1 AP” This <ジーナ> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Color",
@@ -1676,9 +1904,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -1708,9 +1940,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【相手のターン中】このキャラがバトルに勝利した時、カードを1枚引く。",
   "effectEn": "[During Opponent's Turn] When this character wins a battle, draw 1 card(s).",
   "triggerType": "Active",
@@ -1740,9 +1976,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "シェン"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈シェン〉アクティブにし、フロントLに移動できる【フロントLにある場合】相手の場のキャラは可能ならアタックしなければならない。【相手のターン中】このキャラがバトルに勝利した時、カードを1枚引く。【登場時】このキャラはこのターン中、BP+1000と「相手はこのキャラのアタックを可能ならブロックしなければならない。」を得る。【起動メイン】【手札を2枚場外に置く】【ターン1】このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
   "effectEn": "[Raid] Can Raid onto <シェン>; set it to active and you may move it to the Front Line. [While in Front Line] Characters on your opponent's field must attack if able. [During Opponent's Turn] When this character wins a battle, draw 1 card(s). [On Play] This character it gets BP+1000 and gains “Your opponent must block this character's attacks if able” this turn. [Activate: Main] [Put 2 card(s) from your hand into your Outside Area] [Once Per Turn] This character, this turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained.",
   "triggerType": "Raid",
@@ -1772,9 +2015,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -1804,9 +2051,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】BP3000以下の相手のフロントLのキャラを1枚まで選び、このターン中、「このキャラはブロックできない。」を与える。",
   "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line with BP 3000 or less, it gains “This character cannot block” this turn.",
   "triggerType": "",
@@ -1836,9 +2087,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1868,9 +2123,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に他の［特徴：UNION］が5枚以上ある場合、このキャラはBP+500。",
   "effectEn": "If you have 5 or more other [Trait: UNION] on your field, This character gets BP+500.",
   "triggerType": "",
@@ -1900,9 +2159,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+500。",
   "effectEn": "[Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+500 this turn.",
   "triggerType": "Active",
@@ -1932,9 +2195,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "ジュイス"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ジュイス〉アクティブにし、フロントLに移動できる【起動メイン】【フロントLにある場合】【ターン1】相手はBP3000以上の自身のフロントLのキャラを1枚退場させてもよい。相手が退場させなかった場合、自分はカードを2枚まで引く。〈ジュイス〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "[Raid] Can Raid onto <ジュイス>; set it to active and you may move it to the Front Line. [Activate: Main] [While in Front Line] [Once Per Turn] Your opponent may retire 1 character in their Front Line with BP 3000 or more. If your opponent didn't retire one, draw up to 2 card(s). This <ジュイス> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Raid",
@@ -1964,9 +2234,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはBP4000以上のキャラにブロックされない。",
   "effectEn": "This character cannot be blocked by characters with BP 4000 or more.",
   "triggerType": "",
@@ -1996,9 +2270,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "Active",
@@ -2028,9 +2308,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "タチアナ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈タチアナ〉アクティブにし、フロントLに移動できるこのキャラはBP4000以上のキャラにブロックされない。【起動メイン】【手札を1枚場外に置く】【ターン1】このキャラはこのターン中、「このキャラはBP3000以下のキャラにブロックされない。」を得る。",
   "effectEn": "[Raid] Can Raid onto <タチアナ>; set it to active and you may move it to the Front Line. This character cannot be blocked by characters with BP 4000 or more. [Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] This character gains “This character cannot be blocked by characters with BP 3000 or less” this turn.",
   "triggerType": "Get",
@@ -2060,9 +2347,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "",
@@ -2092,9 +2385,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラのアタック終了時、このキャラをエナジーLに移動させる。",
   "effectEn": "At the end of this character's attack, move this character to the Energy Line.",
   "triggerType": "Active",
@@ -2124,9 +2421,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -2156,9 +2457,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分のフロントLの他の［特徴：UNION］1枚につき、このキャラはBP+500。",
   "effectEn": "[During Your Turn] For each 1 other [Trait: UNION] in your Front Line, This character gets BP+500.",
   "triggerType": "Draw",
@@ -2188,9 +2493,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -2220,9 +2531,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {
+   "calledStrike": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、指定した場合、相手はブロックできない）このキャラはBP2000以上のキャラを【狙い撃ち】で指定できない。",
   "effectEn": "[Snipe] (Can attack a chosen character in your opponent's Front Line; if you do, your opponent cannot block) This character cannot target characters with BP 2000 or more with [Snipe].",
   "triggerType": "",
@@ -2252,9 +2569,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【ターン1】このキャラが登場したターン中のみ発動できる。自分の場の他のキャラを1枚選び、このターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を与える。",
   "effectEn": "[Activate: Main] [Once Per Turn] Can only activate during the turn this character was played. Choose 1 other character on your field, This turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is given.",
   "triggerType": "",
@@ -2282,15 +2603,15 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
   "effectEn": "While this character is active, its generated energy +[Red].",
   "triggerType": "",
@@ -2318,15 +2639,15 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に他の［特徴：UNION］が3枚以上ある場合、このフィールドの発生エナジー+【赤】。",
   "effectEn": "If you have 3 or more other [Trait: UNION] on your field, this field's generated energy +[Red].",
   "triggerType": "Get",
@@ -2356,9 +2677,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "UNION"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】自分の場のキャラを1枚選び、このターン中、BP+1000。",
   "effectEn": "This Field is played active. [Activate: Main] [Rest this card] Choose 1 character on your field, it gets BP+1000 this turn.",
   "triggerType": "Get",
@@ -2383,7 +2708,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを『1枚』引き、自分のライフエリアにあるカードを1枚まで手札に加える。自分の場に必要エナジーが5以上のキャラがある場合、『2枚』に代わる。",
   "effectEn": "Draw “1” card(s), and add up to 1 card(s) from your Life Area to your hand. If you have character with required energy 5 or more on your field, it becomes “2” instead.",
   "triggerType": "Draw",
@@ -2408,7 +2737,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2433,7 +2766,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "BP3000以下の相手のフロントLのキャラを1枚選び、退場させる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it.",
   "triggerType": "",
@@ -2458,7 +2795,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは自分の場に〈出雲 風子〉がある場合のみ使用できる。BP5000以下の相手のフロントLのキャラを1枚か自分の場の〈アンディ〉を1枚選び、退場させる。",
   "effectEn": "This card can only be used if you have <出雲 風子> on your field. Choose 1 character in your opponent's Front Line with BP 5000 or less, or 1 <アンディ> on your field, and retire it.",
   "triggerType": "Special",
@@ -2483,7 +2824,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場の［特徴：UNION］の合計枚数×1000以下のBPの相手のフロントLのキャラを1枚選び、『退場させる』。自分の場に〈ジュイス〉がある場合、『リムーブエリアに置く』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP equal to or less than 1000 × the total number of [Trait: UNION] on your field, and “retire it” If you have <ジュイス> on your field, it becomes “put it into the Remove Area” instead.",
   "triggerType": "Special",
@@ -2506,7 +2851,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2529,7 +2878,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2552,7 +2905,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2575,7 +2932,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2598,7 +2959,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2621,7 +2986,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2644,7 +3013,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2667,7 +3040,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2690,7 +3067,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2713,7 +3094,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2736,7 +3121,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2759,7 +3148,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2782,7 +3175,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2805,7 +3202,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

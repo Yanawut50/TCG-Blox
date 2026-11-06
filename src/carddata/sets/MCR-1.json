@@ -19,13 +19,13 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【黄】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Yellow] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -55,7 +55,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -85,7 +89,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "Active",
@@ -115,7 +125,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見る。その中から〈シェリル・ノーム〉を望む枚数場外に置く。残りを望む順で自分の山札の上に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck. Put any number of <シェリル・ノーム> among them into your Outside Area. Put the rest on top of your deck in any order.",
   "triggerType": "",
@@ -145,7 +159,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -173,13 +191,13 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【黄】。",
   "effectEn": "While this character is active, its generated energy +[Yellow].",
   "triggerType": "",
@@ -209,7 +227,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から〈シェリル・ノーム〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 <シェリル・ノーム> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -239,7 +261,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場のレイド状態の〈シェリル・ノーム〉を1枚選び、レイド状態の上のカードを場外に置いてもよい。そうした場合、カードを1枚引き、自分の手札から必要エナジーを満たしこの効果で場外に置いたカードとカードナンバーが異なる〈シェリル・ノーム〉を1枚まで、選んだキャラのレイド元のカードにレイドさせる。【起動メイン】【レストにする】【APを1支払う】【ターン1】このキャラの【登場時】を発動する。",
   "effectEn": "[On Play] You may choose 1 Raided <シェリル・ノーム> on your field and put its top Raided card into your Outside Area. If you do, draw 1 card(s), and Raid up to 1 <シェリル・ノーム> that meets its required energy and has a different card number from the card put into your Outside Area by this effect from your hand onto the chosen character's Raid source card. [Activate: Main] [Rest this card] [Pay 1 AP] [Once Per Turn] Activate this character's [On Play].",
   "triggerType": "Color",
@@ -269,7 +295,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "シェリル・ノーム"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈シェリル・ノーム〉アクティブにし、フロントLに移動できる【登場時】自分の山札の上から3枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを場外に置く。【起動メイン】【フロントLにある場合】【レストにする】カードを1枚引く。",
   "effectEn": "[Raid] Can Raid onto <シェリル・ノーム>; set it to active and you may move it to the Front Line. [On Play] Look at the top 3 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest into your Outside Area. [Activate: Main] [While in Front Line] [Rest this card] Draw 1 card(s).",
   "triggerType": "Get",
@@ -299,7 +332,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "シェリル・ノーム"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈シェリル・ノーム〉アクティブにし、フロントLに移動できる【登場時】カードを1枚引き、相手のフロントLのキャラを1枚まで選び、レストにする。【起動メイン】【フロントLにある場合】【レストにする】相手のフロントLのレストのキャラを1枚選び、「このキャラは次の1回アクティブにならない。」を与える。",
   "effectEn": "[Raid] Can Raid onto <シェリル・ノーム>; set it to active and you may move it to the Front Line. [On Play] Draw 1 card(s), choose up to 1 character in your opponent's Front Line, and rest it. [Activate: Main] [While in Front Line] [Rest this card] Choose 1 rested character in your opponent's Front Line, it gains “This character it does not become active the next 1 time(s)”",
   "triggerType": "Get",
@@ -329,7 +369,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "シェリル・ノーム"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈シェリル・ノーム〉アクティブにし、フロントLに移動できる【自分のターン中】自分の場外に【レイド】を持つ〈シェリル・ノーム〉が3枚以上ある場合、このキャラはBP+1000と【インパクト（1）】を得る。【登場時】自分の場外から必要エナジーが4以下の〈シェリル・ノーム〉を1枚まで手札に加える。",
   "effectEn": "[Raid] Can Raid onto <シェリル・ノーム>; set it to active and you may move it to the Front Line. [During Your Turn] If you have 3 or more <シェリル・ノーム> with [Raid] in your Outside Area, this character gains BP+1000 and [Impact 1]. [On Play] Add up to 1 <シェリル・ノーム> with required energy 4 or less from your Outside Area to your hand.",
   "triggerType": "Raid",
@@ -359,7 +406,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "シェリル・ノーム"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈シェリル・ノーム〉アクティブにし、フロントLに移動できる【自分のターン中】自分の場外に【レイド】を持つ〈シェリル・ノーム〉が5枚以上ある場合、このキャラはBP+500と【ダメージ（2）】を得る。【登場時】『BP3000以下』の相手のフロントLのキャラを1枚まで選び、退場させる。自分の場外に【レイド】を持つ〈シェリル・ノーム〉が3枚以上ある場合、『BP4000以下』に代わる。",
   "effectEn": "[Raid] Can Raid onto <シェリル・ノーム>; set it to active and you may move it to the Front Line. [During Your Turn] If you have 5 or more <シェリル・ノーム> with [Raid] in your Outside Area, this character gains BP+500 and [Damage 2]. [On Play] Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have 3 or more <シェリル・ノーム> with [Raid] in your Outside Area, it becomes “BP 4000 or less” instead.",
   "triggerType": "Raid",
@@ -389,7 +443,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -419,7 +477,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場外に黄の［特徴：歌（ランカ）］のカード名が3種類以上ある場合、このキャラはBP+1500。",
   "effectEn": "If you have 3 or more different card names among yellow [Trait: Song (Ranka)] in your Outside Area, this character gets BP+1500.",
   "triggerType": "Draw",
@@ -449,7 +511,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見る。その中からイベントカードを1枚まで場外に置く。残りを望む順で自分の山札の上に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck. From among them, put up to 1 Event card(s) into your Outside Area. Put the rest on top of your deck in any order.",
   "triggerType": "",
@@ -479,7 +545,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引く。",
   "effectEn": "[On Play] Draw 1 card(s).",
   "triggerType": "",
@@ -509,7 +579,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に青か赤のカードがある場合、手札にあるこのカードの必要エナジーを【黄×1】減らす。",
   "effectEn": "If your opponent has Blue or Red card on their field, the required energy of this card in your hand [Yellow x1]is reduced.",
   "triggerType": "",
@@ -539,7 +613,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -569,7 +647,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から4枚見る。その中から黄の〔［特徴：歌（ランカ）］かフィールドカード〕を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 yellow [Trait: Song (Ranka)] or field card among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Color",
@@ -599,7 +681,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【自分のターン中】自分の場外に黄の［特徴：歌（ランカ）］のカード名が3種類以上ある場合、このキャラはBP+500。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [During Your Turn] If you have 3 or more different card names among yellow [Trait: Song (Ranka)] in your Outside Area, this character gets BP+500.",
   "triggerType": "Active",
@@ -629,7 +717,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはアクティブで場に登場させる。【登場時】以下から1つ選ぶ。・カードを2枚引き、自分の手札を2枚場外に置く。・自分の場外の黄の［特徴：歌（ランカ）］のカード名の種類数×1000以下のBPの相手のフロントLのキャラを1枚まで選び、手札に戻す。",
   "effectEn": "This character is played active. [On Play] Choose 1 of the following. Draw 2 card(s), then put 2 card(s) from your hand into your Outside Area. Choose up to 1 character in your opponent's Front Line with BP equal to or less than 1000 × the number of different card names among yellow [Trait: Song (Ranka)] in your Outside Area, and return it to its owner's hand.",
   "triggerType": "Get",
@@ -659,7 +751,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true
+  },
+  "raid": {
+   "kind": "name",
+   "value": "ランカ・リー"
+  },
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【レイド】〈ランカ・リー〉アクティブにし、フロントLに移動できる【自分のターン中】このキャラはBP+500。【起動メイン】【フロントLにある場合】このターン中、次に手札から使用する黄の［特徴：歌（ランカ）］の消費APを-1する。〈ランカ・リー〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [Raid] Can Raid onto <ランカ・リー>; set it to active and you may move it to the Front Line. [During Your Turn] This character gets BP+500. [Activate: Main] [While in Front Line] This turn, the next Yellow [Trait: Song (Ranka)] you use from your hand costs 1 less AP. This <ランカ・リー> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Raid",
@@ -689,7 +790,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "ランカ・リー"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ランカ・リー〉アクティブにし、フロントLに移動できる自分の場外の黄の［特徴：歌（ランカ）］のカード名の種類数により、このキャラは以下の効果を全て得る。・1種類以上：【登場時】カードを1枚引く。・3種類以上：【自分のターン中】このキャラはBP+1000と【インパクト（1）】・4種類以上：このキャラがアタックしてブロックされなかった時、このキャラをアクティブにする。〈ランカ・リー〉のこの効果は1ターンに1回のみ発動する。",
   "effectEn": "[Raid] Can Raid onto <ランカ・リー>; set it to active and you may move it to the Front Line. Depending on the number of different card names among yellow [Trait: Song (Ranka)] in your Outside Area, this character gains all of the following effects. 1 or more types: [On Play]Draw 1 card(s). 3 or more different: [During Your Turn] This character gets BP+1000 and [Impact 1]. 4 or more types: When this character attacks and is not blocked, Set this character to active. This <ランカ・リー> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Raid",
@@ -719,7 +827,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、カードを2枚引く。【起動メイン】【レストにする】【このカードを退場させる】自分の場のキャラを1枚選び、このターン中、BP+500。",
   "effectEn": "[On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, Draw 2 card(s). [Activate: Main] [Rest this card] [Retire this card] Choose 1 character on your field, it gets BP+500 this turn.",
   "triggerType": "Get",
@@ -744,7 +856,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -769,7 +885,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -794,9 +914,13 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [
    "歌（シェリル）"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈シェリル・ノーム〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <シェリル・ノーム> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -821,9 +945,13 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [
    "歌（シェリル）"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場外から【レイド】を持つキャラカードを1枚手札に加える。自分のフロントLのアクティブの〈シェリル・ノーム〉を1枚レストにしてもよい。そうした場合、自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "Add 1 character card(s) with [Raid] from your Outside Area to your hand. You may rest 1 active <シェリル・ノーム> in your Front Line. If you do, Choose up to 1 of your AP cards, set it to active.",
   "triggerType": "Draw",
@@ -848,9 +976,13 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [
    "歌（シェリル）"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から5枚見る。その中から〈シェリル・ノーム〉を2枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。その後、自分の場のレイド状態の〈シェリル・ノーム〉を1枚選び、レイド状態の上のカードを場外に置いてもよい。そうした場合、カードを1枚引き、自分の手札から必要エナジーを満たしこの効果で場外に置いたカードとカードナンバーが異なる〈シェリル・ノーム〉を1枚まで、選んだキャラのレイド元のカードにレイドさせる。",
   "effectEn": "Look at the top 5 card(s) of your deck. Reveal up to 2 <シェリル・ノーム> among them and add it to your hand. Put the rest on the bottom of your deck in any order. Then, you may choose 1 Raided <シェリル・ノーム> on your field and put its top Raided card into your Outside Area. If you do, draw 1 card(s), and Raid up to 1 <シェリル・ノーム> that meets its required energy and has a different card number from the card put into your Outside Area by this effect from your hand onto the chosen character's Raid source card.",
   "triggerType": "Active",
@@ -875,9 +1007,13 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [
    "歌（ランカ）"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは自分のフロントLに〈ランカ・リー〉がある場合のみ使用できる。以下から1つ選ぶ。・相手のフロントLのキャラを1枚まで選び、レストにする。それは次の1回アクティブにならない。・自分の山札の上から5枚見る。その中からキャラカードを2枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "This card can only be used if you have <ランカ・リー> in your Front Line. Choose 1 of the following. Choose up to 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s). Look at the top 5 card(s) of your deck. Reveal up to 2 character cards among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -902,9 +1038,13 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [
    "歌（ランカ）"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "BP5000以下の相手のフロントLのキャラを1枚選び、『レストにする。それは次の1回アクティブにならない』。自分の場に〈ランカ・リー〉がある場合、『退場させる』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 5000 or less, “rest it. It does not become active the next 1 time(s)” If you have <ランカ・リー> on your field, it becomes “retire it” instead.",
   "triggerType": "Special",
@@ -929,9 +1069,13 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [
    "歌（ランカ）"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のキャラを1枚まで選び、このターン中、BP+1000。カードを1枚引く。自分の場外に黄の［特徴：歌（ランカ）］のカード名が3種類以上ある場合、自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 1 character on your field, it gets BP+1000 this turn. Draw 1 card(s). If you have 3 or more different card names among yellow [Trait: Song (Ranka)] in your Outside Area, choose up to 1 of your AP cards and set them to active.",
   "triggerType": "Active",
@@ -956,10 +1100,14 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [
    "歌（シェリル）",
    "歌（ランカ）"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを1枚引き、自分の手札を1枚場外に置く。その後、自分の場外から必要エナジーが2以下の黄のキャラカードを1枚まで自分の場にレストで登場させる。",
   "effectEn": "Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. Then, Play up to 1 Yellow character card with required energy 2 or less from your Outside Area to your field rested.",
   "triggerType": "Active",
@@ -989,7 +1137,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1019,7 +1171,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場にカード名に「イサム」を含むキャラがある場合、自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを望む順で下に置く。",
   "effectEn": "[On Play] If you have a character with “Isamu” in its card name on your field, look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest on the bottom of your deck in any order.",
   "triggerType": "",
@@ -1047,13 +1203,13 @@
    {
     "color": "Blue",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【エナジーLにある場合】自分のフロントLにカード名に「イサム」を含むキャラがある場合、このキャラの発生エナジー+【青】。",
   "effectEn": "[While in Energy Line] If you have a character with “Isamu” in its card name in your Front Line, this character's generated energy +[Blue].",
   "triggerType": "",
@@ -1083,7 +1239,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中からカード名に「イサム」か「ガルド」を含むキャラカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 character card with “Isamu” or “Guld” in its card name among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -1113,7 +1273,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。",
   "effectEn": "[Activate: Main] [Rest this card] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
   "triggerType": "Draw",
@@ -1143,9 +1307,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "新統合軍"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1175,9 +1343,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "新統合軍"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場にカード名に「ガルド」を含むキャラがある場合、BP1500以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。",
   "effectEn": "[On Play] If you have a character with “Guld” in its card name on your field, choose up to 1 character in your opponent's Front Line with BP 1500 or more; it gets BP-1000 this turn.",
   "triggerType": "",
@@ -1207,9 +1379,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "新統合軍"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ターン1】このキャラがアクティブの場合、カード名に「イサム」か「ガルド」を含む自分の場のレイド状態のキャラのアタック終了時、そのキャラのレイド状態の上のカードを場外に置いてもよい。そうした場合、このキャラをレストにし、カードを1枚引き、自分の手札から必要エナジーを満たしこの効果で場外に置いたカードと必要エナジーが異なるカードを1枚まで、そのキャラのレイド元のカードにレイドさせる。",
   "effectEn": "[Once Per Turn] While this character is active, at the end of the attack of a Raided character on your field with “Isamu” or “Guld” in its card name, you may put that character's top Raided card into your Outside Area. If you do, rest this character, draw 1 card(s), and Raid up to 1 card that meets its required energy and has different required energy from the card put into your Outside Area by this effect from your hand onto that character's Raid source card.",
   "triggerType": "Color",
@@ -1239,9 +1415,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "新統合軍"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に黄か赤のカードがある場合、手札にあるこのカードの必要エナジーを【青×1】減らす。",
   "effectEn": "If your opponent has Yellow or Red card on their field, the required energy of this card in your hand [Blue x1]is reduced.",
   "triggerType": "",
@@ -1271,9 +1451,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "B形態"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "ガルド・ゴア・ボーマン"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ガルド・ゴア・ボーマン〉アクティブにし、フロントLに移動できる【登場時】カードを2枚引き、自分の手札を1枚場外に置く。【アタック時】自分のフロントLにカード名に「イサム」を含むキャラがある場合、カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[Raid] Can Raid onto <ガルド・ゴア・ボーマン>; set it to active and you may move it to the Front Line. [On Play] Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area. [When Attacking] If you have a character with “Isamu” in its card name in your Front Line, draw 1 card(s) and put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Get",
@@ -1303,9 +1490,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "F形態"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "ガルド・ゴア・ボーマン"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ガルド・ゴア・ボーマン〉アクティブにし、フロントLに移動できるこのキャラのアタック終了時、このキャラを退場させてもよい。そうした場合、相手のフロントLのキャラを1枚まで選び、退場させる。【退場時】自分の手札から必要エナジーを満たしカード名に「イサム」を含むカードを1枚まで自分の場に『レストで登場させる』。自分のターン中の場合、『レイドさせる』に代えてもよい。",
   "effectEn": "[Raid] Can Raid onto <ガルド・ゴア・ボーマン>; set it to active and you may move it to the Front Line. At the end of this character's attack, you may retire this character. If you do, Choose up to 1 character in your opponent's Front Line, retire it. [On Retire] “Play” up to 1 card with “Isamu” in its card name that meets its required energy from your hand to your field “rested” If it is your turn, you may instead make it “Raid it”",
   "triggerType": "Raid",
@@ -1335,10 +1529,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "新統合軍",
    "B形態"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "イサム・ダイソン"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈イサム・ダイソン〉アクティブにし、フロントLに移動できる自分の場か場外にカード名に「ガルド」を含むキャラがある場合、このキャラは以下の効果を全て得る。・【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）・【登場時】BP3500以下の相手のフロントLのキャラを1枚まで選び、『手札に戻す』。自分のアタックフェイズ中の場合、『退場させる』に代えてもよい。",
   "effectEn": "[Raid] Can Raid onto <イサム・ダイソン>; set it to active and you may move it to the Front Line. If you have a character with “Guld” in its card name on your field or in your Outside Area, this character gains all of the following effects. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] Choose up to 1 character in your opponent's Front Line with BP 3500 or less, “return it to its owner's hand” If it is your Attack Phase, you may instead make it “retire it”",
   "triggerType": "Raid",
@@ -1368,10 +1569,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "新統合軍",
    "F形態"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "イサム・ダイソン"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈イサム・ダイソン〉アクティブにし、フロントLに移動できる【登場時】BP2500以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-2000。【アタック時】自分のフロントLにカード名に「ガルド」を含むキャラがある場合、このキャラの【登場時】を発動する。",
   "effectEn": "[Raid] Can Raid onto <イサム・ダイソン>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line with BP 2500 or more, it gets BP-2000 this turn. [When Attacking] If you have a character with “Guld” in its card name in your Front Line, activate this character's [On Play].",
   "triggerType": "Get",
@@ -1401,9 +1609,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "新統合軍"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このフィールドはアクティブで場に登場させる。【ターン1】このフィールドがアクティブの場合、カード名に「イサム」か「ガルド」を含む自分の場のレイド状態のキャラのアタック終了時、そのキャラのレイド状態の上のカードを場外に置いてもよい。そうした場合、このフィールドをレストにし、カードを1枚引き、自分の手札から必要エナジーを満たしこの効果で場外に置いたカードと必要エナジーが異なるカードを1枚まで、そのキャラのレイド元のカードにレイドさせる。",
   "effectEn": "This Field is played active. [Once Per Turn] While this field is active, at the end of the attack of a Raided character on your field with “Isamu” or “Guld” in its card name, you may put that character's top Raided card into your Outside Area. If you do, rest this field, draw 1 card(s), and Raid up to 1 card that meets its required energy and has different required energy from the card put into your Outside Area by this effect from your hand onto that character's Raid source card.",
   "triggerType": "Get",
@@ -1428,7 +1640,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から7枚見る。その中から【レイド】を持ちカード名に「イサム」か「ガルド」を含むキャラカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。自分の場にカード名に「イサム」を含むキャラとカード名に「ガルド」を含むキャラがある場合、自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "Look at the top 7 card(s) of your deck. Reveal up to 1 character card with [Raid] and “Isamu” or “Guld” in its card name among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you have a character with “Isamu” in its card name and a character with “Guld” in its card name on your field, choose up to 1 of your AP cards and set them to active.",
   "triggerType": "Draw",
@@ -1453,7 +1669,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは自分の場にカード名に「イサム」か「ガルド」を含むキャラがある場合のみ使用できる。BP5000以下の相手のフロントLのキャラを1枚選び、退場させる。自分のフロントLにカード名に「イサム」を含むキャラとカード名に「ガルド」を含むキャラがある場合、APを1支払ってもよい。そうした場合、自分の場外からカード名に「イサム」か「ガルド」を含むキャラカードを1枚まで手札に加える。",
   "effectEn": "This card can only be used if you have a character with “Isamu” or “Guld” in its card name on your field. Choose 1 character in your opponent's Front Line with BP 5000 or less, retire it. If you have a character with “Isamu” in its card name and a character with “Guld” in its card name in your Front Line, you may pay 1 AP. If you do, add up to 1 character card with “Isamu” or “Guld” in its card name from your Outside Area to your hand.",
   "triggerType": "Special",
@@ -1478,7 +1698,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1508,7 +1732,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】以下から1つ選ぶ。このターン中に自分の他の〈シェリル・ノーム〉が既に選んだ効果は選べない。・自分のフロントLのカード名に「アルト」を含むキャラを1枚選び、このターン中、BP+1000。・自分のフロントLのカード名に「アルト」を含むキャラを1枚選び、このターン中、「このキャラがアタックしてブロックされなかった時、カードを1枚まで引く。」を与える。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] Choose 1 of the following. You cannot choose an effect that your other <シェリル・ノーム> has already chosen this turn. Choose 1 character with “Alto” in its card name in your Front Line; it gets BP+1000 this turn. Choose 1 character with “Alto” in its card name in your Front Line; it gains “When this character attacks and is not blocked, draw up to 1 card(s)” this turn.",
   "triggerType": "Active",
@@ -1538,7 +1766,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】以下から1つ選ぶ。このターン中に自分の他の〈ランカ・リー〉が既に選んだ効果は選べない。・自分のフロントLにカード名に「アルト」を含むキャラがある場合、BP1500以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。・自分のフロントLのカード名に「アルト」を含むキャラを1枚選び、このターン中、「このキャラがアタックしてバトルに勝利した時、カードを1枚まで引く。」を与える。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] Choose 1 of the following. You cannot choose an effect that your other <ランカ・リー> has already chosen this turn. If you have a character with “Alto” in its card name in your Front Line, choose up to 1 character in your opponent's Front Line with BP 1500 or more; it gets BP-1000 this turn. Choose 1 character with “Alto” in its card name in your Front Line; it gains “When this character attacks and wins a battle, draw up to 1 card(s)” this turn.",
   "triggerType": "Draw",
@@ -1566,15 +1798,15 @@
    {
     "color": "Blue",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "新統合軍"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【青】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Blue] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -1604,9 +1836,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "B形態"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはアクティブで場に登場させる。【登場時】自分の場に〈ランカ・リー〉がある場合、自分の手札を1枚場外に置いてもよい。そうした場合、BP3500以下の相手のフロントLのキャラを1枚まで選び、手札に戻す。",
   "effectEn": "This character is played active. [On Play] If you have <ランカ・リー> on your field, You may put 1 card(s) from your hand into your Outside Area. If you do, Choose up to 1 character in your opponent's Front Line with BP 3500 or less, return it to its owner's hand.",
   "triggerType": "Active",
@@ -1636,10 +1872,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "S.M.S",
    "スカル小隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引く。",
   "effectEn": "[On Play] Draw 1 card(s).",
   "triggerType": "",
@@ -1669,10 +1909,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "S.M.S",
    "スカル小隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1702,10 +1946,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "S.M.S",
    "スカル小隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から〈シェリル・ノーム〉か〈ランカ・リー〉か［特徴：S.M.S］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 <シェリル・ノーム> or <ランカ・リー> or [Trait: S.M.S] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Color",
@@ -1733,16 +1981,16 @@
    {
     "color": "Blue",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "S.M.S",
    "スカル小隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【青】。",
   "effectEn": "While this character is active, its generated energy +[Blue].",
   "triggerType": "",
@@ -1772,10 +2020,14 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "S.M.S",
    "スカル小隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -1805,10 +2057,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "S.M.S",
    "ピクシー小隊"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "クラン・クラン"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈クラン・クラン〉アクティブにし、フロントLに移動できる【自分のターン中】このキャラはBP+500。このキャラがアタックしてブロックされなかった時、自分の場にカード名に「ミハエル」を含むキャラがある場合、カードを1枚引く。【登場時】自分の手札から必要エナジーが2以下の青の〔キャラカードかフィールドカード〕を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[Raid] Can Raid onto <クラン・クラン>; set it to active and you may move it to the Front Line. [During Your Turn] This character gets BP+500. When this character attacks and is not blocked, if you have a character with “Michael” in its card name on your field, draw 1 card(s). [On Play] Play up to 1 Blue character card or Field card with required energy 2 or less from your hand to your field rested.",
   "triggerType": "Raid",
@@ -1838,10 +2097,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "S.M.S",
    "ピクシー小隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。",
   "effectEn": "[On Play] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
   "triggerType": "Active",
@@ -1871,11 +2134,18 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "S.M.S",
    "スカル小隊",
    "B形態"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "オズマ・リー"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈オズマ・リー〉アクティブにし、フロントLに移動できる自分の場に〈ランカ・リー〉がある場合、このキャラは【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を得る。【起動メイン】【手札を2枚場外に置く】【ターン1】このキャラはこのターン中、「BP2000以下のキャラにブロックされない。」を得る。【ブロック時】アタックしている相手のキャラがレイド状態の場合、このキャラはこのターン中、BP+500。",
   "effectEn": "[Raid] Can Raid onto <オズマ・リー>; set it to active and you may move it to the Front Line. If you have <ランカ・リー> on your field, This character [Damage 2](When this character deals direct damage by attacking, deal 2 damage instead) is gained. [Activate: Main] [Put 2 card(s) from your hand into your Outside Area] [Once Per Turn] This character gains “This character cannot be blocked by characters with BP 2000 or less” this turn. [When Blocking] If the attacking opponent's character is Raided, this character gets BP+500 this turn.",
   "triggerType": "Raid",
@@ -1905,11 +2175,18 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "S.M.S",
    "スカル小隊",
    "B形態"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "早乙女 アルト"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈早乙女 アルト〉アクティブにし、フロントLに移動できる【登場時】以下から『1つ』まで選ぶ。APを1支払ってもよい。そうした場合、『2つ』に代わる。・自分の場に〈シェリル・ノーム〉がある場合、このキャラはこのターン中、【2回アタック】（このキャラがこのターン初めてアタックした時、アクティブにする）を得る。・自分の場に〈ランカ・リー〉がある場合、BP3000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "[Raid] Can Raid onto <早乙女 アルト>; set it to active and you may move it to the Front Line. [On Play] Choose up to “1” of the following. You may pay 1 AP. If you do, it becomes “2” instead. If you have <シェリル・ノーム> on your field, This character, this turn, [Double Attack](The first time this character attacks each turn, set it to active) is gained. If you have <ランカ・リー> on your field, Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it.",
   "triggerType": "Raid",
@@ -1939,9 +2216,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "S.M.S"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】【ターン1】カードを1枚引き、自分の手札を1枚場外に置く。【起動メイン】【レストにする】【手札を2枚場外に置く】【APを1支払う】【ターン1】相手のフロントLのキャラを1枚選び、退場させる。",
   "effectEn": "This Field is played active. [Activate: Main] [Rest this card] [Once Per Turn] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. [Activate: Main] [Rest this card] [Put 2 card(s) from your hand into your Outside Area] [Pay 1 AP] [Once Per Turn] Choose 1 character in your opponent's Front Line, retire it.",
   "triggerType": "Get",
@@ -1966,10 +2247,14 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [
    "歌（シェリル）",
    "歌（ランカ）"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカード名に「アルト」を含むキャラがある場合、手札にあるこのカードの消費APを-1する。『BP4000以下』の相手のフロントLのキャラを1枚選び、退場させる。以下から1つ選ぶ。・自分の場に〈シェリル・ノーム〉がある場合、『BP5000以下』に代わる。・自分の場に〈ランカ・リー〉がある場合、自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。",
   "effectEn": "If you have a character with “Alto” in its card name on your field, reduce the AP cost of this card in your hand by 1. Choose 1 character in your opponent's Front Line with BP 4000 or less, retire it. Choose 1 of the following. If you have <シェリル・ノーム> on your field, it becomes “BP 5000 or less” instead. If you have <ランカ・リー> on your field, Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
   "triggerType": "Special",
@@ -1994,10 +2279,14 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [
    "歌（シェリル）",
    "歌（ランカ）"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2027,7 +2316,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【起動メイン】【フロントLにある場合】【ターン1】自分の場の他のキャラ全ては、このターン中、BP+1000。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [Activate: Main] [While in Front Line] [Once Per Turn] All other characters on your field it gets BP+1000 this turn.",
   "triggerType": "Get",
@@ -2057,9 +2352,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "新統合軍"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】APを1支払ってもよい。そうした場合、自分の場外から〈リン・ミンメイ〉か〈早瀬 未沙〉を1枚まで手札に加える。【起動メイン】このキャラのBPが5000以上の場合、このキャラをアクティブにする。〈一条 輝〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "[On Play] You may pay 1 AP. If you do, add up to 1 <リン・ミンメイ> or <早瀬 未沙> from your Outside Area to your hand. [Activate: Main] If this character's BP is 5000 or more, Set this character to active. This <一条 輝> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Active",
@@ -2089,9 +2388,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "新統合軍"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】以下から1つ選ぶ。・BP4000以上の自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。・手札を1枚場外に置く。そうした場合、自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] Choose 1 of the following. Choose up to 1 other character on your field with BP 4000 or more, it gets BP+1000 this turn. Put 1 card(s) from your hand into your Outside Area. If you do, Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -2119,13 +2422,13 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【赤】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Red] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -2155,7 +2458,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から4枚見る。その中からカード名に「バサラ」を含むキャラカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 character card with “Basara” in its card name among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -2185,7 +2492,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -2215,7 +2526,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【自分のターン中】自分の場にカード名に「マクシミリアン・ジーナス」か「ミレーヌ・フレア・ジーナス」を含むキャラがある場合、このキャラはBP+1000。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [During Your Turn] If you have a character with “Maximilian Jenius” or “Mylene Flare Jenius” in its card name on your field, this character gets BP+1000.",
   "triggerType": "",
@@ -2245,9 +2562,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "新統合軍"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場にカード名に「マクシミリアン・ジーナス」を含むキャラがある場合、以下から1つ選ぶ。・自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを場外に置く。・自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] If you have a character with “Maximilian Jenius” in its card name on your field, choose 1 of the following. Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest into your Outside Area. Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -2277,9 +2598,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "新統合軍"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -2309,9 +2634,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "新統合軍"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -2341,9 +2670,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "新統合軍"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分の場にカード名に「ミリア・ファリーナ・ジーナス」か「ミレーヌ・フレア・ジーナス」を含むキャラがある場合、このキャラはBP+1000。",
   "effectEn": "[During Your Turn] If you have a character with “Milia Fallyna Jenius” or “Mylene Flare Jenius” in its card name on your field, this character gets BP+1000.",
   "triggerType": "Color",
@@ -2373,9 +2706,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "新統合軍"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に黄か青のカードがある場合、手札にあるこのカードの必要エナジーを【赤×1】減らす。",
   "effectEn": "If your opponent has Yellow or Blue card on their field, the required energy of this card in your hand [Red x1]is reduced.",
   "triggerType": "",
@@ -2405,9 +2742,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "F形態"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "ミリア・ファリーナ・ジーナス"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ミリア・ファリーナ・ジーナス〉アクティブにし、フロントLに移動できる【登場時】自分の山札の上から5枚見る。その中からカード名に「ジーナス」を含む赤のキャラカードを1枚まで公開し『手札に加える』。残りを望む順で自分の山札の下に置く。自分の場にカード名に「マクシミリアン・ジーナス」を含むキャラがあり、公開したカードの必要エナジーが2以下の場合、『自分の場にレストで登場させる』に代えてもよい。",
   "effectEn": "[Raid] Can Raid onto <ミリア・ファリーナ・ジーナス>; set it to active and you may move it to the Front Line. [On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 red character card with “Jenius” in its card name among them and “add it to your hand” Put the rest on the bottom of your deck in any order. If you have a character with “Maximilian Jenius” in its card name on your field and the revealed card has required energy 2 or less, you may instead make it “play it to your field rested”",
   "triggerType": "Raid",
@@ -2437,9 +2781,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "Fire Bomber"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアタックしてバトルに勝利した時、カードを1枚引き、このバトルで敗北した相手のキャラは退場する代わりに、手札に戻る。",
   "effectEn": "When this character attacks and wins a battle, draw 1 card(s), and the opponent's character that lost this battle returns to its owner's hand instead of being retired.",
   "triggerType": "Active",
@@ -2469,9 +2817,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "Fire Bomber"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このキャラはBP+1000。このキャラがアタックしてバトルに勝利した時、カードを1枚引き、このバトルで敗北した相手のキャラは退場する代わりに、手札に戻る。",
   "effectEn": "[During Your Turn] This character gets BP+1000. When this character attacks and wins a battle, draw 1 card(s), and the opponent's character that lost this battle returns to its owner's hand instead of being retired.",
   "triggerType": "Color",
@@ -2501,9 +2853,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "Fire Bomber"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアタックしてバトルに勝利した時、カードを1枚引き、このバトルで敗北した相手のキャラは退場する代わりに、手札に戻る。【登場時】自分と相手はカードを1枚引く。【起動メイン】このターン中に自分がカードを4枚以上引いている場合のみ発動できる。このキャラをアクティブにする。〈熱気 バサラ〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "When this character attacks and wins a battle, draw 1 card(s), and the opponent's character that lost this battle returns to its owner's hand instead of being retired. [On Play] You and your opponent each draw 1 card(s). [Activate: Main] Can only activate if you have drawn 4 or more cards this turn. Set this character to active. This <熱気 バサラ> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Get",
@@ -2533,9 +2889,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "Fire Bomber"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の手札が5枚以上の場合、このキャラはBP+1500。",
   "effectEn": "If you have 5 or more cards in your hand, this character gets BP+1500.",
   "triggerType": "Draw",
@@ -2565,9 +2925,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "Fire Bomber"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -2595,15 +2959,15 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "Fire Bomber"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
   "effectEn": "While this character is active, its generated energy +[Red].",
   "triggerType": "",
@@ -2633,9 +2997,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "Fire Bomber"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】このターン中に相手がカードを引いている場合、自分はカードを1枚まで引く。",
   "effectEn": "[On Play] If your opponent has drawn cards this turn, draw up to 1 card(s).",
   "triggerType": "Active",
@@ -2665,9 +3033,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "Fire Bomber"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】自分の手札が5枚以上の場合のみ発動できる。自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。",
   "effectEn": "[Activate: Main] [Rest this card] Can only activate if you have 5 or more cards in your hand. Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
   "triggerType": "Draw",
@@ -2697,9 +3069,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "プロトデビルン"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のフロントLにカード名に「バサラ」を含むキャラがある場合、手札にあるこのカードの消費APを-1する。【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】自分の場のカード名に「バサラ」を含むキャラを1枚まで選び、このターン中、「相手はこのキャラのアタックを可能ならブロックしなければならない。」を与える。",
   "effectEn": "If you have a character with “Basara” in its card name in your Front Line, reduce the AP cost of this card in your hand by 1. [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] Choose up to 1 character with “Basara” in its card name on your field; it gains “Your opponent must block this character's attacks if able” this turn.",
   "triggerType": "Get",
@@ -2729,10 +3107,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "新統合軍",
    "ダイアモンドフォース"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -2762,10 +3144,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "新統合軍",
    "ダイアモンドフォース"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【相手のターン中】自分の場にカード名に「ミレーヌ・フレア・ジーナス」を含むキャラがある場合、このキャラはBP+1000と【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）を得る。",
   "effectEn": "[During Opponent's Turn] If you have a character with “Mylene Flare Jenius” in its card name on your field, this character gains BP+1000 and [Impact Nullify] (The character that battles this character loses [Impact] during this battle)",
   "triggerType": "Active",
@@ -2795,10 +3181,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "新統合軍",
    "F形態"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "マクシミリアン・ジーナス"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈マクシミリアン・ジーナス〉アクティブにし、フロントLに移動できるこのキャラのBPが5000以上の場合、このキャラは【インパクト（1）】を得る。【登場時】自分の場にカード名に「ミリア・ファリーナ・ジーナス」を含むキャラがある場合、このキャラはこのターン中、BP+1000と【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、指定した場合、相手はブロックできない）を得る。",
   "effectEn": "[Raid] Can Raid onto <マクシミリアン・ジーナス>; set it to active and you may move it to the Front Line. If this character's BP is 5000 or more, This character [Impact 1] is gained. [On Play] If you have a character with “Milia Fallyna Jenius” in its card name on your field, this character gains BP+1000 and [Snipe] (Can attack a chosen character in your opponent's Front Line; if you do, your opponent cannot block) this turn.",
   "triggerType": "Raid",
@@ -2828,10 +3221,17 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "Fire Bomber",
    "B形態"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "ミレーヌ・フレア・ジーナス"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ミレーヌ・フレア・ジーナス〉アクティブにし、フロントLに移動できる【登場時】カードを1枚引く。【起動メイン】【フロントLにある場合】【レストにする】【ターン1】このターン中、自分の手札にあるカード名に「バサラ」を含む全てのキャラカードの必要エナジーを【赤×2】減らす。【アタック時】自分の手札が5枚以上の場合、このキャラはこのターン中、BP+1000。",
   "effectEn": "[Raid] Can Raid onto <ミレーヌ・フレア・ジーナス>; set it to active and you may move it to the Front Line. [On Play] Draw 1 card(s). [Activate: Main] [While in Front Line] [Rest this card] [Once Per Turn] This turn, reduce the required energy of all character cards with “Basara” in their card name in your hand by [Red x2]. [When Attacking] If you have 5 or more cards in your hand, this character gets BP+1000 this turn.",
   "triggerType": "Raid",
@@ -2861,10 +3261,19 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "Fire Bomber",
    "B形態"
   ],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": {
+   "kind": "name",
+   "value": "熱気 バサラ"
+  },
+  "deckLimit": null,
   "effectJp": "このキャラはレイド以外で登場できない。【レイド】〈熱気 バサラ〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）自分の手札が5枚以上の場合、このキャラは【ダメージ（2）】を得る。このキャラがアタックしてバトルに勝利した時、カードを1枚引き、このバトルで敗北した相手のキャラは退場する代わりに、手札に戻る。【登場時】自分と相手はカードを1枚引く。その後、『BP3000以下』の相手のフロントLのキャラを1枚まで選び、相手の山札の下に置く。自分の手札が5枚以上の場合、『BP4000以下』に代わる。",
   "effectEn": "This character cannot be played except by Raid. [Raid] Can Raid onto <熱気 バサラ>; set it to active and you may move it to the Front Line. [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opposing player) If you have 5 or more cards in your hand, this character gains [Damage 2]. When this character attacks and wins a battle, draw 1 card(s), and the opponent's character that lost this battle returns to its owner's hand instead of being retired. [On Play] You and your opponent each draw 1 card(s). Then, choose up to 1 character in your opponent's Front Line with “BP 3000 or less” and put it on the bottom of its owner's deck. If you have 5 or more cards in your hand, it becomes “BP 4000 or less” instead.",
   "triggerType": "Raid",
@@ -2894,10 +3303,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "バロータ軍",
    "プロトデビルン"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【フロントLにある場合】自分の場の〈シビル〉が相手の効果によって退場する場合、代わりにこのキャラを退場させてもよい。【自分のターン中】同じラインにカード名に「バサラ」を含むキャラがある場合、このキャラはBP+1000。",
   "effectEn": "[While in Front Line] If <シビル> on your field would be retired by your opponent's effect, you may retire this character instead. [During Your Turn] If there is a character with “Basara” in its card name in the same line, this character gets BP+1000.",
   "triggerType": "Draw",
@@ -2927,11 +3340,18 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "新統合軍",
    "ダイアモンドフォース",
    "B形態"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "ガムリン木崎"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ガムリン木崎〉アクティブにし、フロントLに移動できる【登場時】自分の場にカード名に「ミレーヌ・フレア・ジーナス」を含むキャラがある場合、カードを2枚引き、自分の手札を1枚場外に置く。【アタック時】自分の場のカード名に「バサラ」を含むキャラを1枚まで選び、このターン中、「このキャラはBP3000以下のキャラにブロックされない。」を与える。",
   "effectEn": "[Raid] Can Raid onto <ガムリン木崎>; set it to active and you may move it to the Front Line. [On Play] If you have a character with “Mylene Flare Jenius” in its card name on your field, draw 2 card(s) and put 1 card(s) from your hand into your Outside Area. [When Attacking] Choose up to 1 character with “Basara” in its card name on your field; it gains “This character cannot be blocked by characters with BP 3000 or less” this turn.",
   "triggerType": "Get",
@@ -2961,9 +3381,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "新統合軍"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを望む順で下に置く。【起動メイン】【レストにする】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest on the bottom of your deck in any order. [Activate: Main] [Rest this card] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
   "triggerType": "Get",
@@ -2988,7 +3412,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -3013,7 +3441,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場にカード名に「マクシミリアン・ジーナス」を含むキャラがある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have a character with “Maximilian Jenius” in its card name on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -3038,9 +3470,13 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [
    "歌（Fire Bomber）"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "BP5000以下の相手のフロントLのキャラを1枚選び、相手の山札の上か下の『相手が選んだ方』に置く。自分の場にカード名に「バサラ」を含むキャラがある場合、『自分が選んだ方』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 5000 or less, and put it on the top or bottom of your opponent's deck (your opponent chooses which) If you have a character with “Basara” in its card name on your field, it becomes “the one you choose” instead.",
   "triggerType": "Special",
@@ -3065,9 +3501,13 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [
    "歌（Fire Bomber）"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを2枚引く。自分のフロントLのカード名に「バサラ」を含むキャラを1枚まで選び、アクティブにし、このターン中、【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を与える。自分のフロントLの〈シビル〉を1枚まで選び、アクティブにする。",
   "effectEn": "Draw 2 card(s). Choose up to 1 character with “Basara” in its card name in your Front Line, set it to active, and it gains [Impact +1] (Impact damage is increased by 1; if it doesn't have Impact, it gains [Impact 1]) this turn. Choose up to 1 <シビル> in your Front Line, set it to active.",
   "triggerType": "Draw",
@@ -3097,7 +3537,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【青×2】減らす。【登場時】自分のフロントLにカード名に「アルト」を含むキャラがある場合、自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを望む順で下に置く。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Blue x2]is reduced. [On Play] If you have a character with “Alto” in its card name in your Front Line, look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest on the bottom of your deck in any order.",
   "triggerType": "",
@@ -3127,7 +3571,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【青×2】減らす。【登場時】自分のフロントLにカード名に「アルト」を含むキャラがある場合、BP2500以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-2000。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Blue x2]is reduced. [On Play] If you have a character with “Alto” in its card name in your Front Line, choose up to 1 character in your opponent's Front Line with BP 2500 or more; it gets BP-2000 this turn.",
   "triggerType": "",
@@ -3157,9 +3605,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "S.M.S"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "Active",
@@ -3189,10 +3643,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "S.M.S",
    "スカル小隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -3222,10 +3680,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "S.M.S",
    "スカル小隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に〈シェリル・ノーム〉がある場合、このキャラは【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）を得る。【登場時】自分の場に〈ランカ・リー〉がある場合、カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "If you have <シェリル・ノーム> on your field, This character [Impact Nullify](The character that battles this character, during this battle, [Impact] is lost) is gained. [On Play] If you have <ランカ・リー> on your field, Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -3255,10 +3717,14 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "S.M.S",
    "ピクシー小隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。",
   "effectEn": "[On Play] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
   "triggerType": "Draw",
@@ -3288,11 +3754,18 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "S.M.S",
    "スカル小隊",
    "B形態"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "早乙女 アルト"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈早乙女 アルト〉アクティブにし、フロントLに移動できる【自分のターン中】自分の場に〈シェリル・ノーム〉か〈ランカ・リー〉がある場合、このキャラはBP+1000。自分の場に〈シェリル・ノーム〉と〈ランカ・リー〉があるなら、さらに【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。【登場時】カードを1枚引く。",
   "effectEn": "[Raid] Can Raid onto <早乙女 アルト>; set it to active and you may move it to the Front Line. [During Your Turn] If you have <シェリル・ノーム> or <ランカ・リー> on your field, This character gets BP+1000. If you have <シェリル・ノーム> and <ランカ・リー> on your field, it also gains [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opposing player) [On Play] Draw 1 card(s).",
   "triggerType": "Raid",
@@ -3322,11 +3795,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "S.M.S",
    "スカル小隊",
    "B形態"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはアクティブで場に登場させる。【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、このキャラはこのターン中、「このキャラはエナジーLからアタックできる。」と【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、指定した場合、相手はブロックできない）を得る。",
   "effectEn": "This character is played active. [On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, this character gains “This character can attack from the Energy Line” and [Snipe] (Can attack a chosen character in your opponent's Front Line; if you do, your opponent cannot block) this turn.",
   "triggerType": "Get",
@@ -3356,9 +3833,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "S.M.S"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【場外にある場合】自分の場のカード名に「ミハエル」を含むキャラが退場した時、場外のこのカードを手札に加えてもよい。〈スナイパーライフル〉のこの効果は1ターンに1回のみ発動できる。【登場時】自分の場にカード名に「ミハエル」を含むキャラがある場合、このフィールドをアクティブにする。【起動メイン】【レストにする】【このカードを退場させる】自分の場の［特徴：S.M.S］を1枚まで選び、このターン中、【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を与える。",
   "effectEn": "[While in Outside Area] When a character with “Michael” in its card name on your field is retired, you may add this card from your Outside Area to your hand. This <スナイパーライフル> effect can only activate 1 time(s) per 1 turn(s). [On Play] If you have a character with “Michael” in its card name on your field, set this field to active. [Activate: Main] [Rest this card] [Retire this card] Choose up to 1 [Trait: S.M.S] on your field, This turn, [Impact +1](Damage dealt by Impact is increased by 1; if it doesn't have Impact, [Impact 1])",
   "triggerType": "Get",
@@ -3386,13 +3867,13 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】自分のフロントLのアクティブのキャラを1枚レストにする。そうした場合、このキャラはこのターン中、発生エナジー+【黄】。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] Rest 1 active character in your Front Line. If you do, This turn, this character's generated energy +[Yellow].",
   "triggerType": "Active",
@@ -3422,7 +3903,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場外に黄の［特徴：歌（ランカ）］のカード名が3種類以上ある場合、このキャラはBP+1000。",
   "effectEn": "If you have 3 or more different card names among yellow [Trait: Song (Ranka)] in your Outside Area, this character gets BP+1000.",
   "triggerType": "Draw",
@@ -3452,9 +3937,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "Fire Bomber"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の手札が5枚以上の場合、このキャラはBP+500と【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）を得る。このキャラがアタックしてバトルに勝利した時、カードを1枚引き、このバトルで敗北した相手のキャラは退場する代わりに、手札に戻る。",
   "effectEn": "If you have 5 or more cards in your hand, this character gains BP+500 and [Impact Nullify] (The character that battles this character loses [Impact] during this battle) When this character attacks and wins a battle, draw 1 card(s), and the opponent's character that lost this battle returns to its owner's hand instead of being retired.",
   "triggerType": "Active",
@@ -3484,9 +3973,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "Fire Bomber"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から4枚見る。その中から［特徴：Fire Bomber］かカード名に「ガムリン木崎」を含むキャラカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 [Trait: Fire Bomber] or character card with “Gamlin Kizaki” in its card name among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -3509,7 +4002,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3532,7 +4029,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3555,7 +4056,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3578,7 +4083,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3601,7 +4110,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3624,7 +4137,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

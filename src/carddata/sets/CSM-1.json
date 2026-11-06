@@ -21,7 +21,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle)",
   "triggerType": "Draw",
@@ -51,7 +57,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "同じラインに〈レゼ〉がある場合、このキャラはBP+1000と【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）を得る。",
   "effectEn": "If <Reze> is in the same line, this character gains BP+1000 and [Impact Nullify] (The character that battles this character loses Impact during this battle)",
   "triggerType": "Active",
@@ -79,13 +89,13 @@
    {
     "color": "Purple",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【紫】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Purple] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -115,7 +125,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【紫×2】減らす。【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Purple x2]is reduced. [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -143,13 +157,13 @@
    {
     "color": "Purple",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【紫】。",
   "effectEn": "While this character is active, its generated energy +[Purple].",
   "triggerType": "",
@@ -179,7 +193,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】『カードを1枚引く』。このキャラが自分の効果で退場している場合、『自分の山札の上から4枚見て、〈レゼ〉か〈デンジ〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く』に代えてもよい。",
   "effectEn": "[On Retire] “Draw 1 card(s)” If this character was retired by your own effect, “look at the top 4 card(s) of your deck, reveal up to 1 <Reze> or <Denji> among them and add it to your hand. You may instead make it “put the rest on the bottom of your deck in any order”",
   "triggerType": "",
@@ -209,7 +227,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【起動メイン】このターン中に自分がイベントカードを2枚以上使用していて、自分の場に〈マキマ〉がある場合のみ発動できる。このキャラをアクティブにする。〈デンジ〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [Activate: Main] Can only activate if you have used 2 or more event cards this turn and you have <Makima> on your field. Set this character to active. This <Denji> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Color",
@@ -239,7 +263,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見て、キャラカードを1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。この効果で〈マキマ〉を手札に加えた場合、自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。この効果で〈レゼ〉を手札に加えた場合、BP1500以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 character card among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area. If you added <Makima> to your hand with this effect, choose up to 1 other character on your field; it gets BP+1000 this turn. If you added <Reze> to your hand with this effect, choose up to 1 character in your opponent's Front Line with BP 1500 or more; it gets BP-1000 this turn.",
   "triggerType": "Get",
@@ -269,7 +297,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -299,7 +331,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分の場に〈マキマ〉がある場合、このターン中に自分が使用しているイベントカードの枚数により、このキャラは以下の効果を全て得る。・1枚以上：BP+1000。・2枚以上：このキャラはBP4000以上のキャラにブロックされない。",
   "effectEn": "[During Your Turn] If you have <Makima> on your field, depending on the number of event cards you have used this turn, this character gains all of the following effects. 1 or more: BP+1000. 2 or more: This character cannot be blocked by characters with BP 4000 or more.",
   "triggerType": "Draw",
@@ -329,7 +365,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -359,7 +399,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアタックしてバトルに勝利した時、自分の手札を1枚場外に置く。",
   "effectEn": "When this character attacks and wins a battle, Put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -389,7 +433,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】自分の場に〈デンジ〉がある場合、このキャラはこのターン中、BP+500。",
   "effectEn": "[When Attacking] If you have <Denji> on your field, This character gets BP+500 this turn.",
   "triggerType": "Draw",
@@ -419,7 +467,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の場の〈デンジ〉を1枚まで選び、このターン中、BP+1000と【インパクト（1）】（アタックしてバトルに勝利した時、相手に1ダメージ）を与える。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Choose up to 1 <Denji> on your field; it gains BP+1000 and [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opponent) this turn.",
   "triggerType": "Active",
@@ -449,7 +501,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このターン中に自分が使用したイベントカード1枚につき、このキャラはBP+500。",
   "effectEn": "[During Your Turn] For each 1 Event card(s) you used this turn, this character gets BP+500.",
   "triggerType": "",
@@ -479,7 +535,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは〈レゼ〉としても扱う。【自分のターン中】このターン中に自分の場の〈デンジ〉が退場している場合、このキャラは【ダメージ（2）】を得る。【登場時】自分の場と場外にあるBP4000以上のカードが〈レゼ〉のみの場合、自分の場の他のキャラを1枚退場させてもよい。そうした場合、このキャラと自分のAPカードを1枚アクティブにし、このキャラはこのターン中、BP+1000と【インパクト（1）】を得る。",
   "effectEn": "This card is also treated as <Reze>. [During Your Turn] If <Denji> on your field was retired this turn, this character gains [Damage 2]. [On Play] If <Reze> is the only card with BP 4000 or more on your field and in your Outside Area, you may retire 1 other character on your field. If you do, set this character and 1 of your AP cards to active, and this character gains BP+1000 and [Impact 1] this turn.",
   "triggerType": "Get",
@@ -509,7 +569,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "レゼ"
+  },
+  "deckLimit": null,
   "effectJp": "このカードは〈レゼ〉としても扱う。【レイド】〈レゼ〉アクティブにし、フロントLに移動できる【登場時】以下から1つ選ぶ。・相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。・自分のターン中で、自分の場と場外にあるBP4000以上のカードが〈レゼ〉のみの場合、自分の場の他のキャラを1枚退場させてもよい。そうした場合、相手のフロントLのキャラを1枚まで選び、このターン中、BP-5000。【起動メイン】【ターン1】このキャラはこのターン中、【インパクト（1）】を得る。このキャラのレイド元のカードを1枚場外に置く。",
   "effectEn": "This card is also treated as <Reze>. [Raid] Can Raid onto <Reze>; set it to active and you may move it to the Front Line. [On Play] Choose 1 of the following. Choose up to 1 character in your opponent's Front Line, it gets BP-1000 this turn. If it is your turn and <Reze> is the only card with BP 4000 or more on your field and in your Outside Area, you may retire 1 other character on your field. If you do, Choose up to 1 character in your opponent's Front Line, it gets BP-5000 this turn. [Activate: Main] [Once Per Turn] This character, this turn, [Impact 1] is gained. Put 1 of this character's Raid source cards into your Outside Area.",
   "triggerType": "Raid",
@@ -539,7 +606,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -569,7 +640,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
   "effectEn": "[Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -599,7 +674,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -629,7 +708,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見て、1枚まで場外に置き、残りを望む順で山札の上に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck, Put up to 1 of them into your Outside Area, Put the rest on top of your deck in any order.",
   "triggerType": "Draw",
@@ -659,7 +742,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【フロントLにある場合】〈マキマ〉以外の自分の紫のキャラカードは全ての場所でイベントカードとしても扱う。【起動メイン】【フロントLにある場合】【ターン1】このターン中に自分がイベントカードを使用している場合のみ発動できる。自分の場の他のキャラを1枚選び、このターン中、【インパクト（1）】を与える。",
   "effectEn": "[While in Front Line] Your purple character cards other than <Makima> are also treated as event cards in all areas. [Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if you have used an Event card this turn. Choose 1 other character on your field, This turn, [Impact 1] is given.",
   "triggerType": "",
@@ -689,7 +776,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "マキマ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈マキマ〉アクティブにし、フロントLに移動できる【起動メイン】【フロントLにある場合】【ターン1】自分の場外から【スペシャルトリガー】と【ファイナルトリガー】をどちらも持たないイベントカードを1枚手札に加える。【起動メイン】【フロントLにある場合】【ターン1】このターン中に自分がイベントカードを使用している場合のみ発動できる。自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
   "effectEn": "[Raid] Can Raid onto <Makima>; set it to active and you may move it to the Front Line. [Activate: Main] [While in Front Line] [Once Per Turn] Add 1 event card(s) with neither [Special Trigger] nor [Final Trigger] from your Outside Area to your hand. [Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if you have used an Event card this turn. Choose 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Raid",
@@ -719,7 +813,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "マキマ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈マキマ〉アクティブにし、フロントLに移動できる【フロントLにある場合】〈マキマ〉以外の自分の紫のキャラカードは全ての場所でイベントカードとしても扱う。【登場時】このターン中、次に手札から使用する【スペシャルトリガー】と【ファイナルトリガー】をどちらも持たないイベントカードの消費APを-1する。以下から1つ選ぶ。・カードを1枚引く。・自分の場の他のキャラを1枚まで選び、このターン中、BP+2000。",
   "effectEn": "[Raid] Can Raid onto <Makima>; set it to active and you may move it to the Front Line. [While in Front Line] Your purple character cards other than <Makima> are also treated as event cards in all areas. [On Play] This turn, reduce the AP cost of the next event card with neither [Special Trigger] nor [Final Trigger] you use from your hand by 1. Choose 1 of the following. Draw 1 card(s). Choose up to 1 other character on your field, it gets BP+2000 this turn.",
   "triggerType": "Raid",
@@ -749,7 +850,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -779,7 +884,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -809,7 +918,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このターン中に自分の場の〈デンジ〉が退場している場合、このキャラはBP+1000。",
   "effectEn": "[During Your Turn] If <Denji> on your field was retired this turn, this character gets BP+1000.",
   "triggerType": "",
@@ -839,7 +952,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札から必要エナジーが2以下で消費APが1の紫の〔〈レゼ〉か〈デンジ〉か〈カフェ「二道」〉〕を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[On Play] Play up to 1 Purple <Reze> or <Denji> or <Cafe Crossroads> with required energy 2 or less and with AP cost 1 from your hand to your field rested.",
   "triggerType": "Draw",
@@ -869,7 +986,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラのアタックがブロックされなかった時、このターン中に自分の場の〈デンジ〉が退場している場合、カードを1枚引く。",
   "effectEn": "When this character's attack is not blocked, if <Denji> on your field was retired this turn, draw 1 card(s).",
   "triggerType": "Draw",
@@ -899,7 +1020,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚退場させてもよい。そうした場合、以下から1つ選ぶ。・カードを1枚引く。自分の場の他のキャラを1枚まで選び、このターン中、BP+2000。・カードを2枚引く。",
   "effectEn": "[On Play] You may retire 1 other character on your field. If you do, Choose 1 of the following. Draw 1 card(s). Choose up to 1 other character on your field, it gets BP+2000 this turn. Draw 2 card(s).",
   "triggerType": "Color",
@@ -929,7 +1054,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "レゼ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈レゼ〉アクティブにし、フロントLに移動できる【登場時】カードを1枚引く。以下から1つ選ぶ。・相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。・自分のターン中で、このターン中に自分の場の〈デンジ〉が退場している場合、自分のAPカードを1枚アクティブにする。〈レゼ〉のこの効果は1ターンに1回のみ選べる。",
   "effectEn": "[Raid] Can Raid onto <Reze>; set it to active and you may move it to the Front Line. [On Play] Draw 1 card(s). Choose 1 of the following. Choose up to 1 character in your opponent's Front Line, it gets BP-1000 this turn. If it is your turn and <Denji> on your field was retired this turn, set 1 of your AP cards to active. This effect of <Reze> can only be chosen 1 time(s) per 1 turn(s).",
   "triggerType": "Raid",
@@ -959,7 +1091,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場に〈マキマ〉がある場合、自分の場外から必要エナジーが3以下の〔〈デンジ〉か〈デート〉〕を1枚まで手札に加える。",
   "effectEn": "[On Play] If you have <Makima> on your field, add up to 1 <Denji> or <A Movie Date> with required energy 3 or less from your Outside Area to your hand.",
   "triggerType": "Get",
@@ -989,7 +1125,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見て、キャラカードを1枚まで公開し手札に加える。残りを望む順で山札の下に置く。〈レゼ〉以外を手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 character card among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added a card other than <Reze> to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Get",
@@ -1014,7 +1154,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1039,7 +1183,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から6枚見て、キャラカードを1枚まで公開し手札に加える。残りを望む順で山札の下に置く。この効果で〈マキマ〉を手札に加えた場合、自分の場外から〈デート〉を1枚まで手札に加える。この効果で〈レゼ〉を手札に加えた場合、自分の場外から必要エナジーが1以下の〈デンジ〉を1枚まで手札に加える。",
   "effectEn": "Look at the top 6 card(s) of your deck, reveal up to 1 character card among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added <Makima> to your hand with this effect, add up to 1 <A Movie Date> from your Outside Area to your hand. If you added <Reze> to your hand with this effect, add up to 1 <Denji> with required energy 1 or less from your Outside Area to your hand.",
   "triggerType": "Draw",
@@ -1064,7 +1212,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1089,7 +1241,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "以下から1つ選ぶ。・自分の場のキャラを1枚選び、このターン中、BP+1000。このターン中、〈マキマ〉以外の自分の紫のキャラカードは全ての場所でイベントカードとしても扱う。自分のAPカードを1枚アクティブにする。・カードを2枚引き、自分の手札を1枚場外に置く。このターン中に自分が他のイベントカードを使用している場合、自分のAPカードを1枚アクティブにする。〈デート〉のこの効果は1ターンに1回のみ選べる。",
   "effectEn": "Choose 1 of the following. Choose 1 character on your field, it gets BP+1000 this turn. This turn, your purple character cards other than <Makima> are also treated as event cards in all areas. Set 1 of your AP cards to active. Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area. If you have used another event card this turn, set 1 of your AP cards to active. This <A Movie Date> effect can only be chosen 1 time(s) per 1 turn(s).",
   "triggerType": "Draw",
@@ -1114,7 +1270,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは自分の場に〈レゼ〉がある場合のみ使用できる。自分の場のキャラを1枚退場させる。そうした場合、自分のAPカードを1枚アクティブにし、カードを2枚引く。",
   "effectEn": "This card can only be used if you have <Reze> on your field. Retire 1 character on your field. If you do, set 1 of your AP cards to active and draw 2 card(s).",
   "triggerType": "Draw",
@@ -1139,7 +1299,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈レゼ〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Reze> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -1164,7 +1328,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは自分の場に〈マキマ〉がある場合のみ使用できる。BP5000以下の相手のフロントLのキャラを1枚選び、退場させる。このターン中に自分が他のイベントカードを使用している場合、自分の場のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "This card can only be used if you have <Makima> on your field. Choose 1 character in your opponent's Front Line with BP 5000 or less, retire it. If you have used another event card this turn, choose up to 1 character on your field; it gets BP+1000 this turn.",
   "triggerType": "Special",
@@ -1194,7 +1362,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -1224,7 +1396,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはアクティブで登場させる。【起動メイン】【フロントLにある場合】【ターン1】自分の場の他のキャラを2枚まで選び、このターン中、BP+1000。",
   "effectEn": "This character is played active. [Activate: Main] [While in Front Line] [Once Per Turn] Choose up to 2 other characters on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -1254,7 +1430,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -1284,7 +1464,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -1314,7 +1498,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "Active",
@@ -1344,7 +1534,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）自分の移動フェイズ以外でこのキャラが移動した時、このキャラはこのターン中、「このキャラはBP4000以上のキャラにブロックされない。」と「このキャラのアタックがブロックされなかった時、カードを1枚まで引く。」を得る。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) When this character moves outside your Movement Phase, this character gains “This character cannot be blocked by characters with BP 4000 or more” and “When this character's attack is not blocked, draw up to 1 card(s)” this turn.",
   "triggerType": "",
@@ -1374,7 +1570,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": {
+   "kind": "name",
+   "value": "デンジ"
+  },
+  "deckLimit": null,
   "effectJp": "このカードは〈デンジ〉としても扱う。【レイド】〈デンジ〉アクティブにし、フロントLに移動できる【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【退場時】以下から1つ選ぶ。・カードを2枚引く。・このキャラの下に裏向きのカードがある場合、このカードを自分のフロントLにアクティブで登場させる。",
   "effectEn": "This card is also treated as <Denji>. [Raid] Can Raid onto <Denji>; set it to active and you may move it to the Front Line. [Impact Nullify] (The character that battles this character loses Impact during this battle) [On Retire] Choose 1 of the following. Draw 2 card(s). If this character has face-down cards under it, play this card to your Front Line active.",
   "triggerType": "Raid",
@@ -1404,7 +1609,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "デンジ"
+  },
+  "deckLimit": null,
   "effectJp": "このカードは〈デンジ〉としても扱う。【レイド】〈デンジ〉アクティブにし、フロントLに移動できるこのキャラのアタック終了時、このキャラの下に裏向きのカードがある場合、このキャラをアクティブにし、このキャラはこのターン中、【インパクト（1）】を得る。その後、このキャラの下の裏向きのカードを1枚場外に置く。この効果で場外に置いたカードが〈ポチタ〉の場合、それを1枚まで自分のエナジーLにレストで登場させる。",
   "effectEn": "This card is also treated as <Denji>. [Raid] Can Raid onto <Denji>; set it to active and you may move it to the Front Line. At the end of this character's attack, if this character has face-down cards under it, set this character to active, and it gains [Impact 1] this turn. Then, put 1 face-down card(s) under this character into your Outside Area. If the card put into your Outside Area by this effect is <Pochita>, play up to 1 of them to your Energy Line rested.",
   "triggerType": "Raid",
@@ -1432,13 +1644,13 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【赤】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Red] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -1468,7 +1680,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -1498,7 +1714,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見て、望む枚数を望む順で山札の上に置き、残りを場外に置く。その後、レイド状態でなく裏向きのカードが下にない自分の場の〈デンジ〉を1枚まで選び、自分の場外から〈ポチタ〉か〈かわりに・・・デンジの夢を私に見せてくれ〉を1枚まで裏向きでそのキャラの下に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck, Put any number of them on top of your deck in any order, Put the rest into your Outside Area. Then, choose up to 1 non-Raided <Denji> on your field with no face-down cards under it, and put up to 1 <Pochita> or <In Exchange, Show Me Your Dreams> from your Outside Area face down under that character.",
   "triggerType": "",
@@ -1528,7 +1748,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -1558,7 +1782,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見て、〈早川 アキ〉か〈姫野〉か〈マキマ〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 <Aki Hayakawa> or <Himeno> or <Makima> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -1588,7 +1816,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場に〈姫野〉がある場合、カードを1枚引き、自分の手札を1枚裏向きでこのキャラの下に置く。【アタック時】自分のフロントLの〈早川 アキ〉の下の裏向きのカードを1枚場外に置いてもよい。そうした場合、このキャラはこのターン中、BP+1500。",
   "effectEn": "[On Play] If you have <Himeno> on your field, draw 1 card(s) and put 1 card(s) from your hand face down under this character. [When Attacking] You may put 1 face-down card(s) under <Aki Hayakawa> in your Front Line into your Outside Area. If you do, This character gets BP+1500 this turn.",
   "triggerType": "",
@@ -1618,7 +1850,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【手札を1枚場外に置く】【ターン1】以下から1つ選ぶ。このターン中に〈早川 アキ〉が既に選んだ効果は選べない。・自分の場のキャラを1枚選び、このターン中、「このキャラはBP3000以下のキャラにブロックされない。」を与える。・自分の山札の上から3枚見て、〈早川 アキ〉か〈デンジ〉か〈パワー〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えなかった場合、カードを1枚引く。",
   "effectEn": "[Activate: Main] [While in Front Line] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] Choose 1 of the following. You cannot choose an effect <Aki Hayakawa> has already chosen this turn. Choose 1 character on your field, it gains “This character cannot be blocked by characters with BP 3000 or less” this turn. Look at the top 3 card(s) of your deck, reveal up to 1 <Aki Hayakawa> or <Denji> or <Power> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you didn't add it to your hand, draw 1 card(s).",
   "triggerType": "Get",
@@ -1648,7 +1884,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "早川 アキ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈早川 アキ〉アクティブにし、フロントLに移動できる自分のターン開始時、このキャラの下に裏向きのカードがない場合、このキャラを退場させる。このキャラがアタックする際、このキャラの下の裏向きのカードを1枚手札に加える。その後、自分の場に〈姫野〉があり、このキャラの下に裏向きのカードがない場合、このキャラはこのターン中、【狙い撃ち】と【インパクト（1）】を得る。【登場時】このキャラはこのターン中、BP+1000。自分の山札の上から3枚を裏向きでこのキャラの下に置く。",
   "effectEn": "[Raid] Can Raid onto <Aki Hayakawa>; set it to active and you may move it to the Front Line. At the start of your turn, if this character has no face-down cards under it, retire this character. When this character attacks, add 1 face-down card(s) under this character to your hand. Then, if you have <Himeno> on your field and this character has no face-down cards under it, this character gains [Snipe] and [Impact 1] this turn. [On Play] This character gets BP+1000 this turn. Put the top 3 card(s) of your deck face down under this character.",
   "triggerType": "Raid",
@@ -1678,7 +1921,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見て、1枚まで場外に置き、残りを望む順で山札の上に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck, Put up to 1 of them into your Outside Area, Put the rest on top of your deck in any order.",
   "triggerType": "Active",
@@ -1708,7 +1955,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】カードを1枚引く。",
   "effectEn": "[On Retire] Draw 1 card(s).",
   "triggerType": "",
@@ -1736,13 +1987,13 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【手札を1枚場外に置く】【ターン1】このキャラはこのターン中、発生エナジー+【赤】。",
   "effectEn": "[Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] This turn, this character's generated energy +[Red].",
   "triggerType": "Draw",
@@ -1772,7 +2023,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場に〈デンジ〉がある場合、カードを1枚引く。",
   "effectEn": "[On Play] If you have <Denji> on your field, Draw 1 card(s).",
   "triggerType": "Draw",
@@ -1802,7 +2057,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "パワー"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈パワー〉アクティブにし、フロントLに移動できる【ターン1】BP500以上のこのキャラが退場する場合、代わりにBP4000以上の自分のフロントLの他のキャラを1枚退場させてもよい。このキャラがアタックしてバトルに勝利した時、カードを1枚引く。【登場時】自分の場に〈デンジ〉がある場合、このキャラはこのターン中、BP+1000と「相手はこのキャラのアタックを可能ならブロックしなければならない。」を得る。",
   "effectEn": "[Raid] Can Raid onto <Power>; set it to active and you may move it to the Front Line. [Once Per Turn] If this character with BP 500 or more would be retired, you may retire 1 other character in your Front Line with BP 4000 or more instead. When this character attacks and wins a battle, Draw 1 card(s). [On Play] If you have <Denji> on your field, This character it gets BP+1000 and gains “Your opponent must block this character's attacks if able” this turn.",
   "triggerType": "Raid",
@@ -1832,7 +2094,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の場の〈デンジ〉を1枚まで選び、このターン中、「【アタック時】カードを1枚まで引く。」を与える。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Choose up to 1 <Denji> on your field, it gains “[When Attacking]Draw up to 1 card(s)” this turn.",
   "triggerType": "",
@@ -1862,7 +2128,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -1892,7 +2162,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【赤×2】減らす。【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Red x2]is reduced. [Impact Nullify] (The character that battles this character loses Impact during this battle)",
   "triggerType": "Active",
@@ -1922,7 +2198,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】自分のエナジーLのカードを1枚選び、アクティブにする。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] Choose 1 card in your Energy Line, set it to active.",
   "triggerType": "Color",
@@ -1952,7 +2232,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "姫野"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈姫野〉アクティブにし、フロントLに移動できるこのキャラのアタック終了時、このキャラを退場させてもよい。【フロントLにある場合】自分のエンドフェイズ開始時、自分のフロントLの〈姫野〉以外のキャラと自分のエナジーLのキャラを1枚ずつ選び、それらの位置を入れ替えてもよい。【登場時】カードを1枚引く。【退場時】自分の場と場外に元々のBPが4500以上のカードがない場合、自分のエナジーLのキャラを1枚まで選び、このターン中、BP+2000し、フロントLに移動させる。",
   "effectEn": "[Raid] Can Raid onto <Himeno>; set it to active and you may move it to the Front Line. At the end of this character's attack, you may retire this character. [While in Front Line] At the start of your End Phase, you may choose 1 each of characters in your Front Line other than <Himeno> and characters in your Energy Line, and swap their positions. [On Play] Draw 1 card(s). [On Retire] If you have no card with original BP 4500 or more on your field and in your Outside Area, choose up to 1 character in your Energy Line; it gets BP+2000 this turn, and move it to the Front Line.",
   "triggerType": "Raid",
@@ -1982,7 +2269,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードはフロントLに登場できず、フロントLに移動できない。【登場時】自分の山札の上から1枚見て、山札の上か場外に置く。【起動メイン】【レストにする】このキャラを退場させる。自分の場外から必要エナジーが1以下の赤の〈デンジ〉を1枚自分のエナジーLにアクティブで登場させてもよい。そうした場合、この効果で退場させたこのカードを裏向きでその〈デンジ〉の下に置く。",
   "effectEn": "This card cannot be played to the Front Line and cannot move to the Front Line. [On Play] Look at the top 1 card(s) of your deck, put them on top of your deck or into your Outside Area. [Activate: Main] [Rest this card] Retire this character. You may play 1 Red <Denji> with required energy 1 or less from your Outside Area to your Energy Line active. If you do, put this card retired by this effect face down under that <Denji>.",
   "triggerType": "Color",
@@ -2012,7 +2303,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】自分の手札のキャラカードを2枚かイベントカードを1枚場外に置いてもよい。そうした場合、このカードを手札に加える。",
   "effectEn": "[On Retire] You may put 2 character card(s) or 1 event card(s) from your hand into your Outside Area. If you do, Add this card to your hand.",
   "triggerType": "Draw",
@@ -2040,13 +2335,13 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
   "effectEn": "While this character is active, its generated energy +[Red].",
   "triggerType": "",
@@ -2076,7 +2371,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分のエナジーLのキャラを1枚選び、このキャラと位置を入れ替える。【アタック時】自分の場の〈マキマ〉以外のキャラを1枚退場させる。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 character in your Energy Line and swap its position with this character. [When Attacking] Retire 1 character on your field other than <Makima>.",
   "triggerType": "Get",
@@ -2106,7 +2405,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】自分の山札の上から1枚見て、山札の上か下に置く。",
   "effectEn": "[Activate: Main] [Rest this card] Look at the top 1 card(s) of your deck and put it on the top or bottom of your deck.",
   "triggerType": "Draw",
@@ -2136,7 +2439,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】このターン中に自分の移動フェイズ以外でこのキャラが移動していた場合、自分の場外から必要エナジーが2以下の〈早川 アキ〉を1枚まで手札に加える。",
   "effectEn": "[When Attacking] If this character moved outside your Movement Phase this turn, add up to 1 <Aki Hayakawa> with required energy 2 or less from your Outside Area to your hand.",
   "triggerType": "",
@@ -2166,7 +2473,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から4枚見て、〈早川 アキ〉か〈デンジ〉か〈パワー〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck, reveal up to 1 <Aki Hayakawa> or <Denji> or <Power> among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Get",
@@ -2191,7 +2502,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2216,7 +2531,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のキャラを1枚選び、このターン中、BP+2000。自分の場の〈早川 アキ〉の下の裏向きのカードを1枚場外に置いてもよい。そうした場合、自分のAPカードを1枚アクティブにし、自分の場の〈早川 アキ〉を1枚まで選び、このターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手に1ダメージ）を与える。",
   "effectEn": "Choose 1 character on your field, it gets BP+2000 this turn. You may put 1 face-down card(s) under <Aki Hayakawa> on your field into your Outside Area. If you do, set 1 of your AP cards to active, choose up to 1 <Aki Hayakawa> on your field, and it gains [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opponent) this turn.",
   "triggerType": "Draw",
@@ -2241,7 +2560,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "以下から1つ選ぶ。・自分の山札の上から2枚見て、望む枚数を望む順で山札の上に置き、残りを場外に置く。その後、「自分の場外から必要エナジーが1以下の赤の〈デンジ〉を1枚自分のエナジーLにアクティブで登場させ、このカードを裏向きでその〈デンジ〉の下に置く。」をしてもよい。・このカードを裏向きで、裏向きのカードが下にない自分の場の〈デンジ〉の下に置く。その〈デンジ〉がレイド状態でない場合、自分のAPカードを1枚アクティブにする。",
   "effectEn": "Choose 1 of the following. Look at the top 2 card(s) of your deck, Put any number of them on top of your deck in any order, Put the rest into your Outside Area. Then, you may “play 1 red <Denji> with required energy 1 or less from your Outside Area to your Energy Line active, and put this card face down under that <Denji>” Put this card face down under <Denji> on your field with no face-down cards under it. If that <Denji> is not Raided, set 1 of your AP cards to active.",
   "triggerType": "Active",
@@ -2266,7 +2589,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは自分の場に〈早川 アキ〉がある場合のみ使用できる。BP5000以下の相手のフロントLのキャラを1枚選び、退場させる。自分の場の〈早川 アキ〉の下の裏向きのカードを1枚場外に置いてもよい。",
   "effectEn": "This card can only be used if you have <Aki Hayakawa> on your field. Choose 1 character in your opponent's Front Line with BP 5000 or less, retire it. You may put 1 face-down card(s) under <Aki Hayakawa> on your field into your Outside Area.",
   "triggerType": "Special",
@@ -2291,7 +2618,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを『2枚』引く。自分の場に〈早川家〉があるか、自分の場の〈デンジ〉の下に裏向きのカードがある場合、『3枚』に代わる。",
   "effectEn": "Draw “2” card(s). If you have <Hayakawa Family> on your field, or <Denji> on your field has face-down cards under it, it becomes “3” instead.",
   "triggerType": "Draw",
@@ -2316,7 +2647,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2341,7 +2676,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈デンジ〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Denji> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -2364,7 +2703,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2387,7 +2730,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2410,7 +2757,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2433,7 +2784,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2456,7 +2811,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2479,7 +2838,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2502,7 +2865,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2525,7 +2892,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2548,7 +2919,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2571,7 +2946,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2594,7 +2973,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2617,7 +3000,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

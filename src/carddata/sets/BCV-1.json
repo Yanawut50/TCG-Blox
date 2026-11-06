@@ -21,9 +21,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "悪魔"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】相手のフロントLのキャラを1枚まで選び、次の自分のターン開始時まで、BP-1000。",
   "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line, Until the start of your next turn, BP-1000.",
   "triggerType": "",
@@ -53,9 +57,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -85,9 +93,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【相手のターン中】自分の場に他の［特徴：黒の暴牛］が4枚以上ある場合、このキャラはBP+500。",
   "effectEn": "[During Opponent's Turn] If you have 4 or more other [Trait: Black Bulls] on your field, This character gets BP+500.",
   "triggerType": "Active",
@@ -117,9 +129,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "アスタ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈アスタ〉アクティブにし、フロントLに移動できる自分の場に他の［特徴：黒の暴牛］が4枚以上ある場合、このキャラは【インパクト（1）】を得る。このキャラとバトルをしたキャラはこのバトル中、【インパクト無効】を失う。【退場時】自分の手札の［特徴：黒の暴牛］を1枚場外に置いてもよい。そうした場合、このキャラのレイド元のカードを1枚まで自分のフロントLにレストで登場させてもよい。",
   "effectEn": "[Raid] Can Raid onto <Asta>; set it to active and you may move it to the Front Line. If you have 4 or more other [Trait: Black Bulls] on your field, This character [Impact 1] is gained. The character that battles this character loses [Impact Nullify] during this battle. [On Retire] You may put 1 [Trait: Black Bulls] in your hand into the Outside Area. If you do, you may play up to 1 of this character's Raid source cards to your Front Line rested.",
   "triggerType": "Raid",
@@ -149,9 +168,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -181,9 +204,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の特徴に「黒の暴牛」を持つキャラを1枚まで選び、自分の手札か自分の場外から選んだキャラと同じカード名の必要エナジーが2以下で消費APが1の紫のキャラカードを1枚まで自分の場にレストで登場させる。アタックフェイズ終了時、そのキャラを退場させる。",
   "effectEn": "[On Play] Choose up to 1 character with the trait “Black Bulls” on your field, and play up to 1 Purple character card(s) with the same card name as the chosen character, required energy 2 or less and AP cost 1, from your hand or Outside Area to your field rested. At the end of the Attack Phase, retire that character.",
   "triggerType": "Color",
@@ -213,9 +240,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に緑か赤のカードがある場合、手札にあるこのカードの必要エナジーを【紫×1】減らす。",
   "effectEn": "If your opponent has Green or Red card on their field, the required energy of this card in your hand [Purple x1]is reduced.",
   "triggerType": "",
@@ -245,9 +276,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【フロントLにある場合】【ターン1】相手が【起動メイン】を発動した時、自分の場に他の［特徴：黒の暴牛］がある場合、カードを1枚引く。",
   "effectEn": "[While in Front Line] [Once Per Turn] When your opponent activates [Activate: Main], if you have another [Trait: Black Bulls] on your field, draw 1 card(s).",
   "triggerType": "",
@@ -277,9 +312,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -307,15 +346,15 @@
    {
     "color": "Purple",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【紫】。メインフェイズ終了時、このキャラを退場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Purple]. At the end of the Main Phase, retire this character.",
   "triggerType": "",
@@ -345,9 +384,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から4枚見る。その中から［特徴：黒の暴牛］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 [Trait: Black Bulls] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -377,9 +420,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場外から『必要エナジーが2以下』で消費APが1の特徴に「黒の暴牛」を持つ紫のキャラカードを1枚まで自分の場にレストで登場させるかレイドさせる。自分の場に他の［特徴：黒の暴牛］が6枚以上ある場合、『必要エナジーが4以下』に代わる。",
   "effectEn": "[On Play] Play up to 1 Purple character card(s) with the trait “Black Bulls”, “required energy 2 or less” and AP cost 1 from your Outside Area to your field rested, or Raid with it. If you have 6 or more other [Trait: Black Bulls] on your field, it becomes “required energy 4 or less” instead.",
   "triggerType": "",
@@ -409,9 +456,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -441,9 +492,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場に他の［特徴：黒の暴牛］がある場合、カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] If you have other [Trait: Black Bulls] on your field, Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -473,9 +528,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場に他の［特徴：黒の暴牛］が6枚以上ある場合、BP4000以下の相手のフロントLのキャラを1枚まで選び、退場させる。【アタック時】自分の場の特徴に「黒の暴牛」を持つキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] If you have 6 or more other [Trait: Black Bulls] on your field, Choose up to 1 character in your opponent's Front Line with BP 4000 or less, retire it. [When Attacking] Choose up to 1 character with the trait “Black Bulls” on your field, and it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -505,9 +564,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このキャラはBP+1000。【登場時】自分の場に他の［特徴：黒の暴牛］が6枚以上ある場合、このキャラをアクティブにする。",
   "effectEn": "[During Your Turn] This character gets BP+1000. [On Play] If you have 6 or more other [Trait: Black Bulls] on your field, Set this character to active.",
   "triggerType": "Draw",
@@ -537,9 +600,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "漆黒の三極性"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Retire] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -567,15 +634,15 @@
    {
     "color": "Purple",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "漆黒の三極性"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【紫】。",
   "effectEn": "While this character is active, its generated energy +[Purple].",
   "triggerType": "",
@@ -605,9 +672,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "漆黒の三極性"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを2枚引き、自分の手札を1枚場外に置く。【退場時】自分の手札から必要エナジーが2以下で消費APが1の紫の〔［特徴：漆黒の三極性］か［特徴：悪魔］〕を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[On Play] Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area. [On Retire] Play up to 1 Purple [Trait: Jet-Black Tripolarity] or [Trait: Devil] with required energy 2 or less and with AP cost 1 from your hand to your field rested.",
   "triggerType": "Color",
@@ -637,9 +708,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "漆黒の三極性"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -669,9 +746,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "漆黒の三極性"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】自分の山札の上から3枚見る。その中から［特徴：漆黒の三極性］か［特徴：悪魔］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "[On Retire] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: Jet-Black Tripolarity] or [Trait: Devil] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Active",
@@ -701,9 +782,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "漆黒の三極性"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚退場させてもよい。そうした場合、カードを2枚引く。",
   "effectEn": "[On Play] You may retire 1 other character on your field. If you do, Draw 2 card(s).",
   "triggerType": "Draw",
@@ -733,9 +818,18 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "漆黒の三極性"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": {
+   "kind": "name",
+   "value": "ゼノン・ゾグラティス"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ゼノン・ゾグラティス〉アクティブにし、フロントLに移動できる【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【起動メイン】【ターン1】自分の場外にあるカードを4枚リムーブエリアに置く。そうした場合、このキャラはこのターン中、「このキャラはBP3000以下のキャラにブロックされない。」を得る。【アタック時】カードを1枚引く。このキャラがアタックしてブロックされた時、自分の手札を1枚場外に置く。",
   "effectEn": "[Raid] Can Raid onto <Zenon Zogratis>; set it to active and you may move it to the Front Line. [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [Activate: Main] [Once Per Turn] Put into the owner's remove area 4 cards in your Outside Area. If you do, This character gains “This character cannot be blocked by characters with BP 3000 or less” this turn. [When Attacking] Draw 1 card(s). When this character attacks and is blocked, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Raid",
@@ -765,9 +859,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "漆黒の三極性"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -797,9 +895,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "漆黒の三極性"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から1枚見る。そのカードを自分の山札の上か場外に置く。",
   "effectEn": "[On Play] Look at the top 1 card(s) of your deck. Put that card on top of your deck or into your Outside Area.",
   "triggerType": "Active",
@@ -829,9 +931,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "漆黒の三極性"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【ターン1】自分の場外にあるカードを4枚リムーブエリアに置く。そうした場合、以下から1つ選ぶ。・このキャラはこのターン中、【ダメージ（2）】を得る。・このキャラは次の自分のターン開始時まで、【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）と【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）を得る。",
   "effectEn": "[Activate: Main] [Once Per Turn] Put into the owner's remove area 4 cards in your Outside Area. If you do, Choose 1 of the following. This character, this turn, [Damage 2] is gained. This character gains [Double Block] (The first time this character blocks each turn, set it to active) and [Impact Nullify] (The character that battles this character loses [Impact] during this battle) until the start of your next turn.",
   "triggerType": "Draw",
@@ -861,9 +967,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "漆黒の三極性"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "ダンテ・ゾグラティス"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ダンテ・ゾグラティス〉アクティブにし、フロントLに移動できる【登場時】相手のフロントLのキャラを2枚まで選び、次の自分のターン開始時まで、BP-1000。【アタック時】自分の山札の上から2枚を場外に置く。",
   "effectEn": "[Raid] Can Raid onto <Dante Zogratis>; set it to active and you may move it to the Front Line. [On Play] Choose up to 2 characters in your opponent's Front Line, Until the start of your next turn, BP-1000. [When Attacking] Put the top 2 card(s) of your deck into your Outside Area.",
   "triggerType": "Raid",
@@ -893,7 +1006,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のアタックフェイズ終了時、自分の山札が0枚で自分の場に異なるカード名を持つ［特徴：漆黒の三極性］が3種類以上ある場合、自分はゲームに勝利する。【起動メイン】【レストにする】自分の場外にあるカードを4枚リムーブエリアに置く。そうした場合、カードを1枚引き、自分の手札を1枚場外に置く。〈クリフォトの樹〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "At the end of your Attack Phase, if you have 0 cards in your deck and 3 or more [Trait: Jet-Black Tripolarity] with different card names on your field, you win the game. [Activate: Main] [Rest this card] Put into the owner's remove area 4 cards in your Outside Area. If you do, Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. This <Tree of Qliphoth> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Get",
@@ -923,9 +1040,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場にあるカードが全て［特徴：黒の暴牛］の場合、以下から1つ選ぶ。・カードを1枚引く。・自分の手札の［特徴：黒の暴牛］を1枚場外に置いてもよい。そうした場合、カードを2枚引く。",
   "effectEn": "[On Play] If all cards on your field are [Trait: Black Bulls], choose 1 of the following. Draw 1 card(s). You may put 1 [Trait: Black Bulls] in your hand into the Outside Area. If you do, Draw 2 card(s).",
   "triggerType": "Get",
@@ -950,7 +1071,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -975,7 +1100,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手のフロントLのキャラを1枚選び、自分の場の［特徴：黒の暴牛］1枚につき、このターン中、BP-1000。",
   "effectEn": "Choose 1 character in your opponent's Front Line, For each 1 [Trait: Black Bulls] on your field, it gets BP-1000 this turn.",
   "triggerType": "Special",
@@ -1000,7 +1129,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1025,7 +1158,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手のフロントLのキャラを1枚選び、次の自分のターン開始時まで、『BP-3000』。自分の場に〈ダンテ・ゾグラティス〉がある場合、以下から1つ選ぶ。・『BP-4000』に代わる。・カードを1枚引く。",
   "effectEn": "Choose 1 character in your opponent's Front Line, Until the start of your next turn, 『BP-3000』. If you have <Dante Zogratis> on your field, Choose 1 of the following. It becomes “BP-4000” instead. Draw 1 card(s).",
   "triggerType": "Special",
@@ -1055,7 +1192,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から1枚を公開する。公開したカードが〈アスタ〉か〈ユノ〉の場合、そのカードを手札に加える。公開したカードが〈アスタ〉か〈ユノ〉以外の場合、そのカードを自分の山札の上か下に置く。",
   "effectEn": "[On Play] Reveal the top 1 card(s) of your deck. If the revealed card is <Asta> or <Yuno>, add that card to your hand. If the revealed card is not <Asta> or <Yuno>, put that card on the top or bottom of your deck.",
   "triggerType": "Draw",
@@ -1085,7 +1226,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中からカードを1枚まで手札に加える。残りを望む順で自分の山札の上に置く。手札に加えた場合、自分の手札を1枚自分の山札の上か場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. From among them, add up to 1 card to your hand. Put the rest on top of your deck in any order. If you added it to your hand, put 1 card(s) from your hand on top of your deck or into your Outside Area.",
   "triggerType": "Color",
@@ -1115,7 +1260,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -1145,9 +1294,15 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "碧の野薔薇"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【自分のターン中】自分の場に〈ヤミ・スケヒロ〉がある場合、このキャラはBP+500。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [During Your Turn] If you have <Yami Sukehiro> on your field, This character gets BP+500.",
   "triggerType": "Draw",
@@ -1177,9 +1332,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "銀翼の大鷲"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】このキャラのBPが5000以上の場合、カードを1枚引く。",
   "effectEn": "[When Attacking] If this character's BP is 5000 or more, Draw 1 card(s).",
   "triggerType": "",
@@ -1209,9 +1368,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "紅蓮の獅子王"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラのBPが5000以上の場合、このキャラは【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
   "effectEn": "If this character's BP is 5000 or more, This character [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained.",
   "triggerType": "Active",
@@ -1241,9 +1404,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "紅蓮の獅子王"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1273,9 +1440,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "紅蓮の獅子王"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から4枚見る。その中から必要エナジーが4以上のキャラカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 character card with required energy 4 or more among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -1305,9 +1476,19 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "紅蓮の獅子王"
   ],
+  "keywords": {
+   "impact": 1,
+   "damage": 2
+  },
+  "raid": {
+   "kind": "name",
+   "value": "メレオレオナ・ヴァーミリオン"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈メレオレオナ・ヴァーミリオン〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【起動メイン】【フロントLにある場合】【ターン1】自分の場の他のキャラを1枚選び、アクティブにし、このターン中、BP+1000。",
   "effectEn": "[Raid] Can Raid onto <Mereoleona Vermillion>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 other character on your field, set it to active, and it gets BP+1000 this turn.",
   "triggerType": "Raid",
@@ -1337,9 +1518,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "紅蓮の獅子王"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -1369,9 +1554,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1401,9 +1590,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【ターン1】自分の手札を1枚自分の山札の上に置く。そうした場合、このキャラは次の自分のターン開始時まで、BP+1000。",
   "effectEn": "[Activate: Main] [Once Per Turn] Put 1 card(s) from your hand on top of your deck. If you do, This character gets BP+1000 until the start of your next turn.",
   "triggerType": "",
@@ -1433,9 +1626,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "アスタ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈アスタ〉アクティブにし、フロントLに移動できるこのキャラが与えたダメージによるトリガーチェックでは、相手は【ドロートリガー】を発動できない。【自分のターン中】自分の場に〈ユノ〉がある場合、自分の場のキャラ全ては、BP+500。【アタック時】自分の山札の上から1枚を公開する。公開したカードの必要エナジーが3の場合、このキャラはこのターン中、【インパクト（1）】を得る。公開したカードを自分の山札の上か下に置く。",
   "effectEn": "[Raid] Can Raid onto <Asta>; set it to active and you may move it to the Front Line. In Trigger checks caused by damage dealt by this character, your opponent cannot activate [Draw Trigger]. [During Your Turn] If you have <Yuno> on your field, all characters on your field BP+500. [When Attacking] Reveal the top 1 card(s) of your deck. If the revealed card's required energy is 3, this character gains [Impact 1] this turn. Put the revealed card on the top or bottom of your deck.",
   "triggerType": "Raid",
@@ -1465,9 +1665,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "ネロ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ネロ〉アクティブにし、フロントLに移動できる【登場時】カードを1枚引く。【起動メイン】【フロントLにある場合】レイド状態のこのキャラの一番上のカードを場外に置く。そうした場合、相手のフロントLのキャラを1枚まで選び、レストにする。それは次の1回アクティブにならない。",
   "effectEn": "[Raid] Can Raid onto <Nero>; set it to active and you may move it to the Front Line. [On Play] Draw 1 card(s). [Activate: Main] [While in Front Line] Put the top card of this Raided character into the Outside Area. If you do, Choose up to 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s).",
   "triggerType": "Get",
@@ -1497,9 +1704,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -1527,15 +1738,15 @@
    {
     "color": "Green",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【緑】。メインフェイズ終了時、このキャラを退場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Green]. At the end of the Main Phase, retire this character.",
   "triggerType": "",
@@ -1565,9 +1776,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -1595,15 +1810,15 @@
    {
     "color": "Green",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【緑】。",
   "effectEn": "While this character is active, its generated energy +[Green].",
   "triggerType": "",
@@ -1633,9 +1848,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に元々のBPよりBPが高いキャラがある場合、手札にあるこのカードの消費APを-1する。【自分のターン中】このキャラはBP+1000と【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を得る。",
   "effectEn": "If you have a character on your field whose BP is higher than its original BP, reduce the AP cost of this card in your hand by 1. [During Your Turn] This character gets BP+1000 and gains [Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead)",
   "triggerType": "Get",
@@ -1665,9 +1884,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】APを1支払ってもよい。そうした場合、以下から1つ選ぶ。・相手のフロントLのレイド状態のカードを1枚まで選び、レイド状態の上のカードを1枚場外に置く。・カードを2枚引く。【起動メイン】【フロントLにある場合】【ターン1】自分の場のキャラを1枚選び、このターン中、BP+1000。",
   "effectEn": "[On Play] You may pay 1 AP. If you do, Choose 1 of the following. Choose up to 1 Raided card in your opponent's Front Line, and put 1 top card of that Raided stack into the Outside Area. Draw 2 card(s). [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 character on your field, it gets BP+1000 this turn.",
   "triggerType": "Color",
@@ -1697,9 +1920,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "金色の夜明け"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[When Attacking] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -1729,9 +1956,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "金色の夜明け"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -1761,9 +1992,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "金色の夜明け"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "Draw",
@@ -1793,9 +2030,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "金色の夜明け"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分の場に〈アスタ〉がある場合、このキャラはBP+500。【登場時】自分の場の他のキャラを1枚手札に戻してもよい。そうした場合、このキャラをアクティブにする。",
   "effectEn": "[During Your Turn] If you have <Asta> on your field, This character gets BP+500. [On Play] You may return 1 other character on your field to the owner's hand. If you do, Set this character to active.",
   "triggerType": "Draw",
@@ -1825,9 +2066,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "金色の夜明け"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "ユノ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ユノ〉アクティブにし、フロントLに移動できる【登場時】自分の場に〈アスタ〉がある場合、自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。【アタック時】自分の山札の上から1枚を公開し、『公開したカードを自分の山札の上か下に置く』。公開したカードが、必要エナジーが3で消費APが1の緑の〔キャラカードかフィールドカード〕の場合、『自分の手札を1枚場外に置き、公開したカードを自分の場にレストで登場させるかレイドさせる』に代えてもよい。",
   "effectEn": "[Raid] Can Raid onto <Yuno>; set it to active and you may move it to the Front Line. [On Play] If you have <Asta> on your field, Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck. [When Attacking] Reveal the top 1 card(s) of your deck and “put the revealed card on the top or bottom of your deck” If the revealed card is a Green character card or Field card with required energy 3 and AP cost 1, you may change it to “put 1 card(s) from your hand into your Outside Area, then play the revealed card to your field rested or Raid with it”",
   "triggerType": "Raid",
@@ -1857,9 +2105,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "珊瑚の孔雀"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に紫か赤のカードがある場合、手札にあるこのカードの必要エナジーを【緑×1】減らす。",
   "effectEn": "If your opponent has Purple or Red card on their field, the required energy of this card in your hand [Green x1]is reduced.",
   "triggerType": "",
@@ -1889,9 +2141,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "紫苑の鯱"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -1921,9 +2179,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "翠緑の蟷螂"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の発生エナジーが6以上ある場合、このキャラはBP+1500。",
   "effectEn": "If your generated energy is 6 or more, this character gets BP+1500.",
   "triggerType": "Active",
@@ -1953,9 +2215,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "水色の幻鹿"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】自分の発生エナジーが6以上ある場合のみ発動できる。このキャラは次の自分のターン開始時まで、「このキャラはフロントLにある場合もエナジーを発生させる。」を得る。",
   "effectEn": "[Activate: Main] Can only activate if your generated energy is 6 or more. This character gains “This character also generates energy while in the Front Line” until the start of your next turn.",
   "triggerType": "Draw",
@@ -1985,7 +2251,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このフィールドはアクティブで場に登場させる。【登場時】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。【起動メイン】【レストにする】自分の場のキャラ全ては、このターン中、BP+500。",
   "effectEn": "This Field is played active. [On Play] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck. [Activate: Main] [Rest this card] All characters on your field it gets BP+500 this turn.",
   "triggerType": "Get",
@@ -2010,7 +2280,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2035,7 +2309,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+1000。自分の場に〈メレオレオナ・ヴァーミリオン〉がある場合、カードを1枚引く。",
   "effectEn": "Choose 1 character on your field, set it to active, and it gets BP+1000 this turn. If you have <Mereoleona Vermillion> on your field, Draw 1 card(s).",
   "triggerType": "Draw",
@@ -2060,7 +2338,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のキャラの最大BP以下の相手のフロントLのキャラを1枚選び、退場させる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP equal to or less than the highest BP among characters on your field, and retire it.",
   "triggerType": "Special",
@@ -2085,7 +2367,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP2000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈アスタ〉か〈ユノ〉がどちらかのみある場合、『BP4000以下』に代わる。自分の場に〈アスタ〉と〈ユノ〉がどちらもある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 2000 or less, retire it. If you have only one of <Asta> or <Yuno> on your field, it becomes “BP 4000 or less” instead. If you have both <Asta> and <Yuno> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -2113,13 +2399,13 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【赤】。メインフェイズ終了時、このキャラを退場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Red]. At the end of the Main Phase, retire this character.",
   "triggerType": "",
@@ -2149,7 +2435,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場外にイベントカードが4枚以上ある場合、このキャラはBP+1500。",
   "effectEn": "If you have 4 or more Event cards in your Outside Area, This character gets BP+1500.",
   "triggerType": "Draw",
@@ -2179,7 +2469,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分の場外にイベントカードが4枚以上ある場合、このキャラはBP+500。",
   "effectEn": "[During Your Turn] If you have 4 or more Event cards in your Outside Area, This character gets BP+500.",
   "triggerType": "Active",
@@ -2209,7 +2503,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外から必要エナジーが2以下の赤のイベントカードを1枚まで手札に加える。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, add up to 1 Red Event card(s) with required energy 2 or less from your Outside Area to your hand.",
   "triggerType": "Draw",
@@ -2239,9 +2539,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "悪魔"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の【レイド】を持つ〈アスタ〉はこのキャラにレイドできる。【登場時】カードを1枚引き、自分の手札を1枚裏向きでこのキャラの下に置く。",
   "effectEn": "Your <Asta> with [Raid] can Raid onto this character. [On Play] Draw 1 card(s), then put 1 card(s) from your hand face down under this character.",
   "triggerType": "Color",
@@ -2271,9 +2575,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -2303,9 +2611,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラの下に裏向きのカードがある場合、このキャラはBP+1000。",
   "effectEn": "If there is a face-down card under this character, this character gets BP+1000.",
   "triggerType": "",
@@ -2335,9 +2647,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "アスタ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈アスタ〉アクティブにし、フロントLに移動できる【フロントLにある場合】自分のターン開始時、『レイド状態のこのキャラの一番上のカードを場外に置く』。このキャラの下に裏向きのカードがある場合、『このキャラの下の裏向きのカードを1枚場外に置く』に代わる。【登場時】BP4000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "[Raid] Can Raid onto <Asta>; set it to active and you may move it to the Front Line. [While in Front Line] At the start of your turn, “put the top card of this Raided character into its owner's Outside Area” If there is a face-down card under this character, it becomes “put 1 face-down card(s) under this character into the Outside Area” instead. [On Play] Choose up to 1 character in your opponent's Front Line with BP 4000 or less, retire it.",
   "triggerType": "Raid",
@@ -2367,9 +2686,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【手札を1枚場外に置く】【このカードを退場させる】自分の手札から必要エナジーが3以下で消費APが1の特徴に「黒の暴牛」を持つ赤のキャラカードを1枚まで自分の場にアクティブで登場させ、そのキャラはこのターン中、BP+1000。",
   "effectEn": "[Activate: Main] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] [Retire this card] Play up to 1 Red character card(s) with the trait “Black Bulls”, required energy 3 or less and AP cost 1 from your hand to your field active, and that character gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -2399,9 +2722,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から1枚を裏向きでこのキャラの下に置く。【起動メイン】【ターン1】このキャラの下の裏向きのカードを1枚場外に置く。そうした場合、このキャラはこのターン中、【2回アタック】（このキャラがこのターン初めてアタックした時、アクティブにする）を得る。",
   "effectEn": "[On Play] Put the top 1 card(s) of your deck face down under this character. [Activate: Main] [Once Per Turn] Put 1 face-down card(s) under this character into your Outside Area. If you do, This character, this turn, [Double Attack](The first time this character attacks each turn, set it to active) is gained.",
   "triggerType": "",
@@ -2431,9 +2758,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -2463,9 +2796,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはアクティブで場に登場させる。【登場時】カードを1枚引く。【アタック時】自分の場の〈アスタ〉か〈リーベ〉を1枚まで選び、このターン中、BP+1000し、自分の山札の上から1枚を裏向きで選んだキャラの下に置く。",
   "effectEn": "This character is played active. [On Play] Draw 1 card(s). [When Attacking] Choose up to 1 <Asta> or <Liebe> on your field; it gets BP+1000 this turn, and put the top 1 card(s) of your deck face down under the chosen character.",
   "triggerType": "Get",
@@ -2495,9 +2832,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -2527,9 +2868,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引く。",
   "effectEn": "[On Play] Draw 1 card(s).",
   "triggerType": "",
@@ -2559,9 +2904,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】このターン中に自分がイベントカードを使用している場合のみ発動できる。自分の山札の上から1枚見る。そのカードを自分の山札の上か場外に置く。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if you have used an Event card this turn. Look at the top 1 card(s) of your deck. Put that card on top of your deck or into your Outside Area.",
   "triggerType": "Color",
@@ -2591,9 +2940,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "ノエル・シルヴァ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ノエル・シルヴァ〉アクティブにし、フロントLに移動できるこのターン中に自分がイベントカードを使用している場合、このキャラはこのターン中、BP+1000と【インパクト（1）】を得る。【登場時】自分の場外にあるイベントカードの枚数により、このキャラはこのターン中、以下の効果を全て得る。2枚以上：このキャラはBP3000以下のキャラにブロックされない。4枚以上：相手はこのキャラのアタックを可能ならブロックしなければならない。",
   "effectEn": "[Raid] Can Raid onto <Noelle Silva>; set it to active and you may move it to the Front Line. If you have used an event card this turn, this character gains BP+1000 and [Impact 1] this turn. [On Play] Depending on the number of Event cards in your Outside Area, this character gains all of the following effects this turn. 2 or more: This character cannot be blocked by characters with BP 3000 or less. 4 or more: Your opponent must block this character's attacks if able.",
   "triggerType": "Raid",
@@ -2623,9 +2979,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【フロントLにある場合】〈バネッサ・エノテーカ〉以外の自分の場のキャラは、相手が手札から使用したイベントカードの効果で選ばれない。",
   "effectEn": "[While in Front Line] Characters on your field other than <Vanessa Enoteca> cannot be chosen by effects of Event cards your opponent uses from their hand.",
   "triggerType": "Draw",
@@ -2655,9 +3015,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のアタックフェイズ終了時、このキャラの下の裏向きのカードを1枚場外に置いてもよい。そうした場合、以下から1つ選ぶ。・自分の場のキャラを1枚選び、別のラインに移動させる。・自分のフロントLのキャラと自分のエナジーLのキャラを1枚ずつ選び、それらの位置を入れ替える。【登場時】自分の山札の上から1枚を裏向きでこのキャラの下に置く。",
   "effectEn": "At the end of your Attack Phase, You may put 1 face-down card(s) under this character into your Outside Area. If you do, Choose 1 of the following. Choose 1 character on your field, move it to another line. Choose 1 character in your Front Line and 1 character in your Energy Line, and swap their positions. [On Play] Put the top 1 card(s) of your deck face down under this character.",
   "triggerType": "",
@@ -2687,9 +3051,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に紫か緑のカードがある場合、手札にあるこのカードの必要エナジーを【赤×1】減らす。",
   "effectEn": "If your opponent has Purple or Green card on their field, the required energy of this card in your hand [Red x1]is reduced.",
   "triggerType": "",
@@ -2717,15 +3085,15 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
   "effectEn": "While this character is active, its generated energy +[Red].",
   "triggerType": "",
@@ -2755,9 +3123,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場のキャラの下の裏向きのカードを1枚場外に置いてもよい。そうした場合、カードを1枚引く。【アタック時】自分の場の特徴に「黒の暴牛」を持つ他のキャラを1枚まで選び、自分の山札の上から1枚を裏向きで選んだキャラの下に置く。",
   "effectEn": "[On Play] You may put 1 face-down card(s) under characters on your field into your Outside Area. If you do, Draw 1 card(s). [When Attacking] Choose up to 1 other character with the trait “Black Bulls” on your field, and put the top 1 card(s) of your deck face down under the chosen character.",
   "triggerType": "Active",
@@ -2787,9 +3159,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -2819,9 +3195,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "金色の夜明け"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -2851,9 +3231,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "金色の夜明け"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -2883,9 +3267,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "金色の夜明け"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から4枚見る。その中から赤のイベントカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 Red Event card among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -2915,9 +3303,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "金色の夜明け"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "ミモザ・ヴァーミリオン"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ミモザ・ヴァーミリオン〉アクティブにし、フロントLに移動できる【登場時】カードを1枚引く。以下から1つ選ぶ。・このターン中、次に手札から使用する必要エナジーが2以下のイベントカードの消費APを-1する。・自分の手札のイベントカードを1枚場外に置いてもよい。そうした場合、自分の場外から消費APが1の赤のキャラカードを1枚まで手札に加える。",
   "effectEn": "[Raid] Can Raid onto <Mimosa Vermillion>; set it to active and you may move it to the Front Line. [On Play] Draw 1 card(s). Choose 1 of the following. This turn, the next Event card with required energy 2 or less you use from your hand costs 1 less AP. You may put 1 Event card in your hand into the Outside Area. If you do, add up to 1 Red character card(s) with AP cost 1 from your Outside Area to your hand.",
   "triggerType": "Raid",
@@ -2947,9 +3342,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "金色の夜明け"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分の場に〈アスタ〉がある場合、このキャラはBP+500。【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、このキャラをアクティブにする。",
   "effectEn": "[During Your Turn] If you have <Asta> on your field, This character gets BP+500. [On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, Set this character to active.",
   "triggerType": "",
@@ -2979,7 +3378,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】【ターン1】自分の場に〈ロロペチカ〉がある場合のみ発動できる。自分の山札の上から1枚見る。そのカードを自分の山札の上か場外に置く。",
   "effectEn": "This Field is played active. [Activate: Main] [Rest this card] [Once Per Turn] Can only activate if you have <Loropechika> on your field. Look at the top 1 card(s) of your deck. Put that card on top of your deck or into your Outside Area.",
   "triggerType": "Get",
@@ -3004,7 +3407,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -3029,7 +3436,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のキャラを1枚選び、このターン中、BP+2500と「このキャラはBP2500以下のキャラにブロックされない。」を与える。選んだキャラが〈ノエル・シルヴァ〉の場合、さらにこのターン中、「相手はこのキャラのアタックを可能ならブロックしなければならない。」を与える。",
   "effectEn": "Choose 1 character on your field, it gets BP+2500 and gains “This character cannot be blocked by characters with BP 2500 or less” this turn. If the chosen character is <Noelle Silva>, it also gains “Your opponent must block this character's attacks if able” this turn.",
   "triggerType": "Special",
@@ -3054,7 +3465,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のフロントLのキャラを1枚選び、次の自分のターン開始時まで、「相手はキャラの効果・イベントカードの効果・トリガーの効果でこのキャラを選べない。」を与える。自分の場に〈ノエル・シルヴァ〉がある場合、自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "Choose 1 character in your Front Line; until the start of your next turn, it gains “Your opponent cannot choose this character with character effects, event card effects or Trigger effects” If you have <Noelle Silva> on your field, Choose up to 1 of your AP cards, set it to active.",
   "triggerType": "Draw",
@@ -3079,7 +3494,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から2枚見る。その中からカードを1枚公開し手札に加える。残りを自分の山札の上に置く。公開したカードが〈ノエル・シルヴァ〉か〈ミモザ・ヴァーミリオン〉か〈ロロペチカ〉か必要エナジーが2以下のイベントカードの場合、自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "Look at the top 2 card(s) of your deck. Reveal 1 card among them and add it to your hand. Put the rest on top of your deck. If the revealed card is <Noelle Silva> or <Mimosa Vermillion> or <Loropechika> or Event card with required energy 2 or less, Choose up to 1 of your AP cards, set it to active.",
   "triggerType": "",
@@ -3104,7 +3523,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈アスタ〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Asta> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -3134,9 +3557,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "紅蓮の獅子王"
   ],
+  "keywords": {
+   "damage": 2
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【自分のターン中】このキャラはBP+1000。",
   "effectEn": "[Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [During Your Turn] This character gets BP+1000.",
   "triggerType": "",
@@ -3166,9 +3595,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "",
@@ -3198,9 +3633,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "アスタ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈アスタ〉アクティブにし、フロントLに移動できる【登場時】自分の山札の上から1枚を裏向きでこのキャラの下に置く。相手のフロントLのキャラを1枚まで選び、次の自分のターン開始時まで、元々の効果を全て失わせる。【アタック時】【ターン1】このキャラの下の裏向きのカードを1枚場外に置いてもよい。そうした場合、このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
   "effectEn": "[Raid] Can Raid onto <Asta>; set it to active and you may move it to the Front Line. [On Play] Put the top 1 card(s) of your deck face down under this character. Choose up to 1 character in your opponent's Front Line; it loses all original effects until the start of your next turn. [When Attacking] [Once Per Turn] You may put 1 face-down card(s) under this character into your Outside Area. If you do, This character, this turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained.",
   "triggerType": "Raid",
@@ -3230,9 +3672,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
   "effectEn": "[Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -3262,9 +3708,15 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【起動メイン】【ターン1】【手札を1枚場外に置く】このキャラはこのターン中、BP+1000。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [Activate: Main] [Once Per Turn] [Put 1 card(s) from your hand into your Outside Area] This character gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -3294,9 +3746,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3326,9 +3782,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "金色の夜明け"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -3358,9 +3818,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "金色の夜明け"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはアクティブで場に登場させる。このキャラがアタックしてブロックされなかった時、カードを1枚引く。【登場時】自分の場に〈アスタ〉がある場合、相手のフロントLのキャラを1枚まで選び、エナジーLに移動させる。（移動させる時にエナジーLに空きがない場合、相手はエナジーLのカードを1枚選んでリムーブエリアに置いてから移動させる）",
   "effectEn": "This character is played active. When this character attacks and is not blocked, Draw 1 card(s). [On Play] If you have <Asta> on your field, Choose up to 1 character in your opponent's Front Line, move it to the Energy Line. (When moving, if there is no space in the Energy Line, your opponent chooses 1 card(s) in their Energy Line, puts them into the Remove Area, then moves it)",
   "triggerType": "Color",
@@ -3390,7 +3854,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の場外から必要エナジーが3以下の赤のキャラカードを2枚まで手札に加える。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Add up to 2 Red character card(s) with required energy 3 or less from your Outside Area to your hand.",
   "triggerType": "Get",
@@ -3420,9 +3888,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【自分のターン中】自分の場に他の［特徴：黒の暴牛］が4枚以上ある場合、このキャラはBP+1000。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [During Your Turn] If you have 4 or more other [Trait: Black Bulls] on your field, This character gets BP+1000.",
   "triggerType": "Active",
@@ -3450,15 +3924,15 @@
    {
     "color": "Purple",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に他の［特徴：黒の暴牛］が4枚以上ある場合、このキャラの発生エナジー+【紫】。【起動メイン】【レストにする】【APを1支払う】【ターン1】自分の場の〈黒の暴牛アジト〉を1枚選び、そのカードの【登場時】を発動する。",
   "effectEn": "If you have 4 or more other [Trait: Black Bulls] on your field, This character's generated energy +[Purple]. [Activate: Main] [Rest this card] [Pay 1 AP] [Once Per Turn] Choose 1 <Black Bulls' Hideout> on your field, and activate that card's [On Play].",
   "triggerType": "",
@@ -3488,9 +3962,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の暴牛"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "山札にあるこのカードは必要エナジーを【緑×3】として扱ってもよい。【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【自分のターン中】自分の場に〈ユノ〉がある場合、このキャラはBP+500。",
   "effectEn": "This card in your deck may treat its required energy as [Green x3]. [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [During Your Turn] If you have <Yuno> on your field, This character gets BP+500.",
   "triggerType": "",
@@ -3520,9 +4000,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "金色の夜明け"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【登場時】自分の場に〈アスタ〉がある場合、自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを望む順で下に置く。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [On Play] If you have <Asta> on your field, Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest on the bottom of your deck in any order.",
   "triggerType": "",
@@ -3545,7 +4031,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3568,7 +4058,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3591,7 +4085,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3614,7 +4112,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3637,7 +4139,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3660,7 +4166,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3683,7 +4193,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3706,7 +4220,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

@@ -19,13 +19,13 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【黄】。",
   "effectEn": "While this character is active, its generated energy +[Yellow].",
   "triggerType": "",
@@ -55,7 +55,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札から［特徴：地鳴らし］以外の必要エナジーが3以下で消費APが1の黄のキャラカードを1枚まで自分の場にレストで登場させる。この効果で自分の場にあるカード名を持つカードは登場させられない。",
   "effectEn": "[On Play] Play up to 1 Yellow character card other than [Trait: Rumbling] and with required energy 3 or less and with AP cost 1 from your hand to your field rested. Cards with the same card name as a card on your field cannot be played by this effect.",
   "triggerType": "",
@@ -85,7 +89,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場に［特徴：地鳴らし］以外の黄のキャラのカード名が4種類以上ある場合、自分の場の他のキャラを1枚まで選び、このターン中、BP+1500。",
   "effectEn": "[On Play] If you have 4 or more Yellow characters other than [Trait: Rumbling] with different card names on your field, choose up to 1 other character on your field, and it gets BP+1500 this turn.",
   "triggerType": "Active",
@@ -115,7 +123,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -145,7 +157,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に［特徴：地鳴らし］以外の黄のキャラのカード名が4種類以上ある場合、このキャラはBP+1000。",
   "effectEn": "If you have 4 or more Yellow characters other than [Trait: Rumbling] with different card names on your field, this character gets BP+1000.",
   "triggerType": "Active",
@@ -175,7 +191,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分の場に［特徴：地鳴らし］以外の黄のキャラのカード名が4種類以上ある場合、このキャラはBP+1500。",
   "effectEn": "[During Your Turn] If you have 4 or more Yellow characters other than [Trait: Rumbling] with different card names on your field, this character gets BP+1500.",
   "triggerType": "",
@@ -205,7 +225,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはアクティブで場に登場させる。相手のアタックフェイズ終了時、このキャラを退場させる。【ターン1】このキャラがアタックしてBP5000以上のキャラとのバトルに勝利した時、このキャラをアクティブにし、このキャラはこのターン中、【狙い撃ち】を失う。【登場時】自分の場に［特徴：地鳴らし］以外の黄のキャラのカード名が4種類以上ある場合、このキャラはこのターン中、BP+2000と【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、指定した場合、相手はブロックできない）を得る。",
   "effectEn": "This character is played active. At the end of your opponent's Attack Phase, retire this character. [Once Per Turn] When this character attacks and wins a battle against a character with 5000 or more BP, set this character to active, and this character loses [Snipe] this turn. [On Play] If you have 4 or more Yellow characters other than [Trait: Rumbling] with different card names on your field, this character gets BP+2000 and gains [Snipe] (Can attack a character in your opponent's Front Line; if it does, your opponent cannot block) this turn.",
   "triggerType": "Active",
@@ -235,7 +259,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはBP5000以上のキャラにブロックされない。相手のライフが1の場合、このキャラは【インパクト（1）】を得る。【登場時】自分の場に［特徴：地鳴らし］以外の黄のキャラのカード名が4種類以上あり、相手のライフが5以下の場合、このキャラをアクティブにする。〈ミカサ・アッカーマン〉のこの効果は1ターンに1回のみ発動する。",
   "effectEn": "This character cannot be blocked by characters with BP 5000 or more. If your opponent has 1 Life, this character gains [Impact 1]. [On Play] If you have 4 or more Yellow characters other than [Trait: Rumbling] with different card names on your field and your opponent has 5 or less Life, set this character to active. This <Mikasa Ackermann> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Color",
@@ -265,7 +293,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このキャラはBP+1000。【起動メイン】【APを1支払う】自分の場に［特徴：地鳴らし］以外の黄のキャラのカード名が4種類以上ある場合のみ発動できる。以下から『1つ』選ぶ。自分の手札を1枚場外に置いてもよい。そうした場合、『2つ』に代わる。〈リヴァイ〉のこの効果は1ターンに1回のみ発動できる。・このキャラをアクティブにする。・このキャラはこのターン中、【2回アタック】（このキャラがこのターン初めてアタックした時、アクティブにする）を得る。",
   "effectEn": "[During Your Turn] This character gets BP+1000. [Activate: Main] [Pay 1 AP] Can only activate if you have 4 or more Yellow characters other than [Trait: Rumbling] with different card names on your field. Choose 1 of the following. You may put 1 card(s) from your hand into your Outside Area. If you do, it becomes “2” instead. This <Levi> effect can only activate 1 time(s) per 1 turn(s). Set this character to active. This character, this turn, [Double Attack](The first time this character attacks each turn, set it to active) is gained.",
   "triggerType": "Get",
@@ -293,15 +325,15 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "巨人継承者"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【黄】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Yellow] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -331,9 +363,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "巨人継承者"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -363,9 +399,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "巨人継承者"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】『カードを1枚引き、自分の手札を1枚場外に置く』。自分の場に［特徴：地鳴らし］以外の黄のキャラのカード名が4種類以上ある場合、『カードを1枚引く』に代わる。",
   "effectEn": "[On Play] “Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area” If you have 4 or more Yellow characters other than [Trait: Rumbling] with different card names on your field, it becomes “Draw 1 card(s)” instead.",
   "triggerType": "Draw",
@@ -395,9 +435,18 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "巨人継承者"
   ],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": {
+   "kind": "name",
+   "value": "アルミン・アルレルト"
+  },
+  "deckLimit": null,
   "effectJp": "自分の場に［特徴：地鳴らし］以外の黄のキャラのカード名が4種類以上ある場合、場以外の全ての場所でこのカードの必要エナジーを【黄×3】減らす。【フロントLにある場合】自分のフロントLに置けるカードの枚数が1枚減る。【レイド】〈アルミン・アルレルト〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】【フロントLにある場合】BP6000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "If you have 4 or more Yellow characters other than [Trait: Rumbling] with different card names on your field, reduce this card's required energy by [Yellow x3] in all areas other than the field. [While in Front Line] The number of cards you can place in your Front Line is reduced by 1. [Raid] Can Raid onto <Armin Arlelt>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] [While in Front Line] Choose up to 1 character in your opponent's Front Line with BP 6000 or less, retire it.",
   "triggerType": "Raid",
@@ -427,9 +476,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "巨人継承者"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】【エナジーLにある場合】自分の場に［特徴：地鳴らし］以外の黄のキャラのカード名が4種類以上ある場合、このキャラをアクティブにする。【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
   "effectEn": "[On Play] [While in Energy Line] If you have 4 or more Yellow characters other than [Trait: Rumbling] with different card names on your field, set this character to active. [Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -459,9 +512,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "巨人継承者"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -491,9 +548,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "巨人継承者"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から［特徴：地鳴らし］以外のキャラカードを1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 character card other than [Trait: Rumbling] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -523,9 +584,18 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "巨人継承者"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": {
+   "kind": "name",
+   "value": "ファルコ・グライス"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ファルコ・グライス〉アクティブにし、フロントLに移動できる【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【登場時】［特徴：地鳴らし］以外の必要エナジーが3以下の自分の〔場のキャラか場外のキャラカード〕をそれぞれカード名が異なるように合計3枚まで選び、このキャラの下に裏向きで置く。【起動メイン】【レストにする】このキャラの下の裏向きのカードを見て、その中から1枚まで手札に加える。",
   "effectEn": "[Raid] Can Raid onto <Falco Grice>; set it to active and you may move it to the Front Line. [Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [On Play] Choose up to 3 characters on your field or character cards in your Outside Area other than [Trait: Rumbling] with required energy 3 or less, each with a different card name, and put them face down under this character. [Activate: Main] [Rest this card] Look at the face-down cards under this character and add up to 1 of them to your hand.",
   "triggerType": "Raid",
@@ -555,9 +625,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "巨人継承者"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "Draw",
@@ -587,9 +663,18 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "巨人継承者"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": {
+   "kind": "name",
+   "value": "ライナー・ブラウン"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ライナー・ブラウン〉アクティブにし、フロントLに移動できる【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】自分の場に［特徴：地鳴らし］以外の黄のキャラのカード名が4種類以上ある場合、このキャラは次の自分のターンの開始時まで、BP+1000と【インパクト（1）】と「相手はキャラの効果やイベントカードの効果でこのキャラを選ぶ際に、追加でAPを1支払わないと選べない。」を得る。",
   "effectEn": "[Raid] Can Raid onto <Reiner Braun>; set it to active and you may move it to the Front Line. [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] If you have 4 or more Yellow characters other than [Trait: Rumbling] with different card names on your field, this character gets BP+1000, [Impact 1] and “Your opponent must pay 1 additional AP to choose this character with character effects or Event card effects” until the start of your next turn.",
   "triggerType": "Raid",
@@ -619,10 +704,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "地鳴らし",
    "巨人継承者"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -650,16 +739,16 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "地鳴らし",
    "巨人継承者"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場か場外に〈始祖ユミル〉がある場合、このキャラの発生エナジー+【黄】。",
   "effectEn": "If you have <Ymir, Our Founder> on your field or in your Outside Area, this character's generated energy +[Yellow].",
   "triggerType": "",
@@ -689,10 +778,19 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "地鳴らし",
    "巨人継承者"
   ],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": {
+   "kind": "name",
+   "value": "エレン・イェーガー"
+  },
+  "deckLimit": null,
   "effectJp": "自分の場にカード名に「ジーク」を含むキャラがあり、〈エレン・イェーガー（終尾の巨人）〉がない場合、場以外の全ての場所でこのカードの必要エナジーを【黄×5】減らす。このキャラは【インパクト】を持つキャラをブロックできない。【レイド】〈エレン・イェーガー〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】自分の手札か場外から［特徴：歴代の九つの巨人］を1枚まで自分の場にアクティブで登場させる。【起動メイン】【APを1支払う】【ターン1】このキャラが登場したターン中は発動できない。このキャラの【登場時】を発動する。",
   "effectEn": "If you have a character with “Zeke” in its card name on your field and no <Eren Jaeger (Doomsday Titan)>, reduce this card's required energy by [Yellow x5] in all areas other than the field. This character cannot block characters with [Impact]. [Raid] Can Raid onto <Eren Jaeger>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] Play up to 1 [Trait: Nine Titans of the Past] from your hand or Outside Area to your field active. [Activate: Main] [Pay 1 AP] [Once Per Turn] Cannot activate during the turn this character was played. Activate this character's [On Play].",
   "triggerType": "Raid",
@@ -722,10 +820,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "地鳴らし",
    "巨人継承者"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -755,10 +857,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "地鳴らし",
    "巨人継承者"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】以下から1つ選ぶ。・自分の山札の上から3枚見る。その中からカードを1枚まで場外に置く。残りを望む順で山札の下に置く。・このキャラが場外から登場していた場合、カードを1枚引く。",
   "effectEn": "[On Play] Choose 1 of the following. Look at the top 3 card(s) of your deck. From among them, put up to 1 card(s) into your Outside Area. Put the rest on the bottom of your deck in any order. If this character was played from the Outside Area, draw 1 card(s).",
   "triggerType": "",
@@ -788,10 +894,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "地鳴らし",
    "巨人継承者"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "ジーク・イェーガー"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ジーク・イェーガー〉アクティブにし、フロントLに移動できる【登場時】このキャラはこのターン中、【インパクト（1）】を得て、『BP3000以下』の相手のフロントLのキャラを1枚まで選び、退場させる。自分の場にカード名に「エレン」を含むキャラがあり、自分の場か場外に〈始祖ユミル〉がある場合、『BP4000以下』に代わる。",
   "effectEn": "[Raid] Can Raid onto <Zeke Jaeger>; set it to active and you may move it to the Front Line. [On Play] This character gains [Impact 1] this turn; choose up to 1 character in your opponent's Front Line with “BP 3000 or less” and retire it. If you have a character with “Eren” in its card name on your field and <Ymir, Our Founder> on your field or in your Outside Area, it becomes “BP 4000 or less” instead.",
   "triggerType": "Raid",
@@ -821,10 +934,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "地鳴らし",
    "歴代の九つの巨人"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカード名に「エレン」を含むキャラとカード名に「ジーク」を含むキャラがある場合、このキャラは「このキャラはフロントLにある場合もエナジーを発生させる。」を得る。",
   "effectEn": "If you have a character with “Eren” in its card name and a character with “Zeke” in its card name on your field, this character gains “This character also generates energy while in the Front Line”",
   "triggerType": "Draw",
@@ -854,10 +971,16 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "地鳴らし",
    "歴代の九つの巨人"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【自分のターン中】自分の場にカード名に「エレン」を含むキャラとカード名に「ジーク」を含むキャラがある場合、このキャラはBP+1500。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [During Your Turn] If you have a character with “Eren” in its card name and a character with “Zeke” in its card name on your field, this character gets BP+1500.",
   "triggerType": "Draw",
@@ -887,10 +1010,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "地鳴らし",
    "歴代の九つの巨人"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカード名に「エレン」を含むキャラとカード名に「ジーク」を含むキャラがある場合、このキャラは「相手のキャラの効果で〔退場せず、BPをマイナスされない〕。」と【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）を得る。",
   "effectEn": "If you have a character with “Eren” in its card name and a character with “Zeke” in its card name on your field, this character gains “Cannot be retired or have its BP reduced by your opponent's character effects” and [Double Block] (The first time this character blocks each turn, set it to active)",
   "triggerType": "Active",
@@ -920,10 +1047,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "地鳴らし",
    "歴代の九つの巨人"
   ],
+  "keywords": {
+   "damage": 2
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカード名に「エレン」を含むキャラとカード名に「ジーク」を含むキャラがある場合、手札にあるこのカードの必要エナジーを【黄×2】減らす。このカードはエナジーLに登場できない。【フロントLにある場合】自分のフロントLに置けるカードの枚数が1枚減る。【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）",
   "effectEn": "If you have a character with “Eren” in its card name and a character with “Zeke” in its card name on your field, reduce the required energy of this card in your hand by [Yellow x2]. This card cannot be played to the Energy Line. [While in Front Line] The number of cards you can place in your Front Line is reduced by 1. [Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead)",
   "triggerType": "Active",
@@ -953,10 +1086,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "マーレの戦士",
    "巨人継承者"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】【退場時】自分の山札の上から2枚を公開する。その中からカード名に「ジーク」を含むカードを1枚まで手札に加える。残りを場外に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] [On Retire] Reveal the top 2 card(s) of your deck. From among them, add up to 1 card(s) with “Zeke” in its card name to your hand. Put the rest into your Outside Area. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -986,7 +1123,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカード名に「イェーガー」を含むキャラがある場合のみこのフィールドは登場できる。【登場時】自分の山札の上から4枚見る。その中から［特徴：巨人継承者］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。【起動メイン】【レストにする】【手札を2枚場外に置く】【APを1支払う】自分の場外から必要エナジーが2以下でカード名に「イェーガー」を含む黄のキャラカードを1枚自分の場にレストで登場させる。",
   "effectEn": "This Field can only be played if you have a character with “Yeager” in its card name on your field. [On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 [Trait: Titan Inheritor] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area. [Activate: Main] [Rest this card] [Put 2 card(s) from your hand into your Outside Area] [Pay 1 AP] Play 1 Yellow character card with “Yeager” in its card name and required energy 2 or less from your Outside Area to your field rested.",
   "triggerType": "Color",
@@ -1011,7 +1152,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のカード名に「ジーク」を含む黄のキャラを1枚退場させる。そうした場合、BP5000以下の相手のフロントLのキャラを1枚まで選び、退場させ、以下から1つまで選ぶ。・自分の山札の上から7枚見る。その中から〈始祖ユミル〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。・自分の場か場外に〈始祖ユミル〉がある場合、自分の場外から【レイド】を持たない黄の〈ジーク・イェーガー〉を1枚まで自分の場にレストで登場させる。",
   "effectEn": "Retire 1 Yellow character with “Zeke” in its card name on your field. If you do, choose up to 1 character in your opponent's Front Line with BP 5000 or less, retire it, and choose up to 1 of the following. Look at the top 7 card(s) of your deck. Reveal up to 1 <Ymir, Our Founder> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you have <Ymir, Our Founder> on your field or in your Outside Area, play up to 1 Yellow <Zeke Jaeger> without [Raid] from your Outside Area to your field rested.",
   "triggerType": "Special",
@@ -1036,7 +1181,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1061,7 +1210,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは自分の場にカード名に「エレン」を含むキャラとカード名に「ジーク」を含むキャラがあり、自分の手札が他に2枚以上ある場合のみ使用できる。自分の手札を全て場外に置く。BP5000以下の相手のフロントLのキャラを全て退場させる。自分はこのターン中、「〈エレン・イェーガー（終尾の巨人）〉以外のキャラでアタックできない。」を得る。",
   "effectEn": "This card can only be used if you have a character with “Eren” in its card name and a character with “Zeke” in its card name on your field, and 2 or more other cards in your hand. Put all cards in your hand into your Outside Area. Retire all characters in your opponent's Front Line with BP 5000 or less. You gain “You cannot attack with characters other than <Eren Jaeger (Doomsday Titan)>” this turn.",
   "triggerType": "",
@@ -1086,7 +1239,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1111,7 +1268,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から5枚見る。その中から［特徴：地鳴らし］以外の異なるカード名のキャラカードをそれぞれ1枚ずつ合計3枚まで公開し手札に加える。残りを望む順で山札の下に置く。",
   "effectEn": "Look at the top 5 card(s) of your deck. From among them, reveal up to 1 each of character cards other than [Trait: Rumbling] with different card names, up to 3 in total, and add them to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -1136,7 +1297,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に［特徴：地鳴らし］以外の黄のキャラのカード名が4種類以上ある場合、手札にあるこのカードの消費APを-1する。『BP5000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈ミカサ・アッカーマン〉がある場合、『BP8000以下』に代わる。",
   "effectEn": "If you have 4 or more Yellow characters other than [Trait: Rumbling] with different card names on your field, reduce the AP cost of this card in your hand by 1. Choose 1 character in your opponent's Front Line with BP 5000 or less, retire it. If you have <Mikasa Ackermann> on your field, it becomes “BP 8000 or less” instead.",
   "triggerType": "Special",
@@ -1166,7 +1331,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -1196,7 +1365,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】BP2500以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-2000。",
   "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line with BP 2500 or more, it gets BP-2000 this turn.",
   "triggerType": "Draw",
@@ -1224,13 +1397,13 @@
    {
     "color": "Blue",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】自分のフロントLのアクティブのキャラを1枚レストにする。そうした場合、このキャラはこのターン中、発生エナジー+【青】。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] Rest 1 active character in your Front Line. If you do, This turn, this character's generated energy +[Blue].",
   "triggerType": "",
@@ -1260,7 +1433,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【アタック時】APを1支払ってもよい。そうした場合、自分の場のキャラを2枚まで選び、このターン中、BP+1500。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [When Attacking] You may pay 1 AP. If you do, Choose up to 2 characters on your field, it gets BP+1500 this turn.",
   "triggerType": "Draw",
@@ -1290,7 +1469,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "リヴァイ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈リヴァイ〉アクティブにし、フロントLに移動できる【登場時】カードを1枚引く。その後、自分の手札を1枚場外に置いてもよい。そうした場合、自分のAPカードを1枚まで選び、アクティブにする。【アタック時】APを1支払ってもよい。そうした場合、以下から1つ選ぶ。・カードを1枚引き、このキャラはこのターン中、BP+1000。・このキャラはこのターン中、BP+1000と【インパクト（1）】を得る。",
   "effectEn": "[Raid] Can Raid onto <Levi>; set it to active and you may move it to the Front Line. [On Play] Draw 1 card(s). Then, You may put 1 card(s) from your hand into your Outside Area. If you do, Choose up to 1 of your AP cards, set it to active. [When Attacking] You may pay 1 AP. If you do, Choose 1 of the following. Draw 1 card(s), and this character gets BP+1000 this turn. This character gets BP+1000 and gains [Impact 1] this turn.",
   "triggerType": "Raid",
@@ -1320,9 +1506,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "104期兵"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -1352,9 +1542,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "104期兵"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】自分の場外にイベントカードが6枚以上ある場合のみ発動できる。自分の場の他の［特徴：104期兵］を1枚選び、このターン中、BP+1000。",
   "effectEn": "[Activate: Main] [Rest this card] Can only activate if you have 6 or more Event cards in your Outside Area. Choose 1 other [Trait: 104th Cadet Corps] on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -1384,9 +1578,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "104期兵"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】以下から1つ選ぶ。・カードを1枚引き、自分の手札を1枚場外に置く。・自分の場外にイベントカードが2枚以上ある場合、カードを1枚引く。・自分の場外にイベントカードが6枚以上ある場合、カードを2枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Choose 1 of the following. Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. If you have 2 or more Event cards in your Outside Area, Draw 1 card(s). If you have 6 or more Event cards in your Outside Area, Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -1416,9 +1614,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "104期兵"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場外にあるイベントカードの枚数により、このキャラは以下の効果を全て得る。・2枚以上：BP+1000。・4枚以上：【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "Depending on the number of Event card in your Outside Area, this character gains all of the following effects. 2 or more: BP+1000. 4 or more: [Impact Nullify](The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "Active",
@@ -1448,10 +1650,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "104期兵",
    "巨人継承者"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見る。その中からイベントカードを1枚まで場外に置く。残りを望む順で山札の上に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck. From among them, put up to 1 Event card(s) into your Outside Area. Put the rest on top of your deck in any order.",
   "triggerType": "Draw",
@@ -1476,7 +1682,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から4枚見る。その中からキャラカードを1枚まで公開し手札に加える。残りを望む順で山札の下に置く。その後、自分の手札から必要エナジーが3以下で消費APが1の青のキャラカードを1枚まで自分の場にレストで登場させる。",
   "effectEn": "Look at the top 4 card(s) of your deck. Reveal up to 1 character card among them and add it to your hand. Put the rest on the bottom of your deck in any order. Then, Play up to 1 Blue character card with required energy 3 or less and with AP cost 1 from your hand to your field rested.",
   "triggerType": "Draw",
@@ -1501,7 +1711,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "BP2500以下かBP4500以上の相手のフロントLのキャラを1枚選び、退場させる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 2500 or less or BP 4500 or more, and retire it.",
   "triggerType": "",
@@ -1531,9 +1745,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "マーレの戦士"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】自分の場の他の［特徴：マーレの戦士］を1枚まで選び、『このターン中、BP+1000』。選んだキャラがレイド状態の場合、『そのキャラとこのキャラはこのターン中、BP+2000』に代わる。",
   "effectEn": "[When Attacking] Choose up to 1 other [Trait: Marleyan Warrior] on your field, “it gets BP+1000 this turn” If the chosen character is Raided, it becomes “that character and this character get BP+2000 this turn” instead.",
   "triggerType": "Color",
@@ -1563,9 +1781,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "マーレの戦士"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】【エナジーLにある場合】このキャラをアクティブにする。【起動メイン】【レストにする】【手札を1枚場外に置く】自分の場の他の［特徴：マーレの戦士］を1枚選び、このターン中、『BP+1000』。選んだキャラがレイド状態の場合、『BP+2000』に代わる。",
   "effectEn": "[On Play] [While in Energy Line] Set this character to active. [Activate: Main] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] Choose 1 other [Trait: Marleyan Warrior] on your field, This turn, 『BP+1000』. If the chosen character is Raided, it becomes “BP+2000” instead.",
   "triggerType": "Active",
@@ -1595,10 +1817,14 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "マーレの戦士",
    "巨人継承者"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から5枚見る。その中から［特徴：無垢の巨人］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。",
   "effectEn": "[On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 [Trait: Pure Titan] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -1628,10 +1854,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "マーレの戦士",
    "巨人継承者"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "ジーク・イェーガー"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ジーク・イェーガー〉アクティブにし、フロントLに移動できる【登場時】BP3000以下の相手のフロントLのキャラを1枚まで選び、退場させる。この効果でキャラを退場させた場合、APを1支払ってもよい。そうした場合、自分の場外から［特徴：無垢の巨人］を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[Raid] Can Raid onto <Zeke Jaeger>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you retired a character with this effect, you may pay 1 AP. If you do, Play up to 1 [Trait: Pure Titan] from your Outside Area to your field rested.",
   "triggerType": "Raid",
@@ -1661,10 +1894,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "マーレの戦士",
    "巨人継承者"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1694,10 +1931,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "マーレの戦士",
    "巨人継承者"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他の［特徴：マーレの戦士］を1枚まで選び、このターン中、『BP+1000』。選んだキャラがレイド状態の場合、『BP+2000』に代わる。",
   "effectEn": "[On Play] Choose up to 1 other [Trait: Marleyan Warrior] on your field, This turn, 『BP+1000』. If the chosen character is Raided, it becomes “BP+2000” instead.",
   "triggerType": "",
@@ -1727,10 +1968,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "マーレの戦士",
    "巨人継承者"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "ピーク・フィンガー"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ピーク・フィンガー〉アクティブにし、フロントLに移動できる【フロントLにある場合】このキャラが登場したターン中の場合、このキャラは【インパクト（1）】を得る。【登場時】このキャラをこのターン中、BP-2000してもよい。そうした場合、このキャラはこのターン中、「エナジーLからアタックできる。」と【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、指定した場合、相手はブロックできない）を得る。【退場時】このキャラのレイド元のカードを1枚まで手札に戻す。",
   "effectEn": "[Raid] Can Raid onto <Pieck Finger>; set it to active and you may move it to the Front Line. [While in Front Line] During the turn this character was played, this character gains [Impact 1]. [On Play] You may give this character BP-2000 this turn. If you do, this character gains “Can attack from the Energy Line” and [Snipe] (Can attack a character in your opponent's Front Line; if it does, your opponent cannot block) this turn. [On Retire] Return up to 1 of this character's Raid source cards to your hand.",
   "triggerType": "Raid",
@@ -1760,10 +2008,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "マーレの戦士",
    "巨人継承者"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -1793,10 +2045,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "マーレの戦士",
    "巨人継承者"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "ポルコ・ガリアード"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ポルコ・ガリアード〉アクティブにし、フロントLに移動できる【登場時】自分の山札の上から4枚見る。その中から［特徴：マーレの戦士］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。【アタック時】このキャラのBPが6000以上の場合、カードを1枚引く。",
   "effectEn": "[Raid] Can Raid onto <Porco Galliard>; set it to active and you may move it to the Front Line. [On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 [Trait: Marleyan Warrior] among them and add it to your hand. Put the rest on the bottom of your deck in any order. [When Attacking] If this character's BP is 6000 or more, Draw 1 card(s).",
   "triggerType": "Get",
@@ -1826,10 +2085,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "マーレの戦士",
    "巨人継承者"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは〈ライナー・ブラウン〉としても〈ベルトルト・フーバー〉としても〈アニ・レオンハート〉としても扱う。",
   "effectEn": "This card is also treated as <Reiner Braun>, <Bertholdt Hoover> and <Annie Leonhart>.",
   "triggerType": "Active",
@@ -1859,11 +2122,20 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "104期兵",
    "マーレの戦士",
    "巨人継承者"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": {
+   "kind": "name",
+   "value": "ライナー・ブラウン"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ライナー・ブラウン〉アクティブにし、フロントLに移動できる【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、このキャラはこのターン中、BP+2000。【アタック時】このキャラのBPが6000以上の場合、カードを1枚引き、このキャラはこのターン中、【インパクト（1）】を得る。",
   "effectEn": "[Raid] Can Raid onto <Reiner Braun>; set it to active and you may move it to the Front Line. [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, This character gets BP+2000 this turn. [When Attacking] If this character's BP is 6000 or more, draw 1 card(s), and this character gains [Impact 1] this turn.",
   "triggerType": "Raid",
@@ -1888,7 +2160,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のカード名に「ピーク・フィンガー」を含むキャラを1枚まで退場させる。『BP3000以下』の相手のフロントLのキャラを1枚まで選び、退場させる。自分の場外にカード名に「ピーク・フィンガー」を含むキャラカードがある場合、『BP5000以下』に代わる。その後、このカードの効果で自分の場のキャラを退場させていた場合、自分の場外からカード名に「ピーク・フィンガー」を含むキャラカードを1枚まで手札に加える。",
   "effectEn": "Retire up to 1 character with “Peak Finger” in its card name on your field. Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have a character card with “Peak Finger” in its card name in your Outside Area, it becomes “BP 5000 or less” instead. Then, if you retired a character on your field with this card's effect, add up to 1 character card with “Peak Finger” in its card name from your Outside Area to your hand.",
   "triggerType": "Special",
@@ -1918,7 +2194,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】このターン中、次に使用する［特徴：食材］の消費APを-1する。",
   "effectEn": "[On Play] This turn, the next [Trait: Ingredient] you use costs 1 less AP.",
   "triggerType": "",
@@ -1948,9 +2228,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "104期兵"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -1980,9 +2266,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "104期兵"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】自分の山札の上から3枚見る。それらを望む順で山札の上に置く。",
   "effectEn": "[When Attacking] Look at the top 3 card(s) of your deck. Put them on top of your deck in any order.",
   "triggerType": "Active",
@@ -2012,9 +2302,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "104期兵"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】このターン中に自分が［特徴：食材］を使用している場合、このキャラをアクティブにする。〈サシャ・ブラウス〉のこの効果は1ターンに1回のみ発動する。",
   "effectEn": "[On Play] If you have used [Trait: Ingredient] this turn, set this character to active. This <Sasha Braus> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Draw",
@@ -2044,9 +2338,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "104期兵"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のエンドフェイズ開始時、このターンのアタックフェイズ中に自分の場の赤の［特徴：104期兵］が手札に戻っていた場合、手札のこのカードを自分のフロントLにレストで登場させてもよい。〈ミカサ・アッカーマン〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "At the start of your End Phase, if a Red [Trait: 104th Cadet Corps] on your field returned to your hand during this turn's Attack Phase, you may play this card from your hand to your Front Line rested. This <Mikasa Ackermann> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "",
@@ -2076,9 +2374,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "104期兵"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "ミカサ・アッカーマン"
+  },
+  "deckLimit": null,
   "effectJp": "このカードは自分の効果かレイドでのみ登場できる。【レイド】〈ミカサ・アッカーマン〉アクティブにし、フロントLに移動できる【登場時】以下から1つ選ぶ。・自分の場外から必要エナジーが3以下で【レイド】を持たない［特徴：104期兵］を1枚まで手札に加える。・相手のフロントLのキャラを1枚まで選ぶ。そのキャラのBPが5000以上の場合、自分の手札を2枚場外に置いてもよい。そうした場合、そのキャラを退場させる。",
   "effectEn": "This card can only be played by your own effect or by Raid. [Raid] Can Raid onto <Mikasa Ackermann>; set it to active and you may move it to the Front Line. [On Play] Choose 1 of the following. Add up to 1 [Trait: 104th Cadet Corps] without [Raid] with required energy 3 or less from your Outside Area to your hand. Choose up to 1 character in your opponent's Front Line. If that character has 5000 or more BP, you may put 2 card(s) from your hand into your Outside Area. If you do, retire that character.",
   "triggerType": "Raid",
@@ -2108,10 +2413,14 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "104期兵",
    "巨人継承者"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラに〈アルミン・アルレルト（超大型巨人）〉がレイドする際、そのカードの必要エナジーを【赤×2】減らす。",
   "effectEn": "When <Armin Arlelt (Colossal Titan)> Raids onto this character, reduce that card's required energy by [Red x2].",
   "triggerType": "Draw",
@@ -2141,10 +2450,19 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "104期兵",
    "巨人継承者"
   ],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": {
+   "kind": "name",
+   "value": "アルミン・アルレルト"
+  },
+  "deckLimit": null,
   "effectJp": "【フロントLにある場合】自分のフロントLに置けるカードの枚数が1枚減る。【レイド】〈アルミン・アルレルト〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【フロントLにある場合】自分が「BPの範囲に指定がある効果」でキャラを選ぶ際、指定できるBPの範囲+1000。（【カラートリガー】含む）【登場時】【フロントLにある場合】カードを3枚引く。",
   "effectEn": "[While in Front Line] The number of cards you can place in your Front Line is reduced by 1. [Raid] Can Raid onto <Armin Arlelt>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [While in Front Line] When you choose a character with an “effect that specifies a BP range”, that BP range gets +1000. (Including [Color Trigger]) [On Play] [While in Front Line] Draw 3 card(s).",
   "triggerType": "Get",
@@ -2174,10 +2492,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "104期兵",
    "巨人継承者"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から［特徴：104期兵］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: 104th Cadet Corps] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -2207,10 +2529,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "104期兵",
    "巨人継承者"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【起動メイン】【ターン1】自分のライフエリアにあるカードを1枚手札に加える。そうした場合、このキャラはこのターン中、【インパクト（1）】を得る。【アタック時】『自分の山札の上から1枚見て、見たカードが必要エナジーが3以下の［特徴：104期兵］の場合、公開し手札に加えてもよい。手札に加えない場合、そのカードを山札の上か下に置く』。自分のライフが3以下の場合、『カードを1枚引く』に代わる。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [Activate: Main] [Once Per Turn] Add 1 card(s) from your Life Area to your hand. If you do, This character, this turn, [Impact 1] is gained. [When Attacking] “Look at the top 1 card(s) of your deck; if it is [Trait: 104th Cadet Corps] with required energy 3 or less, you may reveal it and add it to your hand. If you don't add it to your hand, put that card on the top or bottom of your deck” If you have 3 or less Life, it becomes “Draw 1 card(s)” instead.",
   "triggerType": "Active",
@@ -2240,10 +2568,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "104期兵",
    "巨人継承者"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "エレン・イェーガー"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈エレン・イェーガー〉アクティブにし、フロントLに移動できる【登場時】このキャラは次の自分のターン開始時まで、BP+1000。以下から1つ選ぶ。・BP3000以下の相手のフロントLのキャラを1枚まで選び、退場させる。・自分のライフエリアにあるカードを1枚手札に加え、BP5000以下の相手のフロントLのキャラを1枚まで選び、退場させる。・自分のライフが3以下の場合、BP5000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "[Raid] Can Raid onto <Eren Jaeger>; set it to active and you may move it to the Front Line. [On Play] This character gets BP+1000 until the start of your next turn. Choose 1 of the following. Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it. Add 1 card(s) from your Life Area to your hand, then choose up to 1 character in your opponent's Front Line with BP 5000 or less, and retire it. If you have 3 or less Life, choose up to 1 character in your opponent's Front Line with BP 5000 or less, and retire it.",
   "triggerType": "Raid",
@@ -2268,9 +2603,13 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [
    "食材"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "以下から1つ選ぶ。・自分の場のキャラを1枚まで選び、このターン中、BP+1000。カードを2枚引く。・自分の場のキャラを2枚まで選び、このターン中、BP+1000。カードを1枚引く。・自分の場のキャラを3枚まで選び、このターン中、BP+1000。",
   "effectEn": "Choose 1 of the following. Choose up to 1 character on your field, it gets BP+1000 this turn. Draw 2 card(s). Choose up to 2 characters on your field, it gets BP+1000 this turn. Draw 1 card(s). Choose up to 3 characters on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -2293,7 +2632,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2316,7 +2659,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2339,7 +2686,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2362,7 +2713,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2385,7 +2740,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2408,7 +2767,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

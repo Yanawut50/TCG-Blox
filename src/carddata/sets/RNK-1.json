@@ -21,7 +21,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から7枚見る。その中から〈逆刃刀・真打〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。",
   "effectEn": "[On Play] Look at the top 7 card(s) of your deck. Reveal up to 1 <Sakabato: Shinuchi> among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -51,7 +55,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは〈緋村 剣心〉としても扱う。",
   "effectEn": "This card is also treated as <Kenshin Himura>.",
   "triggerType": "Active",
@@ -79,13 +87,13 @@
    {
     "color": "Blue",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【青】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Blue] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -115,7 +123,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -145,7 +157,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】以下から1つ選ぶ。・BP2000以下の相手のフロントLのキャラを1枚まで選び、退場させる。・自分の場の［特徴：御庭番衆］を1枚退場させてもよい。そうした場合、カードを1枚引き、BP4000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "[On Play] Choose 1 of the following. Choose up to 1 character in your opponent's Front Line with BP 2000 or less, retire it. You may retire 1 [Trait: Oniwabanshu] on your field. If you do, draw 1 card(s), choose up to 1 character in your opponent's Front Line with BP 4000 or less, and retire it.",
   "triggerType": "Draw",
@@ -175,7 +191,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の〈緋村 剣心〉を1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 <Kenshin Himura> on your field, it gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -205,7 +225,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このターン中に自分が〈九頭龍閃〉か〈生きようとする意志〉を使用している場合、このキャラは【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
   "effectEn": "[During Your Turn] If you have used <Kuzuryuusen> or <Will to Live> this turn, this character gains [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opposing player)",
   "triggerType": "Active",
@@ -235,7 +259,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "damage": 2
+  },
+  "raid": {
+   "kind": "name",
+   "value": "比古 清十郎"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈比古 清十郎〉アクティブにし、フロントLに移動できる【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）このキャラはBP2000以下のキャラにブロックされない。【自分のターン中】このキャラはBP+3000。【登場時】自分の場外からイベントカードを1枚まで手札に加える。【起動メイン】【ターン1】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
   "effectEn": "[Raid] Can Raid onto <Seijuro Hiko>; set it to active and you may move it to the Front Line. [Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead)This character cannot be blocked by characters with BP 2000 or less. [During Your Turn] This character gets BP+3000. [On Play] Add up to 1 event card(s) from your Outside Area to your hand. [Activate: Main] [Once Per Turn] Choose 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Raid",
@@ -265,7 +298,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを場外に置く。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest into your Outside Area.",
   "triggerType": "",
@@ -295,7 +334,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【エナジーLにある場合】【ターン1】自分の場外の〈生きようとする意志〉を1枚自分の山札の下に置く。そうした場合、このキャラをフロントLに移動させ、このキャラはこのターン中、BP+1000。",
   "effectEn": "[Activate: Main] [While in Energy Line] [Once Per Turn] Put 1 <Will to Live> from your Outside Area on the bottom of your deck. If you do, move this character to the Front Line, and it gets BP+1000 this turn.",
   "triggerType": "Color",
@@ -325,7 +368,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "緋村 剣心"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈緋村 剣心〉アクティブにし、フロントLに移動できるこのキャラのBPが6000以上の場合、このキャラは【2回アタック】（このキャラがこのターン初めてアタックした時、アクティブにする）を得る。【起動メイン】【ターン1】このターン中に自分が〈生きようとする意志〉を使用している場合のみ発動できる。このキャラはこのターン中、BP+1000。【アタック時】自分の手札が3枚以下の場合、カードを1枚まで引く。",
   "effectEn": "[Raid] Can Raid onto <Kenshin Himura>; set it to active and you may move it to the Front Line. If this character's BP is 6000 or more, This character [Double Attack](The first time this character attacks each turn, set it to active) is gained. [Activate: Main] [Once Per Turn] Can only activate if you have used <Will to Live> this turn. This character gets BP+1000 this turn. [When Attacking] If you have 3 or fewer cards in your hand, draw up to 1 card(s).",
   "triggerType": "Raid",
@@ -355,9 +405,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "御庭番衆"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に紫か赤のカードがある場合、手札にあるこのカードの必要エナジーを【青×1】減らす。",
   "effectEn": "If your opponent has Purple or Red card on their field, the required energy of this card in your hand [Blue x1]is reduced.",
   "triggerType": "",
@@ -387,9 +441,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "御庭番衆"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】【フロントLにある場合】自分の場の〈四乃森 蒼紫〉が相手の効果によって場を離れる場合、代わりにアクティブのこのキャラを退場させてもよい。",
   "effectEn": "[During Your Turn] [While in Front Line] If <Aoshi Shinomori> on your field would leave the field due to your opponent's effect, you may retire this active character instead.",
   "triggerType": "Draw",
@@ -419,9 +477,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "御庭番衆"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -451,9 +513,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "御庭番衆"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このキャラはBP+1000。",
   "effectEn": "[During Your Turn] This character gets BP+1000.",
   "triggerType": "",
@@ -483,9 +549,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "御庭番衆"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】このキャラが自分の〔キャラ・イベントカード〕の効果で登場していた場合、カードを1枚引く。",
   "effectEn": "[On Play] When this character is chosen by your character's. If it was played by an Event card's effect, draw 1 card(s).",
   "triggerType": "Color",
@@ -515,9 +585,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "御庭番衆"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分のフロントLのアクティブの他の［特徴：御庭番衆］を1枚レストにしてもよい。そうした場合、このキャラをアクティブにする。",
   "effectEn": "[On Play] You may rest 1 other active [Trait: Oniwabanshu] in your Front Line. If you do, Set this character to active.",
   "triggerType": "Draw",
@@ -547,9 +621,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "御庭番衆"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "四乃森 蒼紫"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈四乃森 蒼紫〉アクティブにし、フロントLに移動できる【登場時】このキャラはこのターン中、BP+1000。【起動メイン】このキャラのレイド元のカードを自分の場にアクティブで登場させ、そのキャラにこのターン中、「このキャラはアタックできない。」と「自分のアタックフェイズ終了時、このキャラがアクティブの場合、このキャラを退場させる。」を与える。",
   "effectEn": "[Raid] Can Raid onto <Aoshi Shinomori>; set it to active and you may move it to the Front Line. [On Play] This character gets BP+1000 this turn. [Activate: Main] Play this character's Raid source cards to your field active; that character gains “This character cannot attack” and “At the end of your Attack Phase, if this character is active, retire this character” this turn.",
   "triggerType": "Raid",
@@ -579,9 +660,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "御庭番衆"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【手札を1枚場外に置く】【ターン1】このキャラはこのターン中、BP+1000。【退場時】自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外から必要エナジーが2以下の青の〈四乃森 蒼紫〉を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] This character gets BP+1000 this turn. [On Retire] You may put 1 card(s) from your hand into your Outside Area. If you do, Play up to 1 Blue <Aoshi Shinomori> with required energy 2 or less from your Outside Area to your field rested.",
   "triggerType": "",
@@ -611,9 +696,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "御庭番衆"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】自分の場に〈四乃森 蒼紫〉がある場合、カードを1枚引く。",
   "effectEn": "[On Retire] If you have <Aoshi Shinomori> on your field, Draw 1 card(s).",
   "triggerType": "",
@@ -643,9 +732,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "御庭番衆"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から〈高荷 恵〉か［特徴：御庭番衆］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 <Megumi Takani> or [Trait: Oniwabanshu] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -675,9 +768,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "御庭番衆"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "Draw",
@@ -705,15 +804,15 @@
    {
     "color": "Blue",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "御庭番衆"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【青】。",
   "effectEn": "While this character is active, its generated energy +[Blue].",
   "triggerType": "",
@@ -741,15 +840,15 @@
    {
     "color": "Blue",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "御庭番衆"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】以下から1つ選ぶ。・このキャラはこのターン中、発生エナジー+【青】。・自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+1000。このカードを手札に戻す。",
   "effectEn": "[On Play] Choose 1 of the following. This turn, this character's generated energy +[Blue]. Choose up to 1 other character on your field, it gets BP+1000 this turn. [Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+1000 this turn. Return this card to your hand.",
   "triggerType": "Draw",
@@ -779,9 +878,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "御庭番衆"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【青×2】減らす。【登場時】自分の山札の上から3枚見る。その中から1枚まで場外に置き、残りを望む順で山札の上に置く。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Blue x2]is reduced. [On Play] Look at the top 3 card(s) of your deck. Put up to 1 of them into your Outside Area, Put the rest on top of your deck in any order.",
   "triggerType": "Draw",
@@ -811,7 +914,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から〈比古 清十郎〉か〈緋村 剣心〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。必要エナジーが4以上のカードを手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 <Seijuro Hiko> or <Kenshin Himura> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added a card with required energy 4 or more to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Get",
@@ -836,7 +943,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -861,7 +972,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000』以下の相手のフロントLのキャラを1枚選び、退場させる。自分の場の〈四乃森 蒼紫〉1枚につき、この効果で選べるキャラのBPの範囲+1000。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. For each 1 <Aoshi Shinomori> on your field, the BP range of characters this effect can choose gets +1000.",
   "triggerType": "Special",
@@ -886,7 +1001,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場の〈四乃森 蒼紫〉を1枚選び、このターン中、BP-1000と「このキャラのアタック終了時、自分の場のアクティブの〈四乃森 蒼紫〉を1枚レストにしてもよい。そうした場合、このキャラをアクティブにする。」を与える。",
   "effectEn": "Choose 1 <Aoshi Shinomori> on your field; it gains BP-1000 and “At the end of this character's attack, you may rest 1 active <Aoshi Shinomori> on your field. If you do, Set this character to active” is given.",
   "triggerType": "Special",
@@ -911,7 +1030,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈比古 清十郎〉がある場合、『BP5000以下』に代わり、自分の場の〈緋村 剣心〉を1枚まで選び、このターン中、BP+1000。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Seijuro Hiko> on your field, it becomes “BP 5000 or less” instead; choose up to 1 <Kenshin Himura> on your field, and it gets BP+1000 this turn.",
   "triggerType": "Special",
@@ -936,7 +1059,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -961,7 +1088,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場の〈緋村 剣心〉を1枚選び、このターン中、BP+2000。自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "Choose 1 <Kenshin Himura> on your field, it gets BP+2000 this turn. Choose up to 1 of your AP cards, set it to active.",
   "triggerType": "Draw",
@@ -986,7 +1117,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の手札か場外から必要エナジーが2以下で消費APが1の〈四乃森 蒼紫〉を1枚まで自分の場にアクティブで登場させ、そのキャラにこのターン中、「このキャラはアタックできない。」と「自分のアタックフェイズ終了時、このキャラがアクティブの場合、このキャラを退場させる。」を与える。手札から登場させていた場合、カードを1枚引く。",
   "effectEn": "Play up to 1 <Aoshi Shinomori> with required energy 2 or less and AP cost 1 from your hand or Outside Area to your field active; that character gains “This character cannot attack” and “At the end of your Attack Phase, if this character is active, retire this character” this turn. If it was played from your hand, draw 1 card(s).",
   "triggerType": "Active",
@@ -1016,7 +1151,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。【退場時】自分のフロントLに〈志々雄 真実〉がある場合、相手のフロントLのキャラを1枚まで選び、レストにする。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. [On Retire] If you have <Makoto Shishio> in your Front Line, Choose up to 1 character in your opponent's Front Line, rest it.",
   "triggerType": "Draw",
@@ -1046,7 +1185,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1076,7 +1219,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から〈緋村 剣心〉か〈斎藤 一〉か〈相楽 左之助〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 <Kenshin Himura> or <Hajime Saito> or <Sanosuke Sagara> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -1106,7 +1253,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の〔〈緋村 剣心〉か〈斎藤 一〉か〈相楽 左之助〉〕を1枚まで選び、別のラインに移動させる。",
   "effectEn": "[On Play] Choose up to 1 <Kenshin Himura> or <Hajime Saito> or <Sanosuke Sagara> on your field, move it to another line.",
   "triggerType": "Active",
@@ -1136,7 +1287,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【紫×2】減らす。【アタック時】自分のフロントLの〔〈緋村 剣心〉か他の〈斎藤 一〉か〈相楽 左之助〉〕を1枚手札に戻してもよい。そうした場合、このキャラはこのターン中、BP+1500。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Purple x2]is reduced. [When Attacking] You may return 1 <Kenshin Himura>, or other <Hajime Saito> or <Sanosuke Sagara>, in your Front Line to your hand. If you do, This character gets BP+1500 this turn.",
   "triggerType": "Color",
@@ -1166,7 +1321,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": {
+   "kind": "name",
+   "value": "斎藤 一"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈斎藤 一〉アクティブにし、フロントLに移動できる【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）このキャラはBP2000以下のキャラにブロックされない。【登場時】自分の山札の上から5枚見る。その中から〈緋村 剣心〉か〈斎藤 一〉か〈相楽 左之助〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。",
   "effectEn": "[Raid] Can Raid onto <Hajime Saito>; set it to active and you may move it to the Front Line. [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)This character cannot be blocked by characters with BP 2000 or less. [On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 <Kenshin Himura> or <Hajime Saito> or <Sanosuke Sagara> among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Raid",
@@ -1196,7 +1360,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": {
+   "kind": "name",
+   "value": "斎藤 一"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈斎藤 一〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】自分の場に特徴を持つカードがない場合、このキャラはこのターン中、以下の効果を全て得る。・BP+1000と「このキャラはエナジーLからアタックできる。」・「このキャラがエナジーLからアタックする際、このキャラをフロントLに移動させ、このキャラはこのターン中、【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、指定した場合、相手はブロックできない）を得る。」",
   "effectEn": "[Raid] Can Raid onto <Hajime Saito>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] If you have no cards with traits on your field, this character gains all of the following effects this turn. BP+1000 and “This character can attack from the Energy Line” “When this character attacks from the Energy Line, move this character to the Front Line, and this character gains [Snipe] (Can attack a character in your opponent's Front Line; if it does, your opponent cannot block) this turn”",
   "triggerType": "Raid",
@@ -1226,7 +1399,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -1256,7 +1433,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】APを1支払ってもよい。そうした場合、相手の場のフィールドを1枚まで選び、退場させる。",
   "effectEn": "[On Play] You may pay 1 AP. If you do, Choose up to 1 Field on your opponent's field, retire it.",
   "triggerType": "Active",
@@ -1286,7 +1467,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラのBPが5000以上の場合、このキャラは【インパクト（1）】を得る。【起動メイン】【フロントLにある場合】【ターン1】自分の山札の上から1枚を場外に置く。このキャラのBPはこのターン中、この効果で場外に置いたカードの必要エナジーの数×500プラスされる。",
   "effectEn": "If this character's BP is 5000 or more, This character [Impact 1] is gained. [Activate: Main] [While in Front Line] [Once Per Turn] Put the top 1 card(s) of your deck into your Outside Area. This turn, this character gets BP+ equal to 500 × the total required energy of the cards put into the Outside Area by this effect.",
   "triggerType": "",
@@ -1316,7 +1501,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードを使用する際に、自分の手札の〈志々雄 真実〉か〈駒形 由美〉か［特徴：十本刀］を1枚場外に置いてもよい。そうした場合、このキャラをアクティブで場に登場させる。【登場時】自分の山札の上から1枚を場外に置き、そのカードの必要エナジーの数×1000以下のBPの相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "When using this card, you may put 1 <Makoto Shishio>, <Yumi Komagata> or [Trait: Juppongatana] from your hand into your Outside Area. If you do, play this character to the field active. [On Play] Put the top 1 card(s) of your deck into your Outside Area, choose up to 1 character in your opponent's Front Line with BP equal to or less than 1000 × the amount of required energy on that card, and retire it.",
   "triggerType": "Get",
@@ -1346,7 +1535,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見る。その中から特徴を持たない紫のカードを1枚まで場外に置く。残りを望む順で山札の上に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck. Put up to 1 purple card(s) with no traits among them into your Outside Area. Put the rest on top of your deck in any order.",
   "triggerType": "",
@@ -1376,7 +1569,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【手札を1枚場外に置く】【ターン1】このキャラはこのターン中、BP+1000。",
   "effectEn": "[Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] This character gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -1404,13 +1601,13 @@
    {
     "color": "Purple",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【紫】。",
   "effectEn": "While this character is active, its generated energy +[Purple].",
   "triggerType": "",
@@ -1440,7 +1637,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはアクティブで場に登場させる。【登場時】このターン中、次に手札から使用する必要エナジーが3以下の〈斎藤 一〉の消費APを-1する。",
   "effectEn": "This character is played active. [On Play] This turn, the next <Hajime Saito> with required energy 3 or less you use from your hand costs 1 less AP.",
   "triggerType": "Get",
@@ -1468,13 +1669,13 @@
    {
     "color": "Purple",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【紫】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Purple] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -1504,9 +1705,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "十本刀"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】このキャラの下の裏向きのカードを見て、その中から1枚まで手札に加える。【ブロック時】自分のフロントLの他のキャラを1枚退場させてもよい。そうした場合、自分の山札の上から1枚を裏向きでこのキャラの下に置き、このキャラはこのターン中、BP+500。",
   "effectEn": "[When Attacking] Look at the face-down cards under this character and add up to 1 of them to your hand. [When Blocking] You may retire 1 other character in your Front Line. If you do, put the top 1 card(s) of your deck face down under this character, and this character gets BP+500 this turn.",
   "triggerType": "Draw",
@@ -1536,9 +1741,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "十本刀"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に青か赤のカードがある場合、手札にあるこのカードの必要エナジーを【紫×1】減らす。",
   "effectEn": "If your opponent has Blue or Red card on their field, the required energy of this card in your hand [Purple x1]is reduced.",
   "triggerType": "",
@@ -1566,15 +1775,15 @@
    {
     "color": "Purple",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "十本刀"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に〈志々雄 真実〉か〈駒形 由美〉か他の［特徴：十本刀］が合計3枚以上ある場合、このキャラの発生エナジー+【紫】。",
   "effectEn": "If you have a total of 3 or more <Makoto Shishio>, <Yumi Komagata> or other [Trait: Juppongatana] on your field, this character's generated energy +[Purple].",
   "triggerType": "",
@@ -1604,9 +1813,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "十本刀"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -1636,9 +1849,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "十本刀"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "沢下条 張"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈沢下条 張〉アクティブにし、フロントLに移動できる【登場時】相手のフロントLに空きがある場合、自分の手札の〈志々雄 真実〉か〈駒形 由美〉か［特徴：十本刀］を1枚公開し自分の山札の上に置いてもよい。そうした場合、発生エナジーが1以下の相手のエナジーLのキャラを1枚まで選び、フロントLに移動させる。",
   "effectEn": "[Raid] Can Raid onto <Cho Sawagejo>; set it to active and you may move it to the Front Line. [On Play] If your opponent's Front Line has an open space, you may reveal 1 <Makoto Shishio>, <Yumi Komagata> or [Trait: Juppongatana] from your hand and put it on top of your deck. If you do, choose up to 1 character in your opponent's Energy Line with generated energy 1 or less, and move it to the Front Line.",
   "triggerType": "Get",
@@ -1668,9 +1888,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "十本刀"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1700,9 +1924,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "十本刀"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードが自分の効果で自分の山札から場外に置かれた時、自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外からこのカードを自分の場にレストで登場させる。〈瀬田 宗次郎〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "When this card is put from your deck into your Outside Area by your own effect, you may put 1 card(s) from your hand into your Outside Area. If you do, play this card from your Outside Area to your field rested. This <Sojiro Seta> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "",
@@ -1732,9 +1960,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "十本刀"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から〈志々雄 真実〉か〈駒形 由美〉か［特徴：十本刀］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 <Makoto Shishio> or <Yumi Komagata> or [Trait: Juppongatana] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -1764,9 +1996,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "十本刀"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分の山札の上から1枚見る。そのカードを山札の上か場外に置く。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Look at the top 1 card(s) of your deck. Put that card on top of your deck or into your Outside Area.",
   "triggerType": "Color",
@@ -1796,9 +2032,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "十本刀"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "瀬田 宗次郎"
+  },
+  "deckLimit": null,
   "effectJp": "このカードが自分の効果で自分の山札から場外に置かれた時、このカードが必要エナジーを満たしている場合、自分の場外からこのカードをレイドさせてもよい。【レイド】〈瀬田 宗次郎〉アクティブにし、フロントLに移動できる【登場時】このキャラが手札以外から登場している場合、カードを1枚まで引き、このキャラはこのターン中、【インパクト（1）】を得る。【起動メイン】【フロントLにある場合】レイド状態のこのキャラの一番上のカードを自分の山札の上に置く。〈瀬田 宗次郎〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "When this card is put from your deck into your Outside Area by your own effect, if this card meets its required energy, you may Raid this card from your Outside Area. [Raid] Can Raid onto <Sojiro Seta>; set it to active and you may move it to the Front Line. [On Play] If this character was played from somewhere other than your hand, draw up to 1 card(s), and this character gains [Impact 1] this turn. [Activate: Main] [While in Front Line] Put the top card of this Raided character on top of your deck. This <Sojiro Seta> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Raid",
@@ -1828,9 +2071,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "十本刀"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の〈志々雄 真実〉か〈駒形 由美〉か他の［特徴：十本刀］を1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 <Makoto Shishio>, <Yumi Komagata> or other [Trait: Juppongatana] on your field; it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -1860,9 +2107,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "十本刀"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "Active",
@@ -1892,7 +2145,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の〈志々雄 真実〉を1枚まで選び、このターン中、「このキャラがアタックしてブロックされなかった時、カードを1枚まで引く。」を与える。【起動メイン】【レストにする】このフィールドを退場させる。【退場時】カードを2枚引く。",
   "effectEn": "[On Play] Choose up to 1 <Makoto Shishio> on your field, it gains “When this character attacks and is not blocked, Draw up to 1 card(s)” this turn. [Activate: Main] [Rest this card] Retire this Field. [On Retire] Draw 2 card(s).",
   "triggerType": "Get",
@@ -1917,7 +2174,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1942,7 +2203,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈斎藤 一〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Hajime Saito> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -1967,7 +2232,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1992,7 +2261,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にある〈志々雄 真実〉と〈駒形 由美〉と［特徴：十本刀］の合計枚数×1000以下のBPの相手のフロントLのキャラを1枚選び、退場させる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP equal to or less than 1000 × the total number of <Makoto Shishio>, <Yumi Komagata> and [Trait: Juppongatana] on your field, and retire it.",
   "triggerType": "Special",
@@ -2017,7 +2290,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場外から〈志々雄 真実〉か〈駒形 由美〉か［特徴：十本刀］を1枚自分の山札の上に置く。自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "Put 1 <Makoto Shishio>, <Yumi Komagata> or [Trait: Juppongatana] from your Outside Area on top of your deck. Choose up to 1 of your AP cards, set it to active.",
   "triggerType": "Draw",
@@ -2047,7 +2324,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -2077,7 +2358,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -2107,7 +2392,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】【エナジーLにある場合】自分の手札を1枚場外に置いてもよい。そうした場合、このキャラをアクティブにする。【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
   "effectEn": "[On Play] [While in Energy Line] You may put 1 card(s) from your hand into your Outside Area. If you do, Set this character to active. [Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -2135,13 +2424,13 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のフロントLに〈緋村 剣心〉がある場合、このキャラの発生エナジー+【赤】。【起動メイン】【ターン1】このキャラが登場したターン中のみ発動できる。自分のフロントLの〈緋村 剣心〉を1枚選び、次の自分のターン開始時まで、「相手は効果でこのキャラを選ぶ際に、追加で自身の手札を1枚場外に置かないと選べない。」を与える。",
   "effectEn": "If you have <Kenshin Himura> in your Front Line, This character's generated energy +[Red]. [Activate: Main] [Once Per Turn] Can only activate during the turn this character was played. Choose 1 <Kenshin Himura> in your Front Line; until the start of your next turn, it gains “When choosing this character with an effect, your opponent must additionally put 1 card(s) from their hand into their Outside Area”",
   "triggerType": "Draw",
@@ -2171,7 +2460,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の〈緋村 剣心〉を1枚まで選び、このターン中、【自分のターン中】の効果を失わせる。",
   "effectEn": "[On Play] Choose up to 1 <Kenshin Himura> on your field; it loses its [During Your Turn] effects this turn.",
   "triggerType": "Draw",
@@ -2201,7 +2494,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -2231,7 +2528,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -2261,7 +2562,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアタックしてブロックされなかった時、カードを1枚引く。",
   "effectEn": "When this character attacks and is not blocked, Draw 1 card(s).",
   "triggerType": "",
@@ -2291,7 +2596,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このキャラはBP+1000。【エナジーLにある場合】【ターン1】自分の場のキャラのアタック終了時、自分の手札を1枚場外に置いてもよい。そうした場合、このターン中にアタックしていない自分のフロントLのキャラを1枚選び、このキャラと位置を入れ替えてもよい。",
   "effectEn": "[During Your Turn] This character gets BP+1000. [While in Energy Line] [Once Per Turn] At the end of your character's attack, you may put 1 card(s) from your hand into your Outside Area. If you do, you may choose 1 character in your Front Line that hasn't attacked this turn and swap its position with this character.",
   "triggerType": "",
@@ -2321,7 +2630,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "damage": 2,
+   "nullifyImpact": true
+  },
+  "raid": {
+   "kind": "name",
+   "value": "相楽 左之助"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈相楽 左之助〉アクティブにし、フロントLに移動できる【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）このキャラがアタックしてブロックされた時、自分のフロントLのアクティブの〈相楽 左之助〉を1枚レストにしてもよい。そうした場合、このキャラはこのターン中、BP+1000と【インパクト（1）】を得る。【登場時】カードを1枚引く。",
   "effectEn": "[Raid] Can Raid onto <Sanosuke Sagara>; set it to active and you may move it to the Front Line. [Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [Impact Nullify] (The character that battles this character loses [Impact] during this battle) When this character attacks and is blocked, you may rest 1 active <Sanosuke Sagara> in your Front Line. If you do, this character gets BP+1000 and gains [Impact 1] this turn. [On Play] Draw 1 card(s).",
   "triggerType": "Raid",
@@ -2351,7 +2670,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -2381,7 +2704,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に青か紫のカードがある場合、手札にあるこのカードの必要エナジーを【赤×1】減らす。",
   "effectEn": "If your opponent has Blue or Purple card on their field, the required energy of this card in your hand [Red x1]is reduced.",
   "triggerType": "",
@@ -2411,7 +2738,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -2439,13 +2770,13 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
   "effectEn": "While this character is active, its generated energy +[Red].",
   "triggerType": "",
@@ -2475,7 +2806,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】以下から1つ選ぶ。・自分の場外から必要エナジーが1以下のキャラカードを1枚まで手札に加える。・自分の場の他のキャラを1枚まで選び、このターン中、BP+1500。",
   "effectEn": "[On Play] Choose 1 of the following. Add up to 1 character card(s) with required energy 1 or less from your Outside Area to your hand. Choose up to 1 other character on your field, it gets BP+1500 this turn.",
   "triggerType": "Active",
@@ -2503,13 +2838,13 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【赤】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Red] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -2539,7 +2874,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】以下から1つ選ぶ。・自分のフロントLのレストの〈相楽 左之助〉を1枚まで選び、アクティブにする。・自分のフロントLのアクティブの〈相楽 左之助〉を1枚レストにしてもよい。そうした場合、相手のフロントLのキャラを1枚まで選び、レストにする。",
   "effectEn": "[On Play] Choose 1 of the following. Choose up to 1 rested <Sanosuke Sagara> in your Front Line, set it to active. You may rest 1 active <Sanosuke Sagara> in your Front Line. If you do, Choose up to 1 character in your opponent's Front Line, rest it.",
   "triggerType": "Draw",
@@ -2569,7 +2908,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【自分のターン中】このキャラとのバトルで敗北した相手のキャラは、退場する代わりにエナジーLに移動する。（移動させる時にエナジーLに空きがない場合、相手はエナジーLのカードを1枚選んでリムーブエリアに置いてから移動させる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [During Your Turn] Your opponent's characters that lose a battle against this character move to the Energy Line instead of being retired. (When moving, if there is no space in the Energy Line, your opponent chooses 1 card(s) in their Energy Line, puts them into the Remove Area, then moves it)",
   "triggerType": "Get",
@@ -2599,7 +2944,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このキャラとのバトルで敗北した相手のキャラは、退場する代わりにエナジーLに移動する。【登場時】自分の山札の上から3枚見る。その中から〈緋村 剣心〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[During Your Turn] Your opponent's characters that lose a battle against this character move to the Energy Line instead of being retired. [On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 <Kenshin Himura> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -2629,7 +2978,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このキャラとのバトルで敗北した相手のキャラは、退場する代わりにエナジーLに移動する。（移動させる時にエナジーLに空きがない場合、相手はエナジーLのカードを1枚選んでリムーブエリアに置いてから移動させる）",
   "effectEn": "[During Your Turn] Your opponent's characters that lose a battle against this character move to the Energy Line instead of being retired. (When moving, if there is no space in the Energy Line, your opponent chooses 1 card(s) in their Energy Line, puts them into the Remove Area, then moves it)",
   "triggerType": "",
@@ -2659,7 +3012,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【自分のターン中】このキャラとのバトルで敗北した相手のキャラは、退場する代わりにエナジーLに移動する。【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、このキャラをアクティブにする。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [During Your Turn] Your opponent's characters that lose a battle against this character move to the Energy Line instead of being retired. [On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, Set this character to active.",
   "triggerType": "Color",
@@ -2689,7 +3048,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはアクティブで場に登場させる。【登場時】カードを1枚引き、自分の手札を1枚場外に置く。【起動メイン】【フロントLにある場合】【ターン1】自分の場外の〈不殺の誓い〉を1枚リムーブエリアに置く。そうした場合、カードを1枚引き、自分はこのターン中、「自分の場の〈緋村 剣心〉全ては【自分のターン中】の効果を失う。」を得る。",
   "effectEn": "This character is played active. [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. [Activate: Main] [While in Front Line] [Once Per Turn] Put into the owner's remove area 1 <Oath Not to Kill> in your Outside Area. If you do, draw 1 card(s), and you gain “All <Kenshin Himura> on your field lose their [During Your Turn] effects” this turn.",
   "triggerType": "Get",
@@ -2719,7 +3082,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "緋村 剣心"
+  },
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このキャラとのバトルで敗北した相手のキャラは、退場する代わりにエナジーLに移動する。【レイド】〈緋村 剣心〉アクティブにし、フロントLに移動できる【アタック時】【ターン1】自分の手札を1枚場外に置いてもよい。そうした場合、このキャラをアクティブにする。【登場時】カードを1枚引く。",
   "effectEn": "[During Your Turn] Your opponent's characters that lose a battle against this character move to the Energy Line instead of being retired. [Raid] Can Raid onto <Kenshin Himura>; set it to active and you may move it to the Front Line. [When Attacking] [Once Per Turn] You may put 1 card(s) from your hand into your Outside Area. If you do, Set this character to active. [On Play] Draw 1 card(s).",
   "triggerType": "Raid",
@@ -2749,7 +3119,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -2779,7 +3153,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【赤×2】減らす。【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Red x2]is reduced. [Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "Active",
@@ -2809,7 +3189,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【APを1支払う】【ターン1】カードを1枚引く。このキャラはこのターン中、BP+1000。【アタック時】自分の手札を1枚場外に置いてもよい。そうした場合、このターン中にアタックしていない自分の場のキャラを1枚まで選び、アクティブにする。",
   "effectEn": "[Activate: Main] [Pay 1 AP] [Once Per Turn] Draw 1 card(s). This character gets BP+1000 this turn. [When Attacking] You may put 1 card(s) from your hand into your Outside Area. If you do, choose up to 1 character on your field that hasn't attacked this turn and set it to active.",
   "triggerType": "Color",
@@ -2839,7 +3223,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中からキャラカードを1枚まで公開し手札に加える。残りを望む順で山札の下に置く。〈相楽 左之助〉以外を手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 character card among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added a card other than <Sanosuke Sagara> to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Get",
@@ -2864,7 +3252,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場の〈相楽 左之助〉を1枚まで選び、このターン中、BP+1500と【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を与え、カードを1枚引く。",
   "effectEn": "Choose up to 1 <Sanosuke Sagara> on your field; it gains BP+1500 and [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opposing player) this turn, and draw 1 card(s).",
   "triggerType": "Draw",
@@ -2889,7 +3281,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2914,7 +3310,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2939,7 +3339,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手のフロントLのキャラを1枚選び、レストにする。このカードが自分の場の赤の〈緋村 剣心〉の効果で自分の手札から場外に置かれた時、カードを1枚引く。",
   "effectEn": "Choose 1 character in your opponent's Front Line, rest it. When this card is put from your hand into your Outside Area by the effect of a red <Kenshin Himura> on your field, draw 1 card(s).",
   "triggerType": "",
@@ -2964,7 +3368,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは自分の場に〈相楽 左之助〉がある場合のみ使用できる。BP5000以下の相手のフロントLのキャラを1枚選び、『退場させる』。自分のフロントLのアクティブの〈相楽 左之助〉を1枚レストにしてもよい。そうした場合、『リムーブエリアに置く』に代わる。",
   "effectEn": "This card can only be used if you have <Sanosuke Sagara> on your field. Choose 1 character in your opponent's Front Line with BP 5000 or less, “retire it” You may rest 1 active <Sanosuke Sagara> in your Front Line. If you do, it becomes “put it into the Remove Area” instead.",
   "triggerType": "Special",
@@ -2989,7 +3397,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "BP5000以下の相手のフロントLのキャラを1枚まで選び、『エナジーLに移動させる』。自分の場に〈緋村 剣心〉がある場合、『相手の山札の下に置く』に代えてもよい。",
   "effectEn": "Choose up to 1 character in your opponent's Front Line with BP 5000 or less, “move it to the Energy Line” If you have <Kenshin Himura> on your field, you may instead “put it on the bottom of its owner's deck”",
   "triggerType": "Special",
@@ -3019,7 +3431,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のアタックフェイズ終了時、このターン中に相手のキャラが退場していない場合、アクティブのこのキャラをレストにしてもよい。そうした場合、カードを1枚引く。〈神谷 薫〉のこの効果は1ターンに1回のみ発動できる。【登場時】【エナジーLにある場合】自分の手札を1枚場外に置いてもよい。そうした場合、このキャラをアクティブにする。",
   "effectEn": "At the end of your Attack Phase, if your opponent's characters were not retired this turn, you may rest this active character. If you do, Draw 1 card(s). This <Kaoru Kamiya> effect can only activate 1 time(s) per 1 turn(s). [On Play] [While in Energy Line] You may put 1 card(s) from your hand into your Outside Area. If you do, Set this character to active.",
   "triggerType": "Draw",
@@ -3049,7 +3465,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】自分のフロントLのアクティブのキャラを1枚レストにしてもよい。そうした場合、このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
   "effectEn": "[When Attacking] You may rest 1 active character in your Front Line. If you do, This character, this turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained.",
   "triggerType": "Draw",
@@ -3079,7 +3499,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはアクティブで場に登場させる。【フロントLにある場合】【ターン1】自分か相手の効果でアクティブのこのキャラがレストになった時、このキャラをアクティブにする。【登場時】このキャラはこのターン中、「相手はこのキャラのアタックを可能ならブロックしなければならない。」を得る。",
   "effectEn": "This character is played active. [While in Front Line] [Once Per Turn] When this active character is rested by your or your opponent's effect, set this character to active. [On Play] This character gains “Your opponent must block this character's attacks if able” this turn.",
   "triggerType": "Active",
@@ -3109,7 +3533,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から1枚見る。そのカードを山札の上か下に置く。",
   "effectEn": "[On Play] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
   "triggerType": "Active",
@@ -3139,7 +3567,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このキャラはBP-1000。【自分のターン中】このキャラとのバトルで敗北した相手のキャラは、退場する代わりにエナジーLに移動する。",
   "effectEn": "[During Your Turn] This character BP-1000. [During Your Turn] Your opponent's characters that lose a battle against this character move to the Energy Line instead of being retired.",
   "triggerType": "Draw",
@@ -3169,7 +3601,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": {
+   "kind": "name",
+   "value": "緋村 剣心"
+  },
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このキャラとのバトルで敗北した相手のキャラは、退場する代わりにエナジーLに移動する。【レイド】〈緋村 剣心〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】相手のフロントLのキャラを1枚まで選び、エナジーLに移動させる。（移動させる時にエナジーLに空きがない場合、相手はエナジーLのカードを1枚選んでリムーブエリアに置いてから移動させる）",
   "effectEn": "[During Your Turn] Your opponent's characters that lose a battle against this character move to the Energy Line instead of being retired. [Raid] Can Raid onto <Kenshin Himura>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] Choose up to 1 character in your opponent's Front Line, move it to the Energy Line. (When moving, if there is no space in the Energy Line, your opponent chooses 1 card(s) in their Energy Line, puts them into the Remove Area, then moves it)",
   "triggerType": "Raid",
@@ -3199,7 +3640,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -3229,7 +3676,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[Activate: Main] [Rest this card] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Get",
@@ -3254,7 +3705,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを1枚引く。自分の場の〈緋村 剣心〉を1枚まで選び、このターン中、「【アタック時】カードを1枚引く。」を与える。",
   "effectEn": "Draw 1 card(s). Choose up to 1 <Kenshin Himura> on your field, it gains “[When Attacking]Draw 1 card(s)” this turn.",
   "triggerType": "Draw",
@@ -3284,9 +3739,18 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "御庭番衆"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": {
+   "kind": "name",
+   "value": "四乃森 蒼紫"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈四乃森 蒼紫〉アクティブにし、フロントLに移動できる【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】自分の山札の上から3枚見る。その中から［特徴：御庭番衆］かカード名に「回天剣舞」を含むイベントカードを1枚まで公開し手札に加える。残りを望む順で山札の下に置く。",
   "effectEn": "[Raid] Can Raid onto <Aoshi Shinomori>; set it to active and you may move it to the Front Line. [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: Oniwabanshu] or event card with “Kaiten Kenbu” in its card name among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Raid",
@@ -3316,7 +3780,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードはフロントLに登場できず、このカードの効果以外でフロントLに移動できない。【登場時】自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを場外に置く。【起動メイン】【手札を2枚場外に置く】【ターン1】自分の場に〈緋村 剣心〉がある場合のみ発動できる。このキャラを別のラインに移動させる。",
   "effectEn": "This card cannot be played to the Front Line, and cannot move to the Front Line except by this card's effect. [On Play] Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest into your Outside Area. [Activate: Main] [Put 2 card(s) from your hand into your Outside Area] [Once Per Turn] Can only activate if you have <Kenshin Himura> on your field. Move this character to another line.",
   "triggerType": "Active",
@@ -3346,7 +3814,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札を1枚自分の山札の上に置く。",
   "effectEn": "[On Play] Put 1 card(s) from your hand on top of your deck.",
   "triggerType": "Draw",
@@ -3376,7 +3848,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】カードを1枚引いてもよい。そうした場合、このキャラは、次の1回アクティブにならない。",
   "effectEn": "[When Attacking] You may draw 1 card(s). If you do, This character , it does not become active the next 1 time(s).",
   "triggerType": "Draw",
@@ -3399,7 +3875,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3422,7 +3902,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3445,7 +3929,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3468,7 +3956,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3491,7 +3983,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3514,7 +4010,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

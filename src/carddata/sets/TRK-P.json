@@ -21,9 +21,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "美食四天王"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の［特徴：美食四天王］を1枚まで選び、このターン中、BP+1000。自分のフロントLに〈トリコ〉と〈サニー〉と〈ゼブラ〉がある場合、さらに選んだキャラをアクティブにする。",
   "effectEn": "[On Play] Choose up to 1 [Trait: Four Heavenly Kings of Gourmet] on your field, it gets BP+1000 this turn. If you have <トリコ>, <サニー> and <ゼブラ> in your Front Line, also set the chosen character to active.",
   "triggerType": "Draw",
@@ -53,9 +57,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "美食四天王"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】APを1支払ってもよい。そうした場合、自分の山札の上から7枚見る。その中から異なるカード名の青の［特徴：食材］をそれぞれ1枚までと〈小松〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。【アタック時】このターン中に自分が手札から［特徴：食材］を使用している場合、自分の場のキャラを1枚まで選び、このターン中、BP+2000。",
   "effectEn": "[On Play] You may pay 1 AP. If you do, Look at the top 7 card(s) of your deck. Reveal up to 1 each of blue [Trait: Ingredient] with different card names and up to 1 <小松> among them, and add them to your hand. Put the rest on the bottom of your deck in any order. [When Attacking] If you have used a [Trait: Ingredient] from your hand this turn, choose up to 1 character on your field; it gets BP+2000 this turn.",
   "triggerType": "Active",
@@ -85,10 +93,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "美食會",
    "ボス"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の手札が0枚の場合、このキャラは【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。【登場時】自分の山札の上から1枚を裏向きでこのキャラの下に置く。【起動メイン】【ターン1】自分の手札を望む枚数裏向きでこのキャラの下に置く。【退場時】このキャラの下の裏向きカードの枚数分までカードを引く。",
   "effectEn": "If you have exactly 0 cards in your hand, this character gains [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opposing player) [On Play] Put the top 1 card(s) of your deck face down under this character. [Activate: Main] [Once Per Turn] Put any number of cards from your hand face down under this character. [On Retire] Draw up to as many cards as there are face-down cards under this character.",
   "triggerType": "Get",

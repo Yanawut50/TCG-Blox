@@ -21,7 +21,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】以下から1つまで選ぶ。・相手は自身の場外にあるカードを2枚リムーブエリアに置く。・相手の場の発生エナジーが1以下のフィールドを1枚選び、退場させる。そうした場合、相手はカードを1枚引く。",
   "effectEn": "[On Play] Choose up to 1 of the following. Your opponent puts 2 card(s) from their Outside Area into the Remove Area. Choose 1 Field on your opponent's field with generated energy 1 or less, and retire it. If you do, your opponent draws 1 card(s).",
   "triggerType": "",
@@ -49,13 +53,13 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【黄】。メインフェイズ終了時、このキャラを退場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Yellow]. At the end of the Main Phase, retire this character.",
   "triggerType": "",
@@ -83,13 +87,13 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【黄】。",
   "effectEn": "While this character is active, its generated energy +[Yellow].",
   "triggerType": "",
@@ -119,7 +123,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -149,7 +157,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分の場の［特徴：念獣］と自分の場のキャラの下の裏向きのカードが合計2枚以上ある場合、このキャラはBP+1000。",
   "effectEn": "[During Your Turn] If you have a total of 2 or more [Trait: Nen Beast] on your field and face-down cards under characters on your field, this character gets BP+1000.",
   "triggerType": "Get",
@@ -179,7 +191,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【起動メイン】【フロントLにある場合】【ターン1】自分の場の［特徴：念獣］を1枚退場させてもよい。そうした場合、カードを1枚引き、このキャラはこのターン中、BP+1000。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [Activate: Main] [While in Front Line] [Once Per Turn] You may retire 1 [Trait: Nen Beast] on your field. If you do, draw 1 card(s), and this character gets BP+1000 this turn.",
   "triggerType": "",
@@ -209,7 +227,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ブロック時】アタックしている相手のキャラが【インパクト】を持つ場合、このキャラはこのターン中、BP+2000。【登場時】自分の場の［特徴：念獣］を1枚退場させてもよい。そうした場合、相手のフロントLのキャラを1枚まで選び、レストにする。それは次の1回アクティブにならない。自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "[When Blocking] If the attacking opponent's character has [Impact], this character gets BP+2000 this turn. [On Play] You may retire 1 [Trait: Nen Beast] on your field. If you do, Choose up to 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s). Choose up to 1 of your AP cards, set it to active.",
   "triggerType": "Color",
@@ -239,7 +261,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": {
+   "kind": "name",
+   "value": "レイザー"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈レイザー〉アクティブにし、フロントLに移動できる【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】自分のフロントLの［特徴：念獣］と自分のフロントLのキャラの下の裏向きのカードの合計枚数×1000以下のBPの相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "[Raid] Can Raid onto <Razor>; set it to active and you may move it to the Front Line. [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] Choose up to 1 character in your opponent's Front Line with BP equal to or less than 1000 × the total number of [Trait: Nen Beast] in your Front Line and face-down cards under characters in your Front Line, and retire it.",
   "triggerType": "Raid",
@@ -269,9 +300,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "念獣"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このキャラの下の裏向きのカード1枚につき、このキャラはBP+1000。【登場時】自分の場外から［特徴：念獣］を1枚まで裏向きでこのキャラの下に置く。",
   "effectEn": "[During Your Turn] For each 1 face-down card(s) under this character, This character gets BP+1000. [On Play] Put up to 1 [Trait: Nen Beast] from your Outside Area face down under this character.",
   "triggerType": "",
@@ -301,9 +336,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "念獣"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このキャラの下の裏向きのカード1枚につき、このキャラはBP+1000。【登場時】自分の山札の上から5枚見る。その中から［特徴：念獣］か〈ドッジボールコート〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[During Your Turn] For each 1 face-down card(s) under this character, This character gets BP+1000. [On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 [Trait: Nen Beast] or <Dodgeball Court> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -333,9 +372,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "念獣"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": 14,
   "effectJp": "※このカードはデッキに14枚まで入れられる。【自分のターン中】このキャラの下の裏向きのカード1枚につき、このキャラはBP+1000。【退場時】このカードを裏向きで自分の場の他の［特徴：念獣］1枚の下に置いてもよい。",
   "effectEn": "※You may include up to 14 copies of this card in your deck. [During Your Turn] For each 1 face-down card(s) under this character, This character gets BP+1000. [On Retire] You may put this card face down under 1 other [Trait: Nen Beast] on your field.",
   "triggerType": "Get",
@@ -365,9 +408,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "レイザー攻略組"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から［特徴：レイザー攻略組］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: Razor Challengers] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -397,9 +444,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "レイザー攻略組"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から7枚見る。その中から〈白の賢人〉と〈黒の賢人〉をそれぞれ1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。自分の手札から〈白の賢人〉と〈黒の賢人〉をそれぞれ1枚まで自分の場にレストで登場させる。",
   "effectEn": "[On Play] Look at the top 7 card(s) of your deck. Reveal up to 1 each of <White Goreinu> and <Black Goreinu> among them and add them to your hand. Put the rest on the bottom of your deck in any order. Play up to 1 <White Goreinu> and <Black Goreinu> from your hand to your field rested.",
   "triggerType": "Get",
@@ -429,9 +480,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "レイザー攻略組"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -461,9 +516,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "レイザー攻略組"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】同じラインに〈キルア＝ゾルディック〉がある場合、このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
   "effectEn": "[When Attacking] If <Killua Zoldyck> is in the same line, this character gains [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) this turn.",
   "triggerType": "Color",
@@ -493,9 +552,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "レイザー攻略組"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "ゴン＝フリークス"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ゴン＝フリークス〉アクティブにし、フロントLに移動できる【相手のターン中】【フロントLにある場合】同じラインに〈キルア＝ゾルディック〉と〈ヒソカ〉がある場合、このキャラはBP+2000。【アタック時】同じラインに〈キルア＝ゾルディック〉がある場合、このキャラはこのターン中、BP+1000と【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
   "effectEn": "[Raid] Can Raid onto <Gon Freecss>; set it to active and you may move it to the Front Line. [During Opponent's Turn] [While in Front Line] If <Killua Zoldyck> and <Hisoka> are in the same line, this character gets BP+2000. [When Attacking] If <Killua Zoldyck> is in the same line, this character gets BP+1000 and gains [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) this turn.",
   "triggerType": "Raid",
@@ -525,9 +591,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "レイザー攻略組"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -557,9 +627,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "レイザー攻略組"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場のキャラ全ては、このターン中、BP+500。【起動メイン】【APを1支払う】【ターン1】自分の場のキャラ全ては、このターン中、BP+500。",
   "effectEn": "[On Play] All characters on your field it gets BP+500 this turn. [Activate: Main] [Pay 1 AP] [Once Per Turn] All characters on your field it gets BP+500 this turn.",
   "triggerType": "Active",
@@ -589,9 +663,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "レイザー攻略組"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -621,9 +699,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "レイザー攻略組"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "Active",
@@ -653,9 +737,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "レイザー攻略組"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引く。【起動メイン】【レストにする】【このカードを退場させる】カードを1枚引く。",
   "effectEn": "[On Play] Draw 1 card(s). [Activate: Main] [Rest this card] [Retire this card] Draw 1 card(s).",
   "triggerType": "Draw",
@@ -685,9 +773,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "レイザー攻略組"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に〈ゴン＝フリークス〉と〈キルア＝ゾルディック〉がある場合、このキャラはBP+1000。",
   "effectEn": "If you have <Gon Freecss> and <Killua Zoldyck> on your field, This character gets BP+1000.",
   "triggerType": "",
@@ -717,9 +809,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "レイザー攻略組"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ターン1】自分の場のキャラがアタックしてバトルに敗北した時、このキャラをアクティブにしてもよい。",
   "effectEn": "[Once Per Turn] When a character on your field attacks and loses a battle, you may set this character to active.",
   "triggerType": "Draw",
@@ -749,9 +845,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "レイザー攻略組"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【フロントLにある場合】自分の場の〈ゴン＝フリークス〉と〈キルア＝ゾルディック〉と〈ヒソカ〉は「【相手のターン中】相手はキャラの効果やイベントカードの効果でこのキャラを選ぶ際に、追加で自身の手札を1枚場外に置かないと選べない。」を得る。〈ヒソカ〉のこの効果は重複しない。",
   "effectEn": "[While in Front Line] <Gon Freecss>, <Killua Zoldyck> and <Hisoka> on your field gain “[During Opponent's Turn] Your opponent must put 1 additional card(s) from their hand into their Outside Area to choose this character with character effects or Event card effects” This <Hisoka> effect does not stack.",
   "triggerType": "",
@@ -781,9 +881,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "レイザー攻略組"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】相手のフロントLのキャラを1枚まで選ぶ。相手はそのキャラを自身のエナジーLに移動させるか、自身のエナジーLのキャラ1枚と入れ替える。",
   "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line. Your opponent moves that character to their Energy Line, or swaps it with 1 character in their Energy Line.",
   "triggerType": "Draw",
@@ -813,9 +917,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "レイザー攻略組"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【エナジーLにある場合】BP500以上の自分のフロントLの〈ゴレイヌ〉が退場する場合、代わりにこのキャラを退場させてもよい。そうした場合、その〈ゴレイヌ〉をエナジーLに移動させる。",
   "effectEn": "[While in Energy Line] If your <Goreinu> with 500 or more BP in your Front Line would be retired, you may retire this character instead. If you do, move that <Goreinu> to the Energy Line.",
   "triggerType": "Active",
@@ -845,10 +953,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ゾルディック家",
    "レイザー攻略組"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -878,10 +990,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ゾルディック家",
    "レイザー攻略組"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "",
@@ -911,10 +1029,19 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ゾルディック家",
    "レイザー攻略組"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": {
+   "kind": "name",
+   "value": "キルア＝ゾルディック"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈キルア＝ゾルディック〉アクティブにし、フロントLに移動できる【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【起動メイン】【フロントLにある場合】【レストにする】自分の場の〈ゴン＝フリークス〉を1枚選び、このターン中、『【ダメージ（+1）】』を与える。このキャラがこのターン中に登場していた場合、『【狙い撃ち】』に代えてもよい。",
   "effectEn": "[Raid] Can Raid onto <Killua Zoldyck>; set it to active and you may move it to the Front Line. [Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [Activate: Main] [While in Front Line] [Rest this card] Choose 1 <Gon Freecss> on your field, it gains “[Damage +1]” this turn. If this character was played this turn, you may change it to “[Snipe]”",
   "triggerType": "Raid",
@@ -944,7 +1071,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】自分の場外から［特徴：念獣］を1枚裏向きで自分の場の［特徴：念獣］1枚の下に置く。【起動メイン】【レストにする】【手札を1枚場外に置く】【APを1支払う】自分の場外から［特徴：念獣］を1枚自分の場にレストで登場させる。",
   "effectEn": "This Field is played active. [Activate: Main] [Rest this card] Put 1 [Trait: Nen Beast] from your Outside Area face down under 1 [Trait: Nen Beast] on your field. [Activate: Main] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] [Pay 1 AP] Play 1 [Trait: Nen Beast] from your Outside Area to your field rested.",
   "triggerType": "Get",
@@ -969,7 +1100,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に〈ゴン＝フリークス〉がある場合、自分の場のキャラを1枚まで選び、このターン中、BP+2000。自分の場に〈キルア＝ゾルディック〉がある場合、カードを1枚引く。自分の場に〈ヒソカ〉がある場合、自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "If you have <Gon Freecss> on your field, Choose up to 1 character on your field, it gets BP+2000 this turn. If you have <Killua Zoldyck> on your field, Draw 1 card(s). If you have <Hisoka> on your field, Choose up to 1 of your AP cards, set it to active.",
   "triggerType": "Active",
@@ -994,7 +1129,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "BP5000以下の相手のフロントLのキャラを1枚選び、『レストにする』。自分の場に［特徴：レイザー攻略組］が3枚以上ある場合、『退場させる』に代わる。自分のフロントLに〈ヒソカ〉がある場合、このターン中、相手の【ブロック時】と【インパクト無効】は発動しない。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 5000 or less, “rest it” If you have 3 or more [Trait: Razor Challengers] on your field, it becomes “retire it” instead. If you have <Hisoka> in your Front Line, This turn, your opponent's [When Blocking] and [Impact Nullify] do not activate.",
   "triggerType": "Special",
@@ -1019,7 +1158,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のキャラを1枚選び、手札に戻す。自分のAPカードを1枚まで選び、アクティブにする。戻したキャラが〈ツェズゲラ〉の場合、カードを1枚引く。",
   "effectEn": "Choose 1 character on your field, return it to its owner's hand. Choose up to 1 of your AP cards, set it to active. If the returned character is <Tsezguerra>, draw 1 card(s).",
   "triggerType": "Draw",
@@ -1044,7 +1187,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈レイザー〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Razor> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -1069,7 +1216,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場外に〈バック〉がある場合、このカードは使用できない。手札から使用すること以外でこのカードが場外に置かれる場合、代わりにこのカードをリムーブエリアに置く。自分の場外から必要エナジーを満たし消費APが1の〔［特徴：レイザー攻略組］か〈レイザー〉〕を1枚まで自分の場にレストで登場させるかレイドさせる。",
   "effectEn": "If you have <Back> in your Outside Area, this card cannot be used. If this card would be put into the Outside Area other than by being used from your hand, put it into the Remove Area instead. Play up to 1 [Trait: Razor Challengers] or <Razor> whose required energy you meet and with AP cost 1 from your Outside Area to your field rested or Raid it.",
   "triggerType": "Get",
@@ -1094,7 +1245,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1119,7 +1274,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から5枚見る。その中から〔〈レイザー〉か［特徴：念獣］〕を2枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "Look at the top 5 card(s) of your deck. Reveal up to 2 <Razor> or [Trait: Nen Beast] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Active",
@@ -1149,7 +1308,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "ゴン＝フリークス"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ゴン＝フリークス〉アクティブにし、フロントLに移動できる【登場時】このターン中、次に手札から使用する[特徴：指定ポケット]の消費APを-1する。【退場時】自分の場外から[特徴：指定ポケット]を1枚まで手札に加える。",
   "effectEn": "[Raid] Can Raid onto <Gon Freecss>; set it to active and you may move it to the Front Line. [On Play] This turn, reduce the AP cost of the next [Trait: Designated Pocket] you use from your hand by 1. [On Retire] Add up to 1 [Trait: Designated Pocket] from your Outside Area to your hand.",
   "triggerType": "Get",
@@ -1179,7 +1345,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ブロック時】アタックしている相手のキャラのBPが4500以上の場合、このキャラはこのターン中、BP+3000。",
   "effectEn": "[When Blocking] If the attacking opponent's character has 4500 or more BP, this character gets BP+3000 this turn.",
   "triggerType": "Active",
@@ -1209,7 +1379,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このターン中に自分が手札から［特徴：指定ポケット］を使用している場合、このキャラはこのターン中、BP+1000と「BP4000以上のキャラにブロックされない。」を得る。",
   "effectEn": "[During Your Turn] If you have used [Trait: Designated Pocket] from your hand this turn, this character gets BP+1000 and gains “Cannot be blocked by characters with BP 4000 or more” this turn.",
   "triggerType": "",
@@ -1239,7 +1413,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手はキャラの効果でこのキャラを選べない。",
   "effectEn": "Your opponent cannot choose this character with character effects.",
   "triggerType": "",
@@ -1269,7 +1447,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】自分の山札の上から7枚見る。その中からフィールドカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "[On Retire] Look at the top 7 card(s) of your deck. Reveal up to 1 Field card among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "",
@@ -1299,9 +1481,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ゾルディック家"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】このターン中に自分が手札から［特徴：指定ポケット］を使用している場合のみ発動できる。自分の場の他のキャラを1枚選び、アクティブにする。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if you have used [Trait: Designated Pocket] from your hand this turn. Choose 1 other character on your field, set it to active.",
   "triggerType": "Draw",
@@ -1331,9 +1517,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "爆弾魔"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは〈ゲンスルー〉としても扱う。【登場時】自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを望む順で下に置く。",
   "effectEn": "This card is also treated as <ゲンスルー>. [On Play] Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest on the bottom of your deck in any order.",
   "triggerType": "Color",
@@ -1363,9 +1553,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "爆弾魔"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "山札にあるこのカードは必要エナジーを【青×2】として扱ってもよい。【登場時】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。",
   "effectEn": "This card in your deck may treat its required energy as [Blue x2]. [On Play] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
   "triggerType": "",
@@ -1390,7 +1584,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このターン中、自分が次に発動させる〈リスキーダイス〉の【起動メイン】は、自分の場のキャラを選ぶ代わりに相手のフロントLのキャラを選んで発動させてもよい。",
   "effectEn": "This turn, the next [Activate: Main] of <リスキーダイス> you activate may choose a character in your opponent's Front Line instead of a character on your field.",
   "triggerType": "",
@@ -1415,7 +1613,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは自分のエナジーLに空きがなければ使用できない。自分の手札を1枚リムーブエリアに置いてもよい。そうした場合、カードを1枚引き、自分の場外から特徴に「指定ポケット」を持つ〔キャラカードかフィールドカード〕を1枚自分のエナジーLにアクティブで登場させる。",
   "effectEn": "This card cannot be used unless there is space in your Energy Line. You may put 1 card(s) from your hand into the Remove Area. If you do, draw 1 card(s), and play 1 character card or Field card with the trait “Designated Pocket” from your Outside Area to your Energy Line active.",
   "triggerType": "Active",
@@ -1440,7 +1642,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のキャラを1枚手札に戻す。そうした場合、カードを2枚引く。",
   "effectEn": "Return to the owner's hand 1 character on your field. If you do, Draw 2 card(s).",
   "triggerType": "Active",
@@ -1470,9 +1676,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "指定ポケット"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引く。【起動メイン】自分の場のアクティブの〈ビスケ〉を1枚レストにする。そうした場合、このカードを手札に戻す。",
   "effectEn": "[On Play] Draw 1 card(s). [Activate: Main] Rest 1 active <Bisky> on your field. If you do, return this card to your hand.",
   "triggerType": "Draw",
@@ -1502,9 +1712,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "幻影旅団"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から4枚見る。その中から［特徴：幻影旅団］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。この効果で〈クロロ〉以外の必要エナジーが3以下の［特徴：幻影旅団］を場外に置いた場合、そのカードが持つ全ての【登場時】をこのキャラが発動してもよい。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 [Trait: Phantom Troupe] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area. If you put [Trait: Phantom Troupe] other than <Chrollo> with required energy 3 or less into the Outside Area by this effect, this character may activate all [On Play] effects that card has.",
   "triggerType": "Get",
@@ -1534,9 +1748,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "幻影旅団"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札の［特徴：幻影旅団］を1枚公開してもよい。そうした場合、自分の場外から公開したカードと同じカード名のカードを1枚まで自分の山札の上に置く。",
   "effectEn": "[On Play] You may reveal 1 [Trait: Phantom Troupe] from your hand. If you do, put up to 1 card(s) with the same card name as the revealed card from your Outside Area on top of your deck.",
   "triggerType": "Draw",
@@ -1564,15 +1782,15 @@
    {
     "color": "Purple",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "幻影旅団"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【紫】。",
   "effectEn": "While this character is active, its generated energy +[Purple].",
   "triggerType": "",
@@ -1602,9 +1820,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "幻影旅団"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【フロントLにある場合】〈ノブナガ＆マチ〉以外の自分の場のキャラは、相手が手札から使用したイベントカードの効果で選ばれない。【退場時】相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。",
   "effectEn": "[While in Front Line] Characters on your field other than <Nobunaga & Machi> cannot be chosen by effects of Event cards your opponent uses from their hand. [On Retire] Choose up to 1 character in your opponent's Front Line, it gets BP-1000 this turn.",
   "triggerType": "",
@@ -1634,9 +1856,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "幻影旅団"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】相手の手札が3枚以上の場合、相手は自身の手札を1枚場外に置く。",
   "effectEn": "[On Play] If your opponent has 3 or more cards in their hand, your opponent puts 1 card(s) from their hand into their Outside Area.",
   "triggerType": "Active",
@@ -1666,9 +1892,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ゾルディック家"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場に他の［特徴：ゾルディック家］が3枚以上ある場合、相手のフロントLのキャラを1枚まで選び、このターン中、BP+1000と「このキャラは、相手のアタックを可能ならブロックしなければならない。」を与える。",
   "effectEn": "[On Play] If you have 3 or more other [Trait: Zoldyck Family] on your field, choose up to 1 character in your opponent's Front Line, and it gets BP+1000 and gains “This character must block your opponent's attacks if able” this turn.",
   "triggerType": "Color",
@@ -1698,9 +1928,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "ゾルディック家"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -1730,9 +1964,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ゾルディック家"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1762,9 +2000,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ゾルディック家"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。",
   "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line, it gets BP-1000 this turn.",
   "triggerType": "Active",
@@ -1794,9 +2036,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ゾルディック家"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "キルア＝ゾルディック"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈キルア＝ゾルディック〉アクティブにし、フロントLに移動できる【自分のターン中】このキャラはBP+500。【起動メイン】【フロントLにある場合】【ターン1】相手のキャラを1枚選ぶ。このターン中、選んだキャラが〔退場するか、このキャラのアタックをブロックした時〕、このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
   "effectEn": "[Raid] Can Raid onto <Killua Zoldyck>; set it to active and you may move it to the Front Line. [During Your Turn] This character gets BP+500. [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 of your opponent's characters. This turn, when the chosen character is retired or blocks this character's attack, this character gains [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) this turn.",
   "triggerType": "Get",
@@ -1821,7 +2070,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から4枚見る。その中から［特徴：ゾルディック家］を2枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "Look at the top 4 card(s) of your deck. Reveal up to 2 [Trait: Zoldyck Family] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Active",
@@ -1846,7 +2099,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを2枚引き、自分の手札を1枚場外に置く。自分の場外に〈ウボォーギン〉がある場合、相手のフロントLのキャラ全ては、このターン中、BP-1000。",
   "effectEn": "Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area. If you have <ウボォーギン> in your Outside Area, all characters in your opponent's Front Line it gets BP-1000 this turn.",
   "triggerType": "Draw",
@@ -1876,7 +2133,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【手札を1枚場外に置く】【ターン1】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
   "effectEn": "[Activate: Main] [While in Front Line] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] Choose 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -1906,7 +2167,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】このキャラが自分の手札から登場していた場合、APを1支払ってもよい。そうした場合、自分の場外から〈カストロ〉を1枚まで自分の場にアクティブで登場させる。",
   "effectEn": "[On Play] If this character was played from your hand, you may pay 1 AP. If you do, Play up to 1 <Kastro> from your Outside Area to your field active.",
   "triggerType": "Draw",
@@ -1936,7 +2201,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -1966,7 +2235,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にある〈ゴン＝フリークス〉、〈キルア＝ゾルディック〉、〈レオリオ〉のカード名の種類の数により、このキャラは以下の効果を全て得る。・1種類以上：【登場時】BP2500以下か特徴に「幻影旅団」を持つ、相手のフロントLのキャラを1枚まで選び、レストにする。・2種類以上：【アタック時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "Depending on the number of different card names among <Gon Freecss>, <Killua Zoldyck> and <Leorio> on your field, this character gains all of the following effects. 1 or more types: [On Play] Choose up to 1 character in your opponent's Front Line with BP 2500 or less or with the trait “Phantom Troupe”, and rest it. 2 or more types: [When Attacking]Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -1996,7 +2269,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にある〈キルア＝ゾルディック〉、〈クラピカ〉、〈レオリオ〉のカード名の種類の数により、このキャラは以下の効果を全て得る。・1種類以上：【自分のターン中】このキャラはBP+1000。・2種類以上：【インパクト（1）】・3種類以上：【登場時】APを1支払ってもよい。そうした場合、このキャラをアクティブにする。",
   "effectEn": "Depending on the number of different card names among <Killua Zoldyck>, <Kurapika> and <Leorio> on your field, this character gains all of the following effects. 1 or more types: [During Your Turn]This character gets BP+1000. 2 or more types: [Impact 1]. 3 or more types: [On Play]You may pay 1 AP. If you do, Set this character to active.",
   "triggerType": "Color",
@@ -2026,7 +2303,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】BP1500以上の相手の場のキャラを1枚まで選び、このターン中、BP-1000。",
   "effectEn": "[On Play] Choose up to 1 character on your opponent's field with BP 1500 or more, it gets BP-1000 this turn.",
   "triggerType": "",
@@ -2056,7 +2337,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】【ターン1】このキャラのBPがプラスされた時、このキャラはこのターン中、BP+1000。",
   "effectEn": "[During Your Turn] [Once Per Turn] When this character's BP is increased, this character gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -2086,7 +2371,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の発生エナジーが6以上ある場合、このキャラは【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）と【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）を得る。",
   "effectEn": "If your generated energy is 6 or more, this character gains [Double Block] (The first time this character blocks each turn, set it to active) and [Impact Nullify] (The character that battles this character loses [Impact] during this battle)",
   "triggerType": "Active",
@@ -2116,7 +2405,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にある〈ゴン＝フリークス〉、〈キルア＝ゾルディック〉、〈クラピカ〉のカード名の種類の数により、このキャラは以下の効果を全て得る。・1種類以上：このキャラはフロントLにある場合もエナジーを発生させる。・3種類以上：【自分のターン中】このキャラはBP+1000。",
   "effectEn": "Depending on the number of different card names among <Gon Freecss>, <Killua Zoldyck> and <Kurapika> on your field, this character gains all of the following effects. 1 or more types: This character also generates energy while in the Front Line. 3 or more types: [During Your Turn]This character gets BP+1000.",
   "triggerType": "",
@@ -2146,9 +2439,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ゾルディック家"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "",
@@ -2178,9 +2477,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ゾルディック家"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にある〈ゴン＝フリークス〉、〈クラピカ〉、〈レオリオ〉のカード名の種類の数により、このキャラは以下の効果を全て得る。・2種類以上：【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）・3種類以上：【登場時】このキャラをアクティブにする。",
   "effectEn": "Depending on the number of different card names among <Gon Freecss>, <Kurapika> and <Leorio> on your field, this character gains all of the following effects. 2 or more types: [Step](Can move from the Front Line to the Energy Line during your Movement Phase) 3 or more types: [On Play]Set this character to active.",
   "triggerType": "Active",
@@ -2205,7 +2508,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のキャラ全ては、このターン中、BP+1000。自分の手札を望む枚数場外に置いてもよい。そうした場合、自分の場のキャラ全ては、さらにこのターン中、この効果で場外に置いた手札1枚につき、BP+500。",
   "effectEn": "All characters on your field it gets BP+1000 this turn. You may put any number of cards from your hand into your Outside Area. If you do, all characters on your field also get BP+500 this turn for each 1 card(s) from your hand put into the Outside Area by this effect.",
   "triggerType": "Active",
@@ -2235,10 +2542,14 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "ゾルディック家",
    "レイザー攻略組"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【ターン1】自分のフロントLに〈ゴン＝フリークス〉がある場合のみ発動できる。このキャラと別のラインにある自分のキャラを1枚選び、このキャラと位置を入れ替える。そうした場合、このキャラはこのターン中、BP+2000。",
   "effectEn": "[Activate: Main] [Once Per Turn] Can only activate if you have <Gon Freecss> in your Front Line. Choose 1 of your characters in a different line from this character and swap its position with this character. If you do, This character gets BP+2000 this turn.",
   "triggerType": "Draw",
@@ -2268,7 +2579,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。【アタック時】自分の手札を望む枚数公開する。このキャラのBPはこのターン中、自分の場と手札から公開した［特徴：指定ポケット］の種類の数×500プラスされる。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. [When Attacking] Reveal any number of cards from your hand. This turn, this character's BP is increased by 500 × the number of different [Trait: Designated Pocket] revealed from your field and hand.",
   "triggerType": "Color",
@@ -2298,9 +2613,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ゾルディック家"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがレイドされた時、相手のキャラを1枚まで選ぶ。自分はこのターン中、「選んだキャラが退場した場合、カードを1枚引く。」を得る。（レイドしたキャラの【登場時】とこの効果は望む順で処理する）",
   "effectEn": "When this character is Raided, choose up to 1 of your opponent's characters. You gain “If the chosen character is retired, Draw 1 card(s)” this turn. (Of the Raided character's [On Play] and this effect are resolved in any order)",
   "triggerType": "Draw",
@@ -2330,7 +2649,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【手札を1枚場外に置く】【ターン1】このキャラはこのターン中、「このキャラはフロントLにある場合もエナジーを発生させる。」を得る。【アタック時】自分の発生エナジーが6以上ある場合、カードを1枚まで引く。",
   "effectEn": "[Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] This character gains “This character also generates energy while in the Front Line” this turn. [When Attacking] If your generated energy is 6 or more, draw up to 1 card(s).",
   "triggerType": "Active",
@@ -2353,7 +2676,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2376,7 +2703,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2399,7 +2730,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2422,7 +2757,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

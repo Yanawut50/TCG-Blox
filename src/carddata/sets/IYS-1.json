@@ -21,7 +21,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の特徴を持たない他のキャラを1枚まで選び、別のラインに移動させる。",
   "effectEn": "[On Play] Choose up to 1 other character with no traits on your field, and move it to another line.",
   "triggerType": "Active",
@@ -51,7 +55,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle)",
   "triggerType": "Draw",
@@ -81,7 +91,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から4枚見て、特徴を持たないキャラカードを1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck, reveal up to 1 character card with no traits among them, and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Color",
@@ -111,7 +125,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -141,7 +159,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【紫×2】減らす。【登場時】自分の山札の上から2枚見て、特徴を持たない紫のキャラカードを1枚まで場外に置く。残りを望む順で山札の上に置く。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Purple x2]is reduced. [On Play] Look at the top 2 card(s) of your deck and put up to 1 purple character card with no traits among them into your Outside Area. Put the rest on top of your deck in any order.",
   "triggerType": "Active",
@@ -171,7 +193,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【自分のターン中】このターン中に自分のキャラが場外から登場している場合、このキャラはBP+1000。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [During Your Turn] If your character was played from your Outside Area this turn, this character gets BP+1000.",
   "triggerType": "",
@@ -201,7 +229,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】このターン中に自分のキャラが場外から登場している場合、カードを1枚まで引く。",
   "effectEn": "[When Attacking] If your character was played from the Outside Area this turn, draw up to 1 card(s).",
   "triggerType": "Active",
@@ -231,7 +263,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このターン中に自分のキャラが場外から登場している場合、このキャラは【ダメージ（2）】を得る。【登場時】自分の場外から必要エナジーが3以下で消費APが1の特徴を持たない紫のキャラカードを1枚まで自分の場にレストで登場させる。",
   "effectEn": "[During Your Turn] If your character was played from the Outside Area this turn, this character gains [Damage 2]. [On Play] Play up to 1 Purple character card(s) with no traits, required energy 3 or less and AP cost 1 from your Outside Area to your field rested.",
   "triggerType": "Get",
@@ -261,7 +297,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "殺生丸"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈殺生丸〉アクティブにし、フロントLに移動できる【自分のターン中】このターン中に自分のキャラが場外から登場している場合、このキャラはBP+500と【インパクト（1）】を得る。【登場時】自分の場外から必要エナジーが3以下で消費APが1の特徴を持たない紫のキャラカードを1枚まで自分の場にレストで登場させる。",
   "effectEn": "[Raid] Can Raid onto <Sesshomaru>; set it to active and you may move it to the Front Line. [During Your Turn] If your character was played from the Outside Area this turn, this character gains BP+500 and [Impact 1]. [On Play] Play up to 1 Purple character card(s) with no traits, required energy 3 or less and AP cost 1 from your Outside Area to your field rested.",
   "triggerType": "Raid",
@@ -291,7 +334,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場外から必要エナジーが4以下で特徴を持たない紫のキャラカードを1枚まで手札に加える。",
   "effectEn": "[On Play] Add up to 1 purple character card with no traits and required energy 4 or less from your Outside Area to your hand.",
   "triggerType": "Active",
@@ -319,13 +366,13 @@
    {
     "color": "Purple",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【紫】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Purple] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -355,7 +402,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場に〈殺生丸〉がある場合、カードを1枚引く。",
   "effectEn": "[On Play] If you have <Sesshomaru> on your field, Draw 1 card(s).",
   "triggerType": "Draw",
@@ -383,13 +434,13 @@
    {
     "color": "Purple",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のフロントLに〈殺生丸〉がある場合、このキャラの発生エナジー+【紫】。【登場時】このキャラが場外から登場していた場合、自分の場の〈殺生丸〉を1枚まで選び、アクティブにする。",
   "effectEn": "If you have <Sesshomaru> in your Front Line, This character's generated energy +[Purple]. [On Play] If this character was played from the Outside Area, choose up to 1 <Sesshomaru> on your field and set it to active.",
   "triggerType": "",
@@ -419,9 +470,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "奈落一派"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】自分の山札の上から3枚見て、［特徴：奈落一派］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。",
   "effectEn": "[On Retire] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: Naraku Faction] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "",
@@ -451,9 +506,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "奈落一派"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】カードを1枚引く。",
   "effectEn": "[On Retire] Draw 1 card(s).",
   "triggerType": "Draw",
@@ -483,9 +542,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "奈落一派"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -513,15 +576,15 @@
    {
     "color": "Purple",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "奈落一派"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【紫】。",
   "effectEn": "While this character is active, its generated energy +[Purple].",
   "triggerType": "",
@@ -551,9 +614,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "奈落一派"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から1枚見て、山札の上か場外に置く。【起動メイン】【ターン1】自分の場の他の［特徴：奈落一派］を1枚まで選び、このターン中、「このキャラはBP4000以上のキャラにブロックされない。」を与える。自分の場の他の［特徴：奈落一派］を1枚退場させる。",
   "effectEn": "[On Play] Look at the top 1 card(s) of your deck, put them on top of your deck or into your Outside Area. [Activate: Main] [Once Per Turn] Choose up to 1 other [Trait: Naraku Faction] on your field, it gains “This character cannot be blocked by characters with BP 4000 or more” this turn. Retire 1 other [Trait: Naraku Faction] on your field.",
   "triggerType": "",
@@ -583,9 +650,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "奈落一派"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場外から必要エナジーが2以下で消費APが1の紫のキャラカードを1枚まで自分の場にレストで登場させる。そのキャラにこのターン中、「メインフェイズ終了時、このキャラを退場させる。」を与える。",
   "effectEn": "[On Play] Play up to 1 Purple character card with required energy 2 or less and with AP cost 1 from your Outside Area to your field rested. That character gains “At the end of the Main Phase, retire this character” this turn.",
   "triggerType": "Draw",
@@ -615,9 +686,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "奈落一派"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -647,9 +722,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "奈落一派"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：奈落一派］か〈神無の鏡〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: Naraku Faction] or <Kanna's Mirror> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -679,9 +758,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "奈落一派"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外か裏向きで自分の場の〈奈落〉1枚の下に置く。【起動メイン】自分の場外から［特徴：奈落一派］か〈四魂のかけら〉を1枚裏向きで自分の場の〈奈落〉1枚の下に置く。〈神無〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "[On Play] Draw 1 card(s), and put 1 card(s) from your hand into your Outside Area or face down under 1 <Naraku> on your field. [Activate: Main] Put 1 [Trait: Naraku Faction] or <Shikon Jewel Shard> from your Outside Area face down under 1 <Naraku> on your field. This <Kanna> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Get",
@@ -711,9 +794,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "奈落一派"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このターン中に自分の場のキャラが退場している場合、このキャラはBP+1000。",
   "effectEn": "[During Your Turn] If a character on your field was retired this turn, this character gets BP+1000.",
   "triggerType": "Draw",
@@ -743,9 +830,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "奈落一派"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】このカードを手札に加える。",
   "effectEn": "[On Retire] Add this card to your hand.",
   "triggerType": "",
@@ -775,9 +866,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "奈落一派"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。",
   "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line, it gets BP-1000 this turn.",
   "triggerType": "",
@@ -807,9 +902,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "奈落一派"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラの下に裏向きのカードがある場合、このキャラは【インパクト無効】を得る。【自分のターン中】このキャラの下に裏向きのカードがある場合、このキャラはBP+1000。",
   "effectEn": "If this character has face-down cards under it, this character gains [Impact Nullify]. [During Your Turn] If there is a face-down card under this character, this character gets BP+1000.",
   "triggerType": "Color",
@@ -839,9 +938,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "奈落一派"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【ターン1】相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000し、このキャラをアクティブにし、このキャラはこのターン中、【インパクト（1）】を得る。自分の場の［特徴：奈落一派］を1枚退場させる。",
   "effectEn": "[Activate: Main] [Once Per Turn] Choose up to 1 character in your opponent's Front Line; it gets BP-1000 this turn; set this character to active, and it gains [Impact 1] this turn. Retire 1 [Trait: Naraku Faction] on your field.",
   "triggerType": "Get",
@@ -871,9 +974,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "奈落一派"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "奈落"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈奈落〉アクティブにし、フロントLに移動できるこのキャラの下の裏向きのカードの枚数により、以下の効果を全て得る。・2枚以上：このキャラが場を離れる場合、代わりにこのカードを手札に戻す。・3枚以上：このキャラが自分の場から手札に戻った時、このキャラのレイド元のカードが必要エナジーが2以下で場外にある場合、そのカードを1枚まで自分の場にレストで登場させる。【起動メイン】【ターン1】自分の場外から［特徴：奈落一派］か〈四魂のかけら〉を1枚裏向きで自分の場の〈奈落〉1枚の下に置く。",
   "effectEn": "[Raid] Can Raid onto <Naraku>; set it to active and you may move it to the Front Line. Depending on the number of face-down cards under this character, it gains all of the following effects. 2 or more: If this character would leave the field, return this card to your hand instead. 3 or more: When this character returns from your field to your hand, if this character's Raid source card has required energy 2 or less and is in your Outside Area, play up to 1 of those cards to your field rested. [Activate: Main] [Once Per Turn] Put 1 [Trait: Naraku Faction] or <Shikon Jewel Shard> from your Outside Area face down under 1 <Naraku> on your field.",
   "triggerType": "Raid",
@@ -903,9 +1013,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "奈落一派"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -935,9 +1049,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "奈落一派"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは〈奈落〉としても扱う。【登場時】自分の場にあるキャラが全て［特徴：奈落一派］の場合、自分の山札の上から1枚見て、山札の上に置くか、裏向きで自分の場の〈奈落〉1枚の下に置く。",
   "effectEn": "This card is also treated as <Naraku>. [On Play] If all characters on your field are [Trait: Naraku Faction], look at the top 1 card(s) of your deck and put it on top of your deck or face down under 1 <Naraku> on your field.",
   "triggerType": "Draw",
@@ -967,9 +1085,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "奈落一派"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】自分の山札の上から2枚まで場外に置く。",
   "effectEn": "[On Retire] Put up to the top 2 card(s) of your deck into your Outside Area.",
   "triggerType": "Draw",
@@ -999,7 +1121,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】自分の場外から［特徴：奈落一派］か〈四魂のかけら〉を1枚裏向きで自分の場の〈奈落〉1枚の下に置く。",
   "effectEn": "[Activate: Main] [Rest this card] Put 1 [Trait: Naraku Faction] or <Shikon Jewel Shard> from your Outside Area face down under 1 <Naraku> on your field.",
   "triggerType": "Get",
@@ -1024,7 +1150,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを2枚引く。自分の場に〈奈落〉がある場合、相手は自身の場外にあるイベントカードを2枚望む順で自身の山札の下に置く。",
   "effectEn": "Draw 2 card(s). If you have <Naraku> on your field, your opponent puts 2 event card(s) from their Outside Area on the bottom of their deck in any order.",
   "triggerType": "Draw",
@@ -1049,7 +1179,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1074,7 +1208,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手のフロントLのキャラを1枚選び、自分の場の［特徴：奈落一派］1枚につき、このターン中、BP-1000。",
   "effectEn": "Choose 1 character in your opponent's Front Line, For each 1 [Trait: Naraku Faction] on your field, it gets BP-1000 this turn.",
   "triggerType": "Special",
@@ -1099,7 +1237,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを1枚引き、自分の手札を1枚場外に置く。その後、自分の場外から必要エナジーが3以下で消費APが1の特徴を持たない紫のキャラカードを1枚まで自分の場にレストで登場させる。",
   "effectEn": "Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. Then, play up to 1 purple character card(s) with no traits, required energy 3 or less and AP cost 1 from your Outside Area to your field rested.",
   "triggerType": "Active",
@@ -1124,7 +1266,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈殺生丸〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Sesshomaru> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -1149,7 +1295,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "BP3000以下の相手のフロントLのキャラを1枚選び、退場させる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it.",
   "triggerType": "",
@@ -1174,7 +1324,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは自分の場にキャラがある場合のみ使用できる。自分のAPカードを1枚アクティブにする。カードを2枚引く。自分の場のキャラを1枚退場させる。このカードを自分の場の〈奈落〉1枚の下に裏向きで置いてもよい。",
   "effectEn": "This card can only be used if you have a character on your field. Set 1 of your AP cards to active. Draw 2 card(s). Retire 1 character on your field. You may put this card face down under 1 <Naraku> on your field.",
   "triggerType": "Draw",
@@ -1199,7 +1353,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1229,7 +1387,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から4枚見て、赤のイベントカードを1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck, reveal up to 1 Red Event card among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -1259,7 +1421,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1289,7 +1455,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【赤×2】減らす。【起動メイン】【ターン1】このターン中にこのキャラが自分の効果でアクティブからレストになったことがある場合のみ発動できる。このキャラをアクティブにし、このターン中、BP+1000。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Red x2]is reduced. [Activate: Main] [Once Per Turn] Can only activate if this character went from active to rested by your own effect this turn. Set this character to active, and it gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -1319,7 +1489,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "damage": 2
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラの下に裏向きのカードがない場合、このキャラはブロックできない。このキャラはアクティブで登場させる。【ダメージ（2）】（このキャラがアタックで与える直接ダメージは2ダメージ）【起動メイン】【フロントLにある場合】【ターン1】このキャラがレストの場合のみ発動できる。このキャラをアクティブにする。【起動メイン】【フロントLにある場合】【ターン1】自分の場外の〈鉄砕牙〉を1枚裏向きでこのキャラの下に置く。",
   "effectEn": "If this character has no face-down cards under it, this character cannot block. This character is played active. [Damage 2] (The direct damage this character deals by attacking is 2 damage) [Activate: Main] [While in Front Line] [Once Per Turn] Can only activate while this character is rested. Set this character to active. [Activate: Main] [While in Front Line] [Once Per Turn] Put 1 <Tetsusaiga> from your Outside Area face down under this character.",
   "triggerType": "Get",
@@ -1349,7 +1525,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【ターン1】このターン中にこのキャラが自分の効果でアクティブからレストになったことがある場合のみ発動できる。このキャラをアクティブにする。【アタック時】このキャラのBPが4000以上の場合、カードを1枚引く。",
   "effectEn": "[Activate: Main] [Once Per Turn] Can only activate if this character went from active to rested by your own effect this turn. Set this character to active. [When Attacking] If this character's BP is 4000 or more, Draw 1 card(s).",
   "triggerType": "",
@@ -1379,7 +1559,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "犬夜叉"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈犬夜叉〉アクティブにし、フロントLに移動できる【ターン1】このキャラのアタックがブロックされなかった時、カードを1枚引く。【起動メイン】【ターン1】このターン中にこのキャラが自分の効果でアクティブからレストになったことがある場合のみ発動できる。このキャラをアクティブにし、このターン中、『BP+1000と【インパクト（1）】』を得る。このキャラがこのターン中に登場していた場合、『【2回アタック】』に代えてもよい。",
   "effectEn": "[Raid] Can Raid onto <Inuyasha>; set it to active and you may move it to the Front Line. [Once Per Turn] When this character's attack is not blocked, draw 1 card(s). [Activate: Main] [Once Per Turn] Can only activate if this character went from active to rested by your own effect this turn. Set this character to active, and it gains “BP+1000 and [Impact 1]” this turn. If this character was played this turn, you may instead make it “[Double Attack]”",
   "triggerType": "Raid",
@@ -1409,7 +1596,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -1439,7 +1630,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -1469,7 +1664,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【起動メイン】【ターン1】このキャラが登場したターン中のみ発動できる。自分のフロントLのアクティブの〈犬夜叉〉を1枚レストにする。そうした場合、以下から1つ選ぶ。・このキャラをアクティブにし、このターン中、BP+1000。・相手のフロントLのキャラを1枚まで選び、レストにする。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [Activate: Main] [Once Per Turn] Can only activate during the turn this character was played. Rest 1 active <Inuyasha> in your Front Line. If you do, Choose 1 of the following. Set this character to active, and it gets BP+1000 this turn. Choose up to 1 character in your opponent's Front Line, rest it.",
   "triggerType": "Get",
@@ -1499,7 +1700,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle)",
   "triggerType": "",
@@ -1529,7 +1736,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このターン中に自分の〈珊瑚〉がアタックしている場合、このキャラはBP+1000。",
   "effectEn": "[During Your Turn] If your <Sango> has attacked this turn, this character gets BP+1000.",
   "triggerType": "Active",
@@ -1559,7 +1770,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "Draw",
@@ -1589,7 +1806,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "",
@@ -1619,7 +1842,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場に〈日暮 かごめ〉がある場合、このキャラをアクティブにしてもよい。そうした場合、このキャラはこのターン中、「自分のアタックフェイズ終了時、このキャラのBPが4000以下の場合、このキャラを手札に戻す。」を得る。",
   "effectEn": "[On Play] If you have <Kagome Higurashi> on your field, you may set this character to active. If you do, This character gains “At the end of your Attack Phase, If this character's BP is 4000 or less, return this character to your hand” this turn.",
   "triggerType": "Active",
@@ -1647,13 +1874,13 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【赤】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Red] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -1683,7 +1910,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見て、赤のイベントカードを1枚まで場外に置く。残りを望む順で山札の上に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck, and put up to 1 Red Event card(s) among them into your Outside Area. Put the rest on top of your deck in any order.",
   "triggerType": "Active",
@@ -1713,7 +1944,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見て、〈珊瑚〉か〈弥勒〉か〈雲母〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 <Sango> or <Miroku> or <Kirara> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -1743,7 +1978,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分の場に〈弥勒〉がある場合、このキャラはBP+1000。【登場時】自分の山札の上から3枚見て、赤のイベントカードを1枚まで場外に置く。残りを望む順で山札の下に置く。",
   "effectEn": "[During Your Turn] If you have <Miroku> on your field, This character gets BP+1000. [On Play] Look at the top 3 card(s) of your deck, and put up to 1 Red Event card(s) among them into your Outside Area. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -1773,7 +2012,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": {
+   "kind": "name",
+   "value": "珊瑚"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈珊瑚〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手に1ダメージ）【登場時】カードを『1枚』引き、自分の手札を1枚場外に置く。自分の場に〈弥勒〉がある場合、『2枚』に代えてもよい。",
   "effectEn": "[Raid] Can Raid onto <Sango>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] Draw “1” card(s), then put 1 card(s) from your hand into your Outside Area. If you have <Miroku> on your field, you may change it to “2” instead.",
   "triggerType": "Raid",
@@ -1803,7 +2051,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -1833,7 +2085,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【赤×2】減らす。【登場時】自分の山札の上から1枚見て、山札の上か場外に置く。【起動メイン】【レストにする】【このカードを退場させる】自分の場外から〈七宝〉以外の必要エナジーが0の赤のキャラカードを1枚まで自分の場にレストで登場させる。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Red x2]is reduced. [On Play] Look at the top 1 card(s) of your deck, put them on top of your deck or into your Outside Area. [Activate: Main] [Rest this card] [Retire this card] Play up to 1 red character card other than <Shippo> with required energy 0 from your Outside Area to your field rested.",
   "triggerType": "Draw",
@@ -1863,7 +2119,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場外から赤のイベントカードを1枚まで手札に加える。",
   "effectEn": "[On Play] Add up to 1 red event card(s) from your Outside Area to your hand.",
   "triggerType": "Draw",
@@ -1893,7 +2153,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -1921,13 +2185,13 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
   "effectEn": "While this character is active, its generated energy +[Red].",
   "triggerType": "",
@@ -1957,7 +2221,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から4枚見て、〈犬夜叉〉か〈日暮 かごめ〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck, reveal up to 1 <Inuyasha> or <Kagome Higurashi> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -1987,7 +2255,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "日暮 かごめ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈日暮 かごめ〉アクティブにし、フロントLに移動できる【登場時】自分の手札から必要エナジーが3以下で消費APが1の赤の〔〈犬夜叉〉か〈日暮 かごめ〉〕を1枚まで自分の場にレストで登場させる。【起動メイン】【フロントLにある場合】【ターン1】自分のフロントLのアクティブの〈犬夜叉〉を1枚レストにする。そうした場合、このキャラはこのターン中、「このキャラはBP4000以上のキャラにブロックされない。」を得て、自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[Raid] Can Raid onto <Kagome Higurashi>; set it to active and you may move it to the Front Line. [On Play] Play up to 1 Red <Inuyasha> or <Kagome Higurashi> with required energy 3 or less and with AP cost 1 from your hand to your field rested. [Activate: Main] [While in Front Line] [Once Per Turn] Rest 1 active <Inuyasha> in your Front Line. If you do, this character gains “This character cannot be blocked by characters with BP 4000 or more” this turn; choose up to 1 other character on your field, and it gets BP+1000 this turn.",
   "triggerType": "Raid",
@@ -2017,7 +2292,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -2047,7 +2326,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -2077,7 +2360,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -2107,7 +2394,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分の場に〈珊瑚〉がある場合のみ発動できる。自分の場外のイベントカードを1枚リムーブエリアに置く。そうした場合、このキャラはこのターン中、「このキャラはBP4000以上のキャラにブロックされない。」を得る。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if you have <Sango> on your field. Put into the owner's remove area 1 Event card in your Outside Area. If you do, This character gains “This character cannot be blocked by characters with BP 4000 or more” this turn.",
   "triggerType": "Color",
@@ -2137,7 +2428,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "弥勒"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈弥勒〉アクティブにし、フロントLに移動できる【登場時】自分の場外のイベントカードを望む枚数リムーブエリアに置き、『BP2500』以下の相手のフロントLのキャラを1枚まで選び、退場させる。自分の場に〈珊瑚〉がある場合、この効果で場外からリムーブエリアに置いたカード1枚につき、この効果で選べるキャラのBPの範囲+500。",
   "effectEn": "[Raid] Can Raid onto <Miroku>; set it to active and you may move it to the Front Line. [On Play] Put any number of event cards from your Outside Area into your Remove Area, choose up to 1 character in your opponent's Front Line with “BP 2500” or less, and retire it. If you have <Sango> on your field, for each 1 card(s) put from your Outside Area into your Remove Area by this effect, the BP range of characters you can choose with this effect is increased by 500.",
   "triggerType": "Raid",
@@ -2167,7 +2465,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から4枚見て、〈犬夜叉〉か〈日暮 かごめ〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck, reveal up to 1 <Inuyasha> or <Kagome Higurashi> among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Get",
@@ -2192,7 +2494,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2217,7 +2523,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは自分の場に〈日暮 かごめ〉がある場合のみ使用できる。カードを1枚引く。自分の場の〈犬夜叉〉を1枚まで選び、このターン中、BP+1000。自分のフロントLのアクティブの〈犬夜叉〉を1枚レストにしてもよい。そうした場合、自分のAPカードを1枚アクティブにする。",
   "effectEn": "This card can only be used if you have <Kagome Higurashi> on your field. Draw 1 card(s). Choose up to 1 <Inuyasha> on your field, it gets BP+1000 this turn. You may rest 1 active <Inuyasha> in your Front Line. If you do, Set 1 of your AP cards to active.",
   "triggerType": "Color",
@@ -2242,7 +2552,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のキャラを1枚まで選び、このターン中、BP+2000。自分の場に〈七宝〉がある場合、自分のAPカードを1枚アクティブにする。",
   "effectEn": "Choose up to 1 character on your field, it gets BP+2000 this turn. If you have <Shippo> on your field, Set 1 of your AP cards to active.",
   "triggerType": "Active",
@@ -2267,7 +2581,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2292,7 +2610,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に〈弥勒〉がある場合、手札にあるこのカードの消費APを-1する。BP5000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "If you have <Miroku> on your field, reduce the AP cost of this card in your hand by 1. Choose up to 1 character in your opponent's Front Line with BP 5000 or less, retire it.",
   "triggerType": "Special",
@@ -2317,7 +2639,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを2枚引き、自分の手札を2枚場外に置く。自分の場に〈弥勒〉がある場合、自分のAPカードを1枚アクティブにする。",
   "effectEn": "Draw 2 card(s), then put 2 card(s) from your hand into your Outside Area. If you have <Miroku> on your field, Set 1 of your AP cards to active.",
   "triggerType": "Draw",
@@ -2342,7 +2668,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈犬夜叉〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Inuyasha> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -2367,7 +2697,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手のフロントLのキャラを1枚選び、レストにする。このカードが自分の効果によって手札から場外に置かれた時、自分の場に〈珊瑚〉がある場合、カードを1枚引く。",
   "effectEn": "Choose 1 character in your opponent's Front Line, rest it. When this card is put from your hand into your Outside Area by your own effect, if you have <Sango> on your field, draw 1 card(s).",
   "triggerType": "",
@@ -2390,7 +2724,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2413,7 +2751,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2436,7 +2778,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2459,7 +2805,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2482,7 +2832,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2505,7 +2859,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2528,7 +2886,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2551,7 +2913,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2574,7 +2940,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2597,7 +2967,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2620,7 +2994,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2643,7 +3021,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

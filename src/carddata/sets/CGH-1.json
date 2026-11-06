@@ -19,15 +19,15 @@
    {
     "color": "Purple",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "黒の騎士団"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【紫】。",
   "effectEn": "While this character is active, its generated energy +[Purple].",
   "triggerType": "",
@@ -57,9 +57,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -89,9 +93,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分の場に〈ルルーシュ・ランペルージ〉がある場合、このキャラはBP+1000。",
   "effectEn": "[During Your Turn] If you have <Lelouch Lamperouge> on your field, This character gets BP+1000.",
   "triggerType": "Color",
@@ -121,9 +129,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から5枚見る。その中からカード名に「紅蓮」を含むカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "[On Play] Look at the top 5 card(s) of your deck. From among them, reveal up to 1 card(s) with “Guren” in its card name and add them to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -151,15 +163,15 @@
    {
     "color": "Purple",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "黒の騎士団"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【紫】。メインフェイズ終了時、このキャラを退場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Purple]. At the end of the Main Phase, retire this character.",
   "triggerType": "",
@@ -189,9 +201,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【退場時】カードを1枚引く。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Retire] Draw 1 card(s).",
   "triggerType": "",
@@ -221,9 +239,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引く。このターン中に消費APが2のカードを使用している場合、さらにカードを1枚引く。",
   "effectEn": "[On Play] Draw 1 card(s). If you have used a card with AP cost 2 this turn, also draw 1 card(s).",
   "triggerType": "Draw",
@@ -253,9 +275,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -285,9 +311,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは〈ルルーシュ・ランペルージ〉としても扱う。",
   "effectEn": "This card is also treated as <Lelouch Lamperouge>.",
   "triggerType": "Get",
@@ -317,9 +347,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に緑か赤のカードがある場合、手札にあるこのカードの必要エナジーを【紫×1】減らす。",
   "effectEn": "If your opponent has Green or Red card on their field, the required energy of this card in your hand [Purple x1]is reduced.",
   "triggerType": "",
@@ -349,9 +383,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。",
   "effectEn": "[On Play] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
   "triggerType": "",
@@ -381,9 +419,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -413,9 +455,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分の場の［特徴：四聖剣］全ては、このターン中、BP+500。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] All [Trait: Four Holy Swords] on your field it gets BP+500 this turn.",
   "triggerType": "Color",
@@ -445,9 +491,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の場外から［特徴：KMF］を1枚手札に加える。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Add 1 [Trait: KMF] from your Outside Area to your hand.",
   "triggerType": "",
@@ -477,9 +527,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場のキャラを1枚まで選び、このターン中、「このキャラはBP2000以下のキャラにブロックされない。」を与える。",
   "effectEn": "[On Play] Choose up to 1 character on your field, it gains “This character cannot be blocked by characters with BP 2000 or less” this turn.",
   "triggerType": "Active",
@@ -509,9 +563,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。",
   "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line, it gets BP-1000 this turn.",
   "triggerType": "Draw",
@@ -541,9 +599,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはBP3500以上のキャラにブロックされない。【登場時】相手は自身の手札を1枚場外に置く。【退場時】カードを2枚引く。",
   "effectEn": "This character cannot be blocked by characters with BP 3500 or more. [On Play] Your opponent puts 1 card(s) from their hand into their Outside Area. [On Retire] Draw 2 card(s).",
   "triggerType": "Get",
@@ -573,10 +635,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団",
    "四聖剣"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外から［特徴：四聖剣］か〈藤堂 鏡志朗〉か〈月下（藤堂機）〉を1枚まで手札に加える。",
   "effectEn": "[When Attacking] You may put 1 card(s) from your hand into your Outside Area. If you do, add up to 1 [Trait: Four Holy Swords] or <Kyoshiro Tohdoh> or <Gekka (Tohdoh Fighter)> from your Outside Area to your hand.",
   "triggerType": "",
@@ -606,10 +672,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団",
    "四聖剣"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -639,10 +709,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団",
    "四聖剣"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】自分の山札の上から3枚見る。その中から［特徴：四聖剣］か〈藤堂 鏡志朗〉か〈月下（藤堂機）〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "[On Retire] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: Four Holy Swords] or <Kyoshiro Tohdoh> or <Gekka (Tohdoh Fighter)> among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "",
@@ -672,10 +746,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団",
    "四聖剣"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】相手のフロントLのキャラを1枚選び、このターン中、BP-500。",
   "effectEn": "[Activate: Main] [Rest this card] Choose 1 character in your opponent's Front Line, it gets BP-500 this turn.",
   "triggerType": "",
@@ -705,10 +783,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団",
    "KMF"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "ルルーシュ・ランペルージ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ルルーシュ・ランペルージ〉/〈C.C.〉アクティブにし、フロントLに移動できるこのキャラはBP2000以下のキャラにブロックされない。【登場時】相手のフロントLのキャラ全ては、このターン中、BP-1000。",
   "effectEn": "[Raid] <Lelouch Lamperouge>/Can Raid onto <C.C.>; set it to active and you may move it to the Front Line. This character cannot be blocked by characters with BP 2000 or less. [On Play] All characters in your opponent's Front Line it gets BP-1000 this turn.",
   "triggerType": "Raid",
@@ -738,10 +823,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団",
    "KMF"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "紅月 カレン"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈紅月 カレン〉アクティブにし、フロントLに移動できる【登場時】自分の場に〈ルルーシュ・ランペルージ〉がある場合、このキャラはこのターン中、「相手はこのキャラのアタックを可能ならブロックしなければならない。」と【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
   "effectEn": "[Raid] Can Raid onto <Kallen Kozuki>; set it to active and you may move it to the Front Line. [On Play] If you have <Lelouch Lamperouge> on your field, this character gains “Your opponent must block this character's attacks if able” and [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opposing player) this turn.",
   "triggerType": "Get",
@@ -771,10 +863,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団",
    "KMF"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "藤堂 鏡志朗"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈藤堂 鏡志朗〉アクティブにし、フロントLに移動できる【起動メイン】【フロントLにある場合】【ターン1】自分の場の［特徴：四聖剣］全ては、このターン中、BP+500。【アタック時】【ターン1】自分の場の［特徴：四聖剣］を1枚まで選び、アクティブにする。",
   "effectEn": "[Raid] Can Raid onto <Kyoshiro Tohdoh>; set it to active and you may move it to the Front Line. [Activate: Main] [While in Front Line] [Once Per Turn] All [Trait: Four Holy Swords] on your field it gets BP+500 this turn. [When Attacking] [Once Per Turn] Choose up to 1 [Trait: Four Holy Swords] on your field, set it to active.",
   "triggerType": "Raid",
@@ -804,11 +903,18 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団",
    "KMF",
    "四聖剣"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "trait",
+   "value": "四聖剣"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】［特徴：四聖剣］アクティブにし、フロントLに移動できるこのキャラはBP2000以下のキャラにブロックされない。自分の場に他の［特徴：四聖剣］、〈藤堂 鏡志朗〉、〈月下（藤堂機）〉が合計3枚以上ある場合、このキャラは【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
   "effectEn": "[Raid] Can Raid onto [Trait: Four Holy Swords]; set it to active and you may move it to the Front Line. This character cannot be blocked by characters with BP 2000 or less. If you have 3 or more other [Trait: Four Holy Swords], <Kyoshiro Tohdoh> and <Gekka (Tohdoh Fighter)> in total on your field, this character gains [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent)",
   "triggerType": "Get",
@@ -838,11 +944,18 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団",
    "KMF",
    "四聖剣"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "trait",
+   "value": "四聖剣"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】［特徴：四聖剣］/〈藤堂 鏡志朗〉アクティブにし、フロントLに移動できる【登場時】自分の山札の上から4枚見る。その中から［特徴：四聖剣］か〈藤堂 鏡志朗〉か〈月下（藤堂機）〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "[Raid] [Trait: Four Holy Swords]/Can Raid onto <Kyoshiro Tohdoh>; set it to active and you may move it to the Front Line. [On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 [Trait: Four Holy Swords] or <Kyoshiro Tohdoh> or <Gekka (Tohdoh Fighter)> among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "",
@@ -872,7 +985,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "This Field is played active. [Activate: Main] [Rest this card] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Get",
@@ -897,7 +1014,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場外から必要エナジーが3以下で消費APが1の紫のキャラカードを1枚自分の場にレストで登場させる。",
   "effectEn": "Play 1 Purple character card with required energy 3 or less and with AP cost 1 from your Outside Area to your field rested.",
   "triggerType": "Draw",
@@ -922,7 +1043,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -947,7 +1072,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "BP5000以下の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈ルルーシュ・ランペルージ〉がある場合、自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 5000 or less, retire it. If you have <Lelouch Lamperouge> on your field, Choose up to 1 of your AP cards, set it to active.",
   "triggerType": "Special",
@@ -972,7 +1101,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手のフロントLのキャラを1枚選び、自分の場の［特徴：四聖剣］と〈藤堂 鏡志朗〉と〈月下（藤堂機）〉1枚につき、このターン中、BP-1000。",
   "effectEn": "Choose 1 character in your opponent's Front Line, For each 1 [Trait: Four Holy Swords] and <Kyoshiro Tohdoh> and <Gekka (Tohdoh Fighter)> on your field, it gets BP-1000 this turn.",
   "triggerType": "Special",
@@ -997,7 +1130,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場の紫のキャラを1枚選び、このターン中、「このキャラはBP2000以下のキャラにブロックされない。」を与える。カードを1枚引く。",
   "effectEn": "Choose 1 Purple character on your field, it gains “This character cannot be blocked by characters with BP 2000 or less” this turn. Draw 1 card(s).",
   "triggerType": "Draw",
@@ -1022,7 +1159,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のフロントLのキャラを1枚選び、このターン中、BP+2000。自分の場に〈ルルーシュ・ランペルージ〉がある場合、さらにこのターン中、【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を与える。",
   "effectEn": "Choose 1 character in your Front Line, it gets BP+2000 this turn. If you have <Lelouch Lamperouge> on your field, it also gains [Impact +1] (Damage dealt by Impact is increased by 1; if it doesn't have Impact, it gains [Impact 1]) this turn.",
   "triggerType": "Active",
@@ -1052,9 +1193,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "神聖ブリタニア帝国"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1084,9 +1229,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "神聖ブリタニア帝国"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引く。",
   "effectEn": "[On Play] Draw 1 card(s).",
   "triggerType": "Color",
@@ -1116,9 +1265,15 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "神聖ブリタニア帝国"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）自分の場の〈ユーフェミア・リ・ブリタニア〉が退場した時、このキャラをフロントLに移動させてもよい。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) When <Euphemia li Britannia> on your field is retired, you may move this character to the Front Line.",
   "triggerType": "Active",
@@ -1148,9 +1303,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "神聖ブリタニア帝国"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
   "effectEn": "[Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -1180,9 +1339,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "神聖ブリタニア帝国"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1212,9 +1375,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "神聖ブリタニア帝国"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札から必要エナジーが2以下で消費APが1の緑のキャラカードを1枚まで自分の場にレストで登場させる。",
   "effectEn": "[On Play] Play up to 1 Green character card with required energy 2 or less and with AP cost 1 from your hand to your field rested.",
   "triggerType": "Color",
@@ -1244,9 +1411,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "神聖ブリタニア帝国"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中からカードを1枚手札に加える。残りを望む順で自分の山札の下に置く。このターン中、次に手札から使用するイベントカードの消費APを-1する。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. From among them, add 1 card to your hand. Put the rest on the bottom of your deck in any order. This turn, the next Event card you use from your hand costs 1 less AP.",
   "triggerType": "Get",
@@ -1276,9 +1447,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "神聖ブリタニア帝国"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -1306,15 +1481,15 @@
    {
     "color": "Green",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "神聖ブリタニア帝国"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【緑】。",
   "effectEn": "While this character is active, its generated energy +[Green].",
   "triggerType": "",
@@ -1344,9 +1519,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "神聖ブリタニア帝国"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -1376,9 +1555,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "神聖ブリタニア帝国"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -1406,15 +1589,15 @@
    {
     "color": "Green",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "神聖ブリタニア帝国"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【緑】。メインフェイズ終了時、このキャラを退場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Green]. At the end of the Main Phase, retire this character.",
   "triggerType": "",
@@ -1444,9 +1627,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "神聖ブリタニア帝国"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【フロントLにある場合】自分の場の〈ユーフェミア・リ・ブリタニア〉以外のキャラは、相手が手札から使用したイベントカードの効果で選ばれない。",
   "effectEn": "[While in Front Line] Characters on your field other than <Euphemia li Britannia> cannot be chosen by effects of Event cards your opponent uses from their hand.",
   "triggerType": "Draw",
@@ -1476,9 +1663,15 @@
     "count": 3
    }
   ],
+  "energyMark": false,
   "traits": [
    "神聖ブリタニア帝国"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "Draw",
@@ -1508,9 +1701,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "神聖ブリタニア帝国"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から5枚見る。その中から［特徴：KMF］か［特徴：KGF］か〈特派ヘッドトレーラー〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 [Trait: KMF] or [Trait: KGF] or <Special Corps Head Trailer> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -1540,10 +1737,14 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "神聖ブリタニア帝国",
    "純血派"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に紫か赤のカードがある場合、手札にあるこのカードの必要エナジーを【緑×1】減らす。",
   "effectEn": "If your opponent has Purple or Red card on their field, the required energy of this card in your hand [Green x1]is reduced.",
   "triggerType": "",
@@ -1573,10 +1774,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "神聖ブリタニア帝国",
    "純血派"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -1606,10 +1813,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "神聖ブリタニア帝国",
    "純血派"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "",
@@ -1639,10 +1852,17 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "神聖ブリタニア帝国",
    "純血派"
   ],
+  "keywords": {
+   "step": true,
+   "doubleBlock": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [Double Block] (The first time this character blocks each turn, set it to active)",
   "triggerType": "",
@@ -1672,10 +1892,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "神聖ブリタニア帝国",
    "親衛隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【フロントLにある場合】自分のフロントLの他のキャラ1枚につき、このキャラはBP+500。",
   "effectEn": "[While in Front Line] For each 1 other character in your Front Line, This character gets BP+500.",
   "triggerType": "Active",
@@ -1705,10 +1929,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "神聖ブリタニア帝国",
    "親衛隊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分のフロントLのキャラの数が相手のフロントLのキャラの数以上の場合、このキャラはBP+1000。",
   "effectEn": "[During Your Turn] If you have as many or more characters in your Front Line than your opponent, this character gets BP+1000.",
   "triggerType": "",
@@ -1738,10 +1966,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "神聖ブリタニア帝国",
    "KMF"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "コーネリア・リ・ブリタニア"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈コーネリア・リ・ブリタニア〉アクティブにし、フロントLに移動できる【登場時】自分の山札の上から5枚見る。その中から必要エナジーが2以下で消費APが1の緑のキャラカードを1枚まで自分の場にレストで登場させる。残りを望む順で自分の山札の下に置く。",
   "effectEn": "[Raid] Can Raid onto <Cornelia li Britannia>; set it to active and you may move it to the Front Line. [On Play] Look at the top 5 card(s) of your deck. Play up to 1 Green character card with required energy 2 or less and with AP cost 1 from among them to your field rested. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Raid",
@@ -1771,10 +2006,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "神聖ブリタニア帝国",
    "KMF"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "trait",
+   "value": "親衛隊"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】［特徴：親衛隊］アクティブにし、フロントLに移動できるこのキャラのBPが4000以上の場合、このキャラは【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。【フロントLにある場合】自分のフロントLの他のキャラ1枚につき、このキャラはBP+500。",
   "effectEn": "[Raid] Can Raid onto [Trait: Royal Guard]; set it to active and you may move it to the Front Line. If this character's BP is 4000 or more, This character [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained. [While in Front Line] For each 1 other character in your Front Line, This character gets BP+500.",
   "triggerType": "Get",
@@ -1804,10 +2046,19 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "神聖ブリタニア帝国",
    "KMF"
   ],
+  "keywords": {
+   "doubleBlock": true
+  },
+  "raid": {
+   "kind": "trait",
+   "value": "純血派"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】［特徴：純血派］アクティブにし、フロントLに移動できる【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）このキャラはBP+1000。",
   "effectEn": "[Raid] Can Raid onto [Trait: Purist Faction]; set it to active and you may move it to the Front Line. [Double Block] (The first time this character blocks each turn, set it to active)This character gets BP+1000.",
   "triggerType": "Get",
@@ -1837,10 +2088,19 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "神聖ブリタニア帝国",
    "KGF"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": {
+   "kind": "name",
+   "value": "ジェレミア・ゴットバルト"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ジェレミア・ゴットバルト〉アクティブにし、フロントLに移動できる【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【登場時】自分の場外から〈ジークフリート〉以外のキャラカードを1枚まで手札に加える。",
   "effectEn": "[Raid] Can Raid onto <Jeremiah Gottwald>; set it to active and you may move it to the Front Line. [Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [On Play] Add up to 1 character card(s) other than <Siegfried> from your Outside Area to your hand.",
   "triggerType": "Get",
@@ -1870,10 +2130,19 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "神聖ブリタニア帝国",
    "KMF"
   ],
+  "keywords": {
+   "damage": 2
+  },
+  "raid": {
+   "kind": "name",
+   "value": "枢木 スザク"
+  },
+  "deckLimit": null,
   "effectJp": "【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【レイド】〈枢木 スザク〉アクティブにし、フロントLに移動できる【登場時】このキャラは、次の自分のターン開始時まで、BP+1000。【退場時】レイド状態のこのキャラの一番下のカードを手札に戻す。",
   "effectEn": "[Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [Raid] Can Raid onto <Suzaku Kururugi>; set it to active and you may move it to the Front Line. [On Play] This character , Until the start of your next turn, BP+1000. [On Retire] Return the bottom card of this Raided character to your hand.",
   "triggerType": "Raid",
@@ -1903,10 +2172,20 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "神聖ブリタニア帝国",
    "KMF"
   ],
+  "keywords": {
+   "damage": 2,
+   "impact": 1
+  },
+  "raid": {
+   "kind": "name",
+   "value": "枢木 スザク"
+  },
+  "deckLimit": null,
   "effectJp": "【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【レイド】〈枢木 スザク〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】BP5000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "[Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [Raid] Can Raid onto <Suzaku Kururugi>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] Choose up to 1 character in your opponent's Front Line with BP 5000 or less, retire it.",
   "triggerType": "Raid",
@@ -1934,13 +2213,13 @@
    {
     "color": "Green",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【手札を1枚場外に置く】【ターン1】このターン中、このフィールドの発生エナジー+【緑】【緑】。",
   "effectEn": "[Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] This turn, this Field's generated energy +[Green][Green].",
   "triggerType": "Get",
@@ -1965,7 +2244,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1990,7 +2273,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈枢木 スザク〉か〈ランスロット〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Suzaku Kururugi> or <Lancelot> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -2015,7 +2302,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場の［特徴：神聖ブリタニア帝国］全ては、このターン中、BP+1000。自分のフロントLのキャラを1枚選び、このターン中、【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を与える。自分の場に〈シャルル・ジ・ブリタニア〉がある場合、カードを1枚引く。",
   "effectEn": "All [Trait: Holy Britannian Empire] on your field it gets BP+1000 this turn. Choose 1 character in your Front Line, This turn, [Impact +1](Damage dealt by Impact is increased by 1; if it doesn't have Impact, [Impact 1]) If you have <Charles zi Britannia> on your field, Draw 1 card(s).",
   "triggerType": "Get",
@@ -2040,7 +2331,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のフロントLのキャラを1枚選び、このターン中、BP+3000。",
   "effectEn": "Choose 1 character in your Front Line, it gets BP+3000 this turn.",
   "triggerType": "",
@@ -2065,7 +2360,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から5枚見る。その中からキャラカードか〈特派ヘッドトレーラー〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。公開したカードが［特徴：KMF］か［特徴：KGF］の場合、自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "Look at the top 5 card(s) of your deck. Reveal up to 1 character card or <Special Corps Head Trailer> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If the revealed card is [Trait: KMF] or [Trait: KGF], Choose up to 1 of your AP cards, set it to active.",
   "triggerType": "Draw",
@@ -2090,7 +2389,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP1000』以下の相手のフロントLのキャラを1枚選び、退場させる。自分のフロントLのキャラ1枚につき、『BP+1000』される。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 1000 or less, retire it. It gets “BP+1000” for each 1 character(s) in your Front Line.",
   "triggerType": "Special",
@@ -2120,9 +2423,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "アッシュフォード学園"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -2152,9 +2461,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "アッシュフォード学園"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -2184,9 +2497,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "アッシュフォード学園"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【APを1支払う】【ターン1】カードを1枚引く。【起動メイン】【APを1支払う】【ターン1】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
   "effectEn": "[Activate: Main] [Pay 1 AP] [Once Per Turn] Draw 1 card(s). [Activate: Main] [Pay 1 AP] [Once Per Turn] Choose 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -2216,9 +2533,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "アッシュフォード学園"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】このキャラはこのターン中、BP+1000。",
   "effectEn": "[When Attacking] This character gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -2248,9 +2569,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "アッシュフォード学園"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -2280,9 +2605,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "アッシュフォード学園"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札から必要エナジーが2以下で消費APが1の赤のキャラカードを1枚まで自分の場にレストで登場させる。",
   "effectEn": "[On Play] Play up to 1 Red character card with required energy 2 or less and with AP cost 1 from your hand to your field rested.",
   "triggerType": "Color",
@@ -2312,9 +2641,18 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "アッシュフォード学園"
   ],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": {
+   "kind": "name",
+   "value": "枢木 スザク"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈枢木 スザク〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【アタック時】【ターン1】BP3000以下の自分の場の他のキャラを1枚まで選び、アクティブにする。",
   "effectEn": "[Raid] Can Raid onto <Suzaku Kururugi>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [When Attacking] [Once Per Turn] Choose up to 1 other character on your field with BP 3000 or less, set it to active.",
   "triggerType": "Raid",
@@ -2344,9 +2682,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "アッシュフォード学園"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -2376,9 +2718,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "アッシュフォード学園"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場外に〈宅配ピザ〉が1枚以上ある場合、このキャラはBP+500。自分の場外に〈巨大ピザ〉が1枚以上ある場合、このキャラはBP+500。",
   "effectEn": "If you have 1 or more <Delivery Pizza> in your Outside Area, This character gets BP+500. If you have 1 or more <Giant Pizza> in your Outside Area, This character gets BP+500.",
   "triggerType": "",
@@ -2408,9 +2754,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "アッシュフォード学園"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場外にある［特徴：ピザ］の枚数により、このキャラは以下の効果を全て得る。・2枚以上：このキャラはアクティブで場に登場させる。・4枚以上：【インパクト（1）】・6枚以上：【自分のターン中】このキャラはBP+1000と【2回アタック】（このキャラがこのターン初めてアタックした時、アクティブにする）",
   "effectEn": "Depending on the number of [Trait: Pizza] in your Outside Area, this character gains all of the following effects. 2 or more: This character is played active. 4 or more: [Impact 1]. 6 or more: [During Your Turn] This character gets BP+1000 and [Double Attack] (The first time this character attacks each turn, set it to active)",
   "triggerType": "Get",
@@ -2440,9 +2790,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "アッシュフォード学園"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "Active",
@@ -2470,15 +2826,15 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "アッシュフォード学園"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【赤】。メインフェイズ終了時、このキャラを退場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Red]. At the end of the Main Phase, retire this character.",
   "triggerType": "",
@@ -2508,9 +2864,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "アッシュフォード学園"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[Activate: Main] [Rest this card] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -2540,9 +2900,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "アッシュフォード学園"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "シャーリー・フェネット"
+  },
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】カードを1枚引き、自分の手札を1枚場外に置く。【レイド】〈シャーリー・フェネット〉アクティブにし、フロントLに移動できる【登場時】自分の場外から赤のイベントカードを1枚まで手札に加える。",
   "effectEn": "[Activate: Main] [Rest this card] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. [Raid] Can Raid onto <Shirley Fenette>; set it to active and you may move it to the Front Line. [On Play] Add up to 1 red event card(s) from your Outside Area to your hand.",
   "triggerType": "Raid",
@@ -2570,15 +2937,15 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "アッシュフォード学園"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
   "effectEn": "While this character is active, its generated energy +[Red].",
   "triggerType": "",
@@ -2608,9 +2975,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "アッシュフォード学園"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【ターン1】自分の場のキャラを1枚選び、このターン中、「このキャラはBP4000以上のキャラにブロックされない。」を与える。",
   "effectEn": "[Activate: Main] [Once Per Turn] Choose 1 character on your field, it gains “This character cannot be blocked by characters with BP 4000 or more” this turn.",
   "triggerType": "",
@@ -2640,9 +3011,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "アッシュフォード学園"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】BP3000以下の自分の場の他のキャラを1枚選び、このターン中、BP+1000と【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を与える。",
   "effectEn": "[Activate: Main] [Rest this card] Choose 1 other character on your field with BP 3000 or less, and it gets BP+1000 and gains [Impact +1] (Damage dealt by Impact is increased by 1; if it doesn't have Impact, it gains [Impact 1]) this turn.",
   "triggerType": "Active",
@@ -2672,9 +3047,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "アッシュフォード学園"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に紫か緑のカードがある場合、手札にあるこのカードの必要エナジーを【赤×1】減らす。",
   "effectEn": "If your opponent has Purple or Green card on their field, the required energy of this card in your hand [Red x1]is reduced.",
   "triggerType": "",
@@ -2704,9 +3083,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "アッシュフォード学園"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -2736,9 +3119,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "アッシュフォード学園"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[When Attacking] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -2768,9 +3155,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "アッシュフォード学園"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から5枚見る。その中から赤のイベントカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 Red Event card among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -2800,9 +3191,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "アッシュフォード学園"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -2832,9 +3227,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "アッシュフォード学園"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -2864,9 +3263,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "アッシュフォード学園"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から7枚見る。その中から［特徴：ピザ］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "[On Play] Look at the top 7 card(s) of your deck. Reveal up to 1 [Trait: Pizza] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Color",
@@ -2896,9 +3299,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "アッシュフォード学園"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "ルルーシュ・ランペルージ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ルルーシュ・ランペルージ〉アクティブにし、フロントLに移動できる【登場時】『BP2000以下』の相手のフロントLのキャラを1枚まで選び、退場させる。自分の場外にイベントカードが4枚以上ある場合、『BP4000以下』に代わる。",
   "effectEn": "[Raid] Can Raid onto <Lelouch Lamperouge>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line with BP 2000 or less, retire it. If you have 4 or more Event cards in your Outside Area, it becomes “BP 4000 or less” instead.",
   "triggerType": "Raid",
@@ -2928,10 +3338,19 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "アッシュフォード学園",
    "KMF"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": {
+   "kind": "trait",
+   "value": "アッシュフォード学園"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】［特徴：アッシュフォード学園］アクティブにし、フロントLに移動できる【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【登場時】自分の山札の上から7枚見る。その中から［特徴：ピザ］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "[Raid] Can Raid onto [Trait: Ashford Academy]; set it to active and you may move it to the Front Line. [Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [On Play] Look at the top 7 card(s) of your deck. Reveal up to 1 [Trait: Pizza] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Get",
@@ -2961,7 +3380,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】このターン中に登場したBP3000以下の自分の場の特徴に「アッシュフォード学園」を持つキャラを1枚選び、アクティブにする。",
   "effectEn": "This Field is played active. [Activate: Main] [Rest this card] Choose 1 character on your field with BP 3000 or less and the trait “Ashford Academy” that was played this turn, and set it to active.",
   "triggerType": "Get",
@@ -2986,7 +3409,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -3011,7 +3438,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から4枚見る。その中から特徴に「アッシュフォード学園」を持つキャラカードを2枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "Look at the top 4 card(s) of your deck. From among them, reveal up to 2 character card(s) with the trait “Ashford Academy” and add them to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "",
@@ -3036,7 +3467,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場外にイベントカードが3枚以上ある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have 3 or more Event cards in your Outside Area, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -3061,7 +3496,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。相手のライフが4以下の場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If your opponent has 4 or less Life, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -3086,9 +3525,13 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [
    "ピザ"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のキャラを1枚選び、このターン中、BP+1000。自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "Choose 1 character on your field, it gets BP+1000 this turn. Choose up to 1 of your AP cards, set it to active.",
   "triggerType": "Draw",
@@ -3113,9 +3556,13 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [
    "ピザ"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを1枚引き、自分の手札を1枚場外に置く。自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. Choose up to 1 of your AP cards, set it to active.",
   "triggerType": "",
@@ -3145,9 +3592,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -3177,9 +3628,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場外から紫のキャラカードを1枚まで手札に加える。",
   "effectEn": "[On Play] Add up to 1 Purple character card(s) from your Outside Area to your hand.",
   "triggerType": "Active",
@@ -3209,9 +3664,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】相手のフロントLのキャラを1枚まで選び、このターン中、BP-3000。",
   "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line, it gets BP-3000 this turn.",
   "triggerType": "Draw",
@@ -3241,9 +3700,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3273,9 +3736,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から4枚見る。その中から［特徴：KMF］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 [Trait: KMF] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -3305,10 +3772,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団",
    "KMF"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "trait",
+   "value": "黒の騎士団"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】［特徴：黒の騎士団］アクティブにし、フロントLに移動できる【登場時】カードを1枚引く。",
   "effectEn": "[Raid] Can Raid onto [Trait: Black Knights]; set it to active and you may move it to the Front Line. [On Play] Draw 1 card(s).",
   "triggerType": "Get",
@@ -3338,10 +3812,17 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "黒の騎士団",
    "KMF"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "紅月 カレン"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈紅月 カレン〉アクティブにし、フロントLに移動できる【登場時】BP3000以下の相手のフロントLのキャラを1枚まで選び、退場させる。このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
   "effectEn": "[Raid] Can Raid onto <Kallen Kozuki>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it. This character, this turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained.",
   "triggerType": "Raid",
@@ -3371,7 +3852,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】自分の場の［特徴：黒の騎士団］全ては、このターン中、BP+500。",
   "effectEn": "This Field is played active. [Activate: Main] [Rest this card] All [Trait: Black Knights] on your field it gets BP+500 this turn.",
   "triggerType": "Get",
@@ -3396,7 +3881,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から3枚見る。その中から［特徴：黒の騎士団］を2枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "Look at the top 3 card(s) of your deck. Reveal up to 2 [Trait: Black Knights] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -3419,7 +3908,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3442,7 +3935,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3465,7 +3962,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3488,7 +3989,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3511,7 +4016,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3534,7 +4043,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

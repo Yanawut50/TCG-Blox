@@ -10,8 +10,26 @@ export type CardType = "Character" | "Event" | "Field" | "Action Point"
 export type TriggerType = "" | "Draw" | "Special" | "Final" | "Color" | "Raid" | "Get" | "Active"
 
 export type EnergyIcon = {
-	color: string, -- a Color, or "Plus" (meaning not confirmed yet, see index warnings)
+	color: string, -- a Color
 	count: number,
+}
+
+-- Unconditional keyword effects parsed from the JP effect text (see tools/export_carddata.py).
+export type Keywords = {
+	step: boolean?,
+	calledStrike: boolean?, -- 狙い撃ち (NA: Snipe)
+	doubleAttack: boolean?,
+	doubleBlock: boolean?,
+	impact: number?,
+	impactPlus: number?,
+	damage: number?,
+	damagePlus: number?,
+	nullifyImpact: boolean?,
+}
+
+export type RaidSpec = {
+	kind: "name" | "trait",
+	value: string, -- JP card name or JP trait
 }
 
 export type Card = {
@@ -29,7 +47,11 @@ export type Card = {
 	bp: number?,
 	bpMark: string, -- "", "+", "-" or "±" as printed next to BP
 	generatedEnergy: { EnergyIcon },
+	energyMark: boolean, -- "+" printed next to energy: an effect may raise it
 	traits: { string },
+	keywords: Keywords,
+	raid: RaidSpec?,
+	deckLimit: number?, -- card text overrides the 4-copy limit
 	effectJp: string,
 	effectEn: string,
 	triggerType: TriggerType,

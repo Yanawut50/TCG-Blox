@@ -19,13 +19,13 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【黄】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Yellow] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -55,9 +55,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "1年生"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ターン1】このキャラと別のラインに〈紫雲 清夏〉が登場した時、このキャラを別のラインに移動させてもよい。",
   "effectEn": "[Once Per Turn] When <紫雲 清夏> is played to a different line from this character, you may move this character to the other line.",
   "triggerType": "Draw",
@@ -87,9 +91,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "1年生"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分か相手の効果によってこのキャラが場を離れた時、自分の手札から必要エナジーが3以下で消費APが1の黄の〈葛城 リーリヤ〉を1枚まで自分の場にレストで登場させる。【自分のターン中】自分の場に［特徴：1年生］のカード名が4種類以上か〈紫雲 清夏〉がある場合、このキャラはBP+1000。",
   "effectEn": "When this character leaves the field due to your or your opponent's effect, play up to 1 yellow <葛城 リーリヤ> with required energy 3 or less and AP cost 1 from your hand to your field rested. [During Your Turn] If you have 4 or more different card names among [Trait: 1st Year] on your field, or <紫雲 清夏> on your field, this character gets BP+1000.",
   "triggerType": "Color",
@@ -119,9 +127,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "1年生"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の［特徴：1年生］を1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 [Trait: 1st Year] on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -151,9 +163,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "1年生"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：1年生］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: 1st Year] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -183,9 +199,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "1年生"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分の場に［特徴：1年生］のカード名が4種類以上か〈葛城 リーリヤ〉がある場合、このキャラはBP+1500。",
   "effectEn": "[During Your Turn] If you have 4 or more different card names among [Trait: 1st Year] on your field, or <葛城 リーリヤ> on your field, this character gets BP+1500.",
   "triggerType": "",
@@ -215,9 +235,15 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "1年生"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【登場時】『カードを1枚引き、自分の手札を1枚場外に置く』。自分の場に［特徴：1年生］のカード名が4種類以上か〈葛城 リーリヤ〉がある場合、『カードを1枚引く』に代わる。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [On Play] “Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area” If you have 4 or more different card names among [Trait: 1st Year] on your field, or <葛城 リーリヤ> on your field, it becomes “Draw 1 card(s)” instead.",
   "triggerType": "Active",
@@ -247,9 +273,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "1年生"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【黄×2】減らす。【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Yellow x2]is reduced. [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -279,9 +309,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "3年生"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見て、［特徴：3年生］を1枚まで場外に置き、残りを望む順で山札の上に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck, put up to 1 [Trait: 3rd Year] among them into your Outside Area, and put the rest on top of your deck in any order.",
   "triggerType": "",
@@ -309,15 +343,15 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "3年生"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に［特徴：3年生］が4枚以上ある場合、このキャラの発生エナジー+【黄】。",
   "effectEn": "If you have 4 or more [Trait: 3rd Year] on your field, This character's generated energy +[Yellow].",
   "triggerType": "",
@@ -347,9 +381,15 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "3年生"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【自分のターン中】自分の場に〈十王 星南〉がある場合、このキャラはBP+1000。【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [During Your Turn] If you have <十王 星南> on your field, This character gets BP+1000. [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -379,9 +419,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "3年生"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "雨夜 燕"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈雨夜 燕〉アクティブにし、フロントLに移動できる自分の場に〈十王 星南〉がある場合、このキャラは【ダメージ（2）】を得る。【退場時】自分の手札の【トリガー】を持たないカードを1枚場外に置いてもよい。そうした場合、このカードを自分のフロントLにレストで登場させる。",
   "effectEn": "[Raid] Can Raid onto <雨夜 燕>; set it to active and you may move it to the Front Line. If you have <十王 星南> on your field, This character [Damage 2] is gained. [On Retire] You may put 1 card(s) without [Trigger] from your hand into your Outside Area. If you do, play this card to your Front Line rested.",
   "triggerType": "Raid",
@@ -411,9 +458,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "3年生"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -443,9 +494,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "3年生"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引く。",
   "effectEn": "[On Play] Draw 1 card(s).",
   "triggerType": "",
@@ -475,9 +530,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "3年生"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【起動メイン】【フロントLにある場合】【ターン1】自分の山札の上を1枚見て、【トリガー】を持たないカードの場合、場外に置いてもよい。場外に置かない場合、そのカードを山札の上に置く。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [Activate: Main] [While in Front Line] [Once Per Turn] Look at the top 1 card(s) of your deck; if it is a card without [Trigger], you may put it into your Outside Area. If you don't put it into your Outside Area, put that card on top of your deck.",
   "triggerType": "",
@@ -507,9 +568,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "3年生"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "有村 麻央"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈有村 麻央〉アクティブにし、フロントLに移動できる自分の場に〈十王 星南〉がある場合、このキャラは【インパクト（1）】を得る。【登場時】このキャラはこのターン中、BP+1000。【起動メイン】【フロントLにある場合】【ターン1】自分の場外から必要エナジーが3以下で【トリガー】を持たない黄の［特徴：3年生］を1枚まで手札に加える。",
   "effectEn": "[Raid] Can Raid onto <有村 麻央>; set it to active and you may move it to the Front Line. If you have <十王 星南> on your field, This character [Impact 1] is gained. [On Play] This character gets BP+1000 this turn. [Activate: Main] [While in Front Line] [Once Per Turn] Add up to 1 yellow [Trait: 3rd Year] with required energy 3 or less and without [Trigger] from your Outside Area to your hand.",
   "triggerType": "Raid",
@@ -539,9 +607,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "3年生"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle)",
   "triggerType": "",
@@ -571,9 +645,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "3年生"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見て、望む枚数を望む順で山札の上に置き、残りを場外に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck, Put any number of them on top of your deck in any order, Put the rest into your Outside Area.",
   "triggerType": "",
@@ -603,9 +681,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "3年生"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から4枚見て、［特徴：3年生］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck, reveal up to 1 [Trait: 3rd Year] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -635,9 +717,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "3年生"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "姫崎 莉波"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈姫崎 莉波〉アクティブにし、フロントLに移動できる自分の場に〈十王 星南〉がある場合、このキャラは【インパクト無効】を得る。【登場時】以下から1つ選ぶ。・自分の手札から必要エナジーが3以下で消費APが1の【トリガー】を持たない黄の［特徴：3年生］を1枚まで、自分の場にレストで登場させる。・相手のフロントLのキャラを1枚まで選び、レストにする。【退場時】このキャラのレイド元のカードを1枚まで手札に戻す。",
   "effectEn": "[Raid] Can Raid onto <姫崎 莉波>; set it to active and you may move it to the Front Line. If you have <十王 星南> on your field, This character [Impact Nullify] is gained. [On Play] Choose 1 of the following. Play up to 1 yellow [Trait: 3rd Year] with required energy 3 or less, AP cost 1 and without [Trigger] from your hand to your field rested. Choose up to 1 character in your opponent's Front Line, rest it. [On Retire] Return up to 1 of this character's Raid source cards to your hand.",
   "triggerType": "Raid",
@@ -667,10 +756,14 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "1年生",
    "Begrazia"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に［特徴：1年生］のカード名が4種類以上か〈月村 手毬〉がある場合、このキャラはBP+1000。",
   "effectEn": "If you have 4 or more different card names among [Trait: 1st Year] on your field, or <月村 手毬> on your field, this character gets BP+1000.",
   "triggerType": "",
@@ -700,10 +793,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "1年生",
    "Begrazia"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -733,10 +830,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "1年生",
    "Begrazia"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ターン1】このキャラと別のラインに〈花海 咲季〉が登場した時、このキャラを別のラインに移動させてもよい。",
   "effectEn": "[Once Per Turn] When <花海 咲季> is played to a different line from this character, you may move this character to the other line.",
   "triggerType": "Draw",
@@ -766,10 +867,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "1年生",
    "Begrazia"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）自分の場に［特徴：1年生］のカード名が4種類以上か〈花海 咲季〉がある場合、このキャラは自分と相手の効果で手札に戻らず、「このキャラがアタックしてバトルに勝利した時、カードを1枚まで引く。」を得る。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) If you have 4 or more different card names among [Trait: 1st Year] on your field, or <花海 咲季> on your field, this character is not returned to the hand by your or your opponent's effects, and gains “When this character attacks and wins a battle, draw up to 1 card(s)”",
   "triggerType": "Get",
@@ -799,10 +906,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "1年生",
    "Re;IRIS"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のアタックフェイズ終了時、このキャラと同じラインに〈秦谷 美鈴〉か〈葛城 リーリヤ〉がある場合、このキャラを別のラインに移動させてもよい。",
   "effectEn": "At the end of your Attack Phase, if <秦谷 美鈴> or <葛城 リーリヤ> is in the same line as this character, you may move this character to the other line.",
   "triggerType": "Active",
@@ -832,10 +943,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "1年生",
    "Re;IRIS"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）このキャラのアタック終了時、このキャラを自分の山札の下に置いてもよい。そうした場合、カードを1枚引き、相手のフロントLのキャラを1枚まで選び、レストにする。それは次の1回アクティブにならない。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) At the end of this character's attack, you may put this character on the bottom of your deck. If you do, draw 1 card(s), choose up to 1 character in your opponent's Front Line, and rest it. It does not become active the next 1 time(s).",
   "triggerType": "",
@@ -863,16 +980,16 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "1年生",
    "Re;IRIS"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【黄】。",
   "effectEn": "While this character is active, its generated energy +[Yellow].",
   "triggerType": "",
@@ -902,10 +1019,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "1年生",
    "Re;IRIS"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【エナジーLにある場合】自分のアタックフェイズ終了時、自分の場に［特徴：1年生］のカード名が4種類以上か〈花海 佑芽〉がある場合、このキャラをフロントLに移動させてもよい。【退場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[While in Energy Line] At the end of your Attack Phase, if you have 4 or more different card names among [Trait: 1st Year] on your field, or <花海 佑芽> on your field, you may move this character to the Front Line. [On Retire] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -935,10 +1056,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "1年生",
    "Re;IRIS"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分の場に［特徴：1年生］のカード名が4種類以上か〈花海 佑芽〉がある場合のみ発動できる。〈花海 咲季〉以外の自分の場のレストの特徴に「1年生」を持つキャラを1枚選び、アクティブにし、このターン中、「アタックフェイズ終了時、このキャラを手札に戻す。」を与える。この効果でBP4000以上のキャラを選んだ場合、このキャラはこのターン中、BP+1000と【インパクト（1）】を得る。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if you have 4 or more different card names among [Trait: 1st Year] on your field, or <花海 佑芽> on your field. Choose 1 rested character on your field other than <花海 咲季> with the trait “Year 1”, set it to active, and it gains “At the end of the Attack Phase, return this character to your hand” this turn. If you chose a character with BP 4000 or more with this effect, this character gains BP+1000 and [Impact 1] this turn.",
   "triggerType": "Get",
@@ -968,10 +1093,14 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "1年生",
    "Re;IRIS"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -1001,10 +1130,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "1年生",
    "Re;IRIS"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラのアタック終了時、このキャラを自分の山札の下に置いてもよい。そうした場合、カードを1枚引き、〈藤田 ことね〉以外の自分のエナジーLの［特徴：1年生］を1枚まで選び、フロントLに移動させ、このターン中、BP+2000。",
   "effectEn": "At the end of this character's attack, you may put this character on the bottom of your deck. If you do, draw 1 card(s), choose up to 1 [Trait: 1st Year] other than <藤田 ことね> in your Energy Line, move it to the Front Line, and it gets BP+2000 this turn.",
   "triggerType": "Get",
@@ -1034,10 +1167,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "3年生",
    "Begrazia"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の場外から〈十王 星南〉以外の必要エナジーが1以下の黄の［特徴：3年生］を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Play up to 1 Yellow [Trait: 3rd Year] other than <十王 星南> and with required energy 1 or less from your Outside Area to your field rested.",
   "triggerType": "",
@@ -1067,10 +1204,14 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "3年生",
    "Begrazia"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見て、1枚まで公開し手札に加える。残りを望む順で山札の上に置く。【トリガー】を持つカードを手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 card(s) among them, and add them to your hand. Put the rest on top of your deck in any order. [Trigger] If you added a card with it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Color",
@@ -1100,10 +1241,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "3年生",
    "Begrazia"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】以下から2つまで選ぶ。・自分の場の【トリガー】を持たない［特徴：3年生］を1枚選ぶ。自分の手札から必要エナジーを満たし、選んだキャラにレイド可能なキャラカードを1枚までレイドさせる。・自分のフロントLに【レイド】を持つ［特徴：3年生］が3枚以上ある場合、このキャラをアクティブにする。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Choose up to 2 of the following. Choose 1 [Trait: 3rd Year] without [Trigger] on your field. Raid up to 1 character card from your hand that meets its required energy and can Raid onto the chosen character. If you have 3 or more [Trait: 3rd Year] with [Raid] in your Front Line, set this character to active.",
   "triggerType": "Get",
@@ -1133,9 +1278,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "1年生"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、このフィールドをアクティブにする。【起動メイン】【レストにする】【APを1支払う】カードを1枚引く。自分の手札から必要エナジーを満たし消費APが1の［特徴：1年生］を1枚まで自分の場にアクティブで登場させる。そのキャラにこのターン中、「アタックフェイズ終了時、このキャラを手札に戻す。」を与える。この効果で自分の場にあるカード名を持つカードは登場させられない。",
   "effectEn": "[On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, set this Field to active. [Activate: Main] [Rest this card] [Pay 1 AP] Draw 1 card(s). Play up to 1 [Trait: 1st Year] whose required energy you meet and with AP cost 1 from your hand to your field active. That character gains “At the end of the Attack Phase, return this character to your hand” this turn. Cards with the same card name as a card on your field cannot be played by this effect.",
   "triggerType": "Get",
@@ -1160,7 +1309,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から3枚見て、［特徴：3年生］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えたカードが【トリガー】を持たない場合、自分の場外から〈十王 星南〉を1枚まで手札に加える。",
   "effectEn": "Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: 3rd Year] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If the card added to your hand doesn't have [Trigger], add up to 1 <十王 星南> from your Outside Area to your hand.",
   "triggerType": "Active",
@@ -1185,7 +1338,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1210,7 +1367,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にある［特徴：3年生］の枚数×1000以下のBPの相手のフロントLのキャラを1枚選び、退場させる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP equal to or less than 1000 × the number of [Trait: 3rd Year] on your field, and retire it.",
   "triggerType": "Special",
@@ -1235,7 +1396,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1260,7 +1425,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のキャラを1枚選び、アクティブにする。選んだキャラが［特徴：1年生］の場合、自分のAPカードを1枚アクティブにする。",
   "effectEn": "Choose 1 character on your field, set it to active. If the chosen character is a [Trait: 1st Year], set 1 of your AP cards to active.",
   "triggerType": "Active",
@@ -1285,7 +1454,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1310,7 +1483,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。カードを1枚引き、自分の手札を1枚場外に置く。自分の場に［特徴：1年生］のカード名が4種類以上ある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. If you have 4 or more [Trait: 1st Year] with different card names on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -1340,7 +1517,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -1370,7 +1551,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【青×2】減らす。【退場時】このキャラがバトルによって退場し、自分の場に〈篠澤 広〉がある場合、自分の場外からこのカード以外の【レイド】を持たない元々のBPが2500以下のキャラカードを1枚まで手札に加える。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Blue x2]is reduced. [On Retire] When this character is retired by battle, if you have <篠澤 広> on your field, add up to 1 character card other than this card without [Raid] and with original BP 2500 or less from your Outside Area to your hand.",
   "triggerType": "Draw",
@@ -1400,7 +1585,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[When Attacking] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -1430,7 +1619,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】このキャラがアクティブの場合のみ発動できる。自分の山札の上から1枚見て、山札の上か場外に置く。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Can only activate while this character is active. Look at the top 1 card(s) of your deck, put them on top of your deck or into your Outside Area.",
   "triggerType": "Draw",
@@ -1460,7 +1653,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "篠澤 広"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈篠澤 広〉アクティブにし、フロントLに移動できる【登場時】【フロントLにある場合】自分の場に〈倉本 千奈〉がある場合、カードを3枚引く。【自分のターン中】自分のフロントLに元々のBPが2500以下の他のキャラがある場合、このキャラはBP+1500。",
   "effectEn": "[Raid] Can Raid onto <篠澤 広>; set it to active and you may move it to the Front Line. [On Play] [While in Front Line] If you have <倉本 千奈> on your field, Draw 3 card(s). [During Your Turn] If you have another character with original BP 2500 or less in your Front Line, this character gets BP+1500.",
   "triggerType": "Raid",
@@ -1490,9 +1690,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "Begrazia"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【ターン1】自分の場に〈花海 佑芽〉と〈秦谷 美鈴〉があり、このキャラが登場したターン中のみ発動できる。自分の場の【起動メイン】を持つ〔〈花海 佑芽〉か〈秦谷 美鈴〉〕を1枚選び、アクティブにする。",
   "effectEn": "[Activate: Main] [Once Per Turn] Can only activate if you have <花海 佑芽> and <秦谷 美鈴> on your field, and only during the turn this character was played. Choose 1 <花海 佑芽> or <秦谷 美鈴> with [Activate: Main] on your field and set it to active.",
   "triggerType": "",
@@ -1520,15 +1724,15 @@
    {
     "color": "Blue",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "Begrazia"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】自分のフロントLのアクティブのキャラを1枚レストにする。そうした場合、このキャラはこのターン中、発生エナジー+【青】。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] Rest 1 active character in your Front Line. If you do, This turn, this character's generated energy +[Blue].",
   "triggerType": "Draw",
@@ -1558,9 +1762,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "Begrazia"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【自分のターン中】このキャラはBP+1000。レストのこのキャラが効果でアクティブになった時、以下から1つ選ぶ。・このキャラはこのターン中、【インパクト（1）】を得る。・自分の山札の上から2枚見て、望む枚数を望む順で山札の上に置き、残りを場外に置く。【起動メイン】【ターン1】アクティブのこのキャラをレストにする。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [During Your Turn] This character gets BP+1000. When this rested character becomes active due to an effect, choose 1 of the following. This character, this turn, [Impact 1] is gained. Look at the top 2 card(s) of your deck, Put any number of them on top of your deck in any order, Put the rest into your Outside Area. [Activate: Main] [Once Per Turn] Rest this active character.",
   "triggerType": "Get",
@@ -1590,9 +1800,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "Begrazia"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、以下から1つ選ぶ。・元々のBPが2500以下の自分の場の他のキャラを1枚まで選び、このターン中、BP+1500。・自分の場外から【スペシャルトリガー】と【ファイナルトリガー】をどちらも持たないイベントカードを1枚まで手札に加える。",
   "effectEn": "[On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, Choose 1 of the following. Choose up to 1 other character on your field with original BP 2500 or less; it gets BP+1500 this turn. Add up to 1 Event card(s) that have neither [Special Trigger] nor [Final Trigger] from your Outside Area to your hand.",
   "triggerType": "Color",
@@ -1622,9 +1836,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "Begrazia"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. [Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -1649,7 +1867,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1674,7 +1896,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から6枚見て、〈花海 佑芽〉と〈秦谷 美鈴〉と〈十王 星南〉をそれぞれ1枚まで公開し手札に加える。残りを望む順で山札の下に置く。",
   "effectEn": "Look at the top 6 card(s) of your deck, reveal up to 1 each of <花海 佑芽>, <秦谷 美鈴> and <十王 星南> among them, and add them to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -1699,7 +1925,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場の元々のBPが2500以下のキャラを1枚まで選び、このターン中、BP+1500。自分のAPカードを1枚アクティブにする。",
   "effectEn": "Choose up to 1 character on your field with original BP 2500 or less; it gets BP+1500 this turn. Set 1 of your AP cards to active.",
   "triggerType": "Draw",
@@ -1724,7 +1954,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1752,13 +1986,13 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のフロントLに〈紫雲 清夏〉がある場合、このキャラの発生エナジー+【赤】。",
   "effectEn": "If you have <紫雲 清夏> in your Front Line, This character's generated energy +[Red].",
   "triggerType": "",
@@ -1788,7 +2022,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外から必要エナジーが2以下のイベントカードを1枚まで手札に加える。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, add up to 1 event card with required energy 2 or less from your Outside Area to your hand.",
   "triggerType": "Color",
@@ -1818,7 +2058,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見て、1枚まで場外に置き、残りを望む順で山札の上に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck, Put up to 1 of them into your Outside Area, Put the rest on top of your deck in any order.",
   "triggerType": "Draw",
@@ -1848,7 +2092,16 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true
+  },
+  "raid": {
+   "kind": "name",
+   "value": "紫雲 清夏"
+  },
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【レイド】〈紫雲 清夏〉アクティブにし、フロントLに移動できる【自分のターン中】このキャラはBP+1000。【登場時】このターン中に自分がイベントカードを使用している場合、自分の手札から必要エナジーが3以下の赤の〔〈葛城 リーリヤ〉か〈紫雲 清夏〉〕を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [Raid] Can Raid onto <紫雲 清夏>; set it to active and you may move it to the Front Line. [During Your Turn] This character gets BP+1000. [On Play] If you have used an event card this turn, play up to 1 red <葛城 リーリヤ> or <紫雲 清夏> with required energy 3 or less from your hand to your field rested.",
   "triggerType": "Raid",
@@ -1878,9 +2131,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "Re;IRIS"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【手札を1枚場外に置く】【ターン1】このキャラはこのターン中、BP+1500。",
   "effectEn": "[Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] This character gets BP+1500 this turn.",
   "triggerType": "Draw",
@@ -1910,9 +2167,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "Re;IRIS"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分の場に〈花海 咲季〉と〈藤田 ことね〉がある場合、このキャラはBP+1000と、「このキャラがアタックしてバトルに勝利した時、カードを1枚まで引く。」を得る。",
   "effectEn": "[During Your Turn] If you have <花海 咲季> and <藤田 ことね> on your field, this character gains BP+1000 and “When this character attacks and wins a battle, draw up to 1 card(s)”",
   "triggerType": "Color",
@@ -1942,9 +2203,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "Re;IRIS"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【自分のターン中】自分のフロントLに〈月村 手毬〉と〈藤田 ことね〉がある場合、このキャラはBP+1500。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [During Your Turn] If you have <月村 手毬> and <藤田 ことね> in your Front Line, This character gets BP+1500.",
   "triggerType": "",
@@ -1974,9 +2241,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "Re;IRIS"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の〈花海 咲季〉か〈月村 手毬〉か他の〈藤田 ことね〉を1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 <花海 咲季> or <月村 手毬>, or other <藤田 ことね> on your field; it gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -2006,9 +2277,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "Re;IRIS"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【フロントLにある場合】【ターン1】自分の〈月村 手毬〉のアタックがブロックされなかった時、このキャラはこのターン中、BP+1000。【フロントLにある場合】【ターン1】自分の〈花海 咲季〉がアタックしてバトルに勝利した時、カードを1枚まで引く。",
   "effectEn": "[While in Front Line] [Once Per Turn] When your <月村 手毬>'s attack is not blocked, this character gets BP+1000 this turn. [While in Front Line] [Once Per Turn] When your <花海 咲季> attacks and wins a battle, draw up to 1 card(s).",
   "triggerType": "Active",
@@ -2033,7 +2308,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2058,7 +2337,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2083,7 +2366,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から6枚見て、赤の〔〈葛城 リーリヤ〉か〈紫雲 清夏〉〕を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。カードを1枚引く。",
   "effectEn": "Look at the top 6 card(s) of your deck, reveal up to 1 Red <葛城 リーリヤ> or <紫雲 清夏> among them and add it to your hand. Put the rest on the bottom of your deck in any order. Draw 1 card(s).",
   "triggerType": "Active",
@@ -2108,7 +2395,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを2枚引く。このターン中に自分が他のイベントカードを使用している場合、さらにカードを1枚引く。",
   "effectEn": "Draw 2 card(s). If you have used another event card this turn, draw 1 more card(s).",
   "triggerType": "Draw",
@@ -2133,7 +2424,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは自分の場に〈花海 咲季〉と〈月村 手毬〉と〈藤田 ことね〉がある場合のみ使用できる。BP5000以下の相手のフロントLのキャラを1枚まで選び、退場させる。自分の場のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "This card can only be used if you have <花海 咲季>, <月村 手毬> and <藤田 ことね> on your field. Choose up to 1 character in your opponent's Front Line with BP 5000 or less, retire it. Choose up to 1 character on your field, it gets BP+1000 this turn.",
   "triggerType": "Special",
@@ -2156,7 +2451,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2179,7 +2478,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2202,7 +2505,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2225,7 +2532,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2248,7 +2559,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2271,7 +2586,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2294,7 +2613,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2317,7 +2640,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2340,7 +2667,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2363,7 +2694,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2386,7 +2721,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2409,7 +2748,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2432,7 +2775,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

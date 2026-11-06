@@ -21,7 +21,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から4枚見る。その中から〈竈門 炭治郎〉か〈竈門 禰󠄀豆子〉か〈嘴平 伊之助〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 <Tanjiro Kamado> or <Nezuko Kamado> or <Inosuke Hashibira> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -51,7 +55,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【手札を1枚場外に置く】【このカードを退場させる】自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "[Activate: Main] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] [Retire this card] Choose up to 1 of your AP cards, set it to active.",
   "triggerType": "Draw",
@@ -81,7 +89,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
   "effectEn": "[Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -109,13 +121,13 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【黄】。メインフェイズ終了時、このキャラを退場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Yellow]. At the end of the Main Phase, retire this character.",
   "triggerType": "",
@@ -145,7 +157,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -175,7 +191,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札から、必要エナジーが2以下で消費APが1の〈竈門 禰󠄀豆子〉を1枚まで自分のフロントLにレストで登場させる。",
   "effectEn": "[On Play] Play up to 1 <Nezuko Kamado> with required energy 2 or less and AP cost 1 from your hand to your Front Line rested.",
   "triggerType": "",
@@ -205,7 +225,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】BP3000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it.",
   "triggerType": "Color",
@@ -235,7 +259,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": {
+   "kind": "name",
+   "value": "竈門 炭治郎"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈竈門 炭治郎〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】自分の場外から必要エナジーが3以下で消費APが1の〈竈門 禰󠄀豆子〉を1枚まで手札に加える。自分の手札から必要エナジーが3以下で消費APが1の〈竈門 禰󠄀豆子〉を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[Raid] Can Raid onto <Tanjiro Kamado>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] Add up to 1 <Nezuko Kamado> with required energy 3 or less and AP cost 1 from your Outside Area to your hand. Play up to 1 <Nezuko Kamado> with required energy 3 or less and with AP cost 1 from your hand to your field rested.",
   "triggerType": "Raid",
@@ -265,7 +298,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分の場に〈竈門 炭治郎〉がある場合、このキャラはBP+1000。",
   "effectEn": "[During Your Turn] If you have <Tanjiro Kamado> on your field, This character gets BP+1000.",
   "triggerType": "",
@@ -295,7 +332,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】【フロントLにある場合】自分の場に〈竈門 炭治郎〉がある場合、BP1500以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。",
   "effectEn": "[On Play] [While in Front Line] If you have <Tanjiro Kamado> on your field, Choose up to 1 character in your opponent's Front Line with BP 1500 or more, it gets BP-1000 this turn.",
   "triggerType": "Active",
@@ -325,7 +366,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "竈門 襧豆子"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈竈門 襧豆子〉アクティブにし、フロントLに移動できる【自分のターン中】自分の場に〈竈門 炭治郎〉がある場合、このキャラはBP+500。【アタック時】自分のフロントLの〈竈門 炭治郎〉と自分のエナジーLの他のキャラを1枚ずつ選び、それらの位置を入れ替えてもよい。",
   "effectEn": "[Raid] Can Raid onto <竈門 襧豆子>; set it to active and you may move it to the Front Line. [During Your Turn] If you have <Tanjiro Kamado> on your field, This character gets BP+500. [When Attacking] You may choose 1 each of <Tanjiro Kamado> in your Front Line and other characters in your Energy Line, and swap their positions.",
   "triggerType": "Raid",
@@ -355,7 +403,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -385,7 +439,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】【ターン1】相手のフロントLのキャラが退場した時、カードを1枚引いてもよい。そうした場合、自分の手札を1枚場外に置く。",
   "effectEn": "[During Your Turn] [Once Per Turn] When a character in your opponent's Front Line is retired, you may draw 1 card(s). If you do, Put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -413,13 +471,13 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【黄】。",
   "effectEn": "While this character is active, its generated energy +[Yellow].",
   "triggerType": "",
@@ -449,7 +507,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【フロントLにある場合】自分のアタックフェイズ終了時、このキャラがアクティブの場合、このキャラを退場させる。このキャラがアタックしてバトルに敗北した時、このキャラを退場させる。",
   "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [While in Front Line] At the end of your Attack Phase, if this character is active, retire this character. When this character attacks and loses a battle, retire this character.",
   "triggerType": "",
@@ -479,7 +543,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "",
@@ -509,9 +579,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "柱"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -541,9 +615,15 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "柱"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "Draw",
@@ -573,9 +653,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "柱"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -605,9 +689,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "柱"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】【フロントLにある場合】自分の場の〈産屋敷 耀哉〉、他の［特徴：柱］が合計3～5枚ある場合、『BP3000以下』の相手のフロントLのキャラを1枚まで選び、退場させる。自分の場の〈産屋敷 耀哉〉、他の［特徴：柱］が合計6枚以上ある場合、『BP4000以下』に代わる。",
   "effectEn": "[On Play] [While in Front Line] If you have 3 to 5 <Kagaya Ubuyashiki> and other [Trait: Hashira] in total on your field, choose up to 1 character in your opponent's Front Line with “BP 3000 or less”, and retire it. If you have 6 or more <Kagaya Ubuyashiki> and other [Trait: Hashira] in total on your field, it becomes “BP 4000 or less” instead.",
   "triggerType": "Color",
@@ -637,9 +725,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "柱"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】以下から『1つ選ぶ』。自分の場に〈産屋敷 耀哉〉、他の［特徴：柱］が合計6枚以上ある場合、『全て選ぶ』に代わる。・カードを1枚引く。・BP3000以下の相手のフロントLのキャラを1枚まで選び、レストにする。・自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose “1” of the following. If you have 6 or more <Kagaya Ubuyashiki> and other [Trait: Hashira] in total on your field, it becomes “choose all” instead. Draw 1 card(s). Choose up to 1 character in your opponent's Front Line with BP 3000 or less, rest it. Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -669,9 +761,15 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "柱"
   ],
+  "keywords": {
+   "doubleAttack": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【2回アタック】（このキャラがこのターン初めてアタックした時、アクティブにする）",
   "effectEn": "[Double Attack] (The first time this character attacks each turn, set it to active)",
   "triggerType": "",
@@ -701,9 +799,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "柱"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に紫か赤のカードがある場合、手札にあるこのカードの必要エナジーを【黄×1】減らす。",
   "effectEn": "If your opponent has Purple or Red card on their field, the required energy of this card in your hand [Yellow x1]is reduced.",
   "triggerType": "",
@@ -733,9 +835,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "柱"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】相手のフロントLのキャラを1枚まで選び、レストにする。それは次の1回アクティブにならない。【退場時】相手のフロントLのキャラを1枚まで選び、レストにする。",
   "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s). [On Retire] Choose up to 1 character in your opponent's Front Line, rest it.",
   "triggerType": "Get",
@@ -765,9 +871,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "柱"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】カードを1枚引く。",
   "effectEn": "[When Attacking] Draw 1 card(s).",
   "triggerType": "",
@@ -797,9 +907,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "柱"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に〈産屋敷 耀哉〉、他の［特徴：柱］が合計3枚以上ある場合、このキャラは【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
   "effectEn": "If you have 3 or more <Kagaya Ubuyashiki> and other [Trait: Hashira] in total on your field, this character gains [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent)",
   "triggerType": "Active",
@@ -829,9 +943,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "柱"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に〈産屋敷 耀哉〉、他の［特徴：柱］が合計3枚以上ある場合、このキャラは【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）を得る。",
   "effectEn": "If you have 3 or more <Kagaya Ubuyashiki> and other [Trait: Hashira] in total on your field, this character gains [Double Block] (The first time this character blocks each turn, set it to active)",
   "triggerType": "Active",
@@ -861,7 +979,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の場外から必要エナジーが3以下の黄のキャラカードを2枚まで手札に加える。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Add up to 2 Yellow character card(s) with required energy 3 or less from your Outside Area to your hand.",
   "triggerType": "Get",
@@ -886,7 +1008,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -911,7 +1037,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から4枚見る。その中からカードを1枚公開し手札に加える。残りを望む順で自分の山札の下に置く。公開したカードが［特徴：柱］の場合、自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "Look at the top 4 card(s) of your deck. Reveal 1 card among them and add it to your hand. Put the rest on the bottom of your deck in any order. If the revealed card is [Trait: Hashira], Choose up to 1 of your AP cards, set it to active.",
   "triggerType": "Active",
@@ -936,7 +1066,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈産屋敷 耀哉〉、［特徴：柱］が合計3枚以上ある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have 3 or more <Kagaya Ubuyashiki> and [Trait: Hashira] in total on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -961,7 +1095,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手のフロントLのキャラを1枚選び、レストにする。自分の場の〈鱗滝 左近次〉を1枚まで選び、アクティブにする。",
   "effectEn": "Choose 1 character in your opponent's Front Line, rest it. Choose up to 1 <Sakonji Urokodaki> on your field, set it to active.",
   "triggerType": "Draw",
@@ -986,7 +1124,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈竈門 炭治郎〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Tanjiro Kamado> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -1016,7 +1158,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から5枚見る。その中から［特徴：下弦の鬼］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 [Trait: Lower Moon] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -1046,7 +1192,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "damage": 2
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト（2）】（アタックしてバトルに勝利した時、相手プレイヤーに2ダメージ）【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）自分の場外にカードが20枚以上ない場合、このキャラは、フロントLに登場できず、フロントLに移動できない。",
   "effectEn": "[Impact 2] (When this attacks and wins a battle, deal 2 damage to your opponent) [Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) If you don't have 20 or more cards in your Outside Area, this character cannot be played to the Front Line and cannot move to the Front Line.",
   "triggerType": "Get",
@@ -1076,7 +1228,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは〈鬼舞辻󠄀 無惨〉としても扱う。【起動メイン】【ターン1】自分の場の他のキャラを1枚退場させ、自分の山札の上から1枚を場外に置く。そうした場合、このキャラはこのターン中、BP+1000。",
   "effectEn": "This card is also treated as <Muzan Kibutsuji>. [Activate: Main] [Once Per Turn] Retire 1 other character on your field, and put the top 1 card(s) of your deck into your Outside Area. If you do, This character gets BP+1000 this turn.",
   "triggerType": "Color",
@@ -1104,13 +1260,13 @@
    {
     "color": "Purple",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは〈鬼舞辻󠄀 無惨〉としても扱う。【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【紫】。メインフェイズ終了時、このキャラを退場させる。",
   "effectEn": "This card is also treated as <Muzan Kibutsuji>. [Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Purple]. At the end of the Main Phase, retire this character.",
   "triggerType": "",
@@ -1138,13 +1294,13 @@
    {
     "color": "Purple",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは〈鬼舞辻󠄀 無惨〉としても扱う。このキャラがアクティブの場合、このキャラの発生エナジー+【紫】。",
   "effectEn": "This card is also treated as <Muzan Kibutsuji>. While this character is active, its generated energy +[Purple].",
   "triggerType": "",
@@ -1174,7 +1330,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に黄か赤のカードがある場合、手札にあるこのカードの必要エナジーを【紫×1】減らす。",
   "effectEn": "If your opponent has Yellow or Red card on their field, the required energy of this card in your hand [Purple x1]is reduced.",
   "triggerType": "",
@@ -1204,7 +1364,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -1234,7 +1400,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】以下から1つ選ぶ。・自分の場のキャラを1枚まで選び、別のラインに移動させる。・自分の場のフロントLのキャラと自分のエナジーLのキャラを1枚ずつ選び、それらの位置を入れ替えてもよい。",
   "effectEn": "[On Retire] Choose 1 of the following. Choose up to 1 character on your field, move it to another line. You may choose 1 each of characters in your Front Line and characters in your Energy Line, and swap their positions.",
   "triggerType": "Draw",
@@ -1264,7 +1434,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -1294,7 +1468,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【手札を1枚場外に置く】以下から1つ選ぶ。・自分の場のキャラを1枚選び、別のラインに移動させる。・自分の場のフロントLのキャラと自分のエナジーLのキャラを1枚ずつ選び、それらの位置を入れ替える。",
   "effectEn": "[Activate: Main] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] Choose 1 of the following. Choose 1 character on your field, move it to another line. Choose 1 each of characters in your Front Line and characters in your Energy Line, and swap their positions.",
   "triggerType": "Draw",
@@ -1324,9 +1502,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "下弦の鬼"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】このターン中にキャラが退場していた場合、カードを1枚引く。",
   "effectEn": "[On Play] If a character was retired this turn, draw 1 card(s).",
   "triggerType": "Active",
@@ -1356,9 +1538,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "下弦の鬼"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "魘夢"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈魘夢〉アクティブにし、フロントLに移動できる自分の場外にカードが15枚以上ある場合、このキャラはBP+500。【登場時】カードを2枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[Raid] Can Raid onto <Enmu>; set it to active and you may move it to the Front Line. If you have 15 or more cards in your Outside Area, This character gets BP+500. [On Play] Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Get",
@@ -1388,9 +1577,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "下弦の鬼"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】カードを1枚引く。",
   "effectEn": "[On Retire] Draw 1 card(s).",
   "triggerType": "",
@@ -1420,9 +1613,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "下弦の鬼"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】カードを1枚引く。",
   "effectEn": "[On Retire] Draw 1 card(s).",
   "triggerType": "",
@@ -1452,9 +1649,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "下弦の鬼"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】自分のターン中の場合、相手のフロントLのキャラを1枚まで選び、このターン中、BP-2000。",
   "effectEn": "[On Retire] If it is your turn, choose up to 1 character in your opponent's Front Line, and it gets BP-2000 this turn.",
   "triggerType": "",
@@ -1484,9 +1685,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "下弦の鬼"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Retire] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -1516,9 +1721,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "下弦の鬼"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】このターン中にキャラが退場していた場合、相手のフロントLのキャラを1枚まで選び、このターン中、BP-1500。",
   "effectEn": "[On Play] If a character was retired this turn, choose up to 1 character in your opponent's Front Line, and it gets BP-1500 this turn.",
   "triggerType": "Active",
@@ -1548,9 +1757,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "上弦の鬼"
   ],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）",
   "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent)",
   "triggerType": "",
@@ -1580,9 +1795,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "上弦の鬼"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはアクティブで場に登場させる。【登場時】自分の手札を2枚場外に置いてもよい。そうした場合、このキャラはこのターン中、【狙い撃ち】と【インパクト（1）】を得る。",
   "effectEn": "This character is played active. [On Play] You may put 2 card(s) from your hand into your Outside Area. If you do, this character gains [Snipe] and [Impact 1] this turn.",
   "triggerType": "Get",
@@ -1612,9 +1831,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "上弦の鬼"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【APを1支払う】【ターン1】カードを1枚引く。",
   "effectEn": "[Activate: Main] [Pay 1 AP] [Once Per Turn] Draw 1 card(s).",
   "triggerType": "",
@@ -1644,9 +1867,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "上弦の鬼"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場に〈堕姫〉がある場合、カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] If you have <Daki> on your field, Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -1676,9 +1903,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "上弦の鬼"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "妓夫太郎"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈妓夫太郎〉アクティブにし、フロントLに移動できる【ターン1】このキャラがアタックしてバトルに勝利した時、このキャラをアクティブにする。【アタック時】自分の場に〈堕姫〉がある場合、カードを1枚引く。",
   "effectEn": "[Raid] Can Raid onto <Gyutaro>; set it to active and you may move it to the Front Line. [Once Per Turn] When this character attacks and wins a battle, Set this character to active. [When Attacking] If you have <Daki> on your field, Draw 1 card(s).",
   "triggerType": "Raid",
@@ -1708,9 +1942,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "上弦の鬼"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】【フロントLにある場合】BP3000以下の相手のフロントLのキャラを1枚まで選び、退場させる。【退場時】自分の山札の上から3枚見る。その中から〈堕姫〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] [While in Front Line] Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it. [On Retire] Look at the top 3 card(s) of your deck. Reveal up to 1 <Daki> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Color",
@@ -1740,9 +1978,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "上弦の鬼"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】自分の山札の上から6枚見る。その中から〈妓夫太郎〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Retire] Look at the top 6 card(s) of your deck. Reveal up to 1 <Gyutaro> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -1772,9 +2014,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "上弦の鬼"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】【退場時】自分の場外から必要エナジーが3以下で消費APが1の〈妓夫太郎〉を1枚まで自分のフロントLにアクティブで登場させる。",
   "effectEn": "[On Play] [On Retire] Play up to 1 <Gyutaro> with required energy 3 or less and with AP cost 1 from your Outside Area to your Front Line active.",
   "triggerType": "Active",
@@ -1804,9 +2050,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "上弦の鬼"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "堕姫"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈堕姫〉アクティブにし、フロントLに移動できる【自分のターン中】自分の場に〈妓夫太郎〉がある場合、このキャラはBP+500。【退場時】自分の場に〈妓夫太郎〉がある場合、自分の手札を1枚場外に置いてもよい。そうした場合、このカードを自分のフロントLにレストで登場させる。",
   "effectEn": "[Raid] Can Raid onto <Daki>; set it to active and you may move it to the Front Line. [During Your Turn] If you have <Gyutaro> on your field, This character gets BP+500. [On Retire] If you have <Gyutaro> on your field, You may put 1 card(s) from your hand into your Outside Area. If you do, play this card to your Front Line rested.",
   "triggerType": "Raid",
@@ -1836,9 +2089,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "上弦の鬼"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは〈堕姫〉としても扱う。",
   "effectEn": "This card is also treated as <Daki>.",
   "triggerType": "Get",
@@ -1868,7 +2125,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の場外から〈妓夫太郎〉か〈堕姫〉を1枚まで手札に加える。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Add up to 1 <Gyutaro> or <Daki> from your Outside Area to your hand.",
   "triggerType": "Get",
@@ -1893,7 +2154,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のキャラを1枚選び、このターン中、『BP+1000』。このターン中に退場したキャラ1枚につき、さらに『BP+1000』される。選んだキャラのBPが5000以上になった場合、このターン中、【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を与える。",
   "effectEn": "Choose 1 character on your field, This turn, 『BP+1000』. It gets an additional “BP+1000” for each 1 character(s) retired this turn. If the chosen character's BP became 5000 or more, it gains [Impact +1] (Damage dealt by Impact is increased by 1; if it doesn't have Impact, it gains [Impact 1]) this turn.",
   "triggerType": "Active",
@@ -1918,7 +2183,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のキャラを1枚退場させる。そうした場合、相手のフロントLのキャラを1枚まで選び、退場させる。カードを1枚引く。",
   "effectEn": "Retire 1 character on your field. If you do, Choose up to 1 character in your opponent's Front Line, retire it. Draw 1 card(s).",
   "triggerType": "Special",
@@ -1943,7 +2212,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のキャラを1枚退場させる。そうした場合、自分のAPカードを1枚まで選び、アクティブにする。カードを2枚引く。",
   "effectEn": "Retire 1 character on your field. If you do, Choose up to 1 of your AP cards, set it to active. Draw 2 card(s).",
   "triggerType": "Draw",
@@ -1968,7 +2241,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から7枚見る。その中から〈妓夫太郎〉と〈堕姫〉をそれぞれ1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "Look at the top 7 card(s) of your deck. Reveal up to 1 each of <Gyutaro> and <Daki> among them and add them to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -1993,7 +2270,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈妓夫太郎〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Gyutaro> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -2018,7 +2299,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2048,7 +2333,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -2078,7 +2367,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から7枚見る。その中から【レイド】を持つカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 7 card(s) of your deck. From among them, reveal up to 1 card(s) with [Raid] and add them to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -2108,7 +2401,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【登場時】自分の場外から〈我妻 善逸〉以外のキャラカードを1枚まで手札に加える。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [On Play] Add up to 1 character card(s) other than <Zenitsu Agatsuma> from your Outside Area to your hand.",
   "triggerType": "Color",
@@ -2138,7 +2437,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "我妻 善逸"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈我妻 善逸〉アクティブにし、フロントLに移動できる自分の場に〈竈門 炭治郎〉がある場合、このキャラは【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を得る。【登場時】自分の場に〈嘴平 伊之助〉がある場合、カードを2枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[Raid] Can Raid onto <Zenitsu Agatsuma>; set it to active and you may move it to the Front Line. If you have <Tanjiro Kamado> on your field, This character [Damage 2](When this character deals direct damage by attacking, deal 2 damage instead) is gained. [On Play] If you have <Inosuke Hashibira> on your field, Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Raid",
@@ -2168,7 +2474,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
   "effectEn": "[Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -2198,7 +2508,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分の場に〈嘴平 伊之助〉がある場合、このキャラはBP+1000。【相手のターン中】自分の場に〈我妻 善逸〉がある場合、このキャラはBP+1000。",
   "effectEn": "[During Your Turn] If you have <Inosuke Hashibira> on your field, This character gets BP+1000. [During Opponent's Turn] If you have <Zenitsu Agatsuma> on your field, This character gets BP+1000.",
   "triggerType": "Active",
@@ -2226,13 +2540,13 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
   "effectEn": "While this character is active, its generated energy +[Red].",
   "triggerType": "",
@@ -2260,13 +2574,13 @@
    {
     "color": "Red",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【赤】。メインフェイズ終了時、このキャラを退場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Red]. At the end of the Main Phase, retire this character.",
   "triggerType": "",
@@ -2296,7 +2610,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -2326,7 +2644,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このターン中にこのキャラが移動している場合、このキャラはこのターン中、BP+500。",
   "effectEn": "If this character moved this turn, this character gets BP+500 this turn.",
   "triggerType": "",
@@ -2351,7 +2673,14 @@
   "bp": 5000,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "impact": 1,
+   "damage": 2
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはアクティブで場に登場させる。【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）自分のアタックフェイズ終了時、このキャラを退場させる。",
   "effectEn": "This character is played active. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead)At the end of your Attack Phase, retire this character.",
   "triggerType": "Draw",
@@ -2381,7 +2710,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "嘴平 伊之助"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈嘴平 伊之助〉アクティブにし、フロントLに移動できる自分の場に〈竈門 炭治郎〉がある場合、このキャラは【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。【登場時】自分の場に〈我妻 善逸〉がある場合、自分の場の他のキャラを1枚まで選び、アクティブにする。",
   "effectEn": "[Raid] Can Raid onto <Inosuke Hashibira>; set it to active and you may move it to the Front Line. If you have <Tanjiro Kamado> on your field, This character [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained. [On Play] If you have <Zenitsu Agatsuma> on your field, Choose up to 1 other character on your field, set it to active.",
   "triggerType": "Raid",
@@ -2411,7 +2747,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に黄か紫のカードがある場合、手札にあるこのカードの必要エナジーを【赤×1】減らす。",
   "effectEn": "If your opponent has Yellow or Purple card on their field, the required energy of this card in your hand [Red x1]is reduced.",
   "triggerType": "",
@@ -2441,7 +2781,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -2471,9 +2815,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "天元の嫁"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -2503,9 +2851,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "天元の嫁"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】自分の場外から〈宇髄 天元〉を1枚まで手札に加える。",
   "effectEn": "[On Retire] Add up to 1 <Tengen Uzui> from your Outside Area to your hand.",
   "triggerType": "",
@@ -2535,9 +2887,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "天元の嫁"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分の場に〈宇髄 天元〉がある場合、このキャラはBP+500。",
   "effectEn": "[During Your Turn] If you have <Tengen Uzui> on your field, This character gets BP+500.",
   "triggerType": "",
@@ -2567,9 +2923,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "柱"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -2599,9 +2959,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "柱"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から4枚見る。その中から［特徴：天元の嫁］か［特徴：変装］を1枚まで公開して手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 [Trait: Tengen's Wives] or [Trait: Disguise] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Color",
@@ -2631,9 +2995,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "柱"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "宇髄 天元"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈宇髄 天元〉アクティブにし、フロントLに移動できる【登場時】このキャラはこのターン中、【2回アタック】（このキャラがこのターン初めてアタックした時、アクティブにする）を得る。【起動メイン】【ターン1】自分の場の［特徴：天元の嫁］と［特徴：変装］全ては、このターン中、BP+500。",
   "effectEn": "[Raid] Can Raid onto <Tengen Uzui>; set it to active and you may move it to the Front Line. [On Play] This character, this turn, [Double Attack](The first time this character attacks each turn, set it to active) is gained. [Activate: Main] [Once Per Turn] All [Trait: Tengen's Wives] and [Trait: Disguise] on your field it gets BP+500 this turn.",
   "triggerType": "Raid",
@@ -2663,9 +3034,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "柱"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -2695,9 +3070,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "柱"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【手札を1枚場外に置く】【ターン1】自分の場のキャラ全ては、このターン中、BP+500。",
   "effectEn": "[Activate: Main] [While in Front Line] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] All characters on your field it gets BP+500 this turn.",
   "triggerType": "",
@@ -2727,9 +3106,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "柱"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはアクティブで場に登場させる。【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、BP3000以下の相手のフロントLのキャラを1枚まで選び、退場させる。このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
   "effectEn": "This character is played active. [On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it. This character, this turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained.",
   "triggerType": "Get",
@@ -2759,9 +3142,15 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "変装"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは〈嘴平 伊之助〉としても扱う。【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "This card is also treated as <Inosuke Hashibira>. [Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "Active",
@@ -2791,9 +3180,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "変装"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは〈竈門 炭治郎〉としても扱う。【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "This card is also treated as <Tanjiro Kamado>. [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -2823,9 +3218,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "変装"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは〈我妻 善逸〉としても扱う。【登場時】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。",
   "effectEn": "This card is also treated as <Zenitsu Agatsuma>. [On Play] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
   "triggerType": "",
@@ -2855,7 +3254,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】自分の場のキャラを1枚選び、このターン中、BP+1000。",
   "effectEn": "This Field is played active. [Activate: Main] [Rest this card] Choose 1 character on your field, it gets BP+1000 this turn.",
   "triggerType": "Get",
@@ -2880,7 +3283,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを2枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -2905,7 +3312,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場の〈宇髄 天元〉、［特徴：天元の嫁］、［特徴：変装］の合計枚数×1000以下のBPの相手のフロントLのキャラを1枚選び、退場させる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP equal to or less than 1000 × the total number of <Tengen Uzui>, [Trait: Tengen's Wives] and [Trait: Disguise] on your field, and retire it.",
   "triggerType": "Special",
@@ -2930,7 +3341,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈我妻 善逸〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Zenitsu Agatsuma> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -2955,7 +3370,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のフロントLのキャラを1枚選び、このターン中、BP+2000。選んだキャラが〈嘴平 伊之助〉の場合、さらにこのターン中、【ダメージ（+1）】（このキャラがアタックで直接ダメージを与える時、追加で1ダメージ）を与える。",
   "effectEn": "Choose 1 character in your Front Line, it gets BP+2000 this turn. If the chosen character is <Inosuke Hashibira>, it also gains [Damage +1] (When this character deals direct damage by attacking, deal 1 additional damage) this turn.",
   "triggerType": "Active",
@@ -2980,7 +3399,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -3005,7 +3428,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のフロントLのキャラを1枚選び、このターン中、BP+3000。",
   "effectEn": "Choose 1 character in your Front Line, it gets BP+3000 this turn.",
   "triggerType": "Active",
@@ -3035,7 +3462,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3065,7 +3496,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "Active",
@@ -3095,7 +3532,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "竈門 炭治郎"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈竈門 炭治郎〉アクティブにし、フロントLに移動できる【登場時】自分の場に〈竈門 禰󠄀豆子〉がある場合、このキャラは次の自分のターン開始時まで、BP+500と【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。",
   "effectEn": "[Raid] Can Raid onto <Tanjiro Kamado>; set it to active and you may move it to the Front Line. [On Play] If you have <Nezuko Kamado> on your field, until the start of your next turn this character gains BP+500 and [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opposing player)",
   "triggerType": "Raid",
@@ -3125,7 +3569,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが3以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line with required energy 3 or less, retire it.",
   "triggerType": "Get",
@@ -3155,7 +3603,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -3185,7 +3637,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -3215,9 +3671,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "柱"
   ],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】相手のフロントLのキャラを1枚まで選び、レストにする。カードを1枚引く。",
   "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] Choose up to 1 character in your opponent's Front Line, rest it. Draw 1 card(s).",
   "triggerType": "Get",
@@ -3247,7 +3709,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の場のキャラ全ては、このターン中、BP+1000。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] All characters on your field it gets BP+1000 this turn.",
   "triggerType": "",
@@ -3272,7 +3738,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から5枚見る。その中から〈竈門 炭治郎〉か〈竈門 禰󠄀豆子〉か〈我妻 善逸〉か〈嘴平 伊之助〉を2枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "Look at the top 5 card(s) of your deck. Reveal up to 2 <Tanjiro Kamado> or <Nezuko Kamado> or <Zenitsu Agatsuma> or <Inosuke Hashibira> among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "",
@@ -3295,7 +3765,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3318,7 +3792,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3341,7 +3819,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3364,7 +3846,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3387,7 +3873,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3410,7 +3900,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

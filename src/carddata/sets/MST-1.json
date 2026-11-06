@@ -21,7 +21,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -51,7 +55,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -81,7 +89,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に〈ルーデウス〉と〈ルイジェルド〉がある場合、このキャラはBP+1000。",
   "effectEn": "If you have <ルーデウス> and <ルイジェルド> on your field, This character gets BP+1000.",
   "triggerType": "Draw",
@@ -111,7 +123,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】このキャラが自分の効果で登場していた場合、このキャラをアクティブにする。",
   "effectEn": "[On Play] If this character was played by your own effect, set this character to active.",
   "triggerType": "",
@@ -141,7 +157,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【青×2】減らす。【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【自分のターン中】このターン中に自分の効果でキャラカードを〔登場させるかレイドさせている〕場合、このキャラはBP+500。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Blue x2]is reduced. [Impact Nullify] (The character that battles this character loses Impact during this battle) [During Your Turn] If you have played or Raided a character card with your own effect this turn, this character gets BP+500.",
   "triggerType": "",
@@ -171,7 +193,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】APを1支払ってもよい。そうした場合、カードを1枚引き、自分の手札から必要エナジーが3以下で消費APが1の青の〔〈ルーデウス〉か〈エリス〉か〈ルイジェルド〉〕を1枚まで自分の場にレストで登場させるかレイドさせる。",
   "effectEn": "[On Play] You may pay 1 AP. If you do, draw 1 card(s), and play up to 1 blue <ルーデウス>, <エリス> or <ルイジェルド> with required energy 3 or less and AP cost 1 from your hand to your field rested, or Raid them.",
   "triggerType": "Color",
@@ -201,7 +227,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】以下から1つ選ぶ。・カードを1枚引き、自分の手札を1枚場外に置く。・このキャラが自分の効果で登場していた場合、自分の手札から必要エナジーが3以下で消費APが1の青の〔〈ルーデウス〉か〈エリス〉か〈ルイジェルド〉〕を1枚まで自分の場にレストで登場させるかレイドさせる。〈エリス〉のこの効果は1ターンに1回のみ選べる。",
   "effectEn": "[On Play] Choose 1 of the following. Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. If this character was played by your own effect, play up to 1 blue <ルーデウス>, <エリス> or <ルイジェルド> with required energy 3 or less and AP cost 1 from your hand to your field rested, or Raid them. This effect of <エリス> can only be chosen 1 time(s) per 1 turn(s).",
   "triggerType": "",
@@ -231,7 +261,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "エリス"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈エリス〉アクティブにし、フロントLに移動できるこのキャラのアタックがブロックされなかった時、カードを1枚まで引く。【ターン1】このキャラがアタックしてバトルに敗北した時、このキャラをアクティブにし、このキャラはこのターン中、BP+2000。",
   "effectEn": "[Raid] Can Raid onto <エリス>; set it to active and you may move it to the Front Line. When this character's attack is not blocked, draw up to 1 card(s). [Once Per Turn] When this character attacks and loses a battle, set this character to active, and it gets BP+2000 this turn.",
   "triggerType": "Raid",
@@ -261,7 +298,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": {
+   "kind": "name",
+   "value": "エリス"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈エリス〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手に1ダメージ）【自分のターン中】このキャラはBP+500。【登場時】このキャラが自分の効果で登場していた場合、以下から1つ選ぶ。・このキャラは次の自分のターン開始時まで、BP+1000。・このキャラはこのターン中、「このキャラのアタック終了時、自分のエナジーLのキャラを1枚選び、このキャラと位置を入れ替えてもよい。」を得る。",
   "effectEn": "[Raid] Can Raid onto <エリス>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [During Your Turn] This character gets BP+500. [On Play] If this character was played by your own effect, choose 1 of the following. This character gets BP+1000 until the start of your next turn. This character gains “At the end of this character's attack, you may choose 1 character in your Energy Line and swap its position with this character” this turn.",
   "triggerType": "Raid",
@@ -291,7 +337,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見て、望む順で山札の上に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck and put them back on top of your deck in any order.",
   "triggerType": "Draw",
@@ -321,7 +371,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分の場の〈エリス〉を1枚選び、このターン中、BP+1000。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 <エリス> on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -351,7 +405,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[When Attacking] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -381,7 +439,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】カードを1枚引く。",
   "effectEn": "[On Retire] Draw 1 card(s).",
   "triggerType": "",
@@ -411,7 +473,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【青×2】減らす。【自分のターン中】このターン中に自分がイベントカードを使用していて、同じラインに〈ルーデウス〉がある場合、このキャラはBP+1500。【登場時】自分の山札の上から2枚見て、1枚まで場外に置き、残りを望む順で山札の上に置く。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Blue x2]is reduced. [During Your Turn] If you have used an event card this turn and <ルーデウス> is in the same line, this character gets BP+1500. [On Play] Look at the top 2 card(s) of your deck, Put up to 1 of them into your Outside Area, Put the rest on top of your deck in any order.",
   "triggerType": "Draw",
@@ -441,7 +507,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle)",
   "triggerType": "Active",
@@ -469,13 +541,13 @@
    {
     "color": "Blue",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【青】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Blue] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -505,7 +577,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引く。",
   "effectEn": "[On Play] Draw 1 card(s).",
   "triggerType": "",
@@ -535,7 +611,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[When Attacking] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -565,7 +645,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -595,7 +679,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -625,7 +713,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札から必要エナジーが3以下で消費APが1の青の〔〈ルーデウス〉か〈エリス〉か〈ルイジェルド〉〕を1枚まで自分の場にレストで登場させるかレイドさせる。【起動メイン】【ターン1】自分の場に〈ルーデウス〉と〈エリス〉がある場合のみ発動できる。このキャラをアクティブにする。",
   "effectEn": "[On Play] Play up to 1 Blue <ルーデウス> or <エリス> or <ルイジェルド> with required energy 3 or less and with AP cost 1 from your hand to your field rested or Raid it. [Activate: Main] [Once Per Turn] Can only activate if you have <ルーデウス> and <エリス> on your field. Set this character to active.",
   "triggerType": "Draw",
@@ -655,7 +747,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -685,7 +781,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】このキャラが自分の効果で登場していた場合、カードを1枚引く。",
   "effectEn": "[On Play] If this character was played by your own effect, draw 1 card(s).",
   "triggerType": "",
@@ -715,7 +815,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分の場に〈ロキシー〉がある場合、このキャラはBP+1000。",
   "effectEn": "[During Your Turn] If you have <ロキシー> on your field, This character gets BP+1000.",
   "triggerType": "Draw",
@@ -745,7 +849,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "ルーデウス"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ルーデウス〉アクティブにし、フロントLに移動できる【登場時】自分の場のキャラを1枚まで選び、このターン中、BP+1000。【起動メイン】【フロントLにある場合】【ターン1】以下から1つ選ぶ。・このキャラの【登場時】を発動する。・自分の場のレイド状態の〈エリス〉を1枚選び、このターン中、【狙い撃ち】を与え、このキャラの一番上のカードを場外に置く。",
   "effectEn": "[Raid] Can Raid onto <ルーデウス>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character on your field, it gets BP+1000 this turn. [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 of the following. Activate this character's [On Play]. Choose 1 Raided <エリス> on your field; it gains [Snipe] this turn, and put this character's top card into your Outside Area.",
   "triggerType": "Raid",
@@ -775,7 +886,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードはフロントLに登場できず、自分の効果以外で移動できない。【アタック時】以下から1つ選ぶ。・自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。・カードを1枚引く。・このターン中に自分が〈豪雷積層雲〉を使用している場合、このキャラはこのターン中、【インパクト（1）】を得る。",
   "effectEn": "This card cannot be played to the Front Line and cannot move except by your own effects. [When Attacking] Choose 1 of the following. Choose up to 1 other character on your field, it gets BP+1000 this turn. Draw 1 card(s). If you have used <豪雷積層雲> this turn, this character gains [Impact 1] this turn.",
   "triggerType": "Get",
@@ -805,7 +920,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -835,7 +954,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見て、〈ルーデウス〉か〈ロキシー〉か必要エナジーが2以下のイベントカードを1枚まで公開し手札に加える。残りを場外に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck, reveal up to 1 <ルーデウス>, <ロキシー> or event card with required energy 2 or less among them, and add it to your hand. Put the rest into your Outside Area. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -863,13 +986,13 @@
    {
     "color": "Blue",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【青】。",
   "effectEn": "While this character is active, its generated energy +[Blue].",
   "triggerType": "",
@@ -899,7 +1022,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】このターン中に自分がイベントカードを使用している場合のみ発動できる。以下から1つ選ぶ。・自分の場のキャラを1枚選び、このターン中、BP+1000。・カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[Activate: Main] [Rest this card] Can only activate if you have used an Event card this turn. Choose 1 of the following. Choose 1 character on your field, it gets BP+1000 this turn. Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -929,7 +1056,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": {
+   "kind": "name",
+   "value": "ロキシー"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ロキシー〉アクティブにし、フロントLに移動できる【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【自分のターン中】このターン中に自分がイベントカードを使用している場合、このキャラは【インパクト（1）】を得る。【登場時】このターン中、次に手札から使用する必要エナジーが3以下のイベントカードの消費APを-1する。",
   "effectEn": "[Raid] Can Raid onto <ロキシー>; set it to active and you may move it to the Front Line. [Impact Nullify] (The character that battles this character loses Impact during this battle) [During Your Turn] If you have used an event card this turn, this character gains [Impact 1]. [On Play] This turn, the next Event card with required energy 3 or less you use from your hand costs 1 less AP.",
   "triggerType": "Raid",
@@ -959,7 +1095,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "ロキシー"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ロキシー〉アクティブにし、フロントLに移動できる【登場時】自分の場外から必要エナジーが2以下のカードを1枚まで手札に加える。【起動メイン】【フロントLにある場合】【ターン1】このターン中に自分がイベントカードを使用している場合のみ発動できる。自分の場の必要エナジーが3以下のキャラを1枚選び、アクティブにする。【起動メイン】【フロントLにある場合】【ターン1】自分の場の〈ルーデウス〉を1枚選び、別のラインに移動させる。",
   "effectEn": "[Raid] Can Raid onto <ロキシー>; set it to active and you may move it to the Front Line. [On Play] Add up to 1 card with required energy 2 or less from your Outside Area to your hand. [Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if you have used an Event card this turn. Choose 1 character on your field with required energy 3 or less, set it to active. [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 <ルーデウス> on your field, move it to another line.",
   "triggerType": "Raid",
@@ -989,7 +1132,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見て、〈ルーデウス〉か〈エリス〉か〈ルイジェルド〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。【起動メイン】【レストにする】【このカードを退場させる】自分の手札から必要エナジーが3以下で消費APが1の青のキャラカードを1枚自分の場にレストで登場させるかレイドさせる。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 <ルーデウス> or <エリス> or <ルイジェルド> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area. [Activate: Main] [Rest this card] [Retire this card] Play 1 Blue character card with required energy 3 or less and with AP cost 1 from your hand to your field rested or Raid it.",
   "triggerType": "Draw",
@@ -1014,7 +1161,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1039,7 +1190,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "以下から3つまで選ぶ。・自分の場に〈ルーデウス〉がある場合、カードを1枚引く。・自分の場に〈エリス〉がある場合、カードを1枚引く。・自分の場に〈ルイジェルド〉がある場合、カードを1枚引く。",
   "effectEn": "Choose up to 3 of the following. If you have <ルーデウス> on your field, Draw 1 card(s). If you have <エリス> on your field, Draw 1 card(s). If you have <ルイジェルド> on your field, Draw 1 card(s).",
   "triggerType": "Draw",
@@ -1064,7 +1219,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは自分の場に〈ロキシー〉がある場合のみ使用できる。自分の場外にあるイベントカード2枚につき、全ての場所でこのカードの必要エナジーを【青×1】減らす。BP5000以下の相手のフロントLのキャラを1枚選び、退場させる。",
   "effectEn": "This card can only be used if you have <ロキシー> on your field. For each 2 event card(s) in your Outside Area, reduce the required energy of this card in all areas by [Blue x1]. Choose 1 character in your opponent's Front Line with BP 5000 or less, retire it.",
   "triggerType": "Special",
@@ -1089,7 +1248,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1114,7 +1277,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のキャラを1枚選び、このターン中、BP+1000。自分の場に〈ロキシー〉がある場合、自分のAPカードを1枚アクティブにする。【起動メイン】【場外にある場合】このターン中に自分の〈ルーデウス〉か〈ロキシー〉がレイドしていた場合のみ発動できる。自分の手札を1枚場外に置く。そうした場合、場外のこのカードを手札に加える。〈師匠からのおくりもの〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "Choose 1 character on your field, it gets BP+1000 this turn. If you have <ロキシー> on your field, Set 1 of your AP cards to active. [Activate: Main] [While in Outside Area] Can only activate if your <ルーデウス> or <ロキシー> Raided this turn. Put 1 card(s) from your hand into your Outside Area. If you do, add this card from your Outside Area to your hand. This <師匠からのおくりもの> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Draw",
@@ -1139,7 +1306,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "以下から1つ選ぶ。・自分の場の〈エリス〉を1枚選び、このターン中、BP+500と【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、その場合ブロックされない）を与える。・自分の場に〈エリス〉がある場合、自分の場外から消費APが1の青の〈ルーデウス〉を1枚まで自分の場にレストで登場させるかレイドさせる。",
   "effectEn": "Choose 1 of the following. Choose 1 <エリス> on your field, and it gets BP+500 and gains [Snipe] (Can attack a character in your opponent's Front Line; if it does, it cannot be blocked) this turn. If you have <エリス> on your field, Play up to 1 Blue <ルーデウス> with AP cost 1 from your Outside Area to your field rested or Raid it.",
   "triggerType": "Special",
@@ -1164,7 +1335,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは自分の場に〈ロキシー〉がある場合のみ使用できる。自分の手札から必要エナジーを満たし消費APが1の青の〔〈ルーデウス〉か〈ロキシー〉〕を1枚まで自分の場にレストで登場させるかレイドさせる。カードを1枚引く。自分の場の〈ルーデウス〉を1枚まで選び、別のラインに移動させる。",
   "effectEn": "This card can only be used if you have <ロキシー> on your field. Play up to 1 Blue <ルーデウス> or <ロキシー> whose required energy you meet and with AP cost 1 from your hand to your field rested or Raid it. Draw 1 card(s). Choose up to 1 <ルーデウス> on your field, move it to another line.",
   "triggerType": "Color",
@@ -1194,7 +1369,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
   "effectEn": "[Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -1224,7 +1403,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【起動メイン】このターン中に自分の場のフィールドが退場している場合のみ発動できる。このキャラをアクティブにする。〈エリナリーゼ〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [Activate: Main] Can only activate if a field on your field was retired this turn. Set this character to active. This <エリナリーゼ> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Active",
@@ -1254,7 +1439,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から5枚見て、緑のフィールドカードを1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 5 card(s) of your deck, reveal up to 1 Green Field card among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -1284,7 +1473,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -1312,13 +1505,13 @@
    {
     "color": "Green",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【緑】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Green] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -1346,13 +1539,13 @@
    {
     "color": "Green",
     "count": 2
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このターン中に自分の場のフィールドが退場している場合、このキャラの発生エナジー+【緑】。【起動メイン】【フロントLにある場合】【ターン1】自分の場のフィールドを1枚退場させる。そうした場合、このキャラはこのターン中、BP+1000。",
   "effectEn": "If a field on your field was retired this turn, this character's generated energy +[Green]. [Activate: Main] [While in Front Line] [Once Per Turn] Retire 1 Field on your field. If you do, This character gets BP+1000 this turn.",
   "triggerType": "",
@@ -1382,7 +1575,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "Draw",
@@ -1412,7 +1611,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場のフィールドを1枚退場させてもよい。そうした場合、このキャラをアクティブにする。【アタック時】自分の場外にフィールドカードが6枚以上ある場合、自分の手札を1枚場外に置いてもよい。そうした場合、このキャラをアクティブにする。〈パウロ〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "[On Play] You may retire 1 Field on your field. If you do, Set this character to active. [When Attacking] If you have 6 or more Field cards in your Outside Area, You may put 1 card(s) from your hand into your Outside Area. If you do, Set this character to active. This <パウロ> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Active",
@@ -1442,7 +1645,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場のフィールドを1枚退場させてもよい。そうした場合、このキャラをアクティブにし、自分の山札の上から4枚見て、特徴を持たない〔キャラカードかフィールドカード〕を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。",
   "effectEn": "[On Play] You may retire 1 Field on your field. If you do, set this character to active, look at the top 4 card(s) of your deck, reveal up to 1 character card with no traits or field card among them, and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Get",
@@ -1472,7 +1679,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1502,7 +1713,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -1532,7 +1747,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】自分の場にフィールドがある場合、カードを1枚引く。",
   "effectEn": "[On Retire] If you have Field on your field, Draw 1 card(s).",
   "triggerType": "",
@@ -1562,7 +1781,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【相手のターン中】自分の緑の【カラートリガー】の効果に記載されている「キャラカード」を「フィールドカード」に代えてもよい。【登場時】カードを1枚引き、自分の手札を1枚場外に置く。【起動メイン】【フロントLにある場合】【ターン1】自分の場のフィールドを1枚退場させてもよい。そうした場合、カードを1枚引く。",
   "effectEn": "[During Opponent's Turn] You may replace “character card” written in your green [Color Trigger] effect with “field card” [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. [Activate: Main] [While in Front Line] [Once Per Turn] You may retire 1 Field on your field. If you do, Draw 1 card(s).",
   "triggerType": "Color",
@@ -1592,7 +1815,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "ロキシー"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈ロキシー〉アクティブにし、フロントLに移動できる【登場時】自分の場外にフィールドカードがある場合、相手のフロントLのキャラを1枚まで選び、レストにする。それは次の相手のアタックフェイズ終了時まで、元々の効果を全て失い、アクティブにならない。",
   "effectEn": "[Raid] Can Raid onto <ロキシー>; set it to active and you may move it to the Front Line. [On Play] If you have Field card in your Outside Area, Choose up to 1 character in your opponent's Front Line, rest it. Until the end of your opponent's next Attack Phase, it loses all original effects and does not become active.",
   "triggerType": "Raid",
@@ -1622,9 +1852,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ラノア魔法大学"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：ラノア魔法大学］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: Ranoa University of Magic] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -1652,15 +1886,15 @@
    {
     "color": "Green",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "ラノア魔法大学"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】自分のフロントLのアクティブのキャラを1枚レストにする。そうした場合、このキャラはこのターン中、発生エナジー+【緑】。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] Rest 1 active character in your Front Line. If you do, This turn, this character's generated energy +[Green].",
   "triggerType": "",
@@ -1690,9 +1924,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ラノア魔法大学"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはフロントLでもエナジーを発生させる。",
   "effectEn": "This character also generates energy in the Front Line.",
   "triggerType": "Draw",
@@ -1717,9 +1955,15 @@
   "bp": 4000,
   "bpMark": "+",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [
    "ラノア魔法大学"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【起動メイン】【ターン1】自分の発生エナジーが7以上あり、自分の場のキャラが全て［特徴：ラノア魔法大学］の場合のみ発動できる。このキャラは次の自分のターン開始時まで、BP+500。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [Activate: Main] [Once Per Turn] Can only activate if your generated energy is 7 or more and all characters on your field are [Trait: Ranoa University of Magic]. This character gets BP+500 until the start of your next turn.",
   "triggerType": "Active",
@@ -1749,9 +1993,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ラノア魔法大学"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】以下から1つ選ぶ。・カードを1枚引き、自分の手札を1枚場外に置く。・自分のフロントLの他の［特徴：ラノア魔法大学］を1枚まで選び、このターン中、「このキャラはフロントLでもエナジーを発生させる。」を与える。",
   "effectEn": "[On Play] Choose 1 of the following. Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. Choose up to 1 other [Trait: Ranoa University of Magic] in your Front Line; it gains “This character also generates energy in the Front Line” this turn.",
   "triggerType": "",
@@ -1781,9 +2029,15 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "ラノア魔法大学"
   ],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【起動メイン】【フロントLにある場合】【ターン1】カードを1枚引き、自分の手札を1枚場外に置く。自分のフロントLの他の［特徴：ラノア魔法大学］を1枚まで選び、このターン中、「このキャラはフロントLでもエナジーを発生させる。」を与える。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [Activate: Main] [While in Front Line] [Once Per Turn] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. Choose up to 1 other [Trait: Ranoa University of Magic] in your Front Line; it gains “This character also generates energy in the Front Line” this turn.",
   "triggerType": "Get",
@@ -1813,9 +2067,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ラノア魔法大学"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -1845,9 +2103,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "ラノア魔法大学"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】以下から1つ選ぶ。・〈ナナホシ〉以外の自分の場のキャラを1枚手札に戻してもよい。そうした場合、このターン中、次に手札から使用する元々の発生エナジーが2以上のキャラカードの消費APを-1する。・カードを1枚引く。",
   "effectEn": "[On Play] Choose 1 of the following. You may return 1 character on your field other than <ナナホシ> to the owner's hand. If you do, this turn, reduce the AP cost of the next character card with original generated energy 2 or more you use from your hand by 1. Draw 1 card(s).",
   "triggerType": "Color",
@@ -1877,9 +2139,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ラノア魔法大学"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の発生エナジーが7以上ある場合、カードを1枚引く。",
   "effectEn": "[On Play] If your generated energy is 7 or more, draw 1 card(s).",
   "triggerType": "Draw",
@@ -1909,9 +2175,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "ラノア魔法大学"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはアクティブで登場させる。【退場時】このカードを手札に加えてもよい。",
   "effectEn": "This character is played active. [On Retire] You may add this card to your hand.",
   "triggerType": "Active",
@@ -1941,9 +2211,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ラノア魔法大学"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは〈シルフィエット〉としても扱う。【登場時】自分の山札の上から2枚見て、［特徴：ラノア魔法大学］を1枚まで場外に置く。残りを望む順で山札の上に置く。",
   "effectEn": "This card is also treated as <シルフィエット>. [On Play] Look at the top 2 card(s) of your deck, and put up to 1 [Trait: Ranoa University of Magic] among them into your Outside Area. Put the rest on top of your deck in any order.",
   "triggerType": "Active",
@@ -1973,9 +2247,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "ラノア魔法大学"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードは〈シルフィエット〉としても扱う。【自分のターン中】自分の発生エナジーが7以上ある場合、このキャラはBP+1000。",
   "effectEn": "This card is also treated as <シルフィエット>. [During Your Turn] If your generated energy is 7 or more, this character gets BP+1000.",
   "triggerType": "Draw",
@@ -2005,9 +2283,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ラノア魔法大学"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "シルフィエット"
+  },
+  "deckLimit": null,
   "effectJp": "このカードは〈シルフィエット〉としても扱う。【レイド】〈シルフィエット〉アクティブにし、フロントLに移動できる【登場時】自分の場の元々の発生エナジーが1以上の［特徴：ラノア魔法大学］を1枚まで選び、次の自分のターン開始時まで、「このキャラは相手の効果で選ばれない。」を与える。【退場時】このキャラのレイド元のカードを1枚まで自分の場にレストで登場させるか手札に加える。",
   "effectEn": "This card is also treated as <シルフィエット>. [Raid] Can Raid onto <シルフィエット>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 [Trait: Ranoa University of Magic] on your field with original generated energy 1 or more; until the start of your next turn, it gains “This character cannot be chosen by your opponent's effects” [On Retire] Play up to 1 of this character's Raid source cards to your field rested, or add them to your hand.",
   "triggerType": "Raid",
@@ -2037,9 +2322,16 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "ラノア魔法大学"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "シルフィエット"
+  },
+  "deckLimit": null,
   "effectJp": "このカードは〈シルフィエット〉としても扱う。【レイド】〈シルフィエット〉アクティブにし、フロントLに移動できる自分の発生エナジーが7以上ある場合、このキャラは【インパクト（1）】を得る。【登場時】以下から1つ選ぶ。・自分の山札の上から5枚見て、［特徴：ラノア魔法大学］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。・相手のフロントLのキャラを1枚まで選び、エナジーLに移動させる。",
   "effectEn": "This card is also treated as <シルフィエット>. [Raid] Can Raid onto <シルフィエット>; set it to active and you may move it to the Front Line. If your generated energy is 7 or more, this character gains [Impact 1]. [On Play] Choose 1 of the following. Look at the top 5 card(s) of your deck, reveal up to 1 [Trait: Ranoa University of Magic] among them and add it to your hand. Put the rest on the bottom of your deck in any order. Choose up to 1 character in your opponent's Front Line, move it to the Energy Line.",
   "triggerType": "Raid",
@@ -2069,9 +2361,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ラノア魔法大学"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から1枚見て、山札の上か場外に置く。",
   "effectEn": "[On Play] Look at the top 1 card(s) of your deck, put them on top of your deck or into your Outside Area.",
   "triggerType": "",
@@ -2101,9 +2397,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ラノア魔法大学"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -2133,9 +2433,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ラノア魔法大学"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle)",
   "triggerType": "",
@@ -2163,15 +2469,15 @@
    {
     "color": "Green",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "ラノア魔法大学"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【緑】。",
   "effectEn": "While this character is active, its generated energy +[Green].",
   "triggerType": "",
@@ -2201,9 +2507,13 @@
     "count": 3
    }
   ],
+  "energyMark": false,
   "traits": [
    "ラノア魔法大学"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードはエナジーLに〔登場・移動〕できず、自分の効果以外でアクティブにならない。【起動メイン】自分の発生エナジーが7以上ある場合のみ発動できる。このキャラをアクティブにする。カードを1枚引く。自分の場のキャラを1枚まで選び、このターン中、BP+2000。このキャラはこのターン中、「自分のアタックフェイズ終了時、このキャラをアクティブにする。」を得る。〈ルーデウス〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "This card is played to the Energy Line. Cannot move, and does not become active except by your own effects. [Activate: Main] Can only activate if your generated energy is 7 or more. Set this character to active. Draw 1 card(s). Choose up to 1 character on your field, it gets BP+2000 this turn. This character gains “At the end of your Attack Phase, Set this character to active” this turn. This <ルーデウス> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Get",
@@ -2233,7 +2543,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場のキャラを1枚退場させてもよい。そうした場合、カードを2枚引く。【退場時】以下から1つ選ぶ。・自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外から必要エナジーが1以下の緑の〈ロキシー〉を1枚まで自分の場にレストで登場させる。・自分の場外から〈迷宮の守護者 マナタイトヒュドラ〉を1枚まで手札に加える。",
   "effectEn": "[On Play] You may retire 1 character on your field. If you do, Draw 2 card(s). [On Retire] Choose 1 of the following. You may put 1 card(s) from your hand into your Outside Area. If you do, Play up to 1 Green <ロキシー> with required energy 1 or less from your Outside Area to your field rested. Add up to 1 <迷宮の守護者 マナタイトヒュドラ> from your Outside Area to your hand.",
   "triggerType": "Get",
@@ -2263,7 +2577,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。【退場時】カードを1枚引く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. [On Retire] Draw 1 card(s).",
   "triggerType": "Get",
@@ -2293,7 +2611,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】自分の場外から必要エナジーが『1』以下で消費APが1の特徴を持たない緑のキャラカードを1枚まで自分の場にレストで登場させるかレイドさせる。自分の場外にある他のフィールドカード1枚につき、この効果で登場させるキャラの必要エナジーの範囲+1。",
   "effectEn": "[On Retire] Play up to 1 green character card(s) with no traits, required energy “1” or less and AP cost 1 from your Outside Area to your field rested, or Raid them. For each 1 other field card(s) in your Outside Area, the required energy range of characters played by this effect is increased by 1.",
   "triggerType": "Special",
@@ -2318,7 +2640,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2343,7 +2669,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈シルフィエット〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <シルフィエット> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -2368,7 +2698,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2393,7 +2727,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを2枚引く。自分のフロントLの［特徴：ラノア魔法大学］を1枚まで選び、このターン中、「このキャラはフロントLでもエナジーを発生させる。」を与える。",
   "effectEn": "Draw 2 card(s). Choose up to 1 [Trait: Ranoa University of Magic] in your Front Line; it gains “This character also generates energy in the Front Line” this turn.",
   "triggerType": "Draw",
@@ -2416,7 +2754,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2439,7 +2781,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2462,7 +2808,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2485,7 +2835,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2508,7 +2862,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2531,7 +2889,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2554,7 +2916,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2577,7 +2943,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2600,7 +2970,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2623,7 +2997,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2646,7 +3024,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2669,7 +3051,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

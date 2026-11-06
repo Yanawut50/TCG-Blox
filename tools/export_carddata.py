@@ -87,6 +87,57 @@ def parse_bp(v) -> tuple[int | None, str]:
     return int(m.group(1)), m.group(2)
 
 
+# Keyword effects (Asia rule manual p.14), by their JP bracket text.
+KEYWORDS = {
+    "ステップ": ("step", True),
+    "狙い撃ち": ("calledStrike", True),
+    "2回アタック": ("doubleAttack", True),
+    "2回ブロック": ("doubleBlock", True),
+    "インパクト（1）": ("impact", 1),
+    "インパクト（+1）": ("impactPlus", 1),
+    "ダメージ（2）": ("damage", 2),
+    "ダメージ（+1）": ("damagePlus", 1),
+    "インパクト無効": ("nullifyImpact", True),
+}
+KW_RE = re.compile(r"【(" + "|".join(re.escape(k) for k in KEYWORDS) + r")】(（[^）]*）)?")
+
+
+def parse_keywords(effect_jp: str) -> dict:
+    """Unconditional keywords only: the keyword starts an ability (text start, or right
+    after "。", "）" or another bracket) and is not followed by を得る/を与える/と
+    (which mean it is granted conditionally or to another card). Conditional keywords
+    are left to effect handlers."""
+    out: dict = {}
+    for m in KW_RE.finditer(effect_jp):
+        before = effect_jp[: m.start()]
+        after = effect_jp[m.end():]
+        # "...アクティブにし、フロントLに移動できる" is the end of a Raid header.
+        if before and before[-1] not in "。）】" and not before.endswith("移動できる"):
+            continue
+        if before.endswith("【起動メイン】") or re.search(r"【(アタック時|ブロック時|登場時|退場時)】$", before):
+            continue
+        if re.match(r"\s*(を得る|を得て|を与える|と|や|を持つ|を失)", after):
+            continue
+        name, value = KEYWORDS[m.group(1)]
+        out[name] = value
+    return out
+
+
+def parse_raid(effect_jp: str) -> dict | None:
+    """【レイド】〈name〉 or 【レイド】［特徴：trait］ at the start of an ability."""
+    m = re.search(r"【レイド】(〈([^〉]+)〉|［特徴：([^］]+)］)", effect_jp)
+    if not m:
+        return None
+    if m.group(2):
+        return {"kind": "name", "value": m.group(2)}
+    return {"kind": "trait", "value": m.group(3)}
+
+
+def parse_deck_limit(effect_jp: str) -> int | None:
+    m = re.search(r"デッキに(\d+)枚まで入れられる", effect_jp)
+    return int(m.group(1)) if m else None
+
+
 def clean_text(v) -> str:
     return "" if v in (None, "-") else str(v)
 
@@ -122,6 +173,7 @@ def main() -> int:
         # The scraper glued energy icons together ("PurplePurple", "Yellow+") and its
         # "count" is wrong for those, so recount from the icon names.
         energy: list[dict] = []
+        energy_mark = False
         for e in to_list(r["generated_energy"]):
             if not isinstance(e, dict):
                 continue
@@ -129,10 +181,14 @@ def main() -> int:
             icons = ICON_RE.findall(raw)
             if "".join(icons) != raw:
                 warnings["unparsed_generated_energy"].append(key)
+            # Rulebook p.01-02: "+" only marks that an effect may raise this card's
+            # energy generation. It is not an energy icon, so it is kept as a flag.
             if "+" in icons:
-                warnings["energy_plus_icon"].append(key)
+                energy_mark = True
             for icon in icons:
-                color = "Plus" if icon == "+" else icon
+                if icon == "+":
+                    continue
+                color = icon
                 if energy and energy[-1]["color"] == color:
                     energy[-1]["count"] += 1
                 else:
@@ -154,7 +210,11 @@ def main() -> int:
             "bp": bp,
             "bpMark": bp_mark,
             "generatedEnergy": energy,
+            "energyMark": energy_mark,
             "traits": to_list(r["traits"]),
+            "keywords": parse_keywords(clean_text(r["effect_jp"])),
+            "raid": parse_raid(clean_text(r["effect_jp"])),
+            "deckLimit": parse_deck_limit(clean_text(r["effect_jp"])),
             "effectJp": clean_text(r["effect_jp"]),
             "effectEn": clean_text(r["effect_en"]),
             "triggerType": r["trigger_type"] or "",

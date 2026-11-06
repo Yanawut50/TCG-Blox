@@ -19,13 +19,13 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【黄】。メインフェイズ終了時、このキャラを退場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Yellow]. At the end of the Main Phase, retire this character.",
   "triggerType": "",
@@ -55,7 +55,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "Draw",
@@ -85,7 +91,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -115,7 +125,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】相手のフロントLのキャラを1枚まで選び、レストにする。",
   "effectEn": "[On Retire] Choose up to 1 character in your opponent's Front Line, rest it.",
   "triggerType": "",
@@ -145,7 +159,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【起動メイン】【APを1支払う】【ターン1】自分のフロントLのキャラ全ては、このターン中、BP+1000。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [Activate: Main] [Pay 1 AP] [Once Per Turn] All characters in your Front Line it gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -175,7 +195,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -205,7 +229,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【レストにする】相手のフロントLのキャラを1枚選び、レストにする。",
   "effectEn": "[Activate: Main] [While in Front Line] [Rest this card] Choose 1 character in your opponent's Front Line, rest it.",
   "triggerType": "Draw",
@@ -235,7 +263,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "釘崎 野薔薇"
+  },
+  "deckLimit": null,
   "effectJp": "【起動メイン】【APを1支払う】【ターン1】このキャラはこのターン中、【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を得る。【レイド】〈釘崎 野薔薇〉アクティブにし、フロントLに移動できる【登場時】相手のフロントLのキャラを1枚まで選び、レストにする。それは次の1回アクティブにならない。",
   "effectEn": "[Activate: Main] [Pay 1 AP] [Once Per Turn] This character, this turn, [Damage 2](When this character deals direct damage by attacking, deal 2 damage instead) is gained. [Raid] Can Raid onto <Nobara Kugisaki>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s).",
   "triggerType": "Raid",
@@ -265,7 +300,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に青か紫のカードがある場合、手札にあるこのカードの必要エナジーを【黄×1】減らす。",
   "effectEn": "If your opponent has Blue or Purple card on their field, the required energy of this card in your hand [Yellow x1]is reduced.",
   "triggerType": "",
@@ -295,7 +334,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】相手の場のフィールドを1枚まで選び、相手の山札の下に置く。",
   "effectEn": "[On Play] Choose up to 1 Field on your opponent's field, and put it on the bottom of your opponent's deck.",
   "triggerType": "",
@@ -325,7 +368,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "doubleBlock": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）【相手のターン中】相手はキャラの効果やイベントカードの効果でこのキャラを選ぶ際に、追加でAPを1支払わないと選べない。",
   "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active) [During Opponent's Turn] Your opponent must pay 1 additional AP to choose this character with character effects or Event card effects.",
   "triggerType": "Color",
@@ -355,7 +404,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】カードを1枚引く。このターン中、次に手札から使用する〈五条 悟〉以外のカードの消費APを-1する。",
   "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] Draw 1 card(s). This turn, the next card other than <Satoru Gojo> you use from your hand costs 1 less AP.",
   "triggerType": "Get",
@@ -385,7 +440,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -413,13 +472,13 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【黄】。",
   "effectEn": "While this character is active, its generated energy +[Yellow].",
   "triggerType": "",
@@ -449,7 +508,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "",
@@ -479,7 +544,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "Active",
@@ -509,7 +580,18 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true,
+   "doubleBlock": true,
+   "impact": 1
+  },
+  "raid": {
+   "kind": "name",
+   "value": "パンダ"
+  },
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【レイド】〈パンダ〉アクティブにし、フロントLに移動できる【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）このキャラはBP+1000。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [Raid] Can Raid onto <Panda>; set it to active and you may move it to the Front Line. [Double Block] (The first time this character blocks each turn, set it to active) [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent)This character gets BP+1000.",
   "triggerType": "Get",
@@ -539,7 +621,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -569,7 +655,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -599,7 +689,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から5枚見る。その中から［特徴：式神］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "[On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 [Trait: Shikigami] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "",
@@ -629,7 +723,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札か自分の場外から必要エナジーが3以下で消費APが1の特徴に「式神」を持つキャラカードを1枚まで自分の場にアクティブで登場させる。",
   "effectEn": "[On Play] Play up to 1 character card(s) with the trait “Shikigami”, required energy 3 or less and AP cost 1 from your hand or Outside Area to your field active.",
   "triggerType": "Color",
@@ -659,7 +757,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "伏黒 恵"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈伏黒 恵〉アクティブにし、フロントLに移動できる【登場時】自分の山札の上から5枚見る。その中から［特徴：式神］か〈嵌合暗翳庭〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。自分の手札から必要エナジーを満たし消費APが1の特徴に「式神」を持つキャラカードを1枚まで自分の場にレストで登場させる。",
   "effectEn": "[Raid] Can Raid onto <Megumi Fushiguro>; set it to active and you may move it to the Front Line. [On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 [Trait: Shikigami] or <嵌合暗翳庭> among them and add it to your hand. Put the rest on the bottom of your deck in any order. Play up to 1 character card(s) with the trait “Shikigami” whose required energy you meet with AP cost 1 from your hand to your field rested.",
   "triggerType": "Raid",
@@ -689,9 +794,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "式神"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -721,9 +830,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "式神"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】自分の場の他のキャラを1枚まで選び、このターン中、BP+500。",
   "effectEn": "[When Attacking] Choose up to 1 other character on your field, it gets BP+500 this turn.",
   "triggerType": "",
@@ -753,9 +866,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "式神"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場外に〈玉犬：黒＆白〉がある場合、このキャラは【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を得る。",
   "effectEn": "If you have <玉犬：黒＆白> in your Outside Area, This character [Damage 2](When this character deals direct damage by attacking, deal 2 damage instead) is gained.",
   "triggerType": "Active",
@@ -785,9 +902,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "式神"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[When Attacking] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -812,7 +933,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【APを1支払う】【ターン1】自分の場の［特徴：式神］全ては、このターン中、BP+1000。【ターン1】自分の場の〈伏黒 恵〉がアタックした時、自分のフロントLの［特徴：式神］を1枚まで選び、アクティブにする。",
   "effectEn": "[Activate: Main] [Pay 1 AP] [Once Per Turn] All [Trait: Shikigami] on your field it gets BP+1000 this turn. [Once Per Turn] When <Megumi Fushiguro> on your field attacks, choose up to 1 [Trait: Shikigami] in your Front Line and set it to active.",
   "triggerType": "Get",
@@ -842,7 +967,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】相手のフロントLのキャラを1枚まで選び、レストにする。自分の場に〈無量空処〉があるかぎり、そのキャラはスタートフェイズとエンドフェイズにアクティブにならない。各アタックフェイズの終了時、自分のフロントLに〈五条 悟〉がない場合、このフィールドを退場させる。",
   "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line, rest it. As long as you have <無量空処> on your field, that character does not become active during the Start Phase and End Phase. At the end of each Attack Phase, if you don't have <Satoru Gojo> in your Front Line, retire this Field.",
   "triggerType": "Get",
@@ -867,7 +996,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に〈五条 悟〉がある場合、手札にあるこのカードの消費APを-1する。相手のフロントLのキャラを1枚選び、リムーブエリアに置く。",
   "effectEn": "If you have <Satoru Gojo> on your field, reduce the AP cost of this card in your hand by 1. Choose 1 character in your opponent's Front Line, and put it into the Remove Area.",
   "triggerType": "Special",
@@ -892,7 +1025,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "BP4000以下の相手のフロントLのキャラを1枚選び、エナジーLに移動させる。（移動させる時にそのラインに空きがない場合、そのカードがある場のプレイヤーはカードを1枚選んでリムーブエリアに置いてから移動させる）",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 4000 or less, move it to the Energy Line. (When moving, if there is no space in that line, the player whose field it is chooses 1 card(s), puts them into the Remove Area, then moves it)",
   "triggerType": "Active",
@@ -917,7 +1054,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手のフロントLのレストのキャラを1枚選び、退場させる。",
   "effectEn": "Choose 1 rested character in your opponent's Front Line, retire it.",
   "triggerType": "",
@@ -942,7 +1083,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のフロントLのアクティブのキャラと相手のフロントLのキャラをそれぞれ1枚ずつ選び、レストにする。自分の場に〈釘崎 野薔薇〉がある場合、自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "Choose 1 each of active characters in your Front Line and characters in your opponent's Front Line, and rest them. If you have <Nobara Kugisaki> on your field, Choose up to 1 of your AP cards, set it to active.",
   "triggerType": "Special",
@@ -967,7 +1112,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを1枚引く。自分の手札か自分の場外から必要エナジーが3以下で消費APが1の特徴に「式神」を持つキャラカードを1枚まで自分のフロントLに『レストで登場させる』。自分の場に〈伏黒 恵〉がある場合、『アクティブで登場させる』に代わる。",
   "effectEn": "Draw 1 card(s). Play up to 1 character card(s) with the trait “Shikigami”, required energy 3 or less and AP cost 1 from your hand or Outside Area to your Front Line “rested” If you have <Megumi Fushiguro> on your field, it becomes “active” instead.",
   "triggerType": "Special",
@@ -992,7 +1141,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1022,7 +1175,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に黄か紫のカードがある場合、手札にあるこのカードの必要エナジーを【青×1】減らす。",
   "effectEn": "If your opponent has Yellow or Purple card on their field, the required energy of this card in your hand [Blue x1]is reduced.",
   "triggerType": "",
@@ -1050,13 +1207,13 @@
    {
     "color": "Blue",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【青】。メインフェイズ終了時、このキャラを退場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Blue]. At the end of the Main Phase, retire this character.",
   "triggerType": "",
@@ -1086,7 +1243,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1116,7 +1277,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から5枚見る。その中から〈宿儺の指〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚自分の山札の下に置く。",
   "effectEn": "[On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 <宿儺の指> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand on the bottom of your deck.",
   "triggerType": "",
@@ -1146,7 +1311,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】BP3500以下の相手のフロントLのキャラを1枚まで選ぶ。自分の場外に〈宿儺の指〉が1～2枚ある場合、選んだキャラを手札に戻す。自分の場外に〈宿儺の指〉が3枚以上ある場合、選んだキャラを退場させる。",
   "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line with BP 3500 or less. If you have 1 to 2 <宿儺の指> in your Outside Area, return the chosen character to the owner's hand. If you have 3 or more <宿儺の指> in your Outside Area, retire the chosen character.",
   "triggerType": "Color",
@@ -1176,7 +1345,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "虎杖 悠仁"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈虎杖 悠仁〉アクティブにし、フロントLに移動できる【登場時】BP4000以下の相手のフロントLのキャラを1枚まで選び、手札に戻す。",
   "effectEn": "[Raid] Can Raid onto <Yuji Itadori (1-040)>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line with BP 4000 or less, return it to its owner's hand.",
   "triggerType": "Raid",
@@ -1206,7 +1382,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】BP1000以上の相手の場のキャラを1枚まで選び、このターン中、BP-500。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Choose up to 1 character on your opponent's field with BP 1000 or more, it gets BP-500 this turn.",
   "triggerType": "",
@@ -1236,7 +1416,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -1266,7 +1450,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -1296,7 +1484,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -1324,13 +1516,13 @@
    {
     "color": "Blue",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【青】。",
   "effectEn": "While this character is active, its generated energy +[Blue].",
   "triggerType": "",
@@ -1360,7 +1552,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】カードを1枚引く。",
   "effectEn": "[When Attacking] Draw 1 card(s).",
   "triggerType": "",
@@ -1390,7 +1586,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "虎杖 悠仁"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈虎杖 悠仁〉アクティブにし、フロントLに移動できる【登場時】相手のフロントLのキャラを1枚まで選び、レストにする。それは次の1回アクティブにならない。自分の山札の上から5枚見る。その中から〈宿儺の指〉か〈伏魔御廚子〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "[Raid] Can Raid onto <Yuji Itadori (1-040)>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s). Look at the top 5 card(s) of your deck. Reveal up to 1 <宿儺の指> or <伏魔御廚子> among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Get",
@@ -1420,7 +1623,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】【フロントLにある場合】相手は自身のフロントLのキャラを『1枚』手札に戻す。自分の場外に〈宿儺の指〉が2～3枚ある場合、『2枚』に代わる。自分の場外に〈宿儺の指〉が4枚以上ある場合、『3枚』に代わる。",
   "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] [While in Front Line] Your opponent returns “1” character(s) in their Front Line to their hand. If you have 2 to 3 <宿儺の指> in your Outside Area, it becomes “2” instead. If you have 4 or more <宿儺の指> in your Outside Area, it becomes “3” instead.",
   "triggerType": "Get",
@@ -1450,7 +1659,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場外に［特徴：呪具］が1枚以上かイベントカードが4枚以上ある場合、このキャラはBP+1000。",
   "effectEn": "If you have 1 or more [Trait: Cursed Tool] or 4 or more Event cards in your Outside Area, this character gets BP+1000.",
   "triggerType": "",
@@ -1480,7 +1693,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【相手のターン中】自分の場外に［特徴：呪具］が1枚以上かイベントカードが4枚以上ある場合、このキャラはBP+1500。【登場時】自分の山札の上から2枚見る。その中からカードを1枚手札に加え、残りを場外に置く。",
   "effectEn": "[During Opponent's Turn] If you have 1 or more [Trait: Cursed Tool] or 4 or more Event cards in your Outside Area, this character gets BP+1500. [On Play] Look at the top 2 card(s) of your deck. From among them, add 1 card(s) to your hand and put the rest into your Outside Area.",
   "triggerType": "",
@@ -1510,7 +1727,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1540,7 +1761,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】自分の山札の上から1枚を場外に置いてもよい。そうした場合、BP1500以上の相手の場のキャラを1枚まで選び、このターン中、BP-1000。",
   "effectEn": "[When Attacking] You may put the top 1 card(s) of your deck into your Outside Area. If you do, Choose up to 1 character on your opponent's field with BP 1500 or more, it gets BP-1000 this turn.",
   "triggerType": "Draw",
@@ -1570,7 +1795,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札が15枚以下の場合、このキャラは【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。【登場時】自分の場外にあるカードを7枚リムーブエリアに置いてもよい。そうした場合、カードを3枚引く。",
   "effectEn": "If you have 15 or fewer cards in your deck, this character gains [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] You may put 7 cards in your Outside Area into the Remove Area. If you do, Draw 3 card(s).",
   "triggerType": "Color",
@@ -1600,7 +1829,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "七海 建人"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈七海 建人〉アクティブにし、フロントLに移動できる自分の山札が15枚以下の場合、このキャラはBP+1000と【インパクト（1）】と【ダメージ（2）】を得る。【退場時】自分の山札の上から2枚を場外に置いてもよい。そうした場合、相手のフロントLのキャラを1枚まで選び、レストにする。",
   "effectEn": "[Raid] Can Raid onto <Kento Nanami (Release Event Participation)>; set it to active and you may move it to the Front Line. If you have 15 or fewer cards in your deck, this character gains BP+1000, [Impact 1] and [Damage 2]. [On Retire] You may put the top 2 card(s) of your deck into your Outside Area. If you do, Choose up to 1 character in your opponent's Front Line, rest it.",
   "triggerType": "Raid",
@@ -1630,7 +1866,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -1660,7 +1902,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】BP1500以上の相手の場のキャラを1枚まで選び、このターン中、BP-1000。",
   "effectEn": "[On Play] Choose up to 1 character on your opponent's field with BP 1500 or more, it gets BP-1000 this turn.",
   "triggerType": "",
@@ -1690,7 +1936,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】相手の場のフィールドを1枚まで選び、相手の山札の下に置く。",
   "effectEn": "[On Play] Choose up to 1 Field on your opponent's field, and put it on the bottom of your opponent's deck.",
   "triggerType": "",
@@ -1720,7 +1970,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
   "effectEn": "[Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -1750,7 +2004,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】カードを1枚引く。",
   "effectEn": "[On Retire] Draw 1 card(s).",
   "triggerType": "",
@@ -1780,9 +2038,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "京都校"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】自分のフロントLの他のキャラと、自分のエナジーLの他のキャラを1枚ずつ選び、それらの位置を入れ替えてもよい。",
   "effectEn": "[When Attacking] You may choose 1 each of other characters in your Front Line and other characters in your Energy Line, and swap their positions.",
   "triggerType": "Active",
@@ -1812,7 +2074,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】自分の場の〈宿儺〉を1枚選び、このターン中、自分の場外にある〈宿儺の指〉の枚数により以下の効果を全て得る。・2枚以上：【ダメージ（2）】・3枚以上：【狙い撃ち】・4枚以上：【インパクト（+1）】（【狙い撃ち】：相手のフロントLのキャラを指定してアタックでき、指定した場合、相手はブロックできない）",
   "effectEn": "This Field is played active. [Activate: Main] [Rest this card] Choose 1 <Sukuna> on your field; this turn it gains all of the following effects depending on the number of <宿儺の指> in your Outside Area. 2 or more: [Damage 2]. 3 or more: [Snipe]. 4 or more: [Impact +1] ([Snipe]: Can attack a character in your opponent's Front Line; if it does, your opponent cannot block)",
   "triggerType": "Get",
@@ -1837,7 +2103,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "BP5000以下の相手のフロントLのキャラを1枚選び、『手札に戻す』。自分の場に〈虎杖 悠仁〉がある場合、『退場させる』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 5000 or less, “return it to its owner's hand” If you have <Yuji Itadori (1-040)> on your field, it becomes “retire it” instead.",
   "triggerType": "Special",
@@ -1862,7 +2132,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードを使用する際に、自分のライフを1枚場外に置くか自分の場のアクティブの〈虎杖 悠仁〉を1枚レストにしないとこのカードは使用できない。カードを1枚引く。自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "To use this card, you must put 1 of your Life into your Outside Area or rest 1 active <Yuji Itadori (1-040)> on your field. Draw 1 card(s). Choose up to 1 of your AP cards, set it to active.",
   "triggerType": "Draw",
@@ -1887,7 +2161,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "BP5000以下の相手のフロントLのキャラを1枚選び、相手の山札の上か下の『相手が選んだ方』に置く。自分の場に〈七海 建人〉がある場合、『自分が選んだ方』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 5000 or less, and put it on the top or bottom of your opponent's deck (your opponent chooses which) If you have <Kento Nanami (Release Event Participation)> on your field, it becomes “you choose” instead.",
   "triggerType": "Special",
@@ -1912,9 +2190,13 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [
    "呪具"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のフロントLのキャラを1枚まで選び、このターン中、BP+2000。カードを1枚引く。",
   "effectEn": "Choose up to 1 character in your Front Line, it gets BP+2000 this turn. Draw 1 card(s).",
   "triggerType": "Draw",
@@ -1939,9 +2221,13 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [
    "呪具"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "BP2500以下の相手のフロントLのキャラを1枚選び、退場させる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 2500 or less, retire it.",
   "triggerType": "Active",
@@ -1966,7 +2252,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1996,7 +2286,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚退場させてもよい。そうした場合、自分の山札の上から6枚見る。その中から［特徴：呪霊］を2枚まで公開し手札に加える。残りを場外に置く。",
   "effectEn": "[On Play] You may retire 1 other character on your field. If you do, Look at the top 6 card(s) of your deck. Reveal up to 2 [Trait: Cursed Spirit] among them and add it to your hand. Put the rest into your Outside Area.",
   "triggerType": "Draw",
@@ -2026,7 +2320,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】自分の場の他のキャラを1枚退場させてもよい。【起動メイン】【フロントLにある場合】【ターン1】このターン中に自分の場のキャラが退場している場合のみ発動できる。相手は自身の場のキャラを1枚退場させる。",
   "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] You may retire 1 other character on your field. [Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if a character on your field was retired this turn. Your opponent retires 1 character(s) on their field.",
   "triggerType": "Get",
@@ -2056,7 +2356,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -2084,13 +2388,13 @@
    {
     "color": "Purple",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【紫】。メインフェイズ終了時、このキャラを退場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Purple]. At the end of the Main Phase, retire this character.",
   "triggerType": "",
@@ -2120,9 +2424,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "改造人間"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】相手のフロントLのキャラを1枚選び、このターン中、BP-1000。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Choose 1 character in your opponent's Front Line, it gets BP-1000 this turn.",
   "triggerType": "",
@@ -2152,9 +2460,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "改造人間"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -2182,15 +2494,15 @@
    {
     "color": "Purple",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [
    "京都校"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【紫】。",
   "effectEn": "While this character is active, its generated energy +[Purple].",
   "triggerType": "",
@@ -2220,9 +2532,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "京都校"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から［特徴：京都校］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: Kyoto School] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -2252,9 +2568,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "京都校"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -2284,9 +2604,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "京都校"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。",
   "effectEn": "[When Attacking] Choose up to 1 character in your opponent's Front Line, it gets BP-1000 this turn.",
   "triggerType": "",
@@ -2316,9 +2640,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "京都校"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -2348,9 +2676,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "京都校"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -2380,9 +2712,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "京都校"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に〈高田ちゃん〉がある場合、このキャラはBP+500。【起動メイン】【手札を1枚場外に置く】【ターン1】このキャラはこのターン中、【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を得る。",
   "effectEn": "If you have <高田ちゃん> on your field, This character gets BP+500. [Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] This character, this turn, [Damage 2](When this character deals direct damage by attacking, deal 2 damage instead) is gained.",
   "triggerType": "Color",
@@ -2412,9 +2748,18 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "京都校"
   ],
+  "keywords": {
+   "damage": 2
+  },
+  "raid": {
+   "kind": "name",
+   "value": "東堂 葵"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈東堂 葵〉アクティブにし、フロントLに移動できる【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【登場時】このキャラはこのターン中、BP+2000。相手のフロントLのキャラと、相手のエナジーLのキャラを1枚ずつ選び、それらの位置を入れ替えてもよい。",
   "effectEn": "[Raid] Can Raid onto <Aoi Todo>; set it to active and you may move it to the Front Line. [Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [On Play] This character gets BP+2000 this turn. You may choose 1 each of characters in your opponent's Front Line and characters in your opponent's Energy Line, and swap their positions.",
   "triggerType": "Raid",
@@ -2444,9 +2789,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "京都校"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札から必要エナジーが2以下で消費APが1の特徴に「京都校」を持つキャラカードを1枚まで自分の場にレストで登場させる。",
   "effectEn": "[On Play] Play up to 1 character card(s) with the trait “Kyoto School”, required energy 2 or less and AP cost 1 from your hand to your field rested.",
   "triggerType": "",
@@ -2476,9 +2825,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "京都校"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引く。",
   "effectEn": "[On Play] Draw 1 card(s).",
   "triggerType": "",
@@ -2508,9 +2861,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "京都校"
   ],
+  "keywords": {
+   "doubleAttack": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【2回アタック】（このキャラがこのターン初めてアタックした時、アクティブにする）このキャラは、相手のアタックを可能ならブロックしなければならない。【登場時】相手のフロントLのキャラを1枚まで選び、このキャラと同じラインにある他の［特徴：京都校］1枚につき、このターン中、BP-1000。【ブロック時】アタックしている相手のキャラを1枚選び、このキャラと同じラインにある他の［特徴：京都校］1枚につき、このターン中、BP-1000。",
   "effectEn": "[Double Attack] (The first time this character attacks each turn, set it to active) This character must block your opponent's attacks if able. [On Play] Choose up to 1 character in your opponent's Front Line, and it gets BP-1000 this turn for each 1 other [Trait: Kyoto School] in the same line as this character. [When Blocking] Choose 1 attacking opponent's character, and it gets BP-1000 this turn for each 1 other [Trait: Kyoto School] in the same line as this character.",
   "triggerType": "Get",
@@ -2540,9 +2899,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "式神"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場に〈真人〉がある場合、自分の山札の上から3枚を場外に置いてもよい。【退場時】自分の場に〈真人〉がある場合、自分の手札か自分の場外から〈吉野 順平：異形〉を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[On Play] If you have <Mahito> on your field, You may put the top 3 card(s) of your deck into your Outside Area. [On Retire] If you have <Mahito> on your field, play up to 1 <吉野 順平：異形> from your hand or Outside Area to your field rested.",
   "triggerType": "",
@@ -2572,9 +2935,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "呪霊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。",
   "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line, it gets BP-1000 this turn.",
   "triggerType": "",
@@ -2604,9 +2971,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "呪霊"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "漏瑚"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈漏瑚〉アクティブにし、フロントLに移動できる【登場時】BP3000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "[Raid] Can Raid onto <Jogo>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it.",
   "triggerType": "Get",
@@ -2636,9 +3010,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "呪霊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【退場時】カードを1枚引く。",
   "effectEn": "[On Retire] Draw 1 card(s).",
   "triggerType": "",
@@ -2668,9 +3046,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "呪霊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手の場に黄か青のカードがある場合、手札にあるこのカードの必要エナジーを【紫×1】減らす。",
   "effectEn": "If your opponent has Yellow or Blue card on their field, the required energy of this card in your hand [Purple x1]is reduced.",
   "triggerType": "",
@@ -2700,9 +3082,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "呪霊"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -2732,9 +3120,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "呪霊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -2764,9 +3156,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "呪霊"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分の場の〈真人〉以外のキャラを1枚退場させる。そうした場合、自分の山札の上から3枚を場外に置いてもよい。自分の手札か自分の場外から特徴に「改造人間」を持つキャラカードを1枚まで自分の場にアクティブで登場させる。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Retire 1 character on your field other than <Mahito>. If you do, You may put the top 3 card(s) of your deck into your Outside Area. Play up to 1 character card(s) with the trait “Modified Human” from your hand or Outside Area to your field active.",
   "triggerType": "Color",
@@ -2796,9 +3192,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "呪霊"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "真人"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈真人〉アクティブにし、フロントLに移動できる【登場時】相手のフロントLのキャラを1枚まで選び、このターン中、BP-2500。自分の場外から［特徴：改造人間］か〈自閉円頓裹〉を1枚まで手札に加える。",
   "effectEn": "[Raid] Can Raid onto <Mahito>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line, it gets BP-2500 this turn. Add up to 1 [Trait: Modified Human] or <自閉円頓裹> from your Outside Area to your hand.",
   "triggerType": "Raid",
@@ -2823,7 +3226,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ターン1】自分の場の〈真人〉がアタックした時、自分の場の〈真人〉以外のキャラを1枚退場させてもよい。そうした場合、自分の手札か自分の場外から特徴に「改造人間」を持つキャラカードを1枚まで自分の場にアクティブで登場させる。",
   "effectEn": "[Once Per Turn] When <Mahito> on your field attacks, you may retire 1 character on your field other than <Mahito>. If you do, play up to 1 character card(s) with the trait “Modified Human” from your hand or Outside Area to your field active.",
   "triggerType": "Get",
@@ -2848,7 +3255,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "BP2500以下の相手のフロントLのキャラを1枚まで選び、退場させる。自分の場に〈漏瑚〉がある場合、カードを1枚引く。",
   "effectEn": "Choose up to 1 character in your opponent's Front Line with BP 2500 or less, retire it. If you have <Jogo> on your field, Draw 1 card(s).",
   "triggerType": "Draw",
@@ -2873,7 +3284,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場外から特徴に「京都校」を持つキャラカードを1枚まで手札に加える。自分の手札から必要エナジーを満たし消費APが1の特徴に「京都校」を持つキャラカードを1枚まで自分の場にレストで登場させるかレイドさせる。",
   "effectEn": "Add up to 1 character card(s) with the trait “Kyoto School” from your Outside Area to your hand. Play up to 1 character card(s) with the trait “Kyoto School” whose required energy you meet with AP cost 1 from your hand to your field rested, or Raid with it.",
   "triggerType": "Draw",
@@ -2898,7 +3313,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場の〈東堂 葵〉と自分の場の〈東堂 葵〉以外のキャラをそれぞれ1枚まで選び、このターン中、BP+1000。2枚選んだ場合、この効果で選んだ〈東堂 葵〉に、このターン中、【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を与える。",
   "effectEn": "Choose up to 1 each of <Aoi Todo> on your field and characters on your field other than <Aoi Todo>, and they get BP+1000 this turn. If you chose 2, <Aoi Todo> chosen by this effect gains [Impact +1] (Damage dealt by Impact is increased by 1; if it doesn't have Impact, it gains [Impact 1]) this turn.",
   "triggerType": "Active",
@@ -2923,7 +3342,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "BP5000以下の相手のフロントLのキャラを1枚選び、相手の山札の下に置く。相手は自身の手札から必要エナジーが3以下のキャラカードを1枚まで自身のフロントLにレストで登場させる。この効果で登場したキャラの【登場時】は発動しない。自分の場に〈東堂 葵〉がある場合、カードを1枚引く。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 5000 or less, and put it on the bottom of your opponent's deck. Your opponent plays up to 1 character card(s) with required energy 3 or less from their hand to their Front Line rested. [On Play] of characters played by this effect does not activate. If you have <Aoi Todo> on your field, Draw 1 card(s).",
   "triggerType": "Special",
@@ -2948,7 +3371,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "BP3000以下の相手のフロントLのキャラを1枚選び、退場させる。自分の山札の上から3枚を場外に置いてもよい。この効果で相手のキャラを退場させ、自分の場に〈真人〉がある場合、自分の手札か自分の場外から特徴に「改造人間」を持つキャラカードを1枚まで自分の場にアクティブで登場させる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. You may put the top 3 card(s) of your deck into your Outside Area. If this effect retired your opponent's character and you have <Mahito> on your field, play up to 1 character card(s) with the trait “Modified Human” from your hand or Outside Area to your field active.",
   "triggerType": "Special",
@@ -2973,7 +3400,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -3003,7 +3434,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【相手のターン中】自分の場外に〈宿儺の指〉がある場合、このキャラはBP+1000。",
   "effectEn": "[During Opponent's Turn] If you have <宿儺の指> in your Outside Area, This character gets BP+1000.",
   "triggerType": "Active",
@@ -3033,7 +3468,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -3063,7 +3502,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "impact": 1
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】【フロントLにある場合】相手は自身のフロントLにあるキャラを1枚手札に戻す。",
   "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] [While in Front Line] Your opponent returns 1 character(s) in their Front Line to their hand.",
   "triggerType": "Get",
@@ -3093,7 +3538,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[When Attacking] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -3123,7 +3572,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "虎杖 悠仁"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈虎杖 悠仁〉アクティブにし、フロントLに移動できる【自分のターン中】自分の場外に〈宿儺の指〉が1枚以上ある場合、このキャラはBP+1000。2枚以上ある場合、このキャラは【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。【登場時】カードを2枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[Raid] Can Raid onto <Yuji Itadori (1-040)>; set it to active and you may move it to the Front Line. [During Your Turn] If you have 1 or more <宿儺の指> in your Outside Area, This character gets BP+1000. If there are 2 or more, this character gains [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Raid",
@@ -3153,7 +3609,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3183,7 +3643,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】BP3000以下の相手の場のキャラを1枚まで選び、手札に戻す。",
   "effectEn": "[On Play] Choose up to 1 character on your opponent's field with BP 3000 or less, return it to its owner's hand.",
   "triggerType": "",
@@ -3213,7 +3677,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】【ターン1】このターン中に自分がイベントカードを使用している場合のみ発動できる。自分の場のキャラ全ては、このターン中、BP+1000。",
   "effectEn": "This Field is played active. [Activate: Main] [Rest this card] [Once Per Turn] Can only activate if you have used an Event card this turn. All characters on your field it gets BP+1000 this turn.",
   "triggerType": "Get",
@@ -3238,7 +3706,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを3枚引き、自分の手札を2枚場外に置く。",
   "effectEn": "Draw 3 card(s), then put 2 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -3261,7 +3733,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3284,7 +3760,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3307,7 +3787,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3330,7 +3814,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3353,7 +3841,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3376,7 +3868,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

@@ -21,9 +21,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ALSTROEMERIA"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：ALSTROEMERIA］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚リムーブエリアに置く。【起動メイン】【フロントLにある場合】【ターン1】自分の場外にあるカードが3枚以下の場合のみ発動できる。BP4500以上の相手のフロントLのキャラを1枚選び、このターン中、BP-1000。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: ALSTROEMERIA] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into the Remove Area. [Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if you have 3 or fewer cards in your Outside Area. Choose 1 character in your opponent's Front Line with BP 4500 or more, it gets BP-1000 this turn.",
   "triggerType": "Active",
@@ -53,9 +57,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "ALSTROEMERIA"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場外のカードを3枚までリムーブエリアに置く。自分の場外にあるカードが0枚の場合、カードを1枚引く。【起動メイン】【レストにする】自分の場外のカードを1枚リムーブエリアに置く。",
   "effectEn": "[On Play] Put into the owner's remove area up to 3 cards in your Outside Area. If you have exactly 0 cards in your Outside Area, draw 1 card(s). [Activate: Main] [Rest this card] Put into the owner's remove area 1 card in your Outside Area.",
   "triggerType": "Active",
@@ -85,9 +93,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ALSTROEMERIA"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "桑山 千雪"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈桑山 千雪〉アクティブにし、フロントLに移動できる【自分のターン中】自分の場の他の［特徴：ALSTROEMERIA］全ては、BP+500。【登場時】このターン中、次に手札から使用する必要エナジーが4以下の［特徴：ALSTROEMERIA］の消費APを-1する。【起動メイン】【ターン1】このキャラが登場したターン中のみ発動できる。必要エナジーが4以下の自分の場の［特徴：ALSTROEMERIA］を1枚選び、そのキャラの【登場時】を発動する。",
   "effectEn": "[Raid] Can Raid onto <桑山 千雪>; set it to active and you may move it to the Front Line. [During Your Turn] All other [Trait: ALSTROEMERIA] on your field BP+500. [On Play] This turn, the next [Trait: ALSTROEMERIA] with required energy 4 or less you use from your hand costs 1 less AP. [Activate: Main] [Once Per Turn] Can only activate during the turn this character was played. Choose 1 [Trait: ALSTROEMERIA] on your field with required energy 4 or less and activate that character's [On Play].",
   "triggerType": "Raid",
@@ -117,9 +132,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "illumination STARS"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "櫻木 真乃"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈櫻木 真乃〉アクティブにし、フロントLに移動できる【起動メイン】【フロントLにある場合】【ターン1】自分の場の〈風野 灯織〉か〈八宮 めぐる〉を1枚選び、このターン中、BP+500と【インパクト（1）】を与える。【アタック時】自分のフロントLに〈風野 灯織〉と〈八宮 めぐる〉がある場合、このキャラをアクティブにする。〈櫻木 真乃〉のこの効果は1ターンに1回のみ発動する。",
   "effectEn": "[Raid] Can Raid onto <櫻木 真乃>; set it to active and you may move it to the Front Line. [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 <風野 灯織> or <八宮 めぐる> on your field; it gains BP+500 and [Impact 1] this turn. [When Attacking] If you have <風野 灯織> and <八宮 めぐる> in your Front Line, Set this character to active. This <櫻木 真乃> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Raid",
@@ -149,9 +171,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "illumination STARS"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "八宮 めぐる"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈八宮 めぐる〉アクティブにし、フロントLに移動できる【登場時】以下から『1つ』選ぶ。自分の場に〈櫻木 真乃〉と〈風野 灯織〉がある場合、『2つ』に代わる。・カードを1枚引く。・このターン中、次に手札から使用する〔〈櫻木 真乃〉か〈風野 灯織〉〕の消費APを-1する。",
   "effectEn": "[Raid] Can Raid onto <八宮 めぐる>; set it to active and you may move it to the Front Line. [On Play] Choose 1 of the following. If you have <櫻木 真乃> and <風野 灯織> on your field, it becomes “2” instead. Draw 1 card(s). This turn, the next <櫻木 真乃> or <風野 灯織> you use from your hand costs 1 less AP.",
   "triggerType": "Raid",
@@ -181,9 +210,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "illumination STARS"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）自分の場に〈櫻木 真乃〉と〈八宮 めぐる〉がある場合、このキャラはBP+500。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle)If you have <櫻木 真乃> and <八宮 めぐる> on your field, This character gets BP+500.",
   "triggerType": "Active",
@@ -213,9 +248,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "SHHis"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【手札を1枚場外に置く】自分の場の他のキャラの特徴が3種類以上ある場合のみ発動できる。自分の場の［特徴：SHHis］以外のキャラを1枚選び、このターン中、BP+2000。",
   "effectEn": "[Activate: Main] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] Can only activate if the other characters on your field have 3 or more different traits. Choose 1 character on your field other than [Trait: SHHis], it gets BP+2000 this turn.",
   "triggerType": "Active",
@@ -245,9 +284,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "SHHis"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "七草 にちか"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈七草 にちか〉アクティブにし、フロントLに移動できる【登場時】自分の山札の上から7枚見て、〈283プロダクション〉か必要エナジーが1以下の黄のキャラカードを1枚まで自分の場にレストで登場させる。残りを望む順で山札の下に置く。【起動メイン】【フロントLにある場合】【ターン1】自分の場の他のキャラの特徴が3種類以上ある場合のみ発動できる。BP1000以上の相手のフロントLのキャラ全ては、このターン中、BP-500。",
   "effectEn": "[Raid] Can Raid onto <七草 にちか>; set it to active and you may move it to the Front Line. [On Play] Look at the top 7 card(s) of your deck and play up to 1 <283プロダクション> or yellow character card with required energy 1 or less among them to your field rested. Put the rest on the bottom of your deck in any order. [Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if the other characters on your field have 3 or more different traits. All characters in your opponent's Front Line with BP 1000 or more it gets BP-500 this turn.",
   "triggerType": "Raid",
@@ -272,7 +318,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から6枚見て、必要エナジーが2以下の黄の［特徴：ALSTROEMERIA］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。このカードをリムーブエリアに置く。自分の場外にあるカードが0枚の場合、自分の手札から必要エナジーが1以下で消費APが1の黄の［特徴：ALSTROEMERIA］を1枚まで自分の場にレストで登場させる。",
   "effectEn": "Look at the top 6 card(s) of your deck, reveal up to 1 Yellow [Trait: ALSTROEMERIA] with required energy 2 or less among them and add it to your hand. Put the rest on the bottom of your deck in any order. Put this card into the Remove Area. If you have exactly 0 cards in your Outside Area, play up to 1 yellow [Trait: ALSTROEMERIA] with required energy 1 or less and AP cost 1 from your hand to your field rested.",
   "triggerType": "Get",
@@ -302,9 +352,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "L'Antica"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "白瀬 咲耶"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈白瀬 咲耶〉アクティブにし、フロントLに移動できる【登場時】BP2500以上の相手の場のキャラを1枚まで選び、このターン中、BP-2000。【アタック時】相手の場に元々のBPよりBPが低いキャラがある場合、カードを1枚引く。",
   "effectEn": "[Raid] Can Raid onto <白瀬 咲耶>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character on your opponent's field with BP 2500 or more, it gets BP-2000 this turn. [When Attacking] If your opponent has a character whose BP is lower than its original BP on their field, draw 1 card(s).",
   "triggerType": "Raid",
@@ -334,9 +391,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "L'Antica"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはアクティブで登場させる。【登場時】このキャラはこのターン中、「【アタック時】BP2000以下の相手のフロントLのキャラを1枚まで選び、手札に戻す。」を得る。【起動メイン】【フロントLにある場合】【ターン1】BP1500以上の相手の場のキャラを1～2枚選び、このターン中、BP-1000。",
   "effectEn": "This character is played active. [On Play] This character gains “[When Attacking]Choose up to 1 character in your opponent's Front Line with BP 2000 or less, return it to its owner's hand” this turn. [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 to 2 character(s) on your opponent's field with BP 1500 or more; they get BP-1000 this turn.",
   "triggerType": "Get",
@@ -366,9 +427,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "L'Antica"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【自分のターン中】自分の場に異なるカード名を持つ他の［特徴：L'Antica］が2種類以上ある場合、このキャラはBP+500。【退場時】自分の手札を1枚場外に置いてもよい。そうした場合、BP1500以上の相手の場のキャラを1枚まで選び、このターン中、BP-1000。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [During Your Turn] If you have 2 or more other [Trait: L'Antica] with different card names on your field, this character gets BP+500. [On Retire] You may put 1 card(s) from your hand into your Outside Area. If you do, Choose up to 1 character on your opponent's field with BP 1500 or more, it gets BP-1000 this turn.",
   "triggerType": "Active",
@@ -398,9 +465,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "L'Antica"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -430,9 +501,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "L'Antica"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】BP1500以上の相手の場のキャラを1枚まで選び、このターン中、BP-1000。【アタック時】相手の場に元々のBPよりBPが低いキャラがある場合、以下から1つ選ぶ。・このキャラはこのターン中、BP+1000。・このキャラはこのターン中、【インパクト（1）】を得る。",
   "effectEn": "[On Play] Choose up to 1 character on your opponent's field with BP 1500 or more, it gets BP-1000 this turn. [When Attacking] If your opponent has a character whose BP is lower than its original BP on their field, choose 1 of the following. This character gets BP+1000 this turn. This character, this turn, [Impact 1] is gained.",
   "triggerType": "Active",
@@ -462,9 +537,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "noctchill"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】このターン中に自分が手札からカードを4枚以上使用している場合、BP4000～5000の相手のフロントLのキャラを1枚まで選び、レストにする。〈浅倉 透〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "[When Attacking] If you have used 4 or more cards from your hand this turn, choose up to 1 character in your opponent's Front Line with BP 4000 to 5000, and rest it. This <浅倉 透> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Draw",
@@ -494,9 +573,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "noctchill"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分の場に〈福丸 小糸〉がある場合、このキャラはBP+1000。",
   "effectEn": "[During Your Turn] If you have <福丸 小糸> on your field, This character gets BP+1000.",
   "triggerType": "Active",
@@ -526,9 +609,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "noctchill"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このターン中に自分が他の〈樋口 円香〉をAPを支払わずに手札から使用している場合、このキャラは登場できない。自分のフロントLに〈浅倉 透〉があり、自分の場に〈市川 雛菜〉と〈福丸 小糸〉がある場合、手札にあるこのカードの消費APを-2する。【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【登場時】カードを1枚引く。自分の場の他の［特徴：noctchill］を1枚自分の山札の下に置く。",
   "effectEn": "If you have used another <樋口 円香> from your hand without paying AP this turn, this character cannot be played. If you have <浅倉 透> in your Front Line and <市川 雛菜> and <福丸 小糸> on your field, reduce the AP cost of this card in your hand by 2. [Impact Nullify] (The character that battles this character loses Impact during this battle) [On Play] Draw 1 card(s). Put 1 other [Trait: noctchill] on your field on the bottom of your deck.",
   "triggerType": "Get",
@@ -558,9 +647,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "noctchill"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "福丸 小糸"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈福丸 小糸〉アクティブにし、フロントLに移動できる【自分のターン中】自分の場に〈市川 雛菜〉がある場合、このキャラはBP+500。【ターン1】このキャラがアタックしてバトルに勝利した時、このキャラをアクティブにする。【登場時】自分の山札の上から7枚見て、〈市川 雛菜〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。",
   "effectEn": "[Raid] Can Raid onto <福丸 小糸>; set it to active and you may move it to the Front Line. [During Your Turn] If you have <市川 雛菜> on your field, This character gets BP+500. [Once Per Turn] When this character attacks and wins a battle, Set this character to active. [On Play] Look at the top 7 card(s) of your deck, reveal up to 1 <市川 雛菜> among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Raid",
@@ -585,7 +681,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを1枚引く。自分の場に［特徴：noctchill］がある場合、自分のAPカードを1枚アクティブにする。",
   "effectEn": "Draw 1 card(s). If you have [Trait: noctchill] on your field, Set 1 of your AP cards to active.",
   "triggerType": "",
@@ -615,9 +715,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ALSTROEMERIA"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "大崎 甘奈"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈大崎 甘奈〉アクティブにし、フロントLに移動できる【自分のターン中】このターン中に自分の場外のカードが自分の山札に置かれている場合、このキャラは【インパクト（1）】を得る。【登場時】自分の山札の上から1枚見て、山札の上か場外に置く。カードを1枚引く。【起動メイン】【フロントLにある場合】【ターン1】自分の場の［特徴：ALSTROEMERIA］を1枚選び、このターン中、BP+1000。自分の山札の上から1枚まで場外に置く。",
   "effectEn": "[Raid] Can Raid onto <大崎 甘奈>; set it to active and you may move it to the Front Line. [During Your Turn] If a card from your Outside Area was put into your deck this turn, this character gains [Impact 1]. [On Play] Look at the top 1 card(s) of your deck, put them on top of your deck or into your Outside Area. Draw 1 card(s). [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 [Trait: ALSTROEMERIA] on your field, it gets BP+1000 this turn. Put up to the top 1 card(s) of your deck into your Outside Area.",
   "triggerType": "Raid",
@@ -647,9 +754,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ALSTROEMERIA"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚まで場外に置く。【起動メイン】【ターン1】自分の場外の［特徴：ALSTROEMERIA］を3枚望む順で自分の山札の下に置く。そうした場合、このキャラはこのターン中、「このキャラはフロントLでもエナジーを発生させる。」を得る。",
   "effectEn": "[On Play] Put up to the top 2 card(s) of your deck into your Outside Area. [Activate: Main] [Once Per Turn] Put 3 [Trait: ALSTROEMERIA] from your Outside Area on the bottom of your deck in any order. If you do, this character gains “This character also generates energy in the Front Line” this turn.",
   "triggerType": "Draw",
@@ -679,9 +790,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "ALSTROEMERIA"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがレイドされた時、自分の場外の［特徴：ALSTROEMERIA］を1枚自分の山札の下に置いてもよい。そうした場合、レイドしたキャラにこのターン中、BP+1000と「このキャラがアタックしてバトルに勝利した時、カードを1枚まで引く。」を与える。（レイドしたキャラの【登場時】とこの効果は望む順で処理する）",
   "effectEn": "When this character is Raided, you may put 1 [Trait: ALSTROEMERIA] from your Outside Area on the bottom of your deck. If you do, the Raided character gains BP+1000 and “When this character attacks and wins a battle, draw up to 1 card(s)” this turn. (Of the Raided character's [On Play] and this effect are resolved in any order)",
   "triggerType": "Active",
@@ -711,9 +826,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "L'Antica"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：L'Antica］を1枚まで公開し手札に加えるか、場外に置く。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。【アタック時】自分の山札が20枚以下の場合、このキャラをこのターン中、BP+1000し、相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: L'Antica] among them and add it to your hand, or put it into its owner's Outside Area. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area. [When Attacking] If you have 20 or fewer cards in your deck, this character gets BP+1000 this turn; choose up to 1 character in your opponent's Front Line, and it gets BP-1000 this turn.",
   "triggerType": "Active",
@@ -743,9 +862,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "L'Antica"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードが自分の効果で自分の山札から場外に置かれた時、以下から1つ選ぶ。・カードを1枚引き、自分の手札を1枚場外に置く。・自分の場の［特徴：L'Antica］を1枚まで選び、次の自分のターン開始時まで、【インパクト無効】と「このキャラは、相手のキャラの効果で選ばれない。」を与える。",
   "effectEn": "When this card is put from your deck into your Outside Area by your own effect, choose 1 of the following. Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. Choose up to 1 [Trait: L'Antica] on your field; until the start of your next turn, it gains [Impact Nullify] and “This character cannot be chosen by your opponent's character effects”",
   "triggerType": "Draw",
@@ -775,9 +898,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "L'Antica"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場外の必要エナジーが3以下の紫の［特徴：L'Antica］を1枚まで自分の山札の上に置く。【退場時】自分の山札の上から1枚まで場外に置く。",
   "effectEn": "[On Play] Put up to 1 purple [Trait: L'Antica] with required energy 3 or less from your Outside Area on top of your deck. [On Retire] Put up to the top 1 card(s) of your deck into your Outside Area.",
   "triggerType": "Draw",
@@ -807,9 +934,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "L'Antica"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場に異なるカード名を持つ他の［特徴：L'Antica］が3種類以上ある場合、このキャラはBP+1000。",
   "effectEn": "If you have 3 or more other [Trait: L'Antica] with different card names on your field, this character gets BP+1000.",
   "triggerType": "Draw",
@@ -839,9 +970,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "L'Antica"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】【アタック時】【フロントLにある場合】自分の山札が20枚以下の場合、このキャラをアクティブにする。〈幽谷 霧子〉のこの効果は1ターンに1回のみ発動する。",
   "effectEn": "[On Play] [When Attacking] [While in Front Line] If you have 20 or fewer cards in your deck, set this character to active. This <幽谷 霧子> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Active",
@@ -871,9 +1006,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "CoMETIK"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚リムーブエリアに置く。",
   "effectEn": "[On Play] Draw 1 card(s) and put 1 card(s) from your hand into your Remove Area.",
   "triggerType": "Draw",
@@ -903,9 +1042,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "CoMETIK"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：CoMETIK］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚リムーブエリアに置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: CoMETIK] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into the Remove Area.",
   "triggerType": "Active",
@@ -935,9 +1078,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "CoMETIK"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分のリムーブエリアにカードが3枚以上ある場合、このキャラはBP+1000。【登場時】自分の山札の上から1枚をリムーブエリアに置く。",
   "effectEn": "[During Your Turn] If you have 3 or more cards in your Remove Area, this character gets BP+1000. [On Play] Put the top 1 card(s) of your deck into your Remove Area.",
   "triggerType": "Color",
@@ -967,9 +1114,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "CoMETIK"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "斑鳩 ルカ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈斑鳩 ルカ〉アクティブにし、フロントLに移動できる【登場時】カードを2枚引き、自分の手札を2枚リムーブエリアに置く。その後、自分のリムーブエリアにカードが3枚以上ある場合、相手のフロントLのキャラを1枚まで選び、このターン中、『BP-2000』。自分のリムーブエリアにカードが6枚以上あるなら、『BP-3000』に代わる。",
   "effectEn": "[Raid] Can Raid onto <斑鳩 ルカ>; set it to active and you may move it to the Front Line. [On Play] Draw 2 card(s) and put 2 card(s) from your hand into your Remove Area. Then, if you have 3 or more cards in your Remove Area, choose up to 1 character in your opponent's Front Line; it gets “BP-2000” this turn. If you have 6 or more cards in your Remove Area, it becomes “BP-3000” instead.",
   "triggerType": "Raid",
@@ -999,9 +1153,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "CoMETIK"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードが自分の紫の［特徴：CoMETIK］の効果でリムーブエリアに置かれた時、自分の場のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "When this card is put into your Remove Area by the effect of your purple [Trait: CoMETIK], choose up to 1 character on your field; it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -1031,9 +1189,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "CoMETIK"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】【エナジーLにある場合】自分のリムーブエリアにカードが3枚以上ある場合、このキャラをアクティブにする。【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
   "effectEn": "[On Play] [While in Energy Line] If you have 3 or more cards in your Remove Area, set this character to active. [Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -1063,9 +1225,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "CoMETIK"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見て、山札の上と下に望む枚数ずつ望む順で置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck and put any number of them on the top and the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -1095,9 +1261,18 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "CoMETIK"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": {
+   "kind": "name",
+   "value": "郁田 はるき"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈郁田 はるき〉アクティブにし、フロントLに移動できる【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【起動メイン】【フロントLにある場合】【ターン1】自分のリムーブエリアにカードが6枚以上ある場合のみ発動できる。自分のフロントLの［特徴：CoMETIK］全ては、このターン中、BP+1000。自分の場の［特徴：CoMETIK］を1枚まで選び、このターン中、【インパクト（1）】を与える。【退場時】自分のリムーブエリアにカードが3枚以上ある場合、このキャラのレイド元のカードを1枚まで手札に戻す。",
   "effectEn": "[Raid] Can Raid onto <郁田 はるき>; set it to active and you may move it to the Front Line. [Impact Nullify] (The character that battles this character loses Impact during this battle) [Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if you have 6 or more cards in your Remove Area. All [Trait: CoMETIK] in your Front Line it gets BP+1000 this turn. Choose up to 1 [Trait: CoMETIK] on your field, This turn, [Impact 1] is given. [On Retire] If you have 3 or more cards in your Remove Area, return up to 1 of this character's Raid source cards to your hand.",
   "triggerType": "Raid",
@@ -1127,9 +1302,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "CoMETIK"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このカードが自分の紫の［特徴：CoMETIK］の効果でリムーブエリアに置かれた時、相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。〈鈴木 羽那〉のこの効果でこのターン中に既に選んだキャラは選べない。",
   "effectEn": "When this card is put into your Remove Area by the effect of your purple [Trait: CoMETIK], choose up to 1 character in your opponent's Front Line; it gets BP-1000 this turn. You cannot choose a character already chosen this turn by this effect of <鈴木 羽那>.",
   "triggerType": "",
@@ -1159,9 +1338,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "CoMETIK"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のリムーブエリアにカードが3枚以上ある場合、このキャラはBP+1000。",
   "effectEn": "If you have 3 or more cards in your Remove Area, this character gets BP+1000.",
   "triggerType": "Active",
@@ -1191,9 +1374,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "CoMETIK"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】自分のリムーブエリアにカードが6枚以上ある場合、相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。",
   "effectEn": "[When Attacking] If you have 6 or more cards in your Remove Area, choose up to 1 character in your opponent's Front Line; it gets BP-1000 this turn.",
   "triggerType": "Draw",
@@ -1223,9 +1410,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "CoMETIK"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "鈴木 羽那"
+  },
+  "deckLimit": null,
   "effectJp": "このカードがレイドする際、自分のリムーブエリアにカードが3枚以上ある場合、このカードの必要エナジーを【紫×2】減らす。【レイド】〈鈴木 羽那〉アクティブにし、フロントLに移動できる【アタック時】カードを1枚引く。自分のリムーブエリアにカードが6枚以上ある場合、自分のリムーブエリアから〈鈴木 羽那〉以外の［特徴：CoMETIK］を1枚手札に加えてもよい。そうした場合、自分の手札を1枚リムーブエリアに置く。",
   "effectEn": "When this card Raids, if you have 3 or more cards in your Remove Area, reduce this card's required energy by [Purple x2]. [Raid] Can Raid onto <鈴木 羽那>; set it to active and you may move it to the Front Line. [When Attacking] Draw 1 card(s). If you have 6 or more cards in your Remove Area, you may add 1 [Trait: CoMETIK] other than <鈴木 羽那> from your Remove Area to your hand. If you do, put 1 card(s) from your hand into the Remove Area.",
   "triggerType": "Raid",
@@ -1250,7 +1444,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを2枚引く。このカードが自分の紫の［特徴：CoMETIK］の効果でリムーブエリアに置かれた時、カードを1枚引く。",
   "effectEn": "Draw 2 card(s). When this card is put into your Remove Area by the effect of your purple [Trait: CoMETIK], draw 1 card(s).",
   "triggerType": "",
@@ -1275,7 +1473,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に［特徴：CoMETIK］が3枚以上ある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have 3 or more [Trait: CoMETIK] on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -1305,9 +1507,16 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "Straylight"
   ],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "和泉 愛依"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈和泉 愛依〉アクティブにし、フロントLに移動できる【フロントLにある場合】自分が「BPの範囲に指定がある効果」で相手の場のキャラを選ぶ際、指定できるBPの範囲+1000。（【カラートリガー】含む）【登場時】自分の山札の上から3枚見て、［特徴：Straylight］とイベントカードをそれぞれ1枚まで公開し手札に加える。残りを望む順で山札の下に置く。",
   "effectEn": "[Raid] Can Raid onto <和泉 愛依>; set it to active and you may move it to the Front Line. [While in Front Line] When you choose a character on your opponent's field with “an effect that specifies a BP range”, the BP range you can choose is increased by 1000. (Including [Color Trigger]) [On Play] Look at the top 3 card(s) of your deck, reveal up to 1 each of [Trait: Straylight] and event cards among them, and add them to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Raid",
@@ -1337,9 +1546,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "Straylight"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】このキャラがアクティブで、このターン中に自分がイベントカードを使用している場合のみ発動できる。自分の場の［特徴：Straylight］を1枚選び、このターン中、BP+1000。選んだキャラがこのキャラ以外の場合、さらにこのターン中、【インパクト（1）】を与える。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if this character is active and you have used an event card this turn. Choose 1 [Trait: Straylight] on your field, it gets BP+1000 this turn. If the chosen character is not this character, it also gains [Impact 1] this turn.",
   "triggerType": "Active",
@@ -1369,9 +1582,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "Straylight"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見て、［特徴：Straylight］とイベントカードをそれぞれ1枚まで場外に置き、残りを望む順で山札の上に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck, put up to 1 each of [Trait: Straylight] and event cards among them into your Outside Area, and put the rest back on top of your deck in any order.",
   "triggerType": "Active",
@@ -1401,9 +1618,15 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "放課後クライマックスガールズ"
   ],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【自分のターン中】このターン中に自分の［特徴：放課後クライマックスガールズ］が場から手札に戻っているか、自分の効果で手札から登場している場合、このキャラはBP+500。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [During Your Turn] If your [Trait: Houkago Climax Girls] returned from the field to your hand or was played from your hand by your own effect this turn, this character gets BP+500.",
   "triggerType": "Draw",
@@ -1433,9 +1656,18 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "放課後クライマックスガールズ"
   ],
+  "keywords": {
+   "doubleBlock": true
+  },
+  "raid": {
+   "kind": "name",
+   "value": "小宮 果穂"
+  },
+  "deckLimit": null,
   "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）【レイド】〈小宮 果穂〉アクティブにし、フロントLに移動できる【自分のターン中】このキャラはBP+500。【アタック時】【ターン1】同じラインに他のレストのキャラがない場合、自分の場の他の［特徴：放課後クライマックスガールズ］を1枚手札に戻してもよい。そうした場合、自分の手札から必要エナジーが3以下で消費APが1の赤の［特徴：放課後クライマックスガールズ］を1枚まで自分の場にアクティブで登場させる。",
   "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active) [Raid] Can Raid onto <小宮 果穂>; set it to active and you may move it to the Front Line. [During Your Turn] This character gets BP+500. [When Attacking] [Once Per Turn] If there are no other rested characters in the same line, you may return 1 other [Trait: Houkago Climax Girls] on your field to your hand. If you do, Play up to 1 Red [Trait: Houkago Climax Girls] with required energy 3 or less and with AP cost 1 from your hand to your field active.",
   "triggerType": "Raid",
@@ -1465,9 +1697,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "放課後クライマックスガールズ"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはアクティブで登場させる。【起動メイン】【ターン1】自分の場の他の［特徴：放課後クライマックスガールズ］を1枚手札に戻す。そうした場合、このキャラはこのターン中、【インパクト（1）】を得る。【アタック時】同じラインに他のレストのキャラがない場合、カードを1枚引き、このキャラはこのターン中、【ダメージ（2）】を得る。",
   "effectEn": "This character is played active. [Activate: Main] [Once Per Turn] Return to the owner's hand 1 other [Trait: Houkago Climax Girls] on your field. If you do, This character, this turn, [Impact 1] is gained. [When Attacking] If there are no other rested characters in the same line, draw 1 card(s), and this character gains [Damage 2] this turn.",
   "triggerType": "Get",
@@ -1497,9 +1733,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [
    "放課後クライマックスガールズ"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】このターン中に自分の［特徴：放課後クライマックスガールズ］が場から手札に戻っているか、自分の効果で手札から登場している場合、以下から1つ選ぶ。・カードを1枚引く。・自分のターン中の場合、自分の場の［特徴：放課後クライマックスガールズ］を2枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] If your [Trait: Houkago Climax Girls] returned from the field to your hand or was played from your hand by your own effect this turn, choose 1 of the following. Draw 1 card(s). If it is your turn, choose up to 2 [Trait: Houkago Climax Girls] on your field; it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -1529,9 +1769,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [
    "放課後クライマックスガールズ"
   ],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】以下から1つ選ぶ。・自分の山札の上から3枚見て、［特徴：放課後クライマックスガールズ］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。・自分の場の他の［特徴：放課後クライマックスガールズ］を1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose 1 of the following. Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: Houkago Climax Girls] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area. Choose up to 1 other [Trait: Houkago Climax Girls] on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -1556,7 +1800,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "カードを1枚引き、自分の手札を1枚場外に置く。自分の場外から元々のBPが3000以下の赤の［特徴：Straylight］を1枚まで自分の場にレストで登場させるかレイドさせる。",
   "effectEn": "Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. Play up to 1 red [Trait: Straylight] with original BP 3000 or less from your Outside Area to your field rested, or Raid it.",
   "triggerType": "Active",
@@ -1579,7 +1827,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -1602,7 +1854,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -1625,7 +1881,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -1648,7 +1908,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -1671,7 +1935,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -1694,7 +1962,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -1717,7 +1989,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -1740,7 +2016,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

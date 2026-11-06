@@ -21,7 +21,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -51,7 +55,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から4枚見る。その中から〈亜白 ミナ〉か〈伐虎〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 <Mina Ashiro> or <Bakko> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -81,7 +89,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】このキャラと同じラインに〈伐虎〉がある場合、相手のフロントLのキャラを1枚まで選び、レストにする。",
   "effectEn": "[On Play] If <Bakko> is in the same line as this character, choose up to 1 character in your opponent's Front Line and rest it.",
   "triggerType": "Active",
@@ -111,7 +123,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラはアクティブで場に登場させる。【登場時】【エナジーLにある場合】このキャラはこのターン中、「このキャラはエナジーLからアタックできる。」を得る。【起動メイン】【ターン1】自分の場の他のキャラを1枚選び、このターン中、BP+1000。【アタック時】同じラインに〈伐虎〉がある場合、カードを1枚まで引く。",
   "effectEn": "This character is played active. [On Play] [While in Energy Line] This character gains “This character can attack from the Energy Line” this turn. [Activate: Main] [Once Per Turn] Choose 1 other character on your field, it gets BP+1000 this turn. [When Attacking] If <Bakko> is in the same line, draw up to 1 card(s).",
   "triggerType": "Get",
@@ -141,7 +157,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "亜白 ミナ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈亜白 ミナ〉アクティブにし、フロントLに移動できる同じラインに〈伐虎〉がある場合、このキャラは【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。【登場時】相手のフロントLのキャラを1枚まで選び、レストにする。【起動メイン】【フロントLにある場合】【ターン1】相手のフロントLのレストのキャラを1枚選び、「このキャラは次の1回アクティブにならない。」を与える。",
   "effectEn": "[Raid] Can Raid onto <Mina Ashiro>; set it to active and you may move it to the Front Line. If <Bakko> is in the same line, this character gains [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opposing player) [On Play] Choose up to 1 character in your opponent's Front Line, rest it. [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 rested character in your opponent's Front Line, it gains “This character it does not become active the next 1 time(s)”",
   "triggerType": "Raid",
@@ -171,7 +194,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+500。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+500 this turn.",
   "triggerType": "Active",
@@ -201,7 +228,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【アタック時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[When Attacking] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -231,7 +262,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】このキャラが自分の〔キャラ・フィールド・イベントカード〕の効果で登場していた場合、カードを1枚引く。",
   "effectEn": "[On Play] When this character is chosen by your character's. Field. If it was played by an Event card's effect, draw 1 card(s).",
   "triggerType": "Draw",
@@ -261,7 +296,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -291,7 +330,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -321,7 +364,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このキャラはBP+500。【アタック時】同じラインの必要エナジーが3の他のキャラを1枚まで選び、このターン中、BP+500。",
   "effectEn": "[During Your Turn] This character gets BP+500. [When Attacking] Choose up to 1 other character in the same line with required energy 3; it gets BP+500 this turn.",
   "triggerType": "",
@@ -351,7 +398,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "市川 レノ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈市川 レノ〉アクティブにし、フロントLに移動できる【自分のターン中】同じラインに必要エナジーが3の他のキャラがある場合、このキャラはBP+500。【登場時】自分の手札から必要エナジーが3以下で消費APが1の黄のキャラカードを1枚まで自分の場にレストで登場させる。",
   "effectEn": "[Raid] Can Raid onto <Reno Ichikawa>; set it to active and you may move it to the Front Line. [During Your Turn] If there is another character with required energy 3 in the same line, this character gets BP+500. [On Play] Play up to 1 Yellow character card with required energy 3 or less and with AP cost 1 from your hand to your field rested.",
   "triggerType": "Raid",
@@ -381,7 +435,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、「このキャラはBP4000以上のキャラにブロックされない。」を与える。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gains “This character cannot be blocked by characters with BP 4000 or more” this turn.",
   "triggerType": "",
@@ -411,7 +469,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -441,7 +503,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "doubleBlock": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）",
   "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active)",
   "triggerType": "Active",
@@ -471,7 +539,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -501,7 +573,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -531,7 +607,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "場にあるこのカードは必要エナジーを【黄×3】としても扱う。【自分のターン中】同じラインに必要エナジーが3の他のキャラがある場合、このキャラはBP+500。",
   "effectEn": "This card on the field is also treated as having required energy [Yellow x3]. [During Your Turn] If there is another character with required energy 3 in the same line, this character gets BP+500.",
   "triggerType": "Draw",
@@ -561,7 +641,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分のターン中の場合、このキャラが自分の〔キャラ・フィールド・イベントカード〕の効果で登場していたなら、自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "[On Play] If it is your turn, this character is your character's. Field. If it was played by an event card's effect, choose up to 1 of your AP cards and set them to active.",
   "triggerType": "Color",
@@ -591,7 +675,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "四ノ宮 キコル"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈四ノ宮 キコル〉アクティブにし、フロントLに移動できる同じラインの必要エナジーが3のキャラの枚数により、このキャラは以下の効果を全て得る。・1枚以上：【インパクト（1）】・2枚以上：【アタック時】カードを1枚まで引く。・3枚以上：このキャラはBP+1000。【アタック時】自分の場のキャラを1枚まで選び、このターン中、BP+500。",
   "effectEn": "[Raid] Can Raid onto <Kikoru Shinomiya>; set it to active and you may move it to the Front Line. Depending on the number of characters with required energy 3 in the same line, this character gains all of the following effects. 1 or more: [Impact 1]. 2 or more: [When Attacking]Draw up to 1 card(s). 3 or more: This character gets BP+1000. [When Attacking] Choose up to 1 character on your field, it gets BP+500 this turn.",
   "triggerType": "Raid",
@@ -621,7 +712,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "Active",
@@ -651,7 +748,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場のキャラを1枚まで選び、別のラインに移動させる。",
   "effectEn": "[On Play] Choose up to 1 character on your field, move it to another line.",
   "triggerType": "Color",
@@ -681,7 +782,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【相手のターン中】【フロントLにある場合】自分の場の〈亜白 ミナ〉は「相手はキャラの効果やイベントカードの効果でこのキャラを選ぶ際に、追加で自身の手札を1枚場外に置かないと選べない。」を得る。〈伐虎〉のこの効果は重複しない。",
   "effectEn": "[During Opponent's Turn] [While in Front Line] <Mina Ashiro> on your field gains “When choosing this character with a character effect or event card effect, your opponent must additionally put 1 card(s) from their hand into their Outside Area” This <Bakko> effect does not stack.",
   "triggerType": "Draw",
@@ -711,7 +816,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分のターン中の場合、APを1支払ってもよい。そうした場合、カードを1枚引く。その後、自分の手札から必要エナジーが3以下で消費APが1の黄のキャラカードを1枚まで自分の場にレストで登場させる。",
   "effectEn": "[On Play] If it is your turn, you may pay 1 AP. If you do, Draw 1 card(s). Then, Play up to 1 Yellow character card with required energy 3 or less and with AP cost 1 from your hand to your field rested.",
   "triggerType": "",
@@ -739,13 +848,13 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【黄】。",
   "effectEn": "While this character is active, its generated energy +[Yellow].",
   "triggerType": "",
@@ -775,7 +884,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -805,7 +920,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "",
@@ -835,7 +956,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+500。このキャラが自分の〔キャラ・フィールド・イベントカード〕の効果で登場していた場合、このキャラをアクティブにする。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+500 this turn. When this character is chosen by your character's. Field. If it was played by an event card's effect, set this character to active.",
   "triggerType": "Active",
@@ -865,7 +990,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -895,7 +1024,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【レストにする】相手のフロントLのキャラを1枚選び、レストにする。",
   "effectEn": "[Activate: Main] [While in Front Line] [Rest this card] Choose 1 character in your opponent's Front Line, rest it.",
   "triggerType": "",
@@ -925,7 +1058,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "保科 宗四郎"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈保科 宗四郎〉アクティブにし、フロントLに移動できるこのキャラはBP3000以下のキャラにブロックされない。【登場時】カードを1枚引く。",
   "effectEn": "[Raid] Can Raid onto <Soshiro Hoshina>; set it to active and you may move it to the Front Line. This character cannot be blocked by characters with BP 3000 or less. [On Play] Draw 1 card(s).",
   "triggerType": "Get",
@@ -953,13 +1093,13 @@
    {
     "color": "Yellow",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【黄】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Yellow] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -989,7 +1129,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から必要エナジーが3以下のキャラカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。【起動メイン】【レストにする】【このカードを退場させる】自分の手札から必要エナジーが3以下で消費APが1の黄のキャラカードを1枚自分の場にレストで登場させる。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 character card with required energy 3 or less among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area. [Activate: Main] [Rest this card] [Retire this card] Play 1 Yellow character card with required energy 3 or less and with AP cost 1 from your hand to your field rested.",
   "triggerType": "Draw",
@@ -1014,7 +1158,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のキャラ全ては、このターン中、BP+500。カードを2枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "All characters on your field it gets BP+500 this turn. Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -1039,7 +1187,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈亜白 ミナ〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Mina Ashiro> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -1064,7 +1216,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1089,7 +1245,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場の〈亜白 ミナ〉を1枚選び、このターン中、BP+2000と「このキャラはエナジーLからアタックできる。」を与える。",
   "effectEn": "Choose 1 <Mina Ashiro> on your field; it gains BP+2000 and “This character can attack from the Energy Line” this turn.",
   "triggerType": "Active",
@@ -1114,7 +1274,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から4枚見る。その中から必要エナジーが4以下で消費APが1の黄のキャラカードを1枚まで自分の場にレストで登場させるかレイドさせる。残りを望む順で自分の山札の下に置く。",
   "effectEn": "Look at the top 4 card(s) of your deck. Play up to 1 Yellow character card with required energy 4 or less and with AP cost 1 from among them to your field rested or Raid it. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -1139,7 +1303,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から4枚見る。その中からキャラカードを2枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "Look at the top 4 card(s) of your deck. Reveal up to 2 character cards among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -1164,7 +1332,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP2000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈四ノ宮 キコル〉がある場合、『BP4000以下』に代わり、さらに自分のフロントLに必要エナジーが3のキャラがあるなら、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 2000 or less, retire it. If you have <Kikoru Shinomiya> on your field, it becomes “BP 4000 or less” instead, and if you also have a character with required energy 3 in your Front Line, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -1194,7 +1366,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -1224,7 +1400,13 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "Draw",
@@ -1254,7 +1436,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを望む順で下に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest on the bottom of your deck in any order.",
   "triggerType": "",
@@ -1284,7 +1470,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】このキャラがアクティブの場合のみ発動できる。自分の場のこのターン中にアクティブからレストになった他のキャラを1枚選び、アクティブにする。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Can only activate while this character is active. Choose 1 other character on your field that went from active to rested this turn, and set it to active.",
   "triggerType": "Draw",
@@ -1314,7 +1504,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】カードを1枚引く。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Draw 1 card(s).",
   "triggerType": "Active",
@@ -1344,7 +1538,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -1374,7 +1574,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -1404,7 +1608,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。",
   "effectEn": "[On Play] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
   "triggerType": "Active",
@@ -1434,7 +1642,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "",
@@ -1462,13 +1676,15 @@
    {
     "color": "Green",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {
+   "step": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【起動メイン】【レストにする】【ターン1】自分のフロントLのアクティブのキャラを1枚レストにする。そうした場合、このキャラはこのターン中、発生エナジー+【緑】。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [Activate: Main] [Rest this card] [Once Per Turn] Rest 1 active character in your Front Line. If you do, This turn, this character's generated energy +[Green].",
   "triggerType": "Active",
@@ -1498,7 +1714,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -1528,7 +1748,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
   "effectEn": "[Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -1558,7 +1782,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "Active",
@@ -1588,7 +1818,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "日比野 カフカ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈日比野 カフカ〉アクティブにし、フロントLに移動できる【登場時】『BP3000以下』の相手のフロントLのキャラを1枚まで選び、退場させる。自分のターン中の場合、このキャラをレストにしてもよい。そうした場合、『BP4000以下』に代わる。【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、BP+1000と【インパクト（1）】を得る。【起動メイン】【手札を1枚場外に置く】【ターン1】このキャラをアクティブにする。",
   "effectEn": "[Raid] Can Raid onto <Kafka Hibino>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line with BP 3000 or less, retire it. If it is your turn, you may rest this character. If you do, it becomes “BP 4000 or less” instead. [Activate: Main] [Rest this card] [Once Per Turn] This character gets BP+1000 and gains [Impact 1] this turn. [Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] Set this character to active.",
   "triggerType": "Raid",
@@ -1618,7 +1855,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "damage": 2
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のフロントLにレストのキャラが2枚以上ある場合、手札にあるこのカードの必要エナジーを【緑×2】減らす。このキャラはアクティブで場に登場させる。【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【登場時】相手のフロントLのキャラを1枚まで選び、エナジーLに移動させ、次の自分のターン開始時まで、「このキャラは移動できない。」を与える。",
   "effectEn": "If you have 2 or more rested characters in your Front Line, the required energy of this card in your hand [Green x2]is reduced. This character is played active. [Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [On Play] Choose up to 1 character in your opponent's Front Line, move it to the Energy Line, and until the start of your next turn it gains “This character cannot move”",
   "triggerType": "Get",
@@ -1648,7 +1891,13 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {
+   "nullifyImpact": true
+  },
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "Active",
@@ -1678,7 +1927,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -1706,13 +1959,13 @@
    {
     "color": "Green",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【緑】。",
   "effectEn": "While this character is active, its generated energy +[Green].",
   "triggerType": "",
@@ -1742,7 +1995,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】このキャラはBP+1000。【起動メイン】【エナジーLにある場合】【ターン1】自分の発生エナジーが6以上ある場合のみ発動できる。フロントLにある自分のキャラを1枚選び、このキャラと位置を入れ替える。",
   "effectEn": "[During Your Turn] This character gets BP+1000. [Activate: Main] [While in Energy Line] [Once Per Turn] Can only activate if your generated energy is 6 or more. Choose 1 of your characters in the Front Line and swap its position with this character.",
   "triggerType": "",
@@ -1772,7 +2029,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1802,7 +2063,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -1832,7 +2097,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】カードを1枚引く。",
   "effectEn": "[On Play] Draw 1 card(s).",
   "triggerType": "Color",
@@ -1862,7 +2131,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "日比野 カフカ"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈日比野 カフカ〉アクティブにし、フロントLに移動できる【登場時】自分の手札から必要エナジーが2以下で消費APが1の緑のキャラカードを1枚まで自分の場にレストで登場させる。【起動メイン】【フロントLにある場合】【レストにする】【ターン1】カードを1枚引く。【起動メイン】【手札を1枚場外に置く】【ターン1】このキャラはこのターン中、BP+500。このキャラをアクティブにする。",
   "effectEn": "[Raid] Can Raid onto <Kafka Hibino>; set it to active and you may move it to the Front Line. [On Play] Play up to 1 Green character card with required energy 2 or less and with AP cost 1 from your hand to your field rested. [Activate: Main] [While in Front Line] [Rest this card] [Once Per Turn] Draw 1 card(s). [Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] This character gets BP+500 this turn. Set this character to active.",
   "triggerType": "Raid",
@@ -1892,7 +2168,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -1922,7 +2202,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【自分のターン中】自分の場に〈市川 レノ〉がある場合、このキャラはBP+500。",
   "effectEn": "[During Your Turn] If you have <Reno Ichikawa> on your field, This character gets BP+500.",
   "triggerType": "Draw",
@@ -1952,7 +2236,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1982,7 +2270,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の〈保科 宗四郎〉を1枚まで選び、別のラインに移動させる。",
   "effectEn": "[On Play] Choose up to 1 <Soshiro Hoshina> on your field, move it to another line.",
   "triggerType": "Active",
@@ -2012,7 +2304,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の山札の上から4枚見る。その中から〈保科 宗四郎〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 <Soshiro Hoshina> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -2042,7 +2338,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】このターン中にアクティブのこのキャラがレストになっている場合のみ発動できる。このキャラをアクティブにする。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if this active character has been rested this turn. Set this character to active.",
   "triggerType": "Draw",
@@ -2072,7 +2372,11 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の場の他の〈保科 宗四郎〉の枚数分、自分の山札の上からカードを見る。その中から〈保科 宗四郎〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。自分のフロントLのアクティブの〈保科 宗四郎〉を1枚レストにしてもよい。そうした場合、このキャラをアクティブにする。",
   "effectEn": "[On Play] Look at cards from the top of your deck equal to the number of other <Soshiro Hoshina> on your field. Reveal up to 1 <Soshiro Hoshina> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area. You may rest 1 active <Soshiro Hoshina> in your Front Line. If you do, Set this character to active.",
   "triggerType": "Color",
@@ -2102,7 +2406,14 @@
     "count": 1
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": {
+   "kind": "name",
+   "value": "保科 宗四郎"
+  },
+  "deckLimit": null,
   "effectJp": "【レイド】〈保科 宗四郎〉アクティブにし、フロントLに移動できる相手はキャラの効果やイベントカードの効果でこのキャラを選ぶ際に、追加で自身の手札を1枚場外に置かないと選べない。【起動メイン】【ターン1】自分のフロントLのアクティブの他の〈保科 宗四郎〉を1枚レストにする。そうした場合、このキャラはこのターン中、【2回アタック】（このキャラがこのターン初めてアタックした時、アクティブにする）を得る。",
   "effectEn": "[Raid] Can Raid onto <Soshiro Hoshina>; set it to active and you may move it to the Front Line. When choosing this character with a character effect or event card effect, your opponent must additionally put 1 card(s) from their hand into their Outside Area. [Activate: Main] [Once Per Turn] Rest 1 other active <Soshiro Hoshina> in your Front Line. If you do, This character, this turn, [Double Attack](The first time this character attacks each turn, set it to active) is gained.",
   "triggerType": "Raid",
@@ -2130,13 +2441,13 @@
    {
     "color": "Green",
     "count": 1
-   },
-   {
-    "color": "Plus",
-    "count": 1
    }
   ],
+  "energyMark": true,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【緑】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Green] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -2166,7 +2477,11 @@
     "count": 2
    }
   ],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外から必要エナジーが3以下の〔〈日比野 カフカ〉か〈市川 レノ〉〕を1枚まで手札に加える。",
   "effectEn": "[On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, add up to 1 <Kafka Hibino> or <Reno Ichikawa> with required energy 3 or less from your Outside Area to your hand.",
   "triggerType": "Get",
@@ -2191,7 +2506,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2216,7 +2535,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場のキャラを1枚選び、アクティブにする。選んだキャラが〈日比野 カフカ〉か〈怪獣8号〉か〈亜白 ミナ〉の場合、自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "Choose 1 character on your field, set it to active. If the chosen character is <Kafka Hibino>, <怪獣8号> or <Mina Ashiro>, choose up to 1 of your AP cards and set them to active.",
   "triggerType": "Draw",
@@ -2241,7 +2564,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分のフロントLのアクティブのキャラを1枚レストにする。そうした場合、カードを3枚引く。",
   "effectEn": "Rest 1 active character in your Front Line. If you do, Draw 3 card(s).",
   "triggerType": "Draw",
@@ -2266,7 +2593,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "相手のフロントLのキャラを1枚まで選び、『エナジーLに移動させる。カードを1枚引く』。自分の場に〈日比野 カフカ〉か〈怪獣8号〉がある場合、『退場させる』に代えてもよい。（移動させる時にエナジーLに空きがない場合、相手はエナジーLのカードを1枚選んでリムーブエリアに置いてから移動させる）",
   "effectEn": "Choose up to 1 character in your opponent's Front Line, “move it to the Energy Line. Draw 1 card(s)” If you have <Kafka Hibino> or <怪獣8号> on your field, you may instead make it “retire it” (When moving, if there is no space in the Energy Line, your opponent chooses 1 card(s) in their Energy Line, puts them into the Remove Area, then moves it)",
   "triggerType": "Special",
@@ -2291,7 +2622,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の場の〈日比野 カフカ〉か〈怪獣8号〉を1枚まで選び、このターン中、BP+1000と〔【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）か【ダメージ（+1）】（このキャラがアタックで直接ダメージを与える時、追加で1ダメージ）〕を与える。カードを1枚引く。",
   "effectEn": "Choose up to 1 <Kafka Hibino> or <怪獣8号> on your field; it gains BP+1000 and [Impact +1] (Impact damage is increased by 1; if it doesn't have Impact, it gains [Impact 1]) or [Damage +1] (When this character deals direct damage by attacking, it deals 1 additional damage) this turn. Draw 1 card(s).",
   "triggerType": "Active",
@@ -2316,7 +2651,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "『BP3000』以下の相手のフロントLのキャラを1枚選び、退場させる。自分の場の〈保科 宗四郎〉1枚につき、この効果で選べるキャラのBPの範囲+1000。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. For each 1 <Soshiro Hoshina> on your field, the BP range of characters this effect can choose gets +1000.",
   "triggerType": "Special",
@@ -2341,7 +2680,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "自分の山札の上から6枚見る。その中からキャラカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。公開したカードが〈怪獣8号〉の場合、自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "Look at the top 6 card(s) of your deck. Reveal up to 1 character card among them and add it to your hand. Put the rest on the bottom of your deck in any order. If the revealed card is <怪獣8号>, Choose up to 1 of your AP cards, set it to active.",
   "triggerType": "Draw",
@@ -2364,7 +2707,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2387,7 +2734,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2410,7 +2761,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2433,7 +2788,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2456,7 +2815,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2479,7 +2842,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2502,7 +2869,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2525,7 +2896,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2548,7 +2923,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2571,7 +2950,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2594,7 +2977,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2617,7 +3004,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2640,7 +3031,11 @@
   "bp": null,
   "bpMark": "",
   "generatedEnergy": [],
+  "energyMark": false,
   "traits": [],
+  "keywords": {},
+  "raid": null,
+  "deckLimit": null,
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
