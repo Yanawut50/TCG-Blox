@@ -26,6 +26,27 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場外にカードが{0}枚以上ある場合、このキャラはBP+{1}",
+      "nums": [
+       5,
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】自分の場外にカードが5枚以上ある場合、このキャラはBP+500。",
   "effectEn": "[During Your Turn] If you have 5 or more cards in your Outside Area, This character gets BP+500.",
   "triggerType": "",
@@ -60,6 +81,44 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "以下から{0}つ選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "自分のターン中の場合、自分の場の他のキャラを{0}枚まで選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】以下から1つ選ぶ。・カードを1枚引き、自分の手札を1枚場外に置く。・自分のターン中の場合、自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose 1 of the following. Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. If it is your turn, choose up to 1 other character on your field, and it gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -94,6 +153,50 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このカードが自分の効果で自分の場外から手札に加わった時、自分の場のキャラを{0}枚まで選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場外にカードが{0}枚以上ある場合、このキャラの発生エナジー+[Purple]",
+      "nums": [
+       10
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見て、山札の上か場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このカードが自分の効果で自分の場外から手札に加わった時、自分の場のキャラを1枚まで選び、このターン中、BP+1000。自分の場外にカードが10枚以上ある場合、このキャラの発生エナジー+【紫】。【アタック時】自分の山札の上から1枚見て、山札の上か場外に置く。",
   "effectEn": "When this card is added from your Outside Area to your hand by your own effect, choose up to 1 character on your field; it gets BP+1000 this turn. If you have 10 or more cards in your Outside Area, This character's generated energy +[Purple]. [When Attacking] Look at the top 1 card(s) of your deck, put them on top of your deck or into your Outside Area.",
   "triggerType": "Active",
@@ -128,6 +231,43 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このターン中に自分の効果で〔自分の手札が場外に置かれているか、自分の場外からカードが手札に加わっている〕場合、このキャラはBP+{0}",
+      "nums": [
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】このターン中に自分の効果で〔自分の手札が場外に置かれているか、自分の場外からカードが手札に加わっている〕場合、このキャラはBP+500。【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[During Your Turn] If cards from your hand were put into your Outside Area or cards were added from your Outside Area to your hand by your own effect this turn, this character gets BP+500. [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -162,6 +302,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -196,6 +337,22 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがアクティブの場合、このキャラの発生エナジー+[Purple]",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【紫】。",
   "effectEn": "While this character is active, its generated energy +[Purple].",
   "triggerType": "",
@@ -230,6 +387,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnRetire",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【退場時】カードを1枚引く。",
   "effectEn": "[On Retire] Draw 1 card(s).",
   "triggerType": "Draw",
@@ -264,6 +439,61 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このカードが自分の効果で自分の場外から手札に加わった時、カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見て、⟨n0⟩か⟨n1⟩を{1}枚まで公開し手札に加える",
+      "nums": [
+       4,
+       1
+      ],
+      "names": [
+       "水篠 旬",
+       "悪魔の城"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このカードが自分の効果で自分の場外から手札に加わった時、カードを1枚引き、自分の手札を1枚場外に置く。【登場時】自分の山札の上から4枚見て、〈水篠 旬〉か〈悪魔の城〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "When this card is added from your Outside Area to your hand by your own effect, draw 1 card(s) and put 1 card(s) from your hand into your Outside Area. [On Play] Look at the top 4 card(s) of your deck, reveal up to 1 <Sung Jinwoo> or <Demon's Castle> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -298,6 +528,27 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "discard": 1
+    },
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、BP+{0}",
+      "nums": [
+       1500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【手札を1枚場外に置く】【ターン1】このキャラはこのターン中、BP+1500。",
   "effectEn": "[Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] This character gets BP+1500 this turn.",
   "triggerType": "Active",
@@ -332,6 +583,27 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場外にカードが{0}枚以上ある場合、このキャラはBP+{1}",
+      "nums": [
+       10,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】自分の場外にカードが10枚以上ある場合、このキャラはBP+1000。",
   "effectEn": "[During Your Turn] If you have 10 or more cards in your Outside Area, This character gets BP+1000.",
   "triggerType": "Draw",
@@ -366,6 +638,64 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このカードが自分の効果で自分の場外から手札に加わった時、必要エナジーを満たすこのカードを自分の場に『レスト』で登場させてもよい",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "⟨n0⟩の効果で場外から手札に加わった場合、『アクティブ』に代わる",
+      "nums": [],
+      "names": [
+       "水篠 旬"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場外にカードが{0}枚以上ある場合、このキャラは「このキャラはBP{1}以上のキャラにブロックされない",
+      "nums": [
+       10,
+       4000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚まで場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このカードが自分の効果で自分の場外から手札に加わった時、必要エナジーを満たすこのカードを自分の場に『レスト』で登場させてもよい。〈水篠 旬〉の効果で場外から手札に加わった場合、『アクティブ』に代わる。自分の場外にカードが10枚以上ある場合、このキャラは「このキャラはBP4000以上のキャラにブロックされない。」を得る。【登場時】自分の山札の上から1枚まで場外に置く。",
   "effectEn": "When this card is added from your Outside Area to your hand by your own effect, you may play this card, if it meets its required energy, to your field “rested” If it was added from your Outside Area to your hand by the effect of <Sung Jinwoo>, it becomes “active” instead. If you have 10 or more cards in your Outside Area, This character gains “This character cannot be blocked by characters with BP 4000 or more” [On Play] Put up to the top 1 card(s) of your deck into your Outside Area.",
   "triggerType": "Color",
@@ -400,6 +730,26 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟨n0⟩がある場合、カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [
+       "水篠 旬"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の場に〈水篠 旬〉がある場合、カードを1枚引く。",
   "effectEn": "[On Play] If you have <Sung Jinwoo> on your field, Draw 1 card(s).",
   "triggerType": "",
@@ -434,6 +784,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、発生エナジー+[Purple]と「メインフェイズ終了時、このキャラを退場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【紫】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Purple] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -468,6 +844,45 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このカードが自分の効果で自分の場外から手札に加わった時、このカードを自分のエナジーLにレストで登場させてもよい",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このカードはフロントLに登場できず、フロントLに移動できない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚を場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このカードが自分の効果で自分の場外から手札に加わった時、このカードを自分のエナジーLにレストで登場させてもよい。このカードはフロントLに登場できず、フロントLに移動できない。【登場時】自分の山札の上から1枚を場外に置く。",
   "effectEn": "When this card is added from your Outside Area to your hand by your own effect, you may play this card to your Energy Line rested. This card cannot be played to the Front Line and cannot move to the Front Line. [On Play] Put the top 1 card(s) of your deck into your Outside Area.",
   "triggerType": "",
@@ -502,6 +917,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -538,6 +954,24 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚を場外に置く",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【登場時】自分の山札の上から2枚を場外に置く。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [On Play] Put the top 2 card(s) of your deck into your Outside Area.",
   "triggerType": "",
@@ -572,6 +1006,41 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場にカードが{0}枚もない場合、手札にあるこのカードの必要エナジーを[Purple x{1}]減らす",
+      "nums": [
+       1,
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見て、山札の上か場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【紫×2】減らす。【登場時】自分の山札の上から1枚見て、山札の上か場外に置く。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Purple x2]is reduced. [On Play] Look at the top 1 card(s) of your deck, put them on top of your deck or into your Outside Area.",
   "triggerType": "Active",
@@ -606,6 +1075,45 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見て、⟨n0⟩か⟦t0⟧を{1}枚まで公開し手札に加える",
+      "nums": [
+       3,
+       1
+      ],
+      "names": [
+       "水篠 旬"
+      ],
+      "traits": [
+       "影の軍団"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から3枚見て、〈水篠 旬〉か［特徴：影の軍団］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 <Sung Jinwoo> or [Trait: Shadow Army] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Color",
@@ -640,6 +1148,74 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "outside"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札の⟦t0⟧を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "影の軍団"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、場外のこのカードを手札に加える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "⟨n0⟩のこの効果は{0}ターンに{1}回のみ発動できる",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "水篠 旬"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札の⟦t0⟧を{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "影の軍団"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【起動メイン】【場外にある場合】自分の手札の［特徴：影の軍団］を1枚場外に置く。そうした場合、場外のこのカードを手札に加える。〈水篠 旬〉のこの効果は1ターンに1回のみ発動できる。【登場時】自分の手札の［特徴：影の軍団］を1枚場外に置いてもよい。そうした場合、カードを1枚引く。",
   "effectEn": "[Activate: Main] [While in Outside Area] Put into the owner's outside area 1 [Trait: Shadow Army] in your hand. If you do, add this card from your Outside Area to your hand. This <Sung Jinwoo> effect can only activate 1 time(s) per 1 turn(s). [On Play] You may put 1 [Trait: Shadow Army] in your hand into the Outside Area. If you do, Draw 1 card(s).",
   "triggerType": "",
@@ -677,6 +1253,72 @@
    "value": "水篠 旬"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その後、自分の手札を{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分の場外から⟨n0⟩以外のBP{0}以下のキャラカードを{1}枚まで手札に加える",
+      "nums": [
+       3000,
+       1
+      ],
+      "names": [
+       "水篠 旬"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その後、自分の場外にあるカード{0}枚につき、このキャラはこのターン中、BP+{1}",
+      "nums": [
+       5,
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈水篠 旬〉アクティブにし、フロントLに移動できる【登場時】カードを1枚引く。その後、自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外から〈水篠 旬〉以外のBP3000以下のキャラカードを1枚まで手札に加える。【アタック時】カードを1枚引き、自分の手札を1枚場外に置く。その後、自分の場外にあるカード5枚につき、このキャラはこのターン中、BP+500。",
   "effectEn": "[Raid] Can Raid onto <Sung Jinwoo>; set it to active and you may move it to the Front Line. [On Play] Draw 1 card(s). Then, You may put 1 card(s) from your hand into your Outside Area. If you do, add up to 1 character card other than <Sung Jinwoo> with BP 3000 or less from your Outside Area to your hand. [When Attacking] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. Then, For each 5 cards in your Outside Area, This character gets BP+500 this turn.",
   "triggerType": "Raid",
@@ -714,6 +1356,85 @@
    "value": "水篠 旬"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラのBPが{0}以上の場合、このキャラは[Impact {1}]を得る",
+      "nums": [
+       6000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場外にあるカード{0}枚につき、このキャラはこのターン中、BP+{1}",
+      "nums": [
+       5,
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラがアタックしてバトルに勝利した時、自分の場外から⟨n0⟩以外の『BP{0}』以下のキャラカードを{1}枚まで手札に加える",
+      "nums": [
+       2000,
+       1
+      ],
+      "names": [
+       "水篠 旬"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場外にあるカード{0}枚につき、この効果で手札に加えられるキャラカードのBPの範囲+{1}",
+      "nums": [
+       5,
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、「相手はこのキャラのアタックを可能ならブロックしなければならない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈水篠 旬〉アクティブにし、フロントLに移動できるこのキャラのBPが6000以上の場合、このキャラは【インパクト（1）】を得る。【アタック時】自分の場外にあるカード5枚につき、このキャラはこのターン中、BP+500。このキャラがアタックしてバトルに勝利した時、自分の場外から〈水篠 旬〉以外の『BP2000』以下のキャラカードを1枚まで手札に加える。自分の場外にあるカード5枚につき、この効果で手札に加えられるキャラカードのBPの範囲+500。【登場時】このキャラはこのターン中、「相手はこのキャラのアタックを可能ならブロックしなければならない。」を得る。",
   "effectEn": "[Raid] Can Raid onto <Sung Jinwoo>; set it to active and you may move it to the Front Line. If this character's BP is 6000 or more, This character [Impact 1] is gained. [When Attacking] For each 5 cards in your Outside Area, This character gets BP+500 this turn. When this character attacks and wins a battle, add up to 1 character card other than <Sung Jinwoo> with “BP 2000” or less from your Outside Area to your hand. For each 5 card(s) in your Outside Area, the BP range of character cards that can be added to your hand by this effect is increased by 500. [On Play] This character gains “Your opponent must block this character's attacks if able” this turn.",
   "triggerType": "Raid",
@@ -753,6 +1474,70 @@
    "value": "水篠 旬"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の⟦t0⟧{0}枚につき、場と場外以外の全ての場所でこのカードの必要エナジーを[Purple x{1}]減らす",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "影の軍団"
+      ],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "Static",
+    "conds": [
+     "energy"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のキャラのアタック終了時、自分のフロントLの⟦t0⟧とこのキャラの位置を入れ替えてもよい",
+      "nums": [],
+      "names": [],
+      "traits": [
+       "影の軍団"
+      ],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLとエナジーLの⟦t0⟧をそれぞれ{0}枚まで選び、アクティブにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "影の軍団"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "このキャラはこのターン中、[Snipe]を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場の［特徴：影の軍団］1枚につき、場と場外以外の全ての場所でこのカードの必要エナジーを【紫×1】減らす。【レイド】〈水篠 旬〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手に1ダメージ）【エナジーLにある場合】自分のキャラのアタック終了時、自分のフロントLの［特徴：影の軍団］とこのキャラの位置を入れ替えてもよい。【登場時】自分のフロントLとエナジーLの［特徴：影の軍団］をそれぞれ1枚まで選び、アクティブにする。このキャラはこのターン中、【狙い撃ち】を得る。",
   "effectEn": "For each 1 [Trait: Shadow Army] on your field, reduce the required energy of this card in all areas other than the field and Outside Area by [Purple x1]. [Raid] Can Raid onto <Sung Jinwoo>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [While in Energy Line] At the end of your character's attack, you may swap the positions of [Trait: Shadow Army] in your Front Line and this character. [On Play] Choose up to 1 [Trait: Shadow Army] each in your Front Line and Energy Line, and set them to active. This character, this turn, [Snipe] is gained.",
   "triggerType": "Raid",
@@ -789,6 +1574,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）",
   "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active)",
   "triggerType": "Active",
@@ -823,6 +1609,56 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはBP{0}以上のキャラにブロックされない",
+      "nums": [
+       4000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnRetire",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "相手は自身の場のキャラを{0}枚まで選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "選んだキャラにこのターン中、「このキャラはBP{0}以上のキャラにブロックされない",
+      "nums": [
+       4000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を与える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラはBP4000以上のキャラにブロックされない。【退場時】相手は自身の場のキャラを1枚まで選ぶ。選んだキャラにこのターン中、「このキャラはBP4000以上のキャラにブロックされない。」を与える。",
   "effectEn": "This character cannot be blocked by characters with BP 4000 or more. [On Retire] Your opponent chooses up to 1 character on their field. The chosen character gains “This character cannot be blocked by characters with BP 4000 or more” this turn.",
   "triggerType": "",
@@ -857,6 +1693,52 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "以下から{0}つ選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "自分の場外から必要エナジーが{0}以下の特徴を持たないキャラカードを{1}枚まで手札に加える",
+      "nums": [
+       3,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】以下から1つ選ぶ。・カードを2枚引く。・カードを1枚引く。自分の場外から必要エナジーが3以下の特徴を持たないキャラカードを1枚まで手札に加える。",
   "effectEn": "[On Play] Choose 1 of the following. Draw 2 card(s). Draw 1 card(s). Add up to 1 character card with no traits and required energy 3 or less from your Outside Area to your hand.",
   "triggerType": "Active",
@@ -891,6 +1773,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "必要エナジーが{0}以下の自分の場の他のキャラを{1}枚手札に戻す",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "戻せない場合、このキャラを手札に戻す",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -927,6 +1835,30 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "元々のBPが{0}以下の自分の場のレストの⟦t0⟧{1}枚につき、このキャラはBP+{2}",
+      "nums": [
+       2500,
+       1,
+       500
+      ],
+      "names": [],
+      "traits": [
+       "影の軍団"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】元々のBPが2500以下の自分の場のレストの［特徴：影の軍団］1枚につき、このキャラはBP+500。",
   "effectEn": "[During Your Turn] This character gets BP+500 for each 1 rested [Trait: Shadow Army] with original BP 2500 or less on your field.",
   "triggerType": "",
@@ -963,6 +1895,40 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはアクティブで登場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札か場外から⟨n0⟩を{0}枚まで自分の場にレストで登場させる",
+      "nums": [
+       1
+      ],
+      "names": [
+       "影の兵士"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラはアクティブで登場させる。【登場時】自分の手札か場外から〈影の兵士〉を1枚まで自分の場にレストで登場させる。",
   "effectEn": "This character is played active. [On Play] Play up to 1 <Shadow Soldiers> from your hand or Outside Area to your field rested.",
   "triggerType": "Get",
@@ -999,6 +1965,77 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "元々のBPが{0}以下の自分の⟦t0⟧のアタック時、アクティブのこのキャラをレストにしてもよい",
+      "nums": [
+       2000
+      ],
+      "names": [],
+      "traits": [
+       "影の軍団"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、以下から{0}つ選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このターン中に⟨n0⟩が既に選んだ効果は選べない",
+      "nums": [],
+      "names": [
+       "カイセル"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "アタックしているキャラを{0}枚まで選び、このターン中、「このキャラはBP{1}以上のキャラにブロックされない",
+      "nums": [
+       1,
+       4000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "」を与える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "アタックしているキャラを{0}枚まで選び、このターン中、「このキャラは、相手の効果で選ばれない",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "」を与える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "元々のBPが2000以下の自分の［特徴：影の軍団］のアタック時、アクティブのこのキャラをレストにしてもよい。そうした場合、以下から1つ選ぶ。このターン中に〈カイセル〉が既に選んだ効果は選べない。・アタックしているキャラを1枚まで選び、このターン中、「このキャラはBP4000以上のキャラにブロックされない。」を与える。・アタックしているキャラを1枚まで選び、このターン中、「このキャラは、相手の効果で選ばれない。」を与える。",
   "effectEn": "When your [Trait: Shadow Army] with original BP 2000 or less attacks, you may rest this active character. If you do, Choose 1 of the following. You cannot choose an effect <Kaisel> has already chosen this turn. Choose up to 1 attacking character; it gains “This character cannot be blocked by characters with BP 4000 or more” this turn. Choose up to 1 attacking character; it gains “This character cannot be chosen by your opponent's effects” this turn.",
   "triggerType": "Active",
@@ -1035,6 +2072,53 @@
   "keywords": {},
   "raid": null,
   "deckLimit": 12,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "※このカードはデッキに{0}枚まで入れられる",
+      "nums": [
+       12
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に他の⟦t0⟧がある場合、自分の山札の上から{0}枚見て、⟦t1⟧か⟨n0⟩を{1}枚まで場外に置く",
+      "nums": [
+       2,
+       1
+      ],
+      "names": [
+       "水篠 旬"
+      ],
+      "traits": [
+       "影の軍団",
+       "影の軍団"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で山札の上に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "※このカードはデッキに12枚まで入れられる。【登場時】自分の場に他の［特徴：影の軍団］がある場合、自分の山札の上から2枚見て、［特徴：影の軍団］か〈水篠 旬〉を1枚まで場外に置く。残りを望む順で山札の上に置く。",
   "effectEn": "※You may include up to 12 copies of this card in your deck. [On Play] If you have another [Trait: Shadow Army] on your field, look at the top 2 card(s) of your deck and put up to 1 [Trait: Shadow Army] or <Sung Jinwoo> into your Outside Area. Put the rest on top of your deck in any order.",
   "triggerType": "Draw",
@@ -1071,6 +2155,64 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "元々のBPが{0}以下の自分の⟦t0⟧のアタック時、アクティブのこのキャラをレストにしてもよい",
+      "nums": [
+       2000
+      ],
+      "names": [],
+      "traits": [
+       "影の軍団"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、以下から{0}つ選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このターン中に⟨n0⟩が既に選んだ効果は選べない",
+      "nums": [],
+      "names": [
+       "キバ"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "アタックしているキャラを{0}枚まで選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   }
+  ],
   "effectJp": "元々のBPが2000以下の自分の［特徴：影の軍団］のアタック時、アクティブのこのキャラをレストにしてもよい。そうした場合、以下から1つ選ぶ。このターン中に〈キバ〉が既に選んだ効果は選べない。・アタックしているキャラを1枚まで選び、このターン中、BP+1500。・カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "When your [Trait: Shadow Army] with original BP 2000 or less attacks, you may rest this active character. If you do, Choose 1 of the following. You cannot choose an effect <Tusk> has already chosen this turn. Choose up to 1 attacking character; it gets BP+1500 this turn. Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -1109,6 +2251,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle)",
   "triggerType": "Active",
@@ -1145,6 +2288,47 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に元々のBPが{0}以下のレストの⟦t0⟧が{1}枚以上ある場合、自分の手札を{2}枚場外に置いてもよい",
+      "nums": [
+       3000,
+       4,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "影の軍団"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、このキャラをアクティブにする",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "⟨n0⟩のこの効果は{0}ターンに{1}回のみ発動できる",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "ベル"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【アタック時】自分の場に元々のBPが3000以下のレストの［特徴：影の軍団］が4枚以上ある場合、自分の手札を1枚場外に置いてもよい。そうした場合、このキャラをアクティブにする。〈ベル〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "[When Attacking] If you have 4 or more rested [Trait: Shadow Army] with original BP 3000 or less on your field, you may put 1 card(s) from your hand into your Outside Area. If you do, Set this character to active. This <Beru> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "",
@@ -1179,6 +2363,78 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このフィールドはアクティブで登場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚を場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true,
+     "discard": 1
+    },
+    "steps": [
+     {
+      "key": "自分の場外にカードが{0}枚以上ある場合のみ発動できる",
+      "nums": [
+       20
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場外から必要エナジーを満たす⟨n0⟩を{0}枚までAPを支払って使用する",
+      "nums": [
+       1
+      ],
+      "names": [
+       "命の神水"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "この効果で使用したカードは場外に置く代わりにリムーブエリアに置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このフィールドはアクティブで登場させる。【起動メイン】【レストにする】【ターン1】自分の山札の上から1枚を場外に置く。【起動メイン】【レストにする】【手札を1枚場外に置く】自分の場外にカードが20枚以上ある場合のみ発動できる。自分の場外から必要エナジーを満たす〈命の神水〉を1枚までAPを支払って使用する。この効果で使用したカードは場外に置く代わりにリムーブエリアに置く。",
   "effectEn": "This Field is played active. [Activate: Main] [Rest this card] [Once Per Turn] Put the top 1 card(s) of your deck into your Outside Area. [Activate: Main] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] Can only activate if you have 20 or more cards in your Outside Area. Use up to 1 <Elixir of Life> that meets its required energy from your Outside Area, paying AP. Cards used by this effect are put into the Remove Area instead of the Outside Area.",
   "triggerType": "Get",
@@ -1215,6 +2471,54 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このフィールドはアクティブで登場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "自分の場の⟦t0⟧全ては、このターン中、『BP+{0}』",
+      "nums": [
+       500
+      ],
+      "names": [],
+      "traits": [
+       "影の軍団"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟦t0⟧が{0}枚以上ある場合、『BP+{1}』に代わる",
+      "nums": [
+       5,
+       1000
+      ],
+      "names": [],
+      "traits": [
+       "影の軍団"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このフィールドはアクティブで登場させる。【起動メイン】【レストにする】自分の場の［特徴：影の軍団］全ては、このターン中、『BP+500』。自分の場に［特徴：影の軍団］が5枚以上ある場合、『BP+1000』に代わる。",
   "effectEn": "This Field is played active. [Activate: Main] [Rest this card] All [Trait: Shadow Army] on your field This turn, 『BP+500』. If you have 5 or more [Trait: Shadow Army] on your field, it becomes “BP+1000” instead.",
   "triggerType": "Get",
@@ -1244,6 +2548,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       3,
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "カードを3枚引き、自分の手札を2枚場外に置く。",
   "effectEn": "Draw 3 card(s), then put 2 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -1273,6 +2596,34 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場外から元々のBPが{0}以下のキャラカードを{1}枚まで手札に加える",
+      "nums": [
+       4000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場外から元々のBPが4000以下のキャラカードを1枚まで手札に加える。カードを1枚引く。",
   "effectEn": "Add up to 1 character card with original BP 4000 or less from your Outside Area to your hand. Draw 1 card(s).",
   "triggerType": "Draw",
@@ -1302,6 +2653,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1331,6 +2700,43 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "以下から{0}つ選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場外から特徴に「影の軍団」を持つキャラカードを{0}枚まで自分の場にアクティブで登場させる",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "自分の場外から必要エナジーが{0}以下の特徴に「影の軍団」を持つキャラカードを{1}枚まで自分の場にレストで登場させる",
+      "nums": [
+       3,
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   }
+  ],
   "effectJp": "以下から1つ選ぶ。・自分の場外から特徴に「影の軍団」を持つキャラカードを1枚まで自分の場にアクティブで登場させる。・自分の場外から必要エナジーが3以下の特徴に「影の軍団」を持つキャラカードを2枚まで自分の場にレストで登場させる。",
   "effectEn": "Choose 1 of the following. Play up to 1 character card with the trait “Shadow Army” from your Outside Area to your field active. Play up to 2 character card with the trait “Shadow Army” and required energy 3 or less from your Outside Area to your field rested.",
   "triggerType": "Special",
@@ -1360,6 +2766,36 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "『BP{0}以下』の相手のフロントLのキャラを{1}枚選び、退場させる",
+      "nums": [
+       3000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟨n0⟩がある場合、『BP{0}以下』に代わる",
+      "nums": [
+       5000
+      ],
+      "names": [
+       "水篠 旬"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈水篠 旬〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Sung Jinwoo> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -1394,6 +2830,22 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがアクティブの場合、このキャラの発生エナジー+[Green]",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【緑】。",
   "effectEn": "While this character is active, its generated energy +[Green].",
   "triggerType": "",
@@ -1428,6 +2880,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、発生エナジー+[Green]と「メインフェイズ終了時、このキャラを退場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【緑】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Green] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -1462,6 +2940,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -1496,6 +2993,49 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "自分の場の⟨n0⟩を{0}枚選び、自分の山札の上から{1}枚まで裏向きでそのキャラの下に置き、このターン中、[Damage +{2}]を与える",
+      "nums": [
+       1,
+       1,
+       1
+      ],
+      "names": [
+       "水篠 旬"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。【起動メイン】【フロントLにある場合】【レストにする】自分の場の〈水篠 旬〉を1枚選び、自分の山札の上から1枚まで裏向きでそのキャラの下に置き、このターン中、【ダメージ（+1）】（このキャラがアタックで与える直接ダメージ+1）を与える。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. [Activate: Main] [While in Front Line] [Rest this card] Choose 1 <Sung Jinwoo> on your field, put up to 1 card(s) from the top of your deck face down under that character, and it gains [Damage +1] (Direct damage this character deals by attacking +1) this turn.",
   "triggerType": "Color",
@@ -1530,6 +3070,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1564,6 +3105,44 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見て、⟨n0⟩か⟨n1⟩を{1}枚まで公開し手札に加える",
+      "nums": [
+       4,
+       1
+      ],
+      "names": [
+       "水篠 旬",
+       "デイリークエスト"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から4枚見て、〈水篠 旬〉か〈デイリークエスト〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck, reveal up to 1 <Sung Jinwoo> or <Daily Quest> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -1601,6 +3180,69 @@
    "value": "水篠 旬"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のアタックフェイズ終了時、自分の場のカードの下の裏向きのカードを合計{0}枚と、このキャラの一番上のカードを場外に置いてもよい",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分の手札から必要エナジーが{0}の緑の⟨n0⟩を{1}枚まで、このキャラのレイド元のカードにレイドさせる",
+      "nums": [
+       5,
+       1
+      ],
+      "names": [
+       "水篠 旬"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚裏向きでこのキャラの下に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈水篠 旬〉アクティブにし、フロントLに移動できる自分のアタックフェイズ終了時、自分の場のカードの下の裏向きのカードを合計2枚と、このキャラの一番上のカードを場外に置いてもよい。そうした場合、自分の手札から必要エナジーが5の緑の〈水篠 旬〉を1枚まで、このキャラのレイド元のカードにレイドさせる。【登場時】カードを1枚引く。【アタック時】カードを1枚引き、自分の手札を1枚裏向きでこのキャラの下に置く。",
   "effectEn": "[Raid] Can Raid onto <Sung Jinwoo>; set it to active and you may move it to the Front Line. At the end of your Attack Phase, you may put a total of 2 face-down card(s) under cards on your field and the top card of this character into your Outside Area. If you do, Raid up to 1 Green <Sung Jinwoo> with required energy 5 from your hand onto this character's Raid source card. [On Play] Draw 1 card(s). [When Attacking] Draw 1 card(s), then put 1 card(s) from your hand face down under this character.",
   "triggerType": "Get",
@@ -1638,6 +3280,80 @@
    "value": "水篠 旬"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のアタックフェイズ終了時、自分の場のカードの下の裏向きのカードを合計{0}枚と、このキャラの一番上のカードを場外に置いてもよい",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分の手札から必要エナジーが{0}の緑の⟨n0⟩を{1}枚まで、このキャラのレイド元のカードにレイドさせる",
+      "nums": [
+       6,
+       1
+      ],
+      "names": [
+       "水篠 旬"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札から必要エナジーが{0}以下で消費APが{1}の緑のキャラカードを{2}枚まで自分の場にレストで登場させる",
+      "nums": [
+       3,
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分のターン中で、このキャラが自分の効果で登場していた場合、カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚裏向きでこのキャラの下に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈水篠 旬〉アクティブにし、フロントLに移動できる自分のアタックフェイズ終了時、自分の場のカードの下の裏向きのカードを合計3枚と、このキャラの一番上のカードを場外に置いてもよい。そうした場合、自分の手札から必要エナジーが6の緑の〈水篠 旬〉を1枚まで、このキャラのレイド元のカードにレイドさせる。【登場時】自分の手札から必要エナジーが3以下で消費APが1の緑のキャラカードを1枚まで自分の場にレストで登場させる。自分のターン中で、このキャラが自分の効果で登場していた場合、カードを1枚引く。【アタック時】カードを1枚引き、自分の手札を1枚裏向きでこのキャラの下に置く。",
   "effectEn": "[Raid] Can Raid onto <Sung Jinwoo>; set it to active and you may move it to the Front Line. At the end of your Attack Phase, you may put a total of 3 face-down card(s) under cards on your field and the top card of this character into your Outside Area. If you do, Raid up to 1 Green <Sung Jinwoo> with required energy 6 from your hand onto this character's Raid source card. [On Play] Play up to 1 Green character card with required energy 3 or less and with AP cost 1 from your hand to your field rested. If it is your turn and this character was played by your own effect, draw 1 card(s). [When Attacking] Draw 1 card(s), then put 1 card(s) from your hand face down under this character.",
   "triggerType": "Raid",
@@ -1677,6 +3393,57 @@
    "value": "水篠 旬"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはBP+{0}",
+      "nums": [
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のターン中で、このキャラが自分の効果で登場していた場合、相手のフロントLのキャラを{0}枚まで選び、退場させる",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚裏向きでこのカードの下に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈水篠 旬〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手に1ダメージ）このキャラはBP+500。【登場時】自分のターン中で、このキャラが自分の効果で登場していた場合、相手のフロントLのキャラを1枚まで選び、退場させる。【アタック時】カードを1枚引き、自分の手札を1枚裏向きでこのカードの下に置く。",
   "effectEn": "[Raid] Can Raid onto <Sung Jinwoo>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent)This character gets BP+500. [On Play] If it is your turn and this character was played by your own effect, choose up to 1 character in your opponent's Front Line and retire it. [When Attacking] Draw 1 card(s), and put 1 card(s) from your hand face down under this card.",
   "triggerType": "Raid",
@@ -1711,6 +3478,29 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true,
+     "retireSelf": true
+    },
+    "steps": [
+     {
+      "key": "自分の場外から⟨n0⟩を{0}枚まで手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [
+       "水篠 旬"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の場外から〈水篠 旬〉を1枚まで手札に加える。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Add up to 1 <Sung Jinwoo> from your Outside Area to your hand.",
   "triggerType": "",
@@ -1745,6 +3535,63 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "以下から{0}つ選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場外から必要エナジーが{0}以下のキャラカードを{1}枚まで手札に加える",
+      "nums": [
+       2,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "「APを{0}支払い、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "」をしてもよい",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分の場外から必要エナジーが{0}の緑の⟨n0⟩を{1}枚までレイドさせる",
+      "nums": [
+       4,
+       1
+      ],
+      "names": [
+       "水篠 旬"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】以下から1つ選ぶ。・自分の場外から必要エナジーが2以下のキャラカードを1枚まで手札に加える。・「APを1支払い、自分の手札を1枚場外に置く。」をしてもよい。そうした場合、自分の場外から必要エナジーが4の緑の〈水篠 旬〉を1枚までレイドさせる。",
   "effectEn": "[On Play] Choose 1 of the following. Add up to 1 character card(s) with required energy 2 or less from your Outside Area to your hand. You may “pay 1 AP, and put 1 card(s) from your hand into your Outside Area” If you do, Raid up to 1 green <Sung Jinwoo> with required energy 4 from your Outside Area.",
   "triggerType": "Active",
@@ -1781,6 +3628,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle)",
   "triggerType": "Active",
@@ -1817,6 +3665,26 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟨n0⟩がある場合、カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [
+       "水篠 旬"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【登場時】自分の場に〈水篠 旬〉がある場合、カードを1枚引く。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [On Play] If you have <Sung Jinwoo> on your field, Draw 1 card(s).",
   "triggerType": "Draw",
@@ -1853,6 +3721,34 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見て、⟦t0⟧を{1}枚まで場外に置く",
+      "nums": [
+       2,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "第四次架南島レイド"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で山札の上に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から2枚見て、［特徴：第四次架南島レイド］を1枚まで場外に置く。残りを望む順で山札の上に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck, and put up to 1 [Trait: Fourth Kanan Island Raid] among them into your Outside Area. Put the rest on top of your deck in any order.",
   "triggerType": "Active",
@@ -1889,6 +3785,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1927,6 +3824,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手に1ダメージ）",
   "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent)",
   "triggerType": "",
@@ -1963,6 +3861,46 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧が{0}枚以上ある場合、このキャラをアクティブにし、このターン中、「[When Attacking]このキャラは次の{1}回アクティブにならない",
+      "nums": [
+       5,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "第四次架南島レイド"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "⟨n0⟩のこの効果は{0}ターンに{1}回のみ発動する",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "向坂 雫"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の場に［特徴：第四次架南島レイド］が5枚以上ある場合、このキャラをアクティブにし、このターン中、「【アタック時】このキャラは次の1回アクティブにならない。」を得る。〈向坂 雫〉のこの効果は1ターンに1回のみ発動する。",
   "effectEn": "[On Play] If you have 5 or more [Trait: Fourth Kanan Island Raid] on your field, set this character to active, and it gains “[When Attacking] This character does not become active the next 1 time(s)” this turn. This <Cha Hae-in> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Color",
@@ -2002,6 +3940,51 @@
    "value": "向坂 雫"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、BP+{0}",
+      "nums": [
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札を{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分のフロントLの「次の{0}回アクティブにならない」キャラを{1}枚まで選び、そのキャラとこのキャラをアクティブにする",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【レイド】〈向坂 雫〉アクティブにし、フロントLに移動できる【登場時】このキャラはこのターン中、BP+1000。【アタック時】【ターン1】自分の手札を1枚場外に置いてもよい。そうした場合、自分のフロントLの「次の1回アクティブにならない」キャラを1枚まで選び、そのキャラとこのキャラをアクティブにする。",
   "effectEn": "[Raid] Can Raid onto <Cha Hae-in>; set it to active and you may move it to the Front Line. [On Play] This character gets BP+1000 this turn. [When Attacking] [Once Per Turn] You may put 1 card(s) from your hand into your Outside Area. If you do, choose up to 1 character in your Front Line that “does not become active the next 1 time(s)”, and set that character and this character to active.",
   "triggerType": "Raid",
@@ -2038,6 +4021,68 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札を{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、このキャラをアクティブにし、このターン中、BP+{0}",
+      "nums": [
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見て、⟦t0⟧を{1}枚まで公開し手札に加える",
+      "nums": [
+       4,
+       2
+      ],
+      "names": [],
+      "traits": [
+       "第四次架南島レイド"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えた場合、このキャラは次の{0}回アクティブにならない",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、このキャラをアクティブにし、このターン中、BP+1000。【アタック時】自分の山札の上から4枚見て、［特徴：第四次架南島レイド］を2枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、このキャラは次の1回アクティブにならない。",
   "effectEn": "[On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, set this character to active, and it gets BP+1000 this turn. [When Attacking] Look at the top 4 card(s) of your deck, reveal up to 2 [Trait: Fourth Kanan Island Raid] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, this character does not become active the next 1 time(s).",
   "triggerType": "Get",
@@ -2076,6 +4121,27 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "energy"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のアタックフェイズ終了時、自分のフロントLの「次の{0}回アクティブにならない」キャラを{1}枚選び、このキャラと位置を入れ替えてもよい",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【エナジーLにある場合】自分のアタックフェイズ終了時、自分のフロントLの「次の1回アクティブにならない」キャラを1枚選び、このキャラと位置を入れ替えてもよい。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [While in Energy Line] At the end of your Attack Phase, you may choose 1 character in your Front Line that “does not become active the next 1 time(s)” and swap its position with this character.",
   "triggerType": "",
@@ -2112,6 +4178,63 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のアタックフェイズ終了時、自分の手札を{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分の場の⟦t0⟧を{0}枚まで選び、アクティブにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "第四次架南島レイド"
+      ],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の他の⟦t0⟧を{0}枚まで選び、『このターン中』、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [
+       "第四次架南島レイド"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "この効果で⟨n0⟩を選んだ場合、『次の自分のターン開始時まで』に代わる",
+      "nums": [],
+      "names": [
+       "白川 大虎"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のアタックフェイズ終了時、自分の手札を1枚場外に置いてもよい。そうした場合、自分の場の［特徴：第四次架南島レイド］を1枚まで選び、アクティブにする。【登場時】自分の場の他の［特徴：第四次架南島レイド］を1枚まで選び、『このターン中』、BP+1000。この効果で〈白川 大虎〉を選んだ場合、『次の自分のターン開始時まで』に代わる。",
   "effectEn": "At the end of your Attack Phase, You may put 1 card(s) from your hand into your Outside Area. If you do, Choose up to 1 [Trait: Fourth Kanan Island Raid] on your field, set it to active. [On Play] Choose up to 1 other [Trait: Fourth Kanan Island Raid] on your field; it gets BP+1000 “this turn” If you chose <Baek Yoonho> with this effect, it becomes “until the start of your next turn” instead.",
   "triggerType": "Active",
@@ -2148,6 +4271,29 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧が{0}枚以上ある場合、このキャラはBP+{1}",
+      "nums": [
+       5,
+       1500
+      ],
+      "names": [],
+      "traits": [
+       "第四次架南島レイド"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】自分の場に［特徴：第四次架南島レイド］が5枚以上ある場合、このキャラはBP+1500。",
   "effectEn": "[During Your Turn] If you have 5 or more [Trait: Fourth Kanan Island Raid] on your field, This character gets BP+1500.",
   "triggerType": "Draw",
@@ -2184,6 +4330,43 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見て、⟦t0⟧を{1}枚まで公開し手札に加える",
+      "nums": [
+       3,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "第四次架南島レイド"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：第四次架南島レイド］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: Fourth Kanan Island Raid] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -2223,6 +4406,70 @@
    "value": "最上 真"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧が{0}枚以上ある場合、BP{1}以上の相手のフロントLのキャラ全ては、このターン中、BP-{2}",
+      "nums": [
+       5,
+       1500,
+       1000
+      ],
+      "names": [],
+      "traits": [
+       "第四次架南島レイド"
+      ],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "以下から{0}つ選んでもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、このキャラは次の{0}回アクティブにならない",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラの[On Play]を発動する",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "BP{0}以下の相手のフロントLのキャラを{1}枚まで選び、退場させる",
+      "nums": [
+       2000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈最上 真〉アクティブにし、フロントLに移動できる【登場時】自分の場に［特徴：第四次架南島レイド］が5枚以上ある場合、BP1500以上の相手のフロントLのキャラ全ては、このターン中、BP-1000。【アタック時】以下から1つ選んでもよい。そうした場合、このキャラは次の1回アクティブにならない。・このキャラの【登場時】を発動する。・BP2000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "[Raid] Can Raid onto <Choi Jong-in>; set it to active and you may move it to the Front Line. [On Play] If you have 5 or more [Trait: Fourth Kanan Island Raid] on your field, all characters in your opponent's Front Line with BP 1500 or more it gets BP-1000 this turn. [When Attacking] You may choose 1 of the following. If you do, This character it does not become active the next 1 time(s). Activate this character's [On Play]. Choose up to 1 character in your opponent's Front Line with BP 2000 or less, retire it.",
   "triggerType": "Raid",
@@ -2260,6 +4507,28 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札が{0}枚以上の場合、このキャラはBP+{1}と[Impact {2}]を得る",
+      "nums": [
+       5,
+       1000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】自分の手札が5枚以上の場合、このキャラはBP+1000と【インパクト（1）】（アタックしてバトルに勝利した時、相手に1ダメージ）を得る。",
   "effectEn": "[During Your Turn] If you have 5 or more cards in your hand, this character gains BP+1000 and [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opponent)",
   "triggerType": "Draw",
@@ -2297,6 +4566,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -2334,6 +4604,40 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧が{0}枚以上ある場合、カードを{1}枚引き、このキャラをアクティブにし、このターン中、BP+{2}",
+      "nums": [
+       3,
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [
+       "DFN"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "⟨n0⟩のこの効果は{0}ターンに{1}回のみ発動する",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "カナ"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の場に［特徴：DFN］が3枚以上ある場合、カードを1枚引き、このキャラをアクティブにし、このターン中、BP+1000。〈カナ〉のこの効果は1ターンに1回のみ発動する。",
   "effectEn": "[On Play] If you have 3 or more [Trait: DFN] on your field, draw 1 card(s), set this character to active, and it gets BP+1000 this turn. This <Tawata Kanae> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Color",
@@ -2371,6 +4675,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "必要エナジーが{0}以下の自分の場の他のキャラを{1}枚手札に戻す",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "戻せない場合、このキャラを手札に戻す",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -2408,6 +4738,27 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札が{0}枚以上の場合、このキャラはBP+{1}",
+      "nums": [
+       5,
+       1500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】自分の手札が5枚以上の場合、このキャラはBP+1500。",
   "effectEn": "[During Your Turn] If you have 5 or more cards in your hand, this character gets BP+1500.",
   "triggerType": "",
@@ -2445,6 +4796,34 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の他の⟦t0⟧を{0}枚まで選び、次の相手のターン中、「相手はカードの効果でこのキャラを選ぶ際に、追加で{1}AP支払わないと選べない",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "DFN"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "」を与える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の場の他の［特徴：DFN］を1枚まで選び、次の相手のターン中、「相手はカードの効果でこのキャラを選ぶ際に、追加で1AP支払わないと選べない。」を与える。",
   "effectEn": "[On Play] Choose up to 1 other [Trait: DFN] on your field; during your opponent's next turn, it gains “When choosing this character with a card effect, your opponent must additionally pay 1 AP”",
   "triggerType": "Active",
@@ -2482,6 +4861,35 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "自分の場の他のキャラを{0}枚選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このカードを手札に戻す",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【ターン1】自分の場の他のキャラを1枚選び、このターン中、BP+1000。このカードを手札に戻す。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] Choose 1 other character on your field, it gets BP+1000 this turn. Return this card to your hand.",
   "triggerType": "Draw",
@@ -2519,6 +4927,27 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧が{0}枚以上ある場合、カードを{1}枚引く",
+      "nums": [
+       3,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "DFN"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の場に［特徴：DFN］が3枚以上ある場合、カードを1枚引く。",
   "effectEn": "[On Play] If you have 3 or more [Trait: DFN] on your field, Draw 1 card(s).",
   "triggerType": "",
@@ -2556,6 +4985,88 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはアクティブで登場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "Static",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の⟦t0⟧を持たない⟦t1⟧が退場した時、自分の場の⟦t2⟧全てに、このターン中、「[On Retire]このカードを手札に加える",
+      "nums": [],
+      "names": [],
+      "traits": [
+       "DFN",
+       "第四次架南島レイド",
+       "DFN"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "」を与える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラを{0}枚まで選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の手札が{0}枚以上ある場合、自分のAPカードを{1}枚までアクティブにする",
+      "nums": [
+       7,
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "⟨n0⟩のこの効果は{0}ターンに{1}回のみ発動できる",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "リュー"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラはアクティブで登場させる。【フロントLにある場合】自分の場の［特徴：DFN］を持たない［特徴：第四次架南島レイド］が退場した時、自分の場の［特徴：DFN］全てに、このターン中、「【退場時】このカードを手札に加える。」を与える。【登場時】自分の場のキャラを1枚まで選び、このターン中、BP+1000。自分の手札が7枚以上ある場合、自分のAPカードを2枚までアクティブにする。〈リュー〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "This character is played active. [While in Front Line] When a [Trait: Fourth Kanan Island Raid] without [Trait: DFN] on your field is retired, all [Trait: DFN] on your field gain “[On Retire] Add this card to your hand” this turn. [On Play] Choose up to 1 character on your field, it gets BP+1000 this turn. If you have 7 or more cards in your hand, set up to 2 of your AP cards to active. This <Goto Ryuji> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Get",
@@ -2593,6 +5104,27 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の他の⟦t0⟧を{0}枚まで選び、このターン中、[Impact {1}]を与える",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "DFN"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の場の他の［特徴：DFN］を1枚まで選び、このターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手に1ダメージ）を与える。",
   "effectEn": "[On Play] Choose up to 1 other [Trait: DFN] on your field, This turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is given.",
   "triggerType": "Draw",
@@ -2627,6 +5159,66 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "自分の場に⟨n0⟩がある場合のみ発動できる",
+      "nums": [],
+      "names": [
+       "水篠 旬"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の山札の上から{0}枚を裏向きでこのカードの下に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true,
+     "discard": 1
+    },
+    "steps": [
+     {
+      "key": "自分の場のカードの下の裏向きのカードを{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分の場外から必要エナジーが{0}の⟨n0⟩を{1}枚まで手札に加える",
+      "nums": [
+       0,
+       1
+      ],
+      "names": [
+       "水篠 旬"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】自分の場に〈水篠 旬〉がある場合のみ発動できる。自分の山札の上から1枚を裏向きでこのカードの下に置く。【起動メイン】【レストにする】【手札を1枚場外に置く】自分の場のカードの下の裏向きのカードを1枚場外に置いてもよい。そうした場合、自分の場外から必要エナジーが0の〈水篠 旬〉を1枚まで手札に加える。",
   "effectEn": "[Activate: Main] [Rest this card] Can only activate if you have <Sung Jinwoo> on your field. Put the top 1 card(s) of your deck face down under this card. [Activate: Main] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] You may put 1 face-down card(s) under cards on your field into your Outside Area. If you do, add up to 1 <Sung Jinwoo> with required energy 0 from your Outside Area to your hand.",
   "triggerType": "Get",
@@ -2656,6 +5248,36 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "『BP{0}以下』の相手のフロントLのキャラを{1}枚選び、退場させる",
+      "nums": [
+       3000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟨n0⟩がある場合、『BP{0}以下』に代わる",
+      "nums": [
+       5000
+      ],
+      "names": [
+       "水篠 旬"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈水篠 旬〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Sung Jinwoo> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -2685,6 +5307,50 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "『BP{0}以下』の相手のフロントLのキャラを{1}枚選び、退場させる",
+      "nums": [
+       2000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟦t0⟧が{0}枚以上ある場合、『BP{1}以下』に代わる",
+      "nums": [
+       5,
+       5000
+      ],
+      "names": [],
+      "traits": [
+       "第四次架南島レイド"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟦t0⟧のカード名が{0}種類以上ある場合、自分の場のキャラを{1}枚まで選び、このターン中、BP+{2}",
+      "nums": [
+       5,
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [
+       "第四次架南島レイド"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "『BP2000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に［特徴：第四次架南島レイド］が5枚以上ある場合、『BP5000以下』に代わる。自分の場に［特徴：第四次架南島レイド］のカード名が5種類以上ある場合、自分の場のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 2000 or less, retire it. If you have 5 or more [Trait: Fourth Kanan Island Raid] on your field, it becomes “BP 5000 or less” instead. If you have 5 or more [Trait: Fourth Kanan Island Raid] with different card names on your field, Choose up to 1 character on your field, it gets BP+1000 this turn.",
   "triggerType": "Special",
@@ -2714,6 +5380,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2743,6 +5427,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2772,6 +5474,43 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場の⟨n0⟩を{0}枚まで選び、このターン中、「[When Attacking]カードを{1}枚まで引く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "向坂 雫"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を与える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "カードを1枚引く。自分の場の〈向坂 雫〉を1枚まで選び、このターン中、「【アタック時】カードを1枚まで引く。」を与える。",
   "effectEn": "Draw 1 card(s). Choose up to 1 <Cha Hae-in> on your field, it gains “[When Attacking]Draw up to 1 card(s)” this turn.",
   "triggerType": "Draw",
@@ -2799,6 +5538,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2826,6 +5566,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2853,6 +5594,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2880,6 +5622,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2907,6 +5650,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2934,6 +5678,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2961,6 +5706,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2988,6 +5734,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3015,6 +5762,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3042,6 +5790,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3069,6 +5818,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3096,6 +5846,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

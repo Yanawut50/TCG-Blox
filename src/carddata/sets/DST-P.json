@@ -26,6 +26,49 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "ap": 1
+    },
+    "steps": [
+     {
+      "key": "自分の手札から⟨n0⟩を{0}枚まで自分のエナジーLにアクティブで登場させる",
+      "nums": [
+       1
+      ],
+      "names": [
+       "科学船ペルセウス"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このターン中に自分が手札から⟨n0⟩を使用しているか、⟨n1⟩の効果で自分の手札の⟨n2⟩を場外に置いている場合、カードを{0}枚引き、このキャラはこのターン中、[Impact {1}]を得る",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "石油",
+       "科学船ペルセウス",
+       "石油"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【起動メイン】【APを1支払う】自分の手札から〈科学船ペルセウス〉を1枚まで自分のエナジーLにアクティブで登場させる。【アタック時】このターン中に自分が手札から〈石油〉を使用しているか、〈科学船ペルセウス〉の効果で自分の手札の〈石油〉を場外に置いている場合、カードを1枚引き、このキャラはこのターン中、【インパクト（1）】を得る。",
   "effectEn": "[Activate: Main] [Pay 1 AP] Play up to 1 <科学船ペルセウス> from your hand to your Energy Line active. [When Attacking] If you have used <石油> from your hand this turn, or put <石油> from your hand into your Outside Area with the effect of <科学船ペルセウス>, draw 1 card(s), and this character gains [Impact 1] this turn.",
   "triggerType": "Get",
@@ -60,6 +103,62 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このターン中に自分の効果で自分の手札を公開している場合、このキャラはBP+{0}",
+      "nums": [
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "必要エナジーの数を{0}つ指定する",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の手札を{0}枚相手が選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "選ばれたカードを公開し、そのカードの必要エナジーの数がこの効果で指定した数と同じだった場合、自分の場外から特徴を持たないキャラカードか⟨n0⟩を{0}枚まで自分の山札の上に置く",
+      "nums": [
+       1
+      ],
+      "names": [
+       "ケータイ"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】このターン中に自分の効果で自分の手札を公開している場合、このキャラはBP+500。【登場時】必要エナジーの数を1つ指定する。自分の手札を1枚相手が選ぶ。選ばれたカードを公開し、そのカードの必要エナジーの数がこの効果で指定した数と同じだった場合、自分の場外から特徴を持たないキャラカードか〈ケータイ〉を1枚まで自分の山札の上に置く。",
   "effectEn": "[During Your Turn] If you have revealed cards from your hand with your own effect this turn, this character gets BP+500. [On Play] Declare 1 required energy colors. Your opponent chooses 1 card(s) from your hand. Reveal the chosen card; if the amount of its required energy equals the number declared by this effect, put up to 1 character card with no traits or <ケータイ> from your Outside Area on top of your deck.",
   "triggerType": "Active",
@@ -96,6 +195,77 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [
+     "energy"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラをアクティブにする",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "このターン中に自分の効果でアクティブからレストになったことがある自分のフロントLの他の⟦t0⟧を{0}枚選び、アクティブにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "科学王国"
+      ],
+      "bullet": false
+     }
+    ],
+    "once": true
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true,
+     "discard": 2
+    },
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧が{0}枚以上ある場合のみ発動できる",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [
+       "クラフト"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "自分のフロントLの他のキャラを{0}枚選び、このターン中、[Damage {1}]を与える",
+      "nums": [
+       1,
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【登場時】【エナジーLにある場合】このキャラをアクティブにする。【起動メイン】【レストにする】【ターン1】このターン中に自分の効果でアクティブからレストになったことがある自分のフロントLの他の［特徴：科学王国］を1枚選び、アクティブにする。【起動メイン】【レストにする】【手札を2枚場外に置く】【ターン1】自分の場に［特徴：クラフト］が2枚以上ある場合のみ発動できる。自分のフロントLの他のキャラを1枚選び、このターン中、【ダメージ（2）】を与える。",
   "effectEn": "[On Play] [While in Energy Line] Set this character to active. [Activate: Main] [Rest this card] [Once Per Turn] Choose 1 other [Trait: Kingdom of Science] in your Front Line that went from active to rested by your own effect this turn, and set it to active. [Activate: Main] [Rest this card] [Put 2 card(s) from your hand into your Outside Area] [Once Per Turn] Can only activate if you have 2 or more [Trait: Craft] on your field. Choose 1 other character in your Front Line, This turn, [Damage 2] is given.",
   "triggerType": "Active",

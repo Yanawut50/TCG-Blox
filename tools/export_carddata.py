@@ -25,6 +25,9 @@ import tempfile
 from collections import defaultdict
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import effect_parse  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "src" / "carddata"
 SETS_DIR = OUT_DIR / "sets"
@@ -138,6 +141,22 @@ def parse_deck_limit(effect_jp: str) -> int | None:
     return int(m.group(1)) if m else None
 
 
+_abilities_ok = True
+
+
+def parse_abilities(effect_jp: str, card_type: str) -> list:
+    """Abilities for EffectRegistry. Needs tools/ua_translate.py (in this repo or a parent)."""
+    global _abilities_ok
+    if not _abilities_ok:
+        return []
+    try:
+        return effect_parse.parse(effect_jp, card_type, ROOT)
+    except FileNotFoundError as e:
+        _abilities_ok = False
+        print(f"WARNING: {e}; cards are exported without abilities (effects will all be manual)", file=sys.stderr)
+        return []
+
+
 def clean_text(v) -> str:
     return "" if v in (None, "-") else str(v)
 
@@ -215,6 +234,7 @@ def main() -> int:
             "keywords": parse_keywords(clean_text(r["effect_jp"])),
             "raid": parse_raid(clean_text(r["effect_jp"])),
             "deckLimit": parse_deck_limit(clean_text(r["effect_jp"])),
+            "abilities": parse_abilities(clean_text(r["effect_jp"]), r["card_type"] or ""),
             "effectJp": clean_text(r["effect_jp"]),
             "effectEn": clean_text(r["effect_en"]),
             "triggerType": r["trigger_type"] or "",

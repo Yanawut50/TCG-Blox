@@ -391,6 +391,34 @@ local function cardActions(list: Frame, v: any, uid: number)
 			end)
 		end
 	end
+	-- Activate: Main abilities of your cards on the field.
+	if mine and myTurn and phase == "Main" and (zone == "front" or zone == "energy") then
+		local hint = v.hints[tostring(uid)] or {}
+		for n, act in hint.activate or {} do
+			local parts = {}
+			if act.costs.rest then
+				table.insert(parts, "rest")
+			end
+			if act.costs.ap then
+				table.insert(parts, act.costs.ap .. " AP")
+			end
+			if act.costs.discard then
+				table.insert(parts, "discard " .. act.costs.discard)
+			end
+			if act.costs.retireSelf then
+				table.insert(parts, "remove this")
+			end
+			local text = ("Activate %d%s%s%s"):format(
+				n,
+				if #parts > 0 then " (" .. table.concat(parts, ", ") .. ")" else "",
+				if act.auto then " · auto" else " · manual",
+				if act.used then " · used" elseif not act.condsOk then " · condition!" else ""
+			)
+			button(list, text, function()
+				send({ type = "Activate", uid = uid, index = act.index })
+			end, { BackgroundColor3 = if act.auto then Color3.fromRGB(70, 90, 150) else Color3.fromRGB(90, 80, 60) })
+		end
+	end
 	if mine and myTurn and phase == "Move" and def.cardType == "Character" then
 		if zone == "energy" then
 			button(list, "Move → Front Line", function()
@@ -505,6 +533,14 @@ local function detailPanel(parent: Instance, v: any)
 		para("Traits: " .. table.concat(def.traits, ", "), MUTED)
 	end
 	para(def.effectEn)
+	local hint = v.hints and v.hints[tostring(cv.uid)]
+	if hint and hint.abilities and #hint.abilities > 0 then
+		local parts = {}
+		for _, a in hint.abilities do
+			table.insert(parts, a.timing .. ": " .. (if a.auto then "auto" else "manual"))
+		end
+		para("Effects — " .. table.concat(parts, " · "), Color3.fromRGB(150, 190, 255))
+	end
 	if def.triggerEn ~= "" then
 		para(def.triggerEn, Color3.fromRGB(255, 220, 140))
 	end

@@ -28,6 +28,25 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnRetire",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【退場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Retire] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -62,6 +81,26 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "必要エナジーが{0}以下の自分の場のキャラを{1}枚まで選び、このターン中、BP+{2}",
+      "nums": [
+       2,
+       1,
+       2000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】必要エナジーが2以下の自分の場のキャラを1枚まで選び、このターン中、BP+2000。",
   "effectEn": "[On Play] Choose up to 1 character on your field with required energy 2 or less, it gets BP+2000 this turn.",
   "triggerType": "Active",
@@ -98,6 +137,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnRetire",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場外から[Raid]を持つキャラカードを{0}枚まで手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【退場時】自分の場外から【レイド】を持つキャラカードを1枚まで手札に加える。",
   "effectEn": "[On Retire] Add up to 1 character card with [Raid] from your Outside Area to your hand.",
   "triggerType": "",
@@ -134,6 +191,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -170,6 +228,51 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟦t0⟧を{0}枚まで公開し手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "レユニオン"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から［特徴：レユニオン］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: Reunion] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -209,6 +312,67 @@
    "value": "クラウンスレイヤー"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはBP{0}以下のキャラにブロックされない",
+      "nums": [
+       2000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラがアタックしてブロックされなかった時、自分の手札から必要エナジーが{0}の黄のキャラカードを{1}枚まで自分の場にレストで登場させる",
+      "nums": [
+       0,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のアクティブのキャラを{0}枚レストにする",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、このキャラはこのターン中、「このキャラはBP{0}以上のキャラにブロックされない",
+      "nums": [
+       4000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【レイド】〈クラウンスレイヤー〉アクティブにし、フロントLに移動できるこのキャラはBP2000以下のキャラにブロックされない。このキャラがアタックしてブロックされなかった時、自分の手札から必要エナジーが0の黄のキャラカードを1枚まで自分の場にレストで登場させる。【起動メイン】【ターン1】自分の場のアクティブのキャラを3枚レストにする。そうした場合、このキャラはこのターン中、「このキャラはBP4000以上のキャラにブロックされない。」を得る。",
   "effectEn": "[Raid] Can Raid onto <クラウンスレイヤー>; set it to active and you may move it to the Front Line. This character cannot be blocked by characters with BP 2000 or less. When this character attacks and is not blocked, play up to 1 yellow character card with required energy 0 from your hand to your field rested. [Activate: Main] [Once Per Turn] Rest 3 active characters on your field. If you do, This character gains “This character cannot be blocked by characters with BP 4000 or more” this turn.",
   "triggerType": "Get",
@@ -248,6 +412,66 @@
    "value": "ミーシャ"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "場外にあるこのカードの必要エナジーを[Yellow x{0}]減らす",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "⟨n0⟩/⟨n1⟩アクティブにし、フロントLに移動できる",
+      "nums": [],
+      "names": [
+       "ミーシャ",
+       "アレックス"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはBP+{0}",
+      "nums": [
+       1500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnRetire",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラのレイド元のカードが持つ[On Play]か[On Retire]をこのキャラが発動してもよい",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "場外にあるこのカードの必要エナジーを【黄×2】減らす。【レイド】〈ミーシャ〉/〈アレックス〉アクティブにし、フロントLに移動できる【自分のターン中】このキャラはBP+1500。【退場時】このキャラのレイド元のカードが持つ【登場時】か【退場時】をこのキャラが発動してもよい。",
   "effectEn": "Reduce the required energy of this card in your Outside Area by [Yellow x2]. [Raid] <ミーシャ>/Can Raid onto <アレックス>; set it to active and you may move it to the Front Line. [During Your Turn] This character gets BP+1500. [On Retire] This character may activate the [On Play] or [On Retire] of this character's Raid source cards.",
   "triggerType": "Color",
@@ -287,6 +511,80 @@
    "value": "ミーシャ"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "⟨n0⟩/⟨n1⟩アクティブにし、フロントLに移動できる",
+      "nums": [],
+      "names": [
+       "ミーシャ",
+       "アレックス"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場外から必要エナジーが{0}の黄のキャラカードを{1}枚まで手札に加える",
+      "nums": [
+       0,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "以下から{0}つ選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "必要エナジーが{0}以下の自分の場のキャラを{1}枚まで選び、このターン中、BP+{2}",
+      "nums": [
+       2,
+       1,
+       2000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "必要エナジーが{0}以下の自分の場のキャラを{1}枚まで選び、このターン中、BP+{2}",
+      "nums": [
+       2,
+       2,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈ミーシャ〉/〈アレックス〉アクティブにし、フロントLに移動できる【登場時】自分の場外から必要エナジーが0の黄のキャラカードを1枚まで手札に加える。【アタック時】以下から1つ選ぶ。・必要エナジーが2以下の自分の場のキャラを1枚まで選び、このターン中、BP+2000。・必要エナジーが2以下の自分の場のキャラを2枚まで選び、このターン中、BP+1000。",
   "effectEn": "[Raid] <ミーシャ>/Can Raid onto <アレックス>; set it to active and you may move it to the Front Line. [On Play] Add up to 1 yellow character card with required energy 0 from your Outside Area to your hand. [When Attacking] Choose 1 of the following. Choose up to 1 character on your field with required energy 2 or less, it gets BP+2000 this turn. Choose up to 2 characters on your field with required energy 2 or less, it gets BP+1000 this turn.",
   "triggerType": "Raid",
@@ -323,6 +621,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -359,6 +658,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "必要エナジーが{0}以下の自分の場の他のキャラを{1}枚手札に戻す",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "戻せない場合、このキャラを手札に戻す",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -395,6 +720,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがアタックしてブロックされなかった時、手札が{0}枚になるようにカードを引いてもよい",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラがアタックしてブロックされなかった時、手札が2枚になるようにカードを引いてもよい。",
   "effectEn": "When this character attacks and is not blocked, you may draw until you have 2 cards in your hand.",
   "triggerType": "Draw",
@@ -433,6 +776,36 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがエナジーLからフロントLに移動した時、自分の場外から必要エナジーが{0}の黄のキャラカードを{1}枚まで手札に加える",
+      "nums": [
+       0,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラがフロントLからエナジーLに移動した時、BP{0}以上の相手のフロントLのキャラを{1}枚まで選び、このターン中、BP-{2}",
+      "nums": [
+       1000,
+       1,
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）このキャラがエナジーLからフロントLに移動した時、自分の場外から必要エナジーが0の黄のキャラカードを1枚まで手札に加える。このキャラがフロントLからエナジーLに移動した時、BP1000以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-500。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) When this character moves from the Energy Line to the Front Line, add up to 1 yellow character card with required energy 0 from your Outside Area to your hand. When this character moves from the Front Line to the Energy Line, choose up to 1 character in your opponent's Front Line with BP 1000 or more; it gets BP-500 this turn.",
   "triggerType": "Draw",
@@ -469,6 +842,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のエナジーLのキャラを{0}枚選び、アクティブにするかレストにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【ターン1】自分のエナジーLのキャラを1枚選び、アクティブにするかレストにする。",
   "effectEn": "[Activate: Main] [Once Per Turn] Choose 1 character in your Energy Line and set it to active or rest it.",
   "triggerType": "Draw",
@@ -505,6 +897,22 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがアクティブの場合、このキャラの発生エナジー+[Yellow]",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【黄】。",
   "effectEn": "While this character is active, its generated energy +[Yellow].",
   "triggerType": "",
@@ -541,6 +949,63 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のアクティブのキャラを望む枚数レストにし、『BP{0}』以下の相手のフロントLのキャラを{1}枚まで選び、退場させる",
+      "nums": [
+       1000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "この効果でレストにしたキャラ{0}枚につき、この効果で選べるキャラのBPの範囲+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のレストの他のキャラを望む枚数退場させ、『BP{0}』以下の相手のフロントLのキャラを{1}枚選び、退場させる",
+      "nums": [
+       1000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "この効果で退場させた自分のキャラ{0}枚につき、この効果で選べるキャラのBPの範囲+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【登場時】自分の場のアクティブのキャラを望む枚数レストにし、『BP1000』以下の相手のフロントLのキャラを1枚まで選び、退場させる。この効果でレストにしたキャラ1枚につき、この効果で選べるキャラのBPの範囲+1000。【起動メイン】【ターン1】自分の場のレストの他のキャラを望む枚数退場させ、『BP1000』以下の相手のフロントLのキャラを1枚選び、退場させる。この効果で退場させた自分のキャラ1枚につき、この効果で選べるキャラのBPの範囲+1000。",
   "effectEn": "[On Play] Rest any number of active characters on your field, choose up to 1 character in your opponent's Front Line with “BP 1000” or less, and retire it. For each 1 character(s) rested by this effect, the BP range of characters you can choose with this effect is increased by 1000. [Activate: Main] [Once Per Turn] Retire any number of other rested characters on your field, choose 1 character in your opponent's Front Line with “BP 1000” or less, and retire it. For each 1 of your character(s) retired by this effect, the BP range of characters you can choose with this effect is increased by 1000.",
   "triggerType": "Color",
@@ -579,6 +1044,27 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札が{0}枚以下の場合、このキャラは[Damage {1}]を得る",
+      "nums": [
+       3,
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）【自分のターン中】自分の手札が3枚以下の場合、このキャラは【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を得る。",
   "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active) [During Your Turn] If you have 3 or fewer cards in your hand, this character gains [Damage 2] (When this character deals direct damage by attacking, it deals 2 damage instead)",
   "triggerType": "",
@@ -615,6 +1101,53 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "相手の場にレストのキャラが{0}枚以上ある場合、手札にあるこのカードの必要エナジーを[Yellow x{1}]減らす",
+      "nums": [
+       2,
+       4
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "discard": 1
+    },
+    "steps": [
+     {
+      "key": "相手の場にレストのキャラが{0}枚以上ある場合のみ発動できる",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラはこのターン中、[Damage {0}]を得る",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "相手の場にレストのキャラが2枚以上ある場合、手札にあるこのカードの必要エナジーを【黄×4】減らす。【起動メイン】【手札を1枚場外に置く】【ターン1】相手の場にレストのキャラが2枚以上ある場合のみ発動できる。このキャラはこのターン中、【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を得る。",
   "effectEn": "If your opponent has 2 or more rested characters on their field, the required energy of this card in your hand [Yellow x4]is reduced. [Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] Can only activate if your opponent has 2 or more rested characters on their field. This character, this turn, [Damage 2](When this character deals direct damage by attacking, deal 2 damage instead) is gained.",
   "triggerType": "Active",
@@ -651,6 +1184,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "相手の場に青か赤のカードがある場合、手札にあるこのカードの必要エナジーを[Yellow x{0}]減らす",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "相手の場に青か赤のカードがある場合、手札にあるこのカードの必要エナジーを【黄×1】減らす。",
   "effectEn": "If your opponent has Blue or Red card on their field, the required energy of this card in your hand [Yellow x1]is reduced.",
   "triggerType": "",
@@ -687,6 +1238,48 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラを{0}枚選び、自分の山札の下に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、BP{0}以上の相手のフロントLのキャラを{1}枚まで選び、このターン中、BP-{2}",
+      "nums": [
+       2000,
+       1,
+       1500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラがフロントLにあり、この効果で自分の山札の下に置いたキャラが⟨n0⟩の場合、自分のAPカードを{0}枚まで選び、アクティブにし、このキャラは次の自分のターン開始時まで、BP+{1}",
+      "nums": [
+       1,
+       500
+      ],
+      "names": [
+       "メフィスト"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【ターン1】自分の場のキャラを1枚選び、自分の山札の下に置く。そうした場合、BP2000以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-1500。このキャラがフロントLにあり、この効果で自分の山札の下に置いたキャラが〈メフィスト〉の場合、自分のAPカードを1枚まで選び、アクティブにし、このキャラは次の自分のターン開始時まで、BP+500。",
   "effectEn": "[Activate: Main] [Once Per Turn] Choose 1 character on your field and put it on the bottom of your deck. If you do, Choose up to 1 character in your opponent's Front Line with BP 2000 or more, it gets BP-1500 this turn. If this character is in the Front Line and the character put on the bottom of your deck by this effect is <メフィスト>, choose up to 1 of your AP cards and set them to active, and this character gets BP+500 until the start of your next turn.",
   "triggerType": "Active",
@@ -723,6 +1316,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、発生エナジー+[Yellow]と「メインフェイズ終了時、このキャラを退場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【黄】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Yellow] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -759,6 +1378,52 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "自分の手札の必要エナジーが{0}以上のカードを{1}枚場外に置いてもよい",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分の場外から必要エナジーが{0}の黄のキャラカードを{1}枚まで自分の場にレストで登場させる",
+      "nums": [
+       0,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そのキャラにこのターン中、「アタックフェイズ終了時、このキャラをリムーブエリアに置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を与える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【ターン1】自分の手札の必要エナジーが1以上のカードを1枚場外に置いてもよい。そうした場合、自分の場外から必要エナジーが0の黄のキャラカードを1枚まで自分の場にレストで登場させる。そのキャラにこのターン中、「アタックフェイズ終了時、このキャラをリムーブエリアに置く。」を与える。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] You may put 1 card in your hand with required energy 1 or more into the Outside Area. If you do, play up to 1 yellow character card with required energy 0 from your Outside Area to your field rested. That character gains “At the end of the Attack Phase, put this character into the Remove Area” this turn.",
   "triggerType": "Get",
@@ -795,6 +1460,35 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラが自分の効果で登場していた場合、このキャラをアクティブにし、このターン中、『BP+{0}』",
+      "nums": [
+       2000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の⟨n0⟩の効果で登場していた場合、『BP+{0}』に代わる",
+      "nums": [
+       3000
+      ],
+      "names": [
+       "メフィスト"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】このキャラが自分の効果で登場していた場合、このキャラをアクティブにし、このターン中、『BP+2000』。自分の〈メフィスト〉の効果で登場していた場合、『BP+3000』に代わる。",
   "effectEn": "[On Play] If this character was played by your own effect, set this character to active, and it gets “BP+2000” this turn. If it was played by your <メフィスト>'s effect, it becomes “BP+3000” instead.",
   "triggerType": "",
@@ -832,6 +1526,48 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の⟨n0⟩は、特徴に「スノーデビル小隊」を持たない自分と相手のキャラの効果でレストにならず、選ばれない",
+      "nums": [],
+      "names": [
+       "フロストノヴァ"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "自分の場の⟨n0⟩を{0}枚選び、アクティブにする",
+      "nums": [
+       1
+      ],
+      "names": [
+       "フロストノヴァ"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【フロントLにある場合】自分の場の〈フロストノヴァ〉は、特徴に「スノーデビル小隊」を持たない自分と相手のキャラの効果でレストにならず、選ばれない。【起動メイン】【フロントLにある場合】【レストにする】自分の場の〈フロストノヴァ〉を1枚選び、アクティブにする。",
   "effectEn": "[While in Front Line] <フロストノヴァ> on your field is not rested or chosen by the effects of your or your opponent's characters without the trait “Snow Devil Platoon” [Activate: Main] [While in Front Line] [Rest this card] Choose 1 <フロストノヴァ> on your field, set it to active.",
   "triggerType": "",
@@ -869,6 +1605,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -906,6 +1661,26 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札か自分の場外から⟨n0⟩を{0}枚まで自分の場にレストで登場させる",
+      "nums": [
+       1
+      ],
+      "names": [
+       "スノーデビル小隊"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の手札か自分の場外から〈スノーデビル小隊〉を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[On Play] Play up to 1 <スノーデビル小隊> from your hand or Outside Area to your field rested.",
   "triggerType": "",
@@ -943,6 +1718,28 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "相手のフロントLのキャラを{0}枚選び、レストにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【起動メイン】【フロントLにある場合】【レストにする】相手のフロントLのキャラを1枚選び、レストにする。",
   "effectEn": "[Activate: Main] [While in Front Line] [Rest this card] Choose 1 character in your opponent's Front Line, rest it.",
   "triggerType": "Active",
@@ -980,6 +1777,72 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはアクティブで場に登場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分のメインフェイズ開始時、自分のライフエリアにあるカードを{0}枚場外に置くか、このキャラを退場させる",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "相手のフロントLのキャラを{0}枚まで選び、レストにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "選んだキャラは次の{0}回アクティブにならない",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "⟨n0⟩のこの効果は{0}ターンに{1}回のみ発動できる",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "フロストノヴァ"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラはアクティブで場に登場させる。自分のメインフェイズ開始時、自分のライフエリアにあるカードを1枚場外に置くか、このキャラを退場させる。【起動メイン】【フロントLにある場合】【レストにする】相手のフロントLのキャラを2枚まで選び、レストにする。選んだキャラは次の1回アクティブにならない。〈フロストノヴァ〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "This character is played active. At the start of your Main Phase, put 1 card(s) from your Life Area into your Outside Area or retire this character. [Activate: Main] [While in Front Line] [Rest this card] Choose up to 2 characters in your opponent's Front Line, rest it. The chosen character does not become active the next 1 time(s). This <フロストノヴァ> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Color",
@@ -1014,6 +1877,36 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true,
+     "discard": 1
+    },
+    "steps": [
+     {
+      "key": "相手の場にレストのキャラが{0}枚以上ある場合のみ発動できる",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場のキャラを{0}枚選び、アクティブにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【手札を1枚場外に置く】相手の場にレストのキャラが2枚以上ある場合のみ発動できる。自分の場のキャラを1枚選び、アクティブにする。",
   "effectEn": "[Activate: Main] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] Can only activate if your opponent has 2 or more rested characters on their field. Choose 1 character on your field, set it to active.",
   "triggerType": "Get",
@@ -1043,6 +1936,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1072,6 +1983,35 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟨n0⟩がある場合、手札にあるこのカードの消費APを-{0}する",
+      "nums": [
+       1
+      ],
+      "names": [
+       "タルラ"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "相手のフロントLのキャラを{0}枚選び、リムーブエリアに置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場に〈タルラ〉がある場合、手札にあるこのカードの消費APを-1する。相手のフロントLのキャラを1枚選び、リムーブエリアに置く。",
   "effectEn": "If you have <タルラ> on your field, reduce the AP cost of this card in your hand by 1. Choose 1 character in your opponent's Front Line, and put it into the Remove Area.",
   "triggerType": "Special",
@@ -1101,6 +2041,43 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "BP{0}以下の相手のフロントLのキャラを{1}枚選び、『レストにする",
+      "nums": [
+       5000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "それは次の{0}回アクティブにならない』",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟨n0⟩がある場合、『退場させる』に代えてもよい",
+      "nums": [],
+      "names": [
+       "フロストノヴァ"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "BP5000以下の相手のフロントLのキャラを1枚選び、『レストにする。それは次の1回アクティブにならない』。自分の場に〈フロストノヴァ〉がある場合、『退場させる』に代えてもよい。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 5000 or less, “rest it. It does not become active the next 1 time(s)” If you have <フロストノヴァ> on your field, you may change it to “retire it”",
   "triggerType": "Special",
@@ -1130,6 +2107,35 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札か自分の場外から必要エナジーが{0}以下で消費APが{1}の黄のキャラカードを{2}枚まで自分の場にレストで登場させるかレイドさせる",
+      "nums": [
+       2,
+       1,
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "この効果で登場させたキャラを{0}枚まで選び、アクティブにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の手札か自分の場外から必要エナジーが2以下で消費APが1の黄のキャラカードを2枚まで自分の場にレストで登場させるかレイドさせる。この効果で登場させたキャラを1枚まで選び、アクティブにする。",
   "effectEn": "Play up to 2 yellow character card(s) with required energy 2 or less and AP cost 1 from your hand or Outside Area to your field rested, or Raid them. Choose up to 1 character played by this effect and set it to active.",
   "triggerType": "Special",
@@ -1162,6 +2168,55 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "⟨n0⟩は{0}ターンに{1}枚のみ使用できる",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "スパイシーキャンディ"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分のフロントLのアクティブのキャラを{0}枚レストにし、相手は自身のフロントLのアクティブのキャラを{1}枚レストにする",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "この効果で自分のフロントLの⟨n0⟩をレストにした場合、それをアクティブにする",
+      "nums": [],
+      "names": [
+       "フロストノヴァ"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "〈スパイシーキャンディ〉は1ターンに1枚のみ使用できる。自分のAPカードを1枚まで選び、アクティブにする。自分のフロントLのアクティブのキャラを1枚レストにし、相手は自身のフロントLのアクティブのキャラを1枚レストにする。この効果で自分のフロントLの〈フロストノヴァ〉をレストにした場合、それをアクティブにする。",
   "effectEn": "Only 1 <スパイシーキャンディ> can be used per 1 turn(s). Choose up to 1 of your AP cards, set it to active. Rest 1 active character(s) in your Front Line, and your opponent rests 1 active character(s) in their Front Line. If you rested <フロストノヴァ> in your Front Line with this effect, set it to active.",
   "triggerType": "Active",
@@ -1196,6 +2251,29 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、「メインフェイズ終了時、このキャラを退場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】このキャラはこのターン中、「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[On Play] This character gains “At the end of the Main Phase, retire this character” this turn.",
   "triggerType": "Draw",
@@ -1232,6 +2310,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、BP+{0}と「アタックフェイズ終了時、このキャラを退場させる",
+      "nums": [
+       1500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【ターン1】このキャラはこのターン中、BP+1500と「アタックフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Once Per Turn] This character gains BP+1500 and “At the end of the Attack Phase, retire this character” this turn.",
   "triggerType": "",
@@ -1268,6 +2372,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "WhenBlocking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラを{0}枚まで選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【ブロック時】自分の場のキャラを1枚まで選び、このターン中、BP+500。",
   "effectEn": "[When Blocking] Choose up to 1 character on your field, it gets BP+500 this turn.",
   "triggerType": "Active",
@@ -1304,6 +2427,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "相手の場に黄か赤のカードがある場合、手札にあるこのカードの必要エナジーを[Blue x{0}]減らす",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "相手の場に黄か赤のカードがある場合、手札にあるこのカードの必要エナジーを【青×1】減らす。",
   "effectEn": "If your opponent has Yellow or Red card on their field, the required energy of this card in your hand [Blue x1]is reduced.",
   "triggerType": "",
@@ -1340,6 +2481,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】カードを1枚引く。",
   "effectEn": "[On Play] Draw 1 card(s).",
   "triggerType": "",
@@ -1376,6 +2535,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1412,6 +2572,34 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "discard": 1
+    },
+    "steps": [
+     {
+      "key": "自分のエナジーLのキャラを{0}枚選び、このターン中、「このキャラは退場しない",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を与える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【手札を1枚場外に置く】【ターン1】自分のエナジーLのキャラを1枚選び、このターン中、「このキャラは退場しない。」を与える。",
   "effectEn": "[Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] Choose 1 character in your Energy Line; it gains “This character is not retired” this turn.",
   "triggerType": "Color",
@@ -1448,6 +2636,39 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "BP{0}以下の相手のフロントLのキャラを{1}枚選び、退場させてもよい",
+      "nums": [
+       4000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、このキャラはこのターン中、「メインフェイズ終了時、このキャラを退場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】BP4000以下の相手のフロントLのキャラを1枚選び、退場させてもよい。そうした場合、このキャラはこのターン中、「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[On Play] You may choose 1 character in your opponent's Front Line with BP 4000 or less and retire it. If you do, This character gains “At the end of the Main Phase, retire this character” this turn.",
   "triggerType": "Active",
@@ -1489,6 +2710,25 @@
    "value": "アーミヤ"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn",
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のエナジーLのキャラは退場しない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈アーミヤ〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【自分のターン中】【フロントLにある場合】自分のエナジーLのキャラは退場しない。",
   "effectEn": "[Raid] Can Raid onto <アーミヤ>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [During Your Turn] [While in Front Line] Characters in your Energy Line are not retired.",
   "triggerType": "Raid",
@@ -1525,6 +2765,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -1561,6 +2802,26 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "BP{0}以上の相手のフロントLのキャラを{1}枚まで選び、このターン中、BP-{2}",
+      "nums": [
+       1500,
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】BP1500以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。",
   "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line with BP 1500 or more, it gets BP-1000 this turn.",
   "triggerType": "Draw",
@@ -1597,6 +2858,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1633,6 +2895,22 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがアクティブの場合、このキャラの発生エナジー+[Blue]",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【青】。",
   "effectEn": "While this character is active, its generated energy +[Blue].",
   "triggerType": "",
@@ -1669,6 +2947,54 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [
+     "energy"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       7
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中からBPが{0}のキャラカードを{1}枚まで公開し手札に加える",
+      "nums": [
+       4500,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その後、自分の手札からBPが{0}で消費APが{1}の青のキャラカードを{2}枚まで自分の場にレストで登場させる",
+      "nums": [
+       4500,
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】【エナジーLにある場合】自分の山札の上から7枚見る。その中からBPが4500のキャラカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。その後、自分の手札からBPが4500で消費APが1の青のキャラカードを1枚まで自分の場にレストで登場させる。",
   "effectEn": "[On Play] [While in Energy Line] Look at the top 7 card(s) of your deck. Reveal up to 1 character card with BP 4500 among them and add it to your hand. Put the rest on the bottom of your deck in any order. Then, play up to 1 blue character card(s) with BP 4500 and AP cost 1 from your hand to your field rested.",
   "triggerType": "Active",
@@ -1708,6 +3034,57 @@
    "value": "ケルシー"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "energy"
+    ],
+    "costs": {
+     "rest": true,
+     "discard": 1
+    },
+    "steps": [
+     {
+      "key": "必要エナジーが{0}以下の自分の場のキャラを{1}枚手札に戻す",
+      "nums": [
+       3,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分の手札からBPが{0}で消費APが{1}の青のキャラカードを{2}枚まで自分の場にアクティブで登場させる",
+      "nums": [
+       4500,
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈ケルシー〉アクティブにし、フロントLに移動できる【登場時】カードを1枚引く。【起動メイン】【エナジーLにある場合】【レストにする】【手札を1枚場外に置く】必要エナジーが3以下の自分の場のキャラを1枚手札に戻す。そうした場合、自分の手札からBPが4500で消費APが1の青のキャラカードを1枚まで自分の場にアクティブで登場させる。",
   "effectEn": "[Raid] Can Raid onto <ケルシー>; set it to active and you may move it to the Front Line. [On Play] Draw 1 card(s). [Activate: Main] [While in Energy Line] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] Return to the owner's hand 1 character on your field with required energy 3 or less. If you do, play up to 1 blue character card(s) with BP 4500 and AP cost 1 from your hand to your field active.",
   "triggerType": "Raid",
@@ -1744,6 +3121,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "必要エナジーが{0}以下の自分の場の他のキャラを{1}枚手札に戻す",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "戻せない場合、このキャラを手札に戻す",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -1780,6 +3183,29 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "⟨n0⟩以外の自分の場の必要エナジーが{0}のキャラ全ては、BP+{1}",
+      "nums": [
+       3,
+       1000
+      ],
+      "names": [
+       "ドーベルマン"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【フロントLにある場合】〈ドーベルマン〉以外の自分の場の必要エナジーが3のキャラ全ては、BP+1000。",
   "effectEn": "[While in Front Line] All characters on your field other than <ドーベルマン> with required energy 3 get BP+1000.",
   "triggerType": "Draw",
@@ -1816,6 +3242,46 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このカードはフロントLに登場できず、フロントLに移動できない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、発生エナジー+[Blue]と「メインフェイズ終了時、このキャラを退場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "このカードはフロントLに登場できず、フロントLに移動できない。【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【青】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "This card cannot be played to the Front Line and cannot move to the Front Line. [Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Blue] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "Get",
@@ -1852,6 +3318,69 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このカードはフロントLに登場できず、フロントLに移動できない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true,
+     "discard": 1
+    },
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       5
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟨n0⟩以外の必要エナジーが{0}以下で消費APが{1}の青のキャラカードを{2}枚まで自分の場にレストで登場させる",
+      "nums": [
+       3,
+       1,
+       1
+      ],
+      "names": [
+       "ドクター"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このターンのメインフェイズ終了時、このキャラを退場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "このカードはフロントLに登場できず、フロントLに移動できない。【起動メイン】【レストにする】【手札を1枚場外に置く】【ターン1】自分の山札の上から5枚見る。その中から〈ドクター〉以外の必要エナジーが3以下で消費APが1の青のキャラカードを1枚まで自分の場にレストで登場させる。残りを望む順で自分の山札の下に置く。このターンのメインフェイズ終了時、このキャラを退場させる。",
   "effectEn": "This card cannot be played to the Front Line and cannot move to the Front Line. [Activate: Main] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] Look at the top 5 card(s) of your deck. Play up to 1 Blue character card other than <ドクター> and with required energy 3 or less and with AP cost 1 from among them to your field rested. Put the rest on the bottom of your deck in any order. At the end of this turn's Main Phase, retire this character.",
   "triggerType": "",
@@ -1890,6 +3419,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -1928,6 +3458,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）",
   "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent)",
   "triggerType": "Color",
@@ -1964,6 +3495,58 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラが自分の場から手札に戻った時、このターン中、次に手札から使用する青の⟨n0⟩は消費APが-{0}され、アクティブで場に登場する",
+      "nums": [
+       1
+      ],
+      "names": [
+       "レッド"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "⟨n0⟩のこの効果は{0}ターンに{1}回のみ発動する",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "レッド"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "Static",
+    "conds": [
+     "oppTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはBP-{0}",
+      "nums": [
+       2500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】このキャラが自分の場から手札に戻った時、このターン中、次に手札から使用する青の〈レッド〉は消費APが-1され、アクティブで場に登場する。〈レッド〉のこの効果は1ターンに1回のみ発動する。【相手のターン中】このキャラはBP-2500。",
   "effectEn": "[During Your Turn] When this character returns from your field to your hand, this turn, the next blue <レッド> you use from your hand has its AP cost reduced by 1 and is played to the field active. This <レッド> effect can only activate 1 time(s) per 1 turn(s). [During Opponent's Turn] This character BP-2500.",
   "triggerType": "Draw",
@@ -2001,6 +3584,51 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟦t0⟧を{0}枚まで公開し手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "ロドス・アイランド製薬"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から［特徴：ロドス・アイランド製薬］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: Rhodes Island Pharmaceutical] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -2038,6 +3666,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -2075,6 +3722,31 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のエナジーLのキャラを{0}枚まで選び、このターン中、「このキャラは退場しない",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を与える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分のエナジーLのキャラを1枚まで選び、このターン中、「このキャラは退場しない。」を与える。",
   "effectEn": "[On Play] Choose up to 1 character in your Energy Line; it gains “This character is not retired” this turn.",
   "triggerType": "Active",
@@ -2115,6 +3787,53 @@
    "value": "ブレイズ"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLとエナジーLの両方にBP{0}以上の他のキャラがある場合、このキャラは[Damage {1}]を得る",
+      "nums": [
+       4000,
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラか自分のエナジーLのキャラがBPが{0}以下になること以外で退場する場合、代わりにこのキャラのレイド元のカードを場外に置いてもよい",
+      "nums": [
+       0
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "自分のフロントLとエナジーLの両方にBP4000以上の他のキャラがある場合、このキャラは【ダメージ（2）】を得る。【レイド】〈ブレイズ〉アクティブにし、フロントLに移動できる【自分のターン中】【ターン1】このキャラか自分のエナジーLのキャラがBPが0以下になること以外で退場する場合、代わりにこのキャラのレイド元のカードを場外に置いてもよい。そうした場合、カードを1枚引く。",
   "effectEn": "If you have other characters with BP 4000 or more in both your Front Line and Energy Line, this character gains [Damage 2]. [Raid] Can Raid onto <ブレイズ>; set it to active and you may move it to the Front Line. [During Your Turn] [Once Per Turn] If this character or a character in your Energy Line would be retired for a reason other than its BP becoming 0 or less, you may put this character's Raid source cards into your Outside Area instead. If you do, Draw 1 card(s).",
   "triggerType": "Raid",
@@ -2152,6 +3871,78 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはBP-{0}",
+      "nums": [
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "BP{0}以上の相手のフロントLのキャラ全ては、このターン中、『BP-{1}』",
+      "nums": [
+       1500,
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分のエナジーLにBP{0}以上のキャラがある場合、『BP-{1}』に代わる",
+      "nums": [
+       4000,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "必要エナジーが{0}以下の自分の場のキャラを{1}枚手札に戻す",
+      "nums": [
+       3,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、このキャラの[On Play]を発動する",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【フロントLにある場合】このキャラはBP-1000。【登場時】BP1500以上の相手のフロントLのキャラ全ては、このターン中、『BP-500』。自分のエナジーLにBP4000以上のキャラがある場合、『BP-1000』に代わる。【起動メイン】【ターン1】必要エナジーが3以下の自分の場のキャラを1枚手札に戻す。そうした場合、このキャラの【登場時】を発動する。",
   "effectEn": "[While in Front Line] This character BP-1000. [On Play] All characters in your opponent's Front Line with BP 1500 or more This turn, 『BP-500』. If you have a character with BP 4000 or more in your Energy Line, it becomes “BP-1000” instead. [Activate: Main] [Once Per Turn] Return to the owner's hand 1 character on your field with required energy 3 or less. If you do, activate this character's [On Play].",
   "triggerType": "Get",
@@ -2186,6 +3977,42 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       4
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟦t0⟧を{0}枚まで公開し手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "ロドス・アイランド製薬"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から4枚見る。その中から［特徴：ロドス・アイランド製薬］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 [Trait: Rhodes Island Pharmaceutical] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Get",
@@ -2215,6 +4042,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2244,6 +4089,64 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "以下から{0}つ選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "BP{0}以下の相手のフロントLのキャラを{1}枚まで選び、退場させる",
+      "nums": [
+       4000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "必要エナジーが{0}以下の自分の場のキャラを{1}枚手札に戻す",
+      "nums": [
+       3,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "そうした場合、自分の手札からBPが{0}で消費APが{1}の青のキャラカードを{2}枚まで自分の場にアクティブで登場させる",
+      "nums": [
+       4500,
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そのキャラにこのターン中、BP+{0}と[Snipe]を与える",
+      "nums": [
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "以下から1つ選ぶ。・BP4000以下の相手のフロントLのキャラを1枚まで選び、退場させる。・必要エナジーが3以下の自分の場のキャラを1枚手札に戻す。そうした場合、自分の手札からBPが4500で消費APが1の青のキャラカードを1枚まで自分の場にアクティブで登場させる。そのキャラにこのターン中、BP+1000と【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、指定した場合、相手はブロックできない）を与える。",
   "effectEn": "Choose 1 of the following. Choose up to 1 character in your opponent's Front Line with BP 4000 or less, retire it. Return to the owner's hand 1 character on your field with required energy 3 or less. If you do, play up to 1 blue character card(s) with BP 4500 and AP cost 1 from your hand to your field active. That character gains BP+1000 and [Snipe] (Can attack a chosen character in your opponent's Front Line; if you do, your opponent cannot block) this turn.",
   "triggerType": "Special",
@@ -2273,6 +4176,36 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "『BP{0}以下』の相手のフロントLのキャラを{1}枚選び、退場させる",
+      "nums": [
+       3000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟨n0⟩がある場合、『BP{0}以下』に代わる",
+      "nums": [
+       5000
+      ],
+      "names": [
+       "アーミヤ"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈アーミヤ〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <アーミヤ> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -2302,6 +4235,34 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "必要エナジーが{0}以下の自分の場のキャラを{1}枚手札に戻す",
+      "nums": [
+       3,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、カードを{0}枚引く",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "必要エナジーが3以下の自分の場のキャラを1枚手札に戻す。そうした場合、カードを3枚引く。",
   "effectEn": "Return to the owner's hand 1 character on your field with required energy 3 or less. If you do, Draw 3 card(s).",
   "triggerType": "Draw",
@@ -2331,6 +4292,35 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場外から必要エナジーが{0}以下で消費APが{1}の青のキャラカードを{2}枚自分のエナジーLにレストで登場させる",
+      "nums": [
+       3,
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "登場させたキャラが⟨n0⟩の場合、それをアクティブにする",
+      "nums": [],
+      "names": [
+       "ドクター"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場外から必要エナジーが3以下で消費APが1の青のキャラカードを1枚自分のエナジーLにレストで登場させる。登場させたキャラが〈ドクター〉の場合、それをアクティブにする。",
   "effectEn": "Play 1 Blue character card with required energy 3 or less and with AP cost 1 from your Outside Area to your Energy Line rested. If the played character is <ドクター>, set it to active.",
   "triggerType": "Active",
@@ -2367,6 +4357,29 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "元々のBPが{0}の自分の場の他のキャラを{1}枚まで選び、このターン中、BP+{2}",
+      "nums": [
+       2500,
+       1,
+       1500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【ターン1】元々のBPが2500の自分の場の他のキャラを1枚まで選び、このターン中、BP+1500。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] Choose up to 1 other character on your field with original BP 2500; it gets BP+1500 this turn.",
   "triggerType": "Active",
@@ -2403,6 +4416,42 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLに元々のBPが{0}のキャラがある場合、このキャラはこのターン中、BP+{1}と[Impact {2}]を得る",
+      "nums": [
+       2500,
+       2000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenBlocking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、BP-{0}",
+      "nums": [
+       2000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【アタック時】自分のフロントLに元々のBPが2500のキャラがある場合、このキャラはこのターン中、BP+2000と【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。【ブロック時】このキャラはこのターン中、BP-2000。",
   "effectEn": "[When Attacking] If you have a character with original BP 2500 in your Front Line, this character gains BP+2000 and [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opposing player) this turn. [When Blocking] This character gets BP-2000 this turn.",
   "triggerType": "Draw",
@@ -2439,6 +4488,26 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "WhenBlocking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLに元々のBPが{0}のキャラがある場合、自分の場のキャラを{1}枚まで選び、このターン中、BP+{2}",
+      "nums": [
+       2500,
+       1,
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【ブロック時】自分のフロントLに元々のBPが2500のキャラがある場合、自分の場のキャラを1枚まで選び、このターン中、BP+500。",
   "effectEn": "[When Blocking] If you have a character with original BP 2500 in your Front Line, choose up to 1 character on your field; it gets BP+500 this turn.",
   "triggerType": "Active",
@@ -2475,6 +4544,26 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "元々のBPが{0}の自分の場のキャラを{1}枚まで選び、このターン中、BP+{2}",
+      "nums": [
+       2500,
+       1,
+       1500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】元々のBPが2500の自分の場のキャラを1枚まで選び、このターン中、BP+1500。",
   "effectEn": "[On Play] Choose up to 1 character on your field with original BP 2500; it gets BP+1500 this turn.",
   "triggerType": "Draw",
@@ -2511,6 +4600,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラをアクティブにする",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラはこのターン中、BP-{0}",
+      "nums": [
+       2000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【ターン1】このキャラをアクティブにする。このキャラはこのターン中、BP-2000。",
   "effectEn": "[Activate: Main] [Once Per Turn] Set this character to active. This character gets BP-2000 this turn.",
   "triggerType": "Color",
@@ -2550,6 +4665,34 @@
    "value": "エクシア"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラのアタック終了時、相手のフロントLにキャラがある場合、自分のエナジーLの元々のBPが{0}のアクティブのキャラを{1}枚レストにしてもよい",
+      "nums": [
+       2500,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、このキャラをアクティブにし、このキャラはこのターン中、BP-{0}",
+      "nums": [
+       1500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈エクシア〉アクティブにし、フロントLに移動できるこのキャラのアタック終了時、相手のフロントLにキャラがある場合、自分のエナジーLの元々のBPが2500のアクティブのキャラを1枚レストにしてもよい。そうした場合、このキャラをアクティブにし、このキャラはこのターン中、BP-1500。",
   "effectEn": "[Raid] Can Raid onto <Exia>; set it to active and you may move it to the Front Line. At the end of this character's attack, if your opponent has a character in their Front Line, you may rest 1 active character in your Energy Line with original BP 2500. If you do, set this character to active, and it gets BP-1500 this turn.",
   "triggerType": "Raid",
@@ -2586,6 +4729,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -2624,6 +4768,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "",
@@ -2660,6 +4805,43 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       5
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟨n0⟩以外のBPが{0}の赤のキャラカードを{1}枚まで公開し手札に加える",
+      "nums": [
+       2500,
+       1
+      ],
+      "names": [
+       "テキサス"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から5枚見る。その中から〈テキサス〉以外のBPが2500の赤のキャラカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "[On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 red character card other than <テキサス> with BP 2500 among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "",
@@ -2699,6 +4881,56 @@
    "value": "テキサス"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札からBPが{0}で消費APが{1}の赤のキャラカードを{2}枚まで自分の場にレストで登場させる",
+      "nums": [
+       2500,
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "この効果でエナジーLに登場させた場合、そのキャラをアクティブにする",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {
+     "discard": 1
+    },
+    "steps": [
+     {
+      "key": "元々のBPが{0}の自分の場のキャラを{1}枚選び、このターン中、BP+{2}",
+      "nums": [
+       2500,
+       1,
+       1500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【レイド】〈テキサス〉アクティブにし、フロントLに移動できる【登場時】自分の手札からBPが2500で消費APが1の赤のキャラカードを1枚まで自分の場にレストで登場させる。この効果でエナジーLに登場させた場合、そのキャラをアクティブにする。【起動メイン】【フロントLにある場合】【手札を1枚場外に置く】【ターン1】元々のBPが2500の自分の場のキャラを1枚選び、このターン中、BP+1500。",
   "effectEn": "[Raid] Can Raid onto <テキサス>; set it to active and you may move it to the Front Line. [On Play] Play up to 1 red character card(s) with BP 2500 and AP cost 1 from your hand to your field rested. If it was played to the Energy Line by this effect, set that character to active. [Activate: Main] [While in Front Line] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] Choose 1 character on your field with original BP 2500; it gets BP+1500 this turn.",
   "triggerType": "Raid",
@@ -2735,6 +4967,22 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがアクティブの場合、このキャラの発生エナジー+[Red]",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
   "effectEn": "While this character is active, its generated energy +[Red].",
   "triggerType": "",
@@ -2771,6 +5019,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "相手の場に黄か青のカードがある場合、手札にあるこのカードの必要エナジーを[Red x{0}]減らす",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "相手の場に黄か青のカードがある場合、手札にあるこのカードの必要エナジーを【赤×1】減らす。",
   "effectEn": "If your opponent has Yellow or Blue card on their field, the required energy of this card in your hand [Red x1]is reduced.",
   "triggerType": "",
@@ -2809,6 +5075,24 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "相手の場のキャラを{0}枚まで選び、次の自分のターン開始時まで、相手は選んだキャラを移動できず、自身のカードの効果でレストにできない",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【登場時】相手の場のキャラを1枚まで選び、次の自分のターン開始時まで、相手は選んだキャラを移動できず、自身のカードの効果でレストにできない。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [On Play] Choose up to 1 character on your opponent's field; until the start of your next turn, your opponent cannot move the chosen character or rest it with their own card effects.",
   "triggerType": "Draw",
@@ -2845,6 +5129,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -2881,6 +5166,51 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       4
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟦t0⟧を{0}枚まで公開し手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "龍門"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から4枚見る。その中から［特徴：龍門］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 [Trait: Lungmen] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -2917,6 +5247,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -2955,6 +5304,25 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の他のキャラを{0}枚まで選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】【退場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] [On Retire] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -2991,6 +5359,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -3027,6 +5396,37 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札の⟦t0⟧を{0}枚場外に置いてもよい",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [
+       "龍門"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、このキャラはこのターン中、BP+{0}と[Damage {1}]を得る",
+      "nums": [
+       500,
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【ターン1】自分の手札の［特徴：龍門］を2枚場外に置いてもよい。そうした場合、このキャラはこのターン中、BP+500と【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を得る。",
   "effectEn": "[Activate: Main] [Once Per Turn] You may put 2 [Trait: Lungmen] in your hand into the Outside Area. If you do, this character gains BP+500 and [Damage 2] (When this character deals direct damage by attacking, it deals 2 damage instead) this turn.",
   "triggerType": "",
@@ -3065,6 +5465,26 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnRetire",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場外から⟨n0⟩か[Double Block]を持つキャラカードを{0}枚まで手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [
+       "赤霄・抜刀"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【退場時】自分の場外から〈赤霄・抜刀〉か【2回ブロック】を持つキャラカードを1枚まで手札に加える。",
   "effectEn": "[Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [On Retire] Add up to 1 <赤霄・抜刀> or character card with [Double Block] from your Outside Area to your hand.",
   "triggerType": "Get",
@@ -3106,6 +5526,54 @@
    "value": "チェン"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の[Double Block]を持つキャラ{0}枚につき、場以外の全ての場所でこのカードの必要エナジーを[Red x{1}]減らす",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラを{0}枚選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "選んだキャラが[Double Block]を持つ場合、カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "自分の場の【2回ブロック】を持つキャラ1枚につき、場以外の全ての場所でこのカードの必要エナジーを【赤×1】減らす。【レイド】〈チェン〉アクティブにし、フロントLに移動できる【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【起動メイン】【フロントLにある場合】【ターン1】自分の場のキャラを1枚選び、このターン中、BP+1000。選んだキャラが【2回ブロック】を持つ場合、カードを1枚引く。",
   "effectEn": "For each 1 character(s) with [Double Block] on your field, reduce the required energy of this card in all areas other than the field by [Red x1]. [Raid] Can Raid onto <チェン>; set it to active and you may move it to the Front Line. [Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 character on your field, it gets BP+1000 this turn. If the chosen character has [Double Block], draw 1 card(s).",
   "triggerType": "Raid",
@@ -3142,6 +5610,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -3178,6 +5647,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、発生エナジー+[Red]と「メインフェイズ終了時、このキャラを退場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【赤】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Red] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -3216,6 +5711,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）",
   "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active)",
   "triggerType": "",
@@ -3254,6 +5750,26 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnRetire",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "BPが{0}以下になることか相手の効果によって、このキャラが退場している場合、BP{1}以下の相手のフロントLのキャラを{2}枚まで選び、退場させる",
+      "nums": [
+       0,
+       3000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）【退場時】BPが0以下になることか相手の効果によって、このキャラが退場している場合、BP3000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active) [On Retire] If this character was retired by its BP becoming 0 or less or by your opponent's effect, choose up to 1 character in your opponent's Front Line with BP 3000 or less and retire it.",
   "triggerType": "Color",
@@ -3296,6 +5812,38 @@
    "value": "ホシグマ"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラを{0}枚選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "選んだキャラが[Damage {0}]を持つ場合、このキャラは次の自分のターン開始時まで、BP+{1}",
+      "nums": [
+       2,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）【レイド】〈ホシグマ〉アクティブにし、フロントLに移動できる【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【起動メイン】【フロントLにある場合】【ターン1】自分の場のキャラを1枚選び、このターン中、BP+1000。選んだキャラが【ダメージ（2）】を持つ場合、このキャラは次の自分のターン開始時まで、BP+1000。",
   "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active) [Raid] Can Raid onto <ホシグマ>; set it to active and you may move it to the Front Line. [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 character on your field, it gets BP+1000 this turn. If the chosen character has [Damage 2], this character gets BP+1000 until the start of your next turn.",
   "triggerType": "Raid",
@@ -3332,6 +5880,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "必要エナジーが{0}以下の自分の場の他のキャラを{1}枚手札に戻す",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "戻せない場合、このキャラを手札に戻す",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -3368,6 +5942,42 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがレストの場合、⟨n0⟩以外の自分のフロントLのキャラは、相手のキャラの効果で選ばれない",
+      "nums": [],
+      "names": [
+       "リン"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "エンドフェイズにこのキャラをアクティブにしなくてもよい",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【フロントLにある場合】このキャラがレストの場合、〈リン〉以外の自分のフロントLのキャラは、相手のキャラの効果で選ばれない。【自分のターン中】エンドフェイズにこのキャラをアクティブにしなくてもよい。",
   "effectEn": "[While in Front Line] While this character is rested, characters in your Front Line other than <リン> cannot be chosen by your opponent's character effects. [During Your Turn] You don't have to set this character to active during the End Phase.",
   "triggerType": "Draw",
@@ -3404,6 +6014,30 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true,
+     "retireSelf": true
+    },
+    "steps": [
+     {
+      "key": "自分の場の⟦t0⟧を{0}枚まで選び、このターン中、[Impact +{1}]を与える",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "龍門"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の場の［特徴：龍門］を1枚まで選び、このターン中、【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を与える。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Choose up to 1 [Trait: Lungmen] on your field, This turn, [Impact +1](Damage dealt by Impact is increased by 1; if it doesn't have Impact, [Impact 1])",
   "triggerType": "Get",
@@ -3433,6 +6067,36 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "『BP{0}以下』の相手のフロントLのキャラを{1}枚選び、退場させる",
+      "nums": [
+       3000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟨n0⟩がある場合、『BP{0}以下』に代わる",
+      "nums": [
+       5000
+      ],
+      "names": [
+       "チェン"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈チェン〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <チェン> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -3462,6 +6126,36 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "『BP{0}』以下の相手のフロントLのキャラを{1}枚選び、退場させる",
+      "nums": [
+       2000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場の元々のBPが{0}のキャラ{1}枚につき、この効果で選べるキャラのBPの範囲+{2}",
+      "nums": [
+       2500,
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "『BP2000』以下の相手のフロントLのキャラを1枚選び、退場させる。自分の場の元々のBPが2500のキャラ1枚につき、この効果で選べるキャラのBPの範囲+1000。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 2000 or less, retire it. For each 1 character(s) with original BP 2500 on your field, the BP range of characters you can choose with this effect is increased by 1000.",
   "triggerType": "Special",
@@ -3491,6 +6185,43 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       7
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟦t0⟧とBPが{0}のキャラカードをそれぞれ{1}枚まで公開し手札に加える",
+      "nums": [
+       2500,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "ペンギン急便"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の山札の上から7枚見る。その中から［特徴：ペンギン急便］とBPが2500のキャラカードをそれぞれ1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "Look at the top 7 card(s) of your deck. Reveal up to 1 each of [Trait: Penguin Logistics] and character cards with BP 2500 among them, and add them to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -3520,6 +6251,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の[Damage {0}]か[Double Block]を持つキャラ全てに、このターン中、「このキャラはBP{1}以下のキャラにブロックされない",
+      "nums": [
+       2,
+       3000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を与える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場の【ダメージ（2）】か【2回ブロック】を持つキャラ全てに、このターン中、「このキャラはBP3000以下のキャラにブロックされない。」を与える。",
   "effectEn": "All characters with [Damage 2] or [Double Block] on your field gain “This character cannot be blocked by characters with BP 3000 or less” this turn.",
   "triggerType": "Active",
@@ -3549,6 +6306,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -3585,6 +6360,26 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはBP+{0}",
+      "nums": [
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】このキャラはBP+1000。",
   "effectEn": "[During Your Turn] This character gets BP+1000.",
   "triggerType": "",
@@ -3624,6 +6419,47 @@
    "value": "アーミヤ"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "以下から{0}つまで選ぶ",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分のフロントLにBP{0}以上のキャラがある場合、BP{1}以上の相手のフロントLのキャラを{2}枚まで選び、このターン中、BP-{3}",
+      "nums": [
+       4000,
+       2000,
+       1,
+       1500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "自分のエナジーLにBP{0}以上のキャラがある場合、BP{1}以下の相手のフロントLのキャラを{2}枚まで選び、退場させる",
+      "nums": [
+       4000,
+       2000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈アーミヤ〉アクティブにし、フロントLに移動できる【登場時】以下から2つまで選ぶ。・自分のフロントLにBP4000以上のキャラがある場合、BP2000以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-1500。・自分のエナジーLにBP4000以上のキャラがある場合、BP2000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "[Raid] Can Raid onto <アーミヤ>; set it to active and you may move it to the Front Line. [On Play] Choose up to 2 of the following. If you have character with BP 4000 or more in your Front Line, Choose up to 1 character in your opponent's Front Line with BP 2000 or more, it gets BP-1500 this turn. If you have character with BP 4000 or more in your Energy Line, Choose up to 1 character in your opponent's Front Line with BP 2000 or less, retire it.",
   "triggerType": "Raid",
@@ -3660,6 +6496,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -3699,6 +6536,24 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLの他のキャラ全ては、このターン中、BP+{0}",
+      "nums": [
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】【ブロック時】【退場時】自分のフロントLの他のキャラ全ては、このターン中、BP+1000。",
   "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active) [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] [When Blocking] [On Retire] All other characters in your Front Line it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -3735,6 +6590,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3772,6 +6628,28 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "⟨n0⟩以外の自分の場のキャラがBPが{0}以下になること以外で退場する場合、代わりにこのキャラを退場させてもよい",
+      "nums": [
+       0
+      ],
+      "names": [
+       "Ace"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【フロントLにある場合】〈Ace〉以外の自分の場のキャラがBPが0以下になること以外で退場する場合、代わりにこのキャラを退場させてもよい。",
   "effectEn": "[While in Front Line] If a character on your field other than <Ace> would be retired for a reason other than its BP becoming 0 or less, you may retire this character instead.",
   "triggerType": "",
@@ -3809,6 +6687,45 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLにBP{0}以上の他のキャラがある場合、このキャラは[Impact {1}]を得る",
+      "nums": [
+       4000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "Static",
+    "conds": [
+     "oppTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のエナジーLにBP{0}以上の他のキャラがある場合、このキャラは[Double Block]を得る",
+      "nums": [
+       4000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】自分のフロントLにBP4000以上の他のキャラがある場合、このキャラは【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。【相手のターン中】自分のエナジーLにBP4000以上の他のキャラがある場合、このキャラは【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）を得る。",
   "effectEn": "[During Your Turn] If you have other character with BP 4000 or more in your Front Line, This character [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained. [During Opponent's Turn] If you have other character with BP 4000 or more in your Energy Line, This character [Double Block](The first time this character blocks each turn, set it to active) is gained.",
   "triggerType": "Draw",
@@ -3845,6 +6762,42 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このフィールドはアクティブで場に登場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "自分の場の⟦t0⟧全ては、このターン中、BP+{0}",
+      "nums": [
+       500
+      ],
+      "names": [],
+      "traits": [
+       "ロドス・アイランド製薬"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】自分の場の［特徴：ロドス・アイランド製薬］全ては、このターン中、BP+500。",
   "effectEn": "This Field is played active. [Activate: Main] [Rest this card] All [Trait: Rhodes Island Pharmaceutical] on your field it gets BP+500 this turn.",
   "triggerType": "Get",
@@ -3874,6 +6827,54 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "以下から{0}つまで選ぶ",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場のキャラを{0}枚まで選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       2000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "自分のフロントLにBP{0}以上のキャラがある場合、カードを{1}枚引く",
+      "nums": [
+       4000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "自分のエナジーLにBP{0}以上のキャラがある場合、カードを{1}枚引く",
+      "nums": [
+       4000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   }
+  ],
   "effectJp": "以下から3つまで選ぶ。・自分の場のキャラを1枚まで選び、このターン中、BP+2000。・自分のフロントLにBP4000以上のキャラがある場合、カードを1枚引く。・自分のエナジーLにBP4000以上のキャラがある場合、カードを1枚引く。",
   "effectEn": "Choose up to 3 of the following. Choose up to 1 character on your field, it gets BP+2000 this turn. If you have character with BP 4000 or more in your Front Line, Draw 1 card(s). If you have character with BP 4000 or more in your Energy Line, Draw 1 card(s).",
   "triggerType": "Draw",
@@ -3912,6 +6913,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）",
   "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent)",
   "triggerType": "Draw",
@@ -3949,6 +6951,59 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "相手の場のレストのキャラの枚数分、自分の山札の上からカードを見る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から[特徴：スノーデビル小隊]を{0}枚まで公開し手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {
+     "discard": 1
+    },
+    "steps": [
+     {
+      "key": "相手のエナジーLのキャラを{0}枚選び、レストにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【アタック時】相手の場のレストのキャラの枚数分、自分の山札の上からカードを見る。その中から[特徴：スノーデビル小隊]を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。【起動メイン】【フロントLにある場合】【手札を1枚場外に置く】【ターン1】相手のエナジーLのキャラを1枚選び、レストにする。",
   "effectEn": "[When Attacking] Look at cards from the top of your deck equal to the number of rested characters on your opponent's field. Reveal up to 1 [Trait: Snow Devil Platoon] among them and add it to your hand. Put the rest on the bottom of your deck in any order. [Activate: Main] [While in Front Line] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] Choose 1 character in your opponent's Energy Line, rest it.",
   "triggerType": "Draw",
@@ -3985,6 +7040,23 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラを別のラインに移動させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【ターン1】このキャラを別のラインに移動させる。",
   "effectEn": "[Activate: Main] [Once Per Turn] Move this character to another line.",
   "triggerType": "Draw",
@@ -4021,6 +7093,44 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "ap": 1
+    },
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、[Damage {0}]を得る",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に[Double Block]を持つカードがある場合、カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【起動メイン】【APを1支払う】【ターン1】このキャラはこのターン中、【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を得る。【アタック時】自分の場に【2回ブロック】を持つカードがある場合、カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[Activate: Main] [Pay 1 AP] [Once Per Turn] This character, this turn, [Damage 2](When this character deals direct damage by attacking, deal 2 damage instead) is gained. [When Attacking] If you have a card with [Double Block] on your field, draw 1 card(s) and put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -4048,6 +7158,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -4075,6 +7186,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -4102,6 +7214,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -4129,6 +7242,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -4156,6 +7270,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -4183,6 +7298,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -4210,6 +7326,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

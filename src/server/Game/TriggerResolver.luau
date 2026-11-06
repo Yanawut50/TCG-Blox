@@ -19,6 +19,7 @@ export type Ctx = {
 	chooseOption: (player: number, kind: string, prompt: string, options: { string }) -> string,
 	raidTargets: (player: number, uid: number) -> { number },
 	raid: (player: number, uid: number, targetUid: number) -> (),
+	retire: (uid: number, why: string) -> (),
 }
 
 local TriggerResolver = {}
@@ -78,8 +79,7 @@ function TriggerResolver.check(ctx: Ctx, p: number, uid: number)
 		local cands = fieldCharacters(state, opp, { "Front" })
 		local pick = ctx.chooseCards(p, "ChooseCards", "[Special] Choose 1 character on the opponent's Front Line to remove", cands, math.min(1, #cands), 1)
 		for _, target in pick do
-			GameState.log(state, ("  %s removed from the field"):format(GameState.name(state, target)))
-			GameState.moveCard(state, target, "Outside")
+			ctx.retire(target, "[Special] trigger")
 		end
 		toOutside()
 	elseif trigger == "Final" then

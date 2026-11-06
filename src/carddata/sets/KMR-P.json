@@ -25,6 +25,31 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このカードの色と必要エナジーは、全ての色として扱う",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このカードの色と必要エナジーは、全ての色として扱う。自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "This card's color and required energy are treated as all colors. Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -58,6 +83,31 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このカードの色と必要エナジーは、全ての色として扱う",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このカードの色と必要エナジーは、全ての色として扱う。自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "This card's color and required energy are treated as all colors. Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -92,6 +142,63 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見て、『⟨n0⟩』を{1}枚まで公開し手札に加える",
+      "nums": [
+       5,
+       1
+      ],
+      "names": [
+       "ゴチゾウ"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "⟨n0⟩を手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [
+       "ゴチゾウ"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "山札を見た後に、自分の場の⟨n0⟩を{0}枚退場させてもよい",
+      "nums": [
+       1
+      ],
+      "names": [
+       "ゴチゾウ"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、『黄のキャラカード』に代わる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から5枚見て、『〈ゴチゾウ〉』を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。〈ゴチゾウ〉を手札に加えた場合、自分の手札を1枚場外に置く。山札を見た後に、自分の場の〈ゴチゾウ〉を1枚退場させてもよい。そうした場合、『黄のキャラカード』に代わる。（〈ゴチゾウ〉の【退場時】はこの効果を処理した後に発動する）",
   "effectEn": "[On Play] Look at the top 5 card(s) of your deck, reveal up to 1 “<ゴチゾウ>” among them, and add it to your hand. Put the rest on the bottom of your deck in any order. If you added <ゴチゾウ> to your hand, put 1 card(s) from your hand into your Outside Area. After looking at the deck, you may retire 1 <ゴチゾウ> on your field. If you do, it becomes “yellow character card” instead. (The [On Retire] of <ゴチゾウ> activates after this effect resolves)",
   "triggerType": "Draw",
@@ -126,6 +233,35 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の⟦t0⟧を{0}枚手札に戻してもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "リ・イマジネーション"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、このターン中、次に手札から使用する[Raid]を持たないカード名に「ディケイド」を含むキャラカードの消費APを-{0}する",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の場の［特徴：リ・イマジネーション］を1枚手札に戻してもよい。そうした場合、このターン中、次に手札から使用する【レイド】を持たないカード名に「ディケイド」を含むキャラカードの消費APを-1する。",
   "effectEn": "[On Play] You may return 1 [Trait: Re-Imagination] on your field to the owner's hand. If you do, this turn, reduce the AP cost of the next character card with “Decade” in its card name and without [Raid] you use from your hand by 1.",
   "triggerType": "Active",
@@ -160,6 +296,55 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場外からカード名に「サバイブ」を含むカードを{0}枚まで自分の山札の上に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場にカード名に「ナイト」を含むキャラがある場合、カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場にレイド状態の⟨n0⟩がある場合、自分の手札から⟨n1⟩を{0}枚までこのキャラにレイドさせる",
+      "nums": [
+       1
+      ],
+      "names": [
+       "仮面ライダーナイトサバイブ",
+       "仮面ライダー龍騎サバイブ"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【登場時】自分の場外からカード名に「サバイブ」を含むカードを1枚まで自分の山札の上に置く。【起動メイン】【フロントLにある場合】【ターン1】自分の場にカード名に「ナイト」を含むキャラがある場合、カードを1枚引く。自分の場にレイド状態の〈仮面ライダーナイトサバイブ〉がある場合、自分の手札から〈仮面ライダー龍騎サバイブ〉を1枚までこのキャラにレイドさせる。",
   "effectEn": "[On Play] Put up to 1 card(s) with “Survive” in its card name from your Outside Area on top of your deck. [Activate: Main] [While in Front Line] [Once Per Turn] If you have a character with “Knight” in its card name on your field, draw 1 card(s). If you have a Raided <仮面ライダーナイトサバイブ> on your field, Raid up to 1 <仮面ライダー龍騎サバイブ> from your hand onto this character.",
   "triggerType": "Get",

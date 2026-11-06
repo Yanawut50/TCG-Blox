@@ -236,6 +236,23 @@ local function botTurn(state: any)
 	if state.phase == "GameOver" then
 		return
 	end
+	-- Use Activate: Main abilities that run automatically.
+	local EffectRegistry = require(GameDir:WaitForChild("EffectRegistry"))
+	for _, uid in table.clone(ps.front) do
+		if state.phase ~= "Main" then
+			break
+		end
+		if state.cards[uid].zone == "Front" then
+			for i, a in EffectRegistry.abilitiesOf(GameState.def(state, uid)) do
+				if a.timing == "ActivateMain" and EffectRegistry.isSupported(a) then
+					act(state, p, { type = "Activate", uid = uid, index = i })
+				end
+			end
+		end
+	end
+	if state.phase == "GameOver" then
+		return
+	end
 	act(state, p, { type = "NextPhase" }) -- -> Attack
 	for _, uid in table.clone(ps.front) do
 		if state.phase ~= "Attack" then
@@ -264,7 +281,7 @@ end
 local COVERAGE_TAGS = {
 	"Raid:", "blocks with", "Battle:", "Attacker loses", "lost battle", "Impact", "Double Attack", "Double Block",
 	"Called Strike", "Extra Draw", "moves", "[Draw]", "[Get]", "[Active]", "[Special]", "[Final]", "[Raid]", "[Color]",
-	"MANUAL [", "Event", "mulligans", "Remove Area",
+	"MANUAL", "effect", "activates", "Event", "mulligans", "Remove Area",
 }
 local coverage: { [string]: number } = {}
 local battleSamples: { string } = {}

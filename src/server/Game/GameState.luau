@@ -58,6 +58,8 @@ function GameState.new(seed: number?): GameState
 		nextUid = 0,
 		nextDecisionId = 0,
 		co = nil,
+		flowQueue = {},
+		delayed = {},
 	}
 end
 
@@ -104,6 +106,7 @@ function GameState.createCard(state: GameState, key: string, owner: number): num
 		granted = {},
 		attacksThisTurn = 0,
 		blocksThisTurn = 0,
+		usedOnce = {},
 	}
 	table.insert(state.players[owner].deck, uid)
 	return uid
@@ -146,6 +149,7 @@ local function resetFieldState(c: CardInst)
 	c.granted = {}
 	c.attacksThisTurn = 0
 	c.blocksThisTurn = 0
+	c.usedOnce = {}
 end
 
 -- Moves a card to a zone. Leaving the field: Raid cards underneath go to the
@@ -209,10 +213,16 @@ function GameState.keyword(state: GameState, uid: number, name: string): any
 	return kw and kw[name]
 end
 
+-- Set by EffectRegistry: BP from static abilities ("this character gets BP+X").
+GameState.staticBP = nil :: ((any, number) -> number)?
+-- Set by EffectRegistry: extra energy from static abilities.
+GameState.staticEnergy = nil :: ((any, number) -> { [string]: number }?)?
+
 function GameState.bp(state: GameState, uid: number): number
 	local c = GameState.inst(state, uid)
 	local d = GameState.def(state, uid)
-	return (d.bp or 0) + c.bpTurn + c.bpManual
+	local static = if GameState.staticBP then GameState.staticBP(state, uid) else 0
+	return (d.bp or 0) + c.bpTurn + c.bpManual + static
 end
 
 function GameState.isCharacter(state: GameState, uid: number): boolean
@@ -227,6 +237,10 @@ function GameState.energy(state: GameState, p: number): { [string]: number }
 		local d = GameState.def(state, uid)
 		for _, e in d.generatedEnergy do
 			out[e.color] = (out[e.color] or 0) + e.count
+		end
+		local extra = if GameState.staticEnergy then GameState.staticEnergy(state, uid) else nil
+		for color, n in extra or {} do
+			out[color] = (out[color] or 0) + n
 		end
 	end
 	return out

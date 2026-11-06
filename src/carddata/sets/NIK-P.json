@@ -29,6 +29,72 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に他の⟦t0⟧が{0}枚以上ある場合、このキャラはBP+{1}",
+      "nums": [
+       3,
+       1000
+      ],
+      "names": [],
+      "traits": [
+       "カウンターズ"
+      ],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟨n0⟩か⟦t0⟧を{0}枚まで公開し手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [
+       "記憶"
+      ],
+      "traits": [
+       "カウンターズ"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "キャラカードを手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場に他の［特徴：カウンターズ］が3枚以上ある場合、このキャラはBP+1000。【登場時】自分の山札の上から3枚見る。その中から〈記憶〉か［特徴：カウンターズ］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。キャラカードを手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "If you have 3 or more other [Trait: Counters] on your field, This character gets BP+1000. [On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 <Memory> or [Trait: Counters] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added a character card to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -66,6 +132,27 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このカードが手札から場外に置かれた時、自分の場に紫のカードがあり、自分の他の手札が{0}枚以下の場合、自分の場の⟦t0⟧を{1}枚まで選び、アクティブにする",
+      "nums": [
+       2,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "パイオニア"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このカードが手札から場外に置かれた時、自分の場に紫のカードがあり、自分の他の手札が2枚以下の場合、自分の場の［特徴：パイオニア］を1枚まで選び、アクティブにする。",
   "effectEn": "When this card is put from your hand into your Outside Area, if you have a purple card on your field and 2 or fewer other cards in your hand, choose up to 1 [Trait: Pioneer] on your field and set it to active.",
   "triggerType": "",
@@ -103,6 +190,39 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "相手の場にBP{0}以上のキャラがある場合、このターン中、次に手札から使用する⟦t0⟧の消費APを-{1}する",
+      "nums": [
+       4000,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "ミシリス"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "⟨n0⟩のこの効果は{0}ターンに{1}回のみ発動する",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "エレグ"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】相手の場にBP4000以上のキャラがある場合、このターン中、次に手札から使用する［特徴：ミシリス］の消費APを-1する。〈エレグ〉のこの効果は1ターンに1回のみ発動する。",
   "effectEn": "[On Play] If your opponent has character with BP 4000 or more on their field, This turn, the next [Trait: Missilis] you use from your hand costs 1 less AP. This <Elegg> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Active",
@@ -136,6 +256,31 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このカードの色と必要エナジーは、全ての色として扱う",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このカードの色と必要エナジーは、全ての色として扱う。自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "This card's color and required energy are treated as all colors. Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",

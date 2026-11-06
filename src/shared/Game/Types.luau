@@ -18,6 +18,7 @@ export type CardInst = {
 	granted: { [string]: any }, -- keywords gained until end of turn
 	attacksThisTurn: number,
 	blocksThisTurn: number,
+	usedOnce: { [number]: boolean }, -- ability index -> used this turn (Once Per Turn)
 }
 
 export type APCard = {
@@ -71,6 +72,8 @@ export type GameState = {
 	nextUid: number,
 	nextDecisionId: number,
 	co: thread?,
+	flowQueue: { () -> () }, -- flows waiting for the current one to finish
+	delayed: { { when: string, fn: () -> () } }, -- e.g. "at the end of the Main Phase"
 }
 
 export type Action = { [string]: any } -- always has `type: string`

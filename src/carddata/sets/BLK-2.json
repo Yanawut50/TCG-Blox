@@ -26,6 +26,72 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の⟨n0⟩か⟨n1⟩の下に裏向きのカードがある場合のみ発動できる",
+      "nums": [],
+      "names": [
+       "潔 世一",
+       "馬狼 照英"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "以下から{0}つ選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "⟨n0⟩のこの効果は{0}ターンに{1}回のみ発動できる",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "潔 世一"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラは次の自分のターン開始時まで、「このキャラはフロントLにある場合もエナジーを発生させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "裏向きのカードが下にある自分の場のキャラを{0}枚選び、次の自分のターン開始時まで、BP+{1}",
+      "nums": [
+       1,
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   }
+  ],
   "effectJp": "【起動メイン】【フロントLにある場合】自分の場の〈潔 世一〉か〈馬狼 照英〉の下に裏向きのカードがある場合のみ発動できる。以下から1つ選ぶ。〈潔 世一〉のこの効果は1ターンに1回のみ発動できる。・このキャラは次の自分のターン開始時まで、「このキャラはフロントLにある場合もエナジーを発生させる。」を得る。・裏向きのカードが下にある自分の場のキャラを1枚選び、次の自分のターン開始時まで、BP+500。",
   "effectEn": "[Activate: Main] [While in Front Line] Can only activate if <潔 世一> or <馬狼 照英> on your field has face-down cards under it. Choose 1 of the following. This <潔 世一> effect can only activate 1 time(s) per 1 turn(s). This character gains “This character also generates energy while in the Front Line” until the start of your next turn. Choose 1 character on your field with face-down cards under it; it gets BP+500 until the start of your next turn.",
   "triggerType": "Active",
@@ -60,6 +126,56 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の効果で自分の手札を{0}枚場外に置いた時、自分の場のキャラの下に裏向きのカードがない場合、そのカードを裏向きでこのキャラの下に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分のフロントLに空きがあり、このキャラがエナジーLにあるなら、このキャラをアクティブにし、フロントLに移動させてもよい",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラの下の裏向きのカードを{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、このキャラはこのターン中、BP+{0}",
+      "nums": [
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の効果で自分の手札を1枚場外に置いた時、自分の場のキャラの下に裏向きのカードがない場合、そのカードを裏向きでこのキャラの下に置いてもよい。そうした場合、自分のフロントLに空きがあり、このキャラがエナジーLにあるなら、このキャラをアクティブにし、フロントLに移動させてもよい。【アタック時】このキャラの下の裏向きのカードを1枚場外に置いてもよい。そうした場合、このキャラはこのターン中、BP+1000。",
   "effectEn": "When you put 1 card(s) from your hand into your Outside Area with your own effect, if no character on your field has face-down cards under it, you may put that card face down under this character. If you do, and your Front Line has an open space and this character is in the Energy Line, you may set this character to active and move it to the Front Line. [When Attacking] You may put 1 face-down card(s) under this character into your Outside Area. If you do, This character gets BP+1000 this turn.",
   "triggerType": "",
@@ -97,6 +213,65 @@
    "value": "凪 誠士郎"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       2,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {
+     "discard": 1
+    },
+    "steps": [
+     {
+      "key": "以下から{0}つ選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "BP{0}以下の相手のフロントLのキャラを{1}枚選び、レストにする",
+      "nums": [
+       3000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "このキャラはこのターン中、BP+{0}",
+      "nums": [
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【レイド】〈凪 誠士郎〉アクティブにし、フロントLに移動できる【登場時】カードを2枚引き、自分の手札を1枚場外に置く。【起動メイン】【フロントLにある場合】【手札を1枚場外に置く】【ターン1】以下から1つ選ぶ。・BP3000以下の相手のフロントLのキャラを1枚選び、レストにする。・このキャラはこのターン中、BP+1000。",
   "effectEn": "[Raid] Can Raid onto <凪 誠士郎>; set it to active and you may move it to the Front Line. [On Play] Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area. [Activate: Main] [While in Front Line] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] Choose 1 of the following. Choose 1 character in your opponent's Front Line with BP 3000 or less, rest it. This character gets BP+1000 this turn.",
   "triggerType": "Raid",
@@ -131,6 +306,64 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       5
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟨n0⟩か⟨n1⟩を{0}枚まで公開し手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [
+       "凪 誠士郎",
+       "剣城 斬鉄"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の⟨n0⟩か⟨n1⟩を{0}枚選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [
+       "凪 誠士郎",
+       "剣城 斬鉄"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【登場時】【アタック時】自分の山札の上から5枚見る。その中から〈凪 誠士郎〉か〈剣城 斬鉄〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。【起動メイン】【ターン1】自分の場の〈凪 誠士郎〉か〈剣城 斬鉄〉を1枚選び、このターン中、BP+1000。",
   "effectEn": "[On Play] [When Attacking] Look at the top 5 card(s) of your deck. Reveal up to 1 <凪 誠士郎> or <剣城 斬鉄> among them and add it to your hand. Put the rest on the bottom of your deck in any order. [Activate: Main] [Once Per Turn] Choose 1 <凪 誠士郎> or <剣城 斬鉄> on your field, it gets BP+1000 this turn.",
   "triggerType": "Get",
@@ -165,6 +398,57 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から{0}枚を裏向きでこのキャラの下に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラの下の裏向きのカードを{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、このキャラはこのターン中、BP+{0}と「このキャラがアタックしてブロックされなかった時、カードを{1}枚引く",
+      "nums": [
+       1000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から1枚を裏向きでこのキャラの下に置いてもよい。【アタック時】このキャラの下の裏向きのカードを1枚場外に置いてもよい。そうした場合、このキャラはこのターン中、BP+1000と「このキャラがアタックしてブロックされなかった時、カードを1枚引く。」を得る。",
   "effectEn": "[On Play] If no character on your field has face-down cards under it, you may put the top 1 card(s) of your deck face down under this character. [When Attacking] You may put 1 face-down card(s) under this character into your Outside Area. If you do, This character it gets BP+1000 and gains “When this character attacks and is not blocked, Draw 1 card(s)” this turn.",
   "triggerType": "Active",
@@ -201,6 +485,53 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のエナジーLの[When Attacking]を持つキャラを{0}枚選び、このキャラと位置を入れ替える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その後、自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から{0}枚を裏向きで選んだキャラの下に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラの下の裏向きのカードを{0}枚、裏向きのカードが下にない自分の場のキャラの下に移動させる",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分のエナジーLの【アタック時】を持つキャラを1枚選び、このキャラと位置を入れ替える。その後、自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から1枚を裏向きで選んだキャラの下に置いてもよい。【起動メイン】【ターン1】自分の場のキャラの下の裏向きのカードを1枚、裏向きのカードが下にない自分の場のキャラの下に移動させる。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 character with [When Attacking] in your Energy Line and swap its position with this character. Then, if no character on your field has face-down cards under it, you may put the top 1 card(s) of your deck face down under the chosen character. [Activate: Main] [Once Per Turn] Move 1 face-down card(s) under a character on your field to under a character on your field that has no face-down cards under it.",
   "triggerType": "Get",
@@ -237,6 +568,57 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラが自分の〔キャラ",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "イベントカード〕の効果で登場していた場合、カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラの下の裏向きのカードを{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、カードを{0}枚引き、このキャラはこのターン中、BP-{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】このキャラが自分の〔キャラ・イベントカード〕の効果で登場していた場合、カードを1枚引く。【アタック時】このキャラの下の裏向きのカードを1枚場外に置いてもよい。そうした場合、カードを1枚引き、このキャラはこのターン中、BP-1000。",
   "effectEn": "[On Play] When this character is chosen by your character's. If it was played by an Event card's effect, draw 1 card(s). [When Attacking] You may put 1 face-down card(s) under this character into your Outside Area. If you do, draw 1 card(s), and this character gets BP-1000 this turn.",
   "triggerType": "Active",
@@ -271,6 +653,33 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラの下に裏向きのカードがある場合、手札にあるこのカードの必要エナジーを[Red x{0}]減らす",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラが移動した時、自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から{0}枚を裏向きでこのキャラの下に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場のキャラの下に裏向きのカードがある場合、手札にあるこのカードの必要エナジーを【赤×3】減らす。このキャラが移動した時、自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から1枚を裏向きでこのキャラの下に置いてもよい。",
   "effectEn": "If a character on your field has face-down cards under it, reduce the required energy of this card in your hand by [Red x3]. When this character moves, if no character on your field has face-down cards under it, you may put the top 1 card(s) of your deck face down under this character.",
   "triggerType": "",
@@ -305,6 +714,49 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {
+     "ap": 1
+    },
+    "steps": [
+     {
+      "key": "同じラインに⟨n0⟩と⟨n1⟩がある場合のみ発動できる",
+      "nums": [],
+      "names": [
+       "千切 豹馬",
+       "御影 玲王"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その後、自分の場のキャラを{0}枚まで選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【フロントLにある場合】【APを1支払う】【ターン1】同じラインに〈千切 豹馬〉と〈御影 玲王〉がある場合のみ発動できる。カードを1枚引く。その後、自分の場のキャラを1枚まで選び、このターン中、BP+1500。",
   "effectEn": "[Activate: Main] [While in Front Line] [Pay 1 AP] [Once Per Turn] Can only activate if <千切 豹馬> and <御影 玲王> are in the same line. Draw 1 card(s). Then, Choose up to 1 character on your field, it gets BP+1500 this turn.",
   "triggerType": "",
@@ -339,6 +791,52 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       5
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から必要エナジーが{0}以下で消費APが{1}の赤の〔キャラカードかフィールドカード〕を{2}枚まで自分の場にレストで登場させる",
+      "nums": [
+       2,
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラと同じラインに⟨n0⟩と⟨n1⟩がある場合、このキャラをアクティブにしてもよい",
+      "nums": [],
+      "names": [
+       "國神 錬介",
+       "御影 玲王"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から5枚見る。その中から必要エナジーが2以下で消費APが1の赤の〔キャラカードかフィールドカード〕を1枚まで自分の場にレストで登場させる。残りを望む順で自分の山札の下に置く。このキャラと同じラインに〈國神 錬介〉と〈御影 玲王〉がある場合、このキャラをアクティブにしてもよい。",
   "effectEn": "[On Play] Look at the top 5 card(s) of your deck. Play up to 1 Red character card or Field card with required energy 2 or less and with AP cost 1 from among them to your field rested. Put the rest on the bottom of your deck in any order. If <國神 錬介> and <御影 玲王> are in the same line as this character, you may set this character to active.",
   "triggerType": "Get",
@@ -373,6 +871,60 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "以下から{0}つ選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラはこのターン中、BP+{0}",
+      "nums": [
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "同じラインに⟨n0⟩か⟨n1⟩がある場合、このキャラはこのターン中、BP+{0}",
+      "nums": [
+       1000
+      ],
+      "names": [
+       "國神 錬介",
+       "千切 豹馬"
+      ],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "同じラインに⟨n0⟩と⟨n1⟩がどちらもある場合、このキャラはこのターン中、BP+{0}",
+      "nums": [
+       1500
+      ],
+      "names": [
+       "國神 錬介",
+       "千切 豹馬"
+      ],
+      "traits": [],
+      "bullet": true
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】以下から1つ選ぶ。・このキャラはこのターン中、BP+500。・同じラインに〈國神 錬介〉か〈千切 豹馬〉がある場合、このキャラはこのターン中、BP+1000。・同じラインに〈國神 錬介〉と〈千切 豹馬〉がどちらもある場合、このキャラはこのターン中、BP+1500。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 of the following. This character gets BP+500 this turn. If <國神 錬介> or <千切 豹馬> is in the same line, this character gets BP+1000 this turn. If both <國神 錬介> and <千切 豹馬> are in the same line, this character gets BP+1500 this turn.",
   "triggerType": "Draw",
@@ -400,6 +952,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

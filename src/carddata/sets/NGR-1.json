@@ -26,6 +26,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -60,6 +61,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -94,6 +114,22 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがアクティブの場合、このキャラの発生エナジー+[Yellow]",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【黄】。",
   "effectEn": "While this character is active, its generated energy +[Yellow].",
   "triggerType": "",
@@ -128,6 +164,81 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLのレイド状態の⟦t0⟧{0}枚につき、このキャラはBP+{1}",
+      "nums": [
+       1,
+       500
+      ],
+      "names": [],
+      "traits": [
+       "コスプレ"
+      ],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "APを{0}支払ってもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その後、「自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の手札から必要エナジーを満たす⟦t0⟧を{0}枚までレイドさせる",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "コスプレ"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "」をしてもよい",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】自分のフロントLのレイド状態の［特徴：コスプレ］1枚につき、このキャラはBP+500。【登場時】APを1支払ってもよい。そうした場合、カードを1枚引く。その後、「自分の手札を1枚場外に置く。自分の手札から必要エナジーを満たす［特徴：コスプレ］を1枚までレイドさせる。」をしてもよい。",
   "effectEn": "[During Your Turn] This character gets BP+500 for each 1 Raided [Trait: Cosplay] in your Front Line. [On Play] You may pay 1 AP. If you do, Draw 1 card(s). Then, “Put 1 card(s) from your hand into your Outside Area. You may “Raid up to 1 [Trait: Cosplay] from your hand that meets its required energy”",
   "triggerType": "Color",
@@ -162,6 +273,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -196,6 +308,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場外から必要エナジーが{0}以下の異なるカード名の黄のキャラカードを望む枚数手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の場外から必要エナジーが1以下の異なるカード名の黄のキャラカードを望む枚数手札に加える。",
   "effectEn": "[On Play] Add any number of yellow character cards with different card names and required energy 1 or less from your Outside Area to your hand.",
   "triggerType": "Get",
@@ -230,6 +360,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、発生エナジー+[Yellow]と「メインフェイズ終了時、このキャラを退場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【黄】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Yellow] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -264,6 +420,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -298,6 +455,26 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはBP+{0}",
+      "nums": [
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】このキャラはBP+1000。",
   "effectEn": "[During Your Turn] This character gets BP+1000.",
   "triggerType": "",
@@ -332,6 +509,29 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "このターン中に自分の効果でアクティブからレストになったことがある自分の場の他のキャラを{0}枚選び、アクティブにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【フロントLにある場合】【レストにする】【ターン1】このターン中に自分の効果でアクティブからレストになったことがある自分の場の他のキャラを1枚選び、アクティブにする。",
   "effectEn": "[Activate: Main] [While in Front Line] [Rest this card] [Once Per Turn] Choose 1 other character on your field that went from active to rested by your own effect this turn, and set it to active.",
   "triggerType": "Active",
@@ -366,6 +566,26 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このターン中に自分のフロントLのキャラが自分の効果でアクティブからレストになったことがある場合、このキャラはBP+{0}",
+      "nums": [
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】このターン中に自分のフロントLのキャラが自分の効果でアクティブからレストになったことがある場合、このキャラはBP+500。",
   "effectEn": "[During Your Turn] If a character in your Front Line went from active to rested by your own effect this turn, this character gets BP+500.",
   "triggerType": "Draw",
@@ -400,6 +620,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "必要エナジーが{0}以下の自分の場の他のキャラを{1}枚手札に戻す",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "戻せない場合、このキャラを手札に戻す",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -434,6 +680,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -470,6 +717,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "",
@@ -504,6 +752,33 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがアタックしてブロックされた時、カードを{0}枚引いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラがアタックしてブロックされた時、カードを1枚引いてもよい。そうした場合、自分の手札を1枚場外に置く。",
   "effectEn": "When this character attacks and is blocked, you may draw 1 card(s). If you do, Put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -538,6 +813,35 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "discard": 1
+    },
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、BP+{0}と「相手はこのキャラのアタックを可能ならBP{1}以下のキャラでブロックしなければならない",
+      "nums": [
+       500,
+       3000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【手札を1枚場外に置く】【ターン1】このキャラはこのターン中、BP+500と「相手はこのキャラのアタックを可能ならBP3000以下のキャラでブロックしなければならない。」を得る。",
   "effectEn": "[Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] This character gains BP+500 and “Your opponent must block this character's attack with a character with BP 3000 or less if able” this turn.",
   "triggerType": "Active",
@@ -572,6 +876,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -608,6 +913,26 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "oppTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはBP+{0}",
+      "nums": [
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【相手のターン中】このキャラはBP+1000。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [During Opponent's Turn] This character gets BP+1000.",
   "triggerType": "",
@@ -642,6 +967,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "BP{0}以下の相手のフロントLのキャラを{1}枚まで選び、レストにする",
+      "nums": [
+       3500,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】BP3500以下の相手のフロントLのキャラを1枚まで選び、レストにする。",
   "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line with BP 3500 or less, rest it.",
   "triggerType": "",
@@ -678,6 +1022,35 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そのカードを自分の山札の上か下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【起動メイン】【フロントLにある場合】【レストにする】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [Activate: Main] [While in Front Line] [Rest this card] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
   "triggerType": "Color",
@@ -714,6 +1087,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -753,6 +1127,62 @@
    "value": "ノノア"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはBP+{0}",
+      "nums": [
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "相手のフロントLのキャラを{0}枚まで選び、レストにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnRetire",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "相手のフロントLのキャラを{0}枚まで選び、レストにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈ノノア〉アクティブにし、フロントLに移動できる【自分のターン中】このキャラはBP+500。【起動メイン】【フロントLにある場合】【レストにする】相手のフロントLのキャラを1枚まで選び、レストにする。【退場時】相手のフロントLのキャラを1枚まで選び、レストにする。",
   "effectEn": "[Raid] Can Raid onto <ノノア>; set it to active and you may move it to the Front Line. [During Your Turn] This character gets BP+500. [Activate: Main] [While in Front Line] [Rest this card] Choose up to 1 character in your opponent's Front Line, rest it. [On Retire] Choose up to 1 character in your opponent's Front Line, rest it.",
   "triggerType": "Get",
@@ -792,6 +1222,69 @@
    "value": "ノノア"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "相手のフロントLのキャラを{0}枚まで選び、レストにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "それは次の{0}回アクティブにならない",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そのカードを自分の山札の上か下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その後、カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈ノノア〉アクティブにし、フロントLに移動できる【登場時】相手のフロントLのキャラを1枚まで選び、レストにする。それは次の1回アクティブにならない。【起動メイン】【フロントLにある場合】【レストにする】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。その後、カードを1枚引く。",
   "effectEn": "[Raid] Can Raid onto <ノノア>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s). [Activate: Main] [While in Front Line] [Rest this card] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck. Then, Draw 1 card(s).",
   "triggerType": "Raid",
@@ -831,6 +1324,67 @@
    "value": "橘 美花莉"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはBP+{0}",
+      "nums": [
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラがアタックしてブロックされた時、カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、BP+{0}",
+      "nums": [
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラが自分のキャラの効果でレイドしていた場合、さらにこのキャラはこのターン中、「相手のフロントLにアクティブのキャラがある場合、このキャラは[Damage {0}]を得る",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈橘 美花莉〉アクティブにし、フロントLに移動できる【自分のターン中】このキャラはBP+500。このキャラがアタックしてブロックされた時、カードを1枚引く。【登場時】このキャラはこのターン中、BP+1000。このキャラが自分のキャラの効果でレイドしていた場合、さらにこのキャラはこのターン中、「相手のフロントLにアクティブのキャラがある場合、このキャラは【ダメージ（2）】を得る。」を得る。",
   "effectEn": "[Raid] Can Raid onto <橘 美花莉>; set it to active and you may move it to the Front Line. [During Your Turn] This character gets BP+500. When this character attacks and is blocked, draw 1 card(s). [On Play] This character gets BP+1000 this turn. If this character Raided by your character's effect, this character also gains “If your opponent has an active character in their Front Line, this character gains [Damage 2]” this turn.",
   "triggerType": "Get",
@@ -872,6 +1426,38 @@
    "value": "橘 美花莉"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、BP+{0}",
+      "nums": [
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラが自分のキャラの効果でレイドしていた場合、さらにこのキャラはこのターン中、「相手はこのキャラのアタックを可能ならブロックしなければならない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈橘 美花莉〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】このキャラはこのターン中、BP+1000。このキャラが自分のキャラの効果でレイドしていた場合、さらにこのキャラはこのターン中、「相手はこのキャラのアタックを可能ならブロックしなければならない。」を得る。",
   "effectEn": "[Raid] Can Raid onto <橘 美花莉>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] This character gets BP+1000 this turn. If this character Raided by your character's effect, this character also gains “Your opponent must block this character's attacks if able” this turn.",
   "triggerType": "Raid",
@@ -911,6 +1497,62 @@
    "value": "喜咲 アリア"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはBP+{0}",
+      "nums": [
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラを{0}枚まで選び、アクティブにし、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {
+     "ap": 1
+    },
+    "steps": [
+     {
+      "key": "このキャラの[On Play]を発動する",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【レイド】〈喜咲 アリア〉アクティブにし、フロントLに移動できる【自分のターン中】このキャラはBP+500。【登場時】自分の場のキャラを1枚まで選び、アクティブにし、このターン中、BP+1000。【起動メイン】【フロントLにある場合】【APを1支払う】【ターン1】このキャラの【登場時】を発動する。",
   "effectEn": "[Raid] Can Raid onto <喜咲 アリア>; set it to active and you may move it to the Front Line. [During Your Turn] This character gets BP+500. [On Play] Choose up to 1 character on your field, set it to active, and it gets BP+1000 this turn. [Activate: Main] [While in Front Line] [Pay 1 AP] [Once Per Turn] Activate this character's [On Play].",
   "triggerType": "Get",
@@ -950,6 +1592,37 @@
    "value": "喜咲 アリア"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラを{0}枚選び、アクティブにし、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "選んだキャラがこのターン中、自分の効果でアクティブからレストになったことがある場合、さらにこのターン中、[Impact {0}]を与える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【レイド】〈喜咲 アリア〉アクティブにし、フロントLに移動できる【起動メイン】【フロントLにある場合】【ターン1】自分の場のキャラを1枚選び、アクティブにし、このターン中、BP+1000。選んだキャラがこのターン中、自分の効果でアクティブからレストになったことがある場合、さらにこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を与える。",
   "effectEn": "[Raid] Can Raid onto <喜咲 アリア>; set it to active and you may move it to the Front Line. [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 character on your field, set it to active, and it gets BP+1000 this turn. If the chosen character went from active to rested by your own effect this turn, it also gains [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opposing player) this turn.",
   "triggerType": "Raid",
@@ -989,6 +1662,97 @@
    "value": "天乃 リリサ"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       4
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟦t0⟧を{0}枚まで公開し手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "コスプレ"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えなかった場合、カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "ap": 1
+    },
+    "steps": [
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その後、「自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の手札から必要エナジーを満たす⟦t0⟧を{0}枚までレイドさせる",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "コスプレ"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "」をしてもよい",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【レイド】〈天乃 リリサ〉アクティブにし、フロントLに移動できる【登場時】自分の山札の上から4枚見る。その中から［特徴：コスプレ］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えなかった場合、カードを1枚引く。【起動メイン】【APを1支払う】【ターン1】カードを1枚引く。その後、「自分の手札を1枚場外に置く。自分の手札から必要エナジーを満たす［特徴：コスプレ］を1枚までレイドさせる。」をしてもよい。",
   "effectEn": "[Raid] Can Raid onto <天乃 リリサ>; set it to active and you may move it to the Front Line. [On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 [Trait: Cosplay] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you didn't add it to your hand, draw 1 card(s). [Activate: Main] [Pay 1 AP] [Once Per Turn] Draw 1 card(s). Then, “Put 1 card(s) from your hand into your Outside Area. You may “Raid up to 1 [Trait: Cosplay] from your hand that meets its required energy”",
   "triggerType": "Get",
@@ -1028,6 +1792,34 @@
    "value": "天乃 リリサ"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のターン中の場合、相手のフロントLのレストのキャラを{0}枚選び、手札に戻してもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       2,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈天乃 リリサ〉アクティブにし、フロントLに移動できる【登場時】自分のターン中の場合、相手のフロントLのレストのキャラを1枚選び、手札に戻してもよい。そうした場合、カードを2枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[Raid] Can Raid onto <天乃 リリサ>; set it to active and you may move it to the Front Line. [On Play] If it is your turn, you may choose 1 rested character in your opponent's Front Line and return it to its owner's hand. If you do, Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Get",
@@ -1067,6 +1859,36 @@
    "value": "天乃 リリサ"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その後、自分の手札から必要エナジーが{0}以下で黄の⟦t0⟧を{1}枚までレイドさせる",
+      "nums": [
+       4,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "コスプレ"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈天乃 リリサ〉アクティブにし、フロントLに移動できる【登場時】カードを1枚引く。その後、自分の手札から必要エナジーが4以下で黄の［特徴：コスプレ］を1枚までレイドさせる。",
   "effectEn": "[Raid] Can Raid onto <天乃 リリサ>; set it to active and you may move it to the Front Line. [On Play] Draw 1 card(s). Then, Raid up to 1 yellow [Trait: Cosplay] with required energy 4 or less from your hand.",
   "triggerType": "Raid",
@@ -1103,6 +1925,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -1139,6 +1980,27 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "自分の場の他のキャラを{0}枚選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
   "effectEn": "[Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -1175,6 +2037,41 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       5
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から必要エナジーが{0}以下の黄のキャラカードを{1}枚まで公開し手札に加える",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から5枚見る。その中から必要エナジーが1以下の黄のキャラカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "[On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 Yellow character card with required energy 1 or less among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -1209,6 +2106,51 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       4
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟦t0⟧を{0}枚まで公開し手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "コスプレ"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えなかった場合、カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から4枚見る。その中から［特徴：コスプレ］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えなかった場合、カードを1枚引く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 [Trait: Cosplay] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you didn't add it to your hand, draw 1 card(s).",
   "triggerType": "Draw",
@@ -1238,6 +2180,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1267,6 +2227,34 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その後、自分のライフが{0}以下の場合、自分の手札の[Trigger]を持たないカードを{1}枚まで自分のライフエリアに表向きで置く",
+      "nums": [
+       6,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "カードを2枚引く。その後、自分のライフが6以下の場合、自分の手札の【トリガー】を持たないカードを1枚まで自分のライフエリアに表向きで置く。",
   "effectEn": "Draw 2 card(s). Then, if your Life is 6 or less, put up to 1 card(s) without [Trigger] from your hand face up into your Life Area.",
   "triggerType": "",
@@ -1296,6 +2284,41 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "BP{0}以下の相手のフロントLのキャラを{1}枚選び、『レストにする",
+      "nums": [
+       5000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "それは次の{0}回アクティブにならない』",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場にカード名に「ノノア」を含むキャラがある場合、『退場させる』に代えてもよい",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "BP5000以下の相手のフロントLのキャラを1枚選び、『レストにする。それは次の1回アクティブにならない』。自分の場にカード名に「ノノア」を含むキャラがある場合、『退場させる』に代えてもよい。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 5000 or less, “rest it. It does not become active the next 1 time(s)” If you have a character with “Nonoa” in its card name on your field, you may instead make it “retire it”",
   "triggerType": "Special",
@@ -1325,6 +2348,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1354,6 +2395,34 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "『BP{0}以下』の相手のフロントLのキャラを{1}枚選び、退場させる",
+      "nums": [
+       3000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場にカード名に「リリサ」を含むキャラがある場合、『BP{0}以下』に代わる",
+      "nums": [
+       5000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場にカード名に「リリサ」を含むキャラがある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have a character with “Lilysa” in its card name on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -1383,6 +2452,39 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラを{0}枚選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       2000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "選んだキャラがカード名に「美花莉」を含むキャラの場合、さらにこのターン中、「相手はこのキャラのアタックを可能ならブロックしなければならない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を与える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場のキャラを1枚選び、このターン中、BP+2000。選んだキャラがカード名に「美花莉」を含むキャラの場合、さらにこのターン中、「相手はこのキャラのアタックを可能ならブロックしなければならない。」を与える。",
   "effectEn": "Choose 1 character on your field, it gets BP+2000 this turn. If the chosen character has “Mikari” in its card name, it also gains “Your opponent must block this character's attacks if able” this turn.",
   "triggerType": "Active",
@@ -1417,6 +2519,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1451,6 +2554,48 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "outside"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟨n0⟩か⟨n1⟩がある場合、自分の手札の青のカードを{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [
+       "羽生 まゆり",
+       "奥村 正宗"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、場外のこのカードを手札に加える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "⟨n0⟩のこの効果は{0}ターンに{1}回のみ発動できる",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "天乃 リリサ"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【起動メイン】【場外にある場合】自分の場に〈羽生 まゆり〉か〈奥村 正宗〉がある場合、自分の手札の青のカードを1枚場外に置く。そうした場合、場外のこのカードを手札に加える。〈天乃 リリサ〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "[Activate: Main] [While in Outside Area] If you have <羽生 まゆり> or <奥村 正宗> on your field, Put into the owner's outside area 1 Blue card in your hand. If you do, add this card from your Outside Area to your hand. This <天乃 リリサ> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Active",
@@ -1485,6 +2630,42 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "以下から{0}つ選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場外からカード名に「リリサ」を含むキャラカードを{0}枚まで手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "自分の場のカード名に「リリサ」を含むキャラを{0}枚まで選び、アクティブにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】以下から1つ選ぶ。・自分の場外からカード名に「リリサ」を含むキャラカードを1枚まで手札に加える。・自分の場のカード名に「リリサ」を含むキャラを1枚まで選び、アクティブにする。",
   "effectEn": "[On Play] Choose 1 of the following. Add up to 1 character card with “Lilysa” in its card name from your Outside Area to your hand. Choose up to 1 character with “Lilysa” in its card name on your field and set it to active.",
   "triggerType": "Active",
@@ -1519,6 +2700,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、発生エナジー+[Blue]と「メインフェイズ終了時、このキャラを退場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【青】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Blue] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -1555,6 +2762,31 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そのカードを自分の山札の上か下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】自分の山札の上から1枚見る。そのカードを自分の山札の上か下に置く。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck.",
   "triggerType": "",
@@ -1589,6 +2821,27 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "ap": 1
+    },
+    "steps": [
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【APを1支払う】【ターン1】カードを1枚引く。",
   "effectEn": "[Activate: Main] [Pay 1 AP] [Once Per Turn] Draw 1 card(s).",
   "triggerType": "",
@@ -1623,6 +2876,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnRetire",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【退場時】カードを1枚引く。",
   "effectEn": "[On Retire] Draw 1 card(s).",
   "triggerType": "",
@@ -1659,6 +2930,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "必要エナジーが{0}以下の自分の場の他のキャラを{1}枚手札に戻す",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "戻せない場合、このキャラを手札に戻す",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -1695,6 +2992,53 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "以下から{0}つ選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の手札か自分の場外から青の⟨n0⟩を{0}枚まで自分のエナジーLにレストで登場させる",
+      "nums": [
+       1
+      ],
+      "names": [
+       "オギノ"
+      ],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "自分のエナジーLの⟨n0⟩を{0}枚まで選び、このターン中、「このキャラは退場しない",
+      "nums": [
+       1
+      ],
+      "names": [
+       "オギノ"
+      ],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "」を与える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】以下から1つ選ぶ。・自分の手札か自分の場外から青の〈オギノ〉を1枚まで自分のエナジーLにレストで登場させる。・自分のエナジーLの〈オギノ〉を1枚まで選び、このターン中、「このキャラは退場しない。」を与える。",
   "effectEn": "[On Play] Choose 1 of the following. Play up to 1 blue <オギノ> from your hand or Outside Area to your Energy Line rested. Choose up to 1 <オギノ> in your Energy Line; it gains “This character is not retired” this turn.",
   "triggerType": "Draw",
@@ -1731,6 +3075,29 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLにBPが{0}以上でカード名に「{1}♡」を含むキャラがある場合、このキャラはこのターン中、BP+{2}",
+      "nums": [
+       4500,
+       753,
+       1500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分のフロントLにBPが4500以上でカード名に「753♡」を含むキャラがある場合、このキャラはこのターン中、BP+1500。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] If you have a character with BP 4500 or more and “753♡” in its card name in your Front Line, this character gets BP+1500 this turn.",
   "triggerType": "Draw",
@@ -1769,6 +3136,84 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カード名に「リリサ」を含むキャラ アクティブにし、フロントLに移動できる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧がある場合、自分の山札の上から{0}枚見る",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [
+       "コスプレ四天王"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "その中から{0}枚まで手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLにBPが{0}以上でカード名に「{1}♡」を含むキャラがある場合、このキャラはこのターン中、BP+{2}と「このキャラは、相手の効果で選ばれない",
+      "nums": [
+       4500,
+       753,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【レイド】カード名に「リリサ」を含むキャラ アクティブにし、フロントLに移動できる【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】自分の場に［特徴：コスプレ四天王］がある場合、自分の山札の上から3枚見る。その中から1枚まで手札に加える。残りを望む順で自分の山札の下に置く。【起動メイン】【フロントLにある場合】【ターン1】自分のフロントLにBPが4500以上でカード名に「753♡」を含むキャラがある場合、このキャラはこのターン中、BP+1000と「このキャラは、相手の効果で選ばれない。」を得る。",
   "effectEn": "[Raid] Can Raid onto a character with “Lilysa” in its card name; set it to active and you may move it to the Front Line. [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] If you have [Trait: Cosplay Big Four] on your field, Look at the top 3 card(s) of your deck. Add up to 1 of them to your hand. Put the rest on the bottom of your deck in any order. [Activate: Main] [While in Front Line] [Once Per Turn] If you have a character with BP 4500 or more and “753♡” in its card name in your Front Line, this character gains BP+1000 and “This character cannot be chosen by your opponent's effects” this turn.",
   "triggerType": "Raid",
@@ -1805,6 +3250,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -1841,6 +3287,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -1877,6 +3324,22 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがアクティブの場合、このキャラの発生エナジー+[Blue]",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【青】。",
   "effectEn": "While this character is active, its generated energy +[Blue].",
   "triggerType": "",
@@ -1913,6 +3376,26 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはBP+{0}",
+      "nums": [
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】このキャラはBP+1000。",
   "effectEn": "[During Your Turn] This character gets BP+1000.",
   "triggerType": "",
@@ -1949,6 +3432,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -1987,6 +3489,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "Draw",
@@ -2023,6 +3526,51 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中からカード名に「リリサ」を含むキャラカードか⟦t0⟧を{0}枚まで公開し手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "コスプレ四天王"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中からカード名に「リリサ」を含むキャラカードか［特徴：コスプレ四天王］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 character card with “Lilysa” in its card name or [Trait: Cosplay Big Four] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -2060,6 +3608,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -2097,6 +3646,33 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に他の⟦t0⟧がある場合、自分の山札の上から{0}枚見る",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [
+       "天使空挺隊"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "その中から望む枚数を望む順で自分の山札の上に置き、残りを望む順で下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の場に他の［特徴：天使空挺隊］がある場合、自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを望む順で下に置く。",
   "effectEn": "[On Play] If you have other [Trait: Angel Airborne Unit] on your field, Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest on the bottom of your deck in any order.",
   "triggerType": "Active",
@@ -2134,6 +3710,62 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カード名に「アリア」を含むキャラ アクティブにし、フロントLに移動できる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分のフロントLの⟦t0⟧のカード名の種類数により、このキャラは以下の効果を全て得る",
+      "nums": [],
+      "names": [],
+      "traits": [
+       "天使空挺隊"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "{0}種類以上：[On Play]カードを{1}枚引き、自分の手札を{2}枚場外に置く",
+      "nums": [
+       2,
+       2,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "{0}種類以上：[Impact {1}]",
+      "nums": [
+       3,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "{0}種類以上：[When Attacking]自分のフロントLのキャラ全ては、このターン中、BP+{1}",
+      "nums": [
+       4,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】カード名に「アリア」を含むキャラ アクティブにし、フロントLに移動できる自分のフロントLの［特徴：天使空挺隊］のカード名の種類数により、このキャラは以下の効果を全て得る。・2種類以上：【登場時】カードを2枚引き、自分の手札を1枚場外に置く。・3種類以上：【インパクト（1）】・4種類以上：【アタック時】自分のフロントLのキャラ全ては、このターン中、BP+1000。",
   "effectEn": "[Raid] Can Raid onto a character with “Aria” in its card name; set it to active and you may move it to the Front Line. Depending on the number of different card names among [Trait: Angel Airborne Unit] in your Front Line, this character gains all of the following effects. 2 or more types: [On Play]Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area. 3 or more types: [Impact 1]. 4 or more types: [When Attacking]all characters in your Front Line it gets BP+1000 this turn.",
   "triggerType": "Raid",
@@ -2171,6 +3803,33 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true,
+     "discard": 1,
+     "retireSelf": true
+    },
+    "steps": [
+     {
+      "key": "自分の場外から⟨n0⟩以外の必要エナジーが{0}以下の青の⟦t0⟧を{1}枚自分の場にレストで登場させる",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "ノキエル 天使空挺隊/ノノア"
+      ],
+      "traits": [
+       "天使空挺隊"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【手札を1枚場外に置く】【このカードを退場させる】自分の場外から〈ノキエル 天使空挺隊/ノノア〉以外の必要エナジーが1以下の青の［特徴：天使空挺隊］を1枚自分の場にレストで登場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] [Retire this card] Play 1 Blue [Trait: Angel Airborne Unit] other than <ノキエル 天使空挺隊/ノノア> and with required energy 1 or less from your Outside Area to your field rested.",
   "triggerType": "Draw",
@@ -2208,6 +3867,34 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に他の⟦t0⟧が{0}枚以上ある場合、このキャラは発生エナジー+[Blue]と「[During Your Turn]このキャラはBP+{1}",
+      "nums": [
+       3,
+       1000
+      ],
+      "names": [],
+      "traits": [
+       "天使空挺隊"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場に他の［特徴：天使空挺隊］が3枚以上ある場合、このキャラは発生エナジー+【青】と「【自分のターン中】このキャラはBP+1000。」を得る。",
   "effectEn": "If you have 3 or more other [Trait: Angel Airborne Unit] on your field, this character gains generated energy +[Blue] and “[During Your Turn] This character gets BP+1000”",
   "triggerType": "",
@@ -2245,6 +3932,65 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLの⟦t0⟧のカード名の種類数により、このキャラは以下の効果を全て得る",
+      "nums": [],
+      "names": [],
+      "traits": [
+       "天使空挺隊"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "{0}種類以上：[On Play]自分の場外からカード名に「ノノア」を含まず必要エナジーが{1}以下のキャラカードを{2}枚まで手札に加える",
+      "nums": [
+       2,
+       3,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "{0}種類以上：[During Your Turn]このキャラはBP+{1}",
+      "nums": [
+       3,
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "{0}種類以上：[When Blocking]自分の場の他のキャラを{1}枚まで選び、このターン中、BP+{2}",
+      "nums": [
+       4,
+       1,
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のフロントLの［特徴：天使空挺隊］のカード名の種類数により、このキャラは以下の効果を全て得る。・2種類以上：【登場時】自分の場外からカード名に「ノノア」を含まず必要エナジーが3以下のキャラカードを1枚まで手札に加える。手札に加えた場合、自分の手札を1枚場外に置く。・3種類以上：【自分のターン中】このキャラはBP+500。・4種類以上：【ブロック時】自分の場の他のキャラを1枚まで選び、このターン中、BP+500。",
   "effectEn": "Depending on the number of different card names among [Trait: Angel Airborne Unit] in your Front Line, this character gains all of the following effects. 2 or more different: [On Play] Add up to 1 character card without “Nonoa” in its card name and with required energy 3 or less from your Outside Area to your hand. If you added it to your hand, put 1 card(s) from your hand into your Outside Area. 3 or more types: [During Your Turn]This character gets BP+500. 4 or more types: [When Blocking]Choose up to 1 other character on your field, it gets BP+500 this turn.",
   "triggerType": "Get",
@@ -2282,6 +4028,29 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に他の⟦t0⟧が{0}枚以上ある場合、このキャラはBP+{1}",
+      "nums": [
+       3,
+       1000
+      ],
+      "names": [],
+      "traits": [
+       "天使空挺隊"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】自分の場に他の［特徴：天使空挺隊］が3枚以上ある場合、このキャラはBP+1000。",
   "effectEn": "[During Your Turn] If you have 3 or more other [Trait: Angel Airborne Unit] on your field, This character gets BP+1000.",
   "triggerType": "Draw",
@@ -2319,6 +4088,28 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "自分のフロントLとエナジーLの⟦t0⟧を{0}枚ずつ選び、それらの位置を入れ替える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "天使空挺隊"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】自分のフロントLとエナジーLの［特徴：天使空挺隊］を1枚ずつ選び、それらの位置を入れ替える。",
   "effectEn": "[Activate: Main] [Rest this card] Choose 1 [Trait: Angel Airborne Unit] each in your Front Line and Energy Line, and swap their positions.",
   "triggerType": "Active",
@@ -2356,6 +4147,89 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLの⟦t0⟧のカード名の種類数により、このキャラは以下の効果を全て得る",
+      "nums": [],
+      "names": [],
+      "traits": [
+       "天使空挺隊"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "{0}種類以上：[Activate: Main]",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   },
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {
+     "ap": 1
+    },
+    "steps": [
+     {
+      "key": "自分の場のキャラを{0}枚選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "{0}種類以上：[When Attacking]カードを{1}枚引き、自分の手札を{2}枚場外に置く",
+      "nums": [
+       3,
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "{0}種類以上：[On Play]",
+      "nums": [
+       4
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ],
+    "once": true
+   },
+   {
+    "timing": "Static",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラをアクティブにする",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のフロントLの［特徴：天使空挺隊］のカード名の種類数により、このキャラは以下の効果を全て得る。・2種類以上：【起動メイン】【APを1支払う】【ターン1】自分の場のキャラを1枚選び、このターン中、BP+1000。・3種類以上：【アタック時】カードを1枚引き、自分の手札を1枚場外に置く。・4種類以上：【登場時】【フロントLにある場合】このキャラをアクティブにする。",
   "effectEn": "Depending on the number of different card names among [Trait: Angel Airborne Unit] in your Front Line, this character gains all of the following effects. 2 or more types: [Activate: Main]. [Pay 1 AP] [Once Per Turn] Choose 1 character on your field, it gets BP+1000 this turn. 3 or more types: [When Attacking]Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. 4 or more types: [On Play]. [While in Front Line] Set this character to active.",
   "triggerType": "Get",
@@ -2393,6 +4267,27 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の他の⟦t0⟧を{0}枚まで選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [
+       "天使空挺隊"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の場の他の［特徴：天使空挺隊］を1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other [Trait: Angel Airborne Unit] on your field, it gets BP+1000 this turn.",
   "triggerType": "Color",
@@ -2430,6 +4325,38 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に他の⟦t0⟧が{0}枚以上ある場合、自分の山札の上から{1}枚を公開し手札に加える",
+      "nums": [
+       3,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "天使空挺隊"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "公開したカードが⟦t0⟧以外の場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "天使空挺隊"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の場に他の［特徴：天使空挺隊］が3枚以上ある場合、自分の山札の上から1枚を公開し手札に加える。公開したカードが［特徴：天使空挺隊］以外の場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] If you have 3 or more other [Trait: Angel Airborne Unit] on your field, reveal the top 1 card(s) of your deck and add them to your hand. If the revealed card is not a [Trait: Angel Airborne Unit], put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -2467,6 +4394,70 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カード名に「リリサ」を含むキャラ アクティブにし、フロントLに移動できる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分のフロントLにカード名の異なる⟦t0⟧が{0}種類以上あり、このキャラのBPが{1}以上の場合、このキャラは[Impact {2}]を得る",
+      "nums": [
+       4,
+       5000,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "天使空挺隊"
+      ],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       5
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から必要エナジーが{0}以下の青の⟦t0⟧を{1}枚まで自分の場にレストで登場させる",
+      "nums": [
+       2,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "天使空挺隊"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】カード名に「リリサ」を含むキャラ アクティブにし、フロントLに移動できる自分のフロントLにカード名の異なる［特徴：天使空挺隊］が4種類以上あり、このキャラのBPが5000以上の場合、このキャラは【インパクト（1）】を得る。【登場時】自分の山札の上から5枚見る。その中から必要エナジーが2以下の青の［特徴：天使空挺隊］を1枚まで自分の場にレストで登場させる。残りを望む順で自分の山札の下に置く。",
   "effectEn": "[Raid] Can Raid onto a character with “Lilysa” in its card name; set it to active and you may move it to the Front Line. If you have 4 or more [Trait: Angel Airborne Unit] with different card names in your Front Line and this character's BP is 5000 or more, this character gains [Impact 1]. [On Play] Look at the top 5 card(s) of your deck. Play up to 1 Blue [Trait: Angel Airborne Unit] with required energy 2 or less from among them to your field rested. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Raid",
@@ -2504,6 +4495,56 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはBP+{0}",
+      "nums": [
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLにBPが{0}以上の〔カード名に「リリサ」を含むキャラか⟨n0⟩〕がある場合、このキャラはこのターン中、BP+{1}と「このキャラがアタックしてブロックされなかった時、カードを{2}枚まで引く",
+      "nums": [
+       5000,
+       500,
+       1
+      ],
+      "names": [
+       "羽生 まゆり"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【自分のターン中】このキャラはBP+500。【起動メイン】【フロントLにある場合】【ターン1】自分のフロントLにBPが5000以上の〔カード名に「リリサ」を含むキャラか〈羽生 まゆり〉〕がある場合、このキャラはこのターン中、BP+500と「このキャラがアタックしてブロックされなかった時、カードを1枚まで引く。」を得る。",
   "effectEn": "[During Your Turn] This character gets BP+500. [Activate: Main] [While in Front Line] [Once Per Turn] If you have a character with BP 5000 or more and “Lilysa” in its card name, or <羽生 まゆり>, in your Front Line, this character gains BP+500 and “When this character attacks and is not blocked, draw up to 1 card(s)” this turn.",
   "triggerType": "Color",
@@ -2541,6 +4582,71 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カード名に「{0}♡」を含むキャラ アクティブにし、フロントLに移動できる",
+      "nums": [
+       753
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、「[When Attacking]このキャラのBPよりBPが{0}以上低い相手のフロントLのキャラを{1}枚まで選び、相手の山札の上か下の相手が選んだ方に置く",
+      "nums": [
+       1000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLにBPが{0}以上の〔カード名に「リリサ」を含むキャラか⟨n0⟩〕がある場合、このキャラはこのターン中、BP+{1}と[Impact {2}]を得る",
+      "nums": [
+       5000,
+       500,
+       1
+      ],
+      "names": [
+       "羽生 まゆり"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【レイド】カード名に「753♡」を含むキャラ アクティブにし、フロントLに移動できる【登場時】このキャラはこのターン中、「【アタック時】このキャラのBPよりBPが1000以上低い相手のフロントLのキャラを1枚まで選び、相手の山札の上か下の相手が選んだ方に置く。」を得る。【起動メイン】【フロントLにある場合】【ターン1】自分のフロントLにBPが5000以上の〔カード名に「リリサ」を含むキャラか〈羽生 まゆり〉〕がある場合、このキャラはこのターン中、BP+500と【インパクト（1）】を得る。",
   "effectEn": "[Raid] Can Raid onto a character with “753♡” in its card name; set it to active and you may move it to the Front Line. [On Play] This character gains “[When Attacking] Choose up to 1 character in your opponent's Front Line whose BP is 1000 or more lower than this character's BP, and put it on the top or bottom of its owner's deck, as your opponent chooses” this turn. [Activate: Main] [While in Front Line] [Once Per Turn] If you have a character with BP 5000 or more and “Lilysa” in its card name, or <羽生 まゆり>, in your Front Line, this character gains BP+500 and [Impact 1] this turn.",
   "triggerType": "Raid",
@@ -2581,6 +4687,68 @@
    "value": "羽生 まゆり"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このカードは⟨n0⟩としても扱う",
+      "nums": [],
+      "names": [
+       "羽生 まゆり"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラを{0}枚選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   },
+   {
+    "timing": "OnRetire",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その後、自分の手札から必要エナジーを満たし消費APが{0}のカード名に「リリサ」を含むキャラカードを{1}枚まで自分の場にレストで登場させるかレイドさせる",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このカードは〈羽生 まゆり〉としても扱う。【レイド】〈羽生 まゆり〉アクティブにし、フロントLに移動できる【起動メイン】【ターン1】自分の場のキャラを1枚選び、このターン中、BP+1000。【退場時】カードを1枚引く。その後、自分の手札から必要エナジーを満たし消費APが1のカード名に「リリサ」を含むキャラカードを1枚まで自分の場にレストで登場させるかレイドさせる。",
   "effectEn": "This card is also treated as <羽生 まゆり>. [Raid] Can Raid onto <羽生 まゆり>; set it to active and you may move it to the Front Line. [Activate: Main] [Once Per Turn] Choose 1 character on your field, it gets BP+1000 this turn. [On Retire] Draw 1 card(s). Then, play up to 1 character card with “Lilysa” in its card name that meets its required energy and has AP cost 1 from your hand to your field rested, or Raid it.",
   "triggerType": "Raid",
@@ -2615,6 +4783,41 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このフィールドはアクティブで場に登場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "自分の場のキャラを{0}枚選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】自分の場のキャラを1枚選び、このターン中、BP+500。",
   "effectEn": "This Field is played active. [Activate: Main] [Rest this card] Choose 1 character on your field, it gets BP+500 this turn.",
   "triggerType": "Get",
@@ -2644,6 +4847,41 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       7
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中からカード名に「{0}♡」を含むキャラカードとカード名に「リリサ」を含むキャラカードをそれぞれ{1}枚まで公開し手札に加える",
+      "nums": [
+       753,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の山札の上から7枚見る。その中からカード名に「753♡」を含むキャラカードとカード名に「リリサ」を含むキャラカードをそれぞれ1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "Look at the top 7 card(s) of your deck. Reveal up to 1 each of character cards with “753♡” in their card name and character cards with “Lilysa” in their card name among them, and add them to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -2673,6 +4911,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2702,6 +4958,35 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "『BP{0}以下』の相手のフロントLのキャラを{1}枚選び、退場させる",
+      "nums": [
+       3000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場にカード名に「{0}♡」を含むキャラがある場合、『BP{1}以下』に代わる",
+      "nums": [
+       753,
+       5000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場にカード名に「753♡」を含むキャラがある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have character with “753♡” in its card name on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -2731,6 +5016,34 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラを{0}枚選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       2000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場のキャラを1枚選び、このターン中、BP+2000。自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "Choose 1 character on your field, it gets BP+2000 this turn. Choose up to 1 of your AP cards, set it to active.",
   "triggerType": "Active",
@@ -2760,6 +5073,27 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場にある⟦t0⟧の枚数×{0}以下のBPの相手のフロントLのキャラを{1}枚選び、退場させる",
+      "nums": [
+       1000,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "天使空挺隊"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場にある［特徴：天使空挺隊］の枚数×1000以下のBPの相手のフロントLのキャラを1枚選び、退場させる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP equal to or less than 1000 × the number of [Trait: Angel Airborne Unit] on your field, and retire it.",
   "triggerType": "Special",
@@ -2789,6 +5123,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2816,6 +5168,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2843,6 +5196,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2870,6 +5224,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2897,6 +5252,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2924,6 +5280,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2951,6 +5308,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2978,6 +5336,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3005,6 +5364,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3032,6 +5392,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3059,6 +5420,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3086,6 +5448,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3113,6 +5476,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3140,6 +5504,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3167,6 +5532,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3194,6 +5560,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3221,6 +5588,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

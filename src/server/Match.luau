@@ -12,6 +12,7 @@ local Net = require(ReplicatedStorage:WaitForChild("Shared"):WaitForChild("Net")
 local GameDir = script.Parent:WaitForChild("Game")
 local RulesEngine = require(GameDir:WaitForChild("RulesEngine"))
 local GameState = require(GameDir:WaitForChild("GameState"))
+local EffectRegistry = require(GameDir:WaitForChild("EffectRegistry"))
 
 local DECISION_TIMEOUT = 90 -- seconds before a pending decision gets a default answer
 local LOG_TAIL = 14
@@ -64,16 +65,47 @@ local function defaultChoice(d: any): any
 	return { pick = pick }
 end
 
--- Per-card hints for the viewer's hand: can it be paid for, which Raid targets exist.
+-- Which abilities of a card run automatically, and its Activate: Main abilities.
+local function abilityHints(state: any, uid: number): ({ any }, { any })
+	local list, activate = {}, {}
+	local c = state.cards[uid]
+	for i, a in EffectRegistry.abilitiesOf(GameState.def(state, uid)) do
+		local auto = EffectRegistry.isSupported(a)
+		table.insert(list, { timing = a.timing, auto = auto })
+		if a.timing == "ActivateMain" then
+			table.insert(activate, {
+				index = i,
+				auto = auto,
+				once = a.once == true,
+				used = c.usedOnce[i] == true,
+				costs = a.costs,
+				condsOk = EffectRegistry.condsHold(state, uid, a.conds),
+			})
+		end
+	end
+	return list, activate
+end
+
+-- Per-card hints for the viewer's own cards: can a hand card be paid for, its
+-- Raid targets, and which abilities are automatic / can be activated.
 local function handHints(state: any, seat: number): { [string]: any }
 	local hints = {}
-	for _, uid in state.players[seat].hand do
+	local ps = state.players[seat]
+	for _, uid in ps.hand do
 		local def = GameState.def(state, uid)
+		local abilities = abilityHints(state, uid)
 		hints[tostring(uid)] = {
 			energyOk = GameState.meetsEnergy(state, seat, uid),
 			apOk = GameState.activeAP(state, seat) >= (def.ap or 0),
 			raidTargets = RulesEngine.raidTargets(state, seat, uid),
+			abilities = abilities,
 		}
+	end
+	for _, line in { ps.front, ps.energy } do
+		for _, uid in line do
+			local abilities, activate = abilityHints(state, uid)
+			hints[tostring(uid)] = { abilities = abilities, activate = activate }
+		end
 	end
 	return hints
 end

@@ -25,6 +25,31 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このカードの色と必要エナジーは、全ての色として扱う",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このカードの色と必要エナジーは、全ての色として扱う。自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "This card's color and required energy are treated as all colors. Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",

@@ -31,6 +31,64 @@
    "value": "アレン・ウォーカー"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "⟨n0⟩以外の元々のBPが{0}以下の自分のフロントLのキャラは、相手の〔キャラ",
+      "nums": [
+       3500
+      ],
+      "names": [
+       "アレン・ウォーカー"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "イベントカード〕の効果で選ばれない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧のカード名が{0}種類以上ある場合、BP{1}以下の相手のフロントLのキャラを{2}枚選び、相手の山札の下に置いてもよい",
+      "nums": [
+       4,
+       3500,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "黒の教団"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、相手はカードを{0}枚引いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈アレン・ウォーカー〉アクティブにし、フロントLに移動できる【フロントLにある場合】〈アレン・ウォーカー〉以外の元々のBPが3500以下の自分のフロントLのキャラは、相手の〔キャラ・イベントカード〕の効果で選ばれない。【登場時】自分の場に［特徴：黒の教団］のカード名が4種類以上ある場合、BP3500以下の相手のフロントLのキャラを1枚選び、相手の山札の下に置いてもよい。そうした場合、相手はカードを1枚引いてもよい。",
   "effectEn": "[Raid] Can Raid onto <アレン・ウォーカー>; set it to active and you may move it to the Front Line. [While in Front Line] Characters in your Front Line other than <アレン・ウォーカー> with original BP 3500 or less, by your opponent's character. Cannot be chosen by Event card effects. [On Play] If you have 4 or more different card names among [Trait: Black Order] on your field, you may choose 1 character in your opponent's Front Line with BP 3500 or less and put it on the bottom of its owner's deck. If you do, your opponent may draw 1 card(s).",
   "triggerType": "Raid",
@@ -67,6 +125,42 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札を{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分の山札の上から{0}枚見て、山札の上か下に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、自分の山札の上から1枚見て、山札の上か下に置く。カードを1枚引く。",
   "effectEn": "[On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, look at the top 1 card(s) of your deck and put it on the top or bottom of your deck. Draw 1 card(s).",
   "triggerType": "Color",
@@ -103,6 +197,22 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがアクティブの場合、このキャラの発生エナジー+[Purple]",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【紫】。",
   "effectEn": "While this character is active, its generated energy +[Purple].",
   "triggerType": "",

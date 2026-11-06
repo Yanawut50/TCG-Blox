@@ -28,6 +28,61 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このターン中に自分がイベントカードを使用している場合、このキャラはBP+{0}",
+      "nums": [
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧がなく、このターン中に自分がイベントカードを使用している場合のみ発動できる",
+      "nums": [],
+      "names": [],
+      "traits": [
+       "ヒーロー"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "このキャラをアクティブにする",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "⟨n0⟩のこの効果は{0}ターンに{1}回のみ発動できる",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "ツィベタ"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】このターン中に自分がイベントカードを使用している場合、このキャラはBP+500。【起動メイン】自分の場に［特徴：ヒーロー］がなく、このターン中に自分がイベントカードを使用している場合のみ発動できる。このキャラをアクティブにする。〈ツィベタ〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "[During Your Turn] If you have used an Event card this turn, this character gets BP+500. [Activate: Main] Can only activate if you have no [Trait: Hero] on your field and you have used an event card this turn. Set this character to active. This <ツィベタ> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Draw",
@@ -64,6 +119,73 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このカードは自分の手札と山札でトリガーを持たないカードとして扱う",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このカードが山札から公開された時、自分の場の⟦t0⟧を{0}枚選んでもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "ヒーロー"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、そのキャラはこのターン中、BP+{0}",
+      "nums": [
+       2000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "⟨n0⟩のこの効果は{0}ターンに{1}回のみ発動できる",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "スピリッツ"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場にカードが{0}枚もない場合、手札にあるこのカードの必要エナジーを[Blue x{1}]減らす",
+      "nums": [
+       1,
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このカードは自分の手札と山札でトリガーを持たないカードとして扱う。【自分のターン中】このカードが山札から公開された時、自分の場の［特徴：ヒーロー］を1枚選んでもよい。そうした場合、そのキャラはこのターン中、BP+2000。〈スピリッツ〉のこの効果は1ターンに1回のみ発動できる。自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【青×2】減らす。",
   "effectEn": "This card is treated as a card without Triggers in your hand and deck. [During Your Turn] When this card is revealed from your deck, you may choose 1 [Trait: Hero] on your field. If you do, that character gets BP+2000 this turn. This <スピリッツ> effect can only activate 1 time(s) per 1 turn(s). If you have no cards on your field, the required energy of this card in your hand [Blue x2]is reduced.",
   "triggerType": "Active",
@@ -102,6 +224,32 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラのアタック終了時、このキャラをエナジーLに移動させてもよい",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分の場の他のキャラを{0}枚まで選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）このキャラのアタック終了時、このキャラをエナジーLに移動させてもよい。そうした場合、自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) At the end of this character's attack, you may move this character to the Energy Line. If you do, Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",

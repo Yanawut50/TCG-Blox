@@ -30,6 +30,87 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはフロントLに登場できず、移動フェイズで移動できない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       5
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から必要エナジーが{0}以下で消費APが{1}の紫の⟦t0⟧を{2}枚まで自分の場にレストで登場させる",
+      "nums": [
+       3,
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "悪魔超人"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "energy"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "⟨n0⟩以外の自分のエナジーLのアクティブの⟦t0⟧を{0}枚選ぶ",
+      "nums": [
+       2
+      ],
+      "names": [
+       "悪魔将軍"
+      ],
+      "traits": [
+       "悪魔超人"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、選んだキャラとこのキャラをフロントLに移動させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラはフロントLに登場できず、移動フェイズで移動できない。【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】自分の山札の上から5枚見る。その中から必要エナジーが3以下で消費APが1の紫の［特徴：悪魔超人］を1枚まで自分の場にレストで登場させる。残りを望む順で山札の下に置く。【起動メイン】【エナジーLにある場合】〈悪魔将軍〉以外の自分のエナジーLのアクティブの［特徴：悪魔超人］を2枚選ぶ。そうした場合、選んだキャラとこのキャラをフロントLに移動させる。",
   "effectEn": "This character cannot be played to the Front Line and cannot move during the Movement Phase. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] Look at the top 5 card(s) of your deck. Play up to 1 Purple [Trait: Devil Choujin] with required energy 3 or less and with AP cost 1 from among them to your field rested. Put the rest on the bottom of your deck in any order. [Activate: Main] [While in Energy Line] Choose 2 active [Trait: Devil Choujin] in your Energy Line other than <悪魔将軍>. If you do, move the chosen character and this character to the Front Line.",
   "triggerType": "Get",
@@ -66,6 +147,36 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のエナジーLにあるカードが{0}枚以下の場合のみ発動できる",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラは次の自分のターン開始時まで、BP+{0}",
+      "nums": [
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分のエナジーLにあるカードが2枚以下の場合のみ発動できる。このキャラは次の自分のターン開始時まで、BP+1000。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if you have 2 or fewer cards in your Energy Line. This character gets BP+1000 until the start of your next turn.",
   "triggerType": "Active",
@@ -102,6 +213,27 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnRetire",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に他の⟦t0⟧が{0}枚以上ある場合、カードを{1}枚引く",
+      "nums": [
+       3,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "悪魔超人"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【退場時】自分の場に他の［特徴：悪魔超人］が3枚以上ある場合、カードを1枚引く。",
   "effectEn": "[On Retire] If you have 3 or more other [Trait: Devil Choujin] on your field, Draw 1 card(s).",
   "triggerType": "",
@@ -140,6 +272,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）",
   "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active)",
   "triggerType": "",
@@ -176,6 +309,43 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のエナジーLにあるカードが{0}枚以下の場合のみ発動できる",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラはこのターン中、BP+{0}と「このキャラはフロントLにある場合もエナジーを発生させる",
+      "nums": [
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】自分のエナジーLにあるカードが2枚以下の場合のみ発動できる。このキャラはこのターン中、BP+500と「このキャラはフロントLにある場合もエナジーを発生させる。」を得る。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Can only activate if you have 2 or fewer cards in your Energy Line. This character it gets BP+500 and gains “This character also generates energy while in the Front Line” this turn.",
   "triggerType": "",
@@ -212,6 +382,27 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "discard": 1
+    },
+    "steps": [
+     {
+      "key": "このキャラのBPはこのターン中、この効果で場外に置いたカードの必要エナジーの数×{0}プラスされる",
+      "nums": [
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【手札を1枚場外に置く】【ターン1】このキャラのBPはこのターン中、この効果で場外に置いたカードの必要エナジーの数×500プラスされる。",
   "effectEn": "[Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] This turn, this character gets BP+ equal to 500 × the total required energy of the cards put into the Outside Area by this effect.",
   "triggerType": "Active",
@@ -248,6 +439,31 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から望む枚数を望む順で山札の上に置き、残りを場外に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から2枚見る。その中から望む枚数を望む順で山札の上に置き、残りを場外に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest into your Outside Area.",
   "triggerType": "",
@@ -284,6 +500,51 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟦t0⟧を{0}枚まで公開し手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "悪魔超人"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から［特徴：悪魔超人］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: Devil Choujin] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Color",
@@ -320,6 +581,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -356,6 +618,26 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に他の⟦t0⟧が{0}枚以上ある場合、このキャラの発生エナジー+[Purple]",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [
+       "悪魔超人"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場に他の［特徴：悪魔超人］が3枚以上ある場合、このキャラの発生エナジー+【紫】。",
   "effectEn": "If you have 3 or more other [Trait: Devil Choujin] on your field, This character's generated energy +[Purple].",
   "triggerType": "",
@@ -394,6 +676,43 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラは相手の効果でレストにならず、「このキャラはアタックできない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」と「このキャラはブロックできない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」と「このキャラはアタックもブロックもできない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得ない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラは相手の効果でレストにならず、「このキャラはアタックできない。」と「このキャラはブロックできない。」と「このキャラはアタックもブロックもできない。」を得ない。【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "This character is not rested by your opponent's effects, and does not gain “This character cannot attack”, “This character cannot block” or “This character cannot attack or block” [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "Active",
@@ -433,6 +752,35 @@
    "value": "バッファローマン"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "BP{0}以下の相手のフロントLのキャラを{1}枚まで選び、手札に戻す",
+      "nums": [
+       4000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その後、相手の手札が{0}枚以上の場合、相手は自身の手札を{1}枚場外に置く",
+      "nums": [
+       4,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈バッファローマン〉アクティブにし、フロントLに移動できる【登場時】BP4000以下の相手のフロントLのキャラを1枚まで選び、手札に戻す。その後、相手の手札が4枚以上の場合、相手は自身の手札を1枚場外に置く。",
   "effectEn": "[Raid] Can Raid onto <バッファローマン>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line with BP 4000 or less, return it to its owner's hand. Then, if your opponent has 4 or more cards in their hand, your opponent puts 1 card(s) from their hand into their Outside Area.",
   "triggerType": "Raid",
@@ -469,6 +817,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -505,6 +872,56 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このカードが手札から場外に置かれた時、このカードを裏向きで自分の場の⟨n0⟩か必要エナジーが{0}以上の⟦t0⟧の下に置いてもよい",
+      "nums": [
+       3
+      ],
+      "names": [
+       "ペンタゴン"
+      ],
+      "traits": [
+       "悪魔超人"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "裏向きのこのカードが自分の場のキャラの下から場外に置かれた時、自分の手札を{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、このカードを自分のフロントLにレストで登場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "⟨n0⟩のこの効果は{0}ターンに{1}回のみ発動できる",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "ブラックホール"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このカードが手札から場外に置かれた時、このカードを裏向きで自分の場の〈ペンタゴン〉か必要エナジーが3以上の［特徴：悪魔超人］の下に置いてもよい。裏向きのこのカードが自分の場のキャラの下から場外に置かれた時、自分の手札を1枚場外に置いてもよい。そうした場合、このカードを自分のフロントLにレストで登場させる。〈ブラックホール〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "When this card is put from your hand into your Outside Area, you may put this card face down under <ペンタゴン> or a [Trait: Devil Choujin] with required energy 3 or more on your field. When this face-down card is put from under a character on your field into your Outside Area, you may put 1 card(s) from your hand into your Outside Area. If you do, play this card to your Front Line rested. This <ブラックホール> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "",
@@ -544,6 +961,63 @@
    "value": "ブラックホール"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラの下に裏向きのカードがある場合、このキャラは[Impact {0}]を得る",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その後、自分の手札を{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分の場外から⟨n0⟩か必要エナジーが{0}以下の⟦t0⟧を{1}枚まで手札に加える",
+      "nums": [
+       3,
+       1
+      ],
+      "names": [
+       "ペンタゴン"
+      ],
+      "traits": [
+       "悪魔超人"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈ブラックホール〉アクティブにし、フロントLに移動できるこのキャラの下に裏向きのカードがある場合、このキャラは【インパクト（1）】を得る。【登場時】カードを1枚引く。その後、自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外から〈ペンタゴン〉か必要エナジーが3以下の［特徴：悪魔超人］を1枚まで手札に加える。",
   "effectEn": "[Raid] Can Raid onto <ブラックホール>; set it to active and you may move it to the Front Line. If this character has face-down cards under it, this character gains [Impact 1]. [On Play] Draw 1 card(s). Then, You may put 1 card(s) from your hand into your Outside Area. If you do, add up to 1 <ペンタゴン> or [Trait: Devil Choujin] with required energy 3 or less from your Outside Area to your hand.",
   "triggerType": "Raid",
@@ -582,6 +1056,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -619,6 +1094,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -656,6 +1132,46 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場外に元々のBPが{0}以上の⟦t0⟧がある場合、このキャラはBP+{1}",
+      "nums": [
+       4000,
+       1000
+      ],
+      "names": [],
+      "traits": [
+       "完璧超人"
+      ],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】自分の場外に元々のBPが4000以上の［特徴：完璧超人］がある場合、このキャラはBP+1000。【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[During Your Turn] If you have a [Trait: Perfect Choujin] with original BP 4000 or more in your Outside Area, this character gets BP+1000. [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -693,6 +1209,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "必要エナジーが{0}以下の自分の場の他のキャラを{1}枚手札に戻す",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "戻せない場合、このキャラを手札に戻す",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -732,6 +1274,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）",
   "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent)",
   "triggerType": "",
@@ -771,6 +1314,61 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがBP{0}以下のキャラにブロックされた時、このキャラはこのターン中、[Impact {1}]を得る",
+      "nums": [
+       3000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場にあるキャラが全て⟦t0⟧の場合、BP{0}以下の相手のフロントLのキャラを{1}枚選び、相手の山札の下に置いてもよい",
+      "nums": [
+       5000,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "完璧超人"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、相手は自身の場外から必要エナジーが{0}のキャラカードを{1}枚まで自身のフロントLにレストで登場させる",
+      "nums": [
+       0,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "この効果で登場したキャラの[On Play]は発動しない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラがBP3000以下のキャラにブロックされた時、このキャラはこのターン中、【インパクト（1）】を得る。【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【登場時】自分の場にあるキャラが全て［特徴：完璧超人］の場合、BP5000以下の相手のフロントLのキャラを1枚選び、相手の山札の下に置いてもよい。そうした場合、相手は自身の場外から必要エナジーが0のキャラカードを1枚まで自身のフロントLにレストで登場させる。この効果で登場したキャラの【登場時】は発動しない。",
   "effectEn": "When this character is blocked by a character with BP 3000 or less, this character gains [Impact 1] this turn. [Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [On Play] If all characters on your field are [Trait: Perfect Choujin], you may choose 1 character in your opponent's Front Line with BP 5000 or less and put it on the bottom of its owner's deck. If you do, your opponent plays up to 1 character card with required energy 0 from their Outside Area to their Front Line rested. [On Play] of characters played by this effect does not activate.",
   "triggerType": "Get",
@@ -808,6 +1406,54 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のライフが{0}以下の場合、APを{1}支払ってもよい",
+      "nums": [
+       5,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分か相手のフロントLの他のキャラを{0}枚まで選び、このターン中、『BP+{1}』",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その後、選んだキャラのBPが{0}以上の場合、そのキャラを退場させる",
+      "nums": [
+       5500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分のライフが{0}以下の場合、『BP+{1}』に代わる",
+      "nums": [
+       2,
+       2000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分のライフが5以下の場合、APを1支払ってもよい。そうした場合、自分か相手のフロントLの他のキャラを1枚まで選び、このターン中、『BP+1000』。その後、選んだキャラのBPが5500以上の場合、そのキャラを退場させる。自分のライフが2以下の場合、『BP+2000』に代わる。",
   "effectEn": "[On Play] If your Life is 5 or less, you may pay 1 AP. If you do, choose up to 1 other character in your or your opponent's Front Line; it gets “BP+1000” this turn. Then, if the chosen character's BP is 5500 or more, retire that character. If your Life is 2 or less, it becomes “BP+2000” instead.",
   "triggerType": "Draw",
@@ -845,6 +1491,42 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟦t0⟧を{0}枚まで場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "完璧・無量大数軍"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で山札の上に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から2枚見る。その中から［特徴：完璧・無量大数軍］を1枚まで場外に置く。残りを望む順で山札の上に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck. From among them, put up to 1 [Trait: Perfect Large Numbers] into your Outside Area. Put the rest on top of your deck in any order.",
   "triggerType": "Draw",
@@ -882,6 +1564,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -921,6 +1604,25 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Color",
@@ -961,6 +1663,67 @@
    "value": "ネメシス"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがBP{0}以下のキャラにブロックされた時、カードを{1}枚引き、自分の手札を{2}枚場外に置く",
+      "nums": [
+       3000,
+       2,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場にあるキャラが全て⟦t0⟧の場合、自分の手札から必要エナジーが{0}以下で消費APが{1}の紫のキャラカードを{2}枚まで自分の場にレストで登場させる",
+      "nums": [
+       3,
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "完璧超人"
+      ],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "BP{0}以上の相手のフロントLのキャラを{1}枚選び、このターン中、BP-{2}",
+      "nums": [
+       1500,
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【レイド】〈ネメシス〉アクティブにし、フロントLに移動できるこのキャラがBP3000以下のキャラにブロックされた時、カードを2枚引き、自分の手札を1枚場外に置く。【登場時】自分の場にあるキャラが全て［特徴：完璧超人］の場合、自分の手札から必要エナジーが3以下で消費APが1の紫のキャラカードを1枚まで自分の場にレストで登場させる。【起動メイン】【フロントLにある場合】【ターン1】BP1500以上の相手のフロントLのキャラを1枚選び、このターン中、BP-1000。",
   "effectEn": "[Raid] Can Raid onto <ネメシス>; set it to active and you may move it to the Front Line. When this character is blocked by a character with BP 3000 or less, draw 2 card(s) and put 1 card(s) from your hand into your Outside Area. [On Play] If all characters on your field are [Trait: Perfect Choujin], play up to 1 purple character card(s) with required energy 3 or less and AP cost 1 from your hand to your field rested. [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 character in your opponent's Front Line with BP 1500 or more, it gets BP-1000 this turn.",
   "triggerType": "Raid",
@@ -998,6 +1761,27 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "相手の場外に[Special Trigger]を持つカードが{0}枚以上ある場合、このキャラはBP+{1}",
+      "nums": [
+       2,
+       2500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】相手の場外に【スペシャルトリガー】を持つカードが2枚以上ある場合、このキャラはBP+2500。",
   "effectEn": "[During Your Turn] If your opponent has 2 or more cards with [Special Trigger] in their Outside Area, this character gets BP+2500.",
   "triggerType": "Active",
@@ -1035,6 +1819,26 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはBP+{0}",
+      "nums": [
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】このキャラはBP+1000。",
   "effectEn": "[During Your Turn] This character gets BP+1000.",
   "triggerType": "",
@@ -1072,6 +1876,22 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがアクティブの場合、このキャラの発生エナジー+[Purple]",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【紫】。",
   "effectEn": "While this character is active, its generated energy +[Purple].",
   "triggerType": "",
@@ -1109,6 +1929,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、発生エナジー+[Purple]と「メインフェイズ終了時、このキャラを退場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【紫】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Purple] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -1146,6 +1992,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -1180,6 +2027,93 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の⟦t0⟧のカード名の種類数により、このフィールドは以下の効果を全て得る",
+      "nums": [],
+      "names": [],
+      "traits": [
+       "完璧・無量大数軍"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "{0}種類以上：[On Play]カードを{1}枚引く",
+      "nums": [
+       3,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "{0}種類以上：[Activate: Main]",
+      "nums": [
+       5
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   },
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {
+     "rest": true,
+     "retireSelf": true
+    },
+    "steps": [
+     {
+      "key": "自分の場の⟦t0⟧を{0}枚選び、アクティブにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "完璧・無量大数軍"
+      ],
+      "bullet": true
+     },
+     {
+      "key": "{0}種類以上：[Activate: Main]",
+      "nums": [
+       7
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   },
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "BP{0}以下の相手のフロントLのキャラを{1}枚選び、退場させる",
+      "nums": [
+       3000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "自分の場の［特徴：完璧・無量大数軍］のカード名の種類数により、このフィールドは以下の効果を全て得る。・3種類以上：【登場時】カードを1枚引く。・5種類以上：【起動メイン】【レストにする】【このカードを退場させる】自分の場の［特徴：完璧・無量大数軍］を1枚選び、アクティブにする。・7種類以上：【起動メイン】【レストにする】【ターン1】BP3000以下の相手のフロントLのキャラを1枚選び、退場させる。",
   "effectEn": "Depending on the number of different card names among [Trait: Perfect Large Numbers] on your field, this field gains all of the following effects. 3 or more types: [On Play]Draw 1 card(s). 5 or more types: [Activate: Main]. [Rest this card] [Retire this card] Choose 1 [Trait: Perfect Large Numbers] on your field, set it to active. 7 or more types: [Activate: Main]. [Rest this card] [Once Per Turn] Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it.",
   "triggerType": "Get",
@@ -1209,6 +2143,43 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場外から必要エナジーが{0}以下の⟦t0⟧を{1}枚まで自分の場にレストで登場させる",
+      "nums": [
+       2,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "悪魔超人"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "この効果で⟨n0⟩を登場させた場合、そのキャラをアクティブにし、このターン中、「アタックフェイズ終了時、このキャラを退場させる",
+      "nums": [],
+      "names": [
+       "アトランティス"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」と[Snipe]を与える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場外から必要エナジーが2以下の［特徴：悪魔超人］を1枚まで自分の場にレストで登場させる。この効果で〈アトランティス〉を登場させた場合、そのキャラをアクティブにし、このターン中、「アタックフェイズ終了時、このキャラを退場させる。」と【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、指定した場合、相手はブロックできない）を与える。",
   "effectEn": "Play up to 1 [Trait: Devil Choujin] with required energy 2 or less from your Outside Area to your field rested. If you played <アトランティス> with this effect, set that character to active, and it gains “At the end of the Attack Phase, retire this character” and [Snipe] (Can attack a chosen character in your opponent's Front Line; if you do, your opponent cannot block) this turn.",
   "triggerType": "Draw",
@@ -1238,6 +2209,36 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "『BP{0}以下』の相手のフロントLのキャラを{1}枚選び、退場させる",
+      "nums": [
+       3000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟨n0⟩がある場合、『BP{0}以下』に代わる",
+      "nums": [
+       5000
+      ],
+      "names": [
+       "ブラックホール"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈ブラックホール〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <ブラックホール> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -1267,6 +2268,57 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "以下から{0}つ選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟨n0⟩がある場合、相手のフロントLのキャラを{0}枚選び、このターン中、BP-{1}",
+      "nums": [
+       1,
+       5000
+      ],
+      "names": [
+       "バッファローマン"
+      ],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "自分の場の⟨n0⟩を{0}枚まで選び、このターン中、BP+{1}と[Snipe]を与える",
+      "nums": [
+       1,
+       2500
+      ],
+      "names": [
+       "スプリングマン"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "以下から1つ選ぶ。・自分の場に〈バッファローマン〉がある場合、相手のフロントLのキャラを1枚選び、このターン中、BP-5000。・カードを1枚引く。自分の場の〈スプリングマン〉を1枚まで選び、このターン中、BP+2500と【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、指定した場合、相手はブロックできない）を与える。",
   "effectEn": "Choose 1 of the following. If you have <バッファローマン> on your field, Choose 1 character in your opponent's Front Line, it gets BP-5000 this turn. Draw 1 card(s). Choose up to 1 <スプリングマン> on your field; it gains BP+2500 and [Snipe] (Can attack a chosen character in your opponent's Front Line; if you do, your opponent cannot block) this turn.",
   "triggerType": "Special",
@@ -1296,6 +2348,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1325,6 +2395,54 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "BP{0}以下の相手のフロントLのキャラを{1}枚選び、相手の山札の下に置く",
+      "nums": [
+       5000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "相手は自身の場外から必要エナジーが{0}のキャラカードを{1}枚まで自身のフロントLにレストで登場させる",
+      "nums": [
+       0,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "この効果で登場したキャラの[On Play]は発動しない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟦t0⟧が{0}枚以上ある場合、自分はカードを{1}枚引く",
+      "nums": [
+       3,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "完璧超人"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "BP5000以下の相手のフロントLのキャラを1枚選び、相手の山札の下に置く。相手は自身の場外から必要エナジーが0のキャラカードを1枚まで自身のフロントLにレストで登場させる。この効果で登場したキャラの【登場時】は発動しない。自分の場に［特徴：完璧超人］が3枚以上ある場合、自分はカードを1枚引く。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 5000 or less, and put it on the bottom of your opponent's deck. Your opponent plays up to 1 character card with required energy 0 from their Outside Area to their Front Line rested. [On Play] of characters played by this effect does not activate. If you have 3 or more [Trait: Perfect Choujin] on your field, draw 1 card(s).",
   "triggerType": "Special",
@@ -1354,6 +2472,58 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       7
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から相手がランダムに{0}枚選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分は選ばれたカード以外のカードを望む順で山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "選ばれたカードを公開し、公開したカードが⟦t0⟧の場合、自分の場にレストで登場させる",
+      "nums": [],
+      "names": [],
+      "traits": [
+       "完璧・無量大数軍"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "公開したカードが⟦t0⟧以外の場合、公開したカードを自分の手札に加える",
+      "nums": [],
+      "names": [],
+      "traits": [
+       "完璧・無量大数軍"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の山札の上から7枚見る。その中から相手がランダムに1枚選ぶ。自分は選ばれたカード以外のカードを望む順で山札の下に置く。選ばれたカードを公開し、公開したカードが［特徴：完璧・無量大数軍］の場合、自分の場にレストで登場させる。公開したカードが［特徴：完璧・無量大数軍］以外の場合、公開したカードを自分の手札に加える。",
   "effectEn": "Look at the top 7 card(s) of your deck. Your opponent randomly chooses 1 of them. Put the cards other than the chosen card on the bottom of your deck in any order. Reveal the chosen card; if the revealed card is a [Trait: Perfect Large Numbers], play it to your field rested. If the revealed card is not a [Trait: Perfect Large Numbers], add the revealed card to your hand.",
   "triggerType": "Draw",
@@ -1383,6 +2553,43 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       5
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から異なるカード名の⟦t0⟧をそれぞれ{0}枚ずつ合計{1}枚まで公開し手札に加える",
+      "nums": [
+       1,
+       3
+      ],
+      "names": [],
+      "traits": [
+       "完璧・無量大数軍"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の山札の上から5枚見る。その中から異なるカード名の［特徴：完璧・無量大数軍］をそれぞれ1枚ずつ合計3枚まで公開し手札に加える。残りを望む順で山札の下に置く。",
   "effectEn": "Look at the top 5 card(s) of your deck. Reveal up to 1 each of [Trait: Perfect Large Numbers] with different card names among them, up to a total of 3, and add them to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Active",
@@ -1412,6 +2619,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1448,6 +2673,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "必要エナジーが{0}以下の自分の場の他のキャラを{1}枚手札に戻す",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "戻せない場合、このキャラを手札に戻す",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -1484,6 +2735,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1520,6 +2772,40 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLに[When Attacking]を持つ他の⟦t0⟧がある場合、このキャラの発生エナジー+[Red]",
+      "nums": [],
+      "names": [],
+      "traits": [
+       "正義超人"
+      ],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、BP+{0}",
+      "nums": [
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のフロントLに【アタック時】を持つ他の［特徴：正義超人］がある場合、このキャラの発生エナジー+【赤】。【アタック時】このキャラはこのターン中、BP+1000。",
   "effectEn": "If you have other [Trait: Justice Choujin] with [When Attacking] in your Front Line, This character's generated energy +[Red]. [When Attacking] This character gets BP+1000 this turn.",
   "triggerType": "",
@@ -1561,6 +2847,52 @@
    "value": "ウォーズマン"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の[When Attacking]を持つ他の⟦t0⟧の枚数により、このキャラはこのターン中、以下の効果を全て得る",
+      "nums": [],
+      "names": [],
+      "traits": [
+       "正義超人"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "{0}枚以上：[Once Per Turn]このキャラのアタックがブロックされたアタック終了時、このキャラをこのターン中、BP-{1}してもよい",
+      "nums": [
+       2,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "そうした場合、このキャラをアクティブにする",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "{0}枚以上：[Once Per Turn]このキャラがアタックしてブロックされなかった時、カードを{1}枚引く",
+      "nums": [
+       4,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【レイド】〈ウォーズマン〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【アタック時】【ターン1】自分の場の【アタック時】を持つ他の［特徴：正義超人］の枚数により、このキャラはこのターン中、以下の効果を全て得る。・2枚以上：【ターン1】このキャラのアタックがブロックされたアタック終了時、このキャラをこのターン中、BP-1000してもよい。そうした場合、このキャラをアクティブにする。・4枚以上：【ターン1】このキャラがアタックしてブロックされなかった時、カードを1枚引く。",
   "effectEn": "[Raid] Can Raid onto <ウォーズマン>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [When Attacking] [Once Per Turn] Depending on the number of other [Trait: Justice Choujin] with [When Attacking] on your field, this character gains all of the following effects this turn. 2 or more: [Once Per Turn] At the end of an attack in which this character's attack was blocked, you may give this character BP-1000 this turn. If you do, Set this character to active. 4 or more: [Once Per Turn]When this character attacks and is not blocked, Draw 1 card(s).",
   "triggerType": "Raid",
@@ -1597,6 +2929,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、発生エナジー+[Red]と「メインフェイズ終了時、このキャラを退場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【赤】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Red] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -1633,6 +2991,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1669,6 +3028,52 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       4
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟨n0⟩か⟨n1⟩を{0}枚まで公開し手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [
+       "キン肉マン",
+       "テリーマン"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から4枚見る。その中から〈キン肉マン〉か〈テリーマン〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 <キン肉マン> or <テリーマン> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -1705,6 +3110,22 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このカードはフロントLに登場できない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このカードはフロントLに登場できない。",
   "effectEn": "This card cannot be played to the Front Line.",
   "triggerType": "",
@@ -1741,6 +3162,36 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "相手のフロントLのキャラを{0}枚選び、このターン中、「このキャラはブロックできない",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を与える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【フロントLにある場合】【レストにする】【ターン1】相手のフロントLのキャラを1枚選び、このターン中、「このキャラはブロックできない。」を与える。",
   "effectEn": "[Activate: Main] [While in Front Line] [Rest this card] [Once Per Turn] Choose 1 character in your opponent's Front Line, it gains “This character cannot block” this turn.",
   "triggerType": "Color",
@@ -1783,6 +3234,40 @@
    "value": "キン肉マン"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、BP+{0}",
+      "nums": [
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈キン肉マン〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）【登場時】カードを1枚引く。【アタック時】このキャラはこのターン中、BP+1000。",
   "effectEn": "[Raid] Can Raid onto <キン肉マン>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [Double Block] (The first time this character blocks each turn, set it to active) [On Play] Draw 1 card(s). [When Attacking] This character gets BP+1000 this turn.",
   "triggerType": "Raid",
@@ -1822,6 +3307,79 @@
    "value": "キン肉マン"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "相手のフロントLのキャラを{0}枚まで選び、以下から『{1}つ』選ぶ",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分のライフが{0}以下の場合、『{1}つ』に代わる",
+      "nums": [
+       1,
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "選んだキャラに次の自分のターン開始時まで、「このキャラはアタックできない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "」と「このキャラはブロックできない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を与える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "選んだキャラが⟦t0⟧の効果で「このキャラはアタックできない",
+      "nums": [],
+      "names": [],
+      "traits": [
+       "正義超人"
+      ],
+      "bullet": true
+     },
+     {
+      "key": "」か「このキャラはブロックできない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を与えられている場合、退場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈キン肉マン〉アクティブにし、フロントLに移動できる【登場時】相手のフロントLのキャラを1枚まで選び、以下から『1つ』選ぶ。自分のライフが1以下の場合、『2つ』に代わる。・選んだキャラに次の自分のターン開始時まで、「このキャラはアタックできない。」と「このキャラはブロックできない。」を与える。・選んだキャラが［特徴：正義超人］の効果で「このキャラはアタックできない。」か「このキャラはブロックできない。」を与えられている場合、退場させる。",
   "effectEn": "[Raid] Can Raid onto <キン肉マン>; set it to active and you may move it to the Front Line. [On Play] Choose up to 1 character in your opponent's Front Line, Choose 1 of the following. If your Life is 1 or less, it becomes “2” instead. Until the start of your next turn, the chosen character gains “This character cannot attack” and “This character cannot block” If the chosen character has been given “This character cannot attack” or “This character cannot block” by a [Trait: Justice Choujin]'s effect, retire it.",
   "triggerType": "Raid",
@@ -1858,6 +3416,22 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがアクティブの場合、このキャラの発生エナジー+[Red]",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
   "effectEn": "[On Play] While this character is active, its generated energy +[Red].",
   "triggerType": "",
@@ -1894,6 +3468,61 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚を裏向きでこのキャラの下に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラの下の裏向きのカードを{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、相手のフロントLのキャラを{0}枚まで選び、エナジーLに移動させ、次の自分のターン開始時まで「このキャラは移動できない",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を与える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【起動メイン】【フロントLにある場合】【レストにする】【ターン1】自分の山札の上から1枚を裏向きでこのキャラの下に置く。【アタック時】このキャラの下の裏向きのカードを1枚場外に置いてもよい。そうした場合、相手のフロントLのキャラを1枚まで選び、エナジーLに移動させ、次の自分のターン開始時まで「このキャラは移動できない。」を与える。",
   "effectEn": "[Activate: Main] [While in Front Line] [Rest this card] [Once Per Turn] Put the top 1 card(s) of your deck face down under this character. [When Attacking] You may put 1 face-down card(s) under this character into your Outside Area. If you do, choose up to 1 character in your opponent's Front Line, move it to the Energy Line, and until the start of your next turn it gains “This character cannot move”",
   "triggerType": "Active",
@@ -1932,6 +3561,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -1968,6 +3598,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -2006,6 +3637,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "",
@@ -2044,6 +3676,26 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLに⟨n0⟩がある場合、カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [
+       "キン肉マン"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】自分のフロントLに〈キン肉マン〉がある場合、カードを1枚引く。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] If you have <キン肉マン> in your Front Line, Draw 1 card(s).",
   "triggerType": "",
@@ -2086,6 +3738,53 @@
    "value": "テリーマン"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがエナジーLからフロントLに移動した時、相手のフロントLのキャラを{0}枚まで選び、次の自分のターン開始時まで、「このキャラはアタックできない",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を与える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "energy"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLの⟨n0⟩を{0}枚選び、このキャラと位置を入れ替える",
+      "nums": [
+       1
+      ],
+      "names": [
+       "キン肉マン"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【レイド】〈テリーマン〉アクティブにし、フロントLに移動できる【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【ターン1】このキャラがエナジーLからフロントLに移動した時、相手のフロントLのキャラを1枚まで選び、次の自分のターン開始時まで、「このキャラはアタックできない。」を与える。【起動メイン】【エナジーLにある場合】【ターン1】自分のフロントLの〈キン肉マン〉を1枚選び、このキャラと位置を入れ替える。",
   "effectEn": "[Raid] Can Raid onto <テリーマン>; set it to active and you may move it to the Front Line. [Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [Once Per Turn] When this character moves from the Energy Line to the Front Line, choose up to 1 character in your opponent's Front Line; until the start of your next turn, it gains “This character cannot attack” [Activate: Main] [While in Energy Line] [Once Per Turn] Choose 1 <キン肉マン> in your Front Line and swap its position with this character.",
   "triggerType": "Raid",
@@ -2122,6 +3821,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -2158,6 +3876,45 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLに⟨n0⟩がある場合、このキャラの発生エナジー+[Red]",
+      "nums": [],
+      "names": [
+       "キン肉マン"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true,
+     "discard": 1
+    },
+    "steps": [
+     {
+      "key": "自分の場の⟨n0⟩を{0}枚選び、別のラインに移動させる",
+      "nums": [
+       1
+      ],
+      "names": [
+       "キン肉マン"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のフロントLに〈キン肉マン〉がある場合、このキャラの発生エナジー+【赤】。【起動メイン】【レストにする】【手札を1枚場外に置く】自分の場の〈キン肉マン〉を1枚選び、別のラインに移動させる。",
   "effectEn": "If you have <キン肉マン> in your Front Line, This character's generated energy +[Red]. [Activate: Main] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] Choose 1 <キン肉マン> on your field, move it to another line.",
   "triggerType": "Active",
@@ -2194,6 +3951,28 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に[When Attacking]を持つ他の⟦t0⟧が{0}枚以上ある場合、カードを{1}枚引き、自分の手札を{2}枚場外に置く",
+      "nums": [
+       2,
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "正義超人"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【アタック時】自分の場に【アタック時】を持つ他の［特徴：正義超人］が2枚以上ある場合、カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[When Attacking] If you have 2 or more other [Trait: Justice Choujin] with [When Attacking] on your field, draw 1 card(s) and put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -2230,6 +4009,51 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟨n0⟩を{0}枚まで公開し手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [
+       "ベルリンの赤い雨"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【アタック時】自分の山札の上から3枚見る。その中から〈ベルリンの赤い雨〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[When Attacking] Look at the top 3 card(s) of your deck. Reveal up to 1 <ベルリンの赤い雨> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -2268,6 +4092,36 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "この効果で必要エナジーが{0}のカードを場外に置いた場合、BP{1}以下の相手のフロントLのキャラを{2}枚まで選び、レストにする",
+      "nums": [
+       0,
+       2000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】【アタック時】カードを1枚引き、自分の手札を1枚場外に置く。この効果で必要エナジーが0のカードを場外に置いた場合、BP2000以下の相手のフロントLのキャラを1枚まで選び、レストにする。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] [When Attacking] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. If you put a card with required energy 0 into your Outside Area with this effect, choose up to 1 character in your opponent's Front Line with BP 2000 or less and rest it.",
   "triggerType": "Active",
@@ -2304,6 +4158,77 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "ap": 1
+    },
+    "steps": [
+     {
+      "key": "このカードが自分の手札にあり、自分の紫の発生エナジーが{0}以上ある場合のみ発動できる",
+      "nums": [
+       5
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分のフロントLにある⟨n0⟩を{0}枚手札に戻す",
+      "nums": [
+       1
+      ],
+      "names": [
+       "ブラックホール"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、手札のこのカードを自分のフロントLにレストで登場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "相手のフロントLのアクティブのキャラを{0}枚選んでもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、選んだキャラをレストにし、このキャラをアクティブにする",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【起動メイン】【APを1支払う】このカードが自分の手札にあり、自分の紫の発生エナジーが5以上ある場合のみ発動できる。自分のフロントLにある〈ブラックホール〉を1枚手札に戻す。そうした場合、手札のこのカードを自分のフロントLにレストで登場させる。【登場時】カードを1枚引き、自分の手札を1枚場外に置く。相手のフロントLのアクティブのキャラを1枚選んでもよい。そうした場合、選んだキャラをレストにし、このキャラをアクティブにする。",
   "effectEn": "[Activate: Main] [Pay 1 AP] Can only activate if this card is in your hand and your purple generated energy is 5 or more. Return to the owner's hand 1 <ブラックホール> in your Front Line. If you do, play this card from your hand to your Front Line rested. [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. You may choose 1 active character in your opponent's Front Line. If you do, rest the chosen character and set this character to active.",
   "triggerType": "Get",
@@ -2340,6 +4265,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -2376,6 +4302,27 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に[When Attacking]を持つ他の⟦t0⟧が{0}枚以上ある場合、このキャラはこのターン中、BP+{1}",
+      "nums": [
+       2,
+       1000
+      ],
+      "names": [],
+      "traits": [
+       "正義超人"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【アタック時】自分の場に【アタック時】を持つ他の［特徴：正義超人］が2枚以上ある場合、このキャラはこのターン中、BP+1000。",
   "effectEn": "[When Attacking] If you have 2 or more other [Trait: Justice Choujin] with [When Attacking] on your field, this character gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -2412,6 +4359,53 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に[When Attacking]を持つ他の⟦t0⟧が{0}枚以上ある場合、自分の手札を{1}枚場外に置いてもよい",
+      "nums": [
+       4,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "正義超人"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分の場のキャラを{0}枚まで選び、アクティブにするか自分のAPカードを{1}枚まで選び、アクティブにする",
+      "nums": [
+       2,
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の場に【アタック時】を持つ他の［特徴：正義超人］が4枚以上ある場合、自分の手札を1枚場外に置いてもよい。そうした場合、自分の場のキャラを2枚まで選び、アクティブにするか自分のAPカードを2枚まで選び、アクティブにする。【アタック時】カードを1枚引く。",
   "effectEn": "[On Play] If you have 4 or more other [Trait: Justice Choujin] with [When Attacking] on your field, you may put 1 card(s) from your hand into your Outside Area. If you do, choose up to 2 character on your field and set it to active, or choose up to 2 of your AP cards and set them to active. [When Attacking] Draw 1 card(s).",
   "triggerType": "Get",
@@ -2448,6 +4442,27 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に[When Attacking]を持つ他の⟦t0⟧が{0}枚以上ある場合、このキャラはこのターン中、BP+{1}",
+      "nums": [
+       4,
+       1500
+      ],
+      "names": [],
+      "traits": [
+       "正義超人"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【アタック時】自分の場に【アタック時】を持つ他の［特徴：正義超人］が4枚以上ある場合、このキャラはこのターン中、BP+1500。",
   "effectEn": "[When Attacking] If you have 4 or more other [Trait: Justice Choujin] with [When Attacking] on your field, this character gets BP+1500 this turn.",
   "triggerType": "Draw",
@@ -2484,6 +4499,51 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟦t0⟧を{0}枚まで公開し手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "正義超人"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から［特徴：正義超人］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: Justice Choujin] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Color",
@@ -2520,6 +4580,54 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "BP{0}以上の相手のフロントLのキャラを{1}枚選び、このターン中、BP-{2}",
+      "nums": [
+       1500,
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札を{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、このキャラはこのターン中、BP+{0}",
+      "nums": [
+       2000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】BP1500以上の相手のフロントLのキャラを1枚選び、このターン中、BP-1000。【アタック時】自分の手札を1枚場外に置いてもよい。そうした場合、このキャラはこのターン中、BP+2000。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 character in your opponent's Front Line with BP 1500 or more, it gets BP-1000 this turn. [When Attacking] You may put 1 card(s) from your hand into your Outside Area. If you do, This character gets BP+2000 this turn.",
   "triggerType": "Active",
@@ -2559,6 +4667,65 @@
    "value": "ロビンマスク"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の[When Attacking]を持つアクティブの他の⟦t0⟧を{0}枚レストにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "正義超人"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、BP{0}以上の相手のフロントLのキャラを{1}枚まで選び、このターン中、『BP-{2}』",
+      "nums": [
+       1500,
+       1,
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラが登場したターン中なら『BP-{0}』に代わる",
+      "nums": [
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "BP{0}以下の相手のフロントLのキャラを{1}枚まで選び、退場させる",
+      "nums": [
+       1000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈ロビンマスク〉アクティブにし、フロントLに移動できる【起動メイン】【フロントLにある場合】自分の場の【アタック時】を持つアクティブの他の［特徴：正義超人］を1枚レストにする。そうした場合、BP1500以上の相手のフロントLのキャラを1枚まで選び、このターン中、『BP-500』。このキャラが登場したターン中なら『BP-1000』に代わる。【アタック時】BP1000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "[Raid] Can Raid onto <ロビンマスク>; set it to active and you may move it to the Front Line. [Activate: Main] [While in Front Line] Rest 1 other active [Trait: Justice Choujin] with [When Attacking] on your field. If you do, Choose up to 1 character in your opponent's Front Line with BP 1500 or more, This turn, 『BP-500』. During the turn this character was played, it becomes “BP-1000” instead. [When Attacking] Choose up to 1 character in your opponent's Front Line with BP 1000 or less, retire it.",
   "triggerType": "Raid",
@@ -2595,6 +4762,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】カードを1枚引く。",
   "effectEn": "[On Play] Draw 1 card(s).",
   "triggerType": "",
@@ -2629,6 +4814,43 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のアタックフェイズ終了時、このターン中に自分のキャラがアタックしていた場合、このフィールドを退場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "相手のアタックフェイズ開始時、相手は自身のフロントLのアクティブのキャラを{0}枚レストにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "⟨n0⟩のこの効果は{0}ターンに{1}回のみ発動する",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "三属性超人不可侵条約"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のアタックフェイズ終了時、このターン中に自分のキャラがアタックしていた場合、このフィールドを退場させる。相手のアタックフェイズ開始時、相手は自身のフロントLのアクティブのキャラを1枚レストにする。〈三属性超人不可侵条約〉のこの効果は1ターンに1回のみ発動する。",
   "effectEn": "At the end of your Attack Phase, if your character attacked this turn, retire this field. At the start of your opponent's Attack Phase, your opponent rests 1 active character(s) in their Front Line. This <三属性超人不可侵条約> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Draw",
@@ -2658,6 +4880,51 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       6
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から赤の⟨n0⟩を{0}枚まで公開し手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [
+       "キン肉マン"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の山札の上から6枚見る。その中から赤の〈キン肉マン〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。カードを1枚引く。",
   "effectEn": "Look at the top 6 card(s) of your deck. Reveal up to 1 Red <キン肉マン> among them and add it to your hand. Put the rest on the bottom of your deck in any order. Draw 1 card(s).",
   "triggerType": "Active",
@@ -2687,6 +4954,36 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "『BP{0}以下』の相手のフロントLのキャラを{1}枚選び、退場させる",
+      "nums": [
+       3000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟨n0⟩がある場合、『BP{0}以下』に代わる",
+      "nums": [
+       5000
+      ],
+      "names": [
+       "キン肉マン"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈キン肉マン〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <キン肉マン> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -2716,6 +5013,61 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラを{0}枚選び、このターン中、『BP+{1}』し、自分のAPカードを{2}枚まで選び、アクティブにする",
+      "nums": [
+       1,
+       500,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "選んだキャラが⟨n0⟩の場合、『BP+{0}』に代わる",
+      "nums": [
+       1000
+      ],
+      "names": [
+       "ウォーズマン"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "選んだキャラが必要エナジーが{0}以上の⟨n0⟩の場合、『BP+{1}』に代わる",
+      "nums": [
+       4,
+       2000
+      ],
+      "names": [
+       "ウォーズマン"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "選んだキャラが必要エナジーが{0}以上でレイド状態の⟨n0⟩の場合、『BP+{1}』に代わる",
+      "nums": [
+       4,
+       6000
+      ],
+      "names": [
+       "ウォーズマン"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場のキャラを1枚選び、このターン中、『BP+500』し、自分のAPカードを1枚まで選び、アクティブにする。選んだキャラが〈ウォーズマン〉の場合、『BP+1000』に代わる。選んだキャラが必要エナジーが4以上の〈ウォーズマン〉の場合、『BP+2000』に代わる。選んだキャラが必要エナジーが4以上でレイド状態の〈ウォーズマン〉の場合、『BP+6000』に代わる。",
   "effectEn": "Choose 1 character on your field; it gets “BP+500” this turn, and choose up to 1 of your AP cards and set them to active. If the chosen character is <ウォーズマン>, it becomes “BP+1000” instead. If the chosen character is <ウォーズマン> with required energy 4 or more, it becomes “BP+2000” instead. If the chosen character is a Raided <ウォーズマン> with required energy 4 or more, it becomes “BP+6000” instead.",
   "triggerType": "Active",
@@ -2745,6 +5097,54 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟨n0⟩がある場合、手札にあるこのカードの消費APを-{0}する",
+      "nums": [
+       1
+      ],
+      "names": [
+       "ロビンマスク"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "BP{0}以下の相手のフロントLのキャラを{1}枚まで選び、退場させる",
+      "nums": [
+       5000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場の⟨n0⟩を{0}枚まで選び、このターン中、「相手がこのキャラを[Special Trigger]で退場させる場合、代わりに相手はその[Special Trigger]を持つカードを手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [
+       "ロビンマスク"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を与える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場に〈ロビンマスク〉がある場合、手札にあるこのカードの消費APを-1する。BP5000以下の相手のフロントLのキャラを1枚まで選び、退場させる。自分の場の〈ロビンマスク〉を1枚まで選び、このターン中、「相手がこのキャラを【スペシャルトリガー】で退場させる場合、代わりに相手はその【スペシャルトリガー】を持つカードを手札に加える。」を与える。",
   "effectEn": "If you have <ロビンマスク> on your field, reduce the AP cost of this card in your hand by 1. Choose up to 1 character in your opponent's Front Line with BP 5000 or less, retire it. Choose up to 1 <ロビンマスク> on your field, and it gains “If your opponent would retire this character with [Special Trigger], your opponent adds that card with [Special Trigger] to their hand instead” this turn.",
   "triggerType": "Special",
@@ -2774,6 +5174,36 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLのキャラを{0}枚選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       2000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟨n0⟩がある場合、さらにこのターン中、[Impact +{0}]を与える",
+      "nums": [
+       1
+      ],
+      "names": [
+       "キン肉マン"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のフロントLのキャラを1枚選び、このターン中、BP+2000。自分の場に〈キン肉マン〉がある場合、さらにこのターン中、【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を与える。",
   "effectEn": "Choose 1 character in your Front Line, it gets BP+2000 this turn. If you have <キン肉マン> on your field, it also gains [Impact +1] (Damage dealt by Impact is increased by 1; if it doesn't have Impact, it gains [Impact 1]) this turn.",
   "triggerType": "Draw",
@@ -2803,6 +5233,76 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分のフロントLに赤の⟨n0⟩がある場合、BP{0}以上の相手のフロントLのキャラを{1}枚まで選び、このターン中、BP-{2}",
+      "nums": [
+       2500,
+       1,
+       2000
+      ],
+      "names": [
+       "ブロッケンJr."
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "outside"
+    ],
+    "costs": {
+     "discard": 1
+    },
+    "steps": [
+     {
+      "key": "自分のフロントLに赤の⟨n0⟩がある場合のみ発動できる",
+      "nums": [],
+      "names": [
+       "ブロッケンJr."
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "場外のこのカードを手札に加える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "⟨n0⟩のこの効果は{0}ターンに{1}回のみ発動できる",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "ベルリンの赤い雨"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "カードを1枚引く。自分のフロントLに赤の〈ブロッケンJr.〉がある場合、BP2500以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-2000。【起動メイン】【場外にある場合】【手札を1枚場外に置く】自分のフロントLに赤の〈ブロッケンJr.〉がある場合のみ発動できる。場外のこのカードを手札に加える。〈ベルリンの赤い雨〉のこの効果は1ターンに1回のみ発動できる。",
   "effectEn": "Draw 1 card(s). If you have Red <ブロッケンJr.> in your Front Line, Choose up to 1 character in your opponent's Front Line with BP 2500 or more, it gets BP-2000 this turn. [Activate: Main] [While in Outside Area] [Put 1 card(s) from your hand into your Outside Area] Can only activate if you have a red <ブロッケンJr.> in your Front Line. Add this card from your Outside Area to your hand. This <ベルリンの赤い雨> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Draw",
@@ -2832,6 +5332,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2859,6 +5377,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2886,6 +5405,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2913,6 +5433,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2940,6 +5461,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2967,6 +5489,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2994,6 +5517,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3021,6 +5545,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3048,6 +5573,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3075,6 +5601,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3102,6 +5629,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3129,6 +5657,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3156,6 +5685,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

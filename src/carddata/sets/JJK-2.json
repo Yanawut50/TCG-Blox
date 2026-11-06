@@ -26,6 +26,52 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       4
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟨n0⟩か⟨n1⟩を{0}枚まで公開し手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [
+       "五条 悟",
+       "夏油 傑"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から4枚見る。その中から〈五条 悟〉か〈夏油 傑〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 <Satoru Gojo> or <Suguru Geto> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -60,6 +106,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "相手の場にレストのキャラがある場合、自分の場外から必要エナジーが{0}以下の黄のイベントカードを{1}枚まで手札に加える",
+      "nums": [
+       2,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】相手の場にレストのキャラがある場合、自分の場外から必要エナジーが2以下の黄のイベントカードを1枚まで手札に加える。",
   "effectEn": "[On Play] If your opponent has a rested character on their field, add up to 1 Yellow Event card(s) with required energy 2 or less from your Outside Area to your hand.",
   "triggerType": "Active",
@@ -94,6 +159,54 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn",
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "同じラインに⟨n0⟩がある場合、このキャラと自分のフロントLにある⟨n1⟩全ては、BP+{0}",
+      "nums": [
+       500
+      ],
+      "names": [
+       "五条 悟",
+       "五条 悟"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "discard": 1
+    },
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、「このキャラはフロントLにある場合もエナジーを発生させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【自分のターン中】【フロントLにある場合】同じラインに〈五条 悟〉がある場合、このキャラと自分のフロントLにある〈五条 悟〉全ては、BP+500。【起動メイン】【手札を1枚場外に置く】【ターン1】このキャラはこのターン中、「このキャラはフロントLにある場合もエナジーを発生させる。」を得る。",
   "effectEn": "[During Your Turn] [While in Front Line] If <Satoru Gojo> is in the same line, this character and all <Satoru Gojo> in your Front Line get BP+500. [Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] This character gains “This character also generates energy while in the Front Line” this turn.",
   "triggerType": "Get",
@@ -128,6 +241,74 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn",
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "同じラインに⟨n0⟩がある場合、このキャラは[Damage {0}]を得る",
+      "nums": [
+       2
+      ],
+      "names": [
+       "夏油 傑"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnRetire",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟨n0⟩か⟨n1⟩か⟨n2⟩を{0}枚まで公開し手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [
+       "五条 悟",
+       "家入 硝子",
+       "夏油 傑"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】【フロントLにある場合】同じラインに〈夏油 傑〉がある場合、このキャラは【ダメージ（2）】を得る。【退場時】自分の山札の上から3枚見る。その中から〈五条 悟〉か〈家入 硝子〉か〈夏油 傑〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[During Your Turn] [While in Front Line] If <Suguru Geto> is in the same line, this character gains [Damage 2]. [On Retire] Look at the top 3 card(s) of your deck. Reveal up to 1 <Satoru Gojo> or <Shoko Ieiri> or <Suguru Geto> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -162,6 +343,42 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟨n0⟩か特徴に「式神」を持つキャラカードを{0}枚まで公開し自分の山札の上か場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [
+       "嵌合暗翳庭"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から〈嵌合暗翳庭〉か特徴に「式神」を持つキャラカードを1枚まで公開し自分の山札の上か場外に置く。残りを望む順で自分の山札の下に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. From among them, reveal up to 1 <嵌合暗翳庭> or character card with the trait “Shikigami”, and put it on top of your deck or into your Outside Area. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Active",
@@ -196,6 +413,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場外に⟨n0⟩がある場合、このキャラの発生エナジー+[Blue]",
+      "nums": [],
+      "names": [
+       "宿儺の指"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場外に〈宿儺の指〉がある場合、このキャラの発生エナジー+【青】。",
   "effectEn": "If you have <宿儺の指> in your Outside Area, This character's generated energy +[Blue].",
   "triggerType": "Color",
@@ -232,6 +467,70 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはアクティブで場に登場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはBP+{0}",
+      "nums": [
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "BP{0}以上の相手の場のキャラを『{1}枚』まで選び、このターン中、BP-{2}",
+      "nums": [
+       1500,
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場外にある⟨n0⟩{0}枚につき、『+{1}枚』される",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "宿儺の指"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラはアクティブで場に登場させる。【2回ブロック】【自分のターン中】このキャラはBP+500。【アタック時】BP1500以上の相手の場のキャラを『1枚』まで選び、このターン中、BP-1000。自分の場外にある〈宿儺の指〉1枚につき、『+1枚』される。",
   "effectEn": "This character is played active. [Double Block] [During Your Turn] This character gets BP+500. [When Attacking] Choose up to “1” character on your opponent's field with 1500 or more BP, and it gets BP-1000 this turn. It becomes “+1” for each 1 <宿儺の指> in your Outside Area.",
   "triggerType": "Active",
@@ -266,6 +565,34 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnRetire",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚を場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分の場のキャラを{0}枚まで選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【退場時】自分の山札の上から1枚を場外に置いてもよい。そうした場合、自分の場のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Retire] You may put the top 1 card(s) of your deck into your Outside Area. If you do, Choose up to 1 character on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -300,6 +627,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -336,6 +664,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラと別のラインにある特徴に「京都校」を持つ自分のキャラを{0}枚選び、このキャラと位置を入れ替える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【ターン1】このキャラと別のラインにある特徴に「京都校」を持つ自分のキャラを1枚選び、このキャラと位置を入れ替える。",
   "effectEn": "[Activate: Main] [Once Per Turn] Choose 1 of your characters with the trait “Kyoto School” in a different line from this character, and swap its position with this character.",
   "triggerType": "Active",
@@ -372,6 +719,53 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このターン中に自分の場のキャラが退場している場合、このキャラの発生エナジー+[Purple]",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の⟨n0⟩以外のキャラを{0}枚退場させる",
+      "nums": [
+       1
+      ],
+      "names": [
+       "真人"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分の場の特徴に「呪霊」か「改造人間」を持つキャラを{0}枚まで選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【自分のターン中】このターン中に自分の場のキャラが退場している場合、このキャラの発生エナジー+【紫】。【起動メイン】【ターン1】自分の場の〈真人〉以外のキャラを1枚退場させる。そうした場合、自分の場の特徴に「呪霊」か「改造人間」を持つキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[During Your Turn] If a character on your field was retired this turn, this character's generated energy +[Purple]. [Activate: Main] [Once Per Turn] Retire 1 character on your field other than <Mahito>. If you do, choose up to 1 character with the trait “Cursed Spirit” or “Modified Human” on your field, and it gets BP+1000 this turn.",
   "triggerType": "",
@@ -399,6 +793,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

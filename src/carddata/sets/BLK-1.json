@@ -26,6 +26,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -60,6 +61,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "必要エナジーが{0}以下の自分の場の他のキャラを{1}枚手札に戻す",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "戻せない場合、このキャラを手札に戻す",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -94,6 +121,67 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "以下から{0}つ選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場のキャラの下の裏向きのカードを{0}枚、このキャラの下に移動させてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "そうした場合、自分の山札の上から{0}枚見る",
+      "nums": [
+       5
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から[Raid]を持つカードを{0}枚まで公開し手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から{0}枚を裏向きでこのキャラの下に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】以下から1つ選ぶ。・自分の場のキャラの下の裏向きのカードを1枚、このキャラの下に移動させてもよい。そうした場合、自分の山札の上から5枚見る。その中から【レイド】を持つカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。・自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から1枚を裏向きでこのキャラの下に置いてもよい。",
   "effectEn": "[On Play] Choose 1 of the following. You may move 1 face-down card(s) under a character on your field to under this character. If you do, Look at the top 5 card(s) of your deck. From among them, reveal up to 1 card(s) with [Raid] and add them to your hand. Put the rest on the bottom of your deck in any order. If no character on your field has face-down cards under it, you may put the top 1 card(s) of your deck face down under this character.",
   "triggerType": "Color",
@@ -133,6 +221,40 @@
    "value": "潔 世一"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラの下に裏向きのカードがある場合、このキャラはBP+{0}",
+      "nums": [
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の他のキャラの下の裏向きのカードを{0}枚、このキャラの下に移動させてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈潔 世一〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）このキャラの下に裏向きのカードがある場合、このキャラはBP+1000。【アタック時】自分の場の他のキャラの下の裏向きのカードを1枚、このキャラの下に移動させてもよい。",
   "effectEn": "[Raid] Can Raid onto <潔 世一>; set it to active and you may move it to the Front Line. [Impact 1] (When this character attacks and wins a battle, deal 1 damage to the opposing player) If this character has face-down cards under it, this character gets BP+1000. [When Attacking] You may move 1 face-down card(s) under another character on your field to under this character.",
   "triggerType": "Raid",
@@ -167,6 +289,44 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から{0}枚を裏向きで⟨n0⟩以外の自分の場のキャラ{1}枚の下に置いてもよい",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "絵心 甚八"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラの下の裏向きのカードを{0}枚、裏向きのカードが下にない自分の場のキャラの下に移動させる",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【登場時】自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から1枚を裏向きで〈絵心 甚八〉以外の自分の場のキャラ1枚の下に置いてもよい。【起動メイン】【ターン1】自分の場のキャラの下の裏向きのカードを1枚、裏向きのカードが下にない自分の場のキャラの下に移動させる。",
   "effectEn": "[On Play] If no character on your field has face-down cards under it, you may put the top 1 card(s) of your deck face down under 1 character on your field other than <絵心 甚八>. [Activate: Main] [Once Per Turn] Move 1 face-down card(s) under a character on your field to under a character on your field that has no face-down cards under it.",
   "triggerType": "",
@@ -201,6 +361,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "このターン中、このキャラの発生エナジー+[Yellow]",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "メインフェイズ終了時、このキャラを退場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【黄】。メインフェイズ終了時、このキャラを退場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Yellow]. At the end of the Main Phase, retire this character.",
   "triggerType": "",
@@ -235,6 +421,28 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true,
+     "retireSelf": true
+    },
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       2,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】カードを2枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -271,6 +479,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）",
   "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active)",
   "triggerType": "Draw",
@@ -305,6 +514,47 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札を{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、このキャラをアクティブにする",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "相手のフロントLのキャラを{0}枚まで選び、レストにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、このキャラをアクティブにする。【アタック時】相手のフロントLのキャラを1枚まで選び、レストにする。",
   "effectEn": "[On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, Set this character to active. [When Attacking] Choose up to 1 character in your opponent's Front Line, rest it.",
   "triggerType": "Get",
@@ -339,6 +589,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の他のキャラを{0}枚まで選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -373,6 +642,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -409,6 +697,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "",
@@ -443,6 +732,33 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札を{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、相手のフロントLのキャラを{0}枚まで選び、レストにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、相手のフロントLのキャラを1枚まで選び、レストにする。",
   "effectEn": "[On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, Choose up to 1 character in your opponent's Front Line, rest it.",
   "triggerType": "",
@@ -477,6 +793,54 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札か自分の場外から必要エナジーが{0}以下で消費APが{1}の黄の「⟨n0⟩か⟨n1⟩」を{2}枚まで自分の場にレストで登場させる",
+      "nums": [
+       3,
+       1,
+       1
+      ],
+      "names": [
+       "潔 世一",
+       "馬狼 照英"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラの下に裏向きのカードがある場合、カードを{0}枚引いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の手札か自分の場外から必要エナジーが3以下で消費APが1の黄の「〈潔 世一〉か〈馬狼 照英〉」を1枚まで自分の場にレストで登場させる。【アタック時】自分の場のキャラの下に裏向きのカードがある場合、カードを1枚引いてもよい。そうした場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Play up to 1 yellow “<潔 世一> or <馬狼 照英>” with required energy 3 or less and AP cost 1 from your hand or Outside Area to your field rested. [When Attacking] If a character on your field has face-down cards under it, you may draw 1 card(s). If you do, Put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -514,6 +878,54 @@
    "value": "凪 誠士郎"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の効果で自分の手札を{0}枚場外に置いた時、自分の場のキャラの下に裏向きのカードがない場合、そのカードを裏向きでこのキャラの下に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラの下の裏向きのカードを{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、このキャラはこのターン中、「相手はこのキャラのアタックを可能ならブロックしなければならない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈凪 誠士郎〉アクティブにし、フロントLに移動できる自分の効果で自分の手札を1枚場外に置いた時、自分の場のキャラの下に裏向きのカードがない場合、そのカードを裏向きでこのキャラの下に置いてもよい。【アタック時】このキャラの下の裏向きのカードを1枚場外に置いてもよい。そうした場合、このキャラはこのターン中、「相手はこのキャラのアタックを可能ならブロックしなければならない。」を得る。",
   "effectEn": "[Raid] Can Raid onto <凪 誠士郎>; set it to active and you may move it to the Front Line. When you put 1 card(s) from your hand into your Outside Area with your own effect, if no character on your field has face-down cards under it, you may put that card face down under this character. [When Attacking] You may put 1 face-down card(s) under this character into your Outside Area. If you do, This character gains “Your opponent must block this character's attacks if able” this turn.",
   "triggerType": "Raid",
@@ -548,6 +960,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "相手の場に青か赤のカードがある場合、手札にあるこのカードの必要エナジーを[Yellow x{0}]減らす",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "相手の場に青か赤のカードがある場合、手札にあるこのカードの必要エナジーを【黄×1】減らす。",
   "effectEn": "If your opponent has Blue or Red card on their field, the required energy of this card in your hand [Yellow x1]is reduced.",
   "triggerType": "",
@@ -582,6 +1012,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnRetire",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLのキャラを{0}枚まで選び、このターン中、BP+{1}と[Double Block]を与える",
+      "nums": [
+       1,
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【退場時】自分のフロントLのキャラを1枚まで選び、このターン中、BP+500と【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）を与える。",
   "effectEn": "[On Retire] Choose up to 1 character in your Front Line; it gains BP+500 and [Double Block] (When this character blocks for the first time this turn, set it to active) this turn.",
   "triggerType": "",
@@ -616,6 +1065,34 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚『場外に置く』",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場のキャラの下に裏向きのカードがない場合、『裏向きで自分の場のキャラ{0}枚の下に置く』に代えてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚『場外に置く』。自分の場のキャラの下に裏向きのカードがない場合、『裏向きで自分の場のキャラ1枚の下に置く』に代えてもよい。",
   "effectEn": "[On Play] Draw 1 card(s), and “put 1 card(s) from your hand into its owner's Outside Area” If no character on your field has face-down cards under it, you may instead “put it face down under 1 character on your field”",
   "triggerType": "Active",
@@ -652,6 +1129,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -686,6 +1164,61 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "以下から{0}つ選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場のキャラの下の裏向きのカードを{0}枚、このキャラの下に移動させてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "そうした場合、BP{0}以下の相手のフロントLのキャラを{1}枚まで選び、レストにする",
+      "nums": [
+       2500,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "それは次の{0}回アクティブにならない",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から{0}枚を裏向きでこのキャラの下に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】以下から1つ選ぶ。・自分の場のキャラの下の裏向きのカードを1枚、このキャラの下に移動させてもよい。そうした場合、BP2500以下の相手のフロントLのキャラを1枚まで選び、レストにする。それは次の1回アクティブにならない。・自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から1枚を裏向きでこのキャラの下に置いてもよい。",
   "effectEn": "[On Play] Choose 1 of the following. You may move 1 face-down card(s) under a character on your field to under this character. If you do, Choose up to 1 character in your opponent's Front Line with BP 2500 or less, rest it. It does not become active the next 1 time(s). If no character on your field has face-down cards under it, you may put the top 1 card(s) of your deck face down under this character.",
   "triggerType": "Draw",
@@ -720,6 +1253,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "裏向きのカードが下にある自分の場のキャラは、相手が手札から使用したイベントカードの効果で選ばれない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【フロントLにある場合】裏向きのカードが下にある自分の場のキャラは、相手が手札から使用したイベントカードの効果で選ばれない。",
   "effectEn": "[While in Front Line] Characters on your field with face-down cards under them cannot be chosen by the effects of event cards your opponent uses from their hand.",
   "triggerType": "",
@@ -759,6 +1310,40 @@
    "value": "馬狼 照英"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラの下に裏向きのカードがある場合、このキャラはBP+{0}",
+      "nums": [
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenBlocking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の他のキャラの下の裏向きのカードを{0}枚、このキャラの下に移動させてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈馬狼 照英〉アクティブにし、フロントLに移動できる【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）このキャラの下に裏向きのカードがある場合、このキャラはBP+1000。【ブロック時】自分の場の他のキャラの下の裏向きのカードを1枚、このキャラの下に移動させてもよい。",
   "effectEn": "[Raid] Can Raid onto <馬狼 照英>; set it to active and you may move it to the Front Line. [Damage 2] (When this character deals direct damage by attacking, it deals 2 damage instead) If this character has face-down cards under it, this character gets BP+1000. [When Blocking] You may move 1 face-down card(s) under another character on your field to under this character.",
   "triggerType": "Raid",
@@ -793,6 +1378,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -827,6 +1413,22 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがアクティブの場合、このキャラの発生エナジー+[Yellow]",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【黄】。",
   "effectEn": "While this character is active, its generated energy +[Yellow].",
   "triggerType": "",
@@ -861,6 +1463,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】カードを1枚引く。",
   "effectEn": "[On Play] Draw 1 card(s).",
   "triggerType": "Color",
@@ -898,6 +1518,54 @@
    "value": "御影 玲王"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "⟨n0⟩以外の自分の効果で自分の手札を{0}枚場外に置いた時、自分の場のキャラの下に裏向きのカードがない場合、そのカードを裏向きでこのキャラの下に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [
+       "御影 玲王"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラの下の裏向きのカードを{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分のフロントLの他のキャラを{0}枚まで選び、このターン中、[Impact +{1}]を与え、カードを{2}枚引き、自分の手札を{3}枚場外に置く",
+      "nums": [
+       1,
+       1,
+       2,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈御影 玲王〉アクティブにし、フロントLに移動できる〈御影 玲王〉以外の自分の効果で自分の手札を1枚場外に置いた時、自分の場のキャラの下に裏向きのカードがない場合、そのカードを裏向きでこのキャラの下に置いてもよい。【アタック時】このキャラの下の裏向きのカードを1枚場外に置いてもよい。そうした場合、自分のフロントLの他のキャラを1枚まで選び、このターン中、【インパクト（+1）】を与え、カードを2枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[Raid] Can Raid onto <御影 玲王>; set it to active and you may move it to the Front Line. When you put 1 card(s) from your hand into your Outside Area with your own effect other than <御影 玲王>, if no character on your field has face-down cards under it, you may put that card face down under this character. [When Attacking] You may put 1 face-down card(s) under this character into your Outside Area. If you do, choose up to 1 other character in your Front Line; it gains [Impact +1] this turn, then draw 2 card(s) and put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Raid",
@@ -934,6 +1602,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）",
   "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active)",
   "triggerType": "",
@@ -968,6 +1637,41 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このフィールドはアクティブで場に登場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "自分の場のキャラを{0}枚選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このフィールドはアクティブで場に登場させる。【起動メイン】【レストにする】自分の場のキャラを1枚選び、このターン中、BP+500。",
   "effectEn": "This Field is played active. [Activate: Main] [Rest this card] Choose 1 character on your field, it gets BP+500 this turn.",
   "triggerType": "Get",
@@ -997,6 +1701,34 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "相手のフロントLのキャラを{0}枚まで選び、レストにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "相手のフロントLのキャラを1枚まで選び、レストにする。カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "Choose up to 1 character in your opponent's Front Line, rest it. Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Active",
@@ -1026,6 +1758,58 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "以下から{0}つ選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "BP{0}以下の相手のフロントLのキャラを{1}枚選び、退場させる",
+      "nums": [
+       4000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から{0}枚を裏向きで自分の場の⟨n0⟩{1}枚の下に置いてもよい",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "馬狼 照英"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟨n0⟩がある場合、BP{0}以下の相手のフロントLのキャラを{1}枚選び、退場させる",
+      "nums": [
+       5000,
+       1
+      ],
+      "names": [
+       "馬狼 照英"
+      ],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   }
+  ],
   "effectJp": "以下から1つ選ぶ。・BP4000以下の相手のフロントLのキャラを1枚選び、退場させる。自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から1枚を裏向きで自分の場の〈馬狼 照英〉1枚の下に置いてもよい。・自分の場に〈馬狼 照英〉がある場合、BP5000以下の相手のフロントLのキャラを1枚選び、退場させる。",
   "effectEn": "Choose 1 of the following. Choose 1 character in your opponent's Front Line with BP 4000 or less, retire it. If no character on your field has face-down cards under it, you may put the top 1 card(s) of your deck face down under 1 <馬狼 照英> on your field. If you have <馬狼 照英> on your field, Choose 1 character in your opponent's Front Line with BP 5000 or less, retire it.",
   "triggerType": "Special",
@@ -1055,6 +1839,36 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "『BP{0}以下』の相手のフロントLのキャラを{1}枚選び、退場させる",
+      "nums": [
+       3000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟨n0⟩がある場合、『BP{0}以下』に代わる",
+      "nums": [
+       5000
+      ],
+      "names": [
+       "凪 誠士郎"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈凪 誠士郎〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <凪 誠士郎> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -1084,6 +1898,35 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分の場の⟨n0⟩を{0}枚まで選び、このターン中、[Snipe]を与える",
+      "nums": [
+       1
+      ],
+      "names": [
+       "剣城 斬鉄"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の手札を1枚場外に置く。そうした場合、自分の場の〈剣城 斬鉄〉を1枚まで選び、このターン中、【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、指定した場合、相手はブロックできない）を与える。",
   "effectEn": "Put 1 card(s) from your hand into your Outside Area. If you do, Choose up to 1 <剣城 斬鉄> on your field, This turn, [Snipe](Can attack a character in your opponent's Front Line; if it does, your opponent cannot block) is given.",
   "triggerType": "",
@@ -1113,6 +1956,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1142,6 +2003,43 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       7
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟨n0⟩と⟨n1⟩をそれぞれ{0}枚まで公開し手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [
+       "凪 誠士郎",
+       "御影 玲王"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の山札の上から7枚見る。その中から〈凪 誠士郎〉と〈御影 玲王〉をそれぞれ1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "Look at the top 7 card(s) of your deck. Reveal up to 1 each of <凪 誠士郎> and <御影 玲王> among them and add them to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -1176,6 +2074,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "必要エナジーが{0}以下の自分の場の他のキャラを{1}枚手札に戻す",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "戻せない場合、このキャラを手札に戻す",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -1210,6 +2134,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "このターン中、このキャラの発生エナジー+[Blue]",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "メインフェイズ終了時、このキャラを退場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【青】。メインフェイズ終了時、このキャラを退場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Blue]. At the end of the Main Phase, retire this character.",
   "triggerType": "",
@@ -1244,6 +2194,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1278,6 +2229,53 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       4
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟨n0⟩か⟨n1⟩か⟨n2⟩を{0}枚まで公開し手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [
+       "潔 世一",
+       "千切 豹馬",
+       "馬狼 照英"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から4枚見る。その中から〈潔 世一〉か〈千切 豹馬〉か〈馬狼 照英〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck. Reveal up to 1 <潔 世一> or <千切 豹馬> or <馬狼 照英> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Color",
@@ -1315,6 +2313,65 @@
    "value": "凪 誠士郎"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、[Impact {0}]を得る",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラの下の裏向きのカードを{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分の山札の上から{0}枚見る",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中からカードを{0}枚手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈凪 誠士郎〉アクティブにし、フロントLに移動できる【登場時】このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）を得る。【アタック時】このキャラの下の裏向きのカードを1枚場外に置いてもよい。そうした場合、自分の山札の上から3枚見る。その中からカードを1枚手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "[Raid] Can Raid onto <凪 誠士郎>; set it to active and you may move it to the Front Line. [On Play] This character, this turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained. [When Attacking] You may put 1 face-down card(s) under this character into your Outside Area. If you do, Look at the top 3 card(s) of your deck. From among them, add 1 card to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Raid",
@@ -1349,6 +2406,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、BP+{0}",
+      "nums": [
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【アタック時】このキャラはこのターン中、BP+1000。",
   "effectEn": "[When Attacking] This character gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -1383,6 +2458,55 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟨n0⟩と⟨n1⟩と⟨n2⟩がある場合、このキャラはBP+{0}",
+      "nums": [
+       1500
+      ],
+      "names": [
+       "潔 世一",
+       "凪 誠士郎",
+       "千切 豹馬"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラの下の裏向きのカードを{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、このキャラはこのターン中、[Damage {0}]を得る",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】自分の場に〈潔 世一〉と〈凪 誠士郎〉と〈千切 豹馬〉がある場合、このキャラはBP+1500。【アタック時】このキャラの下の裏向きのカードを1枚場外に置いてもよい。そうした場合、このキャラはこのターン中、【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）を得る。",
   "effectEn": "[During Your Turn] If you have <潔 世一> and <凪 誠士郎> and <千切 豹馬> on your field, This character gets BP+1500. [When Attacking] You may put 1 face-down card(s) under this character into your Outside Area. If you do, This character, this turn, [Damage 2](When this character deals direct damage by attacking, deal 2 damage instead) is gained.",
   "triggerType": "Get",
@@ -1421,6 +2545,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "Draw",
@@ -1457,6 +2582,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラの下の裏向きのカードを{0}枚、裏向きのカードが下にない自分の場のキャラの下に移動させる",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【ターン1】自分の場のキャラの下の裏向きのカードを1枚、裏向きのカードが下にない自分の場のキャラの下に移動させる。",
   "effectEn": "[Activate: Main] [Once Per Turn] Move 1 face-down card(s) under a character on your field to under a character on your field that has no face-down cards under it.",
   "triggerType": "Get",
@@ -1493,6 +2637,27 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラの下に裏向きのカードがある場合、自分のフロントLの⟦t0⟧を{0}枚まで選び、このターン中、[Impact +{1}]を与える",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "チームZ"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の場のキャラの下に裏向きのカードがある場合、自分のフロントLの［特徴：チームZ］を1枚まで選び、このターン中、【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を与える。",
   "effectEn": "[On Play] If a character on your field has face-down cards under it, choose up to 1 [Trait: Team Z] in your Front Line; it gains [Impact +1] (Impact damage is increased by 1; if it doesn't have Impact, it gains [Impact 1]) this turn.",
   "triggerType": "Active",
@@ -1529,6 +2694,37 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラの下の裏向きのカードを{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、カードを{0}枚引き、さらに自分の場に他の⟦t0⟧が{1}枚以上あるなら、カードを{2}枚引く",
+      "nums": [
+       1,
+       5,
+       2
+      ],
+      "names": [],
+      "traits": [
+       "チームZ"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【アタック時】このキャラの下の裏向きのカードを1枚場外に置いてもよい。そうした場合、カードを1枚引き、さらに自分の場に他の［特徴：チームZ］が5枚以上あるなら、カードを2枚引く。",
   "effectEn": "[When Attacking] You may put 1 face-down card(s) under this character into your Outside Area. If you do, draw 1 card(s), and if you also have 5 or more other [Trait: Team Z] on your field, draw 2 card(s).",
   "triggerType": "Draw",
@@ -1570,6 +2766,47 @@
    "value": "潔 世一"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "⟨n0⟩以外の自分の場のキャラを{0}枚まで選び、そのキャラが持つ全ての[When Attacking]をこのキャラが発動する",
+      "nums": [
+       1
+      ],
+      "names": [
+       "潔 世一"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   },
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "⟨n0⟩以外の自分の場のキャラの下から裏向きのカードが{0}枚場外に置かれた時、そのカードを裏向きでこのキャラの下に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [
+       "潔 世一"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈潔 世一〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【アタック時】【ターン1】〈潔 世一〉以外の自分の場のキャラを1枚まで選び、そのキャラが持つ全ての【アタック時】をこのキャラが発動する。【自分のターン中】〈潔 世一〉以外の自分の場のキャラの下から裏向きのカードが1枚場外に置かれた時、そのカードを裏向きでこのキャラの下に置いてもよい。",
   "effectEn": "[Raid] Can Raid onto <潔 世一>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [When Attacking] [Once Per Turn] Choose up to 1 character on your field other than <潔 世一>; this character activates all [When Attacking] effects that character has. [During Your Turn] When 1 face-down card(s) are put into your Outside Area from under a character on your field other than <潔 世一>, you may put that card face down under this character.",
   "triggerType": "Raid",
@@ -1606,6 +2843,33 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラの下の裏向きのカードを{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、このキャラはこのターン中、BP+{0}",
+      "nums": [
+       2000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【アタック時】このキャラの下の裏向きのカードを1枚場外に置いてもよい。そうした場合、このキャラはこのターン中、BP+2000。",
   "effectEn": "[When Attacking] You may put 1 face-down card(s) under this character into your Outside Area. If you do, This character gets BP+2000 this turn.",
   "triggerType": "Active",
@@ -1642,6 +2906,22 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがアクティブの場合、このキャラの発生エナジー+[Blue]",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【青】。",
   "effectEn": "While this character is active, its generated energy +[Blue].",
   "triggerType": "",
@@ -1678,6 +2958,33 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "相手のフロントLにアクティブのキャラがある場合、このキャラは[Damage {0}]を得る",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラがアタックしてブロックされなかった時、相手はカードを{0}枚引く",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "相手のフロントLにアクティブのキャラがある場合、このキャラは【ダメージ（3）】（このキャラがアタックで直接ダメージを与える時、代わりに3ダメージ）を得る。このキャラがアタックしてブロックされなかった時、相手はカードを3枚引く。",
   "effectEn": "If your opponent has active character in their Front Line, This character [Damage 3](When this character deals direct damage by attacking, deal 3 damage instead) is gained. When this character attacks and is not blocked, your opponent draws 3 card(s).",
   "triggerType": "",
@@ -1714,6 +3021,27 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に他の⟦t0⟧が{0}枚以上ある場合、カードを{1}枚引く",
+      "nums": [
+       5,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "チームZ"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【アタック時】自分の場に他の［特徴：チームZ］が5枚以上ある場合、カードを1枚引く。",
   "effectEn": "[When Attacking] If you have 5 or more other [Trait: Team Z] on your field, Draw 1 card(s).",
   "triggerType": "",
@@ -1750,6 +3078,50 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から{0}枚を裏向きでこのキャラの下に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラの下の裏向きのカードを{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、BP{0}以下の相手のフロントLのキャラを{1}枚まで選び、レストにする",
+      "nums": [
+       3000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から1枚を裏向きでこのキャラの下に置いてもよい。【アタック時】このキャラの下の裏向きのカードを1枚場外に置いてもよい。そうした場合、BP3000以下の相手のフロントLのキャラを1枚まで選び、レストにする。",
   "effectEn": "[On Play] If no character on your field has face-down cards under it, you may put the top 1 card(s) of your deck face down under this character. [When Attacking] You may put 1 face-down card(s) under this character into your Outside Area. If you do, Choose up to 1 character in your opponent's Front Line with BP 3000 or less, rest it.",
   "triggerType": "Active",
@@ -1786,6 +3158,50 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から{0}枚を裏向きでこのキャラの下に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラの下の裏向きのカードを{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から1枚を裏向きでこのキャラの下に置いてもよい。【アタック時】このキャラの下の裏向きのカードを1枚場外に置いてもよい。そうした場合、カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] If no character on your field has face-down cards under it, you may put the top 1 card(s) of your deck face down under this character. [When Attacking] You may put 1 face-down card(s) under this character into your Outside Area. If you do, Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -1822,6 +3238,31 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から望む枚数を望む順で自分の山札の上に置き、残りを望む順で下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを望む順で下に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck. Put any number of them on top of your deck in any order, Put the rest on the bottom of your deck in any order.",
   "triggerType": "",
@@ -1858,6 +3299,69 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟨n0⟩と⟨n1⟩と⟨n2⟩がある場合、自分の手札を{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [
+       "潔 世一",
+       "凪 誠士郎",
+       "馬狼 照英"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "⟨n0⟩のこの効果は{0}ターンに{1}回のみ発動できる",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "千切 豹馬"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から{0}枚を裏向きで自分の場のキャラ{1}枚の下に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【登場時】自分の場に〈潔 世一〉と〈凪 誠士郎〉と〈馬狼 照英〉がある場合、自分の手札を1枚場外に置いてもよい。そうした場合、自分のAPカードを2枚まで選び、アクティブにする。〈千切 豹馬〉のこの効果は1ターンに1回のみ発動できる。【起動メイン】【フロントLにある場合】【ターン1】自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から1枚を裏向きで自分の場のキャラ1枚の下に置く。",
   "effectEn": "[On Play] If you have <潔 世一> and <凪 誠士郎> and <馬狼 照英> on your field, You may put 1 card(s) from your hand into your Outside Area. If you do, Choose up to 2 of your AP cards, set it to active. This <千切 豹馬> effect can only activate 1 time(s) per 1 turn(s). [Activate: Main] [While in Front Line] [Once Per Turn] If no character on your field has face-down cards under it, put the top 1 card(s) of your deck face down under 1 character on your field.",
   "triggerType": "",
@@ -1894,6 +3398,54 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "discard": 1
+    },
+    "steps": [
+     {
+      "key": "このキャラの下に裏向きのカードがある場合、このキャラをアクティブにする",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラの下の裏向きのカードを{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、このキャラはこのターン中、BP+{0}され、さらに自分の場に他の⟦t0⟧が{1}枚以上あるなら、カードを{2}枚引く",
+      "nums": [
+       2000,
+       5,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "チームZ"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【起動メイン】【手札を1枚場外に置く】【ターン1】このキャラの下に裏向きのカードがある場合、このキャラをアクティブにする。【アタック時】このキャラの下の裏向きのカードを1枚場外に置いてもよい。そうした場合、このキャラはこのターン中、BP+2000され、さらに自分の場に他の［特徴：チームZ］が5枚以上あるなら、カードを1枚引く。",
   "effectEn": "[Activate: Main] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] If this character has face-down cards under it, set this character to active. [When Attacking] You may put 1 face-down card(s) under this character into your Outside Area. If you do, this character gets BP+2000 this turn, and if you also have 5 or more other [Trait: Team Z] on your field, draw 1 card(s).",
   "triggerType": "Color",
@@ -1930,6 +3482,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnRetire",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【退場時】カードを1枚引く。",
   "effectEn": "[On Retire] Draw 1 card(s).",
   "triggerType": "",
@@ -1966,6 +3536,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -2002,6 +3591,51 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟦t0⟧かフィールドカードを{0}枚まで公開し手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "チームZ"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から［特徴：チームZ］かフィールドカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: Team Z] or field card among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -2041,6 +3675,44 @@
    "value": "蜂楽 廻"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはBP{0}以下のキャラにブロックされない",
+      "nums": [
+       2000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に他の⟦t0⟧が{0}枚以上ある場合、BP{1}以上の相手のフロントLのキャラ全ては、このターン中、BP-{2}",
+      "nums": [
+       5,
+       1500,
+       1000
+      ],
+      "names": [],
+      "traits": [
+       "チームZ"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈蜂楽 廻〉アクティブにし、フロントLに移動できるこのキャラはBP2000以下のキャラにブロックされない。【アタック時】自分の場に他の［特徴：チームZ］が5枚以上ある場合、BP1500以上の相手のフロントLのキャラ全ては、このターン中、BP-1000。",
   "effectEn": "[Raid] Can Raid onto <蜂楽 廻>; set it to active and you may move it to the Front Line. This character cannot be blocked by characters with BP 2000 or less. [When Attacking] If you have 5 or more other [Trait: Team Z] on your field, all characters in your opponent's Front Line with BP 1500 or more it gets BP-1000 this turn.",
   "triggerType": "Raid",
@@ -2077,6 +3749,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "相手の場に黄か赤のカードがある場合、手札にあるこのカードの必要エナジーを[Blue x{0}]減らす",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "相手の場に黄か赤のカードがある場合、手札にあるこのカードの必要エナジーを【青×1】減らす。",
   "effectEn": "If your opponent has Yellow or Red card on their field, the required energy of this card in your hand [Blue x1]is reduced.",
   "triggerType": "",
@@ -2111,6 +3801,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラがアタックしてバトルに勝利した時、カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【ターン1】自分の場のキャラがアタックしてバトルに勝利した時、カードを1枚引く。",
   "effectEn": "[Once Per Turn] When a character on your field attacks and wins a battle, draw 1 card(s).",
   "triggerType": "Draw",
@@ -2140,6 +3849,42 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       5
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟦t0⟧を{0}枚まで公開し手札に加える",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [
+       "チームZ"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の山札の上から5枚見る。その中から［特徴：チームZ］を2枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "Look at the top 5 card(s) of your deck. Reveal up to 2 [Trait: Team Z] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -2169,6 +3914,34 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLの青のキャラを{0}枚選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       2000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "選んだキャラの下に裏向きのカードがある場合、さらにこのターン中、[Impact +{0}]を与える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のフロントLの青のキャラを1枚選び、このターン中、BP+2000。選んだキャラの下に裏向きのカードがある場合、さらにこのターン中、【インパクト（+1）】（インパクトの与えるダメージが+1され、インパクトを持たない場合、【インパクト（1）】を得る）を与える。",
   "effectEn": "Choose 1 Blue character in your Front Line, it gets BP+2000 this turn. If the chosen character has face-down cards under it, it also gains [Impact +1] (Impact damage is increased by 1; if it doesn't have Impact, it gains [Impact 1]) this turn.",
   "triggerType": "Draw",
@@ -2198,6 +3971,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2227,6 +4018,34 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "BP{0}以下の相手のフロントLのキャラを{1}枚選び、『手札に戻す』",
+      "nums": [
+       5000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟨n0⟩がある場合、『退場させる』に代わる",
+      "nums": [],
+      "names": [
+       "潔 世一"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "BP5000以下の相手のフロントLのキャラを1枚選び、『手札に戻す』。自分の場に〈潔 世一〉がある場合、『退場させる』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 5000 or less, “return it to its owner's hand” If you have <潔 世一> on your field, it becomes “retire it” instead.",
   "triggerType": "Special",
@@ -2256,6 +4075,38 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札か自分の場外から必要エナジーを満たし消費APが{0}の⟨n0⟩を{1}枚まで自分の場にレストで登場させるかレイドさせる",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "蜂楽 廻"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分のライフが{0}以下の場合、BP{1}以下の相手のフロントLのキャラを{2}枚まで選び、手札に戻す",
+      "nums": [
+       4,
+       5000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の手札か自分の場外から必要エナジーを満たし消費APが1の〈蜂楽 廻〉を1枚まで自分の場にレストで登場させるかレイドさせる。自分のライフが4以下の場合、BP5000以下の相手のフロントLのキャラを1枚まで選び、手札に戻す。",
   "effectEn": "Play up to 1 <蜂楽 廻> that meets its required energy and has AP cost 1 from your hand or Outside Area to your field rested, or Raid it. If your Life is 4 or less, choose up to 1 character in your opponent's Front Line with BP 5000 or less and return it to its owner's hand.",
   "triggerType": "Special",
@@ -2285,6 +4136,31 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラを望む枚数選び、別のラインに移動させるか入れ替える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場のキャラを望む枚数選び、別のラインに移動させるか入れ替える。自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "Choose any number of characters on your field, and move them to another line or swap them. Choose up to 1 of your AP cards, set it to active.",
   "triggerType": "Active",
@@ -2321,6 +4197,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "",
@@ -2357,6 +4234,34 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚『場外に置く』",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場のキャラの下に裏向きのカードがない場合、『裏向きで自分の場のキャラ{0}枚の下に置く』に代えてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【登場時】カードを1枚引き、自分の手札を1枚『場外に置く』。自分の場のキャラの下に裏向きのカードがない場合、『裏向きで自分の場のキャラ1枚の下に置く』に代えてもよい。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [On Play] Draw 1 card(s), and “put 1 card(s) from your hand into its owner's Outside Area” If no character on your field has face-down cards under it, you may instead “put it face down under 1 character on your field”",
   "triggerType": "",
@@ -2394,6 +4299,45 @@
    "value": "蟻生 十兵衛"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の手札から必要エナジーが{0}以下で消費APが{1}の赤のキャラカードを{2}枚まで自分の場にレストで登場させる",
+      "nums": [
+       2,
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から{0}枚を裏向きで自分の場のキャラ{1}枚の下に置いてもよい",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈蟻生 十兵衛〉アクティブにし、フロントLに移動できる【登場時】カードを1枚引く。自分の手札から必要エナジーが2以下で消費APが1の赤のキャラカードを1枚まで自分の場にレストで登場させる。自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から1枚を裏向きで自分の場のキャラ1枚の下に置いてもよい。",
   "effectEn": "[Raid] Can Raid onto <蟻生 十兵衛>; set it to active and you may move it to the Front Line. [On Play] Draw 1 card(s). Play up to 1 Red character card with required energy 2 or less and with AP cost 1 from your hand to your field rested. If no character on your field has face-down cards under it, you may put the top 1 card(s) of your deck face down under 1 character on your field.",
   "triggerType": "Get",
@@ -2428,6 +4372,40 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       7
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中からフィールドカードを{0}枚まで公開し手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から7枚見る。その中からフィールドカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "[On Play] Look at the top 7 card(s) of your deck. Reveal up to 1 Field card among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -2462,6 +4440,22 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラの下に裏向きのカードがあり、自分の場に赤以外の色のカードがない場合、このキャラの発生エナジー+[Red]",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラの下に裏向きのカードがあり、自分の場に赤以外の色のカードがない場合、このキャラの発生エナジー+【赤】。",
   "effectEn": "If this character has face-down cards under it and you have no cards of colors other than red on your field, this character's generated energy +[Red].",
   "triggerType": "",
@@ -2496,6 +4490,50 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       5
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から必要エナジーが{0}以上のキャラカードを{1}枚まで公開し手札に加える",
+      "nums": [
+       5,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から5枚見る。その中から必要エナジーが5以上のキャラカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 5 card(s) of your deck. Reveal up to 1 character card with required energy 5 or more among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Color",
@@ -2532,6 +4570,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）",
   "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent)",
   "triggerType": "Draw",
@@ -2569,6 +4608,50 @@
    "value": "糸師 凛"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このカードが、裏向きのカードが下にあるキャラにレイドする際、必要エナジーを[Red x{0}]減らす",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、[Impact {0}]を得る",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラの下に裏向きのカードがある場合、BP{0}以下の相手のフロントLのキャラを{1}枚まで選び、退場させる",
+      "nums": [
+       5000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このカードが、裏向きのカードが下にあるキャラにレイドする際、必要エナジーを【赤×2】減らす。【レイド】〈糸師 凛〉アクティブにし、フロントLに移動できる【登場時】このキャラはこのターン中、【インパクト（1）】を得る。このキャラの下に裏向きのカードがある場合、BP5000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "When this card Raids onto a character that has face-down cards under it, reduce its required energy by [Red x2]. [Raid] Can Raid onto <糸師 凛>; set it to active and you may move it to the Front Line. [On Play] This character, this turn, [Impact 1] is gained. If this character has face-down cards under it, choose up to 1 character in your opponent's Front Line with BP 5000 or less and retire it.",
   "triggerType": "Raid",
@@ -2603,6 +4686,28 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true,
+     "retireSelf": true
+    },
+    "steps": [
+     {
+      "key": "自分の場外から必要エナジーが{0}以下で赤のキャラカードを{1}枚まで手札に加える",
+      "nums": [
+       2,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】自分の場外から必要エナジーが2以下で赤のキャラカードを1枚まで手札に加える。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] Add up to 1 red character card with required energy 2 or less from your Outside Area to your hand.",
   "triggerType": "Draw",
@@ -2637,6 +4742,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -2671,6 +4777,37 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "ap": 1
+    },
+    "steps": [
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場のキャラを{0}枚まで選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【APを1支払う】【ターン1】カードを1枚引く。自分の場のキャラを1枚まで選び、このターン中、BP+500。",
   "effectEn": "[Activate: Main] [Pay 1 AP] [Once Per Turn] Draw 1 card(s). Choose up to 1 character on your field, it gets BP+500 this turn.",
   "triggerType": "Active",
@@ -2708,6 +4845,44 @@
    "value": "國神 錬介"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがアタックしてブロックされた時、このキャラはこのターン中、BP+{0}",
+      "nums": [
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがアタックしてブロックされなかった時、同じラインに⟨n0⟩と⟨n1⟩がある場合、カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [
+       "千切 豹馬",
+       "御影 玲王"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【レイド】〈國神 錬介〉アクティブにし、フロントLに移動できるこのキャラがアタックしてブロックされた時、このキャラはこのターン中、BP+500。【ターン1】このキャラがアタックしてブロックされなかった時、同じラインに〈千切 豹馬〉と〈御影 玲王〉がある場合、カードを1枚引く。",
   "effectEn": "[Raid] Can Raid onto <國神 錬介>; set it to active and you may move it to the Front Line. When this character attacks and is blocked, this character gets BP+500 this turn. [Once Per Turn] When this character attacks and is not blocked, if <千切 豹馬> and <御影 玲王> are in the same line, draw 1 card(s).",
   "triggerType": "Raid",
@@ -2744,6 +4919,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -2778,6 +4954,22 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがアクティブの場合、このキャラの発生エナジー+[Red]",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【赤】。",
   "effectEn": "While this character is active, its generated energy +[Red].",
   "triggerType": "",
@@ -2812,6 +5004,26 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札から必要エナジーが{0}以下で消費APが{1}の赤のキャラカードを{2}枚まで自分の場にレストで登場させる",
+      "nums": [
+       2,
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の手札から必要エナジーが2以下で消費APが1の赤のキャラカードを1枚まで自分の場にレストで登場させる。",
   "effectEn": "[On Play] Play up to 1 Red character card with required energy 2 or less and with AP cost 1 from your hand to your field rested.",
   "triggerType": "Active",
@@ -2851,6 +5063,37 @@
    "value": "千切 豹馬"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札を{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分の場の⟨n0⟩か⟨n1⟩を{0}枚まで選び、アクティブにする",
+      "nums": [
+       1
+      ],
+      "names": [
+       "國神 錬介",
+       "御影 玲王"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【レイド】〈千切 豹馬〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【アタック時】【ターン1】自分の手札を1枚場外に置いてもよい。そうした場合、自分の場の〈國神 錬介〉か〈御影 玲王〉を1枚まで選び、アクティブにする。",
   "effectEn": "[Raid] Can Raid onto <千切 豹馬>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [When Attacking] [Once Per Turn] You may put 1 card(s) from your hand into your Outside Area. If you do, Choose up to 1 <國神 錬介> or <御影 玲王> on your field, set it to active.",
   "triggerType": "Raid",
@@ -2885,6 +5128,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "このターン中、このキャラの発生エナジー+[Red]",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "メインフェイズ終了時、このキャラを退場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【ターン1】このターン中、このキャラの発生エナジー+【赤】。メインフェイズ終了時、このキャラを退場させる。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character's generated energy +[Red]. At the end of the Main Phase, retire this character.",
   "triggerType": "",
@@ -2919,6 +5188,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "相手の場に黄か青のカードがある場合、手札にあるこのカードの必要エナジーを[Red x{0}]減らす",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "相手の場に黄か青のカードがある場合、手札にあるこのカードの必要エナジーを【赤×1】減らす。",
   "effectEn": "If your opponent has Yellow or Blue card on their field, the required energy of this card in your hand [Red x1]is reduced.",
   "triggerType": "",
@@ -2956,6 +5243,41 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがブロックしてバトルに勝利した時、このキャラはこのターン中、BP-{0}",
+      "nums": [
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラの下の裏向きのカードを{0}枚、裏向きのカードが下にない自分の場のキャラの下に移動させる",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）このキャラがブロックしてバトルに勝利した時、このキャラはこのターン中、BP-500。【起動メイン】【ターン1】自分の場のキャラの下の裏向きのカードを1枚、裏向きのカードが下にない自分の場のキャラの下に移動させる。",
   "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active) [Impact Nullify] (The character that battles this character loses [Impact] during this battle) When this character blocks and wins a battle, this character gets BP-500 this turn. [Activate: Main] [Once Per Turn] Move 1 face-down card(s) under a character on your field to under a character on your field that has no face-down cards under it.",
   "triggerType": "Get",
@@ -2990,6 +5312,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -3024,6 +5347,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "必要エナジーが{0}以下の自分の場の他のキャラを{1}枚手札に戻す",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "戻せない場合、このキャラを手札に戻す",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -3060,6 +5409,42 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から{0}枚を裏向きで自分の場のキャラ{1}枚の下に置いてもよい",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラの下の裏向きのカードを{0}枚、裏向きのカードが下にない自分の場のキャラの下に移動させる",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【登場時】自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から1枚を裏向きで自分の場のキャラ1枚の下に置いてもよい。【起動メイン】【ターン1】自分の場のキャラの下の裏向きのカードを1枚、裏向きのカードが下にない自分の場のキャラの下に移動させる。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [On Play] If no character on your field has face-down cards under it, you may put the top 1 card(s) of your deck face down under 1 character on your field. [Activate: Main] [Once Per Turn] Move 1 face-down card(s) under a character on your field to under a character on your field that has no face-down cards under it.",
   "triggerType": "Active",
@@ -3097,6 +5482,57 @@
    "value": "蜂楽 廻"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このカードが、裏向きのカードが下にあるキャラにレイドする際、必要エナジーを[Red x{0}]減らす",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラの下の裏向きのカードを{0}枚、裏向きのカードが下にない自分の場のキャラの下に移動させる",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   },
+   {
+    "timing": "Static",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "裏向きのカードが下にある自分の場のキャラは[Double Attack]を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このカードが、裏向きのカードが下にあるキャラにレイドする際、必要エナジーを【赤×2】減らす。【起動メイン】【ターン1】自分の場のキャラの下の裏向きのカードを1枚、裏向きのカードが下にない自分の場のキャラの下に移動させる。【レイド】〈蜂楽 廻〉アクティブにし、フロントLに移動できる【フロントLにある場合】裏向きのカードが下にある自分の場のキャラは【2回アタック】（このキャラがこのターン初めてアタックした時、アクティブにする）を得る。",
   "effectEn": "When this card Raids onto a character that has face-down cards under it, reduce its required energy by [Red x2]. [Activate: Main] [Once Per Turn] Move 1 face-down card(s) under a character on your field to under a character on your field that has no face-down cards under it. [Raid] Can Raid onto <蜂楽 廻>; set it to active and you may move it to the Front Line. [While in Front Line] Characters on your field with face-down cards under them gain [Double Attack] (When this character attacks for the first time this turn, set it to active)",
   "triggerType": "Raid",
@@ -3131,6 +5567,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の他のキャラを{0}枚まで選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -3165,6 +5620,54 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟨n0⟩か⟨n1⟩か⟨n2⟩か⟨n3⟩を{0}枚まで公開し手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [
+       "國神 錬介",
+       "千切 豹馬",
+       "御影 玲王",
+       "三者融合"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から〈國神 錬介〉か〈千切 豹馬〉か〈御影 玲王〉か〈三者融合〉を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 <國神 錬介> or <千切 豹馬> or <御影 玲王> or <三者融合> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Color",
@@ -3199,6 +5702,46 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "以下から{0}つ選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場の他のキャラ全ては、このターン中、BP+{0}",
+      "nums": [
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "自分の場の他のキャラを{0}枚選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】以下から1つ選ぶ。・自分の場の他のキャラ全ては、このターン中、BP+500。・自分の場の他のキャラを1枚選び、このターン中、BP+1500。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 of the following. All other characters on your field it gets BP+500 this turn. Choose 1 other character on your field, it gets BP+1500 this turn.",
   "triggerType": "Get",
@@ -3233,6 +5776,54 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から{0}枚を裏向きで自分の場のキャラ{1}枚の下に置いてもよい",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "自分の場のキャラの下の裏向きのカードを{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【登場時】自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から1枚を裏向きで自分の場のキャラ1枚の下に置いてもよい。【起動メイン】【レストにする】【ターン1】自分の場のキャラの下の裏向きのカードを1枚場外に置いてもよい。そうした場合、カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] If no character on your field has face-down cards under it, you may put the top 1 card(s) of your deck face down under 1 character on your field. [Activate: Main] [Rest this card] [Once Per Turn] You may put 1 face-down card(s) under characters on your field into your Outside Area. If you do, Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Get",
@@ -3267,6 +5858,64 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の赤の「⟨n0⟩と⟨n1⟩と⟨n2⟩」全ては、「[When Attacking]このキャラの下の裏向きのカードを{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [
+       "國神 錬介",
+       "千切 豹馬",
+       "御影 玲王"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、このキャラと同じBPの相手のフロントLのキャラを{0}枚まで選び、レストにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から{0}枚を裏向きで自分の場のキャラ{1}枚の下に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【自分のターン中】自分の場の赤の「〈國神 錬介〉と〈千切 豹馬〉と〈御影 玲王〉」全ては、「【アタック時】このキャラの下の裏向きのカードを1枚場外に置いてもよい。そうした場合、このキャラと同じBPの相手のフロントLのキャラを1枚まで選び、レストにする。」を得る。【起動メイン】【ターン1】自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から1枚を裏向きで自分の場のキャラ1枚の下に置く。",
   "effectEn": "[During Your Turn] All red “<國神 錬介>, <千切 豹馬> and <御影 玲王>” on your field gain “[When Attacking] You may put 1 face-down card(s) under this character into your Outside Area. Gains “If you do, choose up to 1 character in your opponent's Front Line with the same BP as this character, and rest it” [Activate: Main] [Once Per Turn] If no character on your field has face-down cards under it, put the top 1 card(s) of your deck face down under 1 character on your field.",
   "triggerType": "Get",
@@ -3296,6 +5945,45 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "『カードを{0}枚引く』",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟨n0⟩がある場合、『カードを{0}枚引く』に代わる",
+      "nums": [
+       2
+      ],
+      "names": [
+       "蟻生 十兵衛"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場のキャラの下に裏向きのカードがない場合、さらに自分の山札の上から{0}枚を裏向きで自分の場のキャラ{1}枚の下に置いてもよい",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "『カードを1枚引く』。自分の場に〈蟻生 十兵衛〉がある場合、『カードを2枚引く』に代わる。自分の場のキャラの下に裏向きのカードがない場合、さらに自分の山札の上から1枚を裏向きで自分の場のキャラ1枚の下に置いてもよい。",
   "effectEn": "“Draw 1 card(s)” If you have <蟻生 十兵衛> on your field, it becomes “Draw 2 card(s)” instead. If no character on your field has face-down cards under it, you may also put the top 1 card(s) of your deck face down under 1 character on your field.",
   "triggerType": "Draw",
@@ -3325,6 +6013,45 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       5
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟨n0⟩か⟨n1⟩か⟨n2⟩か⟨n3⟩を{0}枚まで公開し手札に加える",
+      "nums": [
+       2
+      ],
+      "names": [
+       "國神 錬介",
+       "千切 豹馬",
+       "御影 玲王",
+       "三者融合"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で自分の山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の山札の上から5枚見る。その中から〈國神 錬介〉か〈千切 豹馬〉か〈御影 玲王〉か〈三者融合〉を2枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。",
   "effectEn": "Look at the top 5 card(s) of your deck. Reveal up to 2 <國神 錬介> or <千切 豹馬> or <御影 玲王> or <三者融合> among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -3354,6 +6081,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -3383,6 +6128,29 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の⟨n0⟩と⟨n1⟩と⟨n2⟩の合計枚数×{0}以下のBPの相手のフロントLのキャラを{1}枚選び、退場させる",
+      "nums": [
+       1000,
+       1
+      ],
+      "names": [
+       "國神 錬介",
+       "千切 豹馬",
+       "御影 玲王"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場の〈國神 錬介〉と〈千切 豹馬〉と〈御影 玲王〉の合計枚数×1000以下のBPの相手のフロントLのキャラを1枚選び、退場させる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP equal to or less than 1000 × the total number of <國神 錬介>, <千切 豹馬> and <御影 玲王> on your field, and retire it.",
   "triggerType": "Special",
@@ -3412,6 +6180,36 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "『BP{0}以下』の相手のフロントLのキャラを{1}枚選び、退場させる",
+      "nums": [
+       3000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟨n0⟩がある場合、『BP{0}以下』に代わる",
+      "nums": [
+       5000
+      ],
+      "names": [
+       "糸師 凛"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈糸師 凛〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <糸師 凛> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -3448,6 +6246,26 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "oppTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはBP+{0}",
+      "nums": [
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【相手のターン中】このキャラはBP+1000。",
   "effectEn": "[During Opponent's Turn] This character gets BP+1000.",
   "triggerType": "",
@@ -3484,6 +6302,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3520,6 +6339,57 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から{0}枚を裏向きでこのキャラの下に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラの下の裏向きのカードを{0}枚、裏向きのカードが下にない自分の場のキャラの下に移動させる",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "ap": 1
+    },
+    "steps": [
+     {
+      "key": "このキャラの[On Play]を発動する",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から1枚を裏向きでこのキャラの下に置いてもよい。【起動メイン】【ターン1】自分の場のキャラの下の裏向きのカードを1枚、裏向きのカードが下にない自分の場のキャラの下に移動させる。【起動メイン】【APを1支払う】このキャラの【登場時】を発動する。",
   "effectEn": "[On Play] If no character on your field has face-down cards under it, you may put the top 1 card(s) of your deck face down under this character. [Activate: Main] [Once Per Turn] Move 1 face-down card(s) under a character on your field to under a character on your field that has no face-down cards under it. [Activate: Main] [Pay 1 AP] Activate this character's [On Play].",
   "triggerType": "",
@@ -3559,6 +6429,53 @@
    "value": "潔 世一"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から{0}枚を裏向きでこのキャラの下に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラの下に裏向きのカードがある場合、自分の手札から必要エナジーが{0}以下で消費APが{1}の⟦t0⟧を{2}枚まで自分の場にアクティブで登場させる",
+      "nums": [
+       2,
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "チームZ"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "登場させたキャラの下に、このキャラの下の裏向きのカードを{0}枚移動させてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈潔 世一〉アクティブにし、フロントLに移動できる【登場時】自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から1枚を裏向きでこのキャラの下に置いてもよい。【アタック時】このキャラの下に裏向きのカードがある場合、自分の手札から必要エナジーが2以下で消費APが1の［特徴：チームZ］を1枚まで自分の場にアクティブで登場させる。登場させたキャラの下に、このキャラの下の裏向きのカードを1枚移動させてもよい。",
   "effectEn": "[Raid] Can Raid onto <潔 世一>; set it to active and you may move it to the Front Line. [On Play] If no character on your field has face-down cards under it, you may put the top 1 card(s) of your deck face down under this character. [When Attacking] If this character has face-down cards under it, play up to 1 [Trait: Team Z] with required energy 2 or less and AP cost 1 from your hand to your field active. You may move 1 face-down card(s) under this character to under the played character.",
   "triggerType": "Raid",
@@ -3595,6 +6512,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -3633,6 +6551,33 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラの下の裏向きのカードを{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、相手のフロントLのキャラを{0}枚まで選び、手札に戻す",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【登場時】自分の場のキャラの下の裏向きのカードを1枚場外に置いてもよい。そうした場合、相手のフロントLのキャラを1枚まで選び、手札に戻す。",
   "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [On Play] You may put 1 face-down card(s) under characters on your field into your Outside Area. If you do, Choose up to 1 character in your opponent's Front Line, return it to its owner's hand.",
   "triggerType": "Draw",
@@ -3669,6 +6614,59 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧が{0}枚以上ある場合、手札にあるこのカードの必要エナジーを[Blue x{1}]減らす",
+      "nums": [
+       5,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "チームZ"
+      ],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラの下の裏向きのカードを{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、このキャラはこのターン中、「このキャラはBP{0}以上のキャラにブロックされない",
+      "nums": [
+       4000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場に［特徴：チームZ］が5枚以上ある場合、手札にあるこのカードの必要エナジーを【青×1】減らす。【アタック時】このキャラの下の裏向きのカードを1枚場外に置いてもよい。そうした場合、このキャラはこのターン中、「このキャラはBP4000以上のキャラにブロックされない。」を得る。",
   "effectEn": "If you have 5 or more [Trait: Team Z] on your field, the required energy of this card in your hand [Blue x1]is reduced. [When Attacking] You may put 1 face-down card(s) under this character into your Outside Area. If you do, This character gains “This character cannot be blocked by characters with BP 4000 or more” this turn.",
   "triggerType": "Draw",
@@ -3705,6 +6703,26 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "BP{0}以上の相手の場のキャラを{1}枚まで選び、このターン中、BP-{2}",
+      "nums": [
+       1500,
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】BP1500以上の相手の場のキャラを1枚まで選び、このターン中、BP-1000。",
   "effectEn": "[On Play] Choose up to 1 character on your opponent's field with BP 1500 or more, it gets BP-1000 this turn.",
   "triggerType": "Draw",
@@ -3739,6 +6757,58 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から{0}枚を裏向きで自分の場のキャラ{1}枚の下に置いてもよい",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラの下の裏向きのカードを{0}枚、裏向きのカードが下にない自分の場のキャラの下に移動させる",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "ap": 1
+    },
+    "steps": [
+     {
+      "key": "このフィールドの[On Play]を発動する",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の場のキャラの下に裏向きのカードがない場合、自分の山札の上から1枚を裏向きで自分の場のキャラ1枚の下に置いてもよい。【起動メイン】【ターン1】自分の場のキャラの下の裏向きのカードを1枚、裏向きのカードが下にない自分の場のキャラの下に移動させる。【起動メイン】【APを1支払う】このフィールドの【登場時】を発動する。",
   "effectEn": "[On Play] If no character on your field has face-down cards under it, you may put the top 1 card(s) of your deck face down under 1 character on your field. [Activate: Main] [Once Per Turn] Move 1 face-down card(s) under a character on your field to under a character on your field that has no face-down cards under it. [Activate: Main] [Pay 1 AP] Activate this field's [On Play].",
   "triggerType": "Get",
@@ -3766,6 +6836,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3793,6 +6864,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3820,6 +6892,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3847,6 +6920,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3874,6 +6948,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3901,6 +6976,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

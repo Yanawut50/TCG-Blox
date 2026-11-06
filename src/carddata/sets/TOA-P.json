@@ -29,6 +29,77 @@
    "value": "リンウェル"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の⟨n0⟩は場外でイベントカードとしても扱う",
+      "nums": [],
+      "names": [
+       "フルル"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見て、必要エナジーが{1}以下のカードを{2}枚まで公開し、残りを望む順で山札の下に置く",
+      "nums": [
+       5,
+       2,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "公開したカードを『手札に加える』",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分のターン中の場合、『APを支払わずに使用する』に代えてもよい",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場外にイベントカードが{0}枚以上ある場合、BP{1}以上の相手の場のキャラ全ては、このターン中、BP-{2}",
+      "nums": [
+       3,
+       1000,
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【レイド】〈リンウェル〉アクティブにし、フロントLに移動できる自分の〈フルル〉は場外でイベントカードとしても扱う。【登場時】自分の山札の上から5枚見て、必要エナジーが2以下のカードを1枚まで公開し、残りを望む順で山札の下に置く。公開したカードを『手札に加える』。自分のターン中の場合、『APを支払わずに使用する』に代えてもよい。【起動メイン】【フロントLにある場合】【ターン1】自分の場外にイベントカードが3枚以上ある場合、BP1000以上の相手の場のキャラ全ては、このターン中、BP-500。",
   "effectEn": "[Raid] Can Raid onto <リンウェル>; set it to active and you may move it to the Front Line. Your <フルル> is also treated as an event card in the Outside Area. [On Play] Look at the top 5 card(s) of your deck, reveal up to 1 card(s) with required energy 2 or less among them, and put the rest on the bottom of your deck in any order. “Add” the revealed card “to your hand” If it is your turn, you may instead make it “use it without paying AP” [Activate: Main] [While in Front Line] [Once Per Turn] If you have 3 or more Event cards in your Outside Area, all characters on your opponent's field with BP 1000 or more it gets BP-500 this turn.",
   "triggerType": "Raid",
@@ -63,6 +134,70 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "自分の場外にイベントカードが{0}枚以上ある場合、以下から{1}つ選ぶ",
+      "nums": [
+       3,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このターン中に既に選んだこのキャラの効果は選べない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場の元々の消費APが{0}のキャラを{1}枚選び、アクティブにする",
+      "nums": [
+       2,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "次の自分のターン開始時まで、このキャラの発生エナジー+[Blue]",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "energy"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場外にイベントカードが{0}枚以上ある場合、このキャラをアクティブにする",
+      "nums": [
+       5
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】自分の場外にイベントカードが3枚以上ある場合、以下から1つ選ぶ。このターン中に既に選んだこのキャラの効果は選べない。・自分の場の元々の消費APが2のキャラを1枚選び、アクティブにする。・次の自分のターン開始時まで、このキャラの発生エナジー+【青】。【起動メイン】【エナジーLにある場合】【ターン1】自分の場外にイベントカードが5枚以上ある場合、このキャラをアクティブにする。",
   "effectEn": "[Activate: Main] [Rest this card] If you have 3 or more Event cards in your Outside Area, Choose 1 of the following. You cannot choose an effect of this character that has already been chosen this turn. Choose 1 character on your field with original AP cost 2 and set it to active. Until the start of your next turn, This character's generated energy +[Blue]. [Activate: Main] [While in Energy Line] [Once Per Turn] If you have 5 or more Event cards in your Outside Area, Set this character to active.",
   "triggerType": "Active",
@@ -97,6 +232,70 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場にカードが{0}枚もない場合、手札にあるこのカードの必要エナジーを[Red x{1}]減らす",
+      "nums": [
+       1,
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラがレイドされた時、レイドしたキャラにこのターン中、[Impact {0}]を与える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見て、⟨n0⟩か⟨n1⟩を{1}枚まで公開し手札に加える",
+      "nums": [
+       3,
+       1
+      ],
+      "names": [
+       "アルフェン",
+       "シオン"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【赤×2】減らす。このキャラがレイドされた時、レイドしたキャラにこのターン中、【インパクト（1）】を与える。（レイドしたキャラの【登場時】とこの効果は望む順で処理する）【登場時】自分の山札の上から3枚見て、〈アルフェン〉か〈シオン〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Red x2]is reduced. When this character is Raided, the Raiding character gains [Impact 1] this turn. (Of the Raided character's [On Play] and this effect are resolved in any order) [On Play] Look at the top 3 card(s) of your deck, reveal up to 1 <アルフェン> or <Shion> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -136,6 +335,52 @@
    "value": "シオン"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       2,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の他のキャラを{0}枚まで選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分はこのターン中、自分の効果でライフエリアにあるカードを場外に置くことができない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【レイド】〈シオン〉アクティブにし、フロントLに移動できる【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【登場時】カードを2枚引き、自分の手札を1枚場外に置く。【起動メイン】【フロントLにある場合】【ターン1】自分の場の他のキャラを1枚まで選び、このターン中、BP+500。自分はこのターン中、自分の効果でライフエリアにあるカードを場外に置くことができない。",
   "effectEn": "[Raid] Can Raid onto <Shion>; set it to active and you may move it to the Front Line. [Impact Nullify] (The character that battles this character loses Impact during this battle) [On Play] Draw 2 card(s), then put 1 card(s) from your hand into your Outside Area. [Activate: Main] [While in Front Line] [Once Per Turn] Choose up to 1 other character on your field, it gets BP+500 this turn. This turn, you cannot put cards from your Life Area into your Outside Area with your own effects.",
   "triggerType": "Raid",

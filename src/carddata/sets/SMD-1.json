@@ -26,6 +26,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnRetire",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の他のキャラを{0}枚まで選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       3000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【退場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+3000。",
   "effectEn": "[On Retire] Choose up to 1 other character on your field, it gets BP+3000 this turn.",
   "triggerType": "Active",
@@ -60,6 +79,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、発生エナジー+[Yellow]と「メインフェイズ終了時、このキャラを退場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【黄】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Yellow] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -96,6 +141,25 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "WhenBlocking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "アタックしている相手のキャラの元々のBPが{0}以下の場合、このキャラはこのバトル中、BP+{1}",
+      "nums": [
+       3000,
+       2000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【2回ブロック】（このキャラがこのターン初めてブロックした時、アクティブにする）【ブロック時】アタックしている相手のキャラの元々のBPが3000以下の場合、このキャラはこのバトル中、BP+2000。",
   "effectEn": "[Double Block] (The first time this character blocks each turn, set it to active) [When Blocking] If the attacking opponent's character has original BP 3000 or less, this character gets BP+2000 during this battle.",
   "triggerType": "",
@@ -130,6 +194,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -164,6 +229,22 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがアクティブの場合、このキャラの発生エナジー+[Yellow]",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【黄】。",
   "effectEn": "While this character is active, its generated energy +[Yellow].",
   "triggerType": "",
@@ -198,6 +279,37 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true,
+     "discard": 1
+    },
+    "steps": [
+     {
+      "key": "自分の裏向きのライフを{0}枚表向きにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分の場の他のキャラを{0}枚まで選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       2000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【手札を1枚場外に置く】自分の裏向きのライフを1枚表向きにする。そうした場合、自分の場の他のキャラを1枚まで選び、このターン中、BP+2000。",
   "effectEn": "[Activate: Main] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] Turn 1 of your face-down Life face up. If you do, Choose up to 1 other character on your field, it gets BP+2000 this turn.",
   "triggerType": "Active",
@@ -232,6 +344,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "相手のフロントLのキャラを{0}枚まで選び、相手のライフエリアに表向きで置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】相手のフロントLのキャラを1枚まで選び、相手のライフエリアに表向きで置く。",
   "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line and put it face up into your opponent's Life Area.",
   "triggerType": "Draw",
@@ -269,6 +399,58 @@
    "value": "眞霜 平助"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、[Snipe]を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分のライフを{0}枚まで表向きにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "相手は自身のライフを{0}枚選び、それが裏向きの場合、表向きにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分と相手の山札とライフに表向きのカードが合計{0}枚以上ある場合、このキャラはこのターン中、[Impact {1}]を得る",
+      "nums": [
+       3,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【レイド】〈眞霜 平助〉アクティブにし、フロントLに移動できる【登場時】このキャラはこのターン中、【狙い撃ち】を得る。自分のライフを1枚まで表向きにする。相手は自身のライフを1枚選び、それが裏向きの場合、表向きにする。【起動メイン】【ターン1】自分と相手の山札とライフに表向きのカードが合計3枚以上ある場合、このキャラはこのターン中、【インパクト（1）】を得る。",
   "effectEn": "[Raid] Can Raid onto <Heisuke Mashimo>; set it to active and you may move it to the Front Line. [On Play] This character, this turn, [Snipe] is gained. Turn up to 1 of your Life face up. Your opponent chooses 1 of their Life cards; if it is face down, turn it face up. [Activate: Main] [Once Per Turn] If there are a total of 3 or more face-up cards in your and your opponent's decks and Life, this character gains [Impact 1] this turn.",
   "triggerType": "Raid",
@@ -303,6 +485,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】カードを1枚引く。",
   "effectEn": "[On Play] Draw 1 card(s).",
   "triggerType": "",
@@ -337,6 +537,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟨n0⟩がある場合、このキャラをアクティブにする",
+      "nums": [],
+      "names": [
+       "陸 少糖"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の場に〈陸 少糖〉がある場合、このキャラをアクティブにする。",
   "effectEn": "[On Play] If you have <Lu Shaotang> on your field, Set this character to active.",
   "triggerType": "",
@@ -373,6 +591,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -409,6 +646,34 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "を持たない自分の場の黄のキャラを{0}枚選び、このターン中、「自分の[Raid]を持つキャラカードはこのキャラにレイドできる",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を与える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】【レイド】を持たない自分の場の黄のキャラを1枚選び、このターン中、「自分の【レイド】を持つキャラカードはこのキャラにレイドできる。」を与える。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] [Raid] Choose 1 yellow character without it on your field; it gains “Your character cards with [Raid] can Raid onto this character” this turn.",
   "triggerType": "Active",
@@ -445,6 +710,38 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そのカードを山札の上か下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "上に置いた場合、そのカードを表向きにする",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から1枚見る。そのカードを山札の上か下に置く。上に置いた場合、そのカードを表向きにする。（山札の一番上ではなくなった場合は裏向きに戻る）",
   "effectEn": "[On Play] Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck. If you put it on top, turn that card face up. (If it is no longer the top card of the deck, it returns to face down)",
   "triggerType": "",
@@ -481,6 +778,53 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟦t0⟧か⟨n0⟩を{0}枚まで公開し手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [
+       "眞霜 平助"
+      ],
+      "traits": [
+       "坂本商店"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から［特徴：坂本商店］か〈眞霜 平助〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: Sakamoto Store] or <Heisuke Mashimo> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -517,6 +861,45 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧のカード名が{0}種類以上ある場合、以下から{1}つまで選ぶ",
+      "nums": [
+       3,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "坂本商店"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "このキャラはこのターン中、BP+{0}",
+      "nums": [
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   }
+  ],
   "effectJp": "【アタック時】自分の場に［特徴：坂本商店］のカード名が3種類以上ある場合、以下から1つまで選ぶ。・カードを1枚引く。・このキャラはこのターン中、BP+1000。",
   "effectEn": "[When Attacking] If you have 3 or more [Trait: Sakamoto Store] with different card names on your field, Choose up to 1 of the following. Draw 1 card(s). This character gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -553,6 +936,57 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "以下から{0}つ選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "そのカードを山札の上か下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "上に置いた場合、そのカードを表向きにする",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分か相手の山札かライフに表向きのカードがある場合、このターン中、次に手札から使用する元々の消費APが{0}のカードの消費APを-{1}する",
+      "nums": [
+       2,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】以下から1つ選ぶ。・自分の山札の上から1枚見る。そのカードを山札の上か下に置く。上に置いた場合、そのカードを表向きにする。・自分か相手の山札かライフに表向きのカードがある場合、このターン中、次に手札から使用する元々の消費APが2のカードの消費APを-1する。",
   "effectEn": "[On Play] Choose 1 of the following. Look at the top 1 card(s) of your deck. Put that card on the top or bottom of your deck. If you put it on top, turn that card face up. If there is a face-up card in your or your opponent's deck or Life, this turn, reduce the AP cost of the next card with original AP cost 2 you use from your hand by 1.",
   "triggerType": "Color",
@@ -592,6 +1026,60 @@
    "value": "朝倉 シン"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "相手は自身の手札を全て公開する",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分はその中から{0}枚まで、相手の山札の上に表向きで置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の山札の上から{1}枚を表向きにする",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "この効果で表向きではないカードを引いた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【レイド】〈朝倉 シン〉アクティブにし、フロントLに移動できる【登場時】相手は自身の手札を全て公開する。自分はその中から1枚まで、相手の山札の上に表向きで置く。【起動メイン】【フロントLにある場合】【ターン1】カードを1枚引き、自分の山札の上から1枚を表向きにする。この効果で表向きではないカードを引いた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[Raid] Can Raid onto <Shin Asakura>; set it to active and you may move it to the Front Line. [On Play] Your opponent reveals all cards in their hand. You put up to 1 of them face up on top of your opponent's deck. [Activate: Main] [While in Front Line] [Once Per Turn] Draw 1 card(s), then turn the top 1 card(s) of your deck face up. If you drew a card that was not face up with this effect, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Raid",
@@ -628,6 +1116,49 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "相手のフロントLのキャラを{0}枚まで選び、レストにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "それは次の{0}回アクティブにならない",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の山札の上に表向きのカードがある場合、そのカードを手札に加えてもよい",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、このキャラをアクティブにし、自分の山札の上から{0}枚を表向きにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】相手のフロントLのキャラを1枚まで選び、レストにする。それは次の1回アクティブにならない。自分の山札の上に表向きのカードがある場合、そのカードを手札に加えてもよい。そうした場合、このキャラをアクティブにし、自分の山札の上から1枚を表向きにする。",
   "effectEn": "[On Play] Choose up to 1 character in your opponent's Front Line, rest it. It does not become active the next 1 time(s). If the top card of your deck is face up, you may add that card to your hand. If you do, set this character to active and turn the top 1 card(s) of your deck face up.",
   "triggerType": "Get",
@@ -664,6 +1195,47 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [
+     "energy"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧のカード名が{0}種類以上ある場合、このキャラをアクティブにする",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [
+       "坂本商店"
+      ],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "自分の場の他のキャラを{0}枚選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】【エナジーLにある場合】自分の場に［特徴：坂本商店］のカード名が3種類以上ある場合、このキャラをアクティブにする。【起動メイン】【レストにする】自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
   "effectEn": "[On Play] [While in Energy Line] If you have 3 or more [Trait: Sakamoto Store] with different card names on your field, Set this character to active. [Activate: Main] [Rest this card] Choose 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -700,6 +1272,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "必要エナジーが{0}以下の自分の場の他のキャラを{1}枚手札に戻す",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "戻せない場合、このキャラを手札に戻す",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -738,6 +1336,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "",
@@ -774,6 +1373,29 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧のカード名が{0}種類以上ある場合、このキャラはBP+{1}",
+      "nums": [
+       3,
+       1000
+      ],
+      "names": [],
+      "traits": [
+       "坂本商店"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】自分の場に［特徴：坂本商店］のカード名が3種類以上ある場合、このキャラはBP+1000。",
   "effectEn": "[During Your Turn] If you have 3 or more [Trait: Sakamoto Store] with different card names on your field, This character gets BP+1000.",
   "triggerType": "Draw",
@@ -812,6 +1434,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "Active",
@@ -848,6 +1471,52 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場にカードが{0}枚もない場合、手札にあるこのカードの必要エナジーを[Yellow x{1}]減らす",
+      "nums": [
+       1,
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "Static",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "⟨n0⟩以外の自分の場の⟦t0⟧は、相手の〔キャラ",
+      "nums": [],
+      "names": [
+       "坂本 太郎"
+      ],
+      "traits": [
+       "坂本商店"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "イベントカード〕の効果で選ばれない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【黄×2】減らす。【フロントLにある場合】〈坂本 太郎〉以外の自分の場の［特徴：坂本商店］は、相手の〔キャラ・イベントカード〕の効果で選ばれない。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Yellow x2]is reduced. [While in Front Line] [Trait: Sakamoto Store] on your field other than <Taro Sakamoto>, by your opponent's character. Cannot be chosen by Event card effects.",
   "triggerType": "Color",
@@ -889,6 +1558,52 @@
    "value": "坂本 太郎"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラは次の自分のターン開始時まで、「このキャラは退場せず、BPをマイナスする効果を受けない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場のキャラを{0}枚まで選び、次の自分のターン開始時まで、「このキャラは相手の〔キャラ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "イベントカード〕の効果で選ばれない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "」を与える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈坂本 太郎〉アクティブにし、フロントLに移動できる【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】このキャラは次の自分のターン開始時まで、「このキャラは退場せず、BPをマイナスする効果を受けない。」を得る。自分の場のキャラを1枚まで選び、次の自分のターン開始時まで、「このキャラは相手の〔キャラ・イベントカード〕の効果で選ばれない。」を与える。",
   "effectEn": "[Raid] Can Raid onto <Taro Sakamoto>; set it to active and you may move it to the Front Line. [Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] Until the start of your next turn, this character gains “This character is not retired and is not affected by effects that reduce BP” Choose up to 1 character on your field; until the start of your next turn, it gains “This character cannot be chosen by your opponent's character or event card effects”",
   "triggerType": "Raid",
@@ -928,6 +1643,68 @@
    "value": "坂本 太郎"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のアタックフェイズ終了時、レイド状態のこのキャラの一番上のカードを場外に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、BP+{0}と[Impact {1}]を得る",
+      "nums": [
+       1000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       5
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟨n0⟩かBP{0}以下で消費APが{1}の黄のキャラカードを{2}枚まで自分の場にアクティブで登場させる",
+      "nums": [
+       3500,
+       1,
+       1
+      ],
+      "names": [
+       "坂本商店"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈坂本 太郎〉アクティブにし、フロントLに移動できる自分のアタックフェイズ終了時、レイド状態のこのキャラの一番上のカードを場外に置く。【登場時】このキャラはこのターン中、BP+1000と【インパクト（1）】を得る。自分の山札の上から5枚見る。その中から〈坂本商店〉かBP3500以下で消費APが1の黄のキャラカードを1枚まで自分の場にアクティブで登場させる。残りを望む順で山札の下に置く。",
   "effectEn": "[Raid] Can Raid onto <Taro Sakamoto>; set it to active and you may move it to the Front Line. At the end of your Attack Phase, put the top card of this Raided character into your Outside Area. [On Play] This character gets BP+1000 and gains [Impact 1] this turn. Look at the top 5 card(s) of your deck. Play up to 1 <Sakamoto's> or yellow character card with BP 3500 or less and AP cost 1 among them to your field active. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Raid",
@@ -964,6 +1741,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の他のキャラを{0}枚まで選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -1000,6 +1796,29 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧のカード名が{0}種類以上ある場合、このキャラはBP+{1}",
+      "nums": [
+       3,
+       2000
+      ],
+      "names": [],
+      "traits": [
+       "坂本商店"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】自分の場に［特徴：坂本商店］のカード名が3種類以上ある場合、このキャラはBP+2000。",
   "effectEn": "[During Your Turn] If you have 3 or more [Trait: Sakamoto Store] with different card names on your field, This character gets BP+2000.",
   "triggerType": "Active",
@@ -1036,6 +1855,22 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはレイド状態のキャラにブロックされない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラはレイド状態のキャラにブロックされない。",
   "effectEn": "This character cannot be blocked by Raided characters.",
   "triggerType": "",
@@ -1072,6 +1907,45 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧のカード名が{0}種類以上ある場合、このキャラは「このキャラはBP{1}以上のキャラにブロックされない",
+      "nums": [
+       3,
+       4000
+      ],
+      "names": [],
+      "traits": [
+       "坂本商店"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラがアタックしてブロックされなかった時、カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】自分の場に［特徴：坂本商店］のカード名が3種類以上ある場合、このキャラは「このキャラはBP4000以上のキャラにブロックされない。」を得る。このキャラがアタックしてブロックされなかった時、カードを1枚引く。",
   "effectEn": "[During Your Turn] If you have 3 or more [Trait: Sakamoto Store] with different card names on your field, This character gains “This character cannot be blocked by characters with BP 4000 or more” When this character attacks and is not blocked, Draw 1 card(s).",
   "triggerType": "",
@@ -1108,6 +1982,57 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札を『{0}枚』場外に置く",
+      "nums": [
+       6
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、このキャラはこのターン中、BP+{0}と[Double Attack]を得る",
+      "nums": [
+       2000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場にある⟦t0⟧のカード名{0}種類につき、この効果で場外に置く手札の枚数-{1}",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "坂本商店"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "⟨n0⟩のこの効果は、{0}ターンに{1}回のみ発動できる",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "陸 少糖"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【起動メイン】自分の手札を『6枚』場外に置く。そうした場合、このキャラはこのターン中、BP+2000と【2回アタック】を得る。自分の場にある［特徴：坂本商店］のカード名1種類につき、この効果で場外に置く手札の枚数-1。〈陸 少糖〉のこの効果は、1ターンに1回のみ発動できる。",
   "effectEn": "[Activate: Main] Put “6” card(s) from your hand into your Outside Area. If you do, this character gets BP+2000 and gains [Double Attack] this turn. For each 1 different card name(s) among [Trait: Sakamoto Store] on your field, the number of cards from your hand put into your Outside Area by this effect is reduced by 1. This effect of <Lu Shaotang> can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Active",
@@ -1144,6 +2069,34 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の山札の上から{1}枚を表向きにする",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "この効果で表向きではないカードを引いた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】カードを1枚引き、自分の山札の上から1枚を表向きにする。この効果で表向きではないカードを引いた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then turn the top 1 card(s) of your deck face up. If you drew a card that was not face up with this effect, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -1180,6 +2133,61 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分か相手の山札かライフに表向きのカードがある場合、手札にあるこのカードの消費APを-{0}する",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "以下から{0}つ選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "自分の山札の上から{0}枚を表向きにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   }
+  ],
   "effectJp": "自分か相手の山札かライフに表向きのカードがある場合、手札にあるこのカードの消費APを-1する。【起動メイン】【レストにする】以下から1つ選ぶ。・カードを1枚引き、自分の手札を1枚場外に置く。・自分の山札の上から1枚を表向きにする。",
   "effectEn": "If there is a face-up card in your or your opponent's deck or Life, reduce the AP cost of this card in your hand by 1. [Activate: Main] [Rest this card] Choose 1 of the following. Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. Turn the top 1 card(s) of your deck face up.",
   "triggerType": "",
@@ -1214,6 +2222,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラがアタックしてバトルに勝利した時、カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【ターン1】自分の場のキャラがアタックしてバトルに勝利した時、カードを1枚引く。",
   "effectEn": "[Once Per Turn] When a character on your field attacks and wins a battle, draw 1 card(s).",
   "triggerType": "Get",
@@ -1250,6 +2277,28 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true,
+     "discard": 1
+    },
+    "steps": [
+     {
+      "key": "元々のBPが{0}以下の自分の場の特徴に「坂本商店」を持つキャラを{1}枚選び、アクティブにする",
+      "nums": [
+       3500,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【手札を1枚場外に置く】元々のBPが3500以下の自分の場の特徴に「坂本商店」を持つキャラを1枚選び、アクティブにする。",
   "effectEn": "[Activate: Main] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] Choose 1 character with the trait “Sakamoto Store” and original BP 3500 or less on your field, and set it to active.",
   "triggerType": "Get",
@@ -1279,6 +2328,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このターンのアタックフェイズ終了時、このターン中に相手のフロントLのキャラが退場していない場合、カードを{0}枚まで引く",
+      "nums": [
+       4
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このターンのアタックフェイズ終了時、このターン中に相手のフロントLのキャラが退場していない場合、カードを4枚まで引く。",
   "effectEn": "At the end of this turn's Attack Phase, if your opponent's Front Line characters were not retired this turn, draw up to 4 card(s).",
   "triggerType": "Draw",
@@ -1308,6 +2375,31 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "相手は自身の手札を全て公開する",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "カードを2枚引く。相手は自身の手札を全て公開する。",
   "effectEn": "Draw 2 card(s). Your opponent reveals all cards in their hand.",
   "triggerType": "Draw",
@@ -1337,6 +2429,49 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "『BP{0}以下』の相手のフロントLのキャラを{1}枚選び、退場させる",
+      "nums": [
+       2000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟨n0⟩がある場合、『BP{0}以下』に代わる",
+      "nums": [
+       5000
+      ],
+      "names": [
+       "坂本 太郎"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟦t0⟧のカード名が{0}種類以上ある場合、自分の場のキャラを{1}枚まで選び、このターン中、BP+{2}",
+      "nums": [
+       5,
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [
+       "坂本商店"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "『BP2000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈坂本 太郎〉がある場合、『BP5000以下』に代わる。自分の場に［特徴：坂本商店］のカード名が5種類以上ある場合、自分の場のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 2000 or less, retire it. If you have <Taro Sakamoto> on your field, it becomes “BP 5000 or less” instead. If you have 5 or more [Trait: Sakamoto Store] with different card names on your field, Choose up to 1 character on your field, it gets BP+1000 this turn.",
   "triggerType": "Special",
@@ -1366,6 +2501,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1395,6 +2548,36 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟨n0⟩がある場合、手札にあるこのカードの消費APを-{0}する",
+      "nums": [
+       1
+      ],
+      "names": [
+       "朝倉 シン"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "BP{0}以下の相手のフロントLのキャラを{1}枚選び、退場させる",
+      "nums": [
+       5000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場に〈朝倉 シン〉がある場合、手札にあるこのカードの消費APを-1する。BP5000以下の相手のフロントLのキャラを1枚選び、退場させる。",
   "effectEn": "If you have <Shin Asakura> on your field, reduce the AP cost of this card in your hand by 1. Choose 1 character in your opponent's Front Line with BP 5000 or less, retire it.",
   "triggerType": "Special",
@@ -1431,6 +2614,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）",
   "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent)",
   "triggerType": "",
@@ -1467,6 +2651,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -1503,6 +2688,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "必要エナジーが{0}以下の自分の場の他のキャラを{1}枚手札に戻す",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "戻せない場合、このキャラを手札に戻す",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -1539,6 +2750,26 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このターン中に自分がエクストラドローしている場合、このキャラはBP+{0}",
+      "nums": [
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】このターン中に自分がエクストラドローしている場合、このキャラはBP+1000。",
   "effectEn": "[During Your Turn] If you have Extra Drawn this turn, this character gets BP+1000.",
   "triggerType": "Draw",
@@ -1575,6 +2806,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分はAPを支払わずにエクストラドローしてもよい",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【フロントLにある場合】自分はAPを支払わずにエクストラドローしてもよい。",
   "effectEn": "[While in Front Line] You may Extra Draw without paying AP.",
   "triggerType": "Color",
@@ -1616,6 +2865,34 @@
    "value": "大佛"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このターン中に自分がエクストラドローしている場合、カードを{0}枚まで引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラが登場したターン中の場合、このキャラはこのターン中、BP+{0}と[Damage {1}]を得る",
+      "nums": [
+       1000,
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈大佛〉アクティブにし、フロントLに移動できる【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）【アタック時】このターン中に自分がエクストラドローしている場合、カードを1枚まで引く。このキャラが登場したターン中の場合、このキャラはこのターン中、BP+1000と【ダメージ（2）】を得る。",
   "effectEn": "[Raid] Can Raid onto <Osaragi>; set it to active and you may move it to the Front Line. [Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent) [When Attacking] If you have Extra Drawn this turn, draw up to 1 card(s). During the turn this character was played, this character gains BP+1000 and [Damage 2] this turn.",
   "triggerType": "Raid",
@@ -1652,6 +2929,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -1688,6 +2966,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このターン中に自分か相手の[Trigger]が発動している場合、このキャラはBP+{0}",
+      "nums": [
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このターン中に自分か相手の【トリガー】が発動している場合、このキャラはBP+1000。",
   "effectEn": "If your or your opponent's [Trigger] activated this turn, this character gets BP+1000.",
   "triggerType": "",
@@ -1724,6 +3020,33 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から{0}枚まで場外に置き、残りを望む順で山札の上に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から1枚まで場外に置き、残りを望む順で山札の上に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Put up to 1 of them into your Outside Area, Put the rest on top of your deck in any order.",
   "triggerType": "Active",
@@ -1760,6 +3083,33 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札を{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分のフロントLのレイド状態でないキャラを{0}枚まで選び、そのキャラの[Trigger]を発動する",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、自分のフロントLのレイド状態でないキャラを1枚まで選び、そのキャラの【トリガー】を発動する。",
   "effectEn": "[On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, choose up to 1 non-Raided character in your Front Line and activate that character's [Trigger].",
   "triggerType": "Draw",
@@ -1799,6 +3149,60 @@
    "value": "坂本 太郎"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       5
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から必要エナジーが{0}以下の紫のカードを{1}枚まで場外に置き、残りを望む順で山札の下に置く",
+      "nums": [
+       2,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その後、この効果で場外に置いたカードの[Trigger]を発動する",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【レイド】〈坂本 太郎〉アクティブにし、フロントLに移動できる【登場時】カードを1枚引く。【起動メイン】【フロントLにある場合】【ターン1】自分の山札の上から5枚見る。その中から必要エナジーが2以下の紫のカードを1枚まで場外に置き、残りを望む順で山札の下に置く。その後、この効果で場外に置いたカードの【トリガー】を発動する。",
   "effectEn": "[Raid] Can Raid onto <Taro Sakamoto>; set it to active and you may move it to the Front Line. [On Play] Draw 1 card(s). [Activate: Main] [While in Front Line] [Once Per Turn] Look at the top 5 card(s) of your deck. Put up to 1 purple card(s) with required energy 2 or less among them into your Outside Area, and put the rest on the bottom of your deck in any order. Then, activate the [Trigger] of the card put into your Outside Area by this effect.",
   "triggerType": "Raid",
@@ -1835,6 +3239,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -1871,6 +3294,22 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがアクティブの場合、このキャラの発生エナジー+[Purple]",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【紫】。",
   "effectEn": "While this character is active, its generated energy +[Purple].",
   "triggerType": "",
@@ -1907,6 +3346,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true,
+     "discard": 1
+    },
+    "steps": [
+     {
+      "key": "自分がエクストラドローしたターン中のみ発動できる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラはこのターン中、発生エナジー+[Purple]",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【手札を1枚場外に置く】自分がエクストラドローしたターン中のみ発動できる。このキャラはこのターン中、発生エナジー+【紫】。",
   "effectEn": "[Activate: Main] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] Can only activate during a turn in which you Extra Drew. This turn, this character's generated energy +[Purple].",
   "triggerType": "Active",
@@ -1946,6 +3411,37 @@
    "value": "神々廻"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このターン中に自分がエクストラドローしている場合、自分のレストのAPカードを{0}～{1}枚選び、アクティブにする",
+      "nums": [
+       1,
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "⟨n0⟩のこの効果は、{0}ターンに{1}回のみ発動する",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "神々廻"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈神々廻〉アクティブにし、フロントLに移動できる【登場時】このターン中に自分がエクストラドローしている場合、自分のレストのAPカードを1～2枚選び、アクティブにする。〈神々廻〉のこの効果は、1ターンに1回のみ発動する。",
   "effectEn": "[Raid] Can Raid onto <Shishiba>; set it to active and you may move it to the Front Line. [On Play] If you have Extra Drawn this turn, choose 1 to 2 of your rested AP cards and set them to active. This effect of <Shishiba> activates only 1 time(s) per 1 turn(s).",
   "triggerType": "Raid",
@@ -1982,6 +3478,45 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このカードは自分がエクストラドローしたターン中のみ登場できる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラをアクティブにする",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "相手のフロントLのキャラか相手の場のフィールドを{0}枚まで選び、退場させる",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このカードは自分がエクストラドローしたターン中のみ登場できる。【登場時】このキャラをアクティブにする。相手のフロントLのキャラか相手の場のフィールドを1枚まで選び、退場させる。",
   "effectEn": "This card can only be played during a turn in which you Extra Drew. [On Play] Set this character to active. Choose up to 1 character in your opponent's Front Line or field on your opponent's field, and retire it.",
   "triggerType": "Active",
@@ -2020,6 +3555,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【インパクト（1）】（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）",
   "effectEn": "[Impact 1] (When this attacks and wins a battle, deal 1 damage to your opponent)",
   "triggerType": "Active",
@@ -2056,6 +3592,22 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の[Raid]を持つキャラカードはトリガーの効果でこのキャラにレイドできる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の【レイド】を持つキャラカードはトリガーの効果でこのキャラにレイドできる。",
   "effectEn": "Your character cards with [Raid] can Raid onto this character with Trigger effects.",
   "triggerType": "Color",
@@ -2094,6 +3646,33 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このターン中に自分か相手の[Trigger]が発動している場合、このキャラは「このキャラはBP{0}以上のキャラにブロックされない",
+      "nums": [
+       4000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【自分のターン中】このターン中に自分か相手の【トリガー】が発動している場合、このキャラは「このキャラはBP4000以上のキャラにブロックされない。」を得る。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [During Your Turn] If your or your opponent's [Trigger] activated this turn, this character gains “This character cannot be blocked by characters with BP 4000 or more”",
   "triggerType": "",
@@ -2130,6 +3709,22 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このカードの[Get]を発動する場合、代わりに[Draw Trigger]か[Active]にしてもよい",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このカードの【ゲット】を発動する場合、代わりに【ドロートリガー】か【アクティブ】にしてもよい。",
   "effectEn": "When activating this card's [Get], you may make it [Draw Trigger] or [Active] instead.",
   "triggerType": "Get",
@@ -2169,6 +3764,42 @@
    "value": "南雲"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場外から『[Color Trigger]』を持つ紫のキャラカードを{0}枚まで選び、そのカードの[Trigger]を発動する",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "レイド状態のこのキャラの一番上のカードを自分の場外に置いてもよい",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、『⟨n0⟩以外の[Raid Trigger]』に代わる",
+      "nums": [],
+      "names": [
+       "南雲"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈南雲〉アクティブにし、フロントLに移動できる【登場時】【フロントLにある場合】自分の場外から『【カラートリガー】』を持つ紫のキャラカードを1枚まで選び、そのカードの【トリガー】を発動する。レイド状態のこのキャラの一番上のカードを自分の場外に置いてもよい。そうした場合、『〈南雲〉以外の【レイドトリガー】』に代わる。",
   "effectEn": "[Raid] Can Raid onto <Nagumo>; set it to active and you may move it to the Front Line. [On Play] [While in Front Line] Choose up to 1 purple character card with “[Color Trigger]” from your Outside Area and activate that card's [Trigger]. You may put the top card of this Raided character into your Outside Area. If you do, it becomes “[Raid Trigger] other than <Nagumo>” instead.",
   "triggerType": "Raid",
@@ -2205,6 +3836,51 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟦t0⟧を{0}枚まで公開し手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "ORDER"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から3枚見る。その中から［特徴：ORDER］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: ORDER] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -2241,6 +3917,51 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟦t0⟧を{0}枚まで公開し手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "LABO"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】【アタック時】自分の山札の上から3枚見る。その中から［特徴：LABO］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] [When Attacking] Look at the top 3 card(s) of your deck. Reveal up to 1 [Trait: LABO] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -2277,6 +3998,27 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "相手のフロントLにBP{0}以上のキャラが{1}枚以上ある場合、カードを{2}枚引き、このキャラをアクティブにし、このキャラは次の自分のターン開始時まで、BP+{3}",
+      "nums": [
+       4000,
+       4,
+       1,
+       2000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】相手のフロントLにBP4000以上のキャラが4枚以上ある場合、カードを1枚引き、このキャラをアクティブにし、このキャラは次の自分のターン開始時まで、BP+2000。",
   "effectEn": "[On Play] If your opponent has 4 or more characters with BP 4000 or more in their Front Line, draw 1 card(s), set this character to active, and it gets BP+2000 until the start of your next turn.",
   "triggerType": "",
@@ -2313,6 +4055,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -2349,6 +4092,45 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の⟦t0⟧を{0}枚まで選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [
+       "LABO"
+      ],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の⟦t0⟧全ては、このターン中、BP+{0}",
+      "nums": [
+       1000
+      ],
+      "names": [],
+      "traits": [
+       "LABO"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の場の［特徴：LABO］を1枚まで選び、このターン中、BP+1000。【アタック時】自分の場の［特徴：LABO］全ては、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 [Trait: LABO] on your field, it gets BP+1000 this turn. [When Attacking] All [Trait: LABO] on your field it gets BP+1000 this turn.",
   "triggerType": "",
@@ -2385,6 +4167,27 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧が{0}枚以上ある場合、このキャラはこのターン中、BP+{1}",
+      "nums": [
+       3,
+       1000
+      ],
+      "names": [],
+      "traits": [
+       "LABO"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【アタック時】自分の場に［特徴：LABO］が3枚以上ある場合、このキャラはこのターン中、BP+1000。",
   "effectEn": "[When Attacking] If you have 3 or more [Trait: LABO] on your field, This character gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -2421,6 +4224,51 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札から必要エナジーが{0}以下で消費APが{1}の紫の⟦t0⟧を{2}枚まで自分の場にアクティブで登場させるかレイドさせる",
+      "nums": [
+       4,
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "LABO"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "この効果でこのキャラにはレイドできない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】カードを1枚引く。【アタック時】自分の手札から必要エナジーが4以下で消費APが1の紫の［特徴：LABO］を1枚まで自分の場にアクティブで登場させるかレイドさせる。この効果でこのキャラにはレイドできない。",
   "effectEn": "[On Play] Draw 1 card(s). [When Attacking] Play up to 1 Purple [Trait: LABO] with required energy 4 or less and with AP cost 1 from your hand to your field active or Raid it. This effect cannot Raid onto this character.",
   "triggerType": "Get",
@@ -2460,6 +4308,65 @@
    "value": "勢羽 夏生"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "oppTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "相手はキャラの効果やイベントカードの効果でこのキャラを選ぶ際に、追加でAPを{0}支払わないと選べない",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラが登場したターン中は発動できない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟦t0⟧が{0}枚以上あり、相手のライフが{1}以上ある場合、相手プレイヤーに{2}ダメージ",
+      "nums": [
+       3,
+       3,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "LABO"
+      ],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【レイド】〈勢羽 夏生〉アクティブにし、フロントLに移動できる【相手のターン中】相手はキャラの効果やイベントカードの効果でこのキャラを選ぶ際に、追加でAPを1支払わないと選べない。【起動メイン】【フロントLにある場合】【ターン1】このキャラが登場したターン中は発動できない。カードを1枚引く。自分の場に［特徴：LABO］が3枚以上あり、相手のライフが3以上ある場合、相手プレイヤーに1ダメージ。",
   "effectEn": "[Raid] Can Raid onto <Natsuki Seba>; set it to active and you may move it to the Front Line. [During Opponent's Turn] Your opponent must pay 1 additional AP to choose this character with character effects or Event card effects. [Activate: Main] [While in Front Line] [Once Per Turn] Cannot activate during the turn this character was played. Draw 1 card(s). If you have 3 or more [Trait: LABO] on your field and your opponent's Life is 3 or more, deal 1 damage to the opposing player.",
   "triggerType": "Raid",
@@ -2498,6 +4405,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost)",
   "triggerType": "Draw",
@@ -2534,6 +4442,59 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはレイド以外で登場できない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "必要エナジーが{0}以下の紫のキャラ アクティブにし、フロントLに移動できる",
+      "nums": [
+       4
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラは相手の効果で選ばれない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラはこのキャラのレイド元のカードが持つ[On Play]",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "を全て得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラはレイド以外で登場できない。【レイド】必要エナジーが4以下の紫のキャラ アクティブにし、フロントLに移動できるこのキャラは相手の効果で選ばれない。このキャラはこのキャラのレイド元のカードが持つ【登場時】【アタック時】を全て得る。",
   "effectEn": "This character cannot be played except by Raid. [Raid] Can Raid onto a purple character with required energy 4 or less; set it to active and you may move it to the Front Line. This character cannot be chosen by your opponent's effects. This character gains all [On Play] of this character's Raid source cards. [When Attacking] Gains all of them.",
   "triggerType": "Color",
@@ -2570,6 +4531,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、発生エナジー+[Purple]と「メインフェイズ終了時、このキャラを退場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【紫】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Purple] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -2606,6 +4593,37 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true,
+     "discard": 1
+    },
+    "steps": [
+     {
+      "key": "自分の場の⟦t0⟧を{0}枚選び、このターン中、「このキャラはBP{1}以上のキャラにブロックされない",
+      "nums": [
+       1,
+       4000
+      ],
+      "names": [],
+      "traits": [
+       "LABO"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "」を与える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【手札を1枚場外に置く】自分の場の［特徴：LABO］を1枚選び、このターン中、「このキャラはBP4000以上のキャラにブロックされない。」を与える。",
   "effectEn": "[Activate: Main] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] Choose 1 [Trait: LABO] on your field, it gains “This character cannot be blocked by characters with BP 4000 or more” this turn.",
   "triggerType": "Get",
@@ -2635,6 +4653,42 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見る",
+      "nums": [
+       5
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "その中から⟦t0⟧を{0}枚まで公開し手札に加える",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [
+       "ORDER"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の山札の上から5枚見る。その中から［特徴：ORDER］を2枚まで公開し手札に加える。残りを望む順で山札の下に置く。",
   "effectEn": "Look at the top 5 card(s) of your deck. Reveal up to 2 [Trait: ORDER] among them and add it to your hand. Put the rest on the bottom of your deck in any order.",
   "triggerType": "Draw",
@@ -2664,6 +4718,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2693,6 +4765,45 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "⟨n0⟩は{0}ターンに{1}枚のみ使用できる",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "ゲン担ぎ"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このターン中に自分がエクストラドローしている場合、自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "〈ゲン担ぎ〉は1ターンに1枚のみ使用できる。カードを1枚引く。このターン中に自分がエクストラドローしている場合、自分のAPカードを1枚まで選び、アクティブにする。",
   "effectEn": "Only 1 <Good Luck Ritual> can be used per 1 turn(s). Draw 1 card(s). If you have Extra Drawn this turn, choose up to 1 of your AP cards and set them to active.",
   "triggerType": "Draw",
@@ -2722,6 +4833,49 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "『BP{0}以下』の相手のフロントLのキャラを{1}枚選び、退場させる",
+      "nums": [
+       3000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟨n0⟩か⟨n1⟩がある場合、『BP{0}以下』に代わる",
+      "nums": [
+       4000
+      ],
+      "names": [
+       "神々廻",
+       "大佛"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟨n0⟩と⟨n1⟩がある場合、『BP{0}以下』に代わる",
+      "nums": [
+       5000
+      ],
+      "names": [
+       "神々廻",
+       "大佛"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈神々廻〉か〈大佛〉がある場合、『BP4000以下』に代わる。自分の場に〈神々廻〉と〈大佛〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <Shishiba> or <Osaragi> on your field, it becomes “BP 4000 or less” instead. If you have <Shishiba> and <Osaragi> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -2751,6 +4905,28 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "相手のフロントLのキャラを{0}枚選び、自分の場にある⟦t0⟧{1}枚につき、このターン中、BP-{2}",
+      "nums": [
+       1,
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [
+       "LABO"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "相手のフロントLのキャラを1枚選び、自分の場にある［特徴：LABO］1枚につき、このターン中、BP-1000。",
   "effectEn": "Choose 1 character in your opponent's Front Line, For each 1 [Trait: LABO] on your field, it gets BP-1000 this turn.",
   "triggerType": "Special",
@@ -2780,6 +4956,34 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "BP{0}以下の相手のフロントLのキャラを{1}枚選び、相手の山札の上か下の『相手が選んだ方』に置く",
+      "nums": [
+       5000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟨n0⟩がある場合、『自分が選んだ方』に代わる",
+      "nums": [],
+      "names": [
+       "南雲"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "BP5000以下の相手のフロントLのキャラを1枚選び、相手の山札の上か下の『相手が選んだ方』に置く。自分の場に〈南雲〉がある場合、『自分が選んだ方』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 5000 or less, and put it on the top or bottom of your opponent's deck (your opponent chooses which) If you have <Nagumo> on your field, it becomes “you choose” instead.",
   "triggerType": "Special",
@@ -2811,6 +5015,31 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "相手は次の相手のターンの移動フェイズでエナジーLのキャラをフロントLに移動できず、フロントLのキャラをエナジーLへ移動できる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のAPカードを1枚まで選び、アクティブにする。相手は次の相手のターンの移動フェイズでエナジーLのキャラをフロントLに移動できず、フロントLのキャラをエナジーLへ移動できる。",
   "effectEn": "Choose up to 1 of your AP cards, set it to active. During your opponent's next Movement Phase, they cannot move characters from the Energy Line to the Front Line, but can move Front Line characters to the Energy Line.",
   "triggerType": "Active",
@@ -2838,6 +5067,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2865,6 +5095,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2892,6 +5123,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2919,6 +5151,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2946,6 +5179,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2973,6 +5207,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3000,6 +5235,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3027,6 +5263,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3054,6 +5291,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3081,6 +5319,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3108,6 +5347,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3135,6 +5375,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

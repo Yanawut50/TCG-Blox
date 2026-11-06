@@ -28,6 +28,65 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟨n0⟩がない場合、このカードはフロントLに〔登場",
+      "nums": [],
+      "names": [
+       "羽前 京香"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "移動〕できない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見て、山札の上か場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnRetire",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLに⟨n0⟩がある場合、自分の山札の上から{0}枚見て、山札の上か場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [
+       "羽前 京香"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場に〈羽前 京香〉がない場合、このカードはフロントLに〔登場・移動〕できない。【登場時】自分の山札の上から1枚見て、山札の上か場外に置く。【退場時】自分のフロントLに〈羽前 京香〉がある場合、自分の山札の上から1枚見て、山札の上か場外に置く。",
   "effectEn": "If you don't have <羽前 京香> on your field, this card is played to the Front Line. Cannot move. [On Play] Look at the top 1 card(s) of your deck, put them on top of your deck or into your Outside Area. [On Retire] If you have <羽前 京香> in your Front Line, Look at the top 1 card(s) of your deck, put them on top of your deck or into your Outside Area.",
   "triggerType": "",
@@ -64,6 +123,60 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟨n0⟩がない場合、このカードはフロントLに〔登場",
+      "nums": [],
+      "names": [
+       "羽前 京香"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "移動〕できない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "自分の場外に⟨n0⟩と⟨n1⟩が合計{0}枚以上ある場合、このキャラは[Impact Nullify]を得る",
+      "nums": [
+       10
+      ],
+      "names": [
+       "羽前 京香",
+       "和倉 優希（無窮の鎖）"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場に〈羽前 京香〉がない場合、このカードはフロントLに〔登場・移動〕できない。自分の場外に〈羽前 京香〉と〈和倉 優希（無窮の鎖）〉が合計10枚以上ある場合、このキャラは【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）を得る。【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "If you don't have <羽前 京香> on your field, this card is played to the Front Line. Cannot move. If you have a total of 10 or more <羽前 京香> and <和倉 優希（無窮の鎖）> in your Outside Area, this character gains [Impact Nullify] (The character that battles this character loses Impact during this battle) [On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -100,6 +213,71 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟨n0⟩がない場合、このカードはフロントLに〔登場",
+      "nums": [],
+      "names": [
+       "羽前 京香"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "移動〕できない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   },
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場外に⟨n0⟩と⟨n1⟩が合計{0}枚以上ある場合、このキャラはBP+{1}",
+      "nums": [
+       5,
+       1000
+      ],
+      "names": [
+       "羽前 京香",
+       "和倉 優希（無窮の鎖）"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnRetire",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLに⟨n0⟩がある場合、カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [
+       "羽前 京香"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場に〈羽前 京香〉がない場合、このカードはフロントLに〔登場・移動〕できない。【自分のターン中】自分の場外に〈羽前 京香〉と〈和倉 優希（無窮の鎖）〉が合計5枚以上ある場合、このキャラはBP+1000。【退場時】自分のフロントLに〈羽前 京香〉がある場合、カードを1枚引く。",
   "effectEn": "If you don't have <羽前 京香> on your field, this card is played to the Front Line. Cannot move. [During Your Turn] If you have a total of 5 or more <羽前 京香> and <和倉 優希（無窮の鎖）> in your Outside Area, this character gets BP+1000. [On Retire] If you have <羽前 京香> in your Front Line, Draw 1 card(s).",
   "triggerType": "Active",
@@ -136,6 +314,85 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟨n0⟩がない場合、このカードはフロントLに〔登場",
+      "nums": [],
+      "names": [
+       "羽前 京香"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "移動〕できない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場外にある⟨n0⟩と⟨n1⟩の合計枚数を満たすものを、以下から{0}つまで選ぶ",
+      "nums": [
+       2
+      ],
+      "names": [
+       "羽前 京香",
+       "和倉 優希（無窮の鎖）"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "{0}枚以上：自分の場の⟨n0⟩を{1}枚選び、このターン中、[Impact {2}]を与える",
+      "nums": [
+       5,
+       1,
+       1
+      ],
+      "names": [
+       "和倉 優希（無窮の鎖）"
+      ],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "{0}枚以上：自分の場のキャラを{1}枚選び、アクティブにする",
+      "nums": [
+       10,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "⟨n0⟩のこの効果は{0}ターンに{1}回のみ選べる",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "和倉 優希（無窮の鎖）"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場に〈羽前 京香〉がない場合、このカードはフロントLに〔登場・移動〕できない。【登場時】自分の場外にある〈羽前 京香〉と〈和倉 優希（無窮の鎖）〉の合計枚数を満たすものを、以下から2つまで選ぶ。・5枚以上：自分の場の〈和倉 優希（無窮の鎖）〉を1枚選び、このターン中、【インパクト（1）】を与える。・10枚以上：自分の場のキャラを1枚選び、アクティブにする。〈和倉 優希（無窮の鎖）〉のこの効果は1ターンに1回のみ選べる。",
   "effectEn": "If you don't have <羽前 京香> on your field, this card is played to the Front Line. Cannot move. [On Play] Choose up to 2 of the following whose requirement is met by the total number of <羽前 京香> and <和倉 優希（無窮の鎖）> in your Outside Area. 5 or more: Choose 1 <和倉 優希（無窮の鎖）> on your field, This turn, [Impact 1] is given. 10 or more: Choose 1 character on your field, set it to active. This effect of <和倉 優希（無窮の鎖）> can only be chosen 1 time(s) per 1 turn(s).",
   "triggerType": "Color",
@@ -172,6 +429,68 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟨n0⟩がない場合、このカードはフロントLに〔登場",
+      "nums": [],
+      "names": [
+       "駿河 朱々"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "移動〕できない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   },
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラと同じラインに⟨n0⟩がある場合、このキャラはBP+{0}と[Damage {1}]を得る",
+      "nums": [
+       2000,
+       2
+      ],
+      "names": [
+       "駿河 朱々"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラは次の{0}回アクティブにならない",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場に〈駿河 朱々〉がない場合、このカードはフロントLに〔登場・移動〕できない。【自分のターン中】このキャラと同じラインに〈駿河 朱々〉がある場合、このキャラはBP+2000と【ダメージ（2）】（このキャラがアタックで与える直接ダメージは2ダメージ）を得る。【アタック時】このキャラは次の1回アクティブにならない。",
   "effectEn": "If you don't have <駿河 朱々> on your field, this card is played to the Front Line. Cannot move. [During Your Turn] If <駿河 朱々> is in the same line as this character, this character gains BP+2000 and [Damage 2] (Direct damage this character deals by attacking is 2) [When Attacking] This character it does not become active the next 1 time(s).",
   "triggerType": "Active",
@@ -208,6 +527,49 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟨n0⟩がない場合、このカードはフロントLに〔登場",
+      "nums": [],
+      "names": [
+       "大川村 寧"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "移動〕できない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラと同じラインに⟨n0⟩がある場合、自分の山札の上から{0}枚見て、山札の上と下に望む枚数ずつ望む順で置く",
+      "nums": [
+       2
+      ],
+      "names": [
+       "大川村 寧"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場に〈大川村 寧〉がない場合、このカードはフロントLに〔登場・移動〕できない。【登場時】【アタック時】このキャラと同じラインに〈大川村 寧〉がある場合、自分の山札の上から2枚見て、山札の上と下に望む枚数ずつ望む順で置く。",
   "effectEn": "If you don't have <大川村 寧> on your field, this card is played to the Front Line. Cannot move. [On Play] [When Attacking] If <大川村 寧> is in the same line as this character, look at the top 2 card(s) of your deck and put any number of them on the top and the rest on the bottom of your deck in any order.",
   "triggerType": "",
@@ -244,6 +606,49 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟨n0⟩がない場合、このカードはフロントLに〔登場",
+      "nums": [],
+      "names": [
+       "東 日万凛"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "移動〕できない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   },
+   {
+    "timing": "Static",
+    "conds": [
+     "energy"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のキャラのアタック終了時、自分のフロントLに⟨n0⟩があり、自分のフロントLに空きがある場合、このキャラをフロントLに移動させてもよい",
+      "nums": [],
+      "names": [
+       "東 日万凛"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場に〈東 日万凛〉がない場合、このカードはフロントLに〔登場・移動〕できない。【エナジーLにある場合】自分のキャラのアタック終了時、自分のフロントLに〈東 日万凛〉があり、自分のフロントLに空きがある場合、このキャラをフロントLに移動させてもよい。",
   "effectEn": "If you don't have <東 日万凛> on your field, this card is played to the Front Line. Cannot move. [While in Energy Line] At the end of your character's attack, if you have <東 日万凛> in your Front Line and your Front Line has an open space, you may move this character to the Front Line.",
   "triggerType": "Active",
@@ -281,6 +686,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -320,6 +744,7 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase)",
   "triggerType": "",
@@ -357,6 +782,34 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラのアタック終了時、このキャラをエナジーLに移動させてもよい",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【フロントLにある場合】このキャラのアタック終了時、このキャラをエナジーLに移動させてもよい。そうした場合、カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[While in Front Line] At the end of this character's attack, you may move this character to the Energy Line. If you do, Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -396,6 +849,28 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "energy"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のキャラのアタック終了時、自分の場に⟦t0⟧のカード名が{0}種類以上あり、自分のフロントLに空きがある場合、このキャラをフロントLに移動させてもよい",
+      "nums": [
+       4
+      ],
+      "names": [],
+      "traits": [
+       "七番組"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【エナジーLにある場合】自分のキャラのアタック終了時、自分の場に［特徴：七番組］のカード名が4種類以上あり、自分のフロントLに空きがある場合、このキャラをフロントLに移動させてもよい。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [While in Energy Line] At the end of your character's attack, if you have 4 or more different card names among [Trait: 7th Division] on your field and your Front Line has an open space, you may move this character to the Front Line.",
   "triggerType": "Active",
@@ -435,6 +910,26 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧のカード名が{0}種類以上あり、自分のフロントLに空きがあり、このターン中に自分のキャラがエナジーLからアタックしていない場合、このキャラはエナジーLからアタックできる",
+      "nums": [
+       4
+      ],
+      "names": [],
+      "traits": [
+       "七番組"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）自分の場に［特徴：七番組］のカード名が4種類以上あり、自分のフロントLに空きがあり、このターン中に自分のキャラがエナジーLからアタックしていない場合、このキャラはエナジーLからアタックできる。",
   "effectEn": "[Step] (Can move from the Front Line to the Energy Line during your Movement Phase) If you have 4 or more different card names among [Trait: 7th Division] on your field, your Front Line has an open space, and your characters haven't attacked from the Energy Line this turn, this character can attack from the Energy Line.",
   "triggerType": "Active",
@@ -475,6 +970,46 @@
    "value": "東 日万凛"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧のカード名が{0}種類以上ある場合、このキャラはこのターン中、[Snipe]を得る",
+      "nums": [
+       4
+      ],
+      "names": [],
+      "traits": [
+       "七番組"
+      ],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の必要エナジーが{0}以下のキャラを{1}枚選び、そのキャラの[On Play]をこのキャラが発動する",
+      "nums": [
+       2,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【レイド】〈東 日万凛〉アクティブにし、フロントLに移動できる【登場時】自分の場に［特徴：七番組］のカード名が4種類以上ある場合、このキャラはこのターン中、【狙い撃ち】を得る。【起動メイン】【フロントLにある場合】【ターン1】自分の場の必要エナジーが2以下のキャラを1枚選び、そのキャラの【登場時】をこのキャラが発動する。",
   "effectEn": "[Raid] Can Raid onto <東 日万凛>; set it to active and you may move it to the Front Line. [On Play] If you have 4 or more [Trait: 7th Division] with different card names on your field, This character, this turn, [Snipe] is gained. [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 character on your field with required energy 2 or less; this character activates that character's [On Play].",
   "triggerType": "Raid",
@@ -512,6 +1047,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -549,6 +1085,37 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚まで場外に置く",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場外に⟨n0⟩と⟨n1⟩が合計{0}枚以上ある場合、カードを{1}枚引く",
+      "nums": [
+       5,
+       1
+      ],
+      "names": [
+       "羽前 京香",
+       "和倉 優希（無窮の鎖）"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から2枚まで場外に置く。自分の場外に〈羽前 京香〉と〈和倉 優希（無窮の鎖）〉が合計5枚以上ある場合、カードを1枚引く。",
   "effectEn": "[On Play] Put up to the top 2 card(s) of your deck into your Outside Area. If you have 5 or more <羽前 京香> and <和倉 優希（無窮の鎖）> in total in your Outside Area, draw 1 card(s).",
   "triggerType": "Draw",
@@ -586,6 +1153,47 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場にカードが{0}枚もない場合、手札にあるこのカードの必要エナジーを[Yellow x{1}]減らす",
+      "nums": [
+       1,
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場外に⟨n0⟩と⟨n1⟩が合計{0}枚以上ある場合、自分の場の⟨n2⟩を{1}枚まで選び、このターン中、BP+{2}",
+      "nums": [
+       5,
+       1,
+       1000
+      ],
+      "names": [
+       "羽前 京香",
+       "和倉 優希（無窮の鎖）",
+       "和倉 優希（無窮の鎖）"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場にカードが1枚もない場合、手札にあるこのカードの必要エナジーを【黄×2】減らす。【アタック時】自分の場外に〈羽前 京香〉と〈和倉 優希（無窮の鎖）〉が合計5枚以上ある場合、自分の場の〈和倉 優希（無窮の鎖）〉を1枚まで選び、このターン中、BP+1000。",
   "effectEn": "If you have no cards on your field, the required energy of this card in your hand [Yellow x2]is reduced. [When Attacking] If you have a total of 5 or more <羽前 京香> and <和倉 優希（無窮の鎖）> in your Outside Area, choose up to 1 <和倉 優希（無窮の鎖）> on your field; it gets BP+1000 this turn.",
   "triggerType": "Draw",
@@ -623,6 +1231,22 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがアクティブの場合、このキャラの発生エナジー+[Yellow]",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【黄】。",
   "effectEn": "While this character is active, its generated energy +[Yellow].",
   "triggerType": "",
@@ -660,6 +1284,43 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見て、⟦t0⟧を{1}枚まで公開し手札に加える",
+      "nums": [
+       4,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "七番組"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から4枚見て、［特徴：七番組］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck, reveal up to 1 [Trait: 7th Division] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -700,6 +1361,72 @@
    "value": "羽前 京香"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚まで場外に置く",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場外から⟨n0⟩を{0}枚まで手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [
+       "和倉 優希（無窮の鎖）"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {
+     "discard": 1
+    },
+    "steps": [
+     {
+      "key": "自分の場外に⟨n0⟩と⟨n1⟩が合計{0}枚以上ある場合のみ発動できる",
+      "nums": [
+       10
+      ],
+      "names": [
+       "羽前 京香",
+       "和倉 優希（無窮の鎖）"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場の⟨n0⟩を{0}枚選び、このターン中、BP+{1}と[Damage {2}]を与える",
+      "nums": [
+       1,
+       1000,
+       2
+      ],
+      "names": [
+       "和倉 優希（無窮の鎖）"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【レイド】〈羽前 京香〉アクティブにし、フロントLに移動できる【登場時】自分の山札の上から3枚まで場外に置く。自分の場外から〈和倉 優希（無窮の鎖）〉を1枚まで手札に加える。【起動メイン】【フロントLにある場合】【手札を1枚場外に置く】【ターン1】自分の場外に〈羽前 京香〉と〈和倉 優希（無窮の鎖）〉が合計10枚以上ある場合のみ発動できる。自分の場の〈和倉 優希（無窮の鎖）〉を1枚選び、このターン中、BP+1000と【ダメージ（2）】を与える。",
   "effectEn": "[Raid] Can Raid onto <羽前 京香>; set it to active and you may move it to the Front Line. [On Play] Put up to the top 3 card(s) of your deck into your Outside Area. Add up to 1 <和倉 優希（無窮の鎖）> from your Outside Area to your hand. [Activate: Main] [While in Front Line] [Put 1 card(s) from your hand into your Outside Area] [Once Per Turn] Can only activate if you have a total of 10 or more <羽前 京香> and <和倉 優希（無窮の鎖）> in your Outside Area. Choose 1 <和倉 優希（無窮の鎖）> on your field; it gains BP+1000 and [Damage 2] this turn.",
   "triggerType": "Raid",
@@ -740,6 +1467,57 @@
    "value": "羽前 京香"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "アクティブのこのキャラをレストにしてもよい",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、『自分の手札から⟨n0⟩を{0}枚まで自分の場にアクティブで登場させる』",
+      "nums": [
+       1
+      ],
+      "names": [
+       "和倉 優希（無窮の鎖）"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場外に⟨n0⟩と⟨n1⟩が合計{0}枚以上あるなら、『自分の手札を{1}枚場外に置き、自分の場外から⟨n2⟩を{2}枚まで自分の場にアクティブで登場させる』に代えてもよい",
+      "nums": [
+       10,
+       1,
+       1
+      ],
+      "names": [
+       "羽前 京香",
+       "和倉 優希（無窮の鎖）",
+       "和倉 優希（無窮の鎖）"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈羽前 京香〉アクティブにし、フロントLに移動できる【登場時】カードを1枚引く。アクティブのこのキャラをレストにしてもよい。そうした場合、『自分の手札から〈和倉 優希（無窮の鎖）〉を1枚まで自分の場にアクティブで登場させる』。自分の場外に〈羽前 京香〉と〈和倉 優希（無窮の鎖）〉が合計10枚以上あるなら、『自分の手札を1枚場外に置き、自分の場外から〈和倉 優希（無窮の鎖）〉を1枚まで自分の場にアクティブで登場させる』に代えてもよい。",
   "effectEn": "[Raid] Can Raid onto <羽前 京香>; set it to active and you may move it to the Front Line. [On Play] Draw 1 card(s). You may rest this active character. If you do, “Play up to 1 <和倉 優希（無窮の鎖）> from your hand to your field active” If you have a total of 10 or more <羽前 京香> and <和倉 優希（無窮の鎖）> in your Outside Area, you may instead make it “put 1 card(s) from your hand into your Outside Area, and play up to 1 <和倉 優希（無窮の鎖）> from your Outside Area to your field active”",
   "triggerType": "Raid",
@@ -777,6 +1555,60 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札から必要エナジーを満たし消費APが{0}の⟦t0⟧を{1}枚まで自分の場にレストで登場させる",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "七番組"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟦t0⟧のカード名が{0}種類以上ある場合、このキャラをアクティブにする",
+      "nums": [
+       4
+      ],
+      "names": [],
+      "traits": [
+       "七番組"
+      ],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の他の⟦t0⟧を{0}枚選び、このターン中、[Impact {1}]を与える",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "七番組"
+      ],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【登場時】自分の手札から必要エナジーを満たし消費APが1の［特徴：七番組］を1枚まで自分の場にレストで登場させる。自分の場に［特徴：七番組］のカード名が4種類以上ある場合、このキャラをアクティブにする。【起動メイン】【フロントLにある場合】【ターン1】自分の場の他の［特徴：七番組］を1枚選び、このターン中、【インパクト（1）】を与える。",
   "effectEn": "[On Play] Play up to 1 [Trait: 7th Division] whose required energy you meet and with AP cost 1 from your hand to your field rested. If you have 4 or more [Trait: 7th Division] with different card names on your field, Set this character to active. [Activate: Main] [While in Front Line] [Once Per Turn] Choose 1 other [Trait: 7th Division] on your field, This turn, [Impact 1] is given.",
   "triggerType": "Color",
@@ -814,6 +1646,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、発生エナジー+[Yellow]と「メインフェイズ終了時、このキャラを退場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【黄】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Yellow] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -851,6 +1709,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "必要エナジーが{0}以下の自分の場の他のキャラを{1}枚手札に戻す",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "戻せない場合、このキャラを手札に戻す",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -888,6 +1772,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラを{0}枚まで選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の場のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] Choose up to 1 character on your field, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -925,6 +1828,26 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見て、山札の上か下に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】自分の山札の上から1枚見て、山札の上か下に置く。",
   "effectEn": "[Activate: Main] [Rest this card] Look at the top 1 card(s) of your deck and put it on the top or bottom of your deck.",
   "triggerType": "Draw",
@@ -962,6 +1885,37 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがこのターン中に登場していて、自分の場に⟦t0⟧のカード名が{0}種類以上ある場合のみ発動できる",
+      "nums": [
+       4
+      ],
+      "names": [],
+      "traits": [
+       "七番組"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "自分の場の他のキャラを{0}枚選び、アクティブにし、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【ターン1】このキャラがこのターン中に登場していて、自分の場に［特徴：七番組］のカード名が4種類以上ある場合のみ発動できる。自分の場の他のキャラを1枚選び、アクティブにし、このターン中、BP+1000。",
   "effectEn": "[Activate: Main] [Once Per Turn] Can only activate if this character was played this turn and you have 4 or more different card names among [Trait: 7th Division] on your field. Choose 1 other character on your field, set it to active, and it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -999,6 +1953,55 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "以下から{0}つ選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の山札の上から{0}枚見て、山札の上と下に望む枚数ずつ望む順で置く",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "自分の場のキャラを{0}枚まで選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "自分の場に⟦t0⟧のカード名が{0}種類以上ある場合、カードを{1}枚引く",
+      "nums": [
+       4,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "七番組"
+      ],
+      "bullet": true
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】以下から1つ選ぶ。・自分の山札の上から2枚見て、山札の上と下に望む枚数ずつ望む順で置く。・自分の場のキャラを1枚まで選び、このターン中、BP+1000。・自分の場に［特徴：七番組］のカード名が4種類以上ある場合、カードを1枚引く。",
   "effectEn": "[On Play] Choose 1 of the following. Look at the top 2 card(s) of your deck and put any number of them on the top and the rest on the bottom of your deck in any order. Choose up to 1 character on your field, it gets BP+1000 this turn. If you have 4 or more [Trait: 7th Division] with different card names on your field, Draw 1 card(s).",
   "triggerType": "Draw",
@@ -1036,6 +2039,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Active",
@@ -1073,6 +2077,28 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnRetire",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札から必要エナジーが{0}以下で消費APが{1}の黄の⟦t0⟧を{2}枚まで自分の場にレストで登場させる",
+      "nums": [
+       3,
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "七番組"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【退場時】自分の手札から必要エナジーが3以下で消費APが1の黄の［特徴：七番組］を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[On Retire] Play up to 1 Yellow [Trait: 7th Division] with required energy 3 or less and with AP cost 1 from your hand to your field rested.",
   "triggerType": "Draw",
@@ -1110,6 +2136,26 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧のカード名が{0}種類以上ある場合、このキャラの発生エナジー+[Yellow]",
+      "nums": [
+       4
+      ],
+      "names": [],
+      "traits": [
+       "七番組"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場に［特徴：七番組］のカード名が4種類以上ある場合、このキャラの発生エナジー+【黄】。",
   "effectEn": "If you have 4 or more [Trait: 7th Division] with different card names on your field, This character's generated energy +[Yellow].",
   "triggerType": "",
@@ -1149,6 +2195,29 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧のカード名が{0}種類以上ある場合、このキャラはBP+{1}",
+      "nums": [
+       4,
+       500
+      ],
+      "names": [],
+      "traits": [
+       "七番組"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【自分のターン中】自分の場に［特徴：七番組］のカード名が4種類以上ある場合、このキャラはBP+500。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [During Your Turn] If you have 4 or more [Trait: 7th Division] with different card names on your field, This character gets BP+500.",
   "triggerType": "",
@@ -1186,6 +2255,39 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧のカード名が{0}種類以上あり、自分のフロントLに空きがある場合、このキャラはこのターン中、BP+{1}",
+      "nums": [
+       4,
+       2000
+      ],
+      "names": [],
+      "traits": [
+       "七番組"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "⟨n0⟩のこの効果は{0}ターンに{1}回のみ発動する",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "駿河 朱々"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【アタック時】【ブロック時】自分の場に［特徴：七番組］のカード名が4種類以上あり、自分のフロントLに空きがある場合、このキャラはこのターン中、BP+2000。〈駿河 朱々〉のこの効果は1ターンに1回のみ発動する。",
   "effectEn": "[When Attacking] [When Blocking] If you have 4 or more different card names among [Trait: 7th Division] on your field and your Front Line has an open space, this character gets BP+2000 this turn. This <駿河 朱々> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Active",
@@ -1226,6 +2328,70 @@
    "value": "駿河 朱々"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがアタックしてバトルに勝利した時、カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧のカード名が{0}種類以上ある場合、以下から{1}つまで選ぶ",
+      "nums": [
+       4,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "七番組"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "自分のフロントLに空きがある場合、このキャラは次の自分のターン開始時まで、BP+{0}と[Damage {1}]を得る",
+      "nums": [
+       1000,
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "このキャラはこのターン中、BP-{0}と「このキャラはBP{1}以上のキャラにブロックされない",
+      "nums": [
+       1000,
+       4000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈駿河 朱々〉アクティブにし、フロントLに移動できるこのキャラがアタックしてバトルに勝利した時、カードを1枚引く。【アタック時】自分の場に［特徴：七番組］のカード名が4種類以上ある場合、以下から1つまで選ぶ。・自分のフロントLに空きがある場合、このキャラは次の自分のターン開始時まで、BP+1000と【ダメージ（2）】を得る。・このキャラはこのターン中、BP-1000と「このキャラはBP4000以上のキャラにブロックされない。」を得る。",
   "effectEn": "[Raid] Can Raid onto <駿河 朱々>; set it to active and you may move it to the Front Line. When this character attacks and wins a battle, Draw 1 card(s). [When Attacking] If you have 4 or more [Trait: 7th Division] with different card names on your field, Choose up to 1 of the following. If your Front Line has an open space, until the start of your next turn this character gains BP+1000 and [Damage 2]. This character gains BP-1000 and “This character cannot be blocked by characters with BP 4000 or more” this turn.",
   "triggerType": "Raid",
@@ -1263,6 +2429,34 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札が{0}枚以上あり、相手のイベントの効果で自分の場の⟨n0⟩が場を離れる場合、代わりに「アクティブのこのキャラをレストにし、自分の手札を{1}枚場外に置く",
+      "nums": [
+       2,
+       2
+      ],
+      "names": [
+       "東 日万凛"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」をしてもよい",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の手札が2枚以上あり、相手のイベントの効果で自分の場の〈東 日万凛〉が場を離れる場合、代わりに「アクティブのこのキャラをレストにし、自分の手札を2枚場外に置く。」をしてもよい。",
   "effectEn": "If you have 2 or more cards in your hand and <東 日万凛> on your field would leave the field due to your opponent's event effect, you may instead “rest this active character and put 2 card(s) from your hand into your Outside Area”",
   "triggerType": "",
@@ -1300,6 +2494,41 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟨n0⟩がある場合、このキャラはアクティブで登場させる",
+      "nums": [],
+      "names": [
+       "羽前 京香"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場のキャラを{0}枚まで選び、別のラインに移動させるか、別のラインのキャラ{1}枚と位置を入れ替える",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場に〈羽前 京香〉がある場合、このキャラはアクティブで登場させる。【登場時】自分の場のキャラを1枚まで選び、別のラインに移動させるか、別のラインのキャラ1枚と位置を入れ替える。",
   "effectEn": "If you have <羽前 京香> on your field, This character is played active. [On Play] Choose up to 1 character on your field and move it to the other line, or swap its position with 1 character in the other line.",
   "triggerType": "Active",
@@ -1337,6 +2566,36 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLの⟨n0⟩を{0}枚手札に戻してもよい",
+      "nums": [
+       1
+      ],
+      "names": [
+       "駿河 朱々"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、相手のフロントLの〔[Impact Nullify]を持つキャラか元々のBPが{0}以上のキャラ〕を{1}枚まで選び、退場させる",
+      "nums": [
+       5000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【アタック時】自分のフロントLの〈駿河 朱々〉を1枚手札に戻してもよい。そうした場合、相手のフロントLの〔【インパクト無効】を持つキャラか元々のBPが5000以上のキャラ〕を1枚まで選び、退場させる。",
   "effectEn": "[When Attacking] You may return 1 <駿河 朱々> in your Front Line to the owner's hand. If you do, choose up to 1 character in your opponent's Front Line with [Impact Nullify] or with original BP 5000 or more, and retire it.",
   "triggerType": "",
@@ -1373,6 +2632,36 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札を{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分の場外から必要エナジーが{0}以下の⟦t0⟧を{1}枚まで手札に加える",
+      "nums": [
+       3,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "七番組"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、自分の場外から必要エナジーが3以下の［特徴：七番組］を1枚まで手札に加える。",
   "effectEn": "[On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, add up to 1 [Trait: 7th Division] with required energy 3 or less from your Outside Area to your hand.",
   "triggerType": "Get",
@@ -1402,6 +2691,36 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "『BP{0}以下』の相手のフロントLのキャラを{1}枚選び、退場させる",
+      "nums": [
+       3000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟨n0⟩がある場合、『BP{0}以下』に代わる",
+      "nums": [
+       5000
+      ],
+      "names": [
+       "羽前 京香"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈羽前 京香〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <羽前 京香> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -1431,6 +2750,53 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このカードは自分の場に⟨n0⟩がある場合のみ使用できる",
+      "nums": [],
+      "names": [
+       "羽前 京香"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の山札の上から{0}枚まで場外に置く",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場外から⟨n0⟩を{0}枚まで手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [
+       "和倉 優希（無窮の鎖）"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分のAPカードを{0}枚アクティブにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このカードは自分の場に〈羽前 京香〉がある場合のみ使用できる。自分の山札の上から3枚まで場外に置く。自分の場外から〈和倉 優希（無窮の鎖）〉を1枚まで手札に加える。自分のAPカードを1枚アクティブにする。",
   "effectEn": "This card can only be used if you have <羽前 京香> on your field. Put up to the top 3 card(s) of your deck into your Outside Area. Add up to 1 <和倉 優希（無窮の鎖）> from your Outside Area to your hand. Set 1 of your AP cards to active.",
   "triggerType": "",
@@ -1460,6 +2826,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1489,6 +2873,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -1518,6 +2920,47 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "『BP{0}以下』の相手のフロントLのキャラを{1}枚選び、退場させる",
+      "nums": [
+       3000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟦t0⟧のカード名が{0}種類以上ある場合、『BP{1}以下』に代わる",
+      "nums": [
+       4,
+       5000
+      ],
+      "names": [],
+      "traits": [
+       "七番組"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。カードを1枚引き、自分の手札を1枚場外に置く。自分の場に［特徴：七番組］のカード名が4種類以上ある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area. If you have 4 or more [Trait: 7th Division] with different card names on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -1554,6 +2997,28 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLに⟨n0⟩がある場合、このキャラはBP+{0}",
+      "nums": [
+       500
+      ],
+      "names": [
+       "和倉 青羽"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】自分のフロントLに〈和倉 青羽〉がある場合、このキャラはBP+500。",
   "effectEn": "[During Your Turn] If you have <和倉 青羽> in your Front Line, This character gets BP+500.",
   "triggerType": "Draw",
@@ -1590,6 +3055,30 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "oppTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧と⟦t1⟧が合計{0}枚以上ある場合、このキャラはBP+{1}と[Impact Nullify]を得る",
+      "nums": [
+       4,
+       1000
+      ],
+      "names": [],
+      "traits": [
+       "人型醜鬼",
+       "醜鬼"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【相手のターン中】自分の場に［特徴：人型醜鬼］と［特徴：醜鬼］が合計4枚以上ある場合、このキャラはBP+1000と【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）を得る。",
   "effectEn": "[During Opponent's Turn] If you have a total of 4 or more [Trait: Humanoid Shuki] and [Trait: Shuki] on your field, this character gains BP+1000 and [Impact Nullify] (The character that battles this character loses Impact during this battle)",
   "triggerType": "Active",
@@ -1626,6 +3115,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnRetire",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【退場時】カードを1枚引く。",
   "effectEn": "[On Retire] Draw 1 card(s).",
   "triggerType": "Active",
@@ -1662,6 +3169,27 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧と⟦t1⟧が合計{0}枚以上ある場合、このキャラは発生エナジー+[Green]",
+      "nums": [
+       4
+      ],
+      "names": [],
+      "traits": [
+       "人型醜鬼",
+       "醜鬼"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場に［特徴：人型醜鬼］と［特徴：醜鬼］が合計4枚以上ある場合、このキャラは発生エナジー+【緑】。",
   "effectEn": "If you have a total of 4 or more [Trait: Humanoid Shuki] and [Trait: Shuki] on your field, this character gains generated energy +[Green].",
   "triggerType": "",
@@ -1700,6 +3228,45 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnRetire",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に他の⟦t0⟧と⟦t1⟧が合計{0}枚以上ある場合、「自分の手札を{1}枚場外に置くか、自分の場外の⟨n0⟩を{2}枚リムーブエリアに置く",
+      "nums": [
+       3,
+       2,
+       1
+      ],
+      "names": [
+       "魔都の桃"
+      ],
+      "traits": [
+       "人型醜鬼",
+       "醜鬼"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "」をしてもよい",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、このカードを手札に加える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【退場時】自分の場に他の［特徴：人型醜鬼］と［特徴：醜鬼］が合計3枚以上ある場合、「自分の手札を2枚場外に置くか、自分の場外の〈魔都の桃〉を1枚リムーブエリアに置く。」をしてもよい。そうした場合、このカードを手札に加える。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [On Retire] If you have a total of 3 or more other [Trait: Humanoid Shuki] and [Trait: Shuki] on your field, you may “put 2 card(s) from your hand into your Outside Area, or put 1 <魔都の桃> from your Outside Area into its owner's Remove Area” If you do, Add this card to your hand.",
   "triggerType": "Get",
@@ -1736,6 +3303,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、発生エナジー+[Green]と「メインフェイズ終了時、このキャラを退場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【ターン1】このキャラはこのターン中、発生エナジー+【緑】と「メインフェイズ終了時、このキャラを退場させる。」を得る。",
   "effectEn": "[Activate: Main] [Rest this card] [Once Per Turn] This turn, this character gets generated energy +[Green] and gains “At the end of the Main Phase, retire this character”",
   "triggerType": "",
@@ -1772,6 +3365,30 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見て、⟦t0⟧か⟦t1⟧か⟨n0⟩を{1}枚まで場外に置き、残りを望む順で山札の上に置く",
+      "nums": [
+       2,
+       1
+      ],
+      "names": [
+       "魔都の桃"
+      ],
+      "traits": [
+       "人型醜鬼",
+       "醜鬼"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から2枚見て、［特徴：人型醜鬼］か［特徴：醜鬼］か〈魔都の桃〉を1枚まで場外に置き、残りを望む順で山札の上に置く。",
   "effectEn": "[On Play] Look at the top 2 card(s) of your deck, put up to 1 [Trait: Humanoid Shuki], [Trait: Shuki] or <魔都の桃> among them into your Outside Area, and put the rest back on top of your deck in any order.",
   "triggerType": "Active",
@@ -1808,6 +3425,28 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧と⟦t1⟧が合計{0}枚以上ある場合、カードを{1}枚引く",
+      "nums": [
+       4,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "人型醜鬼",
+       "醜鬼"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の場に［特徴：人型醜鬼］と［特徴：醜鬼］が合計4枚以上ある場合、カードを1枚引く。",
   "effectEn": "[On Play] If you have a total of 4 or more [Trait: Humanoid Shuki] and [Trait: Shuki] on your field, draw 1 card(s).",
   "triggerType": "Draw",
@@ -1844,6 +3483,53 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはBP{0}以上のキャラにブロックされない",
+      "nums": [
+       4000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧と⟦t1⟧が合計{0}枚以上ある場合、自分の場外の⟨n0⟩を{1}枚リムーブエリアに置いてもよい",
+      "nums": [
+       4,
+       1
+      ],
+      "names": [
+       "魔都の桃"
+      ],
+      "traits": [
+       "人型醜鬼",
+       "醜鬼"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、このキャラをアクティブにする",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラはBP4000以上のキャラにブロックされない。【登場時】自分の場に［特徴：人型醜鬼］と［特徴：醜鬼］が合計4枚以上ある場合、自分の場外の〈魔都の桃〉を1枚リムーブエリアに置いてもよい。そうした場合、このキャラをアクティブにする。",
   "effectEn": "This character cannot be blocked by characters with BP 4000 or more. [On Play] If you have a total of 4 or more [Trait: Humanoid Shuki] and [Trait: Shuki] on your field, you may put 1 <魔都の桃> from your Outside Area into your Remove Area. If you do, Set this character to active.",
   "triggerType": "Get",
@@ -1880,6 +3566,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見て、山札の上か場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から1枚見て、山札の上か場外に置く。",
   "effectEn": "[On Play] Look at the top 1 card(s) of your deck, put them on top of your deck or into your Outside Area.",
   "triggerType": "",
@@ -1916,6 +3620,46 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見て、⟦t0⟧か⟦t1⟧か⟨n0⟩を{1}枚まで公開し手札に加える",
+      "nums": [
+       3,
+       1
+      ],
+      "names": [
+       "魔都の桃"
+      ],
+      "traits": [
+       "人型醜鬼",
+       "醜鬼"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から3枚見て、［特徴：人型醜鬼］か［特徴：醜鬼］か〈魔都の桃〉を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 3 card(s) of your deck, reveal up to 1 [Trait: Humanoid Shuki] or [Trait: Shuki] or <魔都の桃> among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -1952,6 +3696,30 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧と⟦t1⟧が合計{0}枚以上ある場合、このキャラはBP+{1}",
+      "nums": [
+       4,
+       1000
+      ],
+      "names": [],
+      "traits": [
+       "人型醜鬼",
+       "醜鬼"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】自分の場に［特徴：人型醜鬼］と［特徴：醜鬼］が合計4枚以上ある場合、このキャラはBP+1000。",
   "effectEn": "[During Your Turn] If you have 4 or more [Trait: Humanoid Shuki] and [Trait: Shuki] in total on your field, this character gets BP+1000.",
   "triggerType": "Active",
@@ -1991,6 +3759,86 @@
    "value": "和倉 青羽"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場外かリムーブエリアのカードを{0}枚まで裏向きでこのキャラの下に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そのカードが⟨n0⟩の場合、カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [
+       "魔都の桃"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "以下から{0}つ選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラの下の裏向きのカードを{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "そうした場合、BP{0}以下の相手のフロントLのキャラを{1}枚まで選び、退場させる",
+      "nums": [
+       5000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラの[On Play]を発動する",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "このキャラはこのターン中、[Impact {0}]を得る",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈和倉 青羽〉アクティブにし、フロントLに移動できる【登場時】自分の場外かリムーブエリアのカードを1枚まで裏向きでこのキャラの下に置く。そのカードが〈魔都の桃〉の場合、カードを1枚引く。【アタック時】以下から1つ選ぶ。・このキャラの下の裏向きのカードを1枚場外に置く。そうした場合、BP5000以下の相手のフロントLのキャラを1枚まで選び、退場させる。・このキャラの【登場時】を発動する。このキャラはこのターン中、【インパクト（1）】を得る。",
   "effectEn": "[Raid] Can Raid onto <和倉 青羽>; set it to active and you may move it to the Front Line. [On Play] Put up to 1 card(s) from your Outside Area or Remove Area face down under this character. If that card is <魔都の桃>, draw 1 card(s). [When Attacking] Choose 1 of the following. Put 1 face-down card(s) under this character into your Outside Area. If you do, Choose up to 1 character in your opponent's Front Line with BP 5000 or less, retire it. Activate this character's [On Play]. This character, this turn, [Impact 1] is gained.",
   "triggerType": "Raid",
@@ -2028,6 +3876,29 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分はこのターン中、「自分と相手の場のキャラ全ては、効果で退場しない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分はこのターン中、「自分と相手の場のキャラ全ては、効果で退場しない。」を得る。",
   "effectEn": "[On Play] You gain “You and all characters on your opponent's field are not retired by effects” this turn.",
   "triggerType": "",
@@ -2065,6 +3936,36 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "discard": 2
+    },
+    "steps": [
+     {
+      "key": "自分のフロントLに⟨n0⟩がある場合のみ発動できる",
+      "nums": [],
+      "names": [
+       "東 八千穂"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラはこのターン中、BP+{0}と[Snipe]を得る",
+      "nums": [
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【手札を2枚場外に置く】【ターン1】自分のフロントLに〈東 八千穂〉がある場合のみ発動できる。このキャラはこのターン中、BP+1000と【狙い撃ち】（相手のフロントLのキャラを指定してアタックでき、その場合ブロックされない）を得る。",
   "effectEn": "[Activate: Main] [Put 2 card(s) from your hand into your Outside Area] [Once Per Turn] Can only activate if you have <東 八千穂> in your Front Line. This character gains BP+1000 and [Snipe] (Can attack a chosen character in your opponent's Front Line; if so, it cannot be blocked) this turn.",
   "triggerType": "Draw",
@@ -2102,6 +4003,35 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLに⟨n0⟩がある場合、自分の手札を{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [
+       "出雲 天花"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、このキャラはこのターン中、[Impact {0}]を得る",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【アタック時】自分のフロントLに〈出雲 天花〉がある場合、自分の手札を1枚場外に置いてもよい。そうした場合、このキャラはこのターン中、【インパクト（1）】（アタックしてバトルに勝利した時、相手に1ダメージ）を得る。",
   "effectEn": "[When Attacking] If you have <出雲 天花> in your Front Line, You may put 1 card(s) from your hand into your Outside Area. If you do, This character, this turn, [Impact 1](When this attacks and wins a battle, deal 1 damage to your opponent) is gained.",
   "triggerType": "Active",
@@ -2139,6 +4069,32 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "必要エナジーが{0}以下の自分の場の他のキャラを{1}枚手札に戻す",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "戻せない場合、このキャラを手札に戻す",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】必要エナジーが1以下の自分の場の他のキャラを1枚手札に戻す。戻せない場合、このキャラを手札に戻す。",
   "effectEn": "[On Play] Return to the owner's hand 1 other character on your field with required energy 1 or less. If you can't, return this character to your hand.",
   "triggerType": "",
@@ -2178,6 +4134,27 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の⟨n0⟩がアタックかブロックした時、このキャラはこのターン中、BP+{0}",
+      "nums": [
+       1500
+      ],
+      "names": [
+       "若狭 サハラ"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【ダメージ（2）】（このキャラがアタックで直接ダメージを与える時、代わりに2ダメージ）【ターン1】自分の〈若狭 サハラ〉がアタックかブロックした時、このキャラはこのターン中、BP+1500。",
   "effectEn": "[Damage 2] (When this character deals direct damage by attacking, deal 2 damage instead) [Once Per Turn] When your <若狭 サハラ> attacks or blocks, this character gets BP+1500 this turn.",
   "triggerType": "Active",
@@ -2215,6 +4192,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Get",
@@ -2252,6 +4230,27 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLに⟦t0⟧が{0}枚以上ある場合、カードを{1}枚引く",
+      "nums": [
+       3,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "六番組"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分のフロントLに［特徴：六番組］が3枚以上ある場合、カードを1枚引く。",
   "effectEn": "[On Play] If you have 3 or more [Trait: 6th Division] in your Front Line, Draw 1 card(s).",
   "triggerType": "",
@@ -2291,6 +4290,35 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "相手の場のキャラを{0}枚選び、次の自分のターン開始時まで、「このキャラは移動できない",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を与える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【起動メイン】【フロントLにある場合】【レストにする】相手の場のキャラを1枚選び、次の自分のターン開始時まで、「このキャラは移動できない。」を与える。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [Activate: Main] [While in Front Line] [Rest this card] Choose 1 character on your opponent's field; until the start of your next turn, it gains “This character cannot move”",
   "triggerType": "Draw",
@@ -2331,6 +4359,67 @@
    "value": "東 八千穂"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見て、山札の上か場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {
+     "rest": true,
+     "discard": 1
+    },
+    "steps": [
+     {
+      "key": "このキャラは次の{0}回アクティブにならない",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場外から必要エナジーが{0}以下で消費APが{1}の緑の⟦t0⟧を{2}枚まで自分の場にレストで登場させる",
+      "nums": [
+       2,
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "魔防隊"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【レイド】〈東 八千穂〉アクティブにし、フロントLに移動できる【登場時】自分の山札の上から1枚見て、山札の上か場外に置く。カードを1枚引く。【起動メイン】【フロントLにある場合】【レストにする】【手札を1枚場外に置く】このキャラは次の1回アクティブにならない。自分の場外から必要エナジーが2以下で消費APが1の緑の［特徴：魔防隊］を1枚まで自分の場にレストで登場させる。",
   "effectEn": "[Raid] Can Raid onto <東 八千穂>; set it to active and you may move it to the Front Line. [On Play] Look at the top 1 card(s) of your deck, put them on top of your deck or into your Outside Area. Draw 1 card(s). [Activate: Main] [While in Front Line] [Rest this card] [Put 1 card(s) from your hand into your Outside Area] This character it does not become active the next 1 time(s). Play up to 1 Green [Trait: Demon Defense Force] with required energy 2 or less and with AP cost 1 from your Outside Area to your field rested.",
   "triggerType": "Raid",
@@ -2368,6 +4457,25 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "カードを{0}枚引き、自分の手札を{1}枚場外に置く",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】カードを1枚引き、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Draw 1 card(s), then put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "Draw",
@@ -2405,6 +4513,22 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがアクティブの場合、このキャラの発生エナジー+[Green]",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラがアクティブの場合、このキャラの発生エナジー+【緑】。",
   "effectEn": "While this character is active, its generated energy +[Green].",
   "triggerType": "",
@@ -2442,6 +4566,43 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚見て、⟦t0⟧を{1}枚まで公開し手札に加える",
+      "nums": [
+       4,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "六番組"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "残りを望む順で山札の下に置く",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "手札に加えた場合、自分の手札を{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から4枚見て、［特徴：六番組］を1枚まで公開し手札に加える。残りを望む順で山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
   "effectEn": "[On Play] Look at the top 4 card(s) of your deck, reveal up to 1 [Trait: 6th Division] among them and add it to your hand. Put the rest on the bottom of your deck in any order. If you added it to your hand, put 1 card(s) from your hand into your Outside Area.",
   "triggerType": "",
@@ -2479,6 +4640,57 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがこのターン中に登場していて、自分のフロントLに⟦t0⟧が{0}枚以上ある場合のみ発動できる",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [
+       "六番組"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "以下から{0}つ選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場の⟦t0⟧を{0}枚選び、別のラインに移動させるか、別のラインのキャラ{1}枚と位置を入れ替える",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "魔防隊"
+      ],
+      "bullet": true
+     },
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【ターン1】このキャラがこのターン中に登場していて、自分のフロントLに［特徴：六番組］が3枚以上ある場合のみ発動できる。以下から1つ選ぶ。・自分の場の［特徴：魔防隊］を1枚選び、別のラインに移動させるか、別のラインのキャラ1枚と位置を入れ替える。・カードを1枚引く。",
   "effectEn": "[Activate: Main] [Once Per Turn] Can only activate if this character was played this turn and you have 3 or more [Trait: 6th Division] in your Front Line. Choose 1 of the following. Choose 1 [Trait: Demon Defense Force] on your field and move it to the other line, or swap its position with 1 character in the other line. Draw 1 card(s).",
   "triggerType": "Color",
@@ -2516,6 +4728,53 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "以下から{0}つ選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このターン中に同じカードナンバーの⟨n0⟩が既に選んだ効果は選べない",
+      "nums": [],
+      "names": [
+       "出雲 天花"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラがエナジーLにある場合、このキャラをアクティブにする",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "このキャラがフロントLにある場合、自分の場の⟦t0⟧を{0}枚選び、別のラインに移動させるか、別のラインのキャラ{1}枚と位置を入れ替える",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "魔防隊"
+      ],
+      "bullet": true
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【ターン1】以下から1つ選ぶ。このターン中に同じカードナンバーの〈出雲 天花〉が既に選んだ効果は選べない。・このキャラがエナジーLにある場合、このキャラをアクティブにする。・このキャラがフロントLにある場合、自分の場の［特徴：魔防隊］を1枚選び、別のラインに移動させるか、別のラインのキャラ1枚と位置を入れ替える。",
   "effectEn": "[Activate: Main] [Once Per Turn] Choose 1 of the following. You cannot choose an effect already chosen this turn by <出雲 天花> with the same card number. If this character is in the Energy Line, set this character to active. If this character is in the Front Line, choose 1 [Trait: Demon Defense Force] on your field and move it to the other line, or swap its position with 1 character in the other line.",
   "triggerType": "Get",
@@ -2558,6 +4817,55 @@
    "value": "出雲 天花"
   },
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "energy"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "各ターンの最初の自分のキャラのアタック終了時、「このキャラをフロントLに移動させるか、自分のフロントLの⟦t0⟧{0}枚と入れ替える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "魔防隊"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "」をしてもよい",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLに⟦t0⟧が{0}枚以上ある場合、自分の場のキャラを望む枚数選び、別のラインに移動させるか入れ替える",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [
+       "六番組"
+      ],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【レイド】〈出雲 天花〉アクティブにし、フロントLに移動できる【ステップ】（自分の移動フェイズにフロントLからエナジーLへ移動できる）【エナジーLにある場合】【ターン1】各ターンの最初の自分のキャラのアタック終了時、「このキャラをフロントLに移動させるか、自分のフロントLの［特徴：魔防隊］1枚と入れ替える。」をしてもよい。【起動メイン】【ターン1】自分のフロントLに［特徴：六番組］が3枚以上ある場合、自分の場のキャラを望む枚数選び、別のラインに移動させるか入れ替える。",
   "effectEn": "[Raid] Can Raid onto <出雲 天花>; set it to active and you may move it to the Front Line. [Step] (Can move from the Front Line to the Energy Line during your Movement Phase) [While in Energy Line] [Once Per Turn] At the end of your first character's attack each turn, you may “move this character to the Front Line, or swap it with 1 [Trait: Demon Defense Force] in your Front Line” [Activate: Main] [Once Per Turn] If you have 3 or more [Trait: 6th Division] in your Front Line, choose any number of characters on your field and move them to the other line or swap them.",
   "triggerType": "Raid",
@@ -2595,6 +4903,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -2632,6 +4941,31 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {
+     "ap": 1
+    },
+    "steps": [
+     {
+      "key": "このキャラか、自分のエナジーLの⟦t0⟧を{0}枚選び、アクティブにする",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "魔防隊"
+      ],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【フロントLにある場合】【APを1支払う】【ターン1】このキャラか、自分のエナジーLの［特徴：魔防隊］を1枚選び、アクティブにする。",
   "effectEn": "[Activate: Main] [While in Front Line] [Pay 1 AP] [Once Per Turn] Choose 1 of this character or [Trait: Demon Defense Force] in your Energy Line, and set it to active.",
   "triggerType": "Draw",
@@ -2671,6 +5005,27 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLに⟦t0⟧が{0}枚以上ある場合、このキャラはこのターン中、BP+{1}",
+      "nums": [
+       3,
+       1000
+      ],
+      "names": [],
+      "traits": [
+       "六番組"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、インパクトを失う）【アタック時】自分のフロントLに［特徴：六番組］が3枚以上ある場合、このキャラはこのターン中、BP+1000。",
   "effectEn": "[Impact Nullify] (The character that battles this character loses Impact during this battle) [When Attacking] If you have 3 or more [Trait: 6th Division] in your Front Line, This character gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -2708,6 +5063,99 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚を裏向きでこのキャラの下に置く",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLに⟦t0⟧が{0}枚以上ある場合のみ発動できる",
+      "nums": [
+       3
+      ],
+      "names": [],
+      "traits": [
+       "六番組"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "このキャラの下の裏向きのカードを{0}～{1}枚場外に置く",
+      "nums": [
+       1,
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、場外に置いた枚数により、このキャラはこのターン中、以下の効果を全て得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "{0}枚以上：このキャラはBP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "{0}枚以上：このキャラはBP+{1}と[Impact {2}]",
+      "nums": [
+       2,
+       1000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ],
+    "once": true
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "このキャラの[On Play]を発動する",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から2枚を裏向きでこのキャラの下に置く。【起動メイン】【ターン1】自分のフロントLに［特徴：六番組］が3枚以上ある場合のみ発動できる。このキャラの下の裏向きのカードを1～2枚場外に置く。そうした場合、場外に置いた枚数により、このキャラはこのターン中、以下の効果を全て得る。・1枚以上：このキャラはBP+1000。・2枚以上：このキャラはBP+1000と【インパクト（1）】【起動メイン】【フロントLにある場合】【レストにする】このキャラの【登場時】を発動する。",
   "effectEn": "[On Play] Put the top 2 card(s) of your deck face down under this character. [Activate: Main] [Once Per Turn] Can only activate if you have 3 or more [Trait: 6th Division] in your Front Line. Put 1 to 2 face-down card(s) under this character into your Outside Area. If you do, depending on the number of cards put into your Outside Area, this character gains all of the following effects this turn. 1 or more: This character gets BP+1000. 2 or more: This character gets BP+1000 and [Impact 1]. [Activate: Main] [While in Front Line] [Rest this card] Activate this character's [On Play].",
   "triggerType": "Active",
@@ -2742,6 +5190,68 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このフィールドはアクティブで登場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "自分の場に⟦t0⟧と⟦t1⟧が合計{0}枚以上ある場合のみ発動できる",
+      "nums": [
+       4
+      ],
+      "names": [],
+      "traits": [
+       "人型醜鬼",
+       "醜鬼"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "以下から{0}つ選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "このフィールドはこのターン中、発生エナジー+[Green][Green]",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ]
+   }
+  ],
   "effectJp": "このフィールドはアクティブで登場させる。【起動メイン】【レストにする】自分の場に［特徴：人型醜鬼］と［特徴：醜鬼］が合計4枚以上ある場合のみ発動できる。以下から1つ選ぶ。・カードを1枚引く。・このフィールドはこのターン中、発生エナジー+【緑】【緑】。",
   "effectEn": "This Field is played active. [Activate: Main] [Rest this card] Can only activate if you have a total of 4 or more [Trait: Humanoid Shuki] and [Trait: Shuki] on your field. Choose 1 of the following. Draw 1 card(s). This turn, this field's generated energy +[Green][Green].",
   "triggerType": "Get",
@@ -2771,6 +5281,36 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "『BP{0}以下』の相手のフロントLのキャラを{1}枚選び、退場させる",
+      "nums": [
+       3000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟨n0⟩がある場合、『BP{0}以下』に代わる",
+      "nums": [
+       5000
+      ],
+      "names": [
+       "出雲 天花"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "『BP3000以下』の相手のフロントLのキャラを1枚選び、退場させる。自分の場に〈出雲 天花〉がある場合、『BP5000以下』に代わる。",
   "effectEn": "Choose 1 character in your opponent's Front Line with BP 3000 or less, retire it. If you have <出雲 天花> on your field, it becomes “BP 5000 or less” instead.",
   "triggerType": "Special",
@@ -2800,6 +5340,36 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟨n0⟩がある場合、手札にあるこのカードの消費APを-{0}する",
+      "nums": [
+       1
+      ],
+      "names": [
+       "和倉 青羽"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "BP{0}以下の相手のフロントLのキャラを{1}枚まで選び、退場させる",
+      "nums": [
+       5000,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場に〈和倉 青羽〉がある場合、手札にあるこのカードの消費APを-1する。BP5000以下の相手のフロントLのキャラを1枚まで選び、退場させる。",
   "effectEn": "If you have <和倉 青羽> on your field, reduce the AP cost of this card in your hand by 1. Choose up to 1 character in your opponent's Front Line with BP 5000 or less, retire it.",
   "triggerType": "Special",
@@ -2829,6 +5399,38 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場外から⟦t0⟧を{0}枚まで手札に加える",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "六番組"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "自分の手札から必要エナジーを満たし消費APが{0}の⟦t0⟧を{1}枚まで自分の場にレストで登場させるかレイドさせる",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "六番組"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場外から［特徴：六番組］を1枚まで手札に加える。自分の手札から必要エナジーを満たし消費APが1の［特徴：六番組］を1枚まで自分の場にレストで登場させるかレイドさせる。",
   "effectEn": "Add up to 1 [Trait: 6th Division] from your Outside Area to your hand. Play up to 1 [Trait: 6th Division] whose required energy you meet and with AP cost 1 from your hand to your field rested or Raid it.",
   "triggerType": "",
@@ -2858,6 +5460,65 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "⟨n0⟩は{0}ターンに{1}枚のみ使用できる",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "魔都の桃"
+      ],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "カードを{0}枚引く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場の⟦t0⟧を{0}枚まで選び、このターン中、「このカードの発生エナジー+[Green]",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [
+       "人型醜鬼"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "」を与える",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分の場に⟨n0⟩がある場合、自分のAPカードを{0}枚アクティブにする",
+      "nums": [
+       1
+      ],
+      "names": [
+       "和倉 青羽"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "〈魔都の桃〉は1ターンに1枚のみ使用できる。カードを1枚引く。自分の場の［特徴：人型醜鬼］を1枚まで選び、このターン中、「このカードの発生エナジー+【緑】。」を与える。自分の場に〈和倉 青羽〉がある場合、自分のAPカードを1枚アクティブにする。",
   "effectEn": "Only 1 <魔都の桃> can be used per 1 turn(s). Draw 1 card(s). Choose up to 1 [Trait: Humanoid Shuki] on your field; it gains “This card's generated energy +[Green]” this turn. If you have <和倉 青羽> on your field, Set 1 of your AP cards to active.",
   "triggerType": "Color",
@@ -2887,6 +5548,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2916,6 +5595,24 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
@@ -2943,6 +5640,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2970,6 +5668,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -2997,6 +5696,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3024,6 +5724,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3051,6 +5752,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3078,6 +5780,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3105,6 +5808,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3132,6 +5836,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3159,6 +5864,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3186,6 +5892,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3213,6 +5920,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",
@@ -3240,6 +5948,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

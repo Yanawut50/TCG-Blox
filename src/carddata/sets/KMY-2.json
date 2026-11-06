@@ -26,6 +26,28 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "アタックフェイズ中に自分の場のキャラが移動した時、自分の場のキャラを{0}枚まで選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【自分のターン中】【ターン1】アタックフェイズ中に自分の場のキャラが移動した時、自分の場のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[During Your Turn] [Once Per Turn] When a character on your field moves during the Attack Phase, choose up to 1 character on your field, and it gets BP+1000 this turn.",
   "triggerType": "",
@@ -60,6 +82,26 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "energy"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のアタックフェイズ開始時、自分のフロントLのキャラを{0}枚選び、このキャラと位置を入れ替えてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【エナジーLにある場合】自分のアタックフェイズ開始時、自分のフロントLのキャラを1枚選び、このキャラと位置を入れ替えてもよい。",
   "effectEn": "[While in Energy Line] At the start of your Attack Phase, you may choose 1 character in your Front Line and swap its position with this character.",
   "triggerType": "Draw",
@@ -96,6 +138,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "Draw",
@@ -132,6 +175,27 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "ap": 1
+    },
+    "steps": [
+     {
+      "key": "このキャラはこのターン中、BP+{0}",
+      "nums": [
+       2500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【APを1支払う】【ターン1】このキャラはこのターン中、BP+2500。",
   "effectEn": "[Activate: Main] [Pay 1 AP] [Once Per Turn] This character gets BP+2500 this turn.",
   "triggerType": "",
@@ -168,6 +232,29 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "BP{0}以上の相手の場のキャラを{1}枚まで選び、このターン中、BP-{2}",
+      "nums": [
+       1500,
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【起動メイン】【フロントLにある場合】【ターン1】BP1500以上の相手の場のキャラを1枚まで選び、このターン中、BP-1000。",
   "effectEn": "[Activate: Main] [While in Front Line] [Once Per Turn] Choose up to 1 character on your opponent's field with BP 1500 or more, it gets BP-1000 this turn.",
   "triggerType": "Active",
@@ -204,6 +291,51 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "yourTurn"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟨n0⟩、他の⟦t0⟧が合計{0}枚以上ある場合、このキャラはBP+{1}",
+      "nums": [
+       3,
+       500
+      ],
+      "names": [
+       "産屋敷 耀哉"
+      ],
+      "traits": [
+       "柱"
+      ],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟨n0⟩、他の⟦t0⟧が合計{0}枚以上ある場合、このキャラをアクティブにする",
+      "nums": [
+       6
+      ],
+      "names": [
+       "産屋敷 耀哉"
+      ],
+      "traits": [
+       "柱"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【自分のターン中】自分の場に〈産屋敷 耀哉〉、他の［特徴：柱］が合計3枚以上ある場合、このキャラはBP+500。【登場時】自分の場に〈産屋敷 耀哉〉、他の［特徴：柱］が合計6枚以上ある場合、このキャラをアクティブにする。",
   "effectEn": "[During Your Turn] If you have 3 or more <Kagaya Ubuyashiki> and other [Trait: Hashira] in total on your field, this character gets BP+500. [On Play] If you have 6 or more <Kagaya Ubuyashiki> and other [Trait: Hashira] in total on your field, set this character to active.",
   "triggerType": "",
@@ -240,6 +372,28 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に⟨n0⟩、他の⟦t0⟧が合計{0}枚以上ある場合、このキャラの発生エナジー+[Yellow]",
+      "nums": [
+       3
+      ],
+      "names": [
+       "産屋敷 耀哉"
+      ],
+      "traits": [
+       "柱"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "自分の場に〈産屋敷 耀哉〉、他の［特徴：柱］が合計3枚以上ある場合、このキャラの発生エナジー+【黄】。",
   "effectEn": "If you have 3 or more <Kagaya Ubuyashiki> and other [Trait: Hashira] in total on your field, this character's generated energy +[Yellow].",
   "triggerType": "",
@@ -278,6 +432,29 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラは、次の自分のターン開始時まで、「相手のキャラの効果やイベントカードの効果で退場しない",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【登場時】このキャラは、次の自分のターン開始時まで、「相手のキャラの効果やイベントカードの効果で退場しない。」を得る。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [On Play] This character gains “Cannot be retired by your opponent's character effects or Event card effects” until the start of your next turn.",
   "triggerType": "Active",
@@ -314,6 +491,36 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札を{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分の手札から⟨n0⟩以外の必要エナジーを満たし消費APが{0}の特徴に「柱」を持つキャラカードを{1}枚まで自分の場にレストで登場させる",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "悲鳴嶼 行冥"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、自分の手札から〈悲鳴嶼 行冥〉以外の必要エナジーを満たし消費APが1の特徴に「柱」を持つキャラカードを1枚まで自分の場にレストで登場させる。",
   "effectEn": "[On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, play up to 1 character card(s) other than <Gyomei Himejima> with the trait “Hashira” whose required energy you meet with AP cost 1 from your hand to your field rested.",
   "triggerType": "",
@@ -350,6 +557,43 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラはアクティブで場に登場させる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "WhenAttacking",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分のフロントLの⟦t0⟧と自分のエナジーLの〔⟨n0⟩か⟦t1⟧〕を{0}枚ずつ選び、それらの位置を入れ替えてもよい",
+      "nums": [
+       1
+      ],
+      "names": [
+       "宇髄 天元"
+      ],
+      "traits": [
+       "天元の嫁",
+       "変装"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラはアクティブで場に登場させる。【アタック時】自分のフロントLの［特徴：天元の嫁］と自分のエナジーLの〔〈宇髄 天元〉か［特徴：変装］〕を1枚ずつ選び、それらの位置を入れ替えてもよい。",
   "effectEn": "This character is played active. [When Attacking] You may choose 1 each of [Trait: Tengen's Wives] in your Front Line and <Tengen Uzui> or [Trait: Disguise] in your Energy Line, and swap their positions.",
   "triggerType": "Get",
@@ -388,6 +632,45 @@
   },
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の⟨n0⟩以外のキャラは、[Snipe]で指定されない",
+      "nums": [],
+      "names": [
+       "煉󠄁獄 杏寿郎"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnRetire",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の⟨n0⟩以外のキャラを{0}枚まで選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [
+       "煉󠄁獄 杏寿郎"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【インパクト無効】（このキャラとバトルをしたキャラはこのバトル中、【インパクト】を失う）【フロントLにある場合】自分の場の〈煉󠄁獄 杏寿郎〉以外のキャラは、【狙い撃ち】で指定されない。【退場時】自分の場の〈煉󠄁獄 杏寿郎〉以外のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[Impact Nullify] (The character that battles this character, during this battle, [Impact] is lost) [While in Front Line] Characters on your field other than <Kyojuro Rengoku> cannot be targeted by [Snipe]. [On Retire] Choose up to 1 character on your field other than <Kyojuro Rengoku>, it gets BP+1000 this turn.",
   "triggerType": "Active",
@@ -415,6 +698,7 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [],
   "effectJp": "",
   "effectEn": "",
   "triggerType": "",

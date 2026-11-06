@@ -26,6 +26,66 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このターン中に自分の効果で自分の場のキャラが退場している場合のみ、このキャラはアタックできる",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このキャラはBP{0}以下のキャラをブロックできない",
+      "nums": [
+       3500
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [
+     "front"
+    ],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場の他のキャラを{0}枚退場させる",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、カードを{0}枚引き、このキャラはこのターン中、「このキャラはフロントLにある場合もエナジーを発生させる",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "」を得る",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "このターン中に自分の効果で自分の場のキャラが退場している場合のみ、このキャラはアタックできる。このキャラはBP3500以下のキャラをブロックできない。【起動メイン】【フロントLにある場合】【ターン1】自分の場の他のキャラを1枚退場させる。そうした場合、カードを1枚引き、このキャラはこのターン中、「このキャラはフロントLにある場合もエナジーを発生させる。」を得る。",
   "effectEn": "This character can only attack if a character on your field was retired by your own effect this turn. This character cannot block characters with BP 3500 or less. [Activate: Main] [While in Front Line] [Once Per Turn] Retire 1 other character on your field. If you do, draw 1 card(s), and this character gains “This character also generates energy while in the Front Line” this turn.",
   "triggerType": "Draw",
@@ -60,6 +120,73 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の山札の上から{0}枚を裏向きでこのキャラの下に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true
+    },
+    "steps": [
+     {
+      "key": "このキャラの下の裏向きのカードを{0}枚場外に置く",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、以下から{0}つ選ぶ",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "このターン中、次に自分が手札からレイドさせる⟨n0⟩の必要エナジーを[Green x{0}]減らす",
+      "nums": [
+       1
+      ],
+      "names": [
+       "浦飯 幽助"
+      ],
+      "traits": [],
+      "bullet": true
+     },
+     {
+      "key": "自分の場の他のキャラを{0}枚まで選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": true
+     }
+    ],
+    "once": true
+   }
+  ],
   "effectJp": "【登場時】自分の山札の上から1枚を裏向きでこのキャラの下に置いてもよい。【起動メイン】【レストにする】【ターン1】このキャラの下の裏向きのカードを1枚場外に置く。そうした場合、以下から1つ選ぶ。・このターン中、次に自分が手札からレイドさせる〈浦飯 幽助〉の必要エナジーを【緑×1】減らす。・自分の場の他のキャラを1枚まで選び、このターン中、BP+1000。",
   "effectEn": "[On Play] You may put the top 1 card(s) of your deck face down under this character. [Activate: Main] [Rest this card] [Once Per Turn] Put 1 face-down card(s) under this character into your Outside Area. If you do, Choose 1 of the following. This turn, reduce the required energy of the next <Yusuke Urameshi> you Raid from your hand by [Green x1]. Choose up to 1 other character on your field, it gets BP+1000 this turn.",
   "triggerType": "",
@@ -94,6 +221,51 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Static",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このキャラがレイドされた時、自分の手札が{0}枚以下の場合、カードを{1}枚引く",
+      "nums": [
+       3,
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   },
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の手札を{0}枚場外に置いてもよい",
+      "nums": [
+       1
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "そうした場合、自分の場の他のキャラを{0}枚まで選び、このターン中、BP+{1}",
+      "nums": [
+       1,
+       2000
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このキャラがレイドされた時、自分の手札が3枚以下の場合、カードを1枚引く。（レイドしたキャラの【登場時】とこの効果は望む順で処理する）【登場時】自分の手札を1枚場外に置いてもよい。そうした場合、自分の場の他のキャラを1枚まで選び、このターン中、BP+2000。",
   "effectEn": "When this character is Raided, if you have 3 or fewer cards in your hand, draw 1 card(s). (Of the Raided character's [On Play] and this effect are resolved in any order) [On Play] You may put 1 card(s) from your hand into your Outside Area. If you do, Choose up to 1 other character on your field, it gets BP+2000 this turn.",
   "triggerType": "",

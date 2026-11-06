@@ -1,7 +1,8 @@
 --!strict
--- Union Arena rules (Asia/EN Official Rule Manual, 2023-11-22). No card effects yet:
--- only phases, playing cards, AP/energy, moving, Raid, attacks, blocks, keywords,
--- damage, Life triggers and the win conditions.
+-- Union Arena rules (Asia/EN Official Rule Manual, 2023-11-22): phases, playing
+-- cards, AP/energy, moving, Raid, attacks, blocks, keywords, damage, Life
+-- triggers, win conditions, and card effects through EffectRegistry (cards
+-- without handlers fall back to the manual tools).
 --
 -- How decisions work: flows that need a player's answer run inside a coroutine.
 -- ask() yields a Decision; the game stores it in state.pending and waits. The
@@ -13,6 +14,7 @@ local Types = require(ReplicatedStorage.Shared.Game.Types)
 local Constants = require(ReplicatedStorage.Shared.Game.Constants)
 local GameState = require(script.Parent.GameState)
 local TriggerResolver = require(script.Parent.TriggerResolver)
+local EffectRegistry = require(script.Parent.EffectRegistry)
 
 type GameState = Types.GameState
 type Decision = Types.Decision
@@ -38,13 +40,28 @@ local function stepFlow(state: GameState, value: any)
 	if coroutine.status(co) == "dead" then
 		state.co = nil
 		state.pending = nil
+		-- Start the next waiting flow (e.g. an On Retire effect queued meanwhile).
+		local nextFn = table.remove(state.flowQueue, 1)
+		if nextFn and not state.winner then
+			state.co = coroutine.create(nextFn)
+			stepFlow(state, nil)
+		end
 	else
 		state.pending = res :: Decision
 	end
 end
 
+-- Runs fn as a flow. Inside the current flow it just runs; if another flow is
+-- waiting on a player, fn waits its turn in the queue.
 local function runFlow(state: GameState, fn: () -> ())
-	assert(state.co == nil, "a flow is already running")
+	if state.co then
+		if coroutine.running() == state.co then
+			fn()
+		else
+			table.insert(state.flowQueue, fn)
+		end
+		return
+	end
 	state.co = coroutine.create(fn)
 	stepFlow(state, nil)
 end
@@ -163,9 +180,84 @@ local function makeRoom(state: GameState, p: number, line: string, replaceUid: n
 	return true
 end
 
+--------------------------------------------------------------------------------
+-- Card effects (EffectRegistry)
+--------------------------------------------------------------------------------
+
+local runAbilities: (state: GameState, uid: number, timing: string, p: number) -> ()
+
+-- "Remove from the field" (退場): to the Outside Area, then its On Retire effects.
 local function removeFromField(state: GameState, uid: number, why: string)
 	log(state, ("%s removed from the field (%s)"):format(GameState.name(state, uid), why))
+	local owner = GameState.inst(state, uid).owner
 	GameState.moveCard(state, uid, "Outside")
+	runFlow(state, function()
+		runAbilities(state, uid, "OnRetire", owner)
+	end)
+end
+
+local function effectCtx(state: GameState, p: number, source: number): EffectRegistry.Ctx
+	return {
+		state = state,
+		p = p,
+		source = source,
+		looked = {},
+		did = true,
+		failed = false,
+		addedToHand = false,
+		yesNo = function(player, prompt)
+			return yesNo(state, player, "UseEffect", prompt)
+		end,
+		chooseCards = function(player, prompt, cands, min, max)
+			return chooseCards(state, player, "ChooseCards", prompt, cands, min, max)
+		end,
+		chooseOption = function(player, prompt, options)
+			return chooseOption(state, player, "ChooseOption", prompt, options)
+		end,
+		retire = function(uid, why)
+			if GameState.isOnField(state, uid) then
+				removeFromField(state, uid, why)
+			end
+		end,
+		delay = function(whenKey, fn)
+			table.insert(state.delayed, { when = whenKey, fn = fn })
+		end,
+	}
+end
+
+-- Runs every ability of `uid` with this timing whose conditions hold. Abilities
+-- without handlers are logged for the players to resolve by hand. Must run in a flow.
+runAbilities = function(state: GameState, uid: number, timing: string, p: number)
+	local def = GameState.def(state, uid)
+	local manual = false
+	for _, a in EffectRegistry.abilitiesOf(def) do
+		if a.timing == timing and EffectRegistry.condsHold(state, uid, a.conds) then
+			if EffectRegistry.isSupported(a) then
+				log(state, ("%s: %s effect"):format(GameState.name(state, uid), timing))
+				EffectRegistry.run(effectCtx(state, p, uid), a)
+				if state.winner then
+					return
+				end
+			else
+				manual = true
+			end
+		end
+	end
+	if manual then
+		log(state, ("  MANUAL %s [%s]: %s"):format(GameState.name(state, uid), timing, def.effectEn))
+	end
+end
+
+local function runDelayed(state: GameState, whenKey: string)
+	local keep = {}
+	local due = {}
+	for _, d in state.delayed do
+		table.insert(if d.when == whenKey then due else keep, d)
+	end
+	state.delayed = keep
+	for _, d in due do
+		d.fn()
+	end
 end
 
 -- Characters whose BP is 0 or less leave the field (manual p.13).
@@ -249,7 +341,8 @@ local function doRaid(state: GameState, p: number, uid: number, targetUid: numbe
 		table.insert(front, uid)
 		c.zone = "Front"
 	end
-	-- 5. Raid's own effect: handled by EffectRegistry in step 5.
+	-- 5. "When Played" effects of the Raid card.
+	runAbilities(state, uid, "OnPlay", p)
 end
 
 local function trigCtx(state: GameState): TriggerResolver.Ctx
@@ -269,6 +362,9 @@ local function trigCtx(state: GameState): TriggerResolver.Ctx
 		end,
 		raid = function(p, uid, targetUid)
 			doRaid(state, p, uid, targetUid, nil, nil)
+		end,
+		retire = function(uid, why)
+			removeFromField(state, uid, why)
 		end,
 	}
 end
@@ -350,6 +446,13 @@ local function attackFlow(state: GameState, p: number, atkUid: number, targetUid
 		log(state, GameState.name(state, atkUid) .. " Double Attack: back to Active")
 	end
 	local defP = other(p)
+	runAbilities(state, atkUid, "WhenAttacking", p)
+	if state.winner or not GameState.isOnField(state, atkUid) then
+		return
+	end
+	if targetUid and not GameState.isOnField(state, targetUid) then
+		return
+	end
 
 	if targetUid then
 		log(state, ("P%d attacks %s with %s (Called Strike)"):format(p, GameState.name(state, targetUid), GameState.name(state, atkUid)))
@@ -376,6 +479,10 @@ local function attackFlow(state: GameState, p: number, atkUid: number, targetUid
 			log(state, GameState.name(state, blocker) .. " Double Block: back to Active")
 		end
 		log(state, ("P%d blocks with %s"):format(defP, GameState.name(state, blocker)))
+		runAbilities(state, blocker, "WhenBlocking", defP)
+		if state.winner or not GameState.isOnField(state, blocker) or not GameState.isOnField(state, atkUid) then
+			return
+		end
 		battle(state, atkUid, blocker)
 	else
 		local dmg = (if GameState.keyword(state, atkUid, "damage") then 2 else 1)
@@ -410,6 +517,7 @@ local function beginTurn(state: GameState, p: number)
 	for _, c in state.cards do
 		c.attacksThisTurn = 0
 		c.blocksThisTurn = 0
+		c.usedOnce = {}
 	end
 	-- 3. AP cards for this turn.
 	local want = GameState.apTarget(state, p)
@@ -508,6 +616,16 @@ handlers.NextPhase = function(state, p, _a)
 	local nextPhase = NEXT_PHASE[state.phase]
 	if not nextPhase then
 		return false, "cannot leave phase " .. state.phase
+	end
+	if state.phase == "Main" then
+		runFlow(state, function()
+			runDelayed(state, "EndOfMain")
+			if not state.winner then
+				state.phase = "Attack"
+				log(state, "-> Attack")
+			end
+		end)
+		return true
 	end
 	state.phase = nextPhase :: any
 	log(state, "-> " .. nextPhase)
@@ -636,8 +754,12 @@ handlers.Play = function(state, p, a)
 		GameState.payAP(state, p, ap)
 		GameState.moveCard(state, uid, "Resolving")
 		log(state, ("P%d uses Event %s"):format(p, GameState.name(state, uid)))
-		log(state, ("  MANUAL effect: %s"):format(def.effectEn))
-		GameState.moveCard(state, uid, "Outside")
+		runFlow(state, function()
+			runAbilities(state, uid, "Event", p)
+			if GameState.inst(state, uid).zone == "Resolving" then
+				GameState.moveCard(state, uid, "Outside")
+			end
+		end)
 		return true
 	end
 
@@ -659,11 +781,79 @@ handlers.Play = function(state, p, a)
 		GameState.moveCard(state, a.replaceUid, "Remove")
 	end
 	GameState.moveCard(state, uid, line)
-	GameState.inst(state, uid).rested = true
+	GameState.inst(state, uid).rested = not EffectRegistry.entersActive(def)
 	log(state, ("P%d plays %s to %s Line"):format(p, GameState.name(state, uid), line))
-	if def.effectEn ~= "" then
-		log(state, ("  MANUAL effect: %s"):format(def.effectEn))
+	runFlow(state, function()
+		runAbilities(state, uid, "OnPlay", p)
+	end)
+	return true
+end
+
+-- Activate: Main. a.uid = your card, a.index = which of its abilities.
+-- Costs are paid here even when the effect itself is resolved by hand.
+handlers.Activate = function(state, p, a)
+	if state.phase ~= "Main" then
+		return false, "Activate: Main abilities are used in your Main Phase"
 	end
+	local uid, index = a.uid, a.index
+	local c = type(uid) == "number" and state.cards[uid] or nil
+	if not c or c.owner ~= p then
+		return false, "not your card"
+	end
+	local ability = type(index) == "number" and EffectRegistry.abilitiesOf(GameState.def(state, uid))[index] or nil
+	if not ability or ability.timing ~= "ActivateMain" then
+		return false, "that card has no such Activate: Main ability"
+	end
+	if not EffectRegistry.condsHold(state, uid, ability.conds) then
+		return false, "the ability's condition is not met (e.g. it must be on the Front Line)"
+	end
+	local onField = c.zone == "Front" or c.zone == "Energy"
+	if not onField and #ability.conds == 0 then
+		return false, "the card must be on your field"
+	end
+	if ability.once and c.usedOnce[index] then
+		return false, "Once Per Turn: already used this turn"
+	end
+	local costs = ability.costs
+	if costs.rest and (c.rested or not onField) then
+		return false, "the card must be Active to rest it"
+	end
+	if costs.ap and GameState.activeAP(state, p) < costs.ap then
+		return false, "not enough AP"
+	end
+	if costs.discard and #state.players[p].hand < costs.discard then
+		return false, "not enough cards in hand"
+	end
+	if costs.retireSelf and not onField then
+		return false, "the card must be on your field"
+	end
+
+	if ability.once then
+		c.usedOnce[index] = true
+	end
+	if costs.rest then
+		c.rested = true
+	end
+	if costs.ap then
+		GameState.payAP(state, p, costs.ap)
+	end
+	log(state, ("P%d activates %s"):format(p, GameState.name(state, uid)))
+	runFlow(state, function()
+		if costs.discard then
+			local pick = chooseCards(state, p, "ChooseCards", ("Cost: put %d card(s) from your hand into your Outside Area"):format(costs.discard), table.clone(state.players[p].hand), costs.discard, costs.discard)
+			for _, h in pick do
+				GameState.moveCard(state, h, "Outside")
+			end
+		end
+		if costs.retireSelf then
+			removeFromField(state, uid, "ability cost")
+		end
+		if EffectRegistry.isSupported(ability) then
+			EffectRegistry.run(effectCtx(state, p, uid), ability)
+		else
+			log(state, ("  MANUAL %s [Activate: Main]: %s"):format(GameState.name(state, uid), GameState.def(state, uid).effectEn))
+		end
+	end)
 	return true
 end
 

@@ -28,6 +28,31 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "ActivateMain",
+    "conds": [],
+    "costs": {
+     "rest": true,
+     "retireSelf": true
+    },
+    "steps": [
+     {
+      "key": "このターン中、次に手札から使用する元々の消費APが{0}の⟦t0⟧の必要エナジーを[Yellow x{1}]減らし、消費APを-{2}する",
+      "nums": [
+       2,
+       1,
+       1
+      ],
+      "names": [],
+      "traits": [
+       "illumination STARS"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【起動メイン】【レストにする】【このカードを退場させる】このターン中、次に手札から使用する元々の消費APが2の［特徴：illumination STARS］の必要エナジーを【黄×1】減らし、消費APを-1する。",
   "effectEn": "[Activate: Main] [Rest this card] [Retire this card] This turn, reduce the required energy of the next [Trait: illumination STARS] with original AP cost 2 you use from your hand by [Yellow x1] and its AP cost by 1.",
   "triggerType": "Draw",
@@ -64,6 +89,29 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に異なるカード名を持つ他の⟦t0⟧が{0}種類以上ある場合、BP{1}以上の相手の場のキャラを{2}枚まで選び、このターン中、BP-{3}",
+      "nums": [
+       2,
+       1500,
+       1,
+       1000
+      ],
+      "names": [],
+      "traits": [
+       "L'Antica"
+      ],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の場に異なるカード名を持つ他の［特徴：L'Antica］が2種類以上ある場合、BP1500以上の相手の場のキャラを1枚まで選び、このターン中、BP-1000。",
   "effectEn": "[On Play] If you have 2 or more other [Trait: L'Antica] with different card names on your field, choose up to 1 character on your opponent's field with BP 1500 or more; it gets BP-1000 this turn.",
   "triggerType": "Draw",
@@ -100,6 +148,41 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "OnPlay",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "自分の場に異なるカード名を持つ他の⟦t0⟧が{0}種類以上ある場合、このターン中、次に手札から使用する⟨n0⟩の消費APを-{1}する",
+      "nums": [
+       3,
+       1
+      ],
+      "names": [
+       "小宮 果穂"
+      ],
+      "traits": [
+       "放課後クライマックスガールズ"
+      ],
+      "bullet": false
+     },
+     {
+      "key": "⟨n0⟩のこの効果は{0}ターンに{1}回のみ発動する",
+      "nums": [
+       1,
+       1
+      ],
+      "names": [
+       "小宮 果穂"
+      ],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "【登場時】自分の場に異なるカード名を持つ他の［特徴：放課後クライマックスガールズ］が3種類以上ある場合、このターン中、次に手札から使用する〈小宮 果穂〉の消費APを-1する。〈小宮 果穂〉のこの効果は1ターンに1回のみ発動する。",
   "effectEn": "[On Play] If you have 3 or more other [Trait: Houkago Climax Girls] with different card names on your field, this turn, reduce the AP cost of the next <小宮 果穂> you use from your hand by 1. This <小宮 果穂> effect can only activate 1 time(s) per 1 turn(s).",
   "triggerType": "Draw",
@@ -133,6 +216,31 @@
   "keywords": {},
   "raid": null,
   "deckLimit": null,
+  "abilities": [
+   {
+    "timing": "Event",
+    "conds": [],
+    "costs": {},
+    "steps": [
+     {
+      "key": "このカードの色と必要エナジーは、全ての色として扱う",
+      "nums": [],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     },
+     {
+      "key": "自分のAPカードを{0}枚まで選び、アクティブにする",
+      "nums": [
+       2
+      ],
+      "names": [],
+      "traits": [],
+      "bullet": false
+     }
+    ]
+   }
+  ],
   "effectJp": "このカードの色と必要エナジーは、全ての色として扱う。自分のAPカードを2枚まで選び、アクティブにする。",
   "effectEn": "This card's color and required energy are treated as all colors. Choose up to 2 of your AP cards, set it to active.",
   "triggerType": "Final",
